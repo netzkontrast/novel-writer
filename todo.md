@@ -1,22 +1,22 @@
-- [ ] ./templates/checklist-template.md
-- [ ] ./templates/commands/analyze.md
-- [ ] ./templates/commands/timeline.md
-- [ ] ./templates/commands/tasks.md
-- [ ] ./templates/commands/expert.md
-- [ ] ./templates/commands/relations.md
-- [ ] ./templates/commands/track.md
-- [ ] ./templates/commands/track-init.md
-- [ ] ./templates/commands/clarify.md
-- [ ] ./templates/commands/plan.md
-- [ ] ./templates/commands/checklist.md
-- [ ] ./templates/commands/constitution.md
-- [ ] ./templates/commands/specify.md
-- [ ] ./templates/commands/write.md
-- [ ] ./templates/writing-constitution-template.md
-- [ ] ./templates/outline-template.md
-- [ ] ./templates/knowledge/world-setting.md
-- [ ] ./templates/knowledge/character-profiles.md
-- [ ] ./templates/knowledge/locations.md
+- [x] ./templates/checklist-template.md
+- [x] ./templates/commands/analyze.md
+- [x] ./templates/commands/timeline.md
+- [x] ./templates/commands/tasks.md
+- [x] ./templates/commands/expert.md
+- [x] ./templates/commands/relations.md
+- [x] ./templates/commands/track.md
+- [x] ./templates/commands/track-init.md
+- [x] ./templates/commands/clarify.md
+- [x] ./templates/commands/plan.md
+- [x] ./templates/commands/checklist.md
+- [x] ./templates/commands/constitution.md
+- [x] ./templates/commands/specify.md
+- [x] ./templates/commands/write.md
+- [x] ./templates/writing-constitution-template.md
+- [x] ./templates/outline-template.md
+- [x] ./templates/knowledge/world-setting.md
+- [x] ./templates/knowledge/character-profiles.md
+- [x] ./templates/knowledge/locations.md
 - [x] ./templates/knowledge/character-voices.md
 - [x] ./templates/GEMINI.md
 - [x] ./templates/story-template.md
