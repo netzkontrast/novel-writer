@@ -1,9 +1,9 @@
 {
-  "novel": "[小说名称]",
+  "novel": "[Novel Name]",
   "lastUpdated": "",
 
   "characters": {
-    "[主角名]": {
+    "[Protagonist Name]": {
       "relationships": {
         "allies": [],
         "enemies": [],
@@ -15,9 +15,9 @@
       },
       "dynamicRelations": [
         {
-          "character": "[角色名]",
-          "initial": "陌生人",
-          "current": "朋友",
+          "character": "[Character Name]",
+          "initial": "Stranger",
+          "current": "Friend",
           "trajectory": "positive",
           "keyEvents": []
         }
@@ -26,7 +26,7 @@
   },
 
   "factions": {
-    "[派系名]": {
+    "[Faction Name]": {
       "description": "",
       "leader": "",
       "members": [],
@@ -38,7 +38,7 @@
   },
 
   "relationshipMatrix": {
-    "说明": "角色间关系的快速查询矩阵",
+    "description": "Quick query matrix for character relationships",
     "matrix": {}
   },
 
@@ -55,7 +55,7 @@
         {
           "type": "new",
           "characters": ["A", "B"],
-          "relation": "初次相遇",
+          "relation": "First encounter",
           "impact": "low"
         }
       ]
@@ -63,7 +63,7 @@
   ],
 
   "predictions": {
-    "说明": "基于当前关系预测的发展",
+    "description": "Predictions based on current relationships",
     "likely": [],
     "possible": []
   }

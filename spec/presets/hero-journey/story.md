@@ -1,225 +1,225 @@
-# 小说：[作品标题] - 英雄之旅框架
+# Novel: [Work Title] - The Hero's Journey Framework
 
-## 基本信息
-- **类型**：[奇幻/科幻/冒险/成长等]
-- **字数目标**：[预计总字数]
-- **目标读者**：[读者群体描述]
-- **创作方法**：英雄之旅（Hero's Journey）
+## Basic Information
+- **Genre**: [Fantasy/Sci-Fi/Adventure/Coming-of-Age, etc.]
+- **Word Count Target**: [Estimated Total Word Count]
+- **Target Audience**: [Description of readership]
+- **Writing Method**: The Hero's Journey
 
-## 故事内核
+## Story Core
 
-### 一句话故事
-[用一句话概括英雄的旅程，如：一个平凡的[身份]通过[冒险]成为[新身份]并[改变世界]]
+### One-Sentence Story
+[Summarize the hero's journey in one sentence, e.g., A humble [identity] becomes a [new identity] and [changes the world] through [an adventure].]
 
-### 核心主题
-[英雄之旅要探讨的核心主题，如：成长、自我发现、责任、牺牲等]
+### Core Theme
+[The central theme to be explored through the hero's journey, e.g., growth, self-discovery, responsibility, sacrifice.]
 
-### 内在冲突
-[英雄必须克服的内心恐惧或缺陷]
+### Internal Conflict
+[The inner fear or flaw the hero must overcome.]
 
-### 外在冲突
-[英雄必须战胜的外部挑战或敌人]
+### External Conflict
+[The external challenge or enemy the hero must defeat.]
 
-## 英雄之旅12阶段规划
+## The 12 Stages of the Hero's Journey
 
-### 第1阶段：平凡世界 (Ordinary World)
-**章节范围**：第1-5章
-- **环境设定**：[英雄的日常生活环境]
-- **英雄现状**：[英雄的身份、性格、生活状态]
-- **内心缺失**：[英雄感到缺少什么]
-- **伏笔设置**：[暗示即将到来的冒险]
+### Stage 1: The Ordinary World
+**Chapter Range**: 1-5
+- **Setting**: [The hero's everyday environment.]
+- **Hero's Status Quo**: [The hero's identity, personality, and state of life.]
+- **Inner Lack**: [What the hero feels is missing.]
+- **Foreshadowing**: [Hints of the coming adventure.]
 
-### 第2阶段：冒险召唤 (Call to Adventure)
-**章节范围**：第6-8章
-- **召唤事件**：[打破平静的事件]
-- **利害关系**：[如果不行动会怎样]
-- **初次征兆**：[命运的暗示]
+### Stage 2: The Call to Adventure
+**Chapter Range**: 6-8
+- **The Call Event**: [The event that disrupts the peace.]
+- **Stakes**: [What will happen if they don't act?]
+- **First Omen**: [A hint of destiny.]
 
-### 第3阶段：拒绝召唤 (Refusal of the Call)
-**章节范围**：第9-11章
-- **拒绝原因**：[恐惧、责任、不自信等]
-- **内心挣扎**：[英雄的心理活动]
-- **推动因素**：[什么最终改变了英雄的想法]
+### Stage 3: Refusal of the Call
+**Chapter Range**: 9-11
+- **Reason for Refusal**: [Fear, responsibility, lack of confidence, etc.]
+- **Inner Struggle**: [The hero's psychological turmoil.]
+- **Pushing Factor**: [What ultimately changes the hero's mind.]
 
-### 第4阶段：遇见导师 (Meeting the Mentor)
-**章节范围**：第12-15章
-- **导师身份**：[导师是谁]
-- **导师赠予**：[知识/工具/勇气]
-- **关键教导**：[最重要的指引]
+### Stage 4: Meeting the Mentor
+**Chapter Range**: 12-15
+- **Mentor's Identity**: [Who the mentor is.]
+- **Mentor's Gift**: [Knowledge/a tool/courage.]
+- **Key Lesson**: [The most important guidance.]
 
-### 第5阶段：跨越门槛 (Crossing the Threshold)
-**章节范围**：第16-20章
-- **门槛时刻**：[决定性的一步]
-- **守门人**：[阻碍英雄的力量]
-- **新世界**：[未知领域的第一印象]
+### Stage 5: Crossing the Threshold
+**Chapter Range**: 16-20
+- **The Threshold Moment**: [The decisive step.]
+- **The Gatekeeper**: [The force obstructing the hero.]
+- **The New World**: [First impression of the unknown territory.]
 
-### 第6阶段：试炼、盟友与敌人 (Tests, Allies, and Enemies)
-**章节范围**：第21-40章
-- **主要试炼**：
-  1. [第一个考验]
-  2. [第二个考验]
-  3. [第三个考验]
-- **关键盟友**：
-  - [盟友1]：[角色和作用]
-  - [盟友2]：[角色和作用]
-- **主要敌人**：
-  - [敌人1]：[威胁类型]
-  - [敌人2]：[威胁类型]
+### Stage 6: Tests, Allies, and Enemies
+**Chapter Range**: 21-40
+- **Main Tests**:
+  1.  [The first test.]
+  2.  [The second test.]
+  3.  [The third test.]
+- **Key Allies**:
+  - [Ally 1]: [Role and function.]
+  - [Ally 2]: [Role and function.]
+- **Main Enemies**:
+  - [Enemy 1]: [Type of threat.]
+  - [Enemy 2]: [Type of threat.]
 
-### 第7阶段：接近最深的洞穴 (Approach to the Inmost Cave)
-**章节范围**：第41-50章
-- **最大恐惧**：[英雄最害怕面对的]
-- **准备过程**：[精神和物质准备]
-- **团队集结**：[最后的准备]
+### Stage 7: Approach to the Inmost Cave
+**Chapter Range**: 41-50
+- **The Greatest Fear**: [What the hero is most afraid to face.]
+- **The Preparation**: [Mental and physical preparations.]
+- **The Team Assembles**: [Final preparations.]
 
-### 第8阶段：磨难 (Ordeal)
-**章节范围**：第51-60章
-- **生死考验**：[最危险的挑战]
-- **至暗时刻**：[似乎失败的时刻]
-- **内在死亡**：[旧自我的消亡]
-- **重生时刻**：[新自我的诞生]
+### Stage 8: The Ordeal
+**Chapter Range**: 51-60
+- **The Life-or-Death Test**: [The most dangerous challenge.]
+- **The Darkest Hour**: [The moment of apparent defeat.]
+- **Inner Death**: [The demise of the old self.]
+- **The Moment of Rebirth**: [The birth of the new self.]
 
-### 第9阶段：获得奖赏 (Reward)
-**章节范围**：第61-70章
-- **获得之物**：[实体或精神奖赏]
-- **新的能力**：[英雄获得的成长]
-- **代价**：[为奖赏付出的代价]
+### Stage 9: The Reward
+**Chapter Range**: 61-70
+- **The Prize**: [A physical or spiritual reward.]
+- **New Ability**: [The growth the hero has gained.]
+- **The Price**: [The cost paid for the reward.]
 
-### 第10阶段：归途 (The Road Back)
-**章节范围**：第71-85章
-- **回归动机**：[为什么要回去]
-- **追击危机**：[新的威胁]
-- **内心变化**：[英雄的新认识]
+### Stage 10: The Road Back
+**Chapter Range**: 71-85
+- **Motivation to Return**: [Why they must go back.]
+- **The Chase**: [A new threat.]
+- **Inner Change**: [The hero's new understanding.]
 
-### 第11阶段：复活 (Resurrection)
-**章节范围**：第86-95章
-- **最终考验**：[终极挑战]
-- **死而复生**：[象征性的重生]
-- **证明转变**：[展示英雄的成长]
+### Stage 11: The Resurrection
+**Chapter Range**: 86-95
+- **The Final Test**: [The ultimate challenge.]
+- **Death and Rebirth**: [A symbolic rebirth.]
+- **Proof of Transformation**: [Demonstrating the hero's growth.]
 
-### 第12阶段：带着灵药归来 (Return with the Elixir)
-**章节范围**：第96-100章
-- **灵药**：[带回的礼物/智慧/改变]
-- **世界改变**：[英雄如何改变世界]
-- **新的平衡**：[新的生活状态]
+### Stage 12: Return with the Elixir
+**Chapter Range**: 96-100
+- **The Elixir**: [The gift/wisdom/change brought back.]
+- **The World Changed**: [How the hero changes the world.]
+- **The New Balance**: [The new state of life.]
 
-## 角色设定（基于原型）
+## Character Archetypes
 
-### 英雄 (Hero)
-- **姓名**：[主角名字]
-- **起始状态**：[平凡世界中的身份]
-- **性格缺陷**：[需要克服的弱点]
-- **特殊天赋**：[潜在的能力]
-- **成长轨迹**：[从什么到什么的转变]
+### The Hero
+- **Name**: [Protagonist's Name]
+- **Initial State**: [Identity in the ordinary world.]
+- **Character Flaw**: [The weakness to be overcome.]
+- **Special Talent**: [Latent ability.]
+- **Growth Trajectory**: [The transformation from what to what.]
 
-### 导师 (Mentor)
-- **姓名**：[导师名字]
-- **身份背景**：[为什么能成为导师]
-- **教导方式**：[如何指引英雄]
-- **隐藏秘密**：[导师的过去或限制]
+### The Mentor
+- **Name**: [Mentor's Name]
+- **Background**: [Why they can be a mentor.]
+- **Teaching Style**: [How they guide the hero.]
+- **Hidden Secret**: [The mentor's past or limitations.]
 
-### 盟友 (Allies)
-#### [盟友1]
-- **角色定位**：[在团队中的作用]
-- **特殊能力**：[独特贡献]
-- **个人动机**：[为什么帮助英雄]
+### Allies
+#### [Ally 1]
+- **Role**: [Function within the team.]
+- **Special Ability**: [Unique contribution.]
+- **Personal Motivation**: [Why they help the hero.]
 
-#### [盟友2]
-- **角色定位**：[作用]
-- **特殊能力**：[贡献]
-- **个人动机**：[动机]
+#### [Ally 2]
+- **Role**: [Function.]
+- **Special Ability**: [Contribution.]
+- **Personal Motivation**: [Motivation.]
 
-### 阴影/敌人 (Shadow)
-- **姓名**：[主要反派]
-- **邪恶本质**：[代表什么黑暗面]
-- **强大之处**：[为什么难以战胜]
-- **致命弱点**：[可以被击败的原因]
-- **与英雄关系**：[镜像/对立/联系]
+### The Shadow/Enemy
+- **Name**: [Main Antagonist]
+- **The Nature of Evil**: [What dark side they represent.]
+- **Strength**: [Why they are hard to defeat.]
+- **Fatal Flaw**: [Why they can be defeated.]
+- **Relationship to Hero**: [Mirror/opposite/connection.]
 
-### 门槛守卫 (Threshold Guardian)
-- **身份**：[阻碍者]
-- **考验方式**：[如何测试英雄]
-- **通过条件**：[英雄如何通过]
+### The Threshold Guardian
+- **Identity**: [The obstructor.]
+- **Method of Testing**: [How they test the hero.]
+- **Condition for Passing**: [How the hero gets through.]
 
-### 变形者 (Shapeshifter)
-- **姓名**：[多变角色]
-- **双重身份**：[表面vs真实]
-- **转变时机**：[何时改变立场]
-- **真实动机**：[最终追求]
+### The Shapeshifter
+- **Name**: [The changeable character.]
+- **Dual Identity**: [Surface vs. reality.]
+- **Time of Change**: [When they switch allegiance.]
+- **True Motivation**: [What they ultimately want.]
 
-### 使者 (Herald)
-- **形式**：[人物/事件/消息]
-- **带来的信息**：[召唤的内容]
-- **出现时机**：[关键时刻]
+### The Herald
+- **Form**: [A person/event/message.]
+- **The Message**: [The content of the call.]
+- **Time of Appearance**: [At a key moment.]
 
-## 世界观设定
+## World Setting
 
-### 平凡世界
-- **地理环境**：[英雄的起始环境]
-- **社会结构**：[日常的社会规则]
-- **文化背景**：[价值观和传统]
+### The Ordinary World
+- **Geography**: [The hero's starting environment.]
+- **Social Structure**: [Everyday social rules.]
+- **Cultural Background**: [Values and traditions.]
 
-### 特殊世界
-- **地理环境**：[冒险发生的地方]
-- **独特规则**：[不同于平凡世界的规律]
-- **危险元素**：[威胁和挑战]
-- **宝藏所在**：[目标和奖赏]
+### The Special World
+- **Geography**: [Where the adventure takes place.]
+- **Unique Rules**: [Laws that differ from the ordinary world.]
+- **Elements of Danger**: [Threats and challenges.]
+- **The Treasure**: [The goal and reward.]
 
-### 两个世界的对比
-- **规则差异**：[物理/社会规则的不同]
-- **价值差异**：[价值观的冲突]
-- **英雄适应**：[如何在两个世界间转换]
+### The Contrast Between Two Worlds
+- **Difference in Rules**: [Physical/social rules that are different.]
+- **Difference in Values**: [Conflicting values.]
+- **The Hero's Adaptation**: [How they switch between the two worlds.]
 
-## 主题深化
+## Thematic Deepening
 
-### 表层主题
-[显而易见的冒险主题]
+### Surface Theme
+[The obvious adventure theme.]
 
-### 深层主题
-[通过旅程探讨的人生哲理]
+### Deep Theme
+[The life philosophy explored through the journey.]
 
-### 象征系统
-- **关键象征物**：[代表意义的物品]
-- **重复意象**：[反复出现的画面]
-- **隐喻网络**：[深层含义的联系]
+### Symbolic System
+- **Key Symbols**: [Objects with representative meaning.]
+- **Recurring Imagery**: [Images that appear repeatedly.]
+- **Metaphorical Network**: [Connections with deeper meaning.]
 
-## 节奏规划
+## Pacing Plan
 
-### 第一幕（平凡世界→跨越门槛）
-- **节奏**：缓慢建立→逐渐加速
-- **重点**：建立认同，制造期待
+### Act One (Ordinary World → Crossing the Threshold)
+- **Pacing**: Slow build → gradual acceleration.
+- **Focus**: Build identification, create anticipation.
 
-### 第二幕上（试炼→磨难）
-- **节奏**：波浪式推进
-- **重点**：持续升级挑战
+### Act Two, Part One (Tests → The Ordeal)
+- **Pacing**: Wave-like progression.
+- **Focus**: Continuously escalating challenges.
 
-### 第二幕下（奖赏→归途）
-- **节奏**：短暂舒缓→再次紧张
-- **重点**：展示成长，准备决战
+### Act Two, Part Two (Reward → The Road Back)
+- **Pacing**: Brief respite → renewed tension.
+- **Focus**: Show growth, prepare for the finale.
 
-### 第三幕（复活→归来）
-- **节奏**：急速推向高潮→缓慢收束
-- **重点**：完成转变，建立新平衡
+### Act Three (Resurrection → The Return)
+- **Pacing**: Rapid build to climax → slow resolution.
+- **Focus**: Complete the transformation, establish a new balance.
 
-## 创作备注
+## Writing Notes
 
-### 英雄之旅要点提醒
-- [ ] 英雄必须有明显的成长弧线
-- [ ] 每个阶段都要推进主题
-- [ ] 内在旅程比外在冒险更重要
-- [ ] 导师可能会退场或死亡
-- [ ] 磨难必须触及英雄最深的恐惧
-- [ ] 复活阶段英雄必须独自面对
-- [ ] 灵药要能改变两个世界
+### Hero's Journey Key Points
+- [ ] The hero must have a clear growth arc.
+- [ ] Every stage must advance the theme.
+- [ ] The inner journey is more important than the outer adventure.
+- [ ] The mentor may depart or die.
+- [ ] The ordeal must touch the hero's deepest fear.
+- [ ] The hero must face the resurrection alone.
+- [ ] The elixir must be able to change both worlds.
 
-### 常见误区避免
-- 不要让英雄太完美
-- 避免导师解决所有问题
-- 拒绝召唤不能太长
-- 试炼阶段避免重复
-- 奖赏不能来得太容易
+### Common Pitfalls to Avoid
+- Don't make the hero too perfect.
+- Avoid having the mentor solve all the problems.
+- The refusal of the call should not be too long.
+- Avoid repetitive tests.
+- The reward should not come too easily.
 
 ---
-*创建时间：[日期]*
-*方法论：英雄之旅（Hero's Journey）*
-*版本：1.0*
+*Created: [Date]*
+*Methodology: The Hero's Journey*
+*Version: 1.0*

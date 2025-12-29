@@ -1,362 +1,362 @@
-# 自然化表达指南（Natural Expression Guide）
+# Natural Expression Guide
 
-消除AI味道，让文字更接近真人创作
+Eliminate the AI flavor to make text sound more like human writing.
 
-> **新增内容**: 本指南已扩展为四维特征分析框架,详见**九、四维特征综合框架**
+> **New Content**: This guide has been expanded into a four-dimensional feature analysis framework. See **Section 9: The Four-Dimensional Feature Comprehensive Framework** for details.
 
-## 一、词汇层面的自然化
+## 1. Naturalization at the Lexical Level
 
-### 避免AI特征词汇
-**典型AI用词（需避免）**：
-- 学术化：因此、然而、诚然、其实、显然
-- 文言化：甚、颇、亦、乃、故
-- 官方化：值得注意的是、不难发现、可以说
-- 模板化：首先其次最后、一方面另一方面
+### Avoiding AI-Characteristic Vocabulary
+**Typical AI Vocabulary (to avoid)**:
+- Academic: therefore, however, admittedly, in fact, obviously
+- Archaic: very, quite, also, thus, hence
+- Formal: it is worth noting, it is not hard to find, it can be said
+- Template-based: firstly, secondly, finally; on the one hand, on the other hand
 
-**自然替代方案**：
-- "因此" → "所以"、"这样一来"、"那么"
-- "然而" → "但是"、"可是"、"不过"
-- "诚然" → "确实"、"是的"、"没错"
-- "值得注意的是" → 直接说事，不要引导
+**Natural Alternatives**:
+- "therefore" → "so," "as a result," "then"
+- "however" → "but," "yet," "though"
+- "admittedly" → "indeed," "yes," "that's true"
+- "it is worth noting" → get straight to the point, don't lead
 
-### 词汇选择的人性化
-**用词密度控制**：
-- 成语密度：每千字不超过2-3个
-- 书面词汇：尽量口语化替代
-- 专业术语：非必要不使用，用了要解释
+### Humanizing Word Choice
+**Controlling Word Density**:
+- Idiom density: no more than 2-3 per 1000 words
+- Formal vocabulary: use colloquial alternatives whenever possible
+- Jargon: avoid unless necessary; if used, explain
 
-**词汇重复的自然性**：
-- 允许适度重复关键词（人类特征）
-- 不要刻意避免重复而用同义词（AI特征）
-- 代词使用要自然，不要过度
+**Naturalness of Word Repetition**:
+- Allow moderate repetition of keywords (a human trait)
+- Don't deliberately avoid repetition by using synonyms (an AI trait)
+- Use pronouns naturally, not excessively
 
-### 方言与网络用语
-**适度使用增加真实感**：
-- 地域词汇：根据角色背景合理使用
-- 网络流行语：注意时效性和适用场景
-- 口语化缩略：能缩则缩（"这样"→"这样儿"）
+### Dialect and Internet Slang
+**Use moderately to add realism**:
+- Regional words: use reasonably based on the character's background
+- Internet slang: be mindful of timeliness and appropriate context
+- Colloquial contractions: use them where possible (e.g., "gonna" for "going to")
 
-## 二、句法层面的自然化
+## 2. Naturalization at the Syntactic Level
 
-### 句子长短的自然变化
-**避免均匀分布**：
-- AI倾向：每句15-20字的均匀分布
-- 自然模式：长短交错，情绪影响长度
-  - 紧张时：短句多，5-8字
-  - 叙述时：中长句，15-25字
-  - 解释时：长句，25-35字
+### Natural Variation in Sentence Length
+**Avoid uniform distribution**:
+- AI tendency: uniform distribution of 15-20 words per sentence
+- Natural pattern: a mix of long and short, with length influenced by emotion
+  - Tense moments: more short sentences, 5-8 words
+  - Narrative: medium-length sentences, 15-25 words
+  - Explanations: long sentences, 25-35 words
 
-### 不完整句的运用
-**增加口语感**：
-- 省略主语："觉得不太对劲。"
-- 省略谓语："这事儿...算了。"
-- 中断句："要是能——不，还是别想了。"
-- 倒装句："真没想到，这事。"
+### Use of Incomplete Sentences
+**Adds a colloquial feel**:
+- Omitting the subject: "Feels a bit off."
+- Omitting the predicate: "This whole thing... never mind."
+- Interrupted sentences: "If only I could—no, better not to think about it."
+- Inverted sentences: "Never thought, this would happen."
 
-### 口语化特征
-**插入语和补充**：
-- 位置随意："他，怎么说呢，有点怪。"
-- 临时补充："买了三个——不，四个苹果。"
-- 自我纠正："昨天，哦不对，是前天。"
+### Colloquial Features
+**Interjections and Additions**:
+- Flexible placement: "He, well, he's a bit strange."
+- Spontaneous additions: "Bought three—no, four apples."
+- Self-correction: "Yesterday, oh wait, the day before yesterday."
 
-**语气词的自然使用**：
-- 句首：嗯、啊、哎、咦、哦
-- 句中：吧、呢、嘛、啊
-- 句尾：的、了、着、过、来着
+**Natural Use of Particles**:
+- Sentence initial: uh, oh, hey, huh, ah
+- Sentence medial: like, you know, right
+- Sentence final: yeah, though, I guess
 
-## 三、段落层面的自然化
+## 3. Naturalization at the Paragraph Level
 
-### 思维跳跃的真实呈现
-**联想的非线性**：
-- 突然想起："说到这个，我想起来..."
-- 话题漂移：从A自然过渡到看似无关的B
-- 回到主题："刚才说到哪了？哦对..."
+### Realistic Portrayal of Shifting Thoughts
+**Non-linear Associations**:
+- Sudden recall: "Speaking of which, that reminds me..."
+- Topic drift: naturally transitioning from A to a seemingly unrelated B
+- Returning to the topic: "Where were we? Oh, right..."
 
-### 信息密度的变化
-**避免信息均匀分布**：
-- 密集段：关键情节、重要对话
-- 稀疏段：过渡、氛围营造
-- 留白段：纯对话、纯动作
+### Variation in Information Density
+**Avoid uniform information distribution**:
+- Dense paragraphs: key plot points, important dialogue
+- Sparse paragraphs: transitions, atmosphere building
+- White space paragraphs: pure dialogue, pure action
 
-### 段落节奏的人性化
-**情绪影响结构**：
-- 激动时：短段落，快节奏
-- 平静时：长段落，慢节奏
-- 思考时：断续，省略号多
+### Humanizing Paragraph Rhythm
+**Emotion influencing structure**:
+- Agitated: short paragraphs, fast pace
+- Calm: long paragraphs, slow pace
+- Thoughtful: fragmented, many ellipses
 
-## 四、认知模拟策略
+## 4. Cognitive Simulation Strategy
 
-### 记忆的不完美性
-**人类记忆特征**：
-- 细节模糊："好像是周二，也可能是周三"
-- 顺序混乱："先去了...不对，是先..."
-- 选择性记忆：重要的记得清，琐事忘记
+### The Imperfection of Memory
+**Human memory characteristics**:
+- Vague details: "I think it was Tuesday, or maybe Wednesday"
+- Jumbled order: "First, we went to... no, wait, first we..."
+- Selective memory: remembers important things clearly, forgets trivial matters
 
-### 注意力的选择性
-**视角的局限性**：
-- 只注意到部分细节
-- 忽略背景信息
-- 主观解读偏差
+### The Selectivity of Attention
+**Limitations of perspective**:
+- Noticing only some details
+- Ignoring background information
+- Subjective interpretation bias
 
-### 表达的犹豫性
-**思考过程的体现**：
-- 不确定："应该是...吧"
-- 推测："估计"、"大概"、"可能"
-- 修正："不对，应该是..."
+### Hesitation in Expression
+**Reflecting the thought process**:
+- Uncertainty: "It should be... right?"
+- Speculation: "I guess," "probably," "maybe"
+- Correction: "No, wait, it should be..."
 
-## 五、缺陷植入技术
+## 5. Flaw Implantation Technique
 
-### 可控的不完美
-**错误类型与频率**：
-- 错别字：每2000字1个（的地得混用）
-- 标点错误：每1000字1处
-- 语法瑕疵：每3000字1处
+### Controlled Imperfection
+**Types and frequency of errors**:
+- Typos: 1 per 2000 words (e.g., mixing up "their," "there," "they're")
+- Punctuation errors: 1 per 1000 words
+- Grammatical flaws: 1 per 3000 words
 
-### 标点的随意性
-**真实的标点习惯**：
-- 省略号：...（3个点）、。。。（句号）、……（6个点）
-- 逗号滥用：该用句号时用逗号
-- 感叹号：情绪激动时连用！！
+### Casual Punctuation
+**Realistic punctuation habits**:
+- Ellipses: ... (3 dots), ... (periods), ...... (6 dots)
+- Comma splices: using a comma where a period should be
+- Exclamation points: using multiple in a row when excited!!
 
-### 格式的不规范
-**排版的个人化**：
-- 段落长度不一
-- 偶尔忘记分段
-- 对话标点不统一
+### Non-standard Formatting
+**Personalized layout**:
+- Uneven paragraph lengths
+- Occasionally forgetting to start a new paragraph
+- Inconsistent dialogue punctuation
 
-## 六、个性标记系统
+## 6. Personality Marker System
 
-### 建立独特标识
-**个人指纹**：
-- 特定用词偏好
-- 固定句式模板
-- 习惯性表达
+### Establishing Unique Identifiers
+**Personal fingerprint**:
+- Preference for specific words
+- Fixed sentence patterns
+- Habitual expressions
 
-### 保持风格一致
-**贯穿全文的特征**：
-- 叙述视角统一
-- 语言风格稳定
-- 情感基调连贯
+### Maintaining a Consistent Style
+**Features that run through the entire text**:
+- Consistent narrative perspective
+- Stable language style
+- Coherent emotional tone
 
-### 微观变化宏观稳定
-**动态平衡**：
-- 局部有变化（情绪影响）
-- 整体保持一致（个人风格）
-- 渐进式发展（随情节深入）
+### Micro-variations within Macro-stability
+**Dynamic balance**:
+- Local variations (influenced by emotion)
+- Overall consistency (personal style)
+- Gradual development (as the plot deepens)
 
-## 七、实战应用指南
+## 7. Practical Application Guide
 
-### 检测与调整
-**自检标准**：
-1. 朗读测试：读起来是否自然流畅
-2. 词频分析：是否有AI特征词汇聚集
-3. 句长分布：是否过于均匀
-4. 信息密度：是否每段都信息量相当
+### Detection and Adjustment
+**Self-check standards**:
+1.  Read-aloud test: Does it sound natural and smooth?
+2.  Word frequency analysis: Is there a cluster of AI-characteristic words?
+3.  Sentence length distribution: Is it too uniform?
+4.  Information density: Is the amount of information in each paragraph roughly the same?
 
-### 修改方向
-**降低AI味的技巧**：
-1. 打乱完美的结构
-2. 加入个人化细节
-3. 制造适度的混乱
-4. 保留合理的缺陷
+### Direction for Revision
+**Techniques for reducing AI flavor**:
+1.  Break up the perfect structure
+2.  Add personalized details
+3.  Create moderate chaos
+4.  Retain reasonable flaws
 
-### 平衡把握
-**注意事项**：
-- 缺陷不能影响理解
-- 个性不能过于怪异
-- 自然不等于粗糙
-- 口语化要分场合
+### Finding the Right Balance
+**Things to note**:
+- Flaws should not hinder understanding
+- Personality should not be overly eccentric
+- Natural does not mean sloppy
+- Colloquialism should be context-appropriate
 
-## 八、场景化应用
+## 8. Scene-based Application
 
-### 对话场景
-- 打断和重叠
-- 话没说完
-- 答非所问
-- 情绪化表达
+### Dialogue Scenes
+- Interruptions and overlaps
+- Unfinished sentences
+- Non-sequiturs
+- Emotional expressions
 
-### 叙述场景
-- 视角限制
-- 主观色彩
-- 细节选择
-- 节奏变化
+### Narrative Scenes
+- Limited perspective
+- Subjective tone
+- Selective detail
+- Pacing variations
 
-### 描写场景
-- 感官偏重
-- 印象式描写
-- 省略次要
-- 突出特征
+### Descriptive Scenes
+- Sensory focus
+- Impressionistic descriptions
+- Omitting the secondary
+- Highlighting key features
 
-### 内心独白
-- 思维跳跃
-- 自我对话
-- 情绪波动
-- 矛盾纠结
+### Internal Monologues
+- Shifting thoughts
+- Self-dialogue
+- Emotional fluctuations
+- Internal conflict
 
 ---
 
-## 九、四维特征综合框架 ⭐
+## 9. The Four-Dimensional Feature Comprehensive Framework ⭐
 
-### 核心理念
+### Core Philosophy
 
-真人写作不仅体现在词汇和句法上,还体现在**标点、排版和特殊表达**上。完整的去AI味需要四个维度协同作用。
+Human writing is not just about vocabulary and syntax, but also about **punctuation, layout, and special expressions**. To completely remove the AI flavor, all four dimensions must work together.
 
-### 四维分析框架
+### The Four-Dimensional Analysis Framework
 
-#### 维度1: 文字特征
-- 词汇偏好（本指南第一、二节）
-- 句法结构（本指南第二、三节）
-- 修辞手法
-- 语言风格
+#### Dimension 1: Textual Features
+- Vocabulary preference (Sections 1 & 2 of this guide)
+- Syntactic structure (Sections 2 & 3 of this guide)
+- Rhetorical devices
+- Language style
 
-**自检问题**:
-- [ ] 是否避免了AI特征词汇?
-- [ ] 词汇重复是否自然?
-- [ ] 是否有个人化用词习惯?
+**Self-Check Questions**:
+- [ ] Have AI-characteristic words been avoided?
+- [ ] Is word repetition natural?
+- [ ] Are there personalized vocabulary habits?
 
-#### 维度2: 句式特征
-- 长短变化（本指南第二节）
-- 不完整句（本指南第二节）
-- 口语化特征（本指南第二节）
-- 段落节奏（本指南第三节）
+#### Dimension 2: Sentence Structure Features
+- Length variation (Section 2 of this guide)
+- Incomplete sentences (Section 2 of this guide)
+- Colloquial features (Section 2 of this guide)
+- Paragraph rhythm (Section 3 of this guide)
 
-**自检问题**:
-- [ ] 句子长度是否变化有致?
-- [ ] 是否有不完整句式?
-- [ ] 对话是否口语化?
+**Self-Check Questions**:
+- [ ] Do sentence lengths vary effectively?
+- [ ] Are there incomplete sentence structures?
+- [ ] Is the dialogue colloquial?
 
-#### 维度3: 标点习惯 ⭐（关键维度）
+#### Dimension 3: Punctuation Habits ⭐ (Key Dimension)
 
-**核心特征**:
-- 省略号样式多样（……/.../ 。。。）
-- 情绪化标点（感叹号连用、问号连用）
-- 标点"错误"（方言、习惯）
-- 标点节奏（紧张时密集、平静时规整）
+**Core Features**:
+- Varied ellipsis styles (..., ......, ... (periods))
+- Emotional punctuation (multiple exclamation points, multiple question marks)
+- Punctuation "errors" (dialect, habits)
+- Punctuation rhythm (dense when tense, regular when calm)
 
-**自检问题**:
-- [ ] 省略号是否只用一种样式?（AI倾向）
-- [ ] 情绪激动时标点是否有变化?
-- [ ] 标点是否过于规整?
-- [ ] 是否有情绪化标点组合?（!!、??、?!）
+**Self-Check Questions**:
+- [ ] Is only one style of ellipsis used? (AI tendency)
+- [ ] Does punctuation change with emotional excitement?
+- [ ] Is the punctuation too neat?
+- [ ] Are there emotional punctuation combinations? (!!, ??, ?!)
 
-**详细指南**: `spec/knowledge/punctuation-personality.md`
+**Detailed Guide**: `spec/knowledge/punctuation-personality.md`
 
-#### 维度4: 排版与表达 ⭐（关键维度）
+#### Dimension 4: Layout and Expression ⭐ (Key Dimension)
 
-**段落结构**:
-- 单句成段占比：30-50%（反AI检测关键）
-- 段落长度失衡（短至3字,长至200字）
-- 空行使用（场景转换、留白）
+**Paragraph Structure**:
+- Percentage of single-sentence paragraphs: 30-50% (key for anti-AI detection)
+- Imbalanced paragraph lengths (from 3 words to 200 words)
+- Use of blank lines (scene transitions, white space)
 
-**特殊表达**:
-- 拟声词使用
-- 语气词密度
-- 口语化缩略
-- 不完整句式
+**Special Expressions**:
+- Use of onomatopoeia
+- Density of particles
+- Colloquial contractions
+- Incomplete sentence structures
 
-**自检问题**:
-- [ ] 单句成段是否达到30-50%?
-- [ ] 段落长度是否过于均匀?（AI倾向）
-- [ ] 是否有不完整句式?
-- [ ] 语气词是否自然?
+**Self-Check Questions**:
+- [ ] Do single-sentence paragraphs make up 30-50% of the text?
+- [ ] Are paragraph lengths too uniform? (AI tendency)
+- [ ] Are there incomplete sentence structures?
+- [ ] Are particles used naturally?
 
-### 四维协同应用示例
+### Example of Four-Dimensional Synergy
 
-#### ❌ AI化表达（缺乏四维特征）
-
-```
-最近他在调查一件事情。有人告诉他这件事很复杂,涉及很多人。他决定继续调查下去。
-```
-
-**问题诊断**:
-- 维度1: 时间/人物抽象
-- 维度2: 句式工整
-- 维度3: 标点规整
-- 维度4: 段落均匀
-
-#### ✅ 自然化表达（四维特征完整）
+#### ❌ AI-like Expression (lacks four-dimensional features)
 
 ```
-上周三。
-
-王老头找到他,压低声音:"那事儿...我打听到了。"
-
-"什么事？"
-
-"永安街的火。"老头看看四周,"不是意外。"
-
-他心里一紧。
-
-永安街...三年前的事了。
-
-"你确定？"
-
-"千真万确。"
+He was recently investigating a matter. Someone told him that it was very complicated and involved many people. He decided to continue his investigation.
 ```
 
-**四维特征分析**:
-- **维度1**: 具体时间(上周三)、具体人物(王老头、永安街)
-- **维度2**: 长短句交替、不完整句("什么事?")
-- **维度3**: 省略号混用(...和...)、标点情绪化(心里一紧后单独成段)
-- **维度4**: 单句成段8/11=73%、对话分段、空行留白
+**Problem Diagnosis**:
+- Dimension 1: Abstract time/characters
+- Dimension 2: Neat sentence structure
+- Dimension 3: Regular punctuation
+- Dimension 4: Uniform paragraphs
 
-### 四维特征提取工具
+#### ✅ Natural Expression (complete with four-dimensional features)
 
-使用 `/book-style` 命令分析优秀作品时,自动提取四维特征:
+```
+Last Wednesday.
 
-1. **文字维度**: 高频词、句式偏好
-2. **标点维度**: 省略号习惯、感叹号使用、情绪化程度
-3. **排版维度**: 单句成段占比、段落长度分布
-4. **表达维度**: Emoji、拟声词、语气词
+Old Wang found him, his voice low: "That thing... I found something out."
 
-生成的 `style-reference.md` 包含完整四维分析。
+"What thing?"
 
-### 快速自检表（四维版）
+"The fire on Yong'an Street." The old man looked around. "It wasn't an accident."
 
-#### 文字层面
-- [ ] 避免AI特征词汇
-- [ ] 词汇有个人偏好
-- [ ] 适度重复自然
+His heart tightened.
 
-#### 句式层面
-- [ ] 长短句交替
-- [ ] 有不完整句
-- [ ] 对话口语化
+Yong'an Street... that was three years ago.
 
-#### 标点层面
-- [ ] 省略号多样化
-- [ ] 情绪化标点
-- [ ] 标点不规整
+"Are you sure?"
 
-#### 排版层面
-- [ ] 单句成段30-50%
-- [ ] 段落长度失衡
-- [ ] 有空行留白
+"Absolutely."
+```
+
+**Four-Dimensional Feature Analysis**:
+- **Dimension 1**: Specific time (Last Wednesday), specific characters (Old Wang, Yong'an Street)
+- **Dimension 2**: Mix of long and short sentences, incomplete sentence ("What thing?")
+- **Dimension 3**: Mixed use of ellipses (...), emotional punctuation (a single sentence paragraph after "His heart tightened.")
+- **Dimension 4**: 8/11 = 73% single-sentence paragraphs, dialogue paragraphing, white space with blank lines
+
+### Four-Dimensional Feature Extraction Tool
+
+Use the `/book-style` command to automatically extract four-dimensional features from excellent works:
+
+1.  **Textual Dimension**: High-frequency words, sentence structure preferences
+2.  **Punctuation Dimension**: Ellipsis habits, exclamation point usage, emotional level
+3.  **Layout Dimension**: Percentage of single-sentence paragraphs, paragraph length distribution
+4.  **Expression Dimension**: Emojis, onomatopoeia, particles
+
+The generated `style-reference.md` contains a complete four-dimensional analysis.
+
+### Quick Self-Checklist (Four-Dimensional Version)
+
+#### Lexical Level
+- [ ] Avoid AI-characteristic vocabulary
+- [ ] Vocabulary shows personal preference
+- [ ] Moderate repetition is natural
+
+#### Syntactic Level
+- [ ] Mix of long and short sentences
+- [ ] Contains incomplete sentences
+- [ ] Dialogue is colloquial
+
+#### Punctuation Level
+- [ ] Varied ellipsis styles
+- [ ] Emotional punctuation
+- [ ] Irregular punctuation
+
+#### Layout Level
+- [ ] 30-50% single-sentence paragraphs
+- [ ] Imbalanced paragraph lengths
+- [ ] White space with blank lines
 
 ---
 
-## 十、进阶资源引用
+## 10. Advanced Resource References
 
-### 系统化学习路径
+### Systematic Learning Path
 
-1. **基础**: 本指南 - 词汇和句法自然化
-2. **进阶**:
-   - `punctuation-personality.md` - 标点个性化12章节详解
-   - `detail-formulas.md` - 具象化替换公式库
-3. **高级**: `anti-ai-advanced.md` - 四层策略完整方法论
-4. **实战**: `anti-ai-detection.md` - 反AI检测核心要点
+1.  **Basics**: This guide - naturalization of vocabulary and syntax
+2.  **Intermediate**:
+    - `punctuation-personality.md` - a 12-chapter detailed guide to punctuation personalization
+    - `detail-formulas.md` - a library of concretization replacement formulas
+3.  **Advanced**: `anti-ai-advanced.md` - a complete four-layer strategy methodology
+4.  **Practical**: `anti-ai-detection.md` - core points for anti-AI detection
 
-### 核心文件关联
+### Core File Associations
 
 ```
-natural-expression.md (基础)
-  ├─ punctuation-personality.md (标点维度深化)
-  ├─ detail-formulas.md (具象化工具)
-  └─ anti-ai-advanced.md (四层策略整合)
+natural-expression.md (Basics)
+  ├─ punctuation-personality.md (Deep dive into punctuation)
+  ├─ detail-formulas.md (Concretization tools)
+  └─ anti-ai-advanced.md (Integration of the four-layer strategy)
 ```
 
 ---
 
-*本指南持续更新，根据实际应用效果调整优化*
-*版本：v2.0.0* (增加四维特征框架)
-*最后更新：2025-10*
+*This guide is continuously updated and optimized based on practical application.*
+*Version: v2.0.0* (added the four-dimensional feature framework)
+*Last Updated: 2025-10*
