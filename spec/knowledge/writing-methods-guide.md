@@ -1,344 +1,344 @@
-# 写作方法论完全指南
+# The Complete Guide to Writing Methodologies
 
-## 概述
+## Overview
 
-Novel Writer 支持多种经典的写作方法论，每种方法都有其独特的优势和适用场景。本指南将帮助您理解并选择最适合您作品的写作方法。
+Novel Writer supports several classic writing methodologies, each with its own unique advantages and suitable scenarios. This guide will help you understand and choose the best writing method for your work.
 
-## 方法论对比表
+## Methodology Comparison Table
 
-| 方法 | 结构 | 适合类型 | 特点 | 难度 |
-|------|------|----------|------|------|
-| 三幕结构 | 3幕 | 通用 | 经典、易懂、灵活 | ★★☆ |
-| 英雄之旅 | 12阶段 | 奇幻/冒险 | 深度角色成长 | ★★★ |
-| 故事圈 | 8环节 | 角色驱动 | 强调内在变化 | ★★☆ |
-| 七点结构 | 7节点 | 悬疑/惊悚 | 紧凑、节奏感强 | ★★☆ |
-| 皮克斯公式 | 6步骤 | 家庭/动画 | 简单、情感丰富 | ★☆☆ |
+| Method | Structure | Best For | Features | Difficulty |
+|---|---|---|---|---|
+| Three-Act Structure | 3 acts | General | Classic, easy to understand, flexible | ★★☆ |
+| The Hero's Journey | 12 stages | Fantasy/Adventure | In-depth character growth | ★★★ |
+| Story Circle | 8 steps | Character-driven | Emphasizes internal change | ★★☆ |
+| Seven-Point Structure | 7 nodes | Suspense/Thriller | Tight, strong sense of pace | ★★☆ |
+| Pixar Formula | 6 steps | Family/Animation | Simple, emotionally rich | ★☆☆ |
 
-## 详细介绍
+## Detailed Introduction
 
-### 1. 三幕结构（Three-Act Structure）
+### 1. Three-Act Structure
 
-#### 概述
-最经典和广泛使用的故事结构，将故事分为开端、中间和结局三个部分。
+#### Overview
+The most classic and widely used story structure, dividing the story into a beginning, middle, and end.
 
-#### 结构breakdown
-- **第一幕（25%）**：设定、介绍、冲突引入
-- **第二幕（50%）**：发展、升级、转折
-- **第三幕（25%）**：高潮、解决、新平衡
+#### Structure Breakdown
+- **Act One (25%)**: Setup, introduction, inciting incident
+- **Act Two (50%)**: Rising action, escalation, turning points
+- **Act Three (25%)**: Climax, resolution, new equilibrium
 
-#### 优势
-- ✅ 简单易懂，新手友好
-- ✅ 适用范围广，各种类型通用
-- ✅ 节奏控制清晰
-- ✅ 读者熟悉度高
+#### Advantages
+- ✅ Simple and easy to understand, beginner-friendly
+- ✅ Widely applicable to various genres
+- ✅ Clear control over pacing
+- ✅ High reader familiarity
 
-#### 劣势
-- ❌ 可能显得公式化
-- ❌ 中间部分容易拖沓
-- ❌ 对实验性作品限制较大
+#### Disadvantages
+- ❌ Can feel formulaic
+- ❌ The middle section can easily drag
+- ❌ Can be restrictive for experimental works
 
-#### 最适合
-- 商业小说
-- 网络小说
-- 类型文学
-- 初学者作品
+#### Best For
+- Commercial novels
+- Web novels
+- Genre fiction
+- Beginner's works
 
-#### 经典案例
-- 《哈利·波特》系列（每本书）
-- 《饥饿游戏》
-- 《达·芬奇密码》
-
----
-
-### 2. 英雄之旅（Hero's Journey）
-
-#### 概述
-约瑟夫·坎贝尔提出的神话学结构，描述英雄从平凡到非凡的转变过程。
-
-#### 12阶段
-1. **平凡世界**：日常生活
-2. **冒险召唤**：改变的契机
-3. **拒绝召唤**：犹豫和恐惧
-4. **遇见导师**：获得指引
-5. **跨越门槛**：进入新世界
-6. **试炼、盟友与敌人**：成长过程
-7. **接近最深的洞穴**：面对恐惧
-8. **磨难**：最大危机
-9. **获得奖赏**：战胜后的收获
-10. **归途**：带着改变回归
-11. **复活**：最终考验
-12. **带着灵药归来**：改变世界
-
-#### 优势
-- ✅ 深度的角色发展
-- ✅ 强大的心理共鸣
-- ✅ 史诗感和仪式感
-- ✅ 主题深刻
-
-#### 劣势
-- ❌ 结构复杂，需要经验
-- ❌ 不是所有故事都适合
-- ❌ 可能过于程式化
-
-#### 最适合
-- 史诗奇幻
-- 成长小说
-- 冒险故事
-- 超级英雄故事
-
-#### 经典案例
-- 《指环王》
-- 《星球大战》
-- 《黑客帝国》
-- 《西游记》
+#### Classic Examples
+- The *Harry Potter* series (each book)
+- *The Hunger Games*
+- *The Da Vinci Code*
 
 ---
 
-### 3. 故事圈（Story Circle）
+### 2. The Hero's Journey
 
-#### 概述
-丹·哈蒙基于英雄之旅简化的8步循环结构，强调角色的需求和变化。
+#### Overview
+A mythological structure proposed by Joseph Campbell, describing a hero's transformation from ordinary to extraordinary.
 
-#### 8个环节
-1. **舒适区**：角色在熟悉环境
-2. **需要**：产生欲望
-3. **进入**：进入陌生境地
-4. **搜索**：寻找想要的
-5. **找到**：获得所需
-6. **付出代价**：为此付出
-7. **回归**：返回熟悉环境
-8. **改变**：已经不同
+#### The 12 Stages
+1.  **The Ordinary World**: Everyday life
+2.  **The Call to Adventure**: An opportunity for change
+3.  **Refusal of the Call**: Hesitation and fear
+4.  **Meeting the Mentor**: Gaining guidance
+5.  **Crossing the Threshold**: Entering the new world
+6.  **Tests, Allies, and Enemies**: The process of growth
+7.  **Approach to the Inmost Cave**: Confronting fear
+8.  **The Ordeal**: The greatest crisis
+9.  **Reward (Seizing the Sword)**: The prize after victory
+10. **The Road Back**: Returning with the change
+11. **The Resurrection**: The final test
+12. **Return with the Elixir**: Changing the world
 
-#### 优势
-- ✅ 简洁明了
-- ✅ 强调角色驱动
-- ✅ 循环结构适合系列作品
-- ✅ 心理层面深刻
+#### Advantages
+- ✅ In-depth character development
+- ✅ Strong psychological resonance
+- ✅ A sense of epic scale and ritual
+- ✅ Profound themes
 
-#### 劣势
-- ❌ 对复杂情节支持有限
-- ❌ 可能过于简化
-- ❌ 不适合群像剧
+#### Disadvantages
+- ❌ Complex structure, requires experience
+- ❌ Not suitable for all stories
+- ❌ Can be overly formulaic
 
-#### 最适合
-- 电视剧集
-- 系列小说
-- 心理剧情
-- 短篇故事
+#### Best For
+- Epic fantasy
+- Coming-of-age stories
+- Adventure stories
+- Superhero stories
 
-#### 经典案例
-- 《瑞克和莫蒂》
-- 《绝命毒师》（单集）
-- 《黑镜》（单集）
-
----
-
-### 4. 七点故事结构（Seven-Point Story Structure）
-
-#### 概述
-通过7个关键节点构建紧凑有力的故事。
-
-#### 7个节点
-1. **钩子**：吸引读者
-2. **第一情节点**：引入冲突
-3. **第一收紧点**：压力出现
-4. **中点**：重大转折
-5. **第二收紧点**：危机加深
-6. **第二情节点**：最后机会
-7. **解决**：冲突解决
-
-#### 优势
-- ✅ 结构紧凑
-- ✅ 节奏明快
-- ✅ 悬念感强
-- ✅ 商业性好
-
-#### 劣势
-- ❌ 可能缺乏深度
-- ❌ 角色发展空间有限
-- ❌ 不适合慢热型故事
-
-#### 最适合
-- 悬疑小说
-- 惊悚故事
-- 动作冒险
-- 短中篇小说
+#### Classic Examples
+- *The Lord of the Rings*
+- *Star Wars*
+- *The Matrix*
+- *Journey to the West*
 
 ---
 
-### 5. 皮克斯讲故事公式（Pixar Story Formula）
+### 3. Story Circle
 
-#### 概述
-皮克斯动画工作室总结的简单有效的故事公式。
+#### Overview
+An 8-step circular structure simplified by Dan Harmon from the Hero's Journey, emphasizing the character's needs and changes.
 
-#### 基本公式
+#### The 8 Steps
+1.  **You (A character is in a zone of comfort)**
+2.  **Need (But they want something)**
+3.  **Go (They enter an unfamiliar situation)**
+4.  **Search (Adapt to it)**
+5.  **Find (Get what they wanted)**
+6.  **Take (Pay a heavy price for it)**
+7.  **Return (They return to their familiar situation)**
+8.  **Change (Having changed)**
+
+#### Advantages
+- ✅ Simple and clear
+- ✅ Emphasizes character-driven stories
+- ✅ Circular structure is suitable for series
+- ✅ Psychologically profound
+
+#### Disadvantages
+- ❌ Limited support for complex plots
+- ❌ Can be overly simplistic
+- ❌ Not suitable for ensemble casts
+
+#### Best For
+- TV series
+- Serial novels
+- Psychological dramas
+- Short stories
+
+#### Classic Examples
+- *Rick and Morty*
+- *Breaking Bad* (individual episodes)
+- *Black Mirror* (individual episodes)
+
+---
+
+### 4. Seven-Point Story Structure
+
+#### Overview
+Builds a tight and powerful story through 7 key plot points.
+
+#### The 7 Points
+1.  **The Hook**: Grabs the reader's attention
+2.  **Plot Point 1**: Introduces the conflict
+3.  **Pinch Point 1**: Pressure is applied
+4.  **Midpoint**: A major turning point
+5.  **Pinch Point 2**: The crisis deepens
+6.  **Plot Point 2**: The last chance
+7.  **Resolution**: The conflict is resolved
+
+#### Advantages
+- ✅ Tight structure
+- ✅ Fast-paced
+- ✅ Strong sense of suspense
+- ✅ Commercially viable
+
+#### Disadvantages
+- ❌ May lack depth
+- ❌ Limited room for character development
+- ❌ Not suitable for slow-burn stories
+
+#### Best For
+- Mystery novels
+- Thrillers
+- Action-adventure
+- Novellas and short stories
+
+---
+
+### 5. Pixar Story Formula
+
+#### Overview
+A simple and effective story formula summarized by Pixar Animation Studios.
+
+#### The Basic Formula
 ```
-从前有一个___。
-每天，___。
-直到有一天___。
-因为这个，___。
-因为那个，___。
-最终，___。
+Once upon a time there was a ___.
+Every day, ___.
+One day ___.
+Because of that, ___.
+Because of that, ___.
+Until finally ___.
 ```
 
-#### 优势
-- ✅ 极其简单
-- ✅ 快速构建故事
-- ✅ 情感导向
-- ✅ 老少皆宜
+#### Advantages
+- ✅ Extremely simple
+- ✅ Quickly build a story
+- ✅ Emotionally driven
+- ✅ Suitable for all ages
 
-#### 劣势
-- ❌ 过于简化
-- ❌ 深度有限
-- ❌ 不适合复杂主题
+#### Disadvantages
+- ❌ Overly simplistic
+- ❌ Limited depth
+- ❌ Not suitable for complex themes
 
-#### 最适合
-- 儿童故事
-- 寓言故事
-- 短篇小说
-- 创意写作练习
+#### Best For
+- Children's stories
+- Fables
+- Short stories
+- Creative writing exercises
 
 ---
 
-## 如何选择合适的方法
+## How to Choose the Right Method
 
-### 根据故事类型选择
+### Choose Based on Genre
 
-| 故事类型 | 推荐方法 | 备选方法 |
-|----------|----------|----------|
-| 奇幻冒险 | 英雄之旅 | 三幕结构 |
-| 悬疑推理 | 七点结构 | 三幕结构 |
-| 爱情故事 | 三幕结构 | 故事圈 |
-| 成长故事 | 英雄之旅 | 故事圈 |
-| 短篇小说 | 皮克斯公式 | 故事圈 |
-| 史诗巨作 | 英雄之旅 | 三幕结构 |
-| 心理剧情 | 故事圈 | 七点结构 |
+| Genre | Recommended Method | Alternative |
+|---|---|---|
+| Fantasy/Adventure | The Hero's Journey | Three-Act Structure |
+| Mystery/Thriller | Seven-Point Structure | Three-Act Structure |
+| Romance | Three-Act Structure | Story Circle |
+| Coming-of-Age | The Hero's Journey | Story Circle |
+| Short Story | Pixar Formula | Story Circle |
+| Epic | The Hero's Journey | Three-Act Structure |
+| Psychological Drama | Story Circle | Seven-Point Structure |
 
-### 根据写作经验选择
+### Choose Based on Writing Experience
 
-#### 初学者（0-2年）
-**推荐**：三幕结构、皮克斯公式
-- 易于理解和掌握
-- 有大量参考资料
-- 不容易出错
+#### Beginner (0-2 years)
+**Recommended**: Three-Act Structure, Pixar Formula
+- Easy to understand and master
+- Plenty of reference material available
+- Hard to go wrong
 
-#### 中级写手（2-5年）
-**推荐**：七点结构、故事圈
-- 提供更多控制
-- 帮助突破瓶颈
-- 增加作品深度
+#### Intermediate (2-5 years)
+**Recommended**: Seven-Point Structure, Story Circle
+- Provides more control
+- Helps break through plateaus
+- Adds depth to your work
 
-#### 资深作家（5年+）
-**推荐**：英雄之旅、混合方法
-- 深度和复杂性
-- 可以灵活变通
-- 创造独特风格
+#### Advanced (5+ years)
+**Recommended**: The Hero's Journey, Hybrid Methods
+- Depth and complexity
+- Can be adapted flexibly
+- Create a unique style
 
-### 根据作品长度选择
+### Choose Based on Work Length
 
-| 作品长度 | 最适合 | 可选 | 不推荐 |
-|----------|--------|------|--------|
-| 短篇（<3万字） | 皮克斯公式 | 故事圈 | 英雄之旅 |
-| 中篇（3-10万字） | 七点结构 | 三幕结构 | 英雄之旅 |
-| 长篇（10-30万字） | 三幕结构 | 英雄之旅 | 皮克斯公式 |
-| 巨作（>30万字） | 英雄之旅 | 三幕结构 | 皮克斯公式 |
+| Length | Best For | Optional | Not Recommended |
+|---|---|---|---|
+| Short Story (<30k words) | Pixar Formula | Story Circle | The Hero's Journey |
+| Novella (30-100k words) | Seven-Point Structure | Three-Act Structure | The Hero's Journey |
+| Novel (100-300k words) | Three-Act Structure | The Hero's Journey | Pixar Formula |
+| Epic (>300k words) | The Hero's Journey | Three-Act Structure | Pixar Formula |
 
-## 混合使用方法
+## Using Hybrid Methods
 
-### 可行的组合
+### Feasible Combinations
 
-#### 英雄之旅 + 三幕结构
-- 用三幕划分英雄之旅的12阶段
-- 第一幕：阶段1-5
-- 第二幕：阶段6-9
-- 第三幕：阶段10-12
+#### The Hero's Journey + Three-Act Structure
+- Use the three acts to divide the 12 stages of the Hero's Journey
+- Act One: Stages 1-5
+- Act Two: Stages 6-9
+- Act Three: Stages 10-12
 
-#### 七点结构 + 故事圈
-- 七点提供节奏
-- 故事圈深化角色
+#### Seven-Point Structure + Story Circle
+- The seven points provide the pace
+- The story circle deepens the character
 
-#### 主线用英雄之旅，支线用故事圈
-- 适合多线叙事
-- 主次分明
-- 深度和广度兼顾
+#### Main Plot with Hero's Journey, Subplots with Story Circle
+- Suitable for multi-threaded narratives
+- Clear distinction between primary and secondary
+- Balances depth and breadth
 
-### 不建议的组合
-- ❌ 皮克斯公式 + 英雄之旅（复杂度不匹配）
-- ❌ 多个复杂结构并用（容易混乱）
+### Not Recommended Combinations
+- ❌ Pixar Formula + The Hero's Journey (mismatched complexity)
+- ❌ Using multiple complex structures at once (can be confusing)
 
-## 方法转换指南
+## Method Conversion Guide
 
-### 从三幕结构转到英雄之旅
-1. 识别现有的三幕节点
-2. 映射到12阶段
-3. 补充缺失的阶段
-4. 深化角色弧线
+### From Three-Act Structure to The Hero's Journey
+1.  Identify the existing three-act nodes
+2.  Map them to the 12 stages
+3.  Fill in the missing stages
+4.  Deepen the character arc
 
-### 从英雄之旅简化到故事圈
-1. 合并相似阶段
-2. 强调8个核心环节
-3. 简化复杂性
-4. 保留核心转变
+### From The Hero's Journey to Story Circle
+1.  Merge similar stages
+2.  Emphasize the 8 core steps
+3.  Simplify the complexity
+4.  Retain the core transformation
 
-## 常见问题
+## Frequently Asked Questions
 
-### Q: 必须严格遵循选定的方法吗？
-A: 不必。方法是工具而非规则，可以根据需要调整。
+### Q: Do I have to strictly follow the chosen method?
+A: Not at all. Methods are tools, not rules. You can adjust them as needed.
 
-### Q: 可以中途更换方法吗？
-A: 可以，但需要仔细规划转换过程，避免结构混乱。
+### Q: Can I switch methods mid-way?
+A: You can, but you need to carefully plan the transition to avoid structural chaos.
 
-### Q: 哪种方法最"好"？
-A: 没有最好，只有最合适。取决于你的故事、经验和目标。
+### Q: Which method is the "best"?
+A: There is no best, only the most suitable. It depends on your story, experience, and goals.
 
-### Q: 不用任何方法可以吗？
-A: 可以（无大纲写法），但建议至少了解基本结构。
+### Q: Can I write without any method?
+A: Yes (pantsing), but it's recommended to at least understand the basic structures.
 
-## 进阶学习资源
+## Advanced Learning Resources
 
-### 必读书目
-1. 《故事》- 罗伯特·麦基
-2. 《千面英雄》- 约瑟夫·坎贝尔
-3. 《救猫咪》- 布莱克·斯奈德
-4. 《作家之旅》- 克里斯托弗·沃格勒
+### Must-Read Books
+1.  *Story* - Robert McKee
+2.  *The Hero with a Thousand Faces* - Joseph Campbell
+3.  *Save the Cat!* - Blake Snyder
+4.  *The Writer's Journey* - Christopher Vogler
 
-### 在线资源
+### Online Resources
 - Dan Harmon's Story Circle
 - Pixar's 22 Rules of Storytelling
 - The Writer's Journey Website
 
-### 实践建议
-1. 先精通一种方法
-2. 分析喜欢的作品用了什么方法
-3. 小规模试验不同方法
-4. 找到自己的风格
+### Practical Advice
+1.  Master one method first
+2.  Analyze what methods your favorite works use
+3.  Experiment with different methods on a small scale
+4.  Find your own style
 
 ---
 
-## 快速决策树
+## Quick Decision Tree
 
 ```
-你的故事是？
-├─ 角色成长为主？
-│  ├─ 是 → 英雄之旅 / 故事圈
-│  └─ 否 → 继续
-├─ 情节驱动为主？
-│  ├─ 是 → 七点结构 / 三幕结构
-│  └─ 否 → 继续
-├─ 简单温暖故事？
-│  ├─ 是 → 皮克斯公式
-│  └─ 否 → 三幕结构（通用）
+What is your story about?
+├─ Mainly character growth?
+│  ├─ Yes → The Hero's Journey / Story Circle
+│  └─ No → Continue
+├─ Mainly plot-driven?
+│  ├─ Yes → Seven-Point Structure / Three-Act Structure
+│  └─ No → Continue
+├─ A simple, heartwarming story?
+│  ├─ Yes → Pixar Formula
+│  └─ No → Three-Act Structure (General)
 ```
 
-## 最后建议
+## Final Advice
 
-1. **开始简单**：如果不确定，从三幕结构开始
-2. **逐步深入**：掌握一种后再尝试其他
-3. **灵活运用**：方法服务于故事，而非相反
-4. **持续学习**：每种方法都有值得学习之处
+1.  **Start simple**: If you're not sure, start with the Three-Act Structure.
+2.  **Go deeper gradually**: Master one method before trying others.
+3.  **Be flexible**: The method serves the story, not the other way around.
+4.  **Keep learning**: Every method has something to offer.
 
-记住：**最好的方法是能帮你完成作品的方法。**
+Remember: **The best method is the one that helps you finish your work.**
 
 ---
-*Novel Writer 写作方法论指南 v1.0*
-*持续更新中...*
+*Novel Writer Methodology Guide v1.0*
+*Continuously updated...*

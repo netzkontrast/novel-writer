@@ -1,167 +1,167 @@
-# 章节大纲 - 雪花方法场景规划
+# Chapter Outline - Snowflake Method Scene Planning
 
-## 作品信息
-- **书名**：[作品标题]
-- **总字数目标**：[如：30万字]
-- **章节数量**：[预计章节数]
-- **平均章节字数**：[如：3000-4000字]
+## Work Information
+- **Title**: [Work Title]
+- **Total Word Count Target**: [e.g., 300,000 words]
+- **Number of Chapters**: [Estimated number of chapters]
+- **Average Chapter Length**: [e.g., 3000-4000 words]
 
-## 雪花方法场景列表
+## Snowflake Method Scene List
 
-### 第一部分：开端设置（约25%篇幅）
+### Part One: The Beginning (approx. 25% of the story)
 
-#### 第1章：[章节标题]
-- **场景1**：[场景简述]
-  - POV角色：[视角角色]
-  - 核心事件：[发生什么]
-  - 冲突点：[场景冲突]
-  - 预计字数：[如：1500字]
+#### Chapter 1: [Chapter Title]
+- **Scene 1**: [Brief scene description]
+  - POV Character: [Point-of-view character]
+  - Core Event: [What happens]
+  - Conflict Point: [The conflict in the scene]
+  - Estimated Word Count: [e.g., 1500 words]
 
-- **场景2**：[场景简述]
-  - POV角色：[视角角色]
-  - 核心事件：[发生什么]
-  - 冲突点：[场景冲突]
-  - 预计字数：[如：2000字]
+- **Scene 2**: [Brief scene description]
+  - POV Character: [Point-of-view character]
+  - Core Event: [What happens]
+  - Conflict Point: [The conflict in the scene]
+  - Estimated Word Count: [e.g., 2000 words]
 
-#### 第2章：[章节标题]
-- **场景3**：[场景简述]
-  - POV角色：[视角角色]
-  - 核心事件：[发生什么]
-  - 冲突点：[场景冲突]
-  - 预计字数：[字数]
+#### Chapter 2: [Chapter Title]
+- **Scene 3**: [Brief scene description]
+  - POV Character: [Point-of-view character]
+  - Core Event: [What happens]
+  - Conflict Point: [The conflict in the scene]
+  - Estimated Word Count: [Word count]
 
-### 第一个灾难点
-**章节**：第[X]章
-**场景描述**：[第一个重大转折的详细描述]
-**影响**：[对后续剧情的影响]
-
----
-
-### 第二部分：发展上升（约25%篇幅）
-
-#### 第[X]章：[章节标题]
-- **场景[N]**：[场景简述]
-  - POV角色：[视角角色]
-  - 核心事件：[发生什么]
-  - 冲突点：[场景冲突]
-  - 角色发展：[角色如何变化]
-  - 预计字数：[字数]
-
-### 第二个灾难点（中点转折）
-**章节**：第[X]章
-**场景描述**：[第二个重大挫折的详细描述]
-**假性胜利/失败**：[表面的成功或挫折]
-**真实影响**：[深层的影响和改变]
+### The First Disaster
+**Chapter**: Chapter [X]
+**Scene Description**: [A detailed description of the first major turning point]
+**Impact**: [The effect on the subsequent plot]
 
 ---
 
-### 第三部分：发展下降（约25%篇幅）
+### Part Two: The Rising Action (approx. 25% of the story)
 
-#### 第[X]章：[章节标题]
-- **场景[N]**：[场景简述]
-  - POV角色：[视角角色]
-  - 核心事件：[发生什么]
-  - 内在冲突：[角色内心挣扎]
-  - 情感深度：[情感层面的描写重点]
-  - 预计字数：[字数]
+#### Chapter [X]: [Chapter Title]
+- **Scene [N]**: [Brief scene description]
+  - POV Character: [Point-of-view character]
+  - Core Event: [What happens]
+  - Conflict Point: [The conflict in the scene]
+  - Character Development: [How the character changes]
+  - Estimated Word Count: [Word count]
 
-### 第三个灾难点（至暗时刻）
-**章节**：第[X]章
-**场景描述**：[最大危机的详细描述]
-**一切似乎失去**：[主角失去了什么]
-**顿悟时刻**：[主角意识到什么]
+### The Second Disaster (The Midpoint)
+**Chapter**: Chapter [X]
+**Scene Description**: [A detailed description of the second major setback]
+**False Victory/Defeat**: [A superficial success or failure]
+**True Impact**: [The deeper consequences and changes]
 
 ---
 
-### 第四部分：高潮与结局（约25%篇幅）
+### Part Three: The Falling Action (approx. 25% of the story)
 
-#### 第[X]章：最终准备
-- **场景[N]**：[集结力量]
-  - POV角色：[视角角色]
-  - 准备内容：[做了什么准备]
-  - 团队集结：[谁参与了]
-  - 预计字数：[字数]
+#### Chapter [X]: [Chapter Title]
+- **Scene [N]**: [Brief scene description]
+  - POV Character: [Point-of-view character]
+  - Core Event: [What happens]
+  - Internal Conflict: [The character's inner struggle]
+  - Emotional Depth: [The focus of the emotional description]
+  - Estimated Word Count: [Word count]
 
-#### 第[X]章：最终对决
-- **场景[N]**：[高潮场景]
-  - POV角色：[视角角色]
-  - 对决过程：[详细的冲突过程]
-  - 转折点：[关键的转折]
-  - 解决方案：[如何解决]
-  - 预计字数：[字数]
+### The Third Disaster (The Darkest Hour)
+**Chapter**: Chapter [X]
+**Scene Description**: [A detailed description of the greatest crisis]
+**All Seems Lost**: [What the protagonist loses]
+**The Epiphany**: [What the protagonist realizes]
 
-#### 第[X]章：新的平衡
-- **场景[N]**：[收尾场景]
-  - POV角色：[视角角色]
-  - 问题解决：[各线索的收尾]
-  - 角色归宿：[各角色的结局]
-  - 余韵思考：[留给读者的思考]
-  - 预计字数：[字数]
+---
 
-## 场景统计表
+### Part Four: The Climax and Ending (approx. 25% of the story)
 
-| 部分 | 章节范围 | 场景数 | 预计字数 | 占比 |
-|------|---------|--------|----------|------|
-| 开端设置 | 1-[X] | [N]个 | [X]万字 | 25% |
-| 发展上升 | [X]-[X] | [N]个 | [X]万字 | 25% |
-| 发展下降 | [X]-[X] | [N]个 | [X]万字 | 25% |
-| 高潮结局 | [X]-[X] | [N]个 | [X]万字 | 25% |
-| **总计** | - | [总场景数] | [总字数] | 100% |
+#### Chapter [X]: Final Preparations
+- **Scene [N]**: [Gathering strength]
+  - POV Character: [Point-of-view character]
+  - Preparations: [What is being prepared]
+  - The Team Assembles: [Who is involved]
+  - Estimated Word Count: [Word count]
 
-## POV角色分配
+#### Chapter [X]: The Final Showdown
+- **Scene [N]**: [The climax scene]
+  - POV Character: [Point-of-view character]
+  - The Confrontation: [A detailed description of the conflict]
+  - The Turning Point: [The key twist]
+  - The Solution: [How it is resolved]
+  - Estimated Word Count: [Word count]
 
-| 角色名 | 负责章节 | 场景数量 | 视角特点 |
-|--------|---------|----------|----------|
-| [主角] | [章节列表] | [N]个 | [叙述风格] |
-| [配角1] | [章节列表] | [N]个 | [叙述风格] |
-| [配角2] | [章节列表] | [N]个 | [叙述风格] |
+#### Chapter [X]: The New Balance
+- **Scene [N]**: [The resolution scene]
+  - POV Character: [Point-of-view character]
+  - Problem Resolution: [Tying up all the loose ends]
+  - Character Fates: [The endings for each character]
+  - Lingering Thoughts: [What is left for the reader to ponder]
+  - Estimated Word Count: [Word count]
 
-## 节奏控制图
+## Scene Statistics Table
+
+| Part | Chapter Range | Scene Count | Estimated Word Count | Percentage |
+|---|---|---|---|---|
+| The Beginning | 1-[X] | [N] | [X]k | 25% |
+| Rising Action | [X]-[X] | [N] | [X]k | 25% |
+| Falling Action | [X]-[X] | [N] | [X]k | 25% |
+| Climax & Ending| [X]-[X] | [N] | [X]k | 25% |
+| **Total** | - | [Total Scenes] | [Total Words] | 100% |
+
+## POV Character Allocation
+
+| Character Name | Chapters | Scene Count | Narrative Style |
+|---|---|---|---|
+| [Protagonist] | [List of chapters] | [N] | [Style of narration] |
+| [Supporting 1] | [List of chapters] | [N] | [Style of narration] |
+| [Supporting 2] | [List of chapters] | [N] | [Style of narration] |
+
+## Pacing Chart
 
 ```
-紧张度曲线：
-高 |     ▲               ▲                    ▲▲▲
-   |    / \             / \                  /   \
-中 |   /   \    ___    /   \      ___      /     \
-   |  /     \  /   \  /     \    /   \    /       \
-低 |_/       \/     \/       \__/     \__/         \___
-    开端  第一灾难  上升  第二灾难  下降  第三灾难  高潮  结局
+Tension Curve:
+High|     ▲               ▲                    ▲▲▲
+    |    / \             / \                  /   \
+Mid |   /   \    ___    /   \      ___      /     \
+    |  /     \  /   \  /     \    /   \    /       \
+Low |_/       \/     \/       \__/     \__/         \___
+    Beginning 1st Disaster Rising 2nd Disaster Falling 3rd Disaster Climax Ending
 ```
 
-## 关键场景检查清单
+## Key Scene Checklist
 
-- [ ] 开场钩子：第1章是否足够吸引人？
-- [ ] 第一个灾难：是否改变了故事方向？
-- [ ] 中点转折：是否有重大反转或发现？
-- [ ] 至暗时刻：主角是否跌入谷底？
-- [ ] 高潮场景：是否所有冲突都得到解决？
-- [ ] 情感共鸣：每个关键场景是否有情感支撑？
-- [ ] 因果逻辑：场景之间的因果关系是否清晰？
-- [ ] 角色成长：主角的改变轨迹是否明显？
+- [ ] The Opening Hook: Is Chapter 1 engaging enough?
+- [ ] The First Disaster: Does it change the story's direction?
+- [ ] The Midpoint: Is there a major reversal or discovery?
+- [ ] The Darkest Hour: Does the protagonist hit rock bottom?
+- [ ] The Climax: Are all conflicts resolved?
+- [ ] Emotional Resonance: Does each key scene have emotional support?
+- [ ] Causal Logic: Is the cause-and-effect relationship between scenes clear?
+- [ ] Character Growth: Is the protagonist's transformation trajectory evident?
 
-## 写作进度追踪
+## Writing Progress Tracker
 
-| 章节 | 计划字数 | 实际字数 | 完成状态 | 完成日期 |
-|------|---------|----------|----------|----------|
-| 第1章 | [X]字 | - | 未开始 | - |
-| 第2章 | [X]字 | - | 未开始 | - |
+| Chapter | Planned Words | Actual Words | Status | Completion Date |
+|---|---|---|---|---|
+| Chapter 1 | [X] | - | Not Started | - |
+| Chapter 2 | [X] | - | Not Started | - |
 | ... | ... | ... | ... | ... |
 
-## 备注事项
+## Notes
 
-### 场景写作要点
-1. 每个场景必须有冲突或推动剧情
-2. 场景之间要有因果联系
-3. 控制节奏，张弛有度
-4. POV角色的选择要服务于信息披露
+### Scene Writing Key Points
+1. Every scene must have conflict or advance the plot.
+2. There must be a causal link between scenes.
+3. Control the pacing, with a balance of tension and release.
+4. The choice of POV character should serve the purpose of information disclosure.
 
-### 雪花方法核心提醒
-- 从简单到复杂，逐层细化
-- 保持结构的平衡（四个25%）
-- 三个灾难点递进式加强
-- 让角色驱动情节发展
+### Snowflake Method Core Reminders
+- Go from simple to complex, elaborating at each step.
+- Maintain a balanced structure (four 25% parts).
+- The three disasters should escalate in intensity.
+- Let the characters drive the plot.
 
 ---
-*创建时间：[日期]*
-*最后更新：[日期]*
-*基于：雪花十步法场景规划*
+*Created: [Date]*
+*Last Updated: [Date]*
+*Based on: The 10-Step Snowflake Method for Scene Planning*

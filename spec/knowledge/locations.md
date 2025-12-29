@@ -1,184 +1,184 @@
-# 场景地点
+# Locations
 
-## 主要场景
+## Main Locations
 
-### [场景名称]
+### [Location Name]
 
-#### 基本信息
-- **类型**：[室内/室外/自然/人工]
-- **规模**：[大型/中型/小型]
-- **位置**：[具体地理位置或相对位置]
-- **首次出现**：第X章
+#### Basic Information
+- **Type**: [Indoor/Outdoor/Natural/Man-made]
+- **Scale**: [Large/Medium/Small]
+- **Position**: [Specific geographical location or relative position]
+- **First Appearance**: Chapter X
 
-#### 环境描述
+#### Environmental Description
 
-**整体印象**：
-[用一段话描述场景给人的第一印象]
+**Overall Impression**:
+[Describe the first impression of the location in one paragraph]
 
-**视觉元素**：
-- 建筑/地形：
-- 色彩基调：
-- 光线情况：
-- 装饰风格：
+**Visual Elements**:
+- Architecture/Terrain:
+- Color Palette:
+- Lighting Conditions:
+- Decorative Style:
 
-**听觉元素**：
-- 环境音：
-- 特殊声音：
-- 音量等级：
+**Auditory Elements**:
+- Ambient Sound:
+- Special Sounds:
+- Volume Level:
 
-**嗅觉元素**：
-- 主要气味：
-- 特殊香味：
+**Olfactory Elements**:
+- Main Scent:
+- Special Fragrance:
 
-**触觉元素**：
-- 温度：
-- 湿度：
-- 材质：
+**Tactile Elements**:
+- Temperature:
+- Humidity:
+- Texture:
 
-**动态元素**：
-- 人流情况：
-- 活动类型：
-- 时间变化：
+**Dynamic Elements**:
+- Foot Traffic:
+- Types of Activities:
+- Changes Over Time:
 
-#### 功能作用
-- **剧情功能**：[推进故事/角色相遇/冲突发生]
-- **氛围营造**：[紧张/轻松/神秘/压抑]
-- **象征意义**：[如有]
+#### Functional Role
+- **Plot Function**: [Advance the story/Character encounter/Conflict occurs]
+- **Atmosphere Creation**: [Tense/Relaxed/Mysterious/Oppressive]
+- **Symbolic Meaning**: [If any]
 
-#### 重要事件
-1. **第X章**：[事件描述]
-2. **第X章**：[事件描述]
-3. **第X章**：[事件描述]
+#### Key Events
+1.  **Chapter X**: [Event Description]
+2.  **Chapter X**: [Event Description]
+3.  **Chapter X**: [Event Description]
 
-#### 相关人物
-- **常驻人物**：
-- **到访人物**：
-- **路人群像**：
-
----
-
-## 次要场景
-
-### [场景类别]
-
-| 场景名 | 位置 | 特征 | 出现章节 | 功能 |
-|--------|------|------|----------|------|
-| | | | | |
-| | | | | |
-| | | | | |
+#### Associated Characters
+- **Regulars**:
+- **Visitors**:
+- **Crowd Demographics**:
 
 ---
 
-## 场景地图
+## Minor Locations
 
-### 整体布局
+### [Location Category]
+
+| Location Name | Position | Features | Appearance (Chapter) | Function |
+|---|---|---|---|---|
+| | | | | |
+| | | | | |
+| | | | | |
+
+---
+
+## Location Map
+
+### Overall Layout
 ```
-[北]
+[North]
   ↑
-[场景A] ←→ [场景B]
+[Location A] ←→ [Location B]
   ↓          ↓
-[场景C]    [场景D]
+[Location C]    [Location D]
   ↓
-[南]
+[South]
 ```
 
-### 相对位置
-- **场景A → 场景B**：[距离/交通方式/所需时间]
-- **场景B → 场景C**：[距离/交通方式/所需时间]
-- **场景C → 场景D**：[距离/交通方式/所需时间]
+### Relative Positions
+- **Location A → Location B**: [Distance/Mode of Transport/Time Required]
+- **Location B → Location C**: [Distance/Mode of Transport/Time Required]
+- **Location C → Location D**: [Distance/Mode of Transport/Time Required]
 
 ---
 
-## 场景细节库
+## Location Detail Library
 
-### 建筑样式
-- **住宅**：
-  - 外观：
-  - 内部：
-  - 特色：
+### Architectural Styles
+- **Residential**:
+  - Exterior:
+  - Interior:
+  - Features:
 
-- **公共建筑**：
-  - 外观：
-  - 内部：
-  - 特色：
+- **Public Buildings**:
+  - Exterior:
+  - Interior:
+  - Features:
 
-### 自然景观
-- **山川**：
-- **河流**：
-- **森林**：
-- **原野**：
+### Natural Landscapes
+- **Mountains**:
+- **Rivers**:
+- **Forests**:
+- **Fields**:
 
-### 城市街道
-- **主街**：
-- **小巷**：
-- **市场**：
-- **广场**：
-
----
-
-## 场景转换规律
-
-### 章节分布
-- **第1-20章**：主要场景集中在[地点]
-- **第21-40章**：场景扩展到[地点]
-- **第41-60章**：场景转移到[地点]
-
-### 场景路线
-1. 日常路线：家 → 学校/工作地 → 家
-2. 冒险路线：起点 → 路途 → 目的地
-3. 逃亡路线：危险地 → 躲藏处 → 安全地
+### City Streets
+- **Main Street**:
+- **Alleys**:
+- **Markets**:
+- **Squares**:
 
 ---
 
-## 场景氛围营造
+## Location Transition Patterns
 
-### 欢快场景
-- **用词特点**：明亮、温暖、生机
-- **描写重点**：阳光、笑声、色彩
-- **典型场景**：节日、庆典、聚会
+### Chapter Distribution
+- **Chapters 1-20**: Main locations are concentrated in [Place]
+- **Chapters 21-40**: Locations expand to [Place]
+- **Chapters 41-60**: Locations shift to [Place]
 
-### 紧张场景
-- **用词特点**：阴暗、压抑、不安
-- **描写重点**：阴影、寂静、细节
-- **典型场景**：追逐、对峙、潜入
-
-### 神秘场景
-- **用词特点**：朦胧、诡异、未知
-- **描写重点**：雾气、光影、声响
-- **典型场景**：古迹、密室、深林
-
-### 浪漫场景
-- **用词特点**：柔和、温馨、梦幻
-- **描写重点**：月光、花香、细语
-- **典型场景**：花园、湖边、星空下
+### Scene Routes
+1.  Daily Route: Home → School/Workplace → Home
+2.  Adventure Route: Starting Point → Journey → Destination
+3.  Escape Route: Dangerous Place → Hiding Spot → Safe Place
 
 ---
 
-## 场景描写示例
+## Creating Scene Atmosphere
 
-### 示例一：古代酒楼
-"跨进门槛，扑面而来的是醇厚的酒香混合着菜肴的香味。大厅内人声鼎沸，二楼雅座隐约传来丝竹之声。朱红色的柱子撑起飞檐翘角的楼顶，墙上挂着字画，角落里摆着一架古琴..."
+### Joyful Scenes
+- **Word Choice**: Bright, warm, vibrant
+- **Descriptive Focus**: Sunlight, laughter, colors
+- **Typical Scenes**: Festivals, celebrations, parties
 
-### 示例二：现代都市夜景
-"霓虹灯勾勒出这座不夜城的轮廓，车流如河，在立交桥上蜿蜒流淌。玻璃幕墙反射着五光十色的光芒，街边的梧桐树在路灯下投下斑驳的影子..."
+### Tense Scenes
+- **Word Choice**: Dark, oppressive, uneasy
+- **Descriptive Focus**: Shadows, silence, details
+- **Typical Scenes**: Chases, confrontations, infiltrations
+
+### Mysterious Scenes
+- **Word Choice**: Hazy, eerie, unknown
+- **Descriptive Focus**: Fog, light and shadow, sounds
+- **Typical Scenes**: Ancient ruins, secret rooms, deep forests
+
+### Romantic Scenes
+- **Word Choice**: Soft, cozy, dreamlike
+- **Descriptive Focus**: Moonlight, floral scents, whispers
+- **Typical Scenes**: Gardens, lakeside, under the stars
+
+---
+
+## Scene Description Examples
+
+### Example 1: Ancient Tavern
+"Crossing the threshold, one is greeted by the rich aroma of wine mixed with the scent of cooked dishes. The main hall is bustling with noise, and from the private rooms on the second floor, the faint sound of stringed instruments can be heard. Vermilion pillars support the eaves of the roof, calligraphy and paintings hang on the walls, and an ancient zither rests in the corner..."
+
+### Example 2: Modern City Nightscape
+"Neon lights outline the silhouette of this sleepless city, with traffic flowing like a river, winding over the overpasses. Glass curtain walls reflect a kaleidoscope of colors, and the plane trees by the roadside cast mottled shadows under the streetlights..."
 
 ---
 
-## 注意事项
+## Cautions
 
-### 一致性要求
-- 场景描述前后一致
-- 距离关系保持合理
-- 季节天气符合逻辑
-- 建筑风格统一协调
+### Consistency Requirements
+- Scene descriptions must be consistent throughout.
+- Distances and relationships between places must remain reasonable.
+- Seasons and weather should be logical.
+- Architectural styles should be uniform and coordinated.
 
-### 避免问题
-- 避免场景描写过于冗长
-- 避免细节与主线无关
-- 避免场景转换生硬
-- 避免地理位置混乱
+### Problems to Avoid
+- Avoid overly lengthy scene descriptions.
+- Avoid details irrelevant to the main plot.
+- Avoid abrupt scene transitions.
+- Avoid confusing geographical locations.
 
 ---
-*创建时间：2025-09-29*
-*最后更新：2025-09-29*
-*版本：1.0*
+*Created: 2025-09-29*
+*Last Updated: 2025-09-29*
+*Version: 1.0*

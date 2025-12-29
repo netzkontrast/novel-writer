@@ -1,174 +1,152 @@
-# 章节规划：[作品标题]
+# Chapter Plan: [Work Title] - The Three-Act Structure
 
-## 整体结构
-- **总章节数**：[预计章节数，如：120章]
-- **平均章节字数**：[每章平均字数，如：3000字]
-- **预计总字数**：[总字数，如：36万字]
-- **更新计划**：[日更/周更/月更/存稿发布]
-- **预计完成时间**：[预估的完成日期]
+## Overall Structure
+- **Total Chapters**: [e.g., 120 chapters]
+- **Average Chapter Length**: [e.g., 3000 words]
+- **Estimated Total Word Count**: [e.g., 360,000 words]
+- **Narrative Framework**: The Three-Act Structure
 
-## 卷册划分
+## Act and Chapter Distribution
 
-### 第一卷：[卷名，如：觉醒篇]
-- **主题**：[本卷的核心主题]
-- **章节范围**：第1-30章
-- **预计字数**：9万字
-- **情节概要**：[本卷主要剧情]
-- **核心冲突**：[本卷的主要矛盾]
-- **结局钩子**：[引出下一卷的悬念]
-
-### 第二卷：[卷名]
-- **主题**：[本卷的核心主题]
-- **章节范围**：第31-60章
-- **预计字数**：9万字
-- **情节概要**：[本卷主要剧情]
-- **核心冲突**：[本卷的主要矛盾]
-- **结局钩子**：[引出下一卷的悬念]
-
-### 第三卷：[卷名]
-- **主题**：[本卷的核心主题]
-- **章节范围**：第61-90章
-- **预计字数**：9万字
-- **情节概要**：[本卷主要剧情]
-- **核心冲突**：[本卷的主要矛盾]
-- **结局钩子**：[引出下一卷的悬念]
-
-### 第四卷：[卷名，如：终章]
-- **主题**：[本卷的核心主题]
-- **章节范围**：第91-120章
-- **预计字数**：9万字
-- **情节概要**：[本卷主要剧情]
-- **核心冲突**：[本卷的主要矛盾]
-- **大结局**：[故事的最终结局]
-
-## 详细章节大纲
-
-### 第一卷详细大纲
-
-#### 第1章：[章节标题]
-- **视角人物**：[本章的叙述视角，如：主角/配角名]
-- **时间地点**：[具体的时空设置]
-- **章节摘要**：[50字以内的内容概括]
-- **主要事件**：
-  1. [事件1]
-  2. [事件2]
-  3. [事件3]
-- **角色登场**：[新登场的角色]
-- **角色发展**：[角色在本章的变化]
-- **情节功能**：[推进主线/铺设伏笔/角色成长/世界观展示]
-- **伏笔设置**：[如有]
-- **回收伏笔**：[如有]
-- **情绪基调**：[紧张/轻松/悲伤/热血/神秘]
-- **关键对话**：[重要台词提示]
-- **字数目标**：3000字
-
-#### 第2章：[章节标题]
-[按照第1章的格式继续...]
-
-#### 第3章：[章节标题]
-[继续...]
-
-[...更多章节，建议至少详细规划前10章]
-
-## 节奏控制
-
-### 整体节奏规划
-- **慢热期**：第1-5章（世界观铺垫，角色介绍）
-- **渐入佳境**：第6-15章（冲突显现，剧情推进）
-- **第一波高潮**：第16-20章（首个重大冲突）
-- **调整期**：第21-30章（深化角色，埋设伏笔）
-- **中段爆发**：第31-40章（重大转折）
-- **持续推进**：第41-60章（多线并进）
-- **危机深化**：第61-80章（困境叠加）
-- **反转期**：第81-90章（局势逆转）
-- **决战准备**：第91-100章（最终集结）
-- **最终高潮**：第101-115章（终极对决）
-- **尾声**：第116-120章（收束与余韵）
-
-### 情节密度分布
-- **高密度章节**：[列出情节紧凑的章节]
-- **中密度章节**：[列出正常推进的章节]
-- **低密度章节**：[列出节奏舒缓的章节]
-
-### 情感曲线
-- **泪点章节**：[让读者感动的章节]
-- **燃点章节**：[让读者热血的章节]
-- **笑点章节**：[轻松幽默的章节]
-- **虐点章节**：[让读者揪心的章节]
-
-## 悬念与伏笔管理
-
-### 主要悬念线
-1. **悬念1**：[悬念描述]
-   - 设置章节：第X章
-   - 暗示章节：第X, X, X章
-   - 揭示章节：第X章
-
-2. **悬念2**：[悬念描述]
-   - 设置章节：第X章
-   - 暗示章节：第X, X章
-   - 揭示章节：第X章
-
-### 伏笔清单
-| 伏笔 | 埋设章节 | 回收章节 | 重要度 |
-|------|----------|----------|--------|
-| [伏笔1] | 第X章 | 第X章 | 高 |
-| [伏笔2] | 第X章 | 第X章 | 中 |
-| [伏笔3] | 第X章 | 第X章 | 低 |
-
-## 角色出场与发展
-
-### 角色登场顺序
-1. 第1章：[主角]
-2. 第2章：[配角1]
-3. 第5章：[配角2]
-[...]
-
-### 角色成长节点
-- **主角**：
-  - 第10章：[第一次成长]
-  - 第30章：[重要转变]
-  - 第60章：[关键觉醒]
-  - 第90章：[最终蜕变]
-
-- **配角1**：
-  - 第15章：[性格展现]
-  - 第40章：[关系深化]
-  [...]
-
-## 场景转换
-
-### 主要场景
-1. **场景A**：第1-20章
-2. **场景B**：第15-35章
-3. **场景C**：第30-50章
-[场景可以有重叠]
-
-### 场景特色
-- **场景A特点**：[环境特征、氛围]
-- **场景B特点**：[环境特征、氛围]
-- **场景C特点**：[环境特征、氛围]
-
-## 写作重点提醒
-
-### 需要重点描写的章节
-- 第1章：世界观展示，吸引读者
-- 第10章：第一个小高潮
-- 第30章：第一卷结尾
-[...]
-
-### 容易出现的问题
-- 注意保持角色性格一致性
-- 避免设定前后矛盾
-- 控制好信息释放节奏
-- 平衡对话与叙述比例
-
-## 修订记录
-- [日期]：创建初始大纲
-- [日期]：调整第X-X章顺序
-- [日期]：增加XX角色线
-- [日期]：修改结局设计
+| Act | Plot Point | Chapters | Word Count | Percentage |
+|---|---|---|---|---|
+| **Act One** | The Setup | 1-30 | 90,000 | 25% |
+| | *Inciting Incident* | *Ch. 15* | | |
+| | *Plot Point 1* | *Ch. 30* | | |
+| **Act Two** | The Confrontation | 31-90 | 180,000 | 50% |
+| | *Rising Action* | *31-60* | | |
+| | *Midpoint* | *Ch. 60* | | |
+| | *Action intensifies* | *61-90* | | |
+| | *Plot Point 2* | *Ch. 90* | | |
+| **Act Three**| The Resolution | 91-120 | 90,000 | 25% |
+| | *Climax* | *91-110* | | |
+| | *Resolution* | *111-120* | | |
 
 ---
-*最后更新：[日期]*
-*版本：1.0*
+
+## Detailed Chapter Plan
+
+### Act One: The Setup (Chapters 1-30)
+**Goal**: Introduce the protagonist and their world, and present the core conflict.
+
+#### Part 1: The Ordinary World (Chapters 1-14)
+- **Core Task**: Establish the protagonist's normal life and hint at their inner lack.
+- **Chapter 1-5**: Introduce the protagonist, their environment, and key relationships.
+- **Chapter 6-10**: Show the daily routine and the protagonist's dissatisfaction.
+- **Chapter 11-14**: Foreshadow the coming change.
+
+#### Part 2: The Inciting Incident (Chapter 15)
+- **Core Task**: An event that disrupts the protagonist's world and cannot be ignored.
+- **Key Event**: [A specific event that changes everything]
+- **Protagonist's Reaction**: Initial resistance or hesitation.
+- **The Stakes**: What is at risk?
+
+#### Part 3: The Debate (Chapters 16-29)
+- **Core Task**: The protagonist struggles with whether to act.
+- **Chapter 16-20**: The protagonist tries to return to normal, but fails.
+- **Chapter 21-25**: External pressure increases.
+- **Chapter 26-29**: The protagonist makes a choice and prepares to act.
+
+#### Part 4: Plot Point 1 (Chapter 30)
+- **Core Task**: The protagonist makes an irreversible decision and enters a new world.
+- **The Decision**: [The protagonist's choice]
+- **The New World**: What is the new environment or situation?
+- **End of Act One**: There is no going back.
+
+---
+
+### Act Two: The Confrontation (Chapters 31-90)
+**Goal**: The protagonist learns to navigate the new world, facing escalating challenges.
+
+#### Part 1: Rising Action (Chapters 31-59)
+- **Core Task**: The protagonist learns the new rules and faces a series of challenges.
+- **Chapter 31-40**: First attempts and initial failures, learning the ropes.
+- **Chapter 41-50**: Meeting allies and enemies, the B-story begins.
+- **Chapter 51-59**: A series of escalating successes and failures.
+
+#### Part 2: The Midpoint (Chapter 60)
+- **Core Task**: A major turning point that changes the direction of the story.
+- **The Event**: [A false victory/defeat, a major revelation]
+- **The Shift**: The protagonist goes from reactive to proactive.
+- **The Stakes are Raised**: The consequences become more severe.
+
+#### Part 3: Action Intensifies (Chapters 61-89)
+- **Core Task**: The protagonist takes the initiative, but faces greater obstacles.
+- **Chapter 61-70**: The protagonist makes a new plan and takes action.
+- **Chapter 71-80**: The antagonist strikes back, leading to the protagonist's lowest point.
+- **Chapter 81-89**: A glimmer of hope, the protagonist finds new strength or information.
+
+#### Part 4: Plot Point 2 (Chapter 90)
+- **Core Task**: The protagonist hits rock bottom but finds the key to the final battle.
+- **The Darkest Hour**: All seems lost.
+- **The Epiphany**: [A crucial realization]
+- **The Final Plan**: The protagonist decides to face the antagonist head-on.
+
+---
+
+### Act Three: The Resolution (Chapters 91-120)
+**Goal**: The conflict reaches its peak, and the story comes to a conclusion.
+
+#### Part 1: The Pre-Climax (Chapters 91-100)
+- **Core Task**: Final preparations for the ultimate confrontation.
+- **Chapter 91-95**: Gathering allies and resources.
+- **Chapter 96-100**: The calm before the storm, final goodbyes.
+
+#### Part 2: The Climax (Chapters 101-110)
+- **Core Task**: The final battle between the protagonist and the antagonist.
+- **Chapter 101-105**: The final confrontation begins, a series of twists.
+- **Chapter 106-110**: The decisive moment, the conflict is resolved.
+
+#### Part 3: The Resolution (Chapters 111-120)
+- **Core Task**: Tying up loose ends and showing the new world.
+- **Chapter 111-115**: The immediate aftermath of the climax.
+- **Chapter 116-120**: The new normal, the protagonist's final state, and a hint of the future.
+
+## Pacing Chart
+
+```
+Plot Intensity
+    ^
+100 |                              / \
+    |                             /   \
+ 90 |                            /     \ Climax
+    |                           /       \
+ 80 |      ______________/         \
+    |     /  Midpoint           \
+ 70 |    /                       \
+    |   /                         \ Plot Point 2
+ 60 |  /                           \
+ 50 | / Plot Point 1                \
+ 40 |/
+ 30 |
+ 20 |Inciting Incident
+ 10 |/
+ 0  +--------------------------------------------------> Time
+    Act One (25%)      Act Two (50%)          Act Three (25%)
+```
+
+## Subplot (B-Story) Plan
+
+- **Introduction**: Chapters 35-40 (Act Two)
+- **Development**: Chapters 41-70
+- **Connection to Main Plot**: How the B-story influences the main plot at Plot Point 2.
+- **Resolution**: Chapters 111-115
+
+## Character Arc
+
+| Act | Protagonist's State | Key Change |
+|---|---|---|
+| **Act One** | Living in a lie, incomplete | Forced to face reality |
+| **Act Two** | Learning and struggling | Grows in skill and understanding |
+| **Act Three**| Master of their own destiny | Completes the transformation |
+
+## Thematic Development
+
+- **Act One**: The theme is introduced as a question.
+- **Act Two**: The theme is explored from different angles.
+- **Act Three**: The theme is answered through the protagonist's actions.
+
+---
+*Last Updated: [Date]*
+*Framework: The Three-Act Structure*
+*Version: 1.0*

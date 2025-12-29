@@ -1,350 +1,350 @@
-# 章节规划：[作品标题] - 皮克斯公式
+# Chapter Plan: [Work Title] - The Pixar Formula
 
-## 整体结构
-- **总章节数**：25章
-- **平均章节字数**：1000-1200字
-- **预计总字数**：2.5-3万字
-- **叙事框架**：皮克斯6步公式
-- **创作特点**：简洁、温暖、有力
+## Overall Structure
+- **Total Chapters**: 25
+- **Average Chapter Length**: 1000-1200 words
+- **Estimated Total Word Count**: 25,000-30,000 words
+- **Narrative Framework**: The 6-step Pixar Formula
+- **Creative Style**: Concise, warm, powerful
 
-## 公式分配
+## Formula Allocation
 
-| 步骤 | 章节数 | 比例 | 字数 |
-|------|--------|------|------|
-| 1.从前有一个 | 2-3章 | 10% | 2500-3000字 |
-| 2.每天 | 3-4章 | 15% | 3750-4500字 |
-| 3.直到有一天 | 5章 | 20% | 5000-6000字 |
-| 4.因为这个 | 5章 | 20% | 5000-6000字 |
-| 5.因为那个 | 5章 | 20% | 5000-6000字 |
-| 6.最终 | 3-4章 | 15% | 3750-4500字 |
+| Step | Chapters | Proportion | Word Count |
+|---|---|---|---|
+| 1. Once upon a time | 2-3 | 10% | 2500-3000 |
+| 2. Every day | 3-4 | 15% | 3750-4500 |
+| 3. Until one day | 5 | 20% | 5000-6000 |
+| 4. Because of that | 5 | 20% | 5000-6000 |
+| 5. Because of that | 5 | 20% | 5000-6000 |
+| 6. Until finally | 3-4 | 15% | 3750-4500 |
 
-## 详细章节规划
+## Detailed Chapter Plan
 
-### 【Part 1】从前有一个（第1-2章）
+### [Part 1] Once upon a time (Chapters 1-2)
 
-#### 第1章：开场
-**公式位置**：从前有一个 - 建立
-**核心任务**：
-- [ ] 第一句话吸引读者
-- [ ] 介绍主角
-- [ ] 展示独特世界
-**内容要点**：
-- 主角登场：外表、性格、特点
-- 环境描写：时间、地点、氛围
-- 初始状态：主角的起点
-**情感目标**：好奇、认同
-**字数目标**：1200字
+#### Chapter 1: The Opening
+**Formula Step**: Once upon a time - Establish
+**Core Tasks**:
+- [ ] Hook the reader with the first sentence
+- [ ] Introduce the protagonist
+- [ ] Showcase the unique world
+**Content Points**:
+- Protagonist's introduction: appearance, personality, traits
+- Setting description: time, place, atmosphere
+- Initial state: the protagonist's starting point
+**Emotional Goal**: Curiosity, identification
+**Word Count Target**: 1200 words
 
-#### 第2章：深化
-**公式位置**：从前有一个 - 深化
-**内容要点**：
-- 主角的内心世界
-- 重要的物品/地点
-- 暗示的不完整
-**情感目标**：理解、同情
-**字数目标**：1300字
-
----
-
-### 【Part 2】每天（第3-6章）
-
-#### 第3章：日常开始
-**公式位置**：每天 - 展示
-**内容要点**：
-- 早晨的例行活动
-- 日常的第一个场景
-- 重复性的行为模式
-**关键细节**：展示稳定但有缺憾
-**字数目标**：1000字
-
-#### 第4章：日常继续
-**内容要点**：
-- 与他人的互动（或缺乏）
-- 工作/活动的场景
-- 小快乐和小烦恼
-**字数目标**：1000字
-
-#### 第5章：日常深入
-**内容要点**：
-- 独处时的想法
-- 未满足的渴望
-- 习以为常的遗憾
-**字数目标**：1200字
-
-#### 第6章：平静前夕
-**公式位置**：每天 - 铺垫
-**内容要点**：
-- 又一个普通日子
-- 微妙的不安感
-- 改变的征兆
-**转折准备**：为"有一天"做铺垫
-**字数目标**：1250字
+#### Chapter 2: Deepening
+**Formula Step**: Once upon a time - Deepen
+**Content Points**:
+- The protagonist's inner world
+- An important object/place
+- A hint of incompleteness
+**Emotional Goal**: Understanding, sympathy
+**Word Count Target**: 1300 words
 
 ---
 
-### 【Part 3】直到有一天（第7-11章）
+### [Part 2] Every day (Chapters 3-6)
 
-#### 第7章：打破平静
-**公式位置**：直到有一天 - 触发
-**关键事件**：[具体的意外事件]
-**内容要点**：
-- 意外的发生
-- 主角的震惊
-- 立即的反应
-**情感转折**：从平静到惊讶
-**字数目标**：1200字
+#### Chapter 3: The Routine Begins
+**Formula Step**: Every day - Showcase
+**Content Points**:
+- The morning routine
+- The first scene of the day
+- Repetitive behavioral patterns
+**Key Detail**: Show stability with a flaw
+**Word Count Target**: 1000 words
 
-#### 第8章：初始应对
-**内容要点**：
-- 尝试理解发生的事
-- 第一个应对行动
-- 意识到不同
-**字数目标**：1200字
+#### Chapter 4: The Routine Continues
+**Content Points**:
+- Interaction with others (or lack thereof)
+- Work/activity scene
+- Small joys and minor annoyances
+**Word Count Target**: 1000 words
 
-#### 第9章：接受改变
-**内容要点**：
-- 无法回到从前
-- 必须面对新情况
-- 初步的适应
-**字数目标**：1200字
+#### Chapter 5: The Routine In-depth
+**Content Points**:
+- Thoughts when alone
+- Unfulfilled desires
+- Regrets that have become habit
+**Word Count Target**: 1200 words
 
-#### 第10章：新的可能
-**内容要点**：
-- 发现机会
-- 看到希望
-- 开始行动
-**字数目标**：1200字
-
-#### 第11章：投入其中
-**公式位置**：直到有一天 - 深入
-**内容要点**：
-- 全心投入改变
-- 新的体验
-- 初步的成果
-**过渡功能**：连接到第一个"因为"
-**字数目标**：1200字
+#### Chapter 6: The Calm Before
+**Formula Step**: Every day - Foreshadow
+**Content Points**:
+- Another ordinary day
+- A subtle sense of unease
+- A sign of change
+**Transition Prep**: Pave the way for "Until one day"
+**Word Count Target**: 1250 words
 
 ---
 
-### 【Part 4】因为这个（第12-16章）
+### [Part 3] Until one day (Chapters 7-11)
 
-#### 第12章：连锁反应开始
-**公式位置**：因为这个 - 开始
-**内容要点**：
-- 改变带来的直接后果
-- 影响扩散
-- 新的挑战出现
-**因果关系**：明确的cause-effect
-**字数目标**：1200字
+#### Chapter 7: Breaking the Calm
+**Formula Step**: Until one day - The Trigger
+**Key Event**: [A specific unexpected event]
+**Content Points**:
+- The unexpected happens
+- The protagonist's shock
+- Immediate reaction
+**Emotional Turning Point**: From calm to surprise
+**Word Count Target**: 1200 words
 
-#### 第13章：深入影响
-**内容要点**：
-- 更多人被影响
-- 关系的改变
-- 意外的发展
-**字数目标**：1000字
+#### Chapter 8: Initial Response
+**Content Points**:
+- Trying to understand what happened
+- The first responsive action
+- Realizing things are different
+**Word Count Target**: 1200 words
 
-#### 第14章：困难出现
-**内容要点**：
-- 遇到阻力
-- 事情变复杂
-- 需要更多努力
-**字数目标**：1200字
+#### Chapter 9: Accepting the Change
+**Content Points**:
+- Can't go back to the way things were
+- Must face the new situation
+- Initial adaptation
+**Word Count Target**: 1200 words
 
-#### 第15章：努力应对
-**内容要点**：
-- 寻找解决方案
-- 获得帮助
-- 小的成功
-**字数目标**：1200字
+#### Chapter 10: New Possibilities
+**Content Points**:
+- Discovering an opportunity
+- Seeing hope
+- Starting to act
+**Word Count Target**: 1200 words
 
-#### 第16章：新的发现
-**公式位置**：因为这个 - 深化
-**内容要点**：
-- 理解深化
-- 能力提升
-- 为下一步做准备
-**过渡功能**：引向第二个"因为"
-**字数目标**：1200字
-
----
-
-### 【Part 5】因为那个（第17-21章）
-
-#### 第17章：升级
-**公式位置**：因为那个 - 升级
-**内容要点**：
-- 更大的影响
-- 更高的stakes
-- 更深的投入
-**冲突加剧**：压力增大
-**字数目标**：1200字
-
-#### 第18章：危机降临
-**内容要点**：
-- 最大的挑战
-- 似乎要失败
-- 最困难时刻
-**情感低谷**：绝望、恐惧
-**字数目标**：1200字
-
-#### 第19章：内心挣扎
-**内容要点**：
-- 自我怀疑
-- 回顾过往
-- 寻找勇气
-**字数目标**：1000字
-
-#### 第20章：关键认识
-**内容要点**：
-- 顿悟时刻
-- 找到关键
-- 新的理解
-**转机出现**：希望重燃
-**字数目标**：1200字
-
-#### 第21章：最后努力
-**公式位置**：因为那个 - 冲刺
-**内容要点**：
-- 集结所有力量
-- 最后的尝试
-- 向目标冲刺
-**情感高潮**：决心、勇气
-**字数目标**：1200字
+#### Chapter 11: Diving In
+**Formula Step**: Until one day - Deepen
+**Content Points**:
+- Fully committing to the change
+- New experiences
+- Initial results
+**Transition Function**: Connect to the first "Because of that"
+**Word Count Target**: 1200 words
 
 ---
 
-### 【Part 6】最终（第22-25章）
+### [Part 4] Because of that (Chapters 12-16)
 
-#### 第22章：高潮
-**公式位置**：最终 - 解决
-**内容要点**：
-- 关键对决/时刻
-- 运用所学
-- 突破成功
-**冲突解决**：主要问题解决
-**字数目标**：1200字
+#### Chapter 12: The Chain Reaction Begins
+**Formula Step**: Because of that - The Beginning
+**Content Points**:
+- The direct consequences of the change
+- The impact spreads
+- New challenges arise
+**Causality**: A clear cause-and-effect
+**Word Count Target**: 1200 words
 
-#### 第23章：新平衡
-**内容要点**：
-- 尘埃落定
-- 改变确立
-- 关系重塑
-**字数目标**：1000字
+#### Chapter 13: Deeper Impact
+**Content Points**:
+- More people are affected
+- Relationships change
+- Unexpected developments
+**Word Count Target**: 1000 words
 
-#### 第24章：回望
-**内容要点**：
-- 对比最初
-- 成长明显
-- 感恩所得
-**情感满足**：温暖、满足
-**字数目标**：1000字
+#### Chapter 14: Difficulties Arise
+**Content Points**:
+- Encountering resistance
+- Things get complicated
+- More effort is needed
+**Word Count Target**: 1200 words
 
-#### 第25章：新的每天
-**公式位置**：最终 - 余韵
-**内容要点**：
-- 新的日常
-- 持续影响
-- 未来可能
-**主题升华**：故事的意义
-**结尾方式**：温暖而有余味
-**字数目标**：1250字
+#### Chapter 15: Trying to Cope
+**Content Points**:
+- Looking for solutions
+- Getting help
+- A small success
+**Word Count Target**: 1200 words
 
-## 情感节奏图
+#### Chapter 16: A New Discovery
+**Formula Step**: Because of that - Deepen
+**Content Points**:
+- A deeper understanding
+- An increase in ability
+- Preparing for the next step
+**Transition Function**: Lead to the second "Because of that"
+**Word Count Target**: 1200 words
+
+---
+
+### [Part 5] Because of that (Chapters 17-21)
+
+#### Chapter 17: Escalation
+**Formula Step**: Because of that - Escalate
+**Content Points**:
+- A bigger impact
+- Higher stakes
+- Deeper commitment
+**Conflict Intensifies**: Pressure increases
+**Word Count Target**: 1200 words
+
+#### Chapter 18: The Crisis
+**Content Points**:
+- The biggest challenge
+- It seems like they will fail
+- The most difficult moment
+**Emotional Low Point**: Despair, fear
+**Word Count Target**: 1200 words
+
+#### Chapter 19: Inner Struggle
+**Content Points**:
+- Self-doubt
+- Reflecting on the past
+- Finding courage
+**Word Count Target**: 1000 words
+
+#### Chapter 20: The Key Realization
+**Content Points**:
+- The "aha" moment
+- Finding the key
+- A new understanding
+**Turning Point**: Hope is rekindled
+**Word Count Target**: 1200 words
+
+#### Chapter 21: The Final Push
+**Formula Step**: Because of that - The Sprint
+**Content Points**:
+- Gathering all strength
+- The final attempt
+- Sprinting towards the goal
+**Emotional Climax**: Determination, courage
+**Word Count Target**: 1200 words
+
+---
+
+### [Part 6] Until finally (Chapters 22-25)
+
+#### Chapter 22: The Climax
+**Formula Step**: Until finally - The Resolution
+**Content Points**:
+- The key showdown/moment
+- Applying what was learned
+- A successful breakthrough
+**Conflict Resolution**: The main problem is solved
+**Word Count Target**: 1200 words
+
+#### Chapter 23: The New Balance
+**Content Points**:
+- The dust settles
+- The change is established
+- Relationships are redefined
+**Word Count Target**: 1000 words
+
+#### Chapter 24: Looking Back
+**Content Points**:
+- Contrasting with the beginning
+- The growth is evident
+- Grateful for what was gained
+**Emotional Satisfaction**: Warmth, contentment
+**Word Count Target**: 1000 words
+
+#### Chapter 25: A New Every Day
+**Formula Step**: Until finally - The Afterglow
+**Content Points**:
+- The new routine
+- The lasting impact
+- Future possibilities
+**Thematic Climax**: The meaning of the story
+**Ending Style**: Warm and resonant
+**Word Count Target**: 1250 words
+
+## Emotional Pacing Chart
 
 ```
-情感强度
+Emotional Intensity
     ↑
-高  |           ☆因为那个
+High|           ☆ Because of that
     |          /│\
-    |         / │ \☆最终
-中  |     ☆  /  │  \
-    |   因为这个│   \
+    |         / │ \☆ Until finally
+Mid |     ☆  /  │  \
+    | Because of that│   \
     |    /     │    \
-低  |☆__/      │     \__
-    |从前  每天 │有一天
+Low |☆__/      │     \__
+    |Once  Every day │ Until one day
     └─────────────────────→
      1    6   11  16   21  25
-           章节进度
+           Chapter Progress
 ```
 
-## 因果链条检查
+## Causal Chain Check
 
-确保每个"因为"都逻辑清晰：
+Ensure that each "Because of that" is logically clear:
 
-1. **有一天**（第7-11章）
-   ↓ 导致
-2. **因为这个**（第12-16章）
-   ↓ 进而导致
-3. **因为那个**（第17-21章）
-   ↓ 最终导致
-4. **最终**（第22-25章）
+1.  **Until one day** (Chapters 7-11)
+    ↓ leads to
+2.  **Because of that** (Chapters 12-16)
+    ↓ which in turn leads to
+3.  **Because of that** (Chapters 17-21)
+    ↓ which finally leads to
+4.  **Until finally** (Chapters 22-25)
 
-## 简洁性控制
+## Simplicity Control
 
-### 每章控制点
-- **描写**：不超过30%
-- **对话**：保持在40-50%
-- **叙事**：推进剧情20-30%
-- **内心**：点到即止
+### Per-Chapter Control Points
+- **Description**: No more than 30%
+- **Dialogue**: Keep at 40-50%
+- **Narration**: Advancing the plot 20-30%
+- **Internal Monologue**: Brief and to the point
 
-### 语言风格
-- 简单句为主
-- 避免复杂修辞
-- 情感直接表达
-- 画面感强
+### Language Style
+- Mainly simple sentences
+- Avoid complex rhetoric
+- Express emotions directly
+- Highly visual
 
-## 儿童友好度检查（如适用）
+## Child-Friendliness Check (if applicable)
 
-- [ ] 词汇适龄
-- [ ] 句子不太长
-- [ ] 概念易理解
-- [ ] 有画面感
-- [ ] 正面价值观
+- [ ] Age-appropriate vocabulary
+- [ ] Sentences are not too long
+- [ ] Concepts are easy to understand
+- [ ] Highly visual
+- [ ] Positive values
 
-## 一句话章节概要
+## One-Sentence Chapter Summaries
 
-1. 从前有一个___________
-2. 他/她的特点是_________
-3. 每天都_______________
-4. 日子重复着___________
-5. 内心渴望_____________
-6. 平静的最后一天_______
-7. 突然________________
-8. 不得不______________
-9. 开始尝试____________
-10. 发现_______________
-11. 投入其中___________
-12. 因此引发___________
-13. 影响扩大___________
-14. 遇到困难___________
-15. 努力克服___________
-16. 有了进展___________
-17. 更大挑战___________
-18. 陷入危机___________
-19. 内心挣扎___________
-20. 找到关键___________
-21. 最后一搏___________
-22. 终于成功___________
-23. 一切改变___________
-24. 回首来路___________
-25. 新的开始___________
+1.  Once upon a time, there was a...
+2.  His/Her special trait was...
+3.  Every day, he/she would...
+4.  The days were repetitive...
+5.  But deep down, he/she longed for...
+6.  The last day of calm...
+7.  Suddenly...
+8.  And he/she had to...
+9.  He/She began to try...
+10. And discovered that...
+11. He/She dove in...
+12. Because of that, it caused...
+13. The impact grew...
+14. And he/she ran into trouble...
+15. He/She worked hard to overcome it...
+16. And made some progress...
+17. But a bigger challenge arose...
+18. He/She fell into a crisis...
+19. And struggled internally...
+20. Until he/she found the key...
+21. He/She gave it one last push...
+22. And finally succeeded...
+23. Everything changed...
+24. Looking back on the journey...
+25. A new beginning...
 
-## 快速写作模板
+## Quick Writing Template
 
-每章可以用这个模板快速展开：
+Each chapter can be quickly outlined with this template:
 
 ```
-第X章：[标题]
-开头句：_______________（吸引）
-场景：_________________（画面）
-事件：_________________（推进）
-对话：_________________（展示）
-转折：_________________（改变）
-结尾句：_______________（钩子）
+Chapter X: [Title]
+Opening Sentence: _______________ (Hook)
+Scene: _________________ (Visual)
+Event: _________________ (Progress)
+Dialogue: _________________ (Exposition)
+Turning Point: _________________ (Change)
+Ending Sentence: _______________ (Hook)
 ```
 
 ---
-*最后更新：[日期]*
-*框架：皮克斯公式*
-*版本：1.0*
+*Last Updated: [Date]*
+*Framework: The Pixar Formula*
+*Version: 1.0*

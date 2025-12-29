@@ -1,137 +1,137 @@
-# 角色语言档案
+# Character Language Archive
 
-## 语言风格设定
+## Language Style Settings
 
-### [主角姓名]
+### [Protagonist's Name]
 
-#### 基本语言特征
-- **语调**：[平和/激昂/冷静/活泼]
-- **语速**：[快/中/慢]
-- **音色**：[清脆/浑厚/沙哑/温柔]
-- **语言水平**：[文雅/通俗/粗俗]
+#### Basic Language Characteristics
+- **Tone**: [Calm/Passionate/Cool/Lively]
+- **Speed**: [Fast/Medium/Slow]
+- **Timbre**: [Crisp/Rich/Hoarse/Gentle]
+- **Language Level**: [Elegant/Vernacular/Vulgar]
 
-#### 说话习惯
-- **口头禅**：
-  - "[常用词句1]"
-  - "[常用词句2]"
-  - "[常用词句3]"
+#### Speaking Habits
+- **Catchphrases**:
+  - "[Common Phrase 1]"
+  - "[Common Phrase 2]"
+  - "[Common Phrase 3]"
 
-- **称呼习惯**：
-  - 对长辈：[如：您、先生、大人]
-  - 对平辈：[如：兄台、朋友、哥们]
-  - 对晚辈：[如：小朋友、孩子、小家伙]
-  - 自称：[如：我、本人、在下、本座]
+- **Addressing Habits**:
+  - To elders: [e.g., Sir, Master]
+  - To peers: [e.g., Brother, friend, buddy]
+  - To juniors: [e.g., Kid, child, little one]
+  - Self-reference: [e.g., I, myself, this humble one]
 
-#### 语言模式
-- **陈述句式**：
-  - 示例："[典型的陈述语句]"
+#### Language Patterns
+- **Declarative Sentences**:
+  - Example: "[Typical declarative statement]"
 
-- **疑问句式**：
-  - 示例："[典型的疑问语句]"
+- **Interrogative Sentences**:
+  - Example: "[Typical interrogative statement]"
 
-- **感叹句式**：
-  - 示例："[典型的感叹语句]"
+- **Exclamatory Sentences**:
+  - Example: "[Typical exclamatory statement]"
 
-#### 情绪表达
-- **高兴时**："[表达高兴的典型语句]"
-- **愤怒时**："[表达愤怒的典型语句]"
-- **悲伤时**："[表达悲伤的典型语句]"
-- **紧张时**："[表达紧张的典型语句]"
-- **思考时**："[思考时的语言特征]"
+#### Emotional Expression
+- **When happy**: "[Typical phrase for expressing happiness]"
+- **When angry**: "[Typical phrase for expressing anger]"
+- **When sad**: "[Typical phrase for expressing sadness]"
+- **When nervous**: "[Typical phrase for expressing nervousness]"
+- **When thinking**: "[Language characteristics during thought]"
 
-#### 特殊用语
-- **专业术语**：[根据角色背景的专业用语]
-- **方言俚语**：[地域特色用语]
-- **时代用语**：[符合时代背景的用语]
-
----
-
-### [配角姓名]
-
-#### 语言标签
-- **一句话特征**：[用一句话概括语言风格]
-- **关键词**：[3-5个关键词]
-
-#### 典型对话
-- **打招呼**："[见面时的典型招呼语]"
-- **告别语**："[分别时的典型话语]"
-- **口头禅**："[最常说的话]"
-
-#### 与主角对话模式
-- **初期**：[陌生/客气/疏远]
-- **中期**：[熟悉/亲近/信任]
-- **后期**：[亲密/依赖/知己]
+#### Special Vocabulary
+- **Jargon**: [Professional terms based on character's background]
+- **Dialect/Slang**: [Regional-specific terms]
+- **Period-specific Language**: [Terms appropriate to the historical setting]
 
 ---
 
-## 对话范例库
+### [Supporting Character's Name]
 
-### 场景一：[初次见面]
-**主角**："[对话内容]"
-**配角A**："[对话内容]"
-**主角**："[对话内容]"
+#### Language Tags
+- **One-sentence summary**: [Summarize the language style in one sentence]
+- **Keywords**: [3-5 keywords]
 
-### 场景二：[冲突对峙]
-**主角**："[对话内容]"
-**反派**："[对话内容]"
-**主角**："[对话内容]"
+#### Typical Dialogue
+- **Greeting**: "[Typical greeting upon meeting]"
+- **Farewell**: "[Typical words upon parting]"
+- **Catchphrase**: "[Most frequently said phrase]"
 
-### 场景三：[情感交流]
-**主角**："[对话内容]"
-**爱人**："[对话内容]"
-**主角**："[对话内容]"
-
----
-
-## 语言演变记录
-
-### 主角语言成长
-1. **初期**（第1-20章）
-   - 特征：青涩、不自信
-   - 示例："我...我不太确定..."
-
-2. **中期**（第21-60章）
-   - 特征：逐渐成熟、自信
-   - 示例："我认为应该这样做。"
-
-3. **后期**（第61章后）
-   - 特征：成熟、有威严
-   - 示例："听我号令，立即行动！"
+#### Dialogue Pattern with Protagonist
+- **Initial**: [Unfamiliar/Polite/Distant]
+- **Middle**: [Familiar/Close/Trusting]
+- **Late**: [Intimate/Reliant/Confidant]
 
 ---
 
-## 语言禁忌
+## Dialogue Example Library
 
-### 避免事项
-- **现代用语混入古代背景**
-  - 错误示例："OK"、"拜拜"、"哇塞"
-  - 正确示例："好"、"告辞"、"天哪"
+### Scene 1: [First Meeting]
+**Protagonist**: "[Dialogue content]"
+**Supporting Character A**: "[Dialogue content]"
+**Protagonist**: "[Dialogue content]"
 
-- **性格不符的语言**
-  - 文雅角色避免粗话
-  - 粗犷角色避免文绉绉
-  - 儿童避免成人化语言
+### Scene 2: [Conflict/Confrontation]
+**Protagonist**: "[Dialogue content]"
+**Antagonist**: "[Dialogue content]"
+**Protagonist**: "[Dialogue content]"
 
-- **地域错配**
-  - 北方人避免南方方言
-  - 古代人避免外来语
+### Scene 3: [Emotional Exchange]
+**Protagonist**: "[Dialogue content]"
+**Love Interest**: "[Dialogue content]"
+**Protagonist**: "[Dialogue content]"
+
+---
+
+## Language Evolution Record
+
+### Protagonist's Language Growth
+1.  **Initial Stage** (Chapters 1-20)
+    -   Characteristics: Naive, lacking confidence
+    -   Example: "I... I'm not so sure..."
+
+2.  **Middle Stage** (Chapters 21-60)
+    -   Characteristics: Gradually maturing, confident
+    -   Example: "I believe this is what we should do."
+
+3.  **Late Stage** (After Chapter 61)
+    -   Characteristics: Mature, authoritative
+    -   Example: "On my command, act now!"
 
 ---
 
-## 参考资料
+## Language Taboos
 
-### 语言学习资源
-- **方言参考**：[相关方言词典或资料]
-- **时代语言**：[历史语言资料]
-- **职业用语**：[专业术语词典]
+### Things to Avoid
+- **Anachronisms in historical settings**
+  -   Incorrect examples: "OK," "bye-bye," "wow"
+  -   Correct examples: "Very well," "farewell," "Heavens!"
 
-### 创作提醒
-1. 每个角色的语言必须有辨识度
-2. 对话要符合角色的教育背景
-3. 情绪会影响语言表达方式
-4. 关系亲疏决定称呼和语气
+- **Language inconsistent with personality**
+  -   An elegant character should avoid vulgarity.
+  -   A boorish character should avoid being overly refined.
+  -   A child should not speak like an adult.
+
+- **Regional mismatches**
+  -   A character from the north should not use a southern dialect.
+  -   An ancient character should not use foreign loanwords.
 
 ---
-*创建时间：2025-09-29*
-*最后更新：2025-09-29*
-*版本：1.0*
+
+## Reference Materials
+
+### Language Learning Resources
+- **Dialect References**: [Relevant dialect dictionaries or materials]
+- **Period Language**: [Historical language resources]
+- **Professional Jargon**: [Jargon dictionaries]
+
+### Writing Reminders
+1.  Each character's language must be distinct.
+2.  Dialogue should be appropriate for the character's educational background.
+3.  Emotions affect language expression.
+4.  The level of intimacy determines forms of address and tone.
+
+---
+*Created: 2025-09-29*
+*Last Updated: 2025-09-29*
+*Version: 1.0*

@@ -1,39 +1,39 @@
-# 改进建议历史
+# Improvement Suggestion History
 
-记录所有外部AI建议和采纳情况。
+This document records all external AI suggestions and their adoption status.
 
-## 使用说明
+## Instructions
 
-本文件自动记录通过 `/analyze` 命令验证后的改进建议，包括：
-- 建议来源（Gemini、ChatGPT、Claude等）
-- 建议内容摘要
-- 采纳状态
-- 影响的文件
-- 实施进度
+This file automatically logs improvement suggestions verified through the `/analyze` command, including:
+- Suggestion source (Gemini, ChatGPT, Claude, etc.)
+- Summary of the suggestion
+- Adoption status
+- Affected files
+- Implementation progress
 
-## 建议记录格式
+## Suggestion Record Format
 
-每条记录包含：
-1. **日期和来源**：记录时间和AI工具
-2. **建议摘要**：主要改进点
-3. **采纳状态**：是否已整合
-4. **影响文件**：被修改的规范文件
-5. **实施进度**：修订任务完成情况
+Each record includes:
+1.  **Date and Source**: Records the time and the AI tool used.
+2.  **Suggestion Summary**: The main points for improvement.
+3.  **Adoption Status**: Whether it has been integrated.
+4.  **Affected Files**: The specification files that were modified.
+5.  **Implementation Progress**: The completion status of the revision task.
 
 ---
 
-<!-- 建议记录将自动追加到下方 -->
-## 2025-09-24 - 外部AI
+<!-- Suggestion records will be automatically appended below -->
+## 2025-09-24 - External AI
 
-### 建议摘要
-已处理JSON格式建议
+### Suggestion Summary
+Processed suggestions in JSON format.
 
-### 采纳状态
-- [x] 已自动整合到规范文件
-- [ ] 待人工审核确认
-- [ ] 待实施修订
+### Adoption Status
+- [x] Automatically integrated into specification files
+- [ ] Awaiting manual review and confirmation
+- [ ] Awaiting implementation of revisions
 
-### 影响文件
+### Affected Files
 - writing-constitution.md
 - character-profiles.md
 - plot-tracker.json
@@ -42,17 +42,17 @@
 
 ---
 
-## 2025-09-24 - 外部AI
+## 2025-09-24 - External AI
 
-### 建议摘要
-已处理Markdown格式建议
+### Suggestion Summary
+Processed suggestions in Markdown format.
 
-### 采纳状态
-- [x] 已自动整合到规范文件
-- [ ] 待人工审核确认
-- [ ] 待实施修订
+### Adoption Status
+- [x] Automatically integrated into specification files
+- [ ] Awaiting manual review and confirmation
+- [ ] Awaiting implementation of revisions
 
-### 影响文件
+### Affected Files
 - writing-constitution.md
 - character-profiles.md
 - plot-tracker.json

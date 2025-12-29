@@ -1,435 +1,435 @@
-# 标点个性化指南（小说创作专用）
+# Punctuation Personalization Guide (for Novel Writing)
 
-> 标点是文字的情绪载体，真人写作的标点会带有个性、情绪和"瑕疵"，而AI倾向于规整、标准、完美的标点使用。
+> Punctuation is the emotional vehicle of text. Human writing uses punctuation with personality, emotion, and "flaws," whereas AI tends to use neat, standard, and perfect punctuation.
 
-⚠️ **重要说明**: 本指南专为**小说创作**设计。小说的标点使用比公众号/文章更**克制**，尤其是古代历史小说。
-
----
-
-## 🎯 小说 vs 文章/公众号的标点差异
-
-### 小说创作的标点原则
-- ✅ 克制为主，不过度情绪化
-- ✅ 保持叙事流畅性
-- ✅ 标点服务于故事，不喧宾夺主
-- ❌ 避免过度使用网络化标点（。。。、!!!、??等）
-- ❌ **禁止使用Emoji**（小说创作不使用任何Emoji）
-
-### 公众号/文章的标点特点（不适用于小说）
-- 可以使用。。。(句号式省略号)
-- 可以使用Emoji
-- 标点更加夸张和情绪化
-- 更多网络化表达
-
-**小说与文章的核心区别**：
-- 小说：❌ **完全禁止Emoji**
-- 文章：✅ 可以使用Emoji
+⚠️ **Important Note**: This guide is specifically designed for **novel writing**. Punctuation in novels is more **restrained** than in blog posts or articles, especially in historical fiction.
 
 ---
 
-## 一、核心理念
+## 🎯 Punctuation Differences: Novel vs. Article/Blog
 
-### ❌ AI化标点特征
-- 每句必有标点，位置永远正确
-- 逗号、句号、问号、感叹号按教科书标准使用
-- 省略号永远是6个点（……）
-- 标点符号单一，不重复
-- 情绪平稳，无标点爆发
+### Punctuation Principles for Novel Writing
+- ✅ Primarily restrained, not overly emotional.
+- ✅ Maintains narrative fluency.
+- ✅ Punctuation serves the story, not overshadows it.
+- ❌ Avoids excessive use of internet-style punctuation (e.g., `...` using periods, `!!!`, `??`).
+- ❌ **Emojis are forbidden** (no emojis are used in novel writing).
 
-### ✅ 真人化标点特征（小说版）
-- 标点带有情绪和节奏
-- 会因急促而适度连用标点（但克制）
-- 省略号有变化（...、……混用，**小说避免。。。**）
-- 标点"瑕疵"符合角色个性
-- 情绪激动时标点有变化（但不过度）
+### Punctuation Characteristics of Blogs/Articles (Not applicable to novels)
+- Can use `...` (period-style ellipsis).
+- Can use emojis.
+- Punctuation is more exaggerated and emotional.
+- More internet-style expressions.
+
+**Core Difference Between Novels and Articles**:
+- Novels: ❌ **Emojis are strictly forbidden.**
+- Articles: ✅ Emojis can be used.
 
 ---
 
-## 二、省略号的真实性
+## 1. Core Concepts
 
-### AI倾向（避免）
+### ❌ AI-like Punctuation Characteristics
+- Every sentence must have punctuation, always correctly placed.
+- Commas, periods, question marks, and exclamation points are used according to textbook standards.
+- Ellipses are always 6 dots (`……`).
+- Punctuation is uniform, not repeated.
+- Emotionally flat, with no punctuation bursts.
+
+### ✅ Human-like Punctuation Characteristics (Novel Version)
+- Punctuation carries emotion and rhythm.
+- Punctuation may be repeated for urgency (but with restraint).
+- Ellipses vary (`...`, `……` are mixed; **novels avoid `。。。`**).
+- Punctuation "flaws" match the character's personality.
+- Punctuation changes with high emotion (but not excessively).
+
+---
+
+## 2. The Authenticity of the Ellipsis
+
+### AI Tendency (Avoid)
 ```
-他想了想……决定还是不说了。
+He thought about it...... and decided not to say anything.
 ```
-- 永远是标准的6点省略号
-- 使用场景单一
-- 位置规整
+- Always the standard 6-dot ellipsis.
+- Used in limited scenarios.
+- Neatly placed.
 
-### 真人变化（推荐）
+### Human Variation (Recommended)
 
-**类型1: 标准省略号（……）**
-- 使用场景：正式叙述、深思、未尽之意
-- 示例：他沉默了许久……最终叹了口气。
+**Type 1: Standard Ellipsis (`……`)**
+- Use Case: Formal narration, deep thought, unspoken words.
+- Example: He was silent for a long time...... and finally sighed.
 
-**类型2: 三点式（...）**
-- 使用场景：快速节奏、口语化、网络风格
-- 示例：算了...说了你也不懂。
+**Type 2: Three-Dot Ellipsis (`...`)**
+- Use Case: Fast pace, colloquial speech, internet style.
+- Example: Forget it... you wouldn't understand anyway.
 
-**类型3: 句号式（。。。）** ⚠️ **小说中慎用**
-- 使用场景：~~方言口语、随意风格、老派打字习惯~~ **这是公众号/聊天风格，正式小说极少使用**
-- 适用：仅限现代网文中的特定角色（网瘾少年、特殊人设）
-- 示例：~~这事儿。。。怎么说呢。。。~~ **小说中避免**
+**Type 3: Period-Style Ellipsis (`。。。`)** ⚠️ **Use with caution in novels**
+- Use Case: ~~Dialect, casual style, old-fashioned typing habits~~ **This is a blog/chat style, rarely used in formal novels.**
+- Applicable: Only for specific characters in modern web novels (e.g., an internet-addicted teen, a quirky persona).
+- Example: ~~This thing... how should I put it...~~ **Avoid in novels.**
 
-**类型4: 混合使用（小说适度版）**
-- 小说中可以混用标准省略号（……）和三点式（...）
-- 但**避免使用句号式（。。。）**
-- 示例：
+**Type 4: Mixed Usage (Moderated for Novels)**
+- In novels, you can mix the standard ellipsis (`……`) and the three-dot version (`...`).
+- However, **avoid using the period-style ellipsis (`。。。`)**.
+- Example:
   ```
-  他犹豫了...不，应该说他害怕了。
-  "我...我不知道该怎么说。"
-  沉默许久……终于开口了。
-  ```
-
----
-
-## 三、感叹号的情绪化
-
-### AI倾向（避免）
-```
-"太好了！"他高兴地说。
-```
-- 永远单个感叹号
-- 位置标准
-- 情绪平稳
-
-### 真人爆发（推荐）
-
-**单个感叹号（!）**
-- 场景：常规惊讶、正式叙述
-- 示例："小心！"
-
-**双重感叹（!!）**
-- 场景：加强语气、强调
-- 示例："不可能!!" "快跑!!"
-
-**三重以上（!!!）**
-- 场景：极度震惊、歇斯底里、网络风格
-- 示例："你疯了吗!!!" "救命啊!!!!"
-
-**连续感叹的规则**
-- 正式小说：2-3个为限
-- 网文风格：可用3-5个
-- 现代都市/轻小说：更自由
-- 古代历史：尽量避免连用
-
----
-
-## 四、问号的多样性
-
-### AI倾向（避免）
-```
-"你去哪了？"她问道。
-```
-- 单一问号
-- 位置标准
-
-### 真人疑惑（推荐）
-
-**单个问号（?）**
-- 场景：常规提问
-- 示例："你是谁？"
-
-**双重问号（??）**
-- 场景：困惑、不解、质疑
-- 示例："你说什么??" "这怎么可能??"
-
-**三重问号（???）**
-- 场景：极度困惑、网络风格
-- 示例："发生了什么???" "你在干嘛???"
-
-**问号+感叹号（?!、!?）**
-- 场景：惊疑、反问、震惊中的质疑
-- 示例："你竟然!!?" "什么?!这不可能!"
-
----
-
-## 五、逗号与句号的"混乱"
-
-### AI倾向（避免）
-```
-他走进房间，看到桌上有封信，便打开了。信里写着让他去城外树林。他立刻出门了。
-```
-- 逗号和句号使用标准
-- 长度均匀
-- 结构工整
-
-### 真人节奏（推荐）
-
-**逗号滥用（口语化）**
-```
-他走进房间，看到桌上有封信，便打开了，信里写着让他去城外树林，他立刻出门了。
-```
-- 长句连续，一气呵成
-- 适合快节奏场景
-
-**句号打断（紧张感）**
-```
-他走进房间。
-桌上有封信。
-他打开。
-信里写着:去城外树林。
-他立刻出门。
-```
-- 短句堆叠
-- 营造紧张感
-
-**混合节奏（自然）**
-```
-他走进房间，看到桌上有封信。
-
-打开一看。
-
-信里写着：去城外树林。
-
-他犹豫了一下...还是出门了。
-```
-- 长短结合
-- 有留白
-- 标点多样
-
----
-
-## 六、破折号的个性
-
-### 标准用法
-- 解释说明：他拿起剑——一把传家宝。
-- 语气转折：我本想——算了，不说了。
-- 中断：他刚要说话——
-
-### 个性化用法
-
-**双破折号（强调）**
-```
-这件事——绝对不能让他知道——必须保密。
-```
-
-**省略号+破折号（犹豫转折）**
-```
-我想...——不，我确定。
-```
-
-**破折号+感叹（强烈转折）**
-```
-他以为自己赢了——大错特错！
-```
-
----
-
-## 七、特殊标点组合
-
-### 小说中的标点组合（谨慎使用）
-
-**"......"（停顿加强）**
-- 比单个省略号更长的停顿
-- 示例：他看着她......说不出话。
-- 小说适用：✅ 可用
-
-**"。。。。。。"（拖长的停顿）** ⚠️ **小说慎用**
-- ~~口语化、方言风格~~ **这是公众号/聊天风格**
-- 小说适用：❌ 正式小说避免，仅限特定现代网文角色对话
-
-**"！！！......"（爆发后的沉默）** ⚠️ **小说节制版**
-- 情绪从激动到平静
-- 示例：不可能！！......他怎么会......
-- 小说建议：感叹号2-3个为宜，不要超过3个
-
-**"？？？！！！"（困惑到震惊）** ⚠️ **小说慎用**
-- 情绪递进，但过于夸张
-- 小说建议：改为 "什么?!" 或 "什么??!" 更适合小说
-
----
-
-## 八、标点与情绪对照表
-
-| 情绪状态 | 标点特征 | 示例 |
-|---------|---------|------|
-| 平静 | 标准逗号句号 | 他走了过去。 |
-| 犹豫 | 省略号、破折号 | 他想...算了。 |
-| 紧张 | 短句、句号密集 | 脚步声。越来越近。 |
-| 激动 | 感叹号连用 | 太好了！！ |
-| 困惑 | 问号连用 | 什么？？这怎么... |
-| 愤怒 | 感叹号+省略号 | 你！！！...走开！ |
-| 震惊 | ?!混合 | 什么?!不可能! |
-| 急促 | 逗号连用、短句 | 快,快跑,快点! |
-
----
-
-## 九、不同文体的标点风格
-
-### 古代历史小说
-- **特点**：标点相对克制
-- **推荐**：
-  - 感叹号少用，单个为主
-  - 省略号使用标准省略号（……）
-  - 破折号用于解释
-  - 避免连续标点
-- **示例**：
-  ```
-  他沉默片刻，终究还是开口了。
-  "此事……不可轻言。"
-  ```
-
-### 现代都市小说
-- **特点**：标点较灵活，口语化
-- **推荐**：
-  - 省略号有变化（...、……混用，**避免。。。**）
-  - 感叹号可适度连用（!!，限2-3个）
-  - 问号灵活（??、?!）
-  - 标点有情绪但保持克制
-- **示例**：
-  ```
-  "你说什么?!"
-  她瞪大眼睛...简直不敢相信。
-  "这怎么可能!!"
-  ```
-
-### 玄幻网文
-- **特点**：标点夸张，情绪爆发
-- **推荐**：
-  - 感叹号可用3-5个
-  - 问号可叠加
-  - 标点组合丰富
-  - 节奏多变
-- **示例**：
-  ```
-  "不可能！！！"
-  他震惊地看着眼前的一切。
-  "这...这到底是怎么回事？？？"
+  He hesitated... no, he was scared.
+  "I... I don't know what to say."
+  After a long silence...... he finally spoke.
   ```
 
 ---
 
-## 十、实战应用
+## 3. The Emotion of the Exclamation Mark
 
-### 场景1：对话
+### AI Tendency (Avoid)
+```
+"Great!" he said happily.
+```
+- Always a single exclamation mark.
+- Standard placement.
+- Emotionally flat.
 
-**AI化（避免）**：
+### Human Burst (Recommended)
+
+**Single Exclamation Mark (`!`)**
+- Scene: Regular surprise, formal narration.
+- Example: "Watch out!"
+
+**Double Exclamation Mark (`!!`)**
+- Scene: Emphasizing tone, stressing a point.
+- Example: "Impossible!!" "Run!!"
+
+**Triple or More (`!!!`)**
+- Scene: Extreme shock, hysteria, internet style.
+- Example: "Are you crazy!!!" "Help!!!!"
+
+**Rules for Multiple Exclamation Marks**
+- Formal Novels: Limit to 2-3.
+- Web Novels: 3-5 can be used.
+- Modern Urban/Light Novels: More freedom.
+- Historical Fiction: Avoid multiple exclamation marks as much as possible.
+
+---
+
+## 4. The Diversity of the Question Mark
+
+### AI Tendency (Avoid)
 ```
-"你去哪了？"她问。
-"出去了一趟。"他答。
-"为什么不告诉我？"
-"忘了。"
+"Where did you go?" she asked.
+```
+- Single question mark.
+- Standard placement.
+
+### Human Doubt (Recommended)
+
+**Single Question Mark (`?`)**
+- Scene: Regular questions.
+- Example: "Who are you?"
+
+**Double Question Mark (`??`)**
+- Scene: Confusion, disbelief, questioning.
+- Example: "What did you say??" "How is that possible??"
+
+**Triple Question Mark (`???`)**
+- Scene: Extreme confusion, internet style.
+- Example: "What happened???" "What are you doing???"
+
+**Question Mark + Exclamation Mark (`?!`, `!?`)**
+- Scene: Shocked disbelief, rhetorical questions, questioning in shock.
+- Example: "You did what!!?" "What?! That's impossible!"
+
+---
+
+## 5. The "Chaos" of Commas and Periods
+
+### AI Tendency (Avoid)
+```
+He walked into the room, saw a letter on the table, and opened it. The letter told him to go to the woods outside the city. He left immediately.
+```
+- Standard use of commas and periods.
+- Uniform length.
+- Neat structure.
+
+### Human Rhythm (Recommended)
+
+**Comma Overuse (Colloquial)**
+```
+He walked into the room, saw a letter on the table, opened it, the letter told him to go to the woods outside the city, and he left immediately.
+```
+- A long, continuous sentence.
+- Suitable for fast-paced scenes.
+
+**Period Interruption (Tension)**
+```
+He walked into the room.
+A letter was on the table.
+He opened it.
+It said: go to the woods outside the city.
+He left immediately.
+```
+- Stacked short sentences.
+- Creates a sense of tension.
+
+**Mixed Rhythm (Natural)**
+```
+He walked into the room and saw a letter on the table.
+
+He opened it.
+
+It said: Go to the woods outside the city.
+
+He hesitated for a moment... then left.
+```
+- A mix of long and short.
+- Includes white space.
+- Varied punctuation.
+
+---
+
+## 6. The Personality of the Dash
+
+### Standard Usage
+- Explanation: He picked up the sword—an heirloom.
+- Shift in tone: I was going to—never mind, let's not talk about it.
+- Interruption: He was just about to speak—
+
+### Personalized Usage
+
+**Double Dash (Emphasis)**
+```
+This matter—he must never know—it has to be a secret.
 ```
 
-**真人化（推荐）**：
+**Ellipsis + Dash (Hesitant Shift)**
 ```
-"你去哪了？"
-"出去...出去了一趟。"
-"为什么不告诉我??"
-他沉默。
-"你...！"她咬着牙，"算了。"
+I think...—no, I'm sure.
 ```
 
-### 场景2：心理描写
-
-**AI化（避免）**：
+**Dash + Exclamation (Strong Shift)**
 ```
-他想，这件事不对劲。一定有问题。他必须查清楚。
-```
-
-**真人化（推荐）**：
-```
-不对劲...
-他皱起眉头。
-一定...一定有问题！
-必须查清楚——不管付出什么代价。
-```
-
-### 场景3：紧张场景
-
-**AI化（避免）**：
-```
-脚步声越来越近，他屏住呼吸，紧张地等待着。
-```
-
-**真人化（推荐）**：
-```
-脚步声。
-越来越近。
-他屏住呼吸...
-等待...
-等待......
+He thought he had won—how wrong he was!
 ```
 
 ---
 
-## 十一、自检清单
+## 7. Special Punctuation Combinations
 
-写完一段后检查：
+### Punctuation Combinations in Novels (Use with Caution)
 
-### 标点多样性
-- [ ] 是否只用了标准标点？（太AI）
-- [ ] 是否有标点变化？
-- [ ] 省略号是否单一？
+**"......" (Extended Pause)**
+- A longer pause than a single ellipsis.
+- Example: He looked at her...... speechless.
+- Novel Suitability: ✅ Usable.
 
-### 标点情绪化
-- [ ] 情绪激动时标点是否有爆发？
-- [ ] 犹豫时是否有省略号？
-- [ ] 紧张时节奏是否变快？
+**"。。。。。。" (Dragged-out Pause)** ⚠️ **Use with caution in novels**
+- ~~Colloquial, dialect style~~ **This is a blog/chat style.**
+- Novel Suitability: ❌ Avoid in formal novels; only for specific modern web novel characters.
 
-### 标点个性
-- [ ] 是否有自己的标点习惯？
-- [ ] 不同角色标点是否有区别？
-- [ ] 对话标点是否口语化？
+**"！！！......" (Silence after an Outburst)** ⚠️ **Restrained version for novels**
+- Emotion shifts from excitement to calm.
+- Example: Impossible!!...... How could he......
+- Novel Suggestion: 2-3 exclamation marks are appropriate; do not exceed 3.
 
-### 场景适配
-- [ ] 文体风格是否匹配？
-- [ ] 古代/现代/玄幻标点是否符合？
-- [ ] 是否过度规整？（AI倾向）
+**"？？？！！！" (From Confusion to Shock)** ⚠️ **Use with caution in novels**
+- Emotional progression, but overly exaggerated.
+- Novel Suggestion: "What?!" or "What??!" is more suitable for novels.
 
 ---
 
-## 十二、进阶技巧
+## 8. Punctuation and Emotion Correspondence Table
 
-### 1. 角色标点个性化
-- 不同角色有不同标点习惯
-- 老年人：标点传统，少用省略号
-- 年轻人：标点灵活，连续标点多
-- 文化人：标点规范但有个性
-- 网瘾少年：...、??、!!混用
-
-### 2. 情节阶段标点变化
-- 平静期：标点规整
-- 紧张期：标点破碎
-- 高潮期：标点爆发
-- 落幕期：标点回归平静
-
-### 3. 叙述vs对话标点差异
-- 叙述：相对规整
-- 对话：更加灵活
-- 内心独白：最为混乱
+| Emotional State | Punctuation Feature | Example |
+|---|---|---|
+| Calm | Standard comma and period | He walked over. |
+| Hesitant | Ellipsis, dash | He thought... never mind. |
+| Tense | Short sentences, frequent periods | Footsteps. Closer. |
+| Excited | Multiple exclamation marks | Great!! |
+| Confused | Multiple question marks | What?? How could... |
+| Angry | Exclamation mark + ellipsis | You!!!... Get out! |
+| Shocked | Mixed `?!` | What?! Impossible! |
+| Urgent | Continuous commas, short sentences | Quick, run, hurry! |
 
 ---
 
-## 快速参考卡（小说创作版）
+## 9. Punctuation Styles for Different Genres
+
+### Historical Fiction
+- **Characteristics**: Punctuation is relatively restrained.
+- **Recommendations**:
+  - Use exclamation marks sparingly, mostly single ones.
+  - Use the standard ellipsis (`……`).
+  - Use dashes for explanation.
+  - Avoid consecutive punctuation.
+- **Example**:
+  ```
+  He was silent for a moment, then finally spoke.
+  "This matter…… cannot be spoken of lightly."
+  ```
+
+### Modern Urban Fiction
+- **Characteristics**: Punctuation is more flexible and colloquial.
+- **Recommendations**:
+  - Vary ellipses (`...`, `……` mixed, **avoid `。。。`**).
+  - Use multiple exclamation marks moderately (`!!`, limit 2-3).
+  - Use flexible question marks (`??`, `?!`).
+  - Punctuation is emotional but restrained.
+- **Example**:
+  ```
+  "What did you say?!"
+  She stared, wide-eyed... unable to believe it.
+  "How is that possible!!"
+  ```
+
+### Fantasy Web Novels
+- **Characteristics**: Exaggerated punctuation, emotional bursts.
+- **Recommendations**:
+  - Can use 3-5 exclamation marks.
+  - Can stack question marks.
+  - Rich use of punctuation combinations.
+  - Varied rhythm.
+- **Example**:
+  ```
+  "Impossible!!!"
+  He looked in shock at the scene before him.
+  "What... what on earth is happening???"
+  ```
+
+---
+
+## 10. Practical Application
+
+### Scene 1: Dialogue
+
+**AI-like (Avoid)**:
+```
+"Where did you go?" she asked.
+"I went out for a bit," he replied.
+"Why didn't you tell me?"
+"I forgot."
+```
+
+**Human-like (Recommended)**:
+```
+"Where did you go?"
+"Out... just out for a bit."
+"Why didn't you tell me??"
+He was silent.
+"You...!" she gritted her teeth, "Never mind."
+```
+
+### Scene 2: Internal Monologue
+
+**AI-like (Avoid)**:
+```
+He thought, something is not right with this matter. There must be a problem. He had to investigate it.
+```
+
+**Human-like (Recommended)**:
+```
+Something's not right...
+He frowned.
+There must be... there must be a problem!
+I have to find out—no matter the cost.
+```
+
+### Scene 3: Tense Scene
+
+**AI-like (Avoid)**:
+```
+The footsteps were getting closer, and he held his breath, waiting nervously.
+```
+
+**Human-like (Recommended)**:
+```
+Footsteps.
+Closer.
+He held his breath...
+Waiting...
+Waiting......
+```
+
+---
+
+## 11. Self-Checklist
+
+After writing a section, check the following:
+
+### Punctuation Diversity
+- [ ] Did I only use standard punctuation? (Too AI-like)
+- [ ] Is there variation in punctuation?
+- [ ] Is the use of ellipses monotonous?
+
+### Emotional Punctuation
+- [ ] Does punctuation burst during emotional moments?
+- [ ] Are ellipses used during moments of hesitation?
+- [ ] Does the rhythm speed up when things are tense?
+
+### Punctuation Personality
+- [ ] Do I have my own punctuation habits?
+- [ ] Do different characters have different punctuation?
+- [ ] Is dialogue punctuation colloquial?
+
+### Scene Adaptation
+- [ ] Does the style match the genre?
+- [ ] Is the punctuation appropriate for historical/modern/fantasy settings?
+- [ ] Is it too neat? (AI tendency)
+
+---
+
+## 12. Advanced Techniques
+
+### 1. Character-Specific Punctuation
+- Different characters have different punctuation habits.
+- Older characters: traditional punctuation, fewer ellipses.
+- Younger characters: flexible punctuation, more consecutive punctuation.
+- Intellectual characters: standard but personalized punctuation.
+- Internet-addicted teens: a mix of `...`, `??`, `!!`.
+
+### 2. Punctuation Changes with Plot Stages
+- Calm periods: neat punctuation.
+- Tense periods: fragmented punctuation.
+- Climax: explosive punctuation.
+- Resolution: punctuation returns to calm.
+
+### 3. Narration vs. Dialogue Punctuation
+- Narration: relatively neat.
+- Dialogue: more flexible.
+- Internal monologue: the most chaotic.
+
+---
+
+## Quick Reference Card (Novel Writing Edition)
 
 ```
-✅ DO（推荐 - 小说适用）
-- 省略号有变化：...、……混用（避免。。。）
-- 适度情绪化：!!、??、?!（克制使用）
-- 标点组合：?!、...!!、——...
-- 节奏变化：长短句+标点配合
-- 标点"瑕疵"：符合角色个性和情绪
+✅ DO (Recommended - Novel Appropriate)
+- Vary ellipses: mix `...` and `……` (avoid `。。。`).
+- Use moderate emotion: `!!`, `??`, `?!` (use with restraint).
+- Combine punctuation: `?!`, `...!!`, `—...`.
+- Vary rhythm: combine long/short sentences with punctuation.
+- Have punctuation "flaws": match character and emotion.
 
-❌ DON'T（避免）
-- 标点完美：永远正确，过于规整
-- 省略号单一：只用……
-- 感叹问号单调：只用!和?
-- 标点过度：。。。、!!!!、???（公众号风格）
-- 情绪平稳：无标点变化
+❌ DON'T (Avoid)
+- Perfect punctuation: always correct, too neat.
+- Monotonous ellipses: only using `……`.
+- Monotonous exclamations/questions: only using `!` and `?`.
+- Excessive punctuation: `。。。`, `!!!!`, `???` (blog style).
+- Flat emotion: no variation in punctuation.
 
-🎯 小说标点目标
-- 标点服务于故事和角色
-- 情绪化但保持克制
-- 不同文体匹配不同程度
-  - 古代历史：极度克制
-  - 现代都市：适度灵活
-  - 玄幻网文：相对自由
-- 避免网络化、自媒体化标点
+🎯 Novel Punctuation Goal
+- Punctuation serves the story and characters.
+- Emotional but restrained.
+- Match the level of intensity to the genre:
+  - Historical: extremely restrained.
+  - Modern Urban: moderately flexible.
+  - Fantasy Web Novel: relatively free.
+- Avoid internet/social media punctuation styles.
 ```
 
 ---
 
-*本指南基于真实作品分析和反AI检测实践总结*
-*版本：v1.0.0*
-*最后更新：2025-10*
+*This guide is based on analysis of real works and practices from anti-AI detection.*
+*Version: v1.0.0*
+*Last Updated: 2025-10*

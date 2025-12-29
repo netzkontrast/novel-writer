@@ -1,273 +1,273 @@
-# 小说：[作品标题] - 七点结构框架
+# Novel: [Work Title] - The Seven-Point Structure Framework
 
-## 基本信息
-- **类型**：[悬疑/惊悚/动作/商业小说等]
-- **字数目标**：[预计总字数]
-- **目标读者**：[读者群体]
-- **创作方法**：七点故事结构（Seven-Point Story Structure）
+## Basic Information
+- **Genre**: [Suspense/Thriller/Action/Commercial Fiction, etc.]
+- **Word Count Target**: [Estimated Total Word Count]
+- **Target Audience**: [Readership]
+- **Writing Method**: The Seven-Point Story Structure
 
-## 故事内核
+## Story Core
 
-### 核心冲突
-[故事的中心对抗是什么？]
+### Core Conflict
+[What is the central conflict of the story?]
 
-### 核心目标
-[主角必须达成什么？]
+### Core Goal
+[What must the protagonist achieve?]
 
-### 核心赌注
-[失败的后果是什么？]
+### Core Stakes
+[What are the consequences of failure?]
 
-### 时间压力
-[为什么必须尽快解决？]
+### Time Pressure
+[Why must it be resolved quickly?]
 
-## 七点结构规划
+## The Seven-Point Structure Plan
 
-### 【第1点】钩子（Hook）- 5%
-**位置**：第1-2章
+### [Point 1] The Hook - 5%
+**Location**: Chapters 1-2
 
-#### 开场设计
-- **第一句话**：[吸引眼球的开场]
-- **第一段**：[建立氛围和疑问]
-- **第一章**：[展示主角和世界]
+#### Opening Design
+- **First Sentence**: [An eye-catching opening]
+- **First Paragraph**: [Establish atmosphere and a question]
+- **First Chapter**: [Introduce the protagonist and the world]
 
-#### 钩子要素
-- **即时吸引**：[什么立即抓住读者]
-- **主角介绍**：[展示什么特质]
-- **世界展示**：[什么样的环境]
-- **冲突暗示**：[即将到来的问题]
+#### Hook Elements
+- **Immediate Engagement**: [What immediately grabs the reader]
+- **Protagonist Introduction**: [What traits are shown]
+- **World Introduction**: [What kind of environment]
+- **Conflict Hint**: [The impending problem]
 
-#### 情绪基调
-[紧张/神秘/危险/悬疑]
-
----
-
-### 【第2点】第一情节点（First Plot Point）- 25%
-**位置**：第X章（约1/4处）
-
-#### 转折事件
-- **具体事件**：[改变一切的事]
-- **触发方式**：[如何发生]
-- **影响范围**：[改变了什么]
-
-#### 主角反应
-- **初始反应**：[震惊/否认/恐惧]
-- **被迫行动**：[必须做什么]
-- **目标确立**：[要达成什么]
-
-#### 冲突引入
-- **主要对手**：[谁或什么]
-- **核心障碍**：[什么阻碍]
-- **时间限制**：[多久内解决]
-
-#### 不可逆性
-[为什么无法回头？]
+#### Emotional Tone
+[Tense/Mysterious/Dangerous/Suspenseful]
 
 ---
 
-### 【第3点】第一收紧点（First Pinch Point）- 37.5%
-**位置**：第X章（约3/8处）
+### [Point 2] The First Plot Point - 25%
+**Location**: Chapter X (around the 1/4 mark)
 
-#### 压力展示
-- **对手亮相**：[展示对手的强大]
-- **威胁提醒**：[危险的具体体现]
-- **能力差距**：[主角的劣势]
+#### The Turning Point Event
+- **Specific Event**: [The thing that changes everything]
+- **Trigger**: [How it happens]
+- **Scope of Impact**: [What has changed]
 
-#### 压力形式
-- **直接对抗**：[第一次交锋]
-- **间接威胁**：[波及的影响]
-- **心理压力**：[内心的恐惧]
+#### Protagonist's Reaction
+- **Initial Reaction**: [Shock/Denial/Fear]
+- **Forced to Act**: [What they must do]
+- **Goal Established**: [What needs to be achieved]
 
-#### 紧迫感增加
-- **时间流逝**：[deadline接近]
-- **形势恶化**：[情况变糟]
-- **资源减少**：[可用的越来越少]
+#### Conflict Introduction
+- **Main Antagonist**: [Who or what]
+- **Core Obstacle**: [What stands in the way]
+- **Time Limit**: [How long to resolve it]
 
----
-
-### 【第4点】中点（Midpoint）- 50%
-**位置**：第X章（正中间）
-
-#### 重大转折
-- **关键发现**：[改变认知的信息]
-- **真相揭示**：[部分或误导的真相]
-- **能力获得**：[新的工具或认识]
-
-#### 态度转变
-- **从被动到主动**：[不再逃避]
-- **从无知到了解**：[明白真相]
-- **从弱到强**：[获得力量]
-
-#### 游戏规则改变
-- **新的理解**：[对冲突的新认识]
-- **新的策略**：[改变应对方式]
-- **新的赌注**：[提升重要性]
-
-#### 假性胜利/失败
-[表面的成功或挫折]
+#### Irreversibility
+[Why can't they go back?]
 
 ---
 
-### 【第5点】第二收紧点（Second Pinch Point）- 62.5%
-**位置**：第X章（约5/8处）
+### [Point 3] The First Pinch Point - 37.5%
+**Location**: Chapter X (around the 3/8 mark)
 
-#### 危机升级
-- **更大威胁**：[比第一次更严重]
-- **直接打击**：[针对主角核心]
-- **盟友危机**：[伙伴的危险]
+#### Display of Pressure
+- **Antagonist's Reveal**: [Showcasing the antagonist's power]
+- **Threat Reminder**: [A concrete manifestation of the danger]
+- **Power Gap**: [The protagonist's disadvantage]
 
-#### 绝望时刻
-- **计划失败**：[策略不奏效]
-- **资源耗尽**：[弹尽粮绝]
-- **信心动摇**：[自我怀疑]
+#### Form of Pressure
+- **Direct Confrontation**: [The first clash]
+- **Indirect Threat**: [The ripple effects]
+- **Psychological Pressure**: [Inner fear]
 
-#### 最后警告
-- **时间紧迫**：[最后期限逼近]
-- **代价明确**：[失败的后果]
-- **孤注一掷**：[必须冒险]
-
----
-
-### 【第6点】第二情节点（Second Plot Point）- 75%
-**位置**：第X章（约3/4处）
-
-#### 最后准备
-- **关键信息**：[最后的拼图]
-- **关键工具**：[决胜的武器]
-- **关键决定**：[破釜沉舟]
-
-#### 主角觉醒
-- **完全理解**：[明白一切]
-- **接受命运**：[准备面对]
-- **内在力量**：[找到勇气]
-
-#### 决战开始
-- **最后集结**：[所有力量]
-- **进攻计划**：[最终策略]
-- **不归之路**：[只能前进]
+#### Increased Urgency
+- **Time Passing**: [The deadline is approaching]
+- **Situation Worsens**: [Things are getting worse]
+- **Resources Dwindle**: [Fewer options available]
 
 ---
 
-### 【第7点】结局（Resolution）- 95-100%
-**位置**：最后几章
+### [Point 4] The Midpoint - 50%
+**Location**: Chapter X (the very middle)
 
-#### 高潮对决
-- **最终战斗**：[正面交锋]
-- **生死时刻**：[关键瞬间]
-- **逆转胜利**：[如何获胜]
+#### The Major Turning Point
+- **A Key Discovery**: [Information that changes perception]
+- **A Truth Revealed**: [A partial or misleading truth]
+- **An Ability Gained**: [A new tool or understanding]
 
-#### 冲突解决
-- **主线解决**：[核心问题]
-- **支线收束**：[次要问题]
-- **谜题揭晓**：[所有答案]
+#### A Shift in Attitude
+- **From Reactive to Proactive**: [No longer running away]
+- **From Ignorance to Understanding**: [Knowing the truth]
+- **From Weak to Strong**: [Gaining power]
 
-#### 新的平衡
-- **世界改变**：[环境变化]
-- **主角改变**：[成长结果]
-- **关系改变**：[人际变化]
+#### The Game Changer
+- **A New Understanding**: [A new perspective on the conflict]
+- **A New Strategy**: [Changing the approach]
+- **New Stakes**: [Raising the importance]
 
-#### 余韵
-[故事的回味和思考]
-
-## 节点间的过渡设计
-
-### Hook → Plot Point 1（第1-2章 → 第X章）
-- **渐进式建立**：逐步展示日常
-- **不安感累积**：暗示即将变化
-- **最后平静**：风暴前的宁静
-
-### Plot Point 1 → Pinch Point 1（第X章 → 第X章）
-- **适应新现实**：接受改变
-- **初步行动**：尝试解决
-- **遭遇阻力**：发现困难
-
-### Pinch Point 1 → Midpoint（第X章 → 第X章）
-- **压力下成长**：被迫提升
-- **寻找突破**：努力改变
-- **接近真相**：逐步理解
-
-### Midpoint → Pinch Point 2（第X章 → 第X章）
-- **新策略实施**：主动出击
-- **初见成效**：似乎顺利
-- **遭遇反击**：更大危机
-
-### Pinch Point 2 → Plot Point 2（第X章 → 第X章）
-- **至暗时刻**：最绝望
-- **最后希望**：一线生机
-- **决心形成**：准备一搏
-
-### Plot Point 2 → Resolution（第X章 → 结尾）
-- **最后冲刺**：全力以赴
-- **高潮迭起**：激烈对抗
-- **尘埃落定**：一切结束
-
-## 张力控制表
-
-| 节点 | 章节 | 张力值 | 节奏 | 重点 |
-|------|------|--------|------|------|
-| Hook | 1-2 | 30% | 中速 | 吸引 |
-| 过渡 | 3-X | 40% | 渐快 | 建立 |
-| PP1 | X | 50% | 急转 | 冲击 |
-| 过渡 | X-X | 60% | 快速 | 适应 |
-| Pinch1 | X | 65% | 紧张 | 压力 |
-| 过渡 | X-X | 70% | 持续 | 努力 |
-| Mid | X | 75% | 转折 | 改变 |
-| 过渡 | X-X | 80% | 加速 | 主动 |
-| Pinch2 | X | 85% | 危急 | 绝望 |
-| 过渡 | X-X | 90% | 紧迫 | 准备 |
-| PP2 | X | 95% | 爆发 | 决心 |
-| 高潮 | X-X | 100% | 极速 | 对决 |
-| Resolution | X-X | 20% | 舒缓 | 平静 |
-
-## 悬念管理
-
-### 主悬念线
-- **核心问题**：[贯穿全书的疑问]
-- **揭示节奏**：在各节点逐步揭晓
-- **最终答案**：在Resolution完全解答
-
-### 次要悬念
-1. **Hook悬念**：[开场疑问] → Pinch1揭示
-2. **PP1悬念**：[新的疑问] → Midpoint揭示
-3. **Mid悬念**：[深层疑问] → PP2揭示
-4. **PP2悬念**：[最后疑问] → Resolution揭示
-
-## 角色在各节点的状态
-
-| 节点 | 能力 | 认知 | 态度 | 处境 |
-|------|------|------|------|------|
-| Hook | 普通 | 无知 | 被动 | 安全 |
-| PP1 | 普通 | 震惊 | 抗拒 | 危险 |
-| Pinch1 | 初级 | 了解 | 害怕 | 压力 |
-| Mid | 中级 | 理解 | 主动 | 转机 |
-| Pinch2 | 中级 | 清楚 | 动摇 | 危急 |
-| PP2 | 高级 | 透彻 | 坚定 | 决战 |
-| Resolution | 巅峰 | 全知 | 无畏 | 胜利 |
-
-## 创作备注
-
-### 七点结构核心要求
-- [ ] 每个节点必须推进故事
-- [ ] 节点间的过渡要自然
-- [ ] 保持张力的持续上升
-- [ ] 中点必须真正改变游戏
-- [ ] 收紧点不能省略
-- [ ] 每个点都要提升赌注
-
-### 常见问题避免
-- Hook太慢热
-- PP1不够重大
-- Pinch点太弱
-- 中点无力
-- PP2准备不足
-- 结局草率
-
-### 节奏把控技巧
-- 使用短章节加快节奏
-- 在节点处切换POV增加冲击
-- 用时间压力维持紧张感
-- 适时的喘息避免疲劳
+#### A False Victory/Defeat
+[A superficial success or setback]
 
 ---
-*创建时间：[日期]*
-*方法论：七点故事结构*
-*版本：1.0*
+
+### [Point 5] The Second Pinch Point - 62.5%
+**Location**: Chapter X (around the 5/8 mark)
+
+#### Escalation of the Crisis
+- **A Bigger Threat**: [More serious than the first]
+- **A Direct Hit**: [Targeting the protagonist's core]
+- **An Ally in Danger**: [A companion is at risk]
+
+#### The Moment of Despair
+- **The Plan Fails**: [The strategy doesn't work]
+- **Resources Exhausted**: [Nothing left to use]
+- **Confidence Shaken**: [Self-doubt]
+
+#### The Final Warning
+- **Time is Short**: [The deadline is imminent]
+- **The Cost is Clear**: [The consequences of failure]
+- **All or Nothing**: [Must take a risk]
+
+---
+
+### [Point 6] The Second Plot Point - 75%
+**Location**: Chapter X (around the 3/4 mark)
+
+#### Final Preparations
+- **The Key Information**: [The final piece of the puzzle]
+- **The Key Tool**: [The weapon that will win the day]
+- **The Key Decision**: [The point of no return]
+
+#### The Protagonist's Awakening
+- **Complete Understanding**: [Knowing everything]
+- **Accepting a Destiny**: [Ready to face it]
+- **Inner Strength**: [Finding the courage]
+
+#### The Battle Begins
+- **The Final Assembly**: [All forces gathered]
+- **The Attack Plan**: [The final strategy]
+- **The Point of No Return**: [Only moving forward]
+
+---
+
+### [Point 7] The Resolution - 95-100%
+**Location**: The final chapters
+
+#### The Climax
+- **The Final Battle**: [The head-on confrontation]
+- **The Life-or-Death Moment**: [The critical instant]
+- **The Comeback Victory**: [How they win]
+
+#### The Conflict Resolution
+- **Main Plot Resolved**: [The core problem]
+- **Subplots Concluded**: [Secondary issues]
+- **Mysteries Revealed**: [All the answers]
+
+#### The New Balance
+- **The World is Changed**: [Environmental changes]
+- **The Protagonist is Changed**: [The results of growth]
+- **Relationships are Changed**: [Interpersonal changes]
+
+#### The Afterglow
+[The lingering thoughts and feelings of the story]
+
+## Designing Transitions Between Points
+
+### Hook → Plot Point 1 (Chapters 1-2 → Chapter X)
+- **Gradual Build-up**: Steadily show daily life.
+- **Accumulating Unease**: Hint at the coming change.
+- **The Final Calm**: The quiet before the storm.
+
+### Plot Point 1 → Pinch Point 1 (Chapter X → Chapter X)
+- **Adapting to the New Reality**: Accepting the change.
+- **Taking Initial Action**: Trying to solve it.
+- **Encountering Resistance**: Discovering the difficulty.
+
+### Pinch Point 1 → Midpoint (Chapter X → Chapter X)
+- **Growth Under Pressure**: Forced to improve.
+- **Seeking a Breakthrough**: Striving for change.
+- **Approaching the Truth**: Gradually understanding.
+
+### Midpoint → Pinch Point 2 (Chapter X → Chapter X)
+- **Implementing the New Strategy**: Taking the initiative.
+- **Initial Success**: It seems to be working.
+- **Facing a Counterattack**: A bigger crisis.
+
+### Pinch Point 2 → Plot Point 2 (Chapter X → Chapter X)
+- **The Darkest Hour**: The most desperate moment.
+- **The Last Hope**: A glimmer of a chance.
+- **A Decision is Made**: Preparing to risk it all.
+
+### Plot Point 2 → Resolution (Chapter X → The End)
+- **The Final Push**: Giving it their all.
+- **Rising Action**: An intense confrontation.
+- **The Dust Settles**: It's all over.
+
+## Tension Control Table
+
+| Point | Chapter | Tension | Pace | Focus |
+|---|---|---|---|---|
+| Hook | 1-2 | 30% | Medium | Engagement |
+| Transition | 3-X | 40% | Accelerating | Setup |
+| PP1 | X | 50% | Sharp Turn | Impact |
+| Transition | X-X | 60% | Fast | Adaptation |
+| Pinch 1 | X | 65% | Tense | Pressure |
+| Transition | X-X | 70% | Sustained | Effort |
+| Mid | X | 75% | Turning Point | Change |
+| Transition | X-X | 80% | Accelerating | Proaction |
+| Pinch 2 | X | 85% | Critical | Despair |
+| Transition | X-X | 90% | Urgent | Preparation |
+| PP2 | X | 95% | Explosive | Decision |
+| Climax | X-X | 100% | Breakneck | Showdown |
+| Resolution | X-X | 20% | Slowing | Calm |
+
+## Suspense Management
+
+### Main Suspense Line
+- **The Core Question**: [The question that runs through the book.]
+- **Reveal Pacing**: Gradually reveal clues at each point.
+- **The Final Answer**: Fully answer it in the Resolution.
+
+### Secondary Suspense
+1.  **Hook Suspense**: [Opening question] → Revealed at Pinch 1.
+2.  **PP1 Suspense**: [New question] → Revealed at Midpoint.
+3.  **Mid Suspense**: [Deeper question] → Revealed at PP2.
+4.  **PP2 Suspense**: [Final question] → Revealed in Resolution.
+
+## The Protagonist's State at Each Point
+
+| Point | Ability | Knowledge | Attitude | Situation |
+|---|---|---|---|---|
+| Hook | Normal | Ignorant | Passive | Safe |
+| PP1 | Normal | Shocked | Resistant | Dangerous |
+| Pinch 1 | Novice | Aware | Afraid | Pressured |
+| Mid | Intermediate | Understanding | Proactive | Turning Point |
+| Pinch 2 | Intermediate | Clear | Shaken | Critical |
+| PP2 | Advanced | Thorough | Determined | The Final Battle |
+| Resolution | Peak | All-Knowing | Fearless | Victorious |
+
+## Writing Notes
+
+### Core Requirements of the Seven-Point Structure
+- [ ] Every point must advance the story.
+- [ ] Transitions between points must be natural.
+- [ ] Maintain a continuous rise in tension.
+- [ ] The Midpoint must truly change the game.
+- [ ] The Pinch Points cannot be skipped.
+- [ ] Every point must raise the stakes.
+
+### Common Pitfalls to Avoid
+- A slow Hook.
+- A weak PP1.
+- Weak Pinch Points.
+- A powerless Midpoint.
+- Insufficient preparation at PP2.
+- A rushed Resolution.
+
+### Pacing Techniques
+- Use short chapters to speed up the pace.
+- Switch POVs at plot points to increase impact.
+- Use time pressure to maintain tension.
+- Provide timely breathers to avoid fatigue.
+
+---
+*Created: [Date]*
+*Methodology: The Seven-Point Story Structure*
+*Version: 1.0*

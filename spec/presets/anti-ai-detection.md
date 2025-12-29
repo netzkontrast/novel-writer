@@ -1,525 +1,525 @@
-# 反AI检测写作规范
+# Anti-AI Detection Writing Guidelines
 
-**基于腾讯朱雀实测标准（AI浓度0%通过案例）**
+**Based on Tencent Zhuque empirical testing standards (for cases that passed with 0% AI concentration)**
 
-⚠️ **重要说明**：本规范基于实际通过朱雀检测的案例（AI浓度0%）总结，摒弃理论化的"补偿方法"，采用**简洁克制**的自然写作原则。
+⚠️ **Important Note**: These guidelines are summarized from cases that actually passed Zhuque detection with 0% AI concentration, abandoning theoretical "compensation methods" in favor of **concise and restrained** natural writing principles.
 
-📚 **应用场景**：本规范专为**小说创作**设计。小说写作与文章/公众号有本质区别:
-- **叙事连贯性**：小说需要保持故事流畅，避免过度跳跃
-- **标点克制度**：小说标点比文章更规范，避免过度网络化（。。。、过多!!!）
-- **情绪化程度**：小说情绪表达更内敛，不同于公众号的夸张风格
-
----
-
-## 一、核心原则
-
-### ❌ 错误理念（导致95% AI浓度）
-传统"补偿低温度"的方法要求：
-- 强制堆砌感官细节（"至少3种感官体验"）
-- 使用华丽比喻和修辞
-- 过度戏剧化处理
-- 追求"生动"和"丰富"
-
-**结果**：这些做法反而增加AI特征，导致检测失败。
-
-### ✅ 正确理念（实现0% AI浓度）
-基于自然写作的原则：
-- **克制描写**：一个准确的细节胜过三个堆砌
-- **简洁叙述**：用最少的字传达信息
-- **短句节奏**：单句15-25字，关键信息独立成段
-- **白描手法**：陈述事实，不加修饰（尤其适合古代背景）
+📚 **Application**: These guidelines are designed specifically for **novel writing**. Writing a novel is fundamentally different from writing an article or blog post:
+- **Narrative Cohesion**: Novels require a smooth story flow, avoiding excessive jumps.
+- **Punctuation Restraint**: Punctuation in novels is more standardized than in articles, avoiding overly online styles (e.g., `...` with periods, excessive `!!!`).
+- **Emotional Tone**: Emotional expression in novels is more subdued, unlike the exaggerated style of blogs.
 
 ---
 
-## 二、段落结构规范（最关键）⭐
+## 1. Core Principles
 
-### 📏 30-50% 单句成段原则
+### ❌ Flawed Philosophy (leads to 95% AI concentration)
+The traditional method of "compensating for low temperature" demands:
+- Forcibly stacking sensory details ("at least 3 sensory experiences").
+- Using ornate metaphors and rhetoric.
+- Overly dramatic handling.
+- Striving for "vividness" and "richness."
 
-**规则**：
-- ✅ **30%-50%的段落应为单句成段**
-- ✅ **每段控制在50-100字**
-- ✅ **重点信息独立成段**
+**Result**: These practices actually increase AI characteristics, leading to detection failure.
 
-**示例对比**：
-
-#### ❌ AI化写法（95% AI浓度）
-```
-房间里弥漫着霉味，唯一的光源是窗帘缝隙透进的灰白月光。他摸索着墙壁前行，指尖触到冰冷的石壁，直到膝盖撞上桌角——一张摇摇欲坠的木桌，上面堆满灰尘。
-```
-**问题**：
-- 一段话包含过多信息
-- 使用AI高频词："弥漫着"、"唯一的"、"直到"
-- 过度描写细节
-- 华丽修饰："摇摇欲坠"
-
-#### ✅ 自然写法（0% AI浓度）
-```
-永嘉之乱后，中原被异族占领。
-
-汉地士族百姓除了少数不愿离开家乡的，大都南下渡江。
-
-王谯这些年招揽了百十流民为自己种地。
-```
-**优点**：
-- 单句独立成段（100%单句成段）
-- 简洁克制，无堆砌
-- 历史白描手法
-- 甚至带有口语化特征："大都分"（自然的语言习惯）
-
-### 📊 段落结构检查
-
-写完一段后检查：
-- [ ] 单句成段占比是否在30%-50%？
-- [ ] 每段字数是否在50-100字？
-- [ ] 是否有过长段落（>150字）？
-- [ ] 关键信息是否独立成段？
+### ✅ Correct Philosophy (achieves 0% AI concentration)
+Based on the principles of natural writing:
+- **Restrained Description**: One precise detail is better than three stacked ones.
+- **Concise Narration**: Convey information with the fewest words.
+- **Short Sentence Rhythm**: Sentences of 15-25 words, with key information in its own paragraph.
+- **Plain Drawing (Báimiáo) Technique**: State facts without embellishment (especially suitable for historical settings).
 
 ---
 
-## 三、禁止事项清单（反AI腔）
+## 2. Paragraph Structure Guidelines (Most Critical) ⭐
 
-### 🚫 1. 禁止无意义堆砌
+### 📏 The 30-50% Single-Sentence Paragraph Rule
 
-**错误示例**：
-```
-❌ 他看到房间里有三盏灯、两张桌子和一把椅子，听到窗外传来鸟鸣声，闻到空气中的烟味...
-```
+**Rules**:
+- ✅ **30%-50% of paragraphs should be single sentences.**
+- ✅ **Keep each paragraph between 50-100 words.**
+- ✅ **Put key information in its own paragraph.**
 
-**正确做法**：
-```
-✅ 房间里有张旧桌子。
-```
+**Example Comparison**:
 
-**原则**：
-- ❌ 不要强行凑够"3种感官"
-- ❌ 不要列举式情绪描写
-- ✅ 一个准确的细节胜过三个堆砌
+#### ❌ AI-like Writing (95% AI concentration)
+```
+A musty smell permeated the room, the only light source being the grayish moonlight filtering through a crack in the curtains. He fumbled along the wall, his fingertips touching the cold stone, until his knee hit the corner of a table—a rickety wooden table covered in a thick layer of dust.
+```
+**Problems**:
+- Too much information in one paragraph.
+- Uses high-frequency AI words: "permeated," "the only," "until."
+- Excessive description of details.
+- Flowery embellishment: "rickety."
 
-### 🚫 2. 禁止华丽比喻
+#### ✅ Natural Writing (0% AI concentration)
+```
+After the Yongjia Disturbance, the Central Plains were occupied by foreign tribes.
 
-**错误示例**：
-```
-❌ 空气仿佛凝固了
-❌ 摇摇欲坠的木桌
-❌ 脸色如死灰般苍白
-```
+Most of the Han gentry and commoners, except for a few unwilling to leave their homes, fled south across the river.
 
-**正确做法**：
+Over the years, Wang Qiao had recruited hundreds of refugees to farm for him.
 ```
-✅ 沉默
-✅ 一张旧木桌
-✅ 脸色苍白
-```
+**Advantages**:
+- Single sentences as separate paragraphs (100% single-sentence paragraphs).
+- Concise and restrained, no stacking.
+- Historical plain drawing technique.
+- Even has colloquial features (a natural language habit).
 
-### 🚫 3. 禁止过度戏剧化
+### 📊 Paragraph Structure Check
 
-**错误示例**：
-```
-❌ 话音未落，她已转身离开。他冲上去抓住她的手腕，她猛地甩开，力道大得让自己都踉跄了一下。两人对视三秒，空气凝固...
-```
-
-**正确做法**：
-```
-✅ 她转身走了。
-
-他追上去。
-```
-
-### 🚫 4. 禁止说明式对话
-
-**错误示例**：
-```
-❌ "我很生气，因为你昨天没来，这让我感到很失望。"
-```
-
-**正确做法**：
-```
-✅ "你昨天去哪了？"
-"……不关你的事。"
-"不关我的事？好啊！"
-```
-
-### 🚫 5. 禁止直白心理描写
-
-**错误示例**：
-```
-❌ 他心中暗想，这事不简单
-❌ 她内心涌起一股愤怒
-```
-
-**正确做法**：
-```
-✅ 他眉头一紧。
-✅ 她攥紧了拳头。
-```
+After writing a section, check:
+- [ ] Is the percentage of single-sentence paragraphs between 30%-50%?
+- [ ] Is the word count of each paragraph between 50-100 words?
+- [ ] Are there any overly long paragraphs (>150 words)?
+- [ ] Is key information in its own paragraph?
 
 ---
 
-## 四、AI高频词黑名单
+## 3. List of Prohibitions (Anti-AI Voice)
 
-### 🚨 必须避免的词汇
+### 🚫 1. Prohibit Meaningless Stacking
 
-**描写类**：
-- ❌ 弥漫着
-- ❌ 唯一的
-- ❌ 摇摇欲坠
-- ❌ 宛如、仿佛、犹如
-
-**动作类**：
-- ❌ 直到
-- ❌ 猛地
-- ❌ 话音未落
-- ❌ 不禁
-
-**心理类**：
-- ❌ 心中暗想
-- ❌ 顿时
-- ❌ 内心涌起
-- ❌ 不由得
-
-**状态类**：
-- ❌ 空气凝固
-- ❌ 时间仿佛静止
-- ❌ 皱起眉头
-- ❌ 叹了口气
-
-### 🔄 替换策略表
-
-| ❌ AI词汇 | ✅ 自然替换 |
-|---------|----------|
-| 弥漫着霉味 | 有股霉味 / 霉味很重 |
-| 唯一的光源 | 只有一点光 / 就一点光 |
-| 摇摇欲坠的木桌 | 一张旧木桌 / 破木桌 |
-| 他心中暗想 | 他想 / **删除** |
-| 话音未落 | 他话没说完 / **删除** |
-| 猛地转身 | 转身 / 突然转身 |
-| 不禁叹了口气 | 叹气 / **删除** |
-| 空气凝固 | 沉默 / **删除** |
-| 宛如梦境 | 像做梦 / **删除** |
-| 时间仿佛静止 | **删除** |
-
-**注意**：很多情况下，直接**删除**这些修饰比替换更好。
-
----
-
-## 五、自然化写作原则
-
-### 1️⃣ 历史白描法（古代背景适用）
-
-**定义**：陈述事实，不加修饰，类似史书笔法。
-
-**示例**：
+**Incorrect Example**:
 ```
-✅ 永嘉之乱后，中原沦陷。士族南迁，百姓流离。王谯在江南招揽流民，开垦土地。
+❌ He saw three lamps, two tables, and a chair in the room, heard birds chirping outside the window, smelled the smoke in the air...
 ```
 
-**特点**：
-- 简洁直接
-- 无情感渲染
-- 信息密度高但不累赘
-
-### 2️⃣ 口语化处理（对话）
-
-**原则**：真实对话包含停顿、语病、重复。
-
-**示例**：
+**Correct Approach**:
 ```
-✅ "你……你怎么来了？"
-"我，我就是……路过。"
-"路过？你骗谁呢！"
+✅ There was an old table in the room.
 ```
 
-**技巧**：
-- 加入停顿符号："……"
-- 允许重复："就是就是"
-- 允许语病："大都分人"（而非"大部分人"）
-- 不完整句子："算了。"
+**Principles**:
+- ❌ Don't force "3 sensory experiences."
+- ❌ Don't list emotions.
+- ✅ One precise detail is better than three stacked ones.
 
-### 3️⃣ 短句节奏（叙事）
+### 🚫 2. Prohibit Ornate Metaphors
 
-**原则**：
-- 单句15-25字
-- 关键信息独立成段
-- 避免复杂从句
-
-**示例对比**：
-
-❌ **长句复杂**：
+**Incorrect Example**:
 ```
-他走进房间，看到桌上放着一封信，便拿起来打开，发现里面写着让他去城外树林的话，于是他立刻出门了。
+❌ The air seemed to freeze.
+❌ A rickety wooden table.
+❌ A face as pale as death.
 ```
 
-✅ **短句简洁**：
+**Correct Approach**:
 ```
-他走进房间。
-
-桌上有封信。
-
-信里写着：去城外树林。
-
-他立刻出门。
+✅ Silence.
+✅ An old wooden table.
+✅ A pale face.
 ```
 
-### 4️⃣ 克制描写（场景）
+### 🚫 3. Prohibit Over-dramatization
 
-**原则**：一个场景1-2个细节即可，不要全方位描写。
-
-**示例对比**：
-
-❌ **过度描写**：
+**Incorrect Example**:
 ```
-房间里弥漫着霉味，墙壁斑驳冰冷，光线昏暗，只有一张破桌子和一把椅子，空气中还能听到老鼠的声音...
+❌ Before the words were out of her mouth, she had turned to leave. He rushed forward and grabbed her wrist. She violently shook him off, the force so great she stumbled. They stared at each other for three seconds, the air frozen...
 ```
 
-✅ **克制描写**：
+**Correct Approach**:
 ```
-房间很暗。有股霉味。
+✅ She turned and left.
+
+He went after her.
+```
+
+### 🚫 4. Prohibit Explanatory Dialogue
+
+**Incorrect Example**:
+```
+❌ "I am angry because you didn't come yesterday, which made me feel very disappointed."
+```
+
+**Correct Approach**:
+```
+✅ "Where were you yesterday?"
+"...None of your business."
+"None of my business? Fine!"
+```
+
+### 🚫 5. Prohibit Direct Psychological Descriptions
+
+**Incorrect Example**:
+```
+❌ He thought to himself, this is not simple.
+❌ A wave of anger surged within her.
+```
+
+**Correct Approach**:
+```
+✅ His brow furrowed.
+✅ She clenched her fists.
 ```
 
 ---
 
-## 六、实战自检清单
+## 4. AI High-Frequency Word Blacklist
 
-### ✅ 完成章节后检查
+### 🚨 Words to Avoid at All Costs
 
-#### 段落结构（权重40%）
-- [ ] 单句成段占比是否在30%-50%？
-- [ ] 每段字数是否在50-100字？
-- [ ] 是否有超过150字的段落？
+**Descriptive**:
+- ❌ permeated
+- ❌ the only
+- ❌ rickety
+- ❌ as if, like
 
-#### 词汇检查（权重30%）
-- [ ] 是否有"唯一的"、"直到"、"弥漫"等AI高频词？
-- [ ] 是否有"宛如"、"仿佛"、"犹如"等比喻词？
-- [ ] 是否有"不禁"、"顿时"、"猛地"等状态词？
+**Action**:
+- ❌ until
+- ❌ suddenly
+- ❌ before the words were out
+- ❌ couldn't help but
 
-#### 描写方式（权重20%）
-- [ ] 是否强行堆砌感官细节？
-- [ ] 是否使用华丽修辞？
-- [ ] 是否过度戏剧化？
+**Psychological**:
+- ❌ thought to himself
+- ❌ suddenly
+- ❌ a wave of... surged within
+- ❌ couldn't help but
 
-#### 对话自然度（权重10%）
-- [ ] 对话是否过于完整（缺少停顿、语病）？
-- [ ] 是否有说明式对话？
+**State**:
+- ❌ the air froze
+- ❌ time seemed to stand still
+- ❌ furrowed his brow
+- ❌ sighed
 
----
+### 🔄 Replacement Strategy Table
 
-## 七、场景适配策略
+| ❌ AI Word | ✅ Natural Replacement |
+|---|---|
+| a musty smell permeated | had a musty smell / the musty smell was strong |
+| the only light source | only a little light / just a bit of light |
+| a rickety wooden table | an old wooden table / a broken table |
+| he thought to himself | he thought / **delete** |
+| before the words were out | he didn't finish / **delete** |
+| suddenly turned | turned / turned suddenly |
+| couldn't help but sigh | sighed / **delete** |
+| the air froze | silence / **delete** |
+| as if in a dream | like a dream / **delete** |
+| time seemed to stand still | **delete** |
 
-### 古代历史小说
-- ✅ **首选**：历史白描法
-- ✅ **段落**：偏向单句成段（40-50%）
-- ✅ **词汇**：古朴简洁
-- ❌ **避免**：现代口语、网络用语
-
-### 现代都市小说
-- ✅ **首选**：口语化处理
-- ✅ **段落**：30-40%单句成段
-- ✅ **词汇**：生活化、带方言
-- ✅ **允许**：不完整句、语病
-
-### 玄幻仙侠小说
-- ✅ **混合**：白描+短句节奏
-- ✅ **段落**：30-35%单句成段
-- ✅ **词汇**：简洁有力
-- ❌ **避免**：过度华丽的功法描写
-
----
-
-## 八、常见错误案例
-
-### 案例1：强制堆砌感官
-
-**错误版本**（95% AI浓度）：
-```
-他走进房间，眼前一片昏暗，鼻间弥漫着潮湿的霉味，耳边传来滴水声，手指触到冰冷的墙壁，舌尖感到空气中的苦涩...
-```
-
-**修正版本**（预期<5% AI浓度）：
-```
-他走进房间。
-
-很暗，有股霉味。
-
-角落在滴水。
-```
-
-### 案例2：华丽比喻堆砌
-
-**错误版本**：
-```
-她的眼神宛如深秋的湖水，平静中带着寒意，仿佛能冻结一切情感，又如同夜空中的星辰，遥远而不可及...
-```
-
-**修正版本**：
-```
-她眼神很冷。
-
-他不敢看。
-```
-
-### 案例3：过度戏剧化
-
-**错误版本**：
-```
-话音未落，她已转身离开。他冲上去抓住她的手腕，她猛地甩开，力道大得让自己都踉跄了一下。两人对视三秒，空气凝固，最终她头也不回地消失在走廊尽头。
-```
-
-**修正版本**：
-```
-她转身就走。
-
-他追上去拉住她。
-
-她甩开。
-
-"你走开！"
-
-她跑了。
-```
+**Note**: In many cases, **deleting** these modifiers is better than replacing them.
 
 ---
 
-## 九、效果预期
+## 5. Natural Writing Principles
 
-### v0.16.5 问题
-- AI浓度：**95%**
-- 问题根源：强制"感官体验至少3种"、华丽示例引导
+### 1️⃣ Historical Plain Drawing (Báimiáo) Method (for historical settings)
 
-### v0.17.0 目标
-- AI浓度：**<5%**
-- 改进策略：
-  - 30-50%单句成段
-  - AI高频词黑名单
-  - 克制描写原则
-  - 简洁自然引导
+**Definition**: State facts without embellishment, similar to the style of historical records.
 
-### 实测基准
-- **参考案例**：网友手写通过腾讯朱雀（AI浓度0%）
-- **核心特征**：单句成段+历史白描+极简风格
-- **可复现性**：高（已在实测中验证）
-
----
-
-## 十、持续优化建议
-
-### 1. 定期测试
-- 每个版本都用朱雀检测测试
-- 收集通过率数据
-- 调整黑名单和规则
-
-### 2. 用户反馈
-- 收集用户实际检测结果
-- 分析失败案例
-- 更新规范文档
-
-### 3. 检测工具更新
-- 跟踪朱雀等工具更新
-- 研究新的检测特征
-- 调整反检测策略
-
----
-
-## 十一、标点个性化（去AI味进阶）⭐
-
-### 核心理念
-
-标点是文字的情绪载体,AI倾向于规整标准的标点,而真人写作的标点会带有**个性、情绪和"瑕疵"**。
-
-### 关键策略
-
-#### 1. 省略号多样化（小说版）
-- ❌ AI: 永远是标准6点省略号（……）
-- ✅ 小说适度混用:
-  - 正式场景: ……
-  - 口语场景: ...
-  - ~~随意场景: 。。。~~ ⚠️ **小说慎用,这是公众号/聊天风格**
-
-**小说建议**: 主要混用……和...,避免句号式省略号（。。。）
-
-#### 2. 情绪化标点
-- **犹豫时**: 省略号密集
-  - 示例: "他想...算了...不说了。"
-- **激动时**: 感叹号连用
-  - 示例: "太好了！！这下有救了！"
-- **困惑时**: 问号连用
-  - 示例: "什么？？这怎么可能？？？"
-
-#### 3. 标点与情绪对照
-
-| 情绪 | 标点特征 | 示例 |
-|-----|---------|------|
-| 平静 | 标准逗号句号 | 他走了过去。 |
-| 犹豫 | 省略号、破折号 | 他想...算了。 |
-| 紧张 | 短句、句号密集 | 脚步声。越来越近。 |
-| 激动 | 感叹号连用 | 太好了！！ |
-| 困惑 | 问号连用 | 什么？？这怎么... |
-
-### 快速自检
-
-- [ ] 省略号是否只用一种样式？（AI倾向）
-- [ ] 情绪激动时标点是否有变化？
-- [ ] 标点是否过于规整？
-- [ ] 是否有标点"错误"（口语、方言）？
-
-**详细指南**: 参考 `spec/knowledge/punctuation-personality.md`
-
----
-
-## 十二、进阶资源
-
-### 系统化去AI味方法
-
-本规范聚焦反AI检测的**核心要点**（单句成段、AI高频词黑名单、克制描写）。
-
-对于更系统的去AI味策略,参考:
-- `spec/knowledge/anti-ai-advanced.md` - 四层策略完整指南
-- `spec/knowledge/punctuation-personality.md` - 标点个性化详解
-- `spec/knowledge/detail-formulas.md` - 具象化替换公式库
-- `spec/knowledge/natural-expression.md` - 自然化表达技巧
-
-### 四层策略概览
-
-1. **Layer 1: 文风模仿** - 不要泛泛地"自然",要有具体标杆
-2. **Layer 2: 具象注入** - 主动获取真实细节,替换抽象表达
-3. **Layer 3: 标点叛逆** - 打破规整,标点要带情绪
-4. **Layer 4: 结构失衡** - 故意的不均衡才真实
-
----
-
-## 快速参考卡片
-
+**Example**:
 ```
-✅ DO（必做 - 小说版）
-- 30-50%单句成段 ⭐ 反AI检测核心
-- 每段50-100字
-- 简洁克制描写
-- 短句节奏（15-25字）
-- 口语化对话
-- 标点有变化（省略号混用……和...，感叹号适度连用!!）
-- 具象化细节（上周三 > 最近）
-- 保持叙事连贯（避免过度跳跃）
+✅ After the Yongjia Disturbance, the Central Plains fell. The gentry fled south, and the common people were displaced. Wang Qiao recruited refugees in the south to reclaim and cultivate land.
+```
 
-❌ DON'T（禁止）
-- 弥漫、唯一、直到、不禁
-- 华丽比喻
-- 强制堆砌感官
-- 过度戏剧化
-- 说明式对话
-- 标点规整（永远正确）
-- 抽象表达（很多人、最近）
-- 网络化标点过度（。。。、!!!!、???）
+**Characteristics**:
+- Concise and direct.
+- No emotional coloring.
+- High information density without being cumbersome.
 
-🎯 小说目标
-- AI浓度 < 5%
-- 通过朱雀检测
-- 保持可读性和叙事流畅性
-- 标点有个性但克制
-- 细节有温度
-- 情绪真实但不夸张
+### 2️⃣ Colloquial Handling (Dialogue)
+
+**Principle**: Real dialogue contains pauses, errors, and repetitions.
+
+**Example**:
+```
+✅ "You... what are you doing here?"
+"I, I was just... passing by."
+"Passing by? Who are you kidding!"
+```
+
+**Techniques**:
+- Add pauses: "..."
+- Allow repetitions: "Yes, yes."
+- Allow grammatical errors.
+- Use incomplete sentences: "Never mind."
+
+### 3️⃣ Short Sentence Rhythm (Narration)
+
+**Principles**:
+- Sentences of 15-25 words.
+- Key information in its own paragraph.
+- Avoid complex clauses.
+
+**Example Comparison**:
+
+❌ **Long, complex sentence**:
+```
+He walked into the room, saw a letter on the table, picked it up and opened it, found that it told him to go to the woods outside the city, so he left immediately.
+```
+
+✅ **Short, concise sentences**:
+```
+He walked into the room.
+
+There was a letter on the table.
+
+It said: Go to the woods outside the city.
+
+He left immediately.
+```
+
+### 4️⃣ Restrained Description (Scenes)
+
+**Principle**: 1-2 details per scene are enough; don't describe everything.
+
+**Example Comparison**:
+
+❌ **Over-description**:
+```
+A musty smell permeated the room, the walls were mottled and cold, the light was dim, there was only a broken table and a chair, and the sound of mice could be heard in the air...
+```
+
+✅ **Restrained description**:
+```
+The room was dark. It smelled musty.
 ```
 
 ---
 
-*本规范基于腾讯朱雀2025年1月实测标准编写*
-*版本：v0.18.0* (增加标点个性化与四层策略引用)
-*最后更新：2025-10*
+## 6. Practical Self-Checklist
+
+### ✅ Check after finishing a chapter
+
+#### Paragraph Structure (40% weight)
+- [ ] Is the percentage of single-sentence paragraphs between 30%-50%?
+- [ ] Is the word count of each paragraph between 50-100 words?
+- [ ] Are there any paragraphs over 150 words?
+
+#### Vocabulary Check (30% weight)
+- [ ] Are there high-frequency AI words like "the only," "until," "permeated"?
+- [ ] Are there simile words like "as if," "like"?
+- [ ] Are there state words like "couldn't help but," "suddenly," "violently"?
+
+#### Description Style (20% weight)
+- [ ] Did I forcibly stack sensory details?
+- [ ] Did I use ornate rhetoric?
+- [ ] Did I over-dramatize?
+
+#### Dialogue Naturalness (10% weight)
+- [ ] Is the dialogue too perfect (lacking pauses, errors)?
+- [ ] Is there explanatory dialogue?
+
+---
+
+## 7. Scene Adaptation Strategies
+
+### Historical Fiction
+- ✅ **First choice**: Historical plain drawing method.
+- ✅ **Paragraphs**: Lean towards single-sentence paragraphs (40-50%).
+- ✅ **Vocabulary**: Simple and archaic.
+- ❌ **Avoid**: Modern colloquialisms, internet slang.
+
+### Modern Urban Fiction
+- ✅ **First choice**: Colloquial handling.
+- ✅ **Paragraphs**: 30-40% single-sentence paragraphs.
+- ✅ **Vocabulary**: Everyday language, with dialects.
+- ✅ **Allow**: Incomplete sentences, grammatical errors.
+
+### Fantasy/Xianxia Fiction
+- ✅ **Mix**: Plain drawing + short sentence rhythm.
+- ✅ **Paragraphs**: 30-35% single-sentence paragraphs.
+- ✅ **Vocabulary**: Concise and powerful.
+- ❌ **Avoid**: Overly flowery descriptions of techniques.
+
+---
+
+## 8. Common Error Cases
+
+### Case 1: Forcing Sensory Stacking
+
+**Incorrect Version** (95% AI concentration):
+```
+He walked into the room, his eyes met with darkness, a damp, musty smell permeated his nostrils, he heard the sound of dripping water, his fingers touched the cold wall, and his tongue tasted the bitterness in the air...
+```
+
+**Corrected Version** (expected <5% AI concentration):
+```
+He walked into the room.
+
+It was dark and smelled musty.
+
+Water was dripping in the corner.
+```
+
+### Case 2: Stacking Ornate Metaphors
+
+**Incorrect Version**:
+```
+Her eyes were like a deep autumn lake, calm with a hint of coldness, as if they could freeze all emotion, yet like the stars in the night sky, distant and unreachable...
+```
+
+**Corrected Version**:
+```
+Her eyes were cold.
+
+He didn't dare to look.
+```
+
+### Case 3: Over-dramatization
+
+**Incorrect Version**:
+```
+Before the words were out of her mouth, she had turned to leave. He rushed forward and grabbed her wrist. She violently shook him off, the force so great she stumbled. They stared at each other for three seconds, the air frozen, until she disappeared down the hall without a backward glance.
+```
+
+**Corrected Version**:
+```
+She turned to leave.
+
+He caught up and grabbed her.
+
+She shook him off.
+
+"Get away from me!"
+
+She ran.
+```
+
+---
+
+## 9. Expected Effects
+
+### v0.16.5 Problem
+- AI Concentration: **95%**
+- Root Cause: Forcing "at least 3 sensory experiences," guided by flowery examples.
+
+### v0.17.0 Target
+- AI Concentration: **<5%**
+- Improvement Strategy:
+  - 30-50% single-sentence paragraphs.
+  - Blacklist of high-frequency AI words.
+  - Principle of restrained description.
+  - Guidance towards concise and natural writing.
+
+### Empirical Benchmark
+- **Reference Case**: A user's handwritten text that passed Tencent Zhuque (0% AI concentration).
+- **Core Features**: Single-sentence paragraphs + historical plain drawing + minimalist style.
+- **Reproducibility**: High (verified in empirical tests).
+
+---
+
+## 10. Continuous Optimization Suggestions
+
+### 1. Regular Testing
+- Test each version with Zhuque detection.
+- Collect data on pass rates.
+- Adjust the blacklist and rules.
+
+### 2. User Feedback
+- Collect actual detection results from users.
+- Analyze failed cases.
+- Update the guidelines.
+
+### 3. Detection Tool Updates
+- Track updates to tools like Zhuque.
+- Research new detection features.
+- Adjust anti-detection strategies.
+
+---
+
+## 11. Punctuation Personalization (Advanced De-AI-ification) ⭐
+
+### Core Philosophy
+
+Punctuation is the emotional vehicle of text. AI tends to use neat, standard punctuation, while human writing has **personality, emotion, and "flaws."**
+
+### Key Strategies
+
+#### 1. Ellipsis Diversification (Novel Version)
+- ❌ AI: Always the standard 6-dot ellipsis (`……`).
+- ✅ Moderate mix for novels:
+  - Formal scenes: `……`
+  - Colloquial scenes: `...`
+  - ~~Casual scenes: `。。。`~~ ⚠️ **Use with caution in novels; this is a blog/chat style.**
+
+**Novel Suggestion**: Mainly mix `……` and `...`, avoid the period-style ellipsis (`。。。`).
+
+#### 2. Emotional Punctuation
+- **Hesitation**: Dense ellipses.
+  - Example: "He thought... never mind... let's not say it."
+- **Excitement**: Multiple exclamation marks.
+  - Example: "Great!! We're saved!"
+- **Confusion**: Multiple question marks.
+  - Example: "What?? How is that possible???"
+
+#### 3. Punctuation and Emotion
+
+| Emotion | Punctuation Feature | Example |
+|---|---|---|
+| Calm | Standard comma and period | He walked over. |
+| Hesitant | Ellipsis, dash | He thought... never mind. |
+| Tense | Short sentences, frequent periods | Footsteps. Closer. |
+| Excited | Multiple exclamation marks | Great!! |
+| Confused | Multiple question marks | What?? How... |
+
+### Quick Self-Check
+
+- [ ] Is only one style of ellipsis used? (AI tendency)
+- [ ] Does punctuation change with high emotion?
+- [ ] Is the punctuation too neat?
+- [ ] Are there punctuation "errors" (colquial, dialect)?
+
+**Detailed Guide**: See `spec/knowledge/punctuation-personality.md`
+
+---
+
+## 12. Advanced Resources
+
+### Systematic De-AI-ification Method
+
+These guidelines focus on the **core points** of anti-AI detection (single-sentence paragraphs, high-frequency AI word blacklist, restrained description).
+
+For more systematic de-AI-ification strategies, see:
+- `spec/knowledge/anti-ai-advanced.md` - The complete four-layer strategy guide.
+- `spec/knowledge/punctuation-personality.md` - Detailed guide to punctuation personalization.
+- `spec/knowledge/detail-formulas.md` - Library of concretization replacement formulas.
+- `spec/knowledge/natural-expression.md` - Techniques for natural expression.
+
+### Four-Layer Strategy Overview
+
+1.  **Layer 1: Style Imitation** - Don't just be vaguely "natural"; have a specific benchmark.
+2.  **Layer 2: Concrete Injection** - Actively acquire real details to replace abstract expressions.
+3.  **Layer 3: Punctuation Rebellion** - Break the neatness; punctuation should carry emotion.
+4.  **Layer 4: Structural Imbalance** - Intentional imbalance is what makes it real.
+
+---
+
+## Quick Reference Card
+
+```
+✅ DO (Required - Novel Version)
+- 30-50% single-sentence paragraphs ⭐ Core of anti-AI detection.
+- 50-100 words per paragraph.
+- Concise and restrained description.
+- Short sentence rhythm (15-25 words).
+- Colloquial dialogue.
+- Varied punctuation (mix `……` and `...`; use `!!` moderately).
+- Concrete details (Last Wednesday > Recently).
+- Maintain narrative cohesion (avoid excessive jumping).
+
+❌ DON'T (Prohibited)
+- `permeated`, `the only`, `until`, `couldn't help but`.
+- Ornate metaphors.
+- Forcing sensory stacking.
+- Over-dramatization.
+- Explanatory dialogue.
+- Neat punctuation (always correct).
+- Abstract expressions (many people, recently).
+- Excessive online punctuation (`。。。`, `!!!!`, `???`).
+
+🎯 Novel Goal
+- AI concentration < 5%.
+- Pass Zhuque detection.
+- Maintain readability and narrative flow.
+- Punctuation with personality but restrained.
+- Details with warmth.
+- Emotion that is authentic but not exaggerated.
+```
+
+---
+
+*These guidelines are based on empirical testing standards of Tencent Zhuque as of January 2025.*
+*Version: v0.18.0* (added punctuation personalization and four-layer strategy references)
+*Last Updated: 2025-10*

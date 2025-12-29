@@ -1,120 +1,120 @@
-# 小说：[作品标题]
+# Novel: [Work Title]
 
-## 基本信息
-- **类型**：[科幻/奇幻/现实/历史/言情/悬疑/武侠/仙侠等]
-- **字数目标**：[预计总字数，如：30万字]
-- **目标读者**：[读者群体描述，如：喜欢硬科幻的成年读者]
-- **创作状态**：雪花构建中
+## Basic Information
+- **Genre**: [Sci-Fi/Fantasy/Realistic/Historical/Romance/Mystery/Wuxia/Xianxia, etc.]
+- **Word Count Target**: [Estimated total word count, e.g., 300,000 words]
+- **Target Audience**: [Description of readership, e.g., Adult readers who enjoy hard sci-fi]
+- **Creative Status**: Under construction with the Snowflake Method
 
-## 雪花方法十步构建
+## The Ten Steps of the Snowflake Method
 
-### 第一步：一句话概括（15字以内）
-[用一句话概括整个故事，不使用角色名字，如：一个失忆的人工智能在寻找自我的过程中拯救了人类]
+### Step 1: The One-Sentence Summary (under 15 words)
+[Summarize the entire story in one sentence, without using character names, e.g., An amnesiac AI saves humanity in the process of finding itself.]
 
-### 第二步：一段话总结（五句话结构）
-- **开场设置**：[故事背景和起始状态]
-- **第一个灾难**：[第一幕结尾的转折点，占全书1/4]
-- **第二个灾难**：[第二幕中点的重大挫折，占全书1/2]
-- **第三个灾难**：[第二幕结尾的最大危机，占全书3/4]
-- **结局收尾**：[冲突解决和故事终点]
+### Step 2: The Five-Sentence Paragraph
+- **The Setup**: [The story's background and initial state.]
+- **The First Disaster**: [The turning point at the end of Act One, at the 1/4 mark of the book.]
+- **The Second Disaster**: [The major setback at the midpoint of Act Two, at the 1/2 mark of the book.]
+- **The Third Disaster**: [The greatest crisis at the end of Act Two, at the 3/4 mark of the book.]
+- **The Ending**: [The conflict resolution and the end of the story.]
 
-### 第三步：主要角色设定
+### Step 3: Main Character Descriptions
 
-#### 主角
-- **姓名**：[主角名字]
-- **一句话故事线**：[该角色的个人故事线概括]
-- **动机**：[角色的抽象需求，如：爱、正义、自由]
-- **目标**：[角色的具体目标，如：找到失踪的妹妹]
-- **冲突**：[阻碍达成目标的因素]
-- **顿悟**：[角色将学到什么/如何改变]
-- **一段话故事线**：[从角色视角描述的故事发展]
+#### Protagonist
+- **Name**: [Protagonist's Name]
+- **One-Sentence Storyline**: [A summary of this character's personal storyline.]
+- **Motivation**: [The character's abstract need, e.g., love, justice, freedom.]
+- **Goal**: [The character's concrete goal, e.g., to find their missing sister.]
+- **Conflict**: [The factors preventing the goal from being achieved.]
+- **Epiphany**: [What the character will learn/how they will change.]
+- **One-Paragraph Storyline**: [The story's development from the character's perspective.]
 
-#### 对手/反派
-- **姓名**：[角色名字]
-- **一句话故事线**：[该角色的个人故事线概括]
-- **动机**：[角色的抽象需求]
-- **目标**：[角色的具体目标]
-- **冲突**：[阻碍达成目标的因素]
-- **顿悟**：[角色将学到什么/如何改变]
-- **一段话故事线**：[从角色视角描述的故事发展]
+#### Antagonist
+- **Name**: [Character's Name]
+- **One-Sentence Storyline**: [A summary of this character's personal storyline.]
+- **Motivation**: [The character's abstract need.]
+- **Goal**: [The character's concrete goal.]
+- **Conflict**: [The factors preventing the goal from being achieved.]
+- **Epiphany**: [What the character will learn/how they will change.]
+- **One-Paragraph Storyline**: [The story's development from the character's perspective.]
 
-#### 重要配角1
-- **姓名**：[角色名字]
-- **一句话故事线**：[简短的角色故事线]
-- **与主角关系**：[导师/伙伴/爱人等]
-- **核心功能**：[在故事中的作用]
+#### Important Supporting Character 1
+- **Name**: [Character's Name]
+- **One-Sentence Storyline**: [A brief character storyline.]
+- **Relationship to Protagonist**: [Mentor/Partner/Love Interest, etc.]
+- **Core Function**: [Their role in the story.]
 
-### 第四步：扩展情节大纲（每句扩展为一段）
+### Step 4: Expanding the Plot Outline (Expand each sentence into a paragraph)
 
-#### 开场设置段落
-[将第二步的第一句扩展为完整段落，详细描述故事世界、主角处境、日常生活等]
+#### The Setup Paragraph
+[Expand the first sentence of Step 2 into a full paragraph, describing the story world, the protagonist's situation, daily life, etc.]
 
-#### 第一个灾难段落
-[扩展描述引发冒险的事件、主角的抉择、跨越门槛的时刻等]
+#### The First Disaster Paragraph
+[Expand on the event that triggers the adventure, the protagonist's choice, the moment of crossing the threshold, etc.]
 
-#### 第二个灾难段落
-[扩展描述中段危机、假性胜利或失败、局势逆转等]
+#### The Second Disaster Paragraph
+[Expand on the mid-story crisis, a false victory or defeat, a reversal of the situation, etc.]
 
-#### 第三个灾难段落
-[扩展描述最黑暗时刻、一切似乎失去、内在冲突达到顶峰等]
+#### The Third Disaster Paragraph
+[Expand on the darkest moment, when all seems lost, the internal conflict reaches its peak, etc.]
 
-#### 结局收尾段落
-[扩展描述最终对决、高潮场面、问题解决、新的平衡等]
+#### The Ending Paragraph
+[Expand on the final confrontation, the climax, the resolution of the problem, the new balance, etc.]
 
-### 第五步：角色深度设定（每个主要角色一页）
+### Step 5: In-depth Character Descriptions (One page for each main character)
 
-[此步骤将为每个重要角色创建详细的背景故事、性格特征、成长轨迹等，从各自视角讲述故事]
+[This step involves creating detailed backstories, personality traits, growth trajectories, etc., for each important character, telling the story from their perspective.]
 
-### 第六步：四页故事梗概
+### Step 6: The Four-Page Synopsis
 
-[将第四步的每个段落再扩展为一页内容，形成详细的故事梗概]
+[Expand each paragraph from Step 4 into a full page, creating a detailed story synopsis.]
 
-### 第七步：完整角色档案
+### Step 7: Complete Character Profiles
 
-[创建角色的完整资料：出生日期、外貌描述、成长经历、性格分析、人物关系等]
+[Create a complete profile for each character: date of birth, physical description, life experience, personality analysis, relationships, etc.]
 
-### 第八步：场景列表规划
+### Step 8: Scene List Planning
 
-[基于四页梗概创建场景列表，包括：
-- 场景编号
-- POV角色
-- 场景内容
-- 预计字数
-- 章节归属]
+[Create a scene list based on the four-page synopsis, including:
+- Scene number
+- POV character
+- Scene content
+- Estimated word count
+- Chapter attribution]
 
-### 第九步：场景详细描述（可选）
+### Step 9: Detailed Scene Descriptions (Optional)
 
-[每个场景扩展为多段描述，包含关键对话、冲突要点等]
+[Expand each scene into multiple paragraphs, including key dialogue, conflict points, etc.]
 
-### 第十步：初稿创作指南
+### Step 10: First Draft Writing Guide
 
-[基于以上所有准备，开始快速写作初稿的要点提醒]
+[Key reminders for writing the first draft quickly, based on all the preparation above.]
 
-## 核心设定补充
+## Supplementary Core Settings
 
-### 世界观要素
-- **时代背景**：[故事发生的时间]
-- **地理环境**：[主要场景和地点]
-- **社会结构**：[权力体系、阶层等]
-- **特殊规则**：[魔法/科技/独特设定]
+### World-building Elements
+- **Era**: [The time the story takes place.]
+- **Geography**: [Main scenes and locations.]
+- **Social Structure**: [Power systems, classes, etc.]
+- **Special Rules**: [Magic/technology/unique settings.]
 
-### 主题与象征
-- **核心主题**：[想要探讨的深层主题]
-- **象征元素**：[重要的象征物或概念]
-- **哲学思考**：[故事引发的思考]
+### Themes and Symbolism
+- **Core Theme**: [The deeper theme you want to explore.]
+- **Symbolic Elements**: [Important symbolic objects or concepts.]
+- **Philosophical Questions**: [The questions the story raises.]
 
-## 创作备注
+## Creative Notes
 
-### 灵感来源
-[记录最初的创意火花]
+### Sources of Inspiration
+[Record the initial creative spark.]
 
-### 参考作品
-[相似题材或风格的作品]
+### Reference Works
+[Works of a similar theme or style.]
 
-### 目标与期望
-[希望达到的效果和读者反应]
+### Goals and Expectations
+[The desired effect and reader reaction.]
 
 ---
-*创建时间: [日期]*
-*最后更新: [日期]*
-*方法版本: 雪花十步法*
+*Created: [Date]*
+*Last Updated: [Date]*
+*Method Version: The 10-Step Snowflake Method*

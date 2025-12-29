@@ -1,200 +1,200 @@
-# 小说：[作品标题] - 故事圈框架
+# Novel: [Work Title] - The Story Circle Framework
 
-## 基本信息
-- **类型**：[类型]
-- **字数目标**：[预计总字数]
-- **目标读者**：[读者群体]
-- **创作方法**：故事圈（Story Circle）
+## Basic Information
+- **Genre**: [Genre]
+- **Word Count Target**: [Estimated total word count]
+- **Target Audience**: [Readership]
+- **Writing Method**: The Story Circle
 
-## 故事内核
+## Story Core
 
-### 核心需求
-[角色的根本需求是什么？不是表面欲望，而是深层需要]
+### The Core Need
+[What is the character's fundamental need? Not a surface desire, but a deep-seated need.]
 
-### 核心改变
-[角色将从什么状态改变到什么状态？]
+### The Core Change
+[From what state to what state will the character change?]
 
-### 循环主题
-[这个故事探讨的循环性主题是什么？]
+### The Cyclical Theme
+[What is the recurring theme that this story explores?]
 
-## 故事圈8步规划
+## The 8 Steps of the Story Circle
 
-### 第1步：你（舒适区）
-**章节范围**：第1-X章（约10%）
-- **角色状态**：[日常生活状态]
-- **环境设定**：[熟悉的世界]
-- **潜在问题**：[舒适区的问题]
-- **伏笔设置**：[暗示即将到来的需求]
+### Step 1: You (The Comfort Zone)
+**Chapter Range**: 1-X (approx. 10%)
+- **Character's State**: [Daily life status]
+- **Setting**: [The familiar world]
+- **The Underlying Problem**: [The issue with the comfort zone]
+- **Foreshadowing**: [Hints of the coming need]
 
-### 第2步：需要
-**章节范围**：第X-X章（约10%）
-- **需求产生**：[什么引发了需求]
-- **需求内容**：[角色想要什么]
-- **动机强度**：[为什么必须得到]
-- **初始阻力**：[什么在阻止角色]
+### Step 2: Need
+**Chapter Range**: X-X (approx. 10%)
+- **The Emergence of Need**: [What triggers the need]
+- **The Content of the Need**: [What the character wants]
+- **Strength of Motivation**: [Why it must be obtained]
+- **Initial Resistance**: [What is stopping the character]
 
-### 第3步：进入
-**章节范围**：第X-X章（约15%）
-- **跨越时刻**：[离开舒适区的关键时刻]
-- **新世界**：[陌生环境的描述]
-- **第一印象**：[新世界的冲击]
-- **适应挑战**：[必须学习什么]
+### Step 3: Go
+**Chapter Range**: X-X (approx. 15%)
+- **The Threshold Moment**: [The key moment of leaving the comfort zone]
+- **The New World**: [Description of the unfamiliar environment]
+- **First Impression**: [The impact of the new world]
+- **The Challenge of Adaptation**: [What must be learned]
 
-### 第4步：搜索
-**章节范围**：第X-X章（约20%）
-- **搜索过程**：[如何寻找目标]
-- **遇到的困难**：
-  1. [困难1]
-  2. [困难2]
-  3. [困难3]
-- **获得的帮助**：[盟友或资源]
-- **学到的教训**：[每次失败的收获]
+### Step 4: Search
+**Chapter Range**: X-X (approx. 20%)
+- **The Search Process**: [How the goal is sought]
+- **Obstacles Encountered**:
+  1. [Obstacle 1]
+  2. [Obstacle 2]
+  3. [Obstacle 3]
+- **Help Received**: [Allies or resources]
+- **Lessons Learned**: [What is gained from each failure]
 
-### 第5步：找到
-**章节范围**：第X-X章（约15%）
-- **发现时刻**：[找到目标的场景]
-- **实际vs期望**：[与预期的差异]
-- **意外发现**：[额外的收获或真相]
-- **初步满足**：[短暂的成功感]
+### Step 5: Find
+**Chapter Range**: X-X (approx. 15%)
+- **The Moment of Discovery**: [The scene where the goal is found]
+- **Reality vs. Expectation**: [The difference from what was expected]
+- **An Unexpected Discovery**: [An additional gain or truth]
+- **Initial Satisfaction**: [A fleeting sense of success]
 
-### 第6步：付出代价
-**章节范围**：第X-X章（约10%）
-- **代价内容**：[失去了什么]
-- **代价形式**：[如何失去的]
-- **内心冲突**：[对代价的挣扎]
-- **价值权衡**：[得失的比较]
+### Step 6: Pay the Price
+**Chapter Range**: X-X (approx. 10%)
+- **The Content of the Price**: [What was lost]
+- **The Form of the Price**: [How it was lost]
+- **Internal Conflict**: [Struggling with the cost]
+- **The Value Trade-off**: [Comparing the gains and losses]
 
-### 第7步：回归
-**章节范围**：第X-X章（约10%）
-- **回归方式**：[如何回到熟悉环境]
-- **带回之物**：[物质或精神的收获]
-- **环境反应**：[他人如何看待改变]
-- **重新适应**：[如何融入原环境]
+### Step 7: Return
+**Chapter Range**: X-X (approx. 10%)
+- **The Manner of Return**: [How they get back to the familiar environment]
+- **What is Brought Back**: [Material or spiritual gains]
+- **Environmental Reaction**: [How others view the change]
+- **Readaptation**: [How they fit back into the old environment]
 
-### 第8步：改变
-**章节范围**：第X-X章（约10%）
-- **内在改变**：[角色的根本变化]
-- **新的视角**：[如何看待世界]
-- **新的平衡**：[新的生活状态]
-- **下个循环**：[潜在的新需求]
+### Step 8: Change
+**Chapter Range**: X-X (approx. 10%)
+- **The Inner Change**: [The character's fundamental transformation]
+- **A New Perspective**: [How they see the world]
+- **The New Balance**: [The new state of life]
+- **The Next Cycle**: [A potential new need]
 
-## 角色设定（基于循环）
+## Character Design (Based on the Circle)
 
-### 主角
-- **起始状态**（第1步）：[舒适区中的样子]
-- **核心需求**（第2步）：[驱动整个故事的欲望]
-- **关键能力**（第4步）：[搜索中展现的特质]
-- **致命弱点**（第6步）：[导致付出代价的缺陷]
-- **最终状态**（第8步）：[改变后的新自我]
+### The Protagonist
+- **Initial State** (Step 1): [What they are like in the comfort zone]
+- **Core Need** (Step 2): [The desire that drives the whole story]
+- **Key Ability** (Step 4): [The trait shown during the search]
+- **Fatal Flaw** (Step 6): [The defect that leads to paying the price]
+- **Final State** (Step 8): [The new self after the change]
 
-### 辅助角色
+### Supporting Characters
 
-#### 引导者
-- **角色功能**：帮助主角认识需求
-- **出现时机**：第2步
-- **关键作用**：[具体帮助]
+#### The Guide
+- **Function**: Helps the protagonist recognize their need.
+- **Appears in**: Step 2
+- **Key Role**: [Specific help]
 
-#### 守门人
-- **角色功能**：考验主角进入新世界的资格
-- **出现时机**：第3步
-- **考验方式**：[具体挑战]
+#### The Gatekeeper
+- **Function**: Tests the protagonist's qualification to enter the new world.
+- **Appears in**: Step 3
+- **Method of Testing**: [Specific challenge]
 
-#### 盟友
-- **角色功能**：协助搜索过程
-- **出现时机**：第4步
-- **提供帮助**：[具体协助]
+#### The Ally
+- **Function**: Assists in the search process.
+- **Appears in**: Step 4
+- **Assistance Provided**: [Specific help]
 
-#### 对手
-- **角色功能**：竞争同样的目标
-- **出现时机**：第4-5步
-- **冲突方式**：[对抗形式]
+#### The Rival
+- **Function**: Competes for the same goal.
+- **Appears in**: Steps 4-5
+- **Method of Conflict**: [Form of opposition]
 
-## 世界观设定（双重世界）
+## World Setting (The Two Worlds)
 
-### 舒适区世界（步骤1，7-8）
-- **物理环境**：[熟悉的地方]
-- **社会规则**：[已知的规范]
-- **安全感来源**：[什么让角色安心]
-- **局限性**：[阻碍成长的因素]
+### The Comfort Zone World (Steps 1, 7-8)
+- **Physical Environment**: [The familiar place]
+- **Social Rules**: [The known norms]
+- **Source of Security**: [What makes the character feel safe]
+- **Limitations**: [The factors that hinder growth]
 
-### 陌生世界（步骤3-6）
-- **物理环境**：[未知的地方]
-- **不同规则**：[需要学习的新规范]
-- **危险因素**：[威胁和挑战]
-- **成长机会**：[能获得什么]
+### The Unfamiliar World (Steps 3-6)
+- **Physical Environment**: [The unknown place]
+- **Different Rules**: [New norms to be learned]
+- **Elements of Danger**: [Threats and challenges]
+- **Opportunities for Growth**: [What can be gained]
 
-### 两个世界的桥梁
-- **物理桥梁**：[连接两世界的地点/事物]
-- **心理桥梁**：[连接两种状态的体验]
-- **守护者**：[掌控通道的力量]
+### The Bridge Between the Two Worlds
+- **The Physical Bridge**: [The location/object that connects the two worlds]
+- **The Psychological Bridge**: [The experience that connects the two states]
+- **The Guardian**: [The force that controls the passage]
 
-## 循环层次设计
+## Designing the Layers of the Circle
 
-### 主循环
-- **完整故事的大循环**：[整本书的8步]
-- **核心改变**：[最重要的转变]
+### The Main Circle
+- **The Large Circle of the Whole Story**: [The 8 steps of the entire book]
+- **The Core Change**: [The most important transformation]
 
-### 章节循环
-- **每章的小循环**：[章节内的起承转合]
-- **推进作用**：[如何服务主循环]
+### The Chapter Circle
+- **The Small Circle within Each Chapter**: [The rise and fall within a chapter]
+- **Propelling Function**: [How it serves the main circle]
 
-### 系列循环（如适用）
-- **本书在系列中的位置**：[哪一步]
-- **与其他书的连接**：[循环关系]
+### The Series Circle (if applicable)
+- **This Book's Position in the Series**: [Which step]
+- **Connection to Other Books**: [The cyclical relationship]
 
-## 节奏控制
+## Pacing Control
 
-### 循环速度
-- **慢速区**（1-2步）：建立认同
-- **加速区**（3-4步）：推进情节
-- **高潮区**（5-6步）：冲突爆发
-- **收束区**（7-8步）：消化改变
+### The Speed of the Circle
+- **Slow Zone** (Steps 1-2): Building identification.
+- **Acceleration Zone** (Steps 3-4): Advancing the plot.
+- **Climax Zone** (Steps 5-6): The conflict erupts.
+- **Resolution Zone** (Steps 7-8): Digesting the change.
 
-### 情感节奏
-- **舒适→不安**（1→2）
-- **紧张→适应**（3→4）
-- **兴奋→震惊**（5→6）
-- **疲惫→平静**（7→8）
+### The Emotional Rhythm
+- **Comfort → Unease** (1→2)
+- **Tension → Adaptation** (3→4)
+- **Excitement → Shock** (5→6)
+- **Exhaustion → Peace** (7→8)
 
-## 主题深化
+## Thematic Deepening
 
-### 表层循环
-[显而易见的需求→搜索→获得→改变]
+### The Surface Cycle
+[The obvious need → search → find → change]
 
-### 深层循环
-[真正的心理/哲学循环是什么]
+### The Deep Cycle
+[What is the true psychological/philosophical cycle?]
 
-### 循环的意义
-- **个人层面**：[对角色的意义]
-- **社会层面**：[对世界的意义]
-- **哲学层面**：[对人生的启示]
+### The Meaning of the Circle
+- **Personal Level**: [The meaning for the character]
+- **Social Level**: [The meaning for the world]
+- **Philosophical Level**: [The insight into life]
 
-## 创作备注
+## Writing Notes
 
-### 故事圈要点提醒
-- [ ] 每一步都必须清晰可辨
-- [ ] 需求必须足够强烈
-- [ ] 新世界必须真正"新"
-- [ ] 搜索过程要有起伏
-- [ ] 找到的不一定是想要的
-- [ ] 代价必须有分量
-- [ ] 回归不是简单返回
-- [ ] 改变必须是真实的
+### Story Circle Key Points
+- [ ] Every step must be clearly distinguishable.
+- [ ] The need must be strong enough.
+- [ ] The new world must be truly "new."
+- [ ] The search process must have ups and downs.
+- [ ] What is found may not be what was wanted.
+- [ ] The price must be significant.
+- [ ] The return is not a simple return.
+- [ ] The change must be authentic.
 
-### 常见误区
-- 需求太表面化
-- 新世界不够陌生
-- 搜索过程太顺利
-- 代价不够沉重
-- 改变不够深刻
+### Common Pitfalls
+- The need is too superficial.
+- The new world is not unfamiliar enough.
+- The search process is too smooth.
+- The price is not heavy enough.
+- The change is not profound enough.
 
-### 循环应用技巧
-- 可以打破循环制造悲剧
-- 可以加速循环增加节奏
-- 可以嵌套循环增加深度
-- 可以反向循环创造新意
+### Techniques for Applying the Circle
+- You can break the circle to create a tragedy.
+- You can speed up the circle to increase the pace.
+- You can nest circles to add depth.
+- You can reverse the circle to create novelty.
 
 ---
-*创建时间：[日期]*
-*方法论：故事圈（Story Circle）*
-*版本：1.0*
+*Created: [Date]*
+*Methodology: The Story Circle*
+*Version: 1.0*
