@@ -98,7 +98,7 @@
 - [ ] ./plugins/book-analysis/experts/book-analyst.md
 - [ ] ./stories/test-story/story.md
 - [ ] ./METHODOLOGY.md
-- [ ] ./docs/ai-native-update.md
+- [x] ./docs/ai-native-update.md
 - [ ] ./docs/writing/practical-guide.md
 - [ ] ./docs/writing/analyze-placement-rationale.md
 - [ ] ./docs/ai-suggestion-prompt-for-gemini.md
@@ -188,3 +188,8 @@
 - [ ] ./experts/core/world.md
 - [ ] ./experts/core/character.md
 - [ ] ./experts/core/style.md
+- [ ] ./docs/prd/chapter/examples/chapter-config-action.yaml
+- [ ] ./docs/prd/chapter/examples/chapter-config-basic.yaml
+- [ ] ./docs/prd/chapter/examples/chapter-config-emotional.yaml
+- [ ] ./docs/prd/chapter/examples/preset-action-intense.yaml
+- [ ] ./docs/prd/chapter/examples/preset-dialogue-heavy.yaml
