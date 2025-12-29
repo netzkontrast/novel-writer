@@ -1,4 +1,4 @@
-- [ ] ./templates/checklist-template.md
+- [x] ./templates/checklist-template.md
 - [ ] ./templates/commands/analyze.md
 - [ ] ./templates/commands/timeline.md
 - [ ] ./templates/commands/tasks.md
