@@ -2,7 +2,7 @@
 - [ ] ./other/wide_research_prompt_cn.md
 - [ ] ./other/spec-kit.md
 - [ ] ./.github/copilot-instructions.md
-- [ ] ./CHANGELOG.md
+- [x] ./CHANGELOG.md
 - [ ] ./plugins/stardust-dreams/commands/stardust-use.md
 - [ ] ./plugins/stardust-dreams/commands/stardust-session.md
 - [ ] ./plugins/stardust-dreams/commands/stardust-list.md
@@ -71,7 +71,7 @@
 - [ ] ./plugins/book-analysis/README.md
 - [ ] ./plugins/book-analysis/experts/book-analyst.md
 - [ ] ./stories/test-story/story.md
-- [ ] ./METHODOLOGY.md
+- [x] ./METHODOLOGY.md
 - [ ] ./docs/ai-native-update.md
 - [ ] ./docs/writing/practical-guide.md
 - [ ] ./docs/writing/analyze-placement-rationale.md
@@ -162,4 +162,5 @@
 - [ ] ./experts/core/world.md
 - [ ] ./experts/core/character.md
 - [ ] ./experts/core/style.md
-- [ ] ./AGENTS.md
+- [x] ./AGENTS.md
+- [x] ./README.md
