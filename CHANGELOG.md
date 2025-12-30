@@ -1,593 +1,593 @@
-# 更新日志
+# Changelog
 
 ## [0.19.0] - 2025-10-25
 
-### ✨ 新功能
+### ✨ New Features
 
-#### 🎉 Codex CLI 支持
-- **新增平台**: 完整支持 OpenAI Codex CLI
-  - 命令格式: `/novel-命令名` (例如: `/novel-write`)
-  - 命令目录: `.codex/prompts/`
-  - 使用 `novel-` 前缀避免命名冲突
-  - 纯 Markdown 格式(无 YAML frontmatter)
-  - 13 个核心命令全部支持
-- **安装方式**: `novel init my-novel --ai codex`
-- **技术实现**: 借鉴 [Spec-Kit](https://github.com/github/spec-kit) v0.0.11+ 的实现方案
+#### 🎉 Codex CLI Support
+- **New Platform**: Full support for OpenAI Codex CLI
+  - Command format: `/novel-command-name` (e.g., `/novel-write`)
+  - Command directory: `.codex/prompts/`
+  - Use `novel-` prefix to avoid naming conflicts
+  - Pure Markdown format (no YAML frontmatter)
+  - All 13 core commands supported
+- **Installation**: `novel init my-novel --ai codex`
+- **Technical Implementation**: Based on [Spec-Kit](https://github.com/github/spec-kit) v0.0.11+ implementation
 
-#### 📚 AI 平台命令对照文档
-- **新增文档**: `docs/ai-platform-commands.md` - 13 个 AI 平台的完整命令对照指南
-  - 快速对照表：一目了然的命令格式差异
-  - 命名空间规则：详细解释为什么使用不同前缀
-  - 平台详细说明：Gemini、Claude、Codex 等的完整命令列表
-  - 使用示例：三个主要平台的完整工作流演示
-  - 常见问题：命令不生效、格式差异等问题的解决方案
+#### 📚 AI Platform Command Comparison Document
+- **New Document**: `docs/ai-platform-commands.md` - A complete command comparison guide for 13 AI platforms
+  - Quick reference table: At-a-glance differences in command formats
+  - Namespace rules: Detailed explanation of why different prefixes are used
+  - Platform details: Complete command lists for Gemini, Claude, Codex, etc.
+  - Usage examples: Full workflow demonstrations for the three main platforms
+  - FAQ: Solutions for common issues like commands not working, format differences, etc.
 
-### 📝 文档更新
+### 📝 Documentation Updates
 
-#### Codex CLI 支持说明
-- 更新 `docs/why-codex-not-supported.md`:
-  - 标题改为"Novel Writer 的 Codex CLI 支持"
-  - 添加"即将支持"改为"v0.19.0 已支持"
-  - 保留历史原因作为设计决策记录
+#### Codex CLI Support Notes
+- Updated `docs/why-codex-not-supported.md`:
+  - Title changed to "Codex CLI Support in Novel Writer"
+  - Changed "Coming soon" to "Supported in v0.19.0"
+  - Kept historical reasons as a record of design decisions
 
-#### README 更新
-- 核心特性中提及 Codex CLI
-- 初始化示例中添加 `--ai codex` 选项
-- 命令格式示例中添加 `/novel-constitution` (Codex 格式)
-- 命名空间说明表格中添加 Codex CLI
+#### README Update
+- Mentioned Codex CLI in core features
+- Added `--ai codex` option to initialization examples
+- Added `/novel-constitution` (Codex format) to command format examples
+- Added Codex CLI to the namespace explanation table
 
-#### GEMINI.md 模板更新
-- 明确说明 Gemini CLI 使用 `novel:` 命名空间
-- 添加命名空间原因说明
-- 更新所有示例命令添加正确的 `novel:` 前缀
-- 添加文档交叉引用链接
+#### GEMINI.md Template Update
+- Clearly stated that Gemini CLI uses the `novel:` namespace
+- Added an explanation for the namespace reason
+- Updated all example commands with the correct `novel:` prefix
+- Added cross-reference links to documentation
 
-### 🔧 构建系统改进
+### 🔧 Build System Improvements
 
-#### 命名空间支持
-- 修改 `scripts/build/generate-commands.sh`:
-  - Codex CLI 使用 `novel-` 前缀
-  - 生成纯 Markdown 格式（无 frontmatter）
-  - 命令文件位于 `.codex/prompts/` 目录
+#### Namespace Support
+- Modified `scripts/build/generate-commands.sh`:
+  - Codex CLI uses `novel-` prefix
+  - Generates pure Markdown format (no frontmatter)
+  - Command files are located in the `.codex/prompts/` directory
 
-### 📊 支持的 AI 平台
+### 📊 Supported AI Platforms
 
-现在支持 **13 个 AI 平台**：
+Now supporting **13 AI platforms**:
 
-| 平台 | 命令格式 | 命名空间 |
-|------|---------|----------|
-| Claude Code | `/novel.命令名` | `novel.` |
-| Gemini CLI | `/novel:命令名` | `novel:` |
-| **Codex CLI** ⭐ | **`/novel-命令名`** | **`novel-`** |
-| Cursor | `/命令名` | 无 |
-| Windsurf | `/命令名` | 无 |
-| Roo Code | `/命令名` | 无 |
-| GitHub Copilot | `/命令名` | 无 |
-| Qwen Code | `/命令名` | 无 |
-| OpenCode | `/命令名` | 无 |
-| Kilo Code | `/命令名` | 无 |
-| Auggie CLI | `/命令名` | 无 |
-| CodeBuddy | `/命令名` | 无 |
-| Amazon Q | `/命令名` | 无 |
+| Platform | Command Format | Namespace |
+|---|---|---|
+| Claude Code | `/novel.command-name` | `novel.` |
+| Gemini CLI | `/novel:command-name` | `novel:` |
+| **Codex CLI** ⭐ | **`/novel-command-name`** | **`novel-`** |
+| Cursor | `/command-name` | None |
+| Windsurf | `/command-name` | None |
+| Roo Code | `/command-name` | None |
+| GitHub Copilot | `/command-name` | None |
+| Qwen Code | `/command-name` | None |
+| OpenCode | `/command-name` | None |
+| Kilo Code | `/command-name` | None |
+| Auggie CLI | `/command-name` | None |
+| CodeBuddy | `/command-name` | None |
+| Amazon Q | `/command-name` | None |
 
-### 🎯 用户体验改进
+### 🎯 User Experience Improvements
 
-- 用户可以根据自己使用的 AI 平台，轻松查阅对应的命令格式
-- 详细的文档说明避免了命令不生效的困惑
-- Codex CLI 用户现在可以使用完整的 Novel Writer 功能
+- Users can easily look up the corresponding command format for their AI platform
+- Detailed documentation avoids confusion about commands not working
+- Codex CLI users can now use the full functionality of Novel Writer
 
-### 📖 相关文档
+### 📖 Related Documents
 
-- [AI 平台命令使用指南](docs/ai-platform-commands.md) ⭐ 必读
-- [Codex CLI 支持说明](docs/why-codex-not-supported.md)
-- [Gemini 命令开发指南](docs/gemini-command-guide.md)
+- [AI Platform Command Usage Guide](docs/ai-platform-commands.md) ⭐ Must-read
+- [Codex CLI Support Notes](docs/why-codex-not-supported.md)
+- [Gemini Command Development Guide](docs/gemini-command-guide.md)
 
 ---
 
 ## [0.18.5] - 2025-10-24
 
-### 🐛 问题修复
+### 🐛 Bug Fixes
 
-#### Gemini 宪法保存路径错误 (#6)
-- **问题**: 在 Gemini 中运行 `/constitution` 命令后，宪法文件被错误保存到 `memory/constitution.md`（项目根目录），而非正确的 `.specify/memory/constitution.md` 路径
-- **原因**: 源模板文件 `templates/commands/constitution.md` 及其他命令文件中存在路径引用不一致，部分使用了不带 `.specify/` 前缀的路径
-- **修复**: 统一所有命令模板文件中的路径引用，全部使用完整路径 `.specify/memory/constitution.md`
-  - 修改 `templates/commands/constitution.md` 中 3 处路径引用
-  - 修改 `templates/commands/specify.md` 中 1 处路径引用
-  - 修改 `templates/commands/plan.md` 中 1 处路径引用
-  - 修改 `templates/commands/write.md` 中 3 处路径引用
-  - 重新构建所有平台的命令文件
-- **影响**: Gemini、Qwen 等使用 TOML 格式的平台，现在会正确保存宪法文件到 `.specify/memory/constitution.md`
+#### Gemini Constitution Save Path Error (#6)
+- **Issue**: After running the `/constitution` command in Gemini, the constitution file was incorrectly saved to `memory/constitution.md` (project root) instead of the correct `.specify/memory/constitution.md` path.
+- **Reason**: Inconsistent path references in the source template file `templates/commands/constitution.md` and other command files, some of which used paths without the `.specify/` prefix.
+- **Fix**: Standardized all path references in command template files to use the full path `.specify/memory/constitution.md`.
+  - Modified 3 path references in `templates/commands/constitution.md`
+  - Modified 1 path reference in `templates/commands/specify.md`
+  - Modified 1 path reference in `templates/commands/plan.md`
+  - Modified 3 path references in `templates/commands/write.md`
+  - Rebuilt command files for all platforms.
+- **Impact**: Platforms using TOML format, like Gemini and Qwen, will now correctly save the constitution file to `.specify/memory/constitution.md`.
 
-### 📝 影响范围
-- `templates/commands/constitution.md` - 路径引用已统一
-- `templates/commands/specify.md` - 路径引用已统一
-- `templates/commands/plan.md` - 路径引用已统一
-- `templates/commands/write.md` - 路径引用已统一
-- `dist/gemini/.gemini/commands/novel/*.toml` - 所有 TOML 文件已重新生成
-- 所有平台的构建产物已更新
+### 📝 Scope of Impact
+- `templates/commands/constitution.md` - Path references have been standardized.
+- `templates/commands/specify.md` - Path references have been standardized.
+- `templates/commands/plan.md` - Path references have been standardized.
+- `templates/commands/write.md` - Path references have been standardized.
+- `dist/gemini/.gemini/commands/novel/*.toml` - All TOML files have been regenerated.
+- Build artifacts for all platforms have been updated.
 
-### 🎯 用户体验改进
-- Gemini 用户运行 `/constitution` 命令后，文件会正确保存到 `.specify/memory/constitution.md`
-- 路径统一避免了 AI 在不同命令间的路径混淆
-- 项目根目录不再出现错误的 `memory/` 目录
+### 🎯 User Experience Improvements
+- For Gemini users, after running the `/constitution` command, the file will be correctly saved to `.specify/memory/constitution.md`.
+- Path standardization avoids path confusion for the AI between different commands.
+- The incorrect `memory/` directory will no longer appear in the project root.
 
 ---
 
 ## [0.18.4] - 2025-10-15
 
-### 🐛 问题修复
+### 🐛 Bug Fixes
 
-#### 宪法文件命名统一
-- **问题**: 系统中存在3个不同的宪法文件命名 (novel-constitution.md, writing-constitution.md, constitution.md), 导致用户项目中出现多个宪法文件
-- **修复**: 统一宪法文件命名为 `constitution.md`
-  - 重命名源文件: `memory/writing-constitution.md` → `memory/constitution.md`
-  - 修改所有 Bash 脚本中的文件路径引用 (6个文件)
-  - 修改所有 PowerShell 脚本中的文件路径引用 (5+个文件)
-  - 修改所有命令模板中的文件引用 (constitution.md, specify.md, plan.md, analyze.md, write.md)
-  - 更新 allowed-tools 中的路径权限
+#### Constitution File Naming Standardization
+- **Issue**: The system had 3 different constitution file names (novel-constitution.md, writing-constitution.md, constitution.md), causing multiple constitution files in user projects.
+- **Fix**: Standardized the constitution file name to `constitution.md`.
+  - Renamed source file: `memory/writing-constitution.md` → `memory/constitution.md`
+  - Modified file path references in all Bash scripts (6 files)
+  - Modified file path references in all PowerShell scripts (5+ files)
+  - Modified file references in all command templates (constitution.md, specify.md, plan.md, analyze.md, write.md)
+  - Updated path permissions in allowed-tools.
 
-#### 脚本路径重复问题
-- **问题**: 构建系统中的 `rewrite_paths()` 函数重复添加 `.specify/` 前缀，导致路径错误 (`.specify.specify/scripts/`)
-- **修复**: 使用临时标记保护已有 `.specify/` 路径
-  - 修改 `scripts/build/generate-commands.sh` 的 `rewrite_paths()` 函数
-  - 先标记已存在的正确路径，然后添加前缀，最后恢复标记
-  - 所有生成的命令文件中的路径现在都正确为 `.specify/scripts/...`
+#### Script Path Duplication Issue
+- **Issue**: The `rewrite_paths()` function in the build system repeatedly added the `.specify/` prefix, causing incorrect paths (`.specify.specify/scripts/`).
+- **Fix**: Used a temporary marker to protect existing `.specify/` paths.
+  - Modified the `rewrite_paths()` function in `scripts/build/generate-commands.sh`.
+  - First, mark existing correct paths, then add the prefix, and finally restore the markers.
+  - All paths in the generated command files are now correctly formatted as `.specify/scripts/...`.
 
-### 📝 影响范围
-- `memory/constitution.md` - 统一的宪法文件命名
-- `scripts/bash/*.sh` - 所有引用宪法文件的脚本已更新
-- `scripts/powershell/*.ps1` - 所有引用宪法文件的脚本已更新
-- `templates/commands/*.md` - 所有命令模板已更新
-- `scripts/build/generate-commands.sh` - 路径重写函数已修复
-- `dist/` - 重新构建所有平台的命令文件
+### 📝 Scope of Impact
+- `memory/constitution.md` - Standardized constitution file name.
+- `scripts/bash/*.sh` - All scripts referencing the constitution file have been updated.
+- `scripts/powershell/*.ps1` - All scripts referencing the constitution file have been updated.
+- `templates/commands/*.md` - All command templates have been updated.
+- `scripts/build/generate-commands.sh` - The path rewriting function has been fixed.
+- `dist/` - Rebuilt command files for all platforms.
 
-### 🎯 用户体验改进
-- 用户项目的 `.specify/memory/` 目录只会有一个 `constitution.md` 文件
-- 所有脚本命令路径正确，不再出现 `.specify.specify/` 错误
-- 命名更简洁、清晰，易于理解和使用
+### 🎯 User Experience Improvements
+- User projects' `.specify/memory/` directory will now only have one `constitution.md` file.
+- All script command paths are correct, and the `.specify.specify/` error no longer occurs.
+- The naming is more concise, clear, and easier to understand and use.
 
 ---
 
 ## [0.18.3] - 2025-10-15
 
-### ✨ 功能改进
+### ✨ Feature Improvements
 
-#### 插件安装系统标准化
-- **问题**:genre-knowledge 插件使用手动安装方式,与其他插件不一致
-- **改进**:统一使用 `novel plugins:add` 命令安装
-  - 新增 `plugins/genre-knowledge/config.yaml` 配置文件
-  - 插件元数据完整定义(name, version, description, type, dependencies)
-  - 安装后显示详细的使用说明和步骤
+#### Plugin Installation System Standardization
+- **Issue**: The genre-knowledge plugin used a manual installation method, inconsistent with other plugins.
+- **Improvement**: Standardized to use the `novel plugins:add` command for installation.
+  - Added `plugins/genre-knowledge/config.yaml` configuration file.
+  - Complete plugin metadata definition (name, version, description, type, dependencies).
+  - Detailed usage instructions and steps are displayed after installation.
 
-#### 文档更新
-- 更新 `plugins/genre-knowledge/README.md`:
-  - 修改安装方法为 `novel plugins:add genre-knowledge`
-  - 修改卸载方法为 `novel plugins:remove genre-knowledge`
-  - 添加验证安装的命令 `novel plugins:list`
-  - 简化文档结构,突出安装流程
+#### Documentation Updates
+- Updated `plugins/genre-knowledge/README.md`:
+  - Changed installation method to `novel plugins:add genre-knowledge`.
+  - Changed uninstallation method to `novel plugins:remove genre-knowledge`.
+  - Added `novel plugins:list` command to verify installation.
+  - Simplified document structure to highlight the installation process.
 
-#### CLI 增强
-- 更新可用插件列表,添加 genre-knowledge:
-  - `plugins:list` 命令提示信息
-  - `plugins:add` 命令错误提示
-- 保持与其他插件(translate, authentic-voice, book-analysis)一致的用户体验
+#### CLI Enhancements
+- Updated the list of available plugins to include genre-knowledge:
+  - `plugins:list` command prompt message.
+  - `plugins:add` command error message.
+- Maintained a consistent user experience with other plugins (translate, authentic-voice, book-analysis).
 
-### 🧪 测试验证
-- ✅ 插件安装流程测试通过
-- ✅ 插件列表显示正确
-- ✅ 增强命令文件复制成功
-- ✅ 安装后显示详细使用说明
+### 🧪 Test Verification
+- ✅ Plugin installation process tested successfully.
+- ✅ Plugin list displays correctly.
+- ✅ Enhanced command files are copied successfully.
+- ✅ Detailed usage instructions are displayed after installation.
 
-### 📝 影响范围
-- `plugins/genre-knowledge/config.yaml` - 新增配置文件
-- `plugins/genre-knowledge/README.md` - 更新安装说明
-- `src/cli.ts` - 添加 genre-knowledge 到可用插件列表
+### 📝 Scope of Impact
+- `plugins/genre-knowledge/config.yaml` - New configuration file added.
+- `plugins/genre-knowledge/README.md` - Installation instructions updated.
+- `src/cli.ts` - Added genre-knowledge to the list of available plugins.
 
 ---
 
 ## [0.18.2] - 2025-10-15
 
-### 🐛 问题修复
+### 🐛 Bug Fixes
 
-#### 插件命令文件缺失
-- **问题**:genre-knowledge 插件的 `commands/` 目录为空,导致用户无法获取增强提示词
-- **修复**:补全3个增强命令文件:
-  - `commands/clarify-enhance.md` (18行) - clarify 命令的类型知识增强提示词
-  - `commands/plan-enhance.md` (62行) - plan 命令的动态类型知识加载提示词
-  - `commands/write-enhance.md` (15行) - write 命令的类型风格应用提示词
+#### Missing Plugin Command Files
+- **Issue**: The `commands/` directory of the genre-knowledge plugin was empty, preventing users from getting enhanced prompts.
+- **Fix**: Added 3 missing enhancement command files:
+  - `commands/clarify-enhance.md` (18 lines) - Genre knowledge enhancement prompt for the clarify command.
+  - `commands/plan-enhance.md` (62 lines) - Dynamic genre knowledge loading prompt for the plan command.
+  - `commands/write-enhance.md` (15 lines) - Genre style application prompt for the write command.
 
-#### 用户体验改进
-- 用户现在可以直接从 `commands/*.md` 文件复制增强提示词
-- 粘贴到核心命令的 `PLUGIN_HOOK` 标记处即可启用插件功能
-- 结构更清晰,符合插件架构设计
+#### User Experience Improvements
+- Users can now directly copy enhancement prompts from the `commands/*.md` files.
+- Pasting them at the `PLUGIN_HOOK` marker in the core commands enables the plugin functionality.
+- The structure is clearer and aligns with the plugin architecture design.
 
-### 📝 影响范围
-- `plugins/genre-knowledge/commands/` - 新增3个命令文件
-- 插件系统 - 完善了安装体验
+### 📝 Scope of Impact
+- `plugins/genre-knowledge/commands/` - 3 new command files added.
+- Plugin system - The installation experience has been improved.
 
 ---
 
 ## [0.18.1] - 2025-10-15
 
-### 🏗️ 架构优化
+### 🏗️ Architectural Optimization
 
-#### 类型知识插件化
-- **迁移类型知识文件**：将 `spec/knowledge/genres/` 的5个类型知识文件迁移到 `plugins/genre-knowledge/knowledge/genres/`
-  - `fantasy.md` (669行) - 奇幻/玄幻类型指导
-  - `scifi.md` (530行) - 科幻类型指导
-  - `romance.md` (378行) - 言情类型指导
-  - `mystery.md` (353行) - 悬疑推理类型指导
-  - `shuangwen.md` (236行) - 爽文类型指导
+#### Genre Knowledge Pluginization
+- **Migrated Genre Knowledge Files**: Moved 5 genre knowledge files from `spec/knowledge/genres/` to `plugins/genre-knowledge/knowledge/genres/`.
+  - `fantasy.md` (669 lines) - Fantasy/Xuanhuan genre guide.
+  - `scifi.md` (530 lines) - Sci-Fi genre guide.
+  - `romance.md` (378 lines) - Romance genre guide.
+  - `mystery.md` (353 lines) - Mystery/Suspense genre guide.
+  - `shuangwen.md` (236 lines) - Shuangwen (face-slapping) genre guide.
 
-#### 真正的可选插件架构
-- **核心命令优化**：
-  - 移除核心命令对插件的硬编码依赖
-  - 添加 `plugins/**` 通配符权限，支持所有插件
-  - 保留 `<!-- PLUGIN_HOOK -->` 标记供用户手动启用插件
-- **用户体验改进**：
-  - 用户安装插件后只需复制粘贴增强提示词到 PLUGIN_HOOK 标记处
-  - 无需修改 allowed-tools（已有 plugins/** 权限）
-  - 插件功能完全可选，不影响核心功能
+#### True Optional Plugin Architecture
+- **Core Command Optimization**:
+  - Removed hard-coded plugin dependencies from core commands.
+  - Added `plugins/**` wildcard permission to support all plugins.
+  - Retained the `<!-- PLUGIN_HOOK -->` marker for users to manually enable plugins.
+- **User Experience Improvements**:
+  - After installing a plugin, users only need to copy and paste the enhancement prompt to the PLUGIN_HOOK marker.
+  - No need to modify allowed-tools (already has `plugins/**` permission).
+  - Plugin functionality is completely optional and does not affect core functions.
 
-#### 设计理念
-- ✅ **清晰职责**：`spec/knowledge/` 专注于用户创建的项目知识，插件专注于系统提供的可选功能
-- ✅ **可选安装**：不需要类型知识的用户无需加载插件
-- ✅ **单一数据源**：类型知识只存在于插件中，避免重复和混乱
-- ✅ **架构简洁**：无技术债务，无向后兼容代码
+#### Design Philosophy
+- ✅ **Clear Responsibilities**: `spec/knowledge/` focuses on user-created project knowledge, while plugins focus on optional system-provided features.
+- ✅ **Optional Installation**: Users who do not need genre knowledge do not need to load the plugin.
+- ✅ **Single Source of Truth**: Genre knowledge exists only in the plugin, avoiding duplication and confusion.
+- ✅ **Simple Architecture**: No technical debt, no backward compatibility code.
 
-### 📝 影响范围
-- `spec/knowledge/genres/` - 已删除
-- `plugins/genre-knowledge/` - 包含7个知识文件
-- `templates/commands/clarify.md` - 移除插件硬编码，添加 plugins/** 权限
-- `templates/commands/plan.md` - 移除插件硬编码，添加 plugins/** 权限
-- `templates/commands/analyze.md` - 移除插件硬编码，添加 plugins/** 权限
+### 📝 Scope of Impact
+- `spec/knowledge/genres/` - Deleted.
+- `plugins/genre-knowledge/` - Contains 7 knowledge files.
+- `templates/commands/clarify.md` - Removed plugin hard-coding, added `plugins/**` permission.
+- `templates/commands/plan.md` - Removed plugin hard-coding, added `plugins/**` permission.
+- `templates/commands/analyze.md` - Removed plugin hard-coding, added `plugins/**` permission.
 
 ---
 
 ## [0.15.0] - 2025-10-11
 
-### ✨ 重大改进：多平台命令格式优化
+### ✨ Major Improvement: Multi-Platform Command Format Optimization
 
-#### 问题背景
-之前的构建系统将 Claude 特有的 YAML frontmatter 字段（`allowed-tools`, `model`, `disable-model-invocation`）复制给了所有 13 个 AI 平台，但这些字段在其他平台中不被支持或不需要，导致兼容性问题。
+#### Background
+The previous build system copied Claude-specific YAML frontmatter fields (`allowed-tools`, `model`, `disable-model-invocation`) to all 13 AI platforms, but these fields are not supported or needed on other platforms, causing compatibility issues.
 
-#### 核心修复
-- **平台特定格式生成**：根据每个 AI 平台的实际支持情况生成正确的命令文件格式
-- **格式分类体系**：
-  - **纯 Markdown（无 frontmatter）**：Cursor, GitHub Copilot, Codex CLI, Auggie CLI, CodeBuddy, Amazon Q Developer
-  - **最小 frontmatter（只 description）**：OpenCode
-  - **部分 frontmatter（description + argument-hint）**：Roo Code, Windsurf, Kilo Code
-  - **完整 frontmatter（所有字段）**：Claude Code
-  - **TOML 格式（description + prompt）**：Gemini CLI, Qwen Code
+#### Core Fix
+- **Platform-Specific Format Generation**: Generate command files in the correct format based on the actual support of each AI platform.
+- **Format Classification System**:
+  - **Pure Markdown (no frontmatter)**: Cursor, GitHub Copilot, Codex CLI, Auggie CLI, CodeBuddy, Amazon Q Developer
+  - **Minimal frontmatter (description only)**: OpenCode
+  - **Partial frontmatter (description + argument-hint)**: Roo Code, Windsurf, Kilo Code
+  - **Full frontmatter (all fields)**: Claude Code
+  - **TOML format (description + prompt)**: Gemini CLI, Qwen Code
 
-#### 技术实现
-- **构建脚本增强**（`scripts/build/generate-commands.sh`）：
-  - 添加 `frontmatter_type` 参数到 `generate_commands` 函数
-  - 实现 4 种 frontmatter 生成策略（none/minimal/partial/full）
-  - 为所有 13 个平台指定正确的格式类型
-  - 提取 `argument_hint` 字段以支持部分 frontmatter
+#### Technical Implementation
+- **Build Script Enhancement** (`scripts/build/generate-commands.sh`):
+  - Added `frontmatter_type` parameter to the `generate_commands` function.
+  - Implemented 4 frontmatter generation strategies (none/minimal/partial/full).
+  - Specified the correct format type for all 13 platforms.
+  - Extracted the `argument_hint` field to support partial frontmatter.
 
-- **TOML 格式修复**：
-  - Gemini 和 Qwen 的 TOML 文件只包含 `description` 和 `prompt` 字段
-  - 参数占位符正确使用 `{{args}}` 而非 `$ARGUMENTS`
-  - 移除不支持的元数据字段
+- **TOML Format Fix**:
+  - Gemini and Qwen's TOML files now only contain `description` and `prompt` fields.
+  - Argument placeholders correctly use `{{args}}` instead of `$ARGUMENTS`.
+  - Removed unsupported metadata fields.
 
-#### 验证结果
-✅ 所有 13 个 AI 平台的命令文件格式已验证通过
-✅ 每个平台只包含其支持的字段，符合官方文档规范
-✅ 提高了各平台的兼容性，减少了文件冗余
-✅ 避免了潜在的解析错误
+#### Verification Results
+✅ Command file formats for all 13 AI platforms have been verified.
+✅ Each platform only includes the fields it supports, complying with official documentation.
+✅ Improved compatibility across platforms and reduced file redundancy.
+✅ Avoided potential parsing errors.
 
-#### 影响范围
-- 📦 **构建系统**：`npm run build:commands` 生成正确格式的命令文件
-- 🎯 **13个平台**：Claude, Gemini, Cursor, Windsurf, Roo Code, GitHub Copilot, Qwen Code, OpenCode, Codex CLI, Kilo Code, Auggie CLI, CodeBuddy, Amazon Q Developer
-- 📁 **182个文件**：每个平台 14 个命令文件，格式全部正确
+#### Scope of Impact
+- 📦 **Build System**: `npm run build:commands` now generates command files in the correct format.
+- 🎯 **13 Platforms**: Claude, Gemini, Cursor, Windsurf, Roo Code, GitHub Copilot, Qwen Code, OpenCode, Codex CLI, Kilo Code, Auggie CLI, CodeBuddy, Amazon Q Developer
+- 📁 **182 Files**: 14 command files for each platform, all in the correct format.
 
-### 📚 文档
-感谢社区反馈，帮助我们发现并修复了多平台兼容性问题。
+### 📚 Documentation
+Thanks to community feedback for helping us discover and fix multi-platform compatibility issues.
 
 ## [0.14.2] - 2025-10-10
 
-### 🐛 问题修复
+### 🐛 Bug Fixes
 
-- **中文字数统计问题**：修复 `wc -w` 对中文字数统计极不准确的问题
-  - 新增 `count_chinese_words()` 函数，准确性提升 12+ 倍
-  - 排除 Markdown 标记、代码块、空格、标点符号
-  - 只统计实际文字内容
-  - 性能优秀（处理 3000 字约 10ms）
+- **Chinese Word Count Issue**: Fixed the issue where `wc -w` was highly inaccurate for counting Chinese words.
+  - Added `count_chinese_words()` function, improving accuracy by 12+ times.
+  - Excludes Markdown markers, code blocks, spaces, and punctuation.
+  - Counts only the actual text content.
+  - Excellent performance (processing 3000 words in about 10ms).
 
-### ✨ 新增功能
+### ✨ New Features
 
-- **字数统计函数**（`scripts/bash/common.sh`）
-  - `count_chinese_words()` - 准确的中文字数统计
-  - `show_word_count_info()` - 显示友好的字数验证信息
+- **Word Count Functions** (`scripts/bash/common.sh`)
+  - `count_chinese_words()` - Accurate Chinese word count.
+  - `show_word_count_info()` - Displays user-friendly word count verification information.
 
-- **脚本增强**
-  - `analyze-story.sh` - 显示每章详细字数统计
-  - `check-writing-state.sh` - 自动验证章节字数是否达标
-  - 从 `validation-rules.json` 读取字数要求配置
+- **Script Enhancements**
+  - `analyze-story.sh` - Displays detailed word count statistics for each chapter.
+  - `check-writing-state.sh` - Automatically verifies if chapter word counts meet the requirements.
+  - Reads word count requirements from `validation-rules.json`.
 
-- **命令模板更新**
-  - `/write` 命令添加字数验证说明
-  - 警告不要使用 `wc -w` 统计中文
-  - AI 写作完成后自动显示准确字数
+- **Command Template Updates**
+  - `/write` command now includes word count verification instructions.
+  - Warns against using `wc -w` for Chinese.
+  - Automatically displays the accurate word count after AI writing is complete.
 
-### 📚 新增文档
+### 📚 New Documentation
 
-- **使用指南**：`docs/word-count-guide.md` - 完整的字数统计使用说明
-- **测试脚本**：`scripts/bash/test-word-count.sh` - 验证统计准确性
-- **修复说明**：`WORD_COUNT_FIX.md` - 问题诊断和解决方案
+- **User Guide**: `docs/word-count-guide.md` - Complete guide to using the word count feature.
+- **Test Script**: `scripts/bash/test-word-count.sh` - Verifies the accuracy of the word count.
+- **Fix Explanation**: `WORD_COUNT_FIX.md` - Issue diagnosis and solution.
 
-### 🎯 解决的问题
+### 🎯 Problems Solved
 
-- AI 写作时提示"字数不够"，但实际字数已超过要求
-- 使用 `wc -w` 统计中文章节字数结果严重偏低（121/164 vs 2000+）
-- 同一文件多次统计结果不一致
+- AI writing prompts "word count not enough" when the actual word count has exceeded the requirement.
+- Using `wc -w` to count Chinese chapters results in severely low counts (121/164 vs 2000+).
+- Inconsistent results when counting the same file multiple times.
 
-### ⚠️ 重要提醒
+### ⚠️ Important Reminder
 
-- ❌ 不要使用 `wc -w` 统计中文字数（极不准确）
-- ❌ 不要使用 `wc -m` 统计字数（包含太多无关字符）
-- ✅ 使用 `count_chinese_words` 函数获得准确结果
+- ❌ Do not use `wc -w` to count Chinese words (highly inaccurate).
+- ❌ Do not use `wc -m` to count words (includes too many irrelevant characters).
+- ✅ Use the `count_chinese_words` function for accurate results.
 
 ## [0.14.0] - 2025-10-09
 
-### ✨ 新增功能
+### ✨ New Features
 
-- **Roo Code 斜杠命令支持**：`novel init` 与 `novel upgrade` 现在支持生成 `.roo/commands` 目录，并自动输出 Roo Code 兼容的 Markdown 命令
-- **插件系统集成**：插件命令注入流程同步扩展至 Roo Code，确保安装的插件可在 Roo Code 中即时使用
+- **Roo Code Slash Command Support**: `novel init` and `novel upgrade` now support generating the `.roo/commands` directory and automatically outputting Roo Code compatible Markdown commands.
+- **Plugin System Integration**: The plugin command injection process has been extended to Roo Code, ensuring that installed plugins are immediately available in Roo Code.
 
-### 📚 文档更新
+### 📚 Documentation Updates
 
-- README 与 CHANGELOG 新增 Roo Code 支持说明，同时更新可用 AI 列表提示
+- README and CHANGELOG now include Roo Code support information and an updated list of available AI platforms.
 
 ## [0.13.7] - 2025-10-06
 
-### 🐛 问题修复
+### 🐛 Bug Fixes
 
-- **插件命令文件命名优化**：修复插件安装后命令文件名过于复杂的问题
-  - 移除不必要的 `plugin-{pluginName}-` 前缀
-  - 插件命令文件名简化：`plugin-book-analysis-book-analyze.md` → `book-analyze.md`
-  - 保持与核心命令一致的命名风格
-  - 适用于所有 AI 平台（Claude、Cursor、Windsurf、Gemini）
+- **Plugin Command File Naming Optimization**: Fixed the issue of overly complex command file names after plugin installation.
+  - Removed the unnecessary `plugin-{pluginName}-` prefix.
+  - Simplified plugin command file names: `plugin-book-analysis-book-analyze.md` → `book-analyze.md`.
+  - Maintained a naming style consistent with core commands.
+  - Applies to all AI platforms (Claude, Cursor, Windsurf, Gemini).
 
 ## [0.13.6] - 2025-10-06
 
-### 🐛 问题修复
+### 🐛 Bug Fixes
 
-- **CLI 帮助文本更新**：修复 `novel init` 初始化后显示的帮助文本
-  - 更新核心命令列表为正确的七步方法论命令（constitution, specify, clarify, plan, tasks, write, analyze）
-  - 移除已废弃的旧命令（method, style, story, outline, chapters）
-  - 更新推荐流程为：`constitution → specify → clarify → plan → tasks → write → analyze`
+- **CLI Help Text Update**: Fixed the help text displayed after `novel init`.
+  - Updated the core command list to the correct seven-step methodology commands (constitution, specify, clarify, plan, tasks, write, analyze).
+  - Removed deprecated old commands (method, style, story, outline, chapters).
+  - Updated the recommended workflow to: `constitution → specify → clarify → plan → tasks → write → analyze`.
 
 ## [0.12.2] - 2025-10-04
 
-### ✨ 新增功能：Claude Code 增强层
+### ✨ New Feature: Claude Code Enhanced Layer
 
-#### 核心改进
-为 **Claude Code** 用户提供专属增强版本命令，同时**保持与其他平台（Gemini、Cursor、Windsurf）的完整兼容性**。
+#### Core Improvement
+Provide an exclusive enhanced version of commands for **Claude Code** users while **maintaining full compatibility with other platforms (Gemini, Cursor, Windsurf)**.
 
-#### 1. 构建系统设计（v0.15.0+ 已升级为单一源+构建系统）
-- **单一源**：`templates/commands/` - 命令源文件（原 `commands-claude/`）
-- **构建系统**：`scripts/build/generate-commands.sh` - 自动生成所有平台命令
-- **命名空间**：Claude 使用 `novel.*` 前缀，Gemini 使用 `novel/` 子目录，避免与 spec-kit 冲突
-- **发布流程**：构建时自动生成 `dist/` 目录，用户初始化时直接复制
+#### 1. Build System Design (Upgraded in v0.15.0+ to single-source + build system)
+- **Single Source**: `templates/commands/` - Command source files (formerly `commands-claude/`).
+- **Build System**: `scripts/build/generate-commands.sh` - Automatically generates commands for all platforms.
+- **Namespace**: Claude uses `novel.*` prefix, Gemini uses `novel/` subdirectory to avoid conflicts with spec-kit.
+- **Release Process**: The `dist/` directory is automatically generated during the build, and users can directly copy from it during initialization.
 
-#### 2. Claude Code 专属特性
+#### 2. Claude Code Exclusive Features
 
-**增强的 Frontmatter 字段**：
-- `argument-hint` - 命令参数自动补全提示
-- `allowed-tools` - 细粒度工具权限控制（如 `Bash(find:*)`, `Read(//**)`)
-- `model` - 为每个命令指定最适合的 AI 模型（默认 `claude-sonnet-4-5-20250929`）
-- `disable-model-invocation` - 控制 SlashCommand 工具是否可自动调用
+**Enhanced Frontmatter Fields**:
+- `argument-hint` - Command argument auto-completion hints.
+- `allowed-tools` - Fine-grained tool permission control (e.g., `Bash(find:*)`, `Read(//**)`).
+- `model` - Specify the most suitable AI model for each command (default `claude-sonnet-4-5-20250929`).
+- `disable-model-invocation` - Controls whether the SlashCommand tool can be automatically invoked.
 
-**动态上下文加载**：
-- 支持内联 bash 执行：`!`command``
-- 实时获取项目状态（章节数、字数、追踪文件等）
-- 减少用户手动输入，提升命令智能化
+**Dynamic Context Loading**:
+- Supports inline bash execution: `!`command``.
+- Real-time project status retrieval (chapter count, word count, tracking files, etc.).
+- Reduces manual user input and enhances command intelligence.
 
-#### 3. 增强的命令列表
+#### 3. Enhanced Command List
 
-**P0 命令（3个）**：
-- `/analyze` - 添加阶段检测、章节列表、字数统计动态上下文
-- `/write` - 添加待办任务、最新章节、进度状态动态加载
-- `/clarify` - 添加故事文件路径、规格检测动态上下文
+**P0 Commands (3)**:
+- `/analyze` - Added phase detection, chapter list, and word count dynamic context.
+- `/write` - Added to-do tasks, latest chapter, and progress status dynamic loading.
+- `/clarify` - Added story file path and spec detection dynamic context.
 
-**P1 命令（3个）**：
-- `/track` - 添加追踪文件状态、进度统计、章节列表、字数统计
-- `/specify` - 添加宪法检测、规格文件检测、路径信息
-- `/plan` - 添加规格状态、计划文件检测、待澄清项统计
+**P1 Commands (3)**:
+- `/track` - Added tracking file status, progress statistics, chapter list, and word count.
+- `/specify` - Added constitution detection, spec file detection, and path information.
+- `/plan` - Added spec status, plan file detection, and items to be clarified statistics.
 
-**P2 命令（5个）**：
-- `/tasks` - 添加计划/规格文件检测、线索管理规格摘要
-- `/plot-check` - 添加追踪文件状态、进度检测、章节统计
-- `/timeline` - 添加时间线状态、时间节点统计、章节映射
-- `/relations` - 添加关系网络状态、角色/派系统计
-- `/world-check` - 添加知识库检测、设定统计、专有名词统计
+**P2 Commands (5)**:
+- `/tasks` - Added plan/spec file detection and clue management spec summary.
+- `/plot-check` - Added tracking file status, progress detection, and chapter statistics.
+- `/timeline` - Added timeline status, time node statistics, and chapter mapping.
+- `/relations` - Added relationship network status and character/faction statistics.
+- `/world-check` - Added knowledge base detection, setting statistics, and proper noun statistics.
 
-#### 4. CLI 逻辑优化
+#### 4. CLI Logic Optimization
 
-修改 `src/cli.ts` 支持优先级选择：
+Modified `src/cli.ts` to support priority selection:
 ```typescript
-// 为 Claude 生成命令时，优先使用增强版本
+// When generating commands for Claude, prioritize the enhanced version
 if (await fs.pathExists(claudeEnhancedPath)) {
   commandContent = await fs.readFile(claudeEnhancedPath, 'utf-8');
-  console.log(chalk.gray(`    💎 Claude 增强: ${file}`));
+  console.log(chalk.gray(`    💎 Claude Enhanced: ${file}`));
 }
 ```
 
-#### 5. 兼容性保证
-- ✅ 不修改其他平台的命令目录（`.claude`、`.cursor`、`.gemini` 等）
-- ✅ 基础命令保持不变，确保 Gemini/Cursor/Windsurf 正常使用
-- ✅ Claude 增强层是可选的，不影响现有用户
-- ✅ 所有增强特性仅在 Claude Code 环境生效
+#### 5. Compatibility Guarantee
+- ✅ Does not modify command directories of other platforms (`.claude`, `.cursor`, `.gemini`, etc.).
+- ✅ Basic commands remain unchanged, ensuring normal use for Gemini/Cursor/Windsurf.
+- ✅ The Claude enhancement layer is optional and does not affect existing users.
+- ✅ All enhancement features are only effective in the Claude Code environment.
 
-### 📚 文档更新
-- **README.md**：新增 v0.12.2 Claude Code 增强层特性说明
-- **CHANGELOG.md**：详细记录增强功能和实现细节
+### 📚 Documentation Updates
+- **README.md**: Added v0.12.2 Claude Code enhancement layer feature description.
+- **CHANGELOG.md**: Detailed record of enhancement features and implementation details.
 
-### 🎯 设计理念
-**增强而不破坏兼容性**：
-- ❌ 不创建新命令或新平台特定命令
-- ✅ 分层架构，优先级选择
-- ✅ Claude 用户获得最佳体验
-- ✅ 其他平台用户体验不受影响
+### 🎯 Design Philosophy
+**Enhance without breaking compatibility**:
+- ❌ Do not create new commands or new platform-specific commands.
+- ✅ Layered architecture with priority selection.
+- ✅ Claude users get the best experience.
+- ✅ The user experience of other platforms is not affected.
 
 ---
 
 ## [0.12.1] - 2025-10-01
 
-### ✨ 新增功能:智能双模式 analyze
+### ✨ New Feature: Smart Dual-Mode Analyze
 
-#### 核心改进
-`/analyze` 命令升级为**智能双模式**,根据创作阶段自动选择分析类型,**无需新增命令**。
+#### Core Improvement
+The `/analyze` command has been upgraded to a **smart dual-mode** that automatically selects the analysis type based on the creation stage, **without adding new commands**.
 
-#### 1. 智能阶段检测
-- **自动判断**: 系统检测章节数量,自动决定执行框架分析还是内容分析
-- **手动指定**: 支持 `--type=framework` 或 `--type=content` 强制指定模式
-- **脚本支持**: 新增 `scripts/bash/check-analyze-stage.sh` 和 `scripts/powershell/check-analyze-stage.ps1`
+#### 1. Smart Stage Detection
+- **Automatic Judgment**: The system detects the number of chapters and automatically decides whether to perform a framework analysis or a content analysis.
+- **Manual Specification**: Supports `--type=framework` or `--type=content` to force a specific mode.
+- **Script Support**: Added `scripts/bash/check-analyze-stage.sh` and `scripts/powershell/check-analyze-stage.ps1`.
 
-#### 2. 模式A: 框架一致性分析 (write 之前)
-- **覆盖率分析**: 检查规格需求是否都有对应的计划和任务
-- **一致性检查**: 验证规格/计划/任务之间是否存在矛盾
-- **逻辑预警**: 分析故事线设计中的潜在逻辑漏洞
-- **准备评估**: 评估是否可以开始写作
+#### 2. Mode A: Framework Consistency Analysis (before writing)
+- **Coverage Analysis**: Checks if all specification requirements have corresponding plans and tasks.
+- **Consistency Check**: Verifies if there are contradictions between specifications, plans, and tasks.
+- **Logic Warning**: Analyzes potential logical loopholes in the storyline design.
+- **Readiness Assessment**: Evaluates if writing can begin.
 
-#### 3. 模式B: 内容质量分析 (write 之后)
-- **宪法合规**: 验证作品是否符合创作原则
-- **规格符合**: 检查实现是否满足规格要求
-- **内容质量**: 分析逻辑、人物、节奏等
-- **改进建议**: 提供具体的 P0/P1/P2 修复建议
+#### 3. Mode B: Content Quality Analysis (after writing)
+- **Constitution Compliance**: Verifies if the work complies with the creation principles.
+- **Specification Compliance**: Checks if the implementation meets the specification requirements.
+- **Content Quality**: Analyzes logic, characters, rhythm, etc.
+- **Improvement Suggestions**: Provides specific P0/P1/P2 fix suggestions.
 
-#### 4. 决策逻辑
+#### 4. Decision Logic
 ```
-章节数 = 0     → 框架分析
-章节数 < 3     → 框架分析 (建议继续写作)
-章节数 ≥ 3     → 内容分析
-用户指定 --type → 强制使用指定模式
+Chapter count = 0     → Framework analysis
+Chapter count < 3     → Framework analysis (suggests continuing to write)
+Chapter count ≥ 3     → Content analysis
+User specifies --type → Forces the specified mode
 ```
 
-### 📚 文档更新
-- **README.md**: 更新 `/analyze` 命令说明,展示智能双模式
-- **docs/writing/analyze-placement-rationale.md**: 新增"附录:智能双模式设计"章节
-- **命令模板**: 完全重写 analyze 命令,详细说明两种分析模式
+### 📚 Documentation Updates
+- **README.md**: Updated the `/analyze` command description to showcase the smart dual-mode.
+- **docs/writing/analyze-placement-rationale.md**: Added "Appendix: Smart Dual-Mode Design" section.
+- **Command Template**: Completely rewrote the analyze command to detail the two analysis modes.
 
-### 🎯 设计理念
-**克制而不简陋**:
-- ❌ 不创建两个命令 (`/framework-analyze`, `/content-analyze`)
-- ✅ 一个 `/analyze` 命令,智能判断场景
-- ✅ 90% 自动处理,10% 可手动控制
-- ✅ 满足多种需求,保持命令简洁
+### 🎯 Design Philosophy
+**Restrained but not simple**:
+- ❌ Do not create two commands (`/framework-analyze`, `/content-analyze`).
+- ✅ One `/analyze` command that intelligently judges the scenario.
+- ✅ 90% automatic processing, 10% manual control.
+- ✅ Meets multiple needs while keeping the command simple.
 
-### 💡 社区反馈驱动
-感谢 @曾喜胜 Anson 提出的需求,既要"write 之前的框架分析",也要"write 之后的内容审查"。
-我们通过智能化设计,在不增加命令的前提下,满足了两种需求。
+### 💡 Community Feedback Driven
+Thanks to @ZengXishengAnson for the request for both "framework analysis before writing" and "content review after writing."
+Through intelligent design, we have met both needs without increasing the number of commands.
 
 ---
 
 ## [0.12.0] - 2025-09-30
 
-### ✨ 新增功能:多线索管理系统
+### ✨ New Feature: Multi-Clue Management System
 
-#### 核心改进
-**无需新增命令**,通过增强现有命令模板,实现完整的多线索管理能力。
+#### Core Improvement
+Achieved complete multi-clue management capabilities by enhancing existing command templates, **without adding new commands**.
 
-#### 1. specification.md 增强 (/specify 命令)
-新增**第五章:线索管理规格**,包含5个管理表格:
-- **5.1 线索定义表**: 定义所有线索的ID、类型、优先级、冲突
-- **5.2 线索节奏规划**: 规划每条线索在不同卷的活跃程度(⭐⭐⭐/⭐⭐/⭐)
-- **5.3 线索交汇点规划**: 预先规划线索交汇时机,避免AI随意发挥
-- **5.4 伏笔管理表**: 管理伏笔的埋设与揭晓,确保不遗漏
-- **5.5 线索修改决策矩阵**: 修改线索时的影响评估清单
+#### 1. specification.md Enhancement (/specify command)
+Added **Chapter 5: Clue Management Specification**, which includes 5 management tables:
+- **5.1 Clue Definition Table**: Defines all clues' ID, type, priority, and conflicts.
+- **5.2 Clue Pacing Plan**: Plans the activity level of each clue in different volumes (⭐⭐⭐/⭐⭐/⭐).
+- **5.3 Clue Intersection Plan**: Pre-plans clue intersection moments to avoid random AI improvisation.
+- **5.4 Foreshadowing Management Table**: Manages the placement and reveal of foreshadowing to ensure nothing is missed.
+- **5.5 Clue Modification Decision Matrix**: An impact assessment checklist for modifying clues.
 
-#### 2. creative-plan.md 增强 (/plan 命令)
-章节段表格增加"活跃线索"和"交汇点"列:
-- 标注每个章节段推进哪些线索
-- ⭐⭐⭐ 主推进 / ⭐⭐ 辅助 / ⭐ 背景
-- 明确交汇点所在章节
+#### 2. creative-plan.md Enhancement (/plan command)
+Added "Active Clues" and "Intersection Point" columns to the chapter section table:
+- Marks which clues are advanced in each chapter section.
+- ⭐⭐⭐ Main advancement / ⭐⭐ Auxiliary / ⭐ Background.
+- Clearly indicates the chapter where an intersection point occurs.
 
-#### 3. tasks.md 增强 (/tasks 命令)
-每个写作任务增加线索相关字段:
-- **涉及线索**: 本章推进哪些线索及优先级
-- **交汇点**: 本章是否为交汇点
-- **伏笔埋设/揭晓**: 本章涉及的伏笔操作
+#### 3. tasks.md Enhancement (/tasks command)
+Added clue-related fields to each writing task:
+- **Involved Clues**: Which clues are advanced in this chapter and their priority.
+- **Intersection Point**: Whether this chapter is an intersection point.
+- **Foreshadowing Placement/Reveal**: Foreshadowing operations involved in this chapter.
 
-#### 4. plot-tracker.json 增强 (/track-init 命令)
-`/track --init` 自动从specification.md第五章读取:
-- 所有线索定义 (从5.1节)
-- 所有交汇点 (从5.3节)
-- 所有伏笔 (从5.4节)
-- 生成完整的追踪数据结构
+#### 4. plot-tracker.json Enhancement (/track-init command)
+`/track --init` automatically reads from Chapter 5 of specification.md:
+- All clue definitions (from section 5.1).
+- All intersection points (from section 5.3).
+- All foreshadowing (from section 5.4).
+- Generates a complete tracking data structure.
 
-#### 5. 实战指南更新 (docs/writing/practical-guide.md)
-新增**第六章:多线索管理指南**,包含:
-- 真实问题场景(来自网友反馈)
-- 4步解决方案
-- 基于《重返1984》的完整使用示例
-- 三大痛点的解决方式对比表
+#### 5. Practical Guide Update (docs/writing/practical-guide.md)
+Added **Chapter 6: Multi-Clue Management Guide**, which includes:
+- Real problem scenarios (from user feedback).
+- A 4-step solution.
+- A complete usage example based on "Return to 1984."
+- A comparison table of how the three major pain points are solved.
 
-### 🎯 解决的核心问题
-来自网友的真实困惑:
-> "主线和支线的穿插,很难给AI讲清楚如何保持并行,而且在适当的时候进行交叉和揭晓之前的线索。尤其是再剧情设定不定时修改的情况下,简直就是灾难。"
+### 🎯 Core Problems Solved
+Real confusion from users:
+> "It's hard to explain to the AI how to keep the main and subplots parallel, and how to intersect and reveal previous clues at the right time. It's a disaster, especially when the plot setting is constantly changing."
 
-#### 三大痛点及解决方式
-| 痛点 | 解决方式 | 具体文件 |
-|------|---------|---------|
-| **并行推进** | tasks.md每章标记"涉及线索" | W040标注PL-01⭐⭐⭐、PL-02⭐⭐ |
-| **交汇时机** | specification.md 5.3节预先规划 | X-001定在40章,避免AI随意 |
-| **修改一致性** | 5.5修改决策矩阵 + `/track --check` | 修改PL-02时自动提示影响范围 |
+#### Three Major Pain Points and Their Solutions
+| Pain Point | Solution | Specific File |
+|---|---|---|
+| **Parallel Advancement** | Mark "Involved Clues" in each chapter of tasks.md | W040 marked with PL-01⭐⭐⭐, PL-02⭐⭐ |
+| **Intersection Timing** | Pre-plan in section 5.3 of specification.md | X-001 set for chapter 40 to avoid AI randomness |
+| **Modification Consistency** | 5.5 Modification Decision Matrix + `/track --check` | Automatically prompts the scope of impact when modifying PL-02 |
 
-### 📐 设计原则
-- ✅ **符合"如无必要请勿增加"原则**: 完全使用现有7个命令
-- ✅ **符合SDD方法论**: 线索管理分布在specify→plan→tasks→track
-- ✅ **有写作理论支撑**: Story Grid的Grid Spreadsheet、Save the Cat的B Story理念
-- ✅ **解决真实痛点**: 来自用户实际需求,非臆想功能
+### 📐 Design Principles
+- ✅ **Follows the "if not necessary, do not add" principle**: Completely uses the existing 7 commands.
+- ✅ **Complies with the SDD methodology**: Clue management is distributed across specify→plan→tasks→track.
+- ✅ **Supported by writing theory**: Concepts from Story Grid's Grid Spreadsheet and Save the Cat's B Story.
+- ✅ **Solves real pain points**: Based on actual user needs, not imagined features.
 
-### 📝 文档改进
-- 详细的使用示例(基于《重返1984》5条线索)
-- 完整的输入提示词模板
-- 影响评估和一致性验证流程
+### 📝 Documentation Improvements
+- Detailed usage examples (based on 5 clues from "Return to 1984").
+- Complete input prompt templates.
+- Impact assessment and consistency verification process.
 
 ## [0.11.0] - 2025-09-30
 
-### ✨ 新增功能
-- **SDD方法论实战指南**: 新增 `docs/writing/practical-guide.md` (约10000字)
-  - 基于《重返1984》小说的完整SDD实战案例
-  - 详细讲解SDD的分层递归应用(整本书/一卷/章节段/单章)
-  - 提供4个完整场景的实际输入提示词示例
-  - 增加好坏提示词对比
-  - 增加完整对话流程展示
-  - 回答"AI写着偏离了怎么更新outline"等实际问题
+### ✨ New Features
+- **SDD Methodology Practical Guide**: Added `docs/writing/practical-guide.md` (approx. 10,000 words).
+  - A complete practical case of SDD based on the novel "Return to 1984."
+  - Detailed explanation of the layered recursive application of SDD (whole book/a volume/chapter section/single chapter).
+  - Provides actual input prompt examples for 4 complete scenarios.
+  - Added comparison of good and bad prompts.
+  - Added a complete dialogue flow demonstration.
+  - Answers practical questions like "how to update the outline if the AI deviates."
 
-- **可视化图表**: 新增3个SVG图表辅助理解
-  - `sdd-levels.svg` - SDD分层递归示意图
-  - `sdd-flow.svg` - SDD完整循环流程图
-  - `prompt-structure.svg` - 好的提示词结构图
+- **Visual Diagrams**: Added 3 SVG diagrams to aid understanding.
+  - `sdd-levels.svg` - SDD layered recursion diagram.
+  - `sdd-flow.svg` - SDD complete cycle flow chart.
+  - `prompt-structure.svg` - Structure of a good prompt.
 
-### 📝 文档改进
-- 强调SDD的核心: 规格驱动 + 分层递归 + 允许偏离 + 频繁验证
-- 每个场景包含:
-  - ❌ 不好的提示词示例
-  - ✅ 好的提示词示例
-  - 💬 完整对话流程 (用户→AI→确认→完成)
-- 提供提示词结构模板(情况说明/修改意图/需要更新/期望输出)
+### 📝 Documentation Improvements
+- Emphasizes the core of SDD: specification-driven + layered recursion + allowing deviation + frequent verification.
+- Each scenario includes:
+  - ❌ Bad prompt examples.
+  - ✅ Good prompt examples.
+  - 💬 Complete dialogue flow (User→AI→Confirm→Complete).
+- Provides a prompt structure template (Situation description/Modification intent/What needs updating/Expected output).
 
-### 🎯 解决的问题
-- 如何在写作中途调整剧情方向
-- 如何处理AI写出的优秀偏离内容
-- 不同粒度修改时应该用什么命令组合
-- 如何写出让AI理解的提示词
+### 🎯 Problems Solved
+- How to adjust the plot direction mid-writing.
+- How to handle excellent deviations produced by the AI.
+- What command combinations to use for different granularities of modification.
+- How to write prompts that the AI can understand.
 
 ## [0.10.5] - 2025-09-30
 
-### 🐛 Bug 修复
-- **common.sh 缺少函数**：添加 `get_active_story()` 函数
-  - 修复脚本执行时 "get_active_story: 未找到命令" 错误
-  - 同步到 `.specify/scripts/bash/` 和 `scripts/bash/`
+### 🐛 Bug Fixes
+- **Missing function in common.sh**: Added the `get_active_story()` function.
+  - Fixed the "get_active_story: command not found" error during script execution.
+  - Synced to `.specify/scripts/bash/` and `scripts/bash/`.
 
-### 📝 影响范围
-修复后以下脚本能正常执行：
+### 📝 Scope of Impact
+The following scripts can now run correctly after the fix:
 - `check-writing-state.sh`
 - `plan-story.sh`
 - `tasks-story.sh`
@@ -595,338 +595,338 @@ if (await fs.pathExists(claudeEnhancedPath)) {
 
 ## [0.10.4] - 2025-09-30
 
-### 🐛 Bug 修复
-- **七步方法论脚本缺失**：补全 Bash 脚本支持
-  - 创建 `plan-story.sh` - 创作计划脚本
-  - 创建 `tasks-story.sh` - 任务分解脚本
-  - 复制 `analyze-story.sh` - 综合验证脚本
-  - 复制 `constitution.sh` - 创作宪法脚本
-  - 复制 `specify-story.sh` - 故事规格脚本
+### 🐛 Bug Fixes
+- **Missing scripts for the seven-step methodology**: Completed Bash script support.
+  - Created `plan-story.sh` - creative plan script.
+  - Created `tasks-story.sh` - task decomposition script.
+  - Copied `analyze-story.sh` - comprehensive validation script.
+  - Copied `constitution.sh` - creation constitution script.
+  - Copied `specify-story.sh` - story specification script.
 
-### 📝 文件更新
-- 更新 `/tasks` 命令模板脚本引用从 `generate-tasks.sh` 改为 `tasks-story.sh`
-- 同步所有脚本到 `.specify/scripts/bash/` 和 `scripts/bash/`
-- 同步命令模板到 `.claude/commands/`
+### 📝 File Updates
+- Updated the script reference in the `/tasks` command template from `generate-tasks.sh` to `tasks-story.sh`.
+- Synced all scripts to `.specify/scripts/bash/` and `scripts/bash/`.
+- Synced command templates to `.claude/commands/`.
 
-### 🔧 影响范围
-修复后所有七步方法论命令（`/constitution`, `/specify`, `/clarify`, `/plan`, `/tasks`, `/write`, `/analyze`）都能在 Bash 环境下正常执行。
+### 🔧 Scope of Impact
+After the fix, all seven-step methodology commands (`/constitution`, `/specify`, `/clarify`, `/plan`, `/tasks`, `/write`, `/analyze`) can run correctly in a Bash environment.
 
 ## [0.10.3] - 2025-09-30
 
-### 🔧 破坏性变更
-- **移除旧格式兼容**：完全移除对旧 `story.md` 格式的支持
-  - 所有脚本现在只支持新格式 `specification.md`
-  - `/clarify` 命令只查找 `specification.md`
-  - `/specify` 命令移除了迁移逻辑
-  - `/track-init` 和相关追踪脚本更新为新格式
-  - 更新提示信息从 `/story` 改为 `/specify`
+### 🔧 Breaking Changes
+- **Removed old format compatibility**: Completely removed support for the old `story.md` format.
+  - All scripts now only support the new `specification.md` format.
+  - The `/clarify` command only looks for `specification.md`.
+  - The `/specify` command has removed the migration logic.
+  - `/track-init` and related tracking scripts have been updated to the new format.
+  - Updated prompt messages from `/story` to `/specify`.
 
-### 📝 文件更新
-- **Bash 脚本**：
-  - 更新 `clarify-story.sh` 只支持 `specification.md`
-  - 更新 `specify-story.sh` 移除 `story.md` 兼容逻辑
-  - 更新 `init-tracking.sh` 查找 `specification.md`
-  - 更新 `generate-tasks.sh` 检查 `specification.md`
+### 📝 File Updates
+- **Bash Scripts**:
+  - Updated `clarify-story.sh` to only support `specification.md`.
+  - Updated `specify-story.sh` to remove `story.md` compatibility logic.
+  - Updated `init-tracking.sh` to look for `specification.md`.
+  - Updated `generate-tasks.sh` to check for `specification.md`.
 
-- **PowerShell 脚本**：
-  - 更新 `clarify-story.ps1` 只支持 `specification.md`
-  - 更新 `specify-story.ps1` 移除 `story.md` 兼容逻辑
+- **PowerShell Scripts**:
+  - Updated `clarify-story.ps1` to only support `specification.md`.
+  - Updated `specify-story.ps1` to remove `story.md` compatibility logic.
 
-- **配置文件**：
-  - 更新 `.gitignore` 添加 `*.backup` 规则
+- **Configuration Files**:
+  - Updated `.gitignore` to add the `*.backup` rule.
 
-### ⚠️ 迁移提示
-如果您的项目还在使用 `story.md`，请手动将其重命名为 `specification.md`：
+### ⚠️ Migration Notice
+If your project is still using `story.md`, please manually rename it to `specification.md`:
 ```bash
 mv stories/your-story/story.md stories/your-story/specification.md
 ```
 
 ## [0.10.2] - 2025-09-30
 
-### 🐛 Bug 修复
-- **命令模板缺失**：补全七步方法论命令模板
-  - 添加 `/constitution` - 创作宪法命令
-  - 添加 `/specify` - 故事规格命令
-  - 添加 `/plan` - 创作计划命令
-  - 添加 `/tasks` - 任务分解命令
-  - 添加 `/analyze` - 综合验证命令
-- **影响范围**：修复后 `novel init` 创建的新项目将包含所有命令模板
+### 🐛 Bug Fixes
+- **Missing command templates**: Completed the command templates for the seven-step methodology.
+  - Added `/constitution` - creation constitution command.
+  - Added `/specify` - story specification command.
+  - Added `/plan` - creative plan command.
+  - Added `/tasks` - task decomposition command.
+  - Added `/analyze` - comprehensive validation command.
+- **Scope of Impact**: After the fix, new projects created with `novel init` will include all command templates.
 
 ## [0.10.1] - 2025-09-30
 
-### 🔧 系统完善
-- **脚本体系重构**：统一管理 Bash 和 PowerShell 脚本至 `.specify/scripts/`
-- **命令同步更新**：完善 Claude Code 和 Gemini 命令模板
-- **追踪系统增强**：
-  - 新增 `/track-init` 命令用于初始化追踪系统
-  - 完善进度追踪和验证规则
-  - 添加时间线、情节、世界观一致性检查脚本
-- **命令优化**：
-  - 更新 `/clarify`、`/expert`、`/write`、`/relations` 等命令
-  - 删除冗余命令：`/story`、`/style`、`/outline`、`/chapters`
-- **文档改进**：更新工作流程和快速开始指南
+### 🔧 System Improvements
+- **Script System Refactoring**: Centralized management of Bash and PowerShell scripts to `.specify/scripts/`.
+- **Command Sync Update**: Improved Claude Code and Gemini command templates.
+- **Tracking System Enhancement**:
+  - Added `/track-init` command to initialize the tracking system.
+  - Improved progress tracking and validation rules.
+  - Added scripts for timeline, plot, and world consistency checks.
+- **Command Optimization**:
+  - Updated `/clarify`, `/expert`, `/write`, `/relations`, etc. commands.
+  - Removed redundant commands: `/story`, `/style`, `/outline`, `/chapters`.
+- **Documentation Improvement**: Updated workflow and quick start guide.
 
-### 📦 项目结构
-- 移动脚本文件到 `.specify` 目录以更好地组织
-- 添加子模块支持（BMAD-METHOD、spec-kit）
-- 完善模板文件和配置文件
+### 📦 Project Structure
+- Moved script files to the `.specify` directory for better organization.
+- Added submodule support (BMAD-METHOD, spec-kit).
+- Improved template files and configuration files.
 
 ## [0.10.0] - 2025-09-29
 
-### 🎉 重大更新
-- **七步方法论体系**：引入完整的规格驱动开发（SDD）创作流程
-  - `/constitution` - 创作宪法，定义最高层级的创作原则
-  - `/specify` - 故事规格，像 PRD 一样定义故事需求
-  - `/clarify` - 澄清决策，通过交互式问答明确关键点
-  - `/plan` - 创作计划，制定技术实现方案
-  - `/tasks` - 任务分解，生成可执行的任务清单
-  - `/write` - 章节写作（重构以适配新流程）
-  - `/analyze` - 综合验证，全方位质量检查
+### 🎉 Major Update
+- **Seven-Step Methodology System**: Introduced a complete Specification-Driven Development (SDD) creation process.
+  - `/constitution` - Creation constitution, defines the highest-level creation principles.
+  - `/specify` - Story specification, defines story requirements like a PRD.
+  - `/clarify` - Clarify decisions, clarifies key points through interactive Q&A.
+  - `/plan` - Creative plan, formulates a technical implementation plan.
+  - `/tasks` - Task decomposition, generates an executable task list.
+  - `/write` - Chapter writing (refactored to fit the new process).
+  - `/analyze` - Comprehensive validation, all-around quality check.
 
-### 🔧 系统重构
-- **删除冗余命令**：移除 story、style、outline、chapters、method 等旧命令
-- **跨平台同步**：PowerShell 脚本和 Gemini TOML 命令完全同步
-- **文档体系升级**：
-  - 创建 `METHODOLOGY.md` - 完整的方法论说明
-  - 创建 `MIGRATION.md` - 版本迁移指南
-  - 更新所有平台的命令支持
+### 🔧 System Refactoring
+- **Removed Redundant Commands**: Removed old commands like story, style, outline, chapters, method.
+- **Cross-Platform Sync**: Fully synchronized PowerShell scripts and Gemini TOML commands.
+- **Documentation System Upgrade**:
+  - Created `METHODOLOGY.md` - complete methodology explanation.
+  - Created `MIGRATION.md` - version migration guide.
+  - Updated command support for all platforms.
 
-### 📝 理念升级
-- 从"工具集合"升级为"方法论框架"
-- 从"零散命令"转变为"系统化流程"
-- 强调"规格驱动"而非"灵感驱动"
-- 实现"需求定义"到"内容生成"的完整链路
+### 📝 Philosophy Upgrade
+- Upgraded from a "tool collection" to a "methodology framework."
+- Shifted from "scattered commands" to a "systematic process."
+- Emphasizes "specification-driven" over "inspiration-driven."
+- Achieves a complete link from "requirements definition" to "content generation."
 
-### ⚠️ 破坏性变更
-- 删除了以下旧命令（已被新命令替代）：
+### ⚠️ Breaking Changes
+- The following old commands have been deleted (replaced by new commands):
   - `/story` → `/specify`
   - `/style` → `/constitution`
   - `/outline` → `/plan`
   - `/chapters` → `/tasks`
-  - `/method` → 成为可选辅助
-- 文件结构调整：
+  - `/method` → Becomes an optional helper.
+- File structure adjustments:
   - `stories/*/chapters/` → `stories/*/content/`
-  - 新增多个方法论相关文件
+  - Added multiple methodology-related files.
 
 ## [0.9.0] - 2025-09-29
 
-### 🎯 方法论升级
-- 引入 spec-kit 的规格驱动开发理念
-- **`/clarify` 命令** - 交互式澄清故事大纲中的关键决策点
-- 结构化创作流程：story → clarify → outline
-- 智能问答：AI 识别模糊点，通过5个精准问题明确创作方向
+### 🎯 Methodology Upgrade
+- Introduced the specification-driven development concept from spec-kit.
+- **`/clarify` command** - Interactively clarifies key decision points in the story outline.
+- Structured creation process: story → clarify → outline.
+- Smart Q&A: AI identifies ambiguous points and clarifies the creative direction through 5 precise questions.
 
 ## [0.8.4] - 2025-09-26
 
-### 🎉 新功能
-- Authentic Voice 真实人声插件（提升原创度与自然度）
-  - `/authentic-voice` 真实人声创作模式（取材卡 + 个体词库）
-  - `/authenticity-audit` 人味自查与行级改写建议
-  - 专家 `authentic-editor`：更细致的人声编辑
-- 离线文本自查脚本：`scripts/bash/text-audit.sh`
-  - 统计连接词/空话密度、句长均值/方差、连续长/短句、抽象词密度示例
-  - 支持项目级配置：`spec/knowledge/audit-config.json`
+### 🎉 New Features
+- Authentic Voice plugin (improves originality and naturalness).
+  - `/authentic-voice` authentic voice creation mode (material cards + personal lexicon).
+  - `/authenticity-audit` self-check for "humanness" and line-level rewrite suggestions.
+  - `authentic-editor` expert: more detailed voice editing.
+- Offline text self-check script: `scripts/bash/text-audit.sh`.
+  - Statistics on connective/filler word density, sentence length mean/variance, consecutive long/short sentences, abstract word density examples.
+  - Supports project-level configuration: `spec/knowledge/audit-config.json`.
 
-### 📚 模板与文档
-- 新增写作准则模板：`templates/writing-constitution-template.md`
-- 新增人味自查配置模板：`templates/knowledge/audit-config.json`
-- README 增加“真实人声一键示例”和插件推荐使用说明
+### 📚 Templates and Documentation
+- Added writing constitution template: `templates/writing-constitution-template.md`.
+- Added "humanness" self-check configuration template: `templates/knowledge/audit-config.json`.
+- README added "one-click authentic voice example" and plugin recommended usage instructions.
 
-### 🔧 流程改进
-- `/style` 初始化自动引用 `.specify/memory/personal-voice.md`：
-  - 追加“个人语料摘要（自动引用）”
-  - 同步“个人表达基线（自动同步）”固定专章（幂等更新）
-- CLI 帮助中展示 `authentic-voice` 可用插件项
+### 🔧 Process Improvements
+- `/style` initialization now automatically references `.specify/memory/personal-voice.md`:
+  - Appends "Personal Corpus Summary (automatic reference)."
+  - Syncs "Personal Expression Baseline (automatic sync)" to a fixed chapter (idempotent update).
+- CLI help now shows `authentic-voice` as an available plugin.
 
 ## [0.8.3] - 2025-09-25
 
-### 🎉 新功能
-- **完整插件 Gemini 支持**：所有插件都支持 Gemini CLI
-  - translate 插件：3 个 TOML 命令
-  - book-analysis 插件：6 个 TOML 命令
-  - 作者风格插件：13 个 TOML 命令（王钰、十年雪落、路遥）
-  - stardust-dreams 插件：4 个 TOML 命令
+### 🎉 New Features
+- **Full Gemini Plugin Support**: All plugins now support Gemini CLI.
+  - translate plugin: 3 TOML commands.
+  - book-analysis plugin: 6 TOML commands.
+  - Author style plugins: 13 TOML commands (Wang Yu, Shinianxueluo, Lu Yao).
+  - stardust-dreams plugin: 4 TOML commands.
 
-### 🔧 技术改进
-- 标准化插件命令格式
-- 简化复杂命令为 AI 友好格式
-- 优化 TOML 命令结构
+### 🔧 Technical Improvements
+- Standardized plugin command format.
+- Simplified complex commands into an AI-friendly format.
+- Optimized TOML command structure.
 
-### 📝 插件更新
-- 所有 6 个官方插件现在都支持双格式（Markdown + TOML）
-- 共新增 26 个 TOML 格式命令文件
-- 插件系统完全兼容 Gemini CLI
+### 📝 Plugin Updates
+- All 6 official plugins now support dual formats (Markdown + TOML).
+- A total of 26 new TOML format command files have been added.
+- The plugin system is fully compatible with Gemini CLI.
 
 ## [0.8.2] - 2025-09-25
 
-### 🎉 新功能
-- **Google Gemini CLI 支持**：完整的 Gemini CLI 斜杠命令集成
-  - 新增 13 个 TOML 格式的命令定义
-  - 支持命名空间命令（如 `/track:init`、`/plot:check`）
-  - 插件系统同时支持 Markdown 和 TOML 双格式
-  - 智能格式转换和降级机制
+### 🎉 New Features
+- **Google Gemini CLI Support**: Full Gemini CLI slash command integration.
+  - Added 13 new TOML format command definitions.
+  - Supports namespace commands (e.g., `/track:init`, `/plot:check`).
+  - The plugin system now supports both Markdown and TOML formats.
+  - Smart format conversion and fallback mechanism.
 
-### 📚 新增文档
-- **Gemini 开发指南**：`docs/gemini-command-guide.md` - 双格式命令开发说明
-- **Gemini 用户文档**：`templates/GEMINI.md` - Gemini CLI 使用指南
-- **Gemini 配置文件**：`templates/gemini-settings.json` - CLI 设置模板
+### 📚 New Documentation
+- **Gemini Development Guide**: `docs/gemini-command-guide.md` - dual-format command development instructions.
+- **Gemini User Document**: `templates/GEMINI.md` - Gemini CLI usage guide.
+- **Gemini Configuration File**: `templates/gemini-settings.json` - CLI settings template.
 
-### 🔧 技术改进
-- 重构插件管理器支持多 AI 平台
-- CLI 初始化命令智能检测并生成对应格式
-- 增强命令注入机制，支持自动格式转换
-- 优化目录结构管理
+### 🔧 Technical Improvements
+- Refactored the plugin manager to support multiple AI platforms.
+- The CLI initialization command now intelligently detects and generates the corresponding format.
+- Enhanced the command injection mechanism to support automatic format conversion.
+- Optimized directory structure management.
 
-### 📝 兼容性
-- 完全向后兼容现有 Claude、Cursor、Windsurf 用户
-- 支持 `--ai gemini` 参数专门生成 Gemini 格式
-- 插件可选择性提供 TOML 格式支持
+### 📝 Compatibility
+- Fully backward compatible with existing Claude, Cursor, and Windsurf users.
+- Supports the `--ai gemini` parameter to specifically generate Gemini format.
+- Plugins can optionally provide TOML format support.
 
 ## [0.7.0] - 2025-01-24
 
-### 🎉 新功能
-- **外部AI建议整合功能**：支持整合来自Gemini、ChatGPT等AI工具的分析建议
-  - 扩展 `/style` 命令，新增 `refine` 模式
-  - 支持JSON和Markdown两种建议格式
-  - 自动分类处理建议（风格/角色/情节/世界观/对话）
-  - 建议历史追踪和版本管理
-  - 智能合并多源建议
+### 🎉 New Features
+- **External AI Suggestion Integration**: Supports integrating analysis suggestions from AI tools like Gemini and ChatGPT.
+  - Extended the `/style` command with a new `refine` mode.
+  - Supports both JSON and Markdown suggestion formats.
+  - Automatically categorizes and processes suggestions (style/character/plot/worldview/dialogue).
+  - Suggestion history tracking and version management.
+  - Smart merging of suggestions from multiple sources.
 
-### 📚 新增文档
-- **PRD文档**：`docs/PRD-external-suggestion-integration.md` - 功能设计规范
-- **AI提示词模板**：`docs/ai-suggestion-prompt-template.md` - 标准化建议格式
-- **Gemini专用模板**：`docs/ai-suggestion-prompt-for-gemini.md` - 优化的提示词
-- **快速指南**：`docs/quick-guide-external-ai-integration.md` - 三步完成整合
-- **实例集**：`docs/suggestion-integration-examples.md` - 详细使用示例
+### 📚 New Documentation
+- **PRD Document**: `docs/PRD-external-suggestion-integration.md` - feature design specification.
+- **AI Prompt Template**: `docs/ai-suggestion-prompt-template.md` - standardized suggestion format.
+- **Gemini-Specific Template**: `docs/ai-suggestion-prompt-for-gemini.md` - optimized prompt.
+- **Quick Guide**: `docs/quick-guide-external-ai-integration.md` - three steps to complete integration.
+- **Example Set**: `docs/suggestion-integration-examples.md` - detailed usage examples.
 
-### 🔧 技术改进
-- 新增 `style-manager.sh` 脚本处理建议整合
-- 优化格式识别逻辑，支持管道输入
-- 改进Markdown解析处理
-- 增强错误处理机制
+### 🔧 Technical Improvements
+- Added `style-manager.sh` script to handle suggestion integration.
+- Optimized format recognition logic to support pipe input.
+- Improved Markdown parsing and handling.
+- Enhanced error handling mechanism.
 
-### 📝 文件更新
-- 更新 `/style` 命令模板支持新功能
-- 新增 `improvement-log.md` 追踪建议历史
-- 扩展 `character-voices.md` 添加词汇替换表
+### 📝 File Updates
+- Updated the `/style` command template to support the new feature.
+- Added `improvement-log.md` to track suggestion history.
+- Extended `character-voices.md` to add a vocabulary replacement table.
 
 ## [0.6.2] - 2025-09-24
 
-### 改进
-- **ESM 模块支持**：项目全面迁移到 ESM（ECMAScript Modules）
-  - 添加 `"type": "module"` 配置
-  - 更新所有导入语句为 ESM 格式
-  - 使用 `import.meta.url` 替代 `__dirname`
-  - 完全支持 Node.js 18+ 所有版本（包括 21、22、23）
-  - 真正实现向上兼容，拥抱现代化 JavaScript 标准
+### Improvements
+- **ESM Module Support**: The project has been fully migrated to ESM (ECMAScript Modules).
+  - Added `"type": "module"` configuration.
+  - Updated all import statements to ESM format.
+  - Used `import.meta.url` instead of `__dirname`.
+  - Full support for all versions of Node.js 18+ (including 21, 22, 23).
+  - Truly achieved upward compatibility, embracing modern JavaScript standards.
 
 ## [0.6.1] - 2025-09-24
 
-### 修复
-- **依赖问题**：修复 `js-yaml` 模块缺失导致的运行错误
-  - 将 `js-yaml` 添加到 dependencies 中
-  - 解决了 `novel -h` 命令报错的问题
+### Fixes
+- **Dependency Issue**: Fixed a runtime error caused by the missing `js-yaml` module.
+  - Added `js-yaml` to the dependencies.
+  - Resolved the error with the `novel -h` command.
 
 ## [0.6.0] - 2025-09-24
 
-### 新增
-- **角色一致性验证系统**：解决AI生成内容中的角色名称错误问题
-  - 新增 `validation-rules.json` 验证规则文件
-  - `/write` 命令增强：写作前提醒、写作后验证
-  - `/track --check` 深度验证模式：批量检查角色一致性
-  - `/track --fix` 自动修复模式：自动修复简单错误
-- **程序驱动验证**：内部使用任务机制执行验证，提高效率
-- **验证脚本**：新增 `track-progress.sh` 支持验证功能
+### Added
+- **Character Consistency Verification System**: Solved the issue of character name errors in AI-generated content.
+  - Added `validation-rules.json` validation rules file.
+  - `/write` command enhancement: pre-writing reminder, post-writing validation.
+  - `/track --check` deep validation mode: batch check for character consistency.
+  - `/track --fix` auto-fix mode: automatically fix simple errors.
+- **Program-Driven Validation**: Internally uses a task mechanism to perform validation, improving efficiency.
+- **Validation Script**: Added `track-progress.sh` to support validation functions.
 
-### 改进
-- **写作流程优化**：在写作时主动预防角色名称错误
-- **批量验证**：支持一次性验证多个章节，节省Token
-- **自动修复**：能够自动修复角色名称和称呼错误
+### Improvements
+- **Writing Process Optimization**: Proactively prevents character name errors during writing.
+- **Batch Validation**: Supports validating multiple chapters at once, saving tokens.
+- **Auto-Fix**: Can automatically fix character names and titles.
 
 ## [0.5.6] - 2025-09-23
 
-### 新增
-- **写作风格插件**：新增三个写作风格插件
-  - `luyao-style` - 路遥风格写作插件
-  - `shizhangyu-style` - 施章渝风格写作插件
-  - `wangyu-style` - 王毓风格写作插件
+### Added
+- **Writing Style Plugins**: Added three new writing style plugins.
+  - `luyao-style` - Lu Yao style writing plugin.
+  - `shizhangyu-style` - Shi Zhangyu style writing plugin.
+  - `wangyu-style` - Wang Yu style writing plugin.
 
 ## [0.4.3] - 2025-09-21
 
-### 改进
-- **默认版本号更新**：将 version.ts 中的默认版本号从 0.4.1 更新为 0.4.2
-- **版本一致性**：确保所有版本引用保持同步
+### Improvements
+- **Default Version Number Update**: Updated the default version number in version.ts from 0.4.1 to 0.4.2.
+- **Version Consistency**: Ensured all version references remain synchronized.
 
 ## [0.4.2] - 2025-09-21
 
-### 改进
-- **统一版本管理**：实现自动从 package.json 读取版本号的模块
-- **知识库模板系统**：将硬编码的知识库文件改为模板文件系统
-- **代码优化**：简化 cli.ts 代码结构，提高可维护性
+### Improvements
+- **Unified Version Management**: Implemented a module that automatically reads the version number from package.json.
+- **Knowledge Base Template System**: Changed hard-coded knowledge base files to a template file system.
+- **Code Optimization**: Simplified the cli.ts code structure, improving maintainability.
 
-### 修复
-- **版本号统一**：通过 version.ts 模块确保版本号一致性
+### Fixes
+- **Version Number Unification**: Ensured version number consistency through the version.ts module.
 
 ## [0.4.0] - 2025-09-21
 
-### 新增
-- **情节追踪系统** (`/plot-check`)：追踪情节节点、伏笔和冲突发展
-- **时间线管理** (`/timeline`)：维护故事时间轴，确保时间逻辑一致
-- **关系矩阵** (`/relations`)：管理角色关系和派系动态
-- **世界观检查** (`/world-check`)：验证设定一致性，避免矛盾
-- **综合追踪** (`/track`)：全方位查看创作状态
-- **spec目录结构**：新增 `spec/tracking` 和 `spec/knowledge` 目录
-- **知识库模板**：
-  - `world-setting.md` - 世界观设定模板
-  - `character-profiles.md` - 角色档案模板
-  - `character-voices.md` - 角色语言档案模板
-  - `locations.md` - 场景地点模板
+### Added
+- **Plot Tracking System** (`/plot-check`): Tracks plot points, foreshadowing, and conflict development.
+- **Timeline Management** (`/timeline`): Maintains the story timeline to ensure logical time consistency.
+- **Relationship Matrix** (`/relations`): Manages character relationships and faction dynamics.
+- **Worldview Check** (`/world-check`): Verifies setting consistency to avoid contradictions.
+- **Comprehensive Tracking** (`/track`): Provides a full view of the creation status.
+- **spec Directory Structure**: Added `spec/tracking` and `spec/knowledge` directories.
+- **Knowledge Base Templates**:
+  - `world-setting.md` - Worldview setting template.
+  - `character-profiles.md` - Character profile template.
+  - `character-voices.md` - Character voice profile template.
+  - `locations.md` - Location template.
 
-### 改进
-- **追踪文件模板**：提供完整的 JSON 追踪文件模板
-- **一致性检查脚本**：实现综合的一致性验证系统
-- **工作流程增强**：添加质量保障流程
+### Improvements
+- **Tracking File Templates**: Provided complete JSON tracking file templates.
+- **Consistency Check Scripts**: Implemented a comprehensive consistency validation system.
+- **Workflow Enhancement**: Added a quality assurance process.
 
 ## [0.3.7] - 2025-09-20
 
-### 新增
+### Added
 
-- **时间获取指导**：在命令模板中添加提示，指导 AI 使用 `date` 命令获取系统日期
-- **自动日期生成**：脚本会预先生成正确的系统日期供 AI 参考
+- **Time Acquisition Guidance**: Added prompts in command templates to guide the AI to use the `date` command to get the system date.
+- **Automatic Date Generation**: Scripts will pre-generate the correct system date for the AI to reference.
 
-### 改进
+### Improvements
 
-- **灵活的卷册管理**：章节现在会自动从 outline.md 解析卷册结构，不再硬编码4卷
-- **动态章节数量**：支持从 outline.md 读取总章节数，不再限制为240章
-- **进度文件时间戳**：progress.json 现在包含创建和更新时间戳
+- **Flexible Volume Management**: Chapters now automatically parse the volume structure from outline.md, no longer hard-coded to 4 volumes.
+- **Dynamic Chapter Count**: Supports reading the total chapter count from outline.md, no longer limited to 240 chapters.
+- **Progress File Timestamps**: progress.json now includes creation and update timestamps.
 
-### 修复
+### Fixes
 
-- **日期生成错误**：修复了 AI 生成错误日期的问题（如2025-01-20而非2025-09-20）
+- **Date Generation Error**: Fixed the issue of the AI generating incorrect dates (e.g., 2025-01-20 instead of 2025-09-20).
 
 ## [0.3.6] - 2025-01-20
 
-### 修复
+### Fixes
 
-- **目录命名问题**：修复了故事目录生成时名称为 `001-` 的问题
-  - 采用 spec-kit 的方式处理目录名，只提取英文单词
-  - 纯中文描述时使用默认名称 `story`
-- **章节组织结构**：修复了章节按卷册结构生成的功能
-  - 章节现在会根据编号自动放入对应的卷册目录（volume-1 至 volume-4）
-  - 第1-60章在 volume-1，第61-120章在 volume-2，以此类推
+- **Directory Naming Issue**: Fixed the issue where the story directory was named `001-`.
+  - Adopted the spec-kit way of handling directory names, extracting only English words.
+  - Used the default name `story` for purely Chinese descriptions.
+- **Chapter Organization Structure**: Fixed the functionality of generating chapters according to the volume structure.
+  - Chapters are now automatically placed in the corresponding volume directory (volume-1 to volume-4) based on their number.
+  - Chapters 1-60 are in volume-1, 61-120 in volume-2, and so on.
 
 ## [0.3.5] - 2025-01-20
 
-### 修复
+### Fixes
 
-- 修复了 `novel init` 命令生成的 `.claude/commands/` 配置文件格式问题
-- 保留了命令文件中完整的 frontmatter 和 scripts 部分，确保 Claude 能正确识别和执行命令
-- 简化了 `generateMarkdownCommand` 函数，直接返回完整模板内容
+- Fixed the format issue of the `.claude/commands/` configuration files generated by the `novel init` command.
+- Retained the complete frontmatter and scripts sections in the command files to ensure Claude can correctly recognize and execute commands.
+- Simplified the `generateMarkdownCommand` function to directly return the full template content.
 
-## [0.3.4] - 之前版本
+## [0.3.4] - Previous Versions
 
-### 新增
+### Added
 
-- 初始版本发布
-- 支持 Claude、Cursor、Gemini、Windsurf、Roo Code 多种 AI 助手
-- 提供了完整的小说创作工作流命令
+- Initial version release.
+- Support for multiple AI assistants including Claude, Cursor, Gemini, Windsurf, and Roo Code.
+- Provided a complete set of workflow commands for novel writing.
