@@ -1,236 +1,236 @@
-# 石章鱼风格创作指南
+# Shi Zhangyu Style Creation Guide
 
-## 核心理念
+## Core Philosophy
 
-石章鱼风格的精髓在于：以宏大的时代背景为舞台，以深邃的权谋博弈为主线，以鲜活的人物群像为灵魂，创作出具有史诗感和文学性的长篇巨著。
+The essence of the Shi Zhangyu style is to create epic and literary long-form masterpieces using a grand historical background as the stage, profound power struggles as the main plotline, and a vivid cast of characters as the soul.
 
-## 创作原则
+## Creation Principles
 
-### 第一原则：宏大而不空洞
+### First Principle: Grand but Not Empty
 
-- **时代感**：每个故事都要扎根于特定的时代土壤
-- **真实感**：细节考究，逻辑严密，经得起推敲
-- **史诗感**：个人命运与时代洪流的交织碰撞
-- **厚重感**：文字背后有历史的重量和人性的深度
+- **Sense of the Times**: Every story must be rooted in a specific historical context.
+- **Sense of Reality**: Details are meticulously researched, and the logic is rigorous and can withstand scrutiny.
+- **Sense of Epic**: The interweaving and collision of individual destiny and the tide of the times.
+- **Sense of Weight**: The text carries the weight of history and the depth of human nature.
 
-### 第二原则：权谋而不阴暗
+### Second Principle: Power Struggles but Not Dark
 
-- **智慧博弈**：展现人类智慧的极致较量
-- **立场冲突**：没有绝对的善恶，只有立场的不同
-- **人性光辉**：即使在权谋中也有人性的温度
-- **价值追求**：每个人物都有其追求和信念
+- **Game of Wits**: Showcases the ultimate contest of human intelligence.
+- **Conflict of Stances**: There is no absolute good or evil, only different standpoints.
+- **The Brilliance of Human Nature**: Even in power struggles, there is the warmth of humanity.
+- **Pursuit of Values**: Every character has their own pursuits and beliefs.
 
-### 第三原则：复杂而不混乱
+### Third Principle: Complex but Not Chaotic
 
-- **结构清晰**：主线明确，支线有序
-- **逻辑严密**：因果关系清楚，发展合理
-- **节奏掌控**：张弛有度，高潮迭起
-- **伏笔精妙**：埋设自然，回收惊艳
+- **Clear Structure**: The main plotline is clear, and the subplots are orderly.
+- **Rigorous Logic**: The cause-and-effect relationships are clear, and the development is reasonable.
+- **Pacing Control**: The rhythm is well-controlled, with rising and falling action and climaxes.
+- **Exquisite Foreshadowing**: Naturally planted and surprisingly revealed.
 
-## 叙事技法
+## Narrative Techniques
 
-### 1. 开篇技法
+### 1. Opening Techniques
 
-#### 强钩子设计
-- 第一句话就要引人入胜
-- 前100字建立悬念或冲突
-- 前500字展现故事格局
-- 前1000字让读者欲罢不能
+#### Strong Hook Design
+- The first sentence must be captivating.
+- Establish suspense or conflict within the first 100 words.
+- Show the scope of the story within the first 500 words.
+- Make the reader unable to stop reading within the first 1000 words.
 
-#### 示例开篇
+#### Example Opening
 ```
-永徽六年，长安，子时。
-含元殿的台阶上，一滴血悄无声息地滴落。
-没有人注意到这个细节，除了李淳风。
-作为大唐司天监，他知道，这滴血意味着一个王朝的转折点已经到来。
-```
-
-### 2. 场景构建
-
-#### 环境描写三层次
-1. **物理层**：具体的环境细节
-2. **氛围层**：环境营造的情绪
-3. **象征层**：环境的隐喻意义
-
-#### 示例场景
-```
-议事厅内，烛火摇曳（物理）。
-每个人的脸在忽明忽暗的光影中显得诡异莫测（氛围）。
-就像这个王朝的命运，在风雨飘摇中不知何时熄灭（象征）。
+In the sixth year of Yonghui, Chang'an, at the Zi hour.
+A drop of blood fell silently on the steps of the Hanyuan Hall.
+No one noticed this detail, except for Li Chunfeng.
+As the Director of the Imperial Observatory of the Great Tang, he knew that this drop of blood meant that a turning point for a dynasty had arrived.
 ```
 
-### 3. 人物塑造
+### 2. Scene Construction
 
-#### 立体人物五维度
-1. **外在形象**：让人一眼记住的特征
-2. **语言风格**：独特的说话方式
-3. **行为模式**：符合性格的行动逻辑
-4. **内心世界**：复杂的心理活动
-5. **成长轨迹**：动态的性格发展
+#### Three Layers of Environmental Description
+1. **Physical Layer**: Specific environmental details.
+2. **Atmospheric Layer**: The emotions created by the environment.
+3. **Symbolic Layer**: The metaphorical meaning of the environment.
 
-#### 人物出场公式
+#### Example Scene
 ```
-外貌特征 + 标志动作 + 独特气质 + 他人反应 = 深刻印象
-```
-
-### 4. 对话艺术
-
-#### 权谋对话四要素
-1. **表层含义**：字面上的意思
-2. **深层含义**：真正要表达的
-3. **试探目的**：想要获得的信息
-4. **博弈结果**：对话后的局势变化
-
-#### 对话示例
-```
-"听说令公子最近常去东市？"（表层：闲聊）
-"年轻人，总要见见世面。"（深层：我知道你在监视）
-"东市鱼龙混杂，要当心才是。"（试探：威胁）
-"多谢关心，我会转告犬子。"（博弈：不为所动）
+Inside the council hall, the candlelight flickered (physical).
+Each person's face looked strange and unpredictable in the flickering light and shadow (atmosphere).
+Just like the fate of this dynasty, swaying in the wind and rain, it was unknown when it would be extinguished (symbolic).
 ```
 
-### 5. 情节推进
+### 3. Character Creation
 
-#### 三线并进法
-- **主线**：核心冲突和目标
-- **副线**：补充和丰富主线
-- **暗线**：隐藏的真相或阴谋
+#### Five Dimensions of a Three-dimensional Character
+1. **External Image**: A feature that makes them memorable at a glance.
+2. **Language Style**: A unique way of speaking.
+3. **Behavioral Pattern**: A logic of action that is consistent with their personality.
+4. **Inner World**: Complex psychological activities.
+5. **Growth Trajectory**: Dynamic personality development.
 
-#### 节奏控制
+#### Character Introduction Formula
 ```
-铺垫（3） → 发展（5） → 高潮（8） → 缓冲（2） → 再起（7） → 爆发（10）
-```
-
-### 6. 伏笔技巧
-
-#### 伏笔三原则
-1. **自然原则**：融入叙述，不显突兀
-2. **必要原则**：每个伏笔都要有用
-3. **惊喜原则**：回收时出人意料但合情合理
-
-#### 伏笔类型与示例
-- **物品伏笔**：一枚看似普通的玉佩→皇室信物
-- **对话伏笔**："他还活着"→关键人物未死
-- **行为伏笔**：某人的习惯动作→身份暴露
-- **环境伏笔**：一处被忽略的密道→逃生之路
-
-## 语言风格
-
-### 叙述语言
-
-#### 基本要求
-- 凝练精准，不拖泥带水
-- 富有画面感和节奏感
-- 适当使用文学修辞
-- 避免现代网络用语
-
-#### 不同场景的语言风格
-- **朝堂**：庄重典雅，暗含机锋
-- **战场**：激昂有力，血性豪迈
-- **市井**：生动活泼，烟火气息
-- **情感**：细腻含蓄，意在言外
-
-### 对话语言
-
-#### 身份化原则
-- **帝王**：言简意赅，不怒自威
-- **文臣**：引经据典，温文尔雅
-- **武将**：直来直去，豪爽粗犷
-- **商贾**：精明算计，八面玲珑
-- **百姓**：朴实无华，方言俚语
-
-## 20000字章节管理
-
-### 结构分配
-
-```
-开篇钩子：500字
-背景铺陈：2000字
-人物登场：2000字
-冲突展开：3000字
-第一高潮：3000字
-过渡发展：2000字
-深入推进：3000字
-第二高潮：3000字
-转折变化：1500字
-终极冲突：2000字
-结局收尾：1000字
+Physical Appearance + Signature Action + Unique Temperament + Others' Reactions = Deep Impression
 ```
 
-### 多线管理
+### 4. The Art of Dialogue
 
-同时推进3-5条线索：
-- 每条线索3000-5000字
-- 交替展现，避免单调
-- 在高潮处交汇
-- 留下新的悬念
+#### Four Elements of Power Struggle Dialogue
+1. **Surface Meaning**: The literal meaning.
+2. **Deep Meaning**: What is truly being expressed.
+3. **Probing Purpose**: The information one wants to obtain.
+4. **Game Result**: The change in the situation after the dialogue.
 
-### 细节密度
+#### Dialogue Example
+```
+"I hear your son has been frequenting the East Market recently?" (Surface: Small talk)
+"Young people need to see the world." (Deep: I know you're watching me)
+"The East Market is a mixed bag, one must be careful." (Probing: Threat)
+"Thank you for your concern, I will pass it on to my son." (Game: Unmoved)
+```
 
-- 环境描写：15-20%
-- 人物刻画：20-25%
-- 对话交流：30-35%
-- 动作情节：25-30%
-- 心理描写：10-15%
+### 5. Plot Advancement
 
-## 质量标准
+#### The Three-Line Method
+- **Main Line**: The core conflict and goal.
+- **Secondary Line**: Complements and enriches the main line.
+- **Hidden Line**: A hidden truth or conspiracy.
 
-### 优秀章节必备要素
+#### Pacing Control
+```
+Buildup (3) → Development (5) → Climax (8) → Respite (2) → Rising Action (7) → Explosion (10)
+```
 
-- [ ] 强有力的开篇钩子
-- [ ] 至少3个情节高潮
-- [ ] 5个以上伏笔埋设
-- [ ] 独特的人物语言
-- [ ] 紧张的冲突对抗
-- [ ] 意外但合理的转折
-- [ ] 悬念强烈的结尾
+### 6. Foreshadowing Techniques
 
-### 自检清单
+#### Three Principles of Foreshadowing
+1. **Naturalness Principle**: Integrated into the narrative, not abrupt.
+2. **Necessity Principle**: Every instance of foreshadowing must have a purpose.
+3. **Surprise Principle**: The reveal is unexpected but logical.
 
-1. **逻辑性**：情节发展是否合理？
-2. **画面感**：读者能否看到场景？
-3. **代入感**：读者能否感同身受？
-4. **节奏感**：张弛是否得当？
-5. **惊喜感**：有无出人意料的设计？
+#### Foreshadowing Types and Examples
+- **Object Foreshadowing**: A seemingly ordinary jade pendant → A royal token.
+- **Dialogue Foreshadowing**: "He's still alive" → A key character is not dead.
+- **Behavioral Foreshadowing**: Someone's habitual action → Identity is exposed.
+- **Environmental Foreshadowing**: An overlooked secret passage → An escape route.
 
-## 常见问题与解决
+## Language Style
 
-### 问题1：权谋设计不够精妙
-**解决**：多层嵌套，正反手都要考虑，预留变数
+### Narrative Language
 
-### 问题2：人物形象不够鲜明
-**解决**：加强个性化语言，增加标志性细节
+#### Basic Requirements
+- Concise and precise, without being long-winded.
+- Rich in imagery and rhythm.
+- Appropriate use of literary devices.
+- Avoid modern internet slang.
 
-### 问题3：节奏拖沓冗长
-**解决**：删减非必要描写，增加冲突密度
+#### Language Style for Different Scenes
+- **Court**: Solemn and elegant, with hidden meanings.
+- **Battlefield**: Passionate and powerful, heroic and bold.
+- **Marketplace**: Lively and vivid, with a sense of daily life.
+- **Emotion**: Delicate and subtle, with meaning beyond the words.
 
-### 问题4：伏笔回收生硬
-**解决**：提前多次暗示，回收时水到渠成
+### Dialogue Language
 
-### 问题5：20000字难以完成
-**解决**：多线并进，细节充实，冲突加密
+#### Identity-based Principle
+- **Emperor**: Concise and to the point, with an imposing air.
+- **Civil Official**: Cites classics, gentle and refined.
+- **Military General**: Straightforward, bold and uninhibited.
+- **Merchant**: Shrewd and calculating, a smooth operator.
+- **Commoner**: Simple and unadorned, with dialect and slang.
 
-## 创作心法
+## 20,000-Word Chapter Management
 
-1. **胸有丘壑**：先有大局观，再写细节
-2. **步步为营**：每一步都要稳扎稳打
-3. **留有余地**：不要把话说死，把路堵死
-4. **以小见大**：通过细节展现宏大
-5. **虚实结合**：实写与留白并用
-6. **动静相宜**：激烈与舒缓交替
-7. **意在言外**：最精彩的在文字之外
+### Structure Allocation
 
-## 最高境界
+```
+Opening Hook: 500 words
+Background Exposition: 2000 words
+Character Introduction: 2000 words
+Conflict Development: 3000 words
+First Climax: 3000 words
+Transitional Development: 2000 words
+In-depth Advancement: 3000 words
+Second Climax: 3000 words
+Turning Point: 1500 words
+Ultimate Conflict: 2000 words
+Ending: 1000 words
+```
 
-当读者合上书时，不仅记住了精彩的故事，更感受到了：
-- 时代的厚重
-- 人性的复杂
-- 智慧的光芒
-- 命运的无常
-- 价值的永恒
+### Multi-Line Management
 
-这就是石章鱼风格的最高追求。
+Advance 3-5 plotlines simultaneously:
+- 3000-5000 words for each plotline.
+- Alternate between them to avoid monotony.
+- They converge at the climax.
+- Leave new cliffhangers.
+
+### Detail Density
+
+- Environmental Description: 15-20%
+- Character Portrayal: 20-25%
+- Dialogue: 30-35%
+- Action/Plot: 25-30%
+- Psychological Description: 10-15%
+
+## Quality Standards
+
+### Essential Elements of an Excellent Chapter
+
+- [ ] A strong opening hook.
+- [ ] At least 3 plot climaxes.
+- [ ] More than 5 instances of foreshadowing planted.
+- [ ] Unique character language.
+- [ ] Tense conflict and confrontation.
+- [ ] An unexpected but reasonable twist.
+- [ ] A highly suspenseful ending.
+
+### Self-Checklist
+
+1. **Logic**: Is the plot development reasonable?
+2. **Imagery**: Can the reader visualize the scenes?
+3. **Immersion**: Can the reader empathize?
+4. **Pacing**: Is the rhythm appropriate?
+5. **Surprise**: Is there any unexpected design?
+
+## Common Problems and Solutions
+
+### Problem 1: The power struggle design is not sophisticated enough.
+**Solution**: Use multi-layered nesting, consider both offense and defense, and leave room for variables.
+
+### Problem 2: The characters are not vivid enough.
+**Solution**: Strengthen personalized language and add signature details.
+
+### Problem 3: The pacing is slow and long-winded.
+**Solution**: Cut unnecessary descriptions and increase the density of conflict.
+
+### Problem 4: The foreshadowing is revealed awkwardly.
+**Solution**: Hint multiple times in advance, so the reveal is natural.
+
+### Problem 5: It's difficult to complete 20,000 words.
+**Solution**: Advance multiple plotlines, enrich the details, and intensify the conflict.
+
+## Creation Mentality
+
+1. **Have the big picture in mind**: Have a grand vision before writing the details.
+2. **Proceed step by step**: Every step must be solid.
+3. **Leave room for maneuver**: Don't speak in absolutes or block off all paths.
+4. **See the big in the small**: Show the grand through details.
+5. **Combine the real and the虛**: Use both explicit writing and leaving things unsaid.
+6. **Balance motion and stillness**: Alternate between intense and calm scenes.
+7. **Meaning beyond the words**: The most brilliant parts are outside the text.
+
+## The Highest Realm
+
+When the reader closes the book, they not only remember the exciting story, but also feel:
+- The weight of the era
+- The complexity of human nature
+- The light of wisdom
+- The unpredictability of fate
+- The eternity of values
+
+This is the highest pursuit of the Shi Zhangyu style.
 
 ---
 
-*以史为鉴，以文载道，以情动人，以智启迪。*
+*Use history as a mirror, carry the Dao through literature, move people with emotion, and enlighten with wisdom.*

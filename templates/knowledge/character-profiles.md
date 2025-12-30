@@ -1,152 +1,152 @@
-# 角色档案
+# Character Profiles
 
-## 主角
+## Protagonist
 
-### [主角姓名]
+### [Protagonist's Name]
 
-#### 基本信息
-- **年龄**：
-- **性别**：
-- **身份/职业**：
-- **出身背景**：
+#### Basic Information
+- **Age**:
+- **Gender**:
+- **Identity/Occupation**:
+- **Background**:
 
-#### 外貌特征
-- **身高体型**：
-- **相貌特点**：
-- **穿着风格**：
-- **特殊标记**：
+#### Physical Appearance
+- **Height and Build**:
+- **Facial Features**:
+- **Clothing Style**:
+- **Special Markings**:
 
-#### 性格特征
-- **核心性格**：
-- **优点**：
-- **缺点**：
-- **行为习惯**：
-- **说话方式**：
+#### Personality Traits
+- **Core Personality**:
+- **Strengths**:
+- **Weaknesses**:
+- **Habits**:
+- **Way of Speaking**:
 
-#### 能力设定
-- **特殊能力**：
-- **技能特长**：
-- **战斗力**：
-- **智力水平**：
-- **弱点**：
+#### Abilities
+- **Special Abilities**:
+- **Skills**:
+- **Combat Power**:
+- **Intelligence Level**:
+- **Weaknesses**:
 
-#### 背景故事
-[详细的人物背景]
+#### Backstory
+[Detailed character background]
 
-**童年经历**：
-**成长历程**：
-**重要事件**：
-**人生转折**：
+**Childhood**:
+**Upbringing**:
+**Significant Events**:
+**Turning Points**:
 
-#### 人物动机
-- **核心追求**：
-- **内心恐惧**：
-- **价值观**：
-- **人生目标**：
+#### Character Motivations
+- **Core Desire**:
+- **Inner Fear**:
+- **Values**:
+- **Life Goal**:
 
-#### 成长规划
-- **初期状态**：
-- **中期发展**：
-- **后期蜕变**：
-- **最终形态**：
+#### Growth Plan
+- **Initial State**:
+- **Mid-term Development**:
+- **Late-stage Transformation**:
+- **Final Form**:
 
-#### 人际关系
-- **家人**：
-- **朋友**：
-- **敌人**：
-- **爱人**：
-- **导师**：
-
----
-
-## 重要配角
-
-### [配角姓名]
-
-#### 基本信息
-- **角色定位**：[如：导师/对手/伙伴/爱人]
-- **与主角关系**：
-- **出场章节**：
-- **重要程度**：⭐⭐⭐⭐⭐
-
-#### 人物特征
-- **外貌简述**：
-- **性格要点**：
-- **能力水平**：
-- **说话风格**：
-
-#### 角色功能
-- **剧情作用**：
-- **推动主线**：
-- **性格对比**：
-
-#### 人物背景
-[简要背景说明]
-
-#### 发展轨迹
-- **初次登场**：
-- **关系变化**：
-- **最终去向**：
+#### Relationships
+- **Family**:
+- **Friends**:
+- **Enemies**:
+- **Love Interest**:
+- **Mentor**:
 
 ---
 
-## 次要角色
+## Important Supporting Characters
 
-### [角色组/势力]
+### [Supporting Character's Name]
 
-#### 群体角色
-- **所属组织**：
-- **共同特征**：
-- **代表人物**：
+#### Basic Information
+- **Character Role**: [e.g., Mentor/Rival/Partner/Love Interest]
+- **Relationship with Protagonist**:
+- **First Appearance (Chapter)**:
+- **Importance**: ⭐⭐⭐⭐⭐
 
-#### 功能角色
-| 姓名 | 身份 | 作用 | 出场章节 | 备注 |
-|------|------|------|----------|------|
+#### Character Traits
+- **Brief Physical Description**:
+- **Key Personality Traits**:
+- **Ability Level**:
+- **Speaking Style**:
+
+#### Character Function
+- **Plot Role**:
+- **Driving the Main Plot**:
+- **Personality Contrast**:
+
+#### Character Background
+[Brief background description]
+
+#### Development Trajectory
+- **First Appearance**:
+- **Relationship Changes**:
+- **Final Outcome**:
+
+---
+
+## Minor Characters
+
+### [Character Group/Faction]
+
+#### Group Characters
+- **Affiliated Organization**:
+- **Common Characteristics**:
+- **Representative Figures**:
+
+#### Functional Characters
+| Name | Identity | Role | Appearance (Chapter) | Notes |
+|---|---|---|---|---|
 | | | | | |
 | | | | | |
 
 ---
 
-## 角色关系图谱
+## Character Relationship Map
 
-### 主要关系线
+### Main Relationship Lines
 ```
-[主角] ─── 爱慕 ──→ [角色A]
-   │                    ↑
-   │                    │敌对
-   ├── 师徒 ──→ [角色B]│
-   │                    │
-   └── 对手 ←── [角色C]─┘
+[Protagonist] ─── Love Interest ──→ [Character A]
+   │ │ ↑
+   │ │ Hostile
+   ├── Mentor ──→ [Character B]│
+   │ │
+   └── Rival ←── [Character C]─┘
 ```
 
-### 势力关系
-- **正派阵营**：
-- **反派阵营**：
-- **中立势力**：
+### Faction Relationships
+- **Protagonist's Faction**:
+- **Antagonist's Faction**:
+- **Neutral Factions**:
 
-## 角色成长timeline
+## Character Growth Timeline
 
-### 主角成长节点
-1. **第X章**：[事件] → [变化]
-2. **第X章**：[事件] → [变化]
-3. **第X章**：[事件] → [变化]
+### Protagonist's Growth Milestones
+1.  **Chapter X**: [Event] → [Change]
+2.  **Chapter X**: [Event] → [Change]
+3.  **Chapter X**: [Event] → [Change]
 
-### 关系发展节点
-1. **第X章**：[角色A+角色B] → [关系变化]
-2. **第X章**：[角色C登场] → [新关系建立]
+### Relationship Development Milestones
+1.  **Chapter X**: [Character A + Character B] → [Relationship Change]
+2.  **Chapter X**: [Character C's Appearance] → [New Relationship Established]
 
-## 角色设计备注
+## Character Design Notes
 
-### 创作要点
-- 保持人物行为的逻辑一致性
-- 角色成长要循序渐进
-- 对话要符合人物身份和性格
-- 避免角色工具化
+### Key Creative Points
+- Maintain logical consistency in character behavior.
+- Character growth should be gradual.
+- Dialogue should match the character's identity and personality.
+- Avoid making characters mere plot devices.
 
-### 参考原型
-[如有参考的真实人物或其他作品角色]
+### Reference Archetypes
+[If there are any real people or characters from other works as references]
 
 ---
-*创建时间：[日期]*
-*最后更新：[日期]*
-*版本：1.0*
+*Creation Date: [Date]*
+*Last Updated: [Date]*
+*Version: 1.0*

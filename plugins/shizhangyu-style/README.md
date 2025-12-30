@@ -1,298 +1,298 @@
-# 石章鱼风格创作插件
+# Shi Zhangyu Style Creation Plugin
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 [![Style](https://img.shields.io/badge/style-shizhangyu-red.svg)]()
 [![Output](https://img.shields.io/badge/output-20000words-green.svg)]()
 
-> 宏大叙事与深邃权谋的完美融合，打造史诗级长篇巨著。
+> The perfect fusion of grand narrative and profound power struggles, for creating epic long-form masterpieces.
 
-## 📖 插件简介
+## 📖 Plugin Introduction
 
-石章鱼风格创作插件是 Novel Writer 的高级风格扩展，专门用于创作具有史诗感、高文学性、强情节张力的长篇小说。本插件最大特色是支持单次输出20000字以上的完整章节，完美复现石章鱼大师的宏大叙事、深邃权谋、鲜活人物的创作精髓。
+The Shi Zhangyu Style Creation Plugin is an advanced style extension for Novel Writer, specifically designed for creating long novels with an epic feel, high literary quality, and strong plot tension. The main feature of this plugin is its support for single outputs of over 20,000 words for a complete chapter, perfectly reproducing the creative essence of Master Shi Zhangyu's grand narratives, profound power struggles, and vivid characters.
 
-### 核心特色
+### Core Features
 
-- 📜 **史诗叙事**：宏大时代背景，个人命运与历史洪流交织
-- ⚔️ **深邃权谋**：多层次博弈，计谋精妙，逻辑严密
-- 👥 **鲜活人物**：立体丰满，个性语言，令人难忘
-- 🎭 **跌宕情节**：开篇即高潮，伏笔千里，意外结局
-- 📝 **超长输出**：单次创作20000字以上完整章节
+- 📜 **Epic Narrative**: Grand historical background, with individual destiny intertwined with the tide of history.
+- ⚔️ **Profound Power Struggles**: Multi-layered games of wits, with exquisite schemes and rigorous logic.
+- 👥 **Vivid Characters**: Three-dimensional and full, with distinctive language, and unforgettable.
+- 🎭 **Dramatic Plot**: A climax right from the start, foreshadowing that spans a thousand miles, and an unexpected ending.
+- 📝 **Ultra-long Output**: Single creation of a complete chapter with over 20,000 words.
 
-## 🚀 安装方法
+## 🚀 Installation Method
 
-### 通过 Novel CLI 安装
+### Install via Novel CLI
 
 ```bash
-# 在现有项目中安装
+# Install in an existing project
 novel plugins add shizhangyu-style
 
-# 或在初始化新项目时包含
+# Or include when initializing a new project
 novel init my-epic-novel --plugins shizhangyu-style
 ```
 
-### 手动安装
+### Manual Installation
 
-1. 将 `shizhangyu-style` 文件夹复制到项目的 `plugins` 目录
-2. 重启 AI 助手以加载插件
+1. Copy the `shizhangyu-style` folder to the `plugins` directory of your project.
+2. Restart your AI assistant to load the plugin.
 
-## 📝 使用指南
+## 📝 Usage Guide
 
-### 快速开始
+### Quick Start
 
-1. **激活石章鱼风格**
+1. **Activate the Shi Zhangyu style**
    ```
    /shizhangyu-style
    ```
 
-2. **开始史诗创作**
+2. **Start epic creation**
    ```
-   /shizhangyu-write opening 大唐贞观年间的政变
-   ```
-
-3. **设计权谋布局**
-   ```
-   /shizhangyu-plot palace 三方势力的暗中角力
+   /shizhangyu-write opening A coup in the Zhenguan era of the Tang Dynasty
    ```
 
-### 五大核心命令
+3. **Design the power struggle layout**
+   ```
+   /shizhangyu-plot palace The secret struggle of three forces
+   ```
 
-#### 1. `/shizhangyu-style` - 激活风格模式
+### The Five Core Commands
 
-启动史诗级创作模式，加载全套风格系统。
+#### 1. `/shizhangyu-style` - Activate the style mode
 
-**选项**：
-- `--mode` - 创作模式（epic/intrigue/character/mixed）
-- `--era` - 时代背景（ancient/modern/alternate）
-- `--length` - 章节字数（默认20000）
+Starts the epic creation mode and loads the full style system.
 
-**示例**：
+**Options**:
+- `--mode` - Creation mode (epic/intrigue/character/mixed)
+- `--era` - Time period (ancient/modern/alternate)
+- `--length` - Chapter word count (default 20,000)
+
+**Example**:
 ```
 /shizhangyu-style --mode intrigue --era ancient
 ```
 
-#### 2. `/shizhangyu-write` - 史诗创作
+#### 2. `/shizhangyu-write` - Epic creation
 
-创作20000字以上的史诗级章节。
+Create an epic chapter of over 20,000 words.
 
-**内容类型**：
-- `opening` - 开篇章节（强钩子）
-- `court` - 朝堂风云
-- `battle` - 战争场面
-- `intrigue` - 权谋密室
-- `revelation` - 真相揭露
-- `climax` - 高潮冲突
-- `finale` - 大结局
+**Content Types**:
+- `opening` - Opening chapter (strong hook)
+- `court` - Court intrigue
+- `battle` - Battle scene
+- `intrigue` - Chamber of power struggles
+- `revelation` - The revealing of truth
+- `climax` - Climax conflict
+- `finale` - The grand finale
 
-**示例**：
+**Example**:
 ```
-/shizhangyu-write court 三省六部的权力游戏
-```
-
-#### 3. `/shizhangyu-plot` - 权谋设计
-
-设计多层次、逻辑严密的权谋布局。
-
-**权谋类型**：
-- `palace` - 宫廷阴谋
-- `political` - 政治博弈
-- `military` - 军事谋略
-- `business` - 商业战争
-- `succession` - 继承权争夺
-
-**示例**：
-```
-/shizhangyu-plot succession 三个皇子的夺嫡之战
+/shizhangyu-write court The power game of the Three Departments and Six Ministries
 ```
 
-#### 4. `/shizhangyu-character` - 人物塑造
+#### 3. `/shizhangyu-plot` - Power struggle design
 
-打造立体丰满、个性鲜明的人物。
+Design a multi-layered and logically rigorous power struggle layout.
 
-**人物类型**：
-- `protagonist` - 主角设计
-- `antagonist` - 反派塑造
-- `advisor` - 谋士军师
-- `group` - 群像设计
+**Power Struggle Types**:
+- `palace` - Palace intrigue
+- `political` - Political games
+- `military` - Military strategy
+- `business` - Business warfare
+- `succession` - Succession disputes
 
-**示例**：
+**Example**:
 ```
-/shizhangyu-character protagonist 李明远 从寒门到权臣的传奇
-```
-
-#### 5. `/shizhangyu-foreshadow` - 伏笔管理
-
-系统化管理伏笔布局与回收。
-
-**操作类型**：
-- `add` - 添加伏笔
-- `list` - 查看清单
-- `track` - 追踪状态
-- `resolve` - 回收伏笔
-- `analyze` - 分析布局
-
-**示例**：
-```
-/shizhangyu-foreshadow add 第5章出现的神秘信物
+/shizhangyu-plot succession The battle for the throne among three princes
 ```
 
-### 专家模式
+#### 4. `/shizhangyu-character` - Character creation
 
-激活石章鱼风格大师：
+Create three-dimensional, full, and distinctive characters.
+
+**Character Types**:
+- `protagonist` - Protagonist design
+- `antagonist` - Antagonist creation
+- `advisor` - Strategist/military advisor
+- `group` - Group of characters design
+
+**Example**:
+```
+/shizhangyu-character protagonist Li Mingyuan The legend of a man from a humble background to a powerful courtier
+```
+
+#### 5. `/shizhangyu-foreshadow` - Foreshadowing management
+
+Systematically manage the layout and resolution of foreshadowing.
+
+**Operation Types**:
+- `add` - Add foreshadowing
+- `list` - View the list
+- `track` - Track the status
+- `resolve` - Resolve the foreshadowing
+- `analyze` - Analyze the layout
+
+**Example**:
+```
+/shizhangyu-foreshadow add The mysterious token that appeared in Chapter 5
+```
+
+### Expert Mode
+
+Activate the Shi Zhangyu style master:
 
 ```
 /expert shizhangyu-master
 ```
 
-大师将提供：
-- 史诗叙事构建指导
-- 权谋设计深度分析
-- 人物塑造专业建议
-- 伏笔布局艺术指导
-- 20000字章节写作技巧
+The master will provide:
+- Guidance on constructing an epic narrative
+- In-depth analysis of power struggle design
+- Professional advice on character creation
+- Artistic guidance on foreshadowing layout
+- Techniques for writing 20,000-word chapters
 
-## 🎯 最佳实践
+## 🎯 Best Practices
 
-### 创作流程
+### Creation Workflow
 
-1. **前期准备**
+1. **Preparation**
    ```
    /shizhangyu-style --mode epic
-   /shizhangyu-plot political 设计核心权谋线
-   /shizhangyu-character group 设计主要人物群
+   /shizhangyu-plot political Design the core power struggle plotline
+   /shizhangyu-character group Design the main group of characters
    ```
 
-2. **开始创作**
+2. **Start Creating**
    ```
    /shizhangyu-write opening
-   [20000字开篇，设置强钩子]
+   [A 20,000-word opening with a strong hook]
    ```
 
-3. **推进剧情**
+3. **Advance the Plot**
    ```
    /shizhangyu-write intrigue
-   [权谋博弈，埋设伏笔]
+   [Power struggles and games, with foreshadowing planted]
    ```
 
-4. **管理伏笔**
+4. **Manage Foreshadowing**
    ```
    /shizhangyu-foreshadow list
    /shizhangyu-foreshadow resolve F2024001
    ```
 
-### 创作技巧
+### Creation Techniques
 
-#### 开篇技巧
-- 第一句话就要抓住读者
-- 500字内必须有冲突或悬念
-- 介绍人物时展现其特质
-- 环境描写要有氛围感
+#### Opening Techniques
+- The first sentence must grab the reader.
+- There must be conflict or suspense within the first 500 words.
+- Show the characters' traits when introducing them.
+- The environmental description should have an atmosphere.
 
-#### 权谋设计
-- 每个计谋都要有反制
-- 智慧交锋胜过武力
-- 对话暗藏机锋
-- 留有后手和变数
+#### Power Struggle Design
+- Every scheme should have a counter.
+- The contest of wits is more important than physical force.
+- Dialogue is full of hidden meanings.
+- Leave room for backup plans and variables.
 
-#### 人物刻画
-- 一出场就要有记忆点
-- 语言要个性化
-- 行为符合性格逻辑
-- 成长变化要合理
+#### Character Portrayal
+- They must be memorable from their first appearance.
+- Their language should be personalized.
+- Their actions are consistent with their personality and logic.
+- Their growth and change are reasonable.
 
-#### 伏笔管理
-- 重要伏笔要多次暗示
-- 回收时机要恰到好处
-- 保持逻辑链完整
-- 制造意外但合理
+#### Foreshadowing Management
+- Important foreshadowing should be hinted at multiple times.
+- The timing of the reveal is just right.
+- The logical chain is complete.
+- Create something unexpected but reasonable.
 
-## 📊 风格参数
+## 📊 Style Parameters
 
-| 参数 | 数值 | 说明 |
+| Parameter | Value | Description |
 |-----|------|------|
-| 叙事规模 | 5/5 | 史诗级宏大叙事 |
-| 权谋复杂度 | 5/5 | 多层次深度博弈 |
-| 人物深度 | 5/5 | 立体丰满群像 |
-| 伏笔密度 | 5/5 | 高密度长线布局 |
-| 细节丰富度 | 5/5 | 考究真实画面感强 |
-| 章节长度 | 20000+ | 超长篇章展现 |
+| Narrative Scale | 5/5 | Epic grand narrative |
+| Power Struggle Complexity | 5/5 | Multi-layered deep games |
+| Character Depth | 5/5 | Three-dimensional full cast |
+| Foreshadowing Density | 5/5 | High-density long-term layout |
+| Detail Richness | 5/5 | Meticulously researched, realistic, and visually rich |
+| Chapter Length | 20000+ | Ultra-long chapter presentation |
 
-## 🌟 创作示例
+## 🌟 Creation Example
 
-### 宏大场面
+### Grand Scene
 ```
-建安十三年，赤壁。
-八十万曹军战船连绵十里，旌旗蔽日，鼓声如雷。
-江面上，战船如林，铁索横江，宛如一座浮动的城池...
-```
-
-### 权谋对话
-```
-"丞相以为，这天下谁主沉浮？"
-"天下者，非一人之天下，乃天下人之天下。"
-"那丞相所图为何？"
-"顺天应人罢了。"
-每一句话都暗藏机锋，每一个字都可能改变天下格局。
+In the thirteenth year of Jian'an, at Chibi.
+Cao Cao's 800,000-strong army's warships stretched for ten miles, their banners obscuring the sun, and the sound of drums was like thunder.
+On the river, the warships were like a forest, with iron chains stretched across the river, like a floating city...
 ```
 
-### 人物出场
+### Power Struggle Dialogue
 ```
-李靖推门而入，所有人的目光都聚集在他身上。
-他不急不缓，每一步都踩在众人的心跳上。
-三十二岁的兵部尚书，最年轻的紫衣重臣，他的每一个决定都可能改变帝国的命运。
+"Prime Minister, who do you think will rule this world?"
+"The world does not belong to one person, but to all the people of the world."
+"Then what is the Prime Minister's ambition?"
+"Merely to follow the will of heaven and the people."
+Every sentence is full of hidden meanings, and every word could change the fate of the world.
 ```
 
-## 🔧 高级功能
+### Character Introduction
+```
+Li Jing pushed open the door, and all eyes turned to him.
+He walked in unhurriedly, each step landing on the heartbeat of the crowd.
+The thirty-two-year-old Minister of War, the youngest high-ranking official in the purple robe, his every decision could change the fate of the empire.
+```
 
-### 伏笔网络
-- 主链伏笔贯穿全书
-- 支链伏笔补充细节
-- 误导伏笔制造悬念
-- 反转伏笔颠覆认知
+## 🔧 Advanced Features
 
-### 多线并进
-- 同时推进3-5条剧情线
-- 不同视角交替展现
-- 时间线交错进行
-- 最终汇聚爆发
+### Foreshadowing Network
+- The main chain of foreshadowing runs through the entire book.
+- Branch chains of foreshadowing supplement the details.
+- Misleading foreshadowing creates suspense.
+- Twist foreshadowing subverts expectations.
 
-### 节奏控制
-- 张弛有度的情节安排
-- 3个高潮点分布
-- 适时的缓冲过渡
-- 强力的章节收尾
+### Multi-thread Plot
+- Advance 3-5 plot lines simultaneously.
+- Alternate between different perspectives.
+- Interweave the timelines.
+- Ultimately converge and explode.
 
-## 📚 适用题材
+### Pacing Control
+- A well-paced plot arrangement.
+- 3 climax points distributed.
+- Timely respite and transitions.
+- A strong chapter ending.
 
-- **历史小说**：朝代更替、权臣争斗、战争史诗
-- **权谋小说**：宫廷斗争、官场沉浮、派系博弈
-- **商战小说**：资本角逐、商业帝国、金融战争
-- **军事小说**：战略布局、谍战风云、铁血征途
-- **架空历史**：异世王朝、架空战争、文明冲突
+## 📚 Applicable Genres
 
-## 🤝 与其他功能配合
+- **Historical Fiction**: Dynastic changes, struggles between powerful courtiers, war epics.
+- **Power Struggle Fiction**: Court struggles, the ups and downs of officialdom, factional games.
+- **Business Warfare Fiction**: Capital contests, business empires, financial wars.
+- **Military Fiction**: Strategic layout, espionage, iron-blooded campaigns.
+- **Alternate History**: Otherworldly dynasties, alternate wars, civilizational conflicts.
 
-- 配合 `/track` 管理复杂剧情线
-- 配合 `/timeline` 处理时间跨度
-- 配合 `/relations` 管理人物关系网
-- 配合 `/world-check` 确保设定一致
+## 🤝 Coordination with Other Features
 
-## 📄 版本历史
+- Coordinate with `/track` to manage complex plot lines.
+- Coordinate with `/timeline` to handle time spans.
+- Coordinate with `/relations` to manage the character relationship network.
+- Coordinate with `/world-check` to ensure setting consistency.
+
+## 📄 Version History
 
 ### v1.0.0 (2025-09-23)
-- 初始版本发布
-- 实现五大核心命令
-- 支持20000字超长输出
-- 完整的伏笔管理系统
-- 深度权谋设计引擎
+- Initial version release
+- Implemented the five core commands
+- Supports ultra-long output of 20,000 words
+- A complete foreshadowing management system
+- An in-depth power struggle design engine
 
-## 🙏 致谢
+## 🙏 Acknowledgments
 
-本插件致敬石章鱼大师的史诗创作风格，为广大创作者提供专业的创作支持。
+This plugin is a tribute to Master Shi Zhangyu's epic creation style, providing professional creative support for a wide range of creators.
 
-## 📜 许可证
+## 📜 License
 
-MIT License - 自由使用和修改
+MIT License - Free to use and modify
 
 ---
 
-**石章鱼风格创作插件** - 铸就史诗，成就经典！ ⚔️📜
+**Shi Zhangyu Style Creation Plugin** - Forge an epic, achieve a classic! ⚔️📜

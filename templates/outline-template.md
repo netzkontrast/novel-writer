@@ -1,174 +1,174 @@
-# 章节规划：[作品标题]
+# Chapter Planning: [Work Title]
 
-## 整体结构
-- **总章节数**：[预计章节数，如：120章]
-- **平均章节字数**：[每章平均字数，如：3000字]
-- **预计总字数**：[总字数，如：36万字]
-- **更新计划**：[日更/周更/月更/存稿发布]
-- **预计完成时间**：[预估的完成日期]
+## Overall Structure
+- **Total Chapters**: [Estimated number of chapters, e.g., 120 chapters]
+- **Average Chapter Word Count**: [Average word count per chapter, e.g., 3000 words]
+- **Estimated Total Word Count**: [Total word count, e.g., 360,000 words]
+- **Update Schedule**: [Daily/Weekly/Monthly/Stockpiled Release]
+- **Estimated Completion Date**: [Estimated completion date]
 
-## 卷册划分
+## Volume Division
 
-### 第一卷：[卷名，如：觉醒篇]
-- **主题**：[本卷的核心主题]
-- **章节范围**：第1-30章
-- **预计字数**：9万字
-- **情节概要**：[本卷主要剧情]
-- **核心冲突**：[本卷的主要矛盾]
-- **结局钩子**：[引出下一卷的悬念]
+### Volume 1: [Volume Title, e.g., The Awakening]
+- **Theme**: [Core theme of this volume]
+- **Chapter Range**: Chapters 1-30
+- **Estimated Word Count**: 90,000 words
+- **Plot Summary**: [Main plot of this volume]
+- **Core Conflict**: [Main conflict of this volume]
+- **Ending Hook**: [Suspense to lead into the next volume]
 
-### 第二卷：[卷名]
-- **主题**：[本卷的核心主题]
-- **章节范围**：第31-60章
-- **预计字数**：9万字
-- **情节概要**：[本卷主要剧情]
-- **核心冲突**：[本卷的主要矛盾]
-- **结局钩子**：[引出下一卷的悬念]
+### Volume 2: [Volume Title]
+- **Theme**: [Core theme of this volume]
+- **Chapter Range**: Chapters 31-60
+- **Estimated Word Count**: 90,000 words
+- **Plot Summary**: [Main plot of this volume]
+- **Core Conflict**: [Main conflict of this volume]
+- **Ending Hook**: [Suspense to lead into the next volume]
 
-### 第三卷：[卷名]
-- **主题**：[本卷的核心主题]
-- **章节范围**：第61-90章
-- **预计字数**：9万字
-- **情节概要**：[本卷主要剧情]
-- **核心冲突**：[本卷的主要矛盾]
-- **结局钩子**：[引出下一卷的悬念]
+### Volume 3: [Volume Title]
+- **Theme**: [Core theme of this volume]
+- **Chapter Range**: Chapters 61-90
+- **Estimated Word Count**: 90,000 words
+- **Plot Summary**: [Main plot of this volume]
+- **Core Conflict**: [Main conflict of this volume]
+- **Ending Hook**: [Suspense to lead into the next volume]
 
-### 第四卷：[卷名，如：终章]
-- **主题**：[本卷的核心主题]
-- **章节范围**：第91-120章
-- **预计字数**：9万字
-- **情节概要**：[本卷主要剧情]
-- **核心冲突**：[本卷的主要矛盾]
-- **大结局**：[故事的最终结局]
+### Volume 4: [Volume Title, e.g., The Finale]
+- **Theme**: [Core theme of this volume]
+- **Chapter Range**: Chapters 91-120
+- **Estimated Word Count**: 90,000 words
+- **Plot Summary**: [Main plot of this volume]
+- **Core Conflict**: [Main conflict of this volume]
+- **Grand Finale**: [The final ending of the story]
 
-## 详细章节大纲
+## Detailed Chapter Outline
 
-### 第一卷详细大纲
+### Volume 1 Detailed Outline
 
-#### 第1章：[章节标题]
-- **视角人物**：[本章的叙述视角，如：主角/配角名]
-- **时间地点**：[具体的时空设置]
-- **章节摘要**：[50字以内的内容概括]
-- **主要事件**：
-  1. [事件1]
-  2. [事件2]
-  3. [事件3]
-- **角色登场**：[新登场的角色]
-- **角色发展**：[角色在本章的变化]
-- **情节功能**：[推进主线/铺设伏笔/角色成长/世界观展示]
-- **伏笔设置**：[如有]
-- **回收伏笔**：[如有]
-- **情绪基调**：[紧张/轻松/悲伤/热血/神秘]
-- **关键对话**：[重要台词提示]
-- **字数目标**：3000字
+#### Chapter 1: [Chapter Title]
+- **Point of View Character**: [Narrative perspective of this chapter, e.g., Protagonist/Supporting Character Name]
+- **Time and Place**: [Specific time and space setting]
+- **Chapter Summary**: [Content summary within 50 words]
+- **Main Events**:
+  1. [Event 1]
+  2. [Event 2]
+  3. [Event 3]
+- **Character Appearances**: [Newly introduced characters]
+- **Character Development**: [Changes in the character in this chapter]
+- **Plot Function**: [Advancing the main plot/Foreshadowing/Character growth/World-building]
+- **Foreshadowing**: [If any]
+- **Resolving Foreshadowing**: [If any]
+- **Emotional Tone**: [Tense/Relaxed/Sad/Exciting/Mysterious]
+- **Key Dialogue**: [Important line prompts]
+- **Word Count Target**: 3000 words
 
-#### 第2章：[章节标题]
-[按照第1章的格式继续...]
+#### Chapter 2: [Chapter Title]
+[Continue in the format of Chapter 1...]
 
-#### 第3章：[章节标题]
-[继续...]
+#### Chapter 3: [Chapter Title]
+[Continue...]
 
-[...更多章节，建议至少详细规划前10章]
+[...more chapters, it is recommended to plan at least the first 10 chapters in detail]
 
-## 节奏控制
+## Pacing Control
 
-### 整体节奏规划
-- **慢热期**：第1-5章（世界观铺垫，角色介绍）
-- **渐入佳境**：第6-15章（冲突显现，剧情推进）
-- **第一波高潮**：第16-20章（首个重大冲突）
-- **调整期**：第21-30章（深化角色，埋设伏笔）
-- **中段爆发**：第31-40章（重大转折）
-- **持续推进**：第41-60章（多线并进）
-- **危机深化**：第61-80章（困境叠加）
-- **反转期**：第81-90章（局势逆转）
-- **决战准备**：第91-100章（最终集结）
-- **最终高潮**：第101-115章（终极对决）
-- **尾声**：第116-120章（收束与余韵）
+### Overall Pacing Plan
+- **Slow Burn Period**: Chapters 1-5 (World-building, character introductions)
+- **Getting into the Groove**: Chapters 6-15 (Conflict emerges, plot advances)
+- **First Climax**: Chapters 16-20 (First major conflict)
+- **Adjustment Period**: Chapters 21-30 (Deepening characters, planting foreshadowing)
+- **Mid-point Eruption**: Chapters 31-40 (Major turning point)
+- **Continuous Progression**: Chapters 41-60 (Multiple plotlines advance)
+- **Deepening Crisis**: Chapters 61-80 (Compounding difficulties)
+- **Reversal Period**: Chapters 81-90 (Situation reverses)
+- **Preparation for the Final Battle**: Chapters 91-100 (Final gathering)
+- **Final Climax**: Chapters 101-115 (Ultimate confrontation)
+- **Epilogue**: Chapters 116-120 (Resolution and aftertaste)
 
-### 情节密度分布
-- **高密度章节**：[列出情节紧凑的章节]
-- **中密度章节**：[列出正常推进的章节]
-- **低密度章节**：[列出节奏舒缓的章节]
+### Plot Density Distribution
+- **High-Density Chapters**: [List chapters with a tight plot]
+- **Medium-Density Chapters**: [List chapters with normal progression]
+- **Low-Density Chapters**: [List chapters with a relaxed pace]
 
-### 情感曲线
-- **泪点章节**：[让读者感动的章节]
-- **燃点章节**：[让读者热血的章节]
-- **笑点章节**：[轻松幽默的章节]
-- **虐点章节**：[让读者揪心的章节]
+### Emotional Curve
+- **Tear-jerking Chapters**: [Chapters that move the reader]
+- **Exciting Chapters**: [Chapters that get the reader's blood pumping]
+- **Humorous Chapters**: [Light and humorous chapters]
+- **Angsty Chapters**: [Chapters that make the reader's heart ache]
 
-## 悬念与伏笔管理
+## Suspense and Foreshadowing Management
 
-### 主要悬念线
-1. **悬念1**：[悬念描述]
-   - 设置章节：第X章
-   - 暗示章节：第X, X, X章
-   - 揭示章节：第X章
+### Main Suspense Lines
+1. **Suspense 1**: [Suspense description]
+   - Setup Chapter: Chapter X
+   - Hint Chapters: Chapters X, X, X
+   - Reveal Chapter: Chapter X
 
-2. **悬念2**：[悬念描述]
-   - 设置章节：第X章
-   - 暗示章节：第X, X章
-   - 揭示章节：第X章
+2. **Suspense 2**: [Suspense description]
+   - Setup Chapter: Chapter X
+   - Hint Chapters: Chapters X, X
+   - Reveal Chapter: Chapter X
 
-### 伏笔清单
-| 伏笔 | 埋设章节 | 回收章节 | 重要度 |
-|------|----------|----------|--------|
-| [伏笔1] | 第X章 | 第X章 | 高 |
-| [伏笔2] | 第X章 | 第X章 | 中 |
-| [伏笔3] | 第X章 | 第X章 | 低 |
+### Foreshadowing List
+| Foreshadowing | Setup Chapter | Resolution Chapter | Importance |
+|---|---|---|---|
+| [Foreshadowing 1] | Chapter X | Chapter X | High |
+| [Foreshadowing 2] | Chapter X | Chapter X | Medium |
+| [Foreshadowing 3] | Chapter X | Chapter X | Low |
 
-## 角色出场与发展
+## Character Appearance and Development
 
-### 角色登场顺序
-1. 第1章：[主角]
-2. 第2章：[配角1]
-3. 第5章：[配角2]
+### Character Appearance Order
+1. Chapter 1: [Protagonist]
+2. Chapter 2: [Supporting Character 1]
+3. Chapter 5: [Supporting Character 2]
 [...]
 
-### 角色成长节点
-- **主角**：
-  - 第10章：[第一次成长]
-  - 第30章：[重要转变]
-  - 第60章：[关键觉醒]
-  - 第90章：[最终蜕变]
+### Character Growth Milestones
+- **Protagonist**:
+  - Chapter 10: [First growth]
+  - Chapter 30: [Important transformation]
+  - Chapter 60: [Key awakening]
+  - Chapter 90: [Final metamorphosis]
 
-- **配角1**：
-  - 第15章：[性格展现]
-  - 第40章：[关系深化]
+- **Supporting Character 1**:
+  - Chapter 15: [Personality showcase]
+  - Chapter 40: [Deepening relationship]
   [...]
 
-## 场景转换
+## Scene Transitions
 
-### 主要场景
-1. **场景A**：第1-20章
-2. **场景B**：第15-35章
-3. **场景C**：第30-50章
-[场景可以有重叠]
+### Main Scenes
+1. **Scene A**: Chapters 1-20
+2. **Scene B**: Chapters 15-35
+3. **Scene C**: Chapters 30-50
+[Scenes can overlap]
 
-### 场景特色
-- **场景A特点**：[环境特征、氛围]
-- **场景B特点**：[环境特征、氛围]
-- **场景C特点**：[环境特征、氛围]
+### Scene Features
+- **Scene A Features**: [Environmental characteristics, atmosphere]
+- **Scene B Features**: [Environmental characteristics, atmosphere]
+- **Scene C Features**: [Environmental characteristics, atmosphere]
 
-## 写作重点提醒
+## Writing Focus Reminders
 
-### 需要重点描写的章节
-- 第1章：世界观展示，吸引读者
-- 第10章：第一个小高潮
-- 第30章：第一卷结尾
+### Chapters Requiring Detailed Description
+- Chapter 1: World-building, attracting readers
+- Chapter 10: First small climax
+- Chapter 30: End of the first volume
 [...]
 
-### 容易出现的问题
-- 注意保持角色性格一致性
-- 避免设定前后矛盾
-- 控制好信息释放节奏
-- 平衡对话与叙述比例
+### Potential Problems
+- Pay attention to maintaining character personality consistency
+- Avoid contradictions in settings
+- Control the pace of information release
+- Balance the ratio of dialogue to narration
 
-## 修订记录
-- [日期]：创建初始大纲
-- [日期]：调整第X-X章顺序
-- [日期]：增加XX角色线
-- [日期]：修改结局设计
+## Revision History
+- [Date]: Created initial outline
+- [Date]: Adjusted the order of Chapters X-X
+- [Date]: Added XX character arc
+- [Date]: Modified the ending design
 
 ---
-*最后更新：[日期]*
-*版本：1.0*
+*Last Updated: [Date]*
+*Version: 1.0*

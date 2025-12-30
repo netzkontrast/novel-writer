@@ -1,113 +1,113 @@
-# 忘语风格章节创作
+# Wang Yu Style Chapter Creation
 
-使用纯正的忘语风格创作小说内容，自动应用冷静客观的叙述、严谨的世界观和复杂的人物关系。
+Create novel content in the pure Wang Yu style, automatically applying a calm and objective narrative, a rigorous world-building, and complex character relationships.
 
-## 使用方法
+## Usage
 
 ```
-/wangyu-write <内容类型> [描述]
+/wangyu-write <content_type> [description]
 ```
 
-## 内容类型
+## Content Types
 
-- `chapter` - 完整章节
-- `opening` - 章节开头
-- `battle` - 战斗场面
-- `dialogue` - 人物对话
-- `cultivation` - 修炼描写
-- `exploration` - 探索秘境
-- `scheming` - 阴谋算计
-- `breakthrough` - 境界突破
+- `chapter` - A complete chapter
+- `opening` - The beginning of a chapter
+- `battle` - A battle scene
+- `dialogue` - Character dialogue
+- `cultivation` - A description of cultivation
+- `exploration` - Exploration of a secret realm
+- `scheming` - A conspiracy or plot
+- `breakthrough` - A breakthrough in cultivation level
 
-## 示例用法
+## Example Usage
 
-### 创作章节开头
+### Creating a Chapter Opening
 ```
-用户：/wangyu-write opening 主角进入坊市
-AI：
-青石铺就的街道两侧，各色店铺鳞次栉比。韩立压低斗笠，目光平静地扫过街边的修士。
+User: /wangyu-write opening The protagonist enters a market.
+AI:
+The bluestone-paved street was lined with shops of all kinds. Han Li lowered his bamboo hat, his calm gaze sweeping over the cultivators on the street.
 
-筑基初期两人，炼气期十三人。
+Two at the early Foundation Establishment stage, thirteen at the Qi Condensation stage.
 
-他不动声色地收回目光，脚步不紧不慢地向前走去。三个月前在落日山脉得到的那块残图，所指的地点就在这座坊市的某处。但在找到目标之前，他需要先摸清这里的情况。
+He withdrew his gaze without a change in expression, his steps unhurried as he walked forward. The location indicated by the fragmented map he had obtained in the Sunset Mountains three months ago was somewhere in this market. But before he found his target, he needed to get a feel for the situation here.
 
-"这位道友，可要看看本店新到的二阶灵药？"一个炼气八层的中年修士堆着笑脸迎上来。
+"Fellow Daoist, would you like to see the new second-tier spiritual herbs in our shop?" a middle-aged cultivator at the eighth level of Qi Condensation greeted him with a smile.
 
-韩立脚步微顿，淡淡瞥了对方一眼："价格如何？"
+Han Li paused slightly and glanced at the man indifferently. "What's the price?"
 
-"童叟无欺，一株千年血参，只需三千块中品灵石。"
+"Honest to all, a thousand-year-old blood ginseng for only three thousand mid-grade spirit stones."
 
-三千中品灵石，相当于三十万下品灵石。对炼气期修士来说，这是一笔天文数字。但韩立知道，真正的千年血参，价值远不止此数。眼前这人，怕是另有所图。
-```
-
-### 创作战斗场面
-```
-用户：/wangyu-write battle 金丹修士对战
-AI：
-两道遁光在半空中骤然相撞。
-
-"轰！"
-
-青色剑光与赤红火焰激烈碰撞，灵力波动如涟漪般向四周扩散。地面的碎石被气浪掀起，化为齑粉。
-
-陈姓老者手中法诀变换，三十六柄青锋剑呼啸而出，在空中结成剑阵。每一柄飞剑都散发着凛冽剑意，剑身上符文流转，显然都是上品法器。
-
-"青冥剑阵，去！"
-
-对面的赤袍修士冷哼一声，单手一翻，一面巴掌大小的赤色小盾迎风便涨，瞬间化作丈许大小的火焰巨盾。盾面上一只火凤虚影若隐若现，散发着惊人的高温。
-
-"当当当——"
-
-飞剑击打在巨盾上，发出金铁交鸣之声。每一次碰撞都会激起大片火花，但巨盾纹丝不动。
-
-陈姓老者眼中精光一闪，左手悄然捏诀。一道若有若无的银芒从他袖中射出，无声无息地绕过巨盾，直取赤袍修士的眉心。
-
-此乃他压箱底的手段——无影针。
+Three thousand mid-grade spirit stones were equivalent to three hundred thousand low-grade spirit stones. For a Qi Condensation cultivator, this was an astronomical sum. But Han Li knew that a true thousand-year-old blood ginseng was worth far more than that. This man before him probably had other intentions.
 ```
 
-### 修炼突破描写
+### Creating a Battle Scene
 ```
-用户：/wangyu-write breakthrough 筑基中期到后期
-AI：
-密室内，韩立盘膝而坐，身前摆放着三个玉瓶。
+User: /wangyu-write battle A battle between Golden Core cultivators
+AI:
+Two streaks of light suddenly collided in mid-air.
 
-第一个玉瓶中是五粒养灵丹，可以稳固境界；第二个装着一粒紫阳丹，能够增强突破时的成功率；第三个则是他花费巨大代价才得到的天心露，关键时刻能护住心脉。
+"Boom!"
 
-他深吸一口气，将养灵丹尽数服下。
+A green sword light and a crimson flame clashed violently, and the spiritual energy fluctuations spread out like ripples. The gravel on the ground was swept up by the shockwave and turned to dust.
 
-药力在经脉中缓缓流转，如涓涓细流般滋养着丹田。半个时辰后，他的气息完全稳定下来，这才取出紫阳丹。
+The old man surnamed Chen's hand seals changed, and thirty-six green-edged swords whistled out, forming a sword formation in the air. Each flying sword exuded a sharp sword intent, and the runes on the sword's body flowed, indicating that they were all high-grade magical artifacts.
 
-丹药入口即化，一股炽热的药力瞬间爆发。韩立立即运转功法，引导这股力量冲击瓶颈。
+"Green Nether Sword Formation, go!"
 
-筑基中期到后期的关卡，如同一堵无形的墙壁横亘在前。每一次冲击，都会让经脉传来撕裂般的疼痛。
+The red-robed cultivator opposite him snorted coldly. With a flip of his hand, a palm-sized red shield grew with the wind, instantly turning into a ten-foot-tall flame giant shield. A phantom of a fire phoenix was faintly visible on the shield's surface, exuding an astonishingly high temperature.
 
-第一次，失败。
-第二次，依然失败。
-第三次......
+"Clang, clang, clang—"
 
-汗水顺着韩立的脸颊滑落，他的脸色愈发苍白。就在第七次冲击时，"咔"的一声轻响在体内响起。
+The flying swords struck the giant shield, making a sound of metal clashing. Each collision would stir up a large shower of sparks, but the giant shield did not move at all.
 
-瓶颈，松动了。
+A glint flashed in the old man surnamed Chen's eyes, and his left hand quietly formed a seal. A faint silver light shot out from his sleeve, silently bypassing the giant shield and heading straight for the red-robed cultivator's brow.
+
+This was his trump card—the Shadowless Needle.
 ```
 
-## 风格保证
+### Describing a Cultivation Breakthrough
+```
+User: /wangyu-write breakthrough From the mid-Foundation Establishment to the late stage
+AI:
+In the secret chamber, Han Li sat cross-legged with three jade bottles in front of him.
 
-所有生成的内容都将严格遵循：
-- 冷静客观的第三人称叙述
-- 详实的环境和动作描写
-- 谨慎的人物性格刻画
-- 合理的力量体系运用
-- 自然的悬念设置
+The first jade bottle contained five Spirit Nurturing Pills, which could stabilize his realm; the second contained a Purple Sun Pill, which could increase the success rate of a breakthrough; and the third was the Heaven's Heart Dew that he had spent a great price to obtain, which could protect his heart meridian at a critical moment.
 
-## 配置选项
+He took a deep breath and consumed all the Spirit Nurturing Pills.
 
-- `--length <字数>` - 指定输出长度（默认：1500字）
-- `--style-intensity <1-10>` - 风格强度（默认：8）
-- `--include-inner` - 包含内心独白
-- `--add-suspense` - 特别强化悬念
+The medicinal power slowly circulated through his meridians, nourishing his dantian like a trickling stream. Half an hour later, his aura was completely stable, and only then did he take out the Purple Sun Pill.
 
-## 相关命令
+The pill melted in his mouth, and a scorching medicinal power instantly erupted. Han Li immediately circulated his cultivation technique, guiding this power to break through the bottleneck.
 
-- `/wangyu-style` - 激活忘语风格模式
-- `/wangyu-analyze` - 分析内容风格
-- `/wangyu-enhance` - 强化风格特征
+The barrier from the mid-Foundation Establishment to the late stage was like an invisible wall in front of him. Each impact would cause a tearing pain in his meridians.
+
+The first time, he failed.
+The second time, he still failed.
+The third time...
+
+Sweat slid down Han Li's cheeks, and his face grew paler. On the seventh impact, a soft "crack" sounded inside his body.
+
+The bottleneck had loosened.
+```
+
+## Style Guarantee
+
+All generated content will strictly adhere to:
+- A calm and objective third-person narrative.
+- Detailed descriptions of the environment and actions.
+- Cautious character portrayal.
+- A reasonable application of the power system.
+- A natural setting of suspense.
+
+## Configuration Options
+
+- `--length <word_count>` - Specify the output length (default: 1500 words).
+- `--style-intensity <1-10>` - Style intensity (default: 8).
+- `--include-inner` - Include inner monologues.
+- `--add-suspense` - Specifically enhance the suspense.
+
+## Related Commands
+
+- `/wangyu-style` - Activate the Wang Yu style mode.
+- `/wangyu-analyze` - Analyze the content style.
+- `/wangyu-enhance` - Enhance the style features.

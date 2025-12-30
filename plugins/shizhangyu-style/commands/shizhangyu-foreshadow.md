@@ -1,275 +1,275 @@
-# 伏笔管理系统
+# Foreshadowing Management System
 
-石章鱼式的伏笔布局大师，管理千里伏脉，打造意外结局。
+A master of Shi Zhangyu-style foreshadowing, managing a thousand-mile-long thread of clues to create an unexpected ending.
 
-## 使用方法
+## Usage
 
 ```
-/shizhangyu-foreshadow <操作> [参数]
+/shizhangyu-foreshadow <operation> [parameters]
 ```
 
-## 操作类型
+## Operation Types
 
-- `add` - 添加新伏笔
-- `list` - 查看伏笔清单
-- `track` - 追踪伏笔状态
-- `activate` - 激活伏笔
-- `resolve` - 回收伏笔
-- `analyze` - 分析伏笔布局
-- `suggest` - 获取伏笔建议
-- `check` - 检查逻辑链
+- `add` - Add a new instance of foreshadowing
+- `list` - View the list of foreshadowing
+- `track` - Track the status of foreshadowing
+- `activate` - Activate an instance of foreshadowing
+- `resolve` - Resolve an instance of foreshadowing
+- `analyze` - Analyze the foreshadowing layout
+- `suggest` - Get suggestions for foreshadowing
+- `check` - Check the logical chain
 
-## 伏笔类型
+## Foreshadowing Types
 
-### 物件伏笔
-- 信物、密函、令牌、地图
-- 看似普通实则关键的物品
-- 遗失物品的去向
-- 神秘礼物的来源
+### Object Foreshadowing
+- Keepsakes, secret letters, tokens, maps
+- Seemingly ordinary but crucial items
+- The whereabouts of a lost item
+- The origin of a mysterious gift
 
-### 对话伏笔
-- 无意中透露的信息
-- 预言和谶语
-- 双关语和暗示
-- 看似玩笑的真话
+### Dialogue Foreshadowa
+- Information revealed unintentionally
+- Prophecies and omens
+- Puns and hints
+- Truths told in jest
 
-### 事件伏笔
-- 看似巧合的相遇
-- 微小但异常的事件
-- 背景中发生的事
-- 被忽略的细节
+### Event Foreshadowing
+- Seemingly coincidental encounters
+- Small but unusual events
+- Events happening in the background
+- Overlooked details
 
-### 人物伏笔
-- 神秘的身世
-- 隐藏的身份
-- 未说出的秘密
-- 失踪的关键人物
+### Character Foreshadowing
+- A mysterious background
+- A hidden identity
+- An unspoken secret
+- A missing key character
 
-## 示例用法
+## Example Usage
 
-### 添加伏笔
+### Adding Foreshadowing
 ```
-用户：/shizhangyu-foreshadow add 第3章主角捡到的玉佩
+User: /shizhangyu-foreshadow add The jade pendant the protagonist found in Chapter 3
 
-AI：
-【伏笔登记成功】
+AI:
+【Foreshadowing Registered Successfully】
 
-伏笔编号：F2024001
+Foreshadowing ID: F2024001
 ━━━━━━━━━━━━━━━━━━
-类型：物件伏笔
-章节：第3章
-位置：第3章第15段
-内容：主角在古战场捡到一枚残破玉佩
+Type: Object Foreshadowing
+Chapter: Chapter 3
+Location: Chapter 3, paragraph 15
+Content: The protagonist finds a broken jade pendant on an ancient battlefield.
 
-详细描述：
-玉佩材质特殊，似玉非玉，上有半个"陈"字，背面刻着残缺的龙纹。主角以为是普通古物，随手收入囊中。
+Detailed Description:
+The material of the jade pendant is special, seemingly jade but not quite. It has half of the character "Chen" on it, and the back is engraved with a fragmented dragon pattern. The protagonist thinks it's an ordinary antique and puts it away.
 
-潜在指向：
-1. 可能是前朝皇室信物
-2. 可能是某个重要人物的身份证明
-3. 可能是开启某个秘密的钥匙
-4. 可能与主角身世有关
+Potential Directions:
+1. It might be a token of the former royal family.
+2. It might be proof of a key character's identity.
+3. It might be the key to unlocking a secret.
+4. It might be related to the protagonist's background.
 
-建议回收时机：
-- 近期（5-10章）：作为身份证明
-- 中期（20-30章）：揭示重要线索
-- 远期（40-50章）：关键转折道具
-- 结局：最终真相的证据
+Suggested Resolution Timing:
+- Short-term (5-10 chapters): As proof of identity.
+- Mid-term (20-30 chapters): To reveal an important clue.
+- Long-term (40-50 chapters): As a key turning point item.
+- Ending: As evidence of the final truth.
 
-关联伏笔：
-- F2023098：第1章提到的陈国覆灭
-- F2023099：第2章老者说的"天命在陈"
+Related Foreshadowing:
+- F2023098: The fall of the Chen Kingdom mentioned in Chapter 1.
+- F2023099: The old man's words in Chapter 2, "Heaven's mandate is with Chen."
 
-状态：已埋设 [待激活]
+Status: Planted [Awaiting Activation]
 ```
 
-### 查看伏笔清单
+### Viewing the Foreshadowing List
 ```
-用户：/shizhangyu-foreshadow list
+User: /shizhangyu-foreshadow list
 
-AI：
-【伏笔追踪表】
+AI:
+【Foreshadowing Tracking Table】
 ━━━━━━━━━━━━━━━━━━
 
-待激活伏笔（12个）
+Awaiting Activation (12)
 ────────────────
-F2024001 | 第3章 | 玉佩 | 物件 | 高优先级
-F2024002 | 第5章 | "他还活着" | 对话 | 中优先级
-F2024003 | 第7章 | 黑衣人 | 人物 | 高优先级
-F2024004 | 第9章 | 预言诗 | 对话 | 低优先级
-[更多...]
+F2024001 | Chapter 3 | Jade Pendant | Object | High Priority
+F2024002 | Chapter 5 | "He's still alive" | Dialogue | Medium Priority
+F2024003 | Chapter 7 | Man in Black | Character | High Priority
+F2024004 | Chapter 9 | Prophetic Poem | Dialogue | Low Priority
+[More...]
 
-已激活伏笔（5个）
+Activated (5)
 ────────────────
-F2023095 | 第2章 | 剑痕 | 事件 | 激活于第15章
-F2023096 | 第4章 | 梦境 | 事件 | 激活于第18章
-[更多...]
+F2023095 | Chapter 2 | Sword Scar | Event | Activated in Chapter 15
+F2023096 | Chapter 4 | Dream | Event | Activated in Chapter 18
+[More...]
 
-已回收伏笔（8个）
+Resolved (8)
 ────────────────
-F2023090 | 第1章 | 开篇死者 | 人物 | 第20章揭晓身份
-F2023091 | 第1章 | 密信 | 物件 | 第22章破解内容
-[更多...]
+F2023090 | Chapter 1 | Opening Death | Character | Identity revealed in Chapter 20
+F2023091 | Chapter 1 | Secret Letter | Object | Content deciphered in Chapter 22
+[More...]
 
-伏笔网络图：
+Foreshadowing Network Map:
      F2024001 ─── F2023098
           ╲        ╱
            F2023099
           ╱        ╲
      F2024003 ─── F2024002
 
-优先回收建议：
-1. F2024001（玉佩）- 建议在第25章回收
-2. F2024003（黑衣人）- 建议在第28章揭示
-3. F2024002（对话）- 建议在第30章呼应
+Priority Resolution Suggestions:
+1. F2024001 (Jade Pendant) - Suggested to be resolved in Chapter 25.
+2. F2024003 (Man in Black) - Suggested to be revealed in Chapter 28.
+3. F2024002 (Dialogue) - Suggested to be referenced in Chapter 30.
 ```
 
-### 激活伏笔
+### Activating Foreshadowing
 ```
-用户：/shizhangyu-foreshadow activate F2024001
+User: /shizhangyu-foreshadow activate F2024001
 
-AI：
-【伏笔激活方案】
+AI:
+【Foreshadowing Activation Plan】
 
-伏笔：F2024001（玉佩）
+Foreshadowing: F2024001 (Jade Pendant)
 ━━━━━━━━━━━━━━━━━━
 
-激活场景设计：
+Activation Scene Design:
 
-第25章建议情节：
+Suggested plot for Chapter 25:
 
-陈平安被困皇宫密室，四面楚歌之际，无意中触碰怀中玉佩。突然，密室墙壁发出轰鸣，一道暗门缓缓开启。
+Chen Ping'an is trapped in a secret chamber in the palace. At his wit's end, he accidentally touches the jade pendant in his pocket. Suddenly, the walls of the secret chamber rumble, and a hidden door slowly opens.
 
-"这是......"跟随而来的老太监瞪大了眼睛，颤声道："陈国皇室的传承信物！老奴等了六十年，终于等到了！"
+"This is..." The old eunuch who followed him stared with wide eyes and said in a trembling voice, "The inheritance token of the Chen royal family! I have waited for sixty years, and I have finally waited for it!"
 
-激活要点：
-1. 时机：主角陷入绝境
-2. 方式：意外触发
-3. 效果：形势逆转
-4. 深化：引出更大秘密
+Activation Points:
+1. Timing: When the protagonist is in a desperate situation.
+2. Method: Accidental trigger.
+3. Effect: Reversal of the situation.
+4. Deepening: Leads to a bigger secret.
 
-后续连锁：
-- 揭示主角真实身世
-- 引出陈国遗老势力
-- 激活F2023098、F2023099
-- 埋设新伏笔：传承的代价
+Subsequent Chain of Events:
+- Reveals the protagonist's true background.
+- Brings out the remaining forces of the Chen Kingdom.
+- Activates F2023098, F2023099.
+- Plants new foreshadowing: the price of the inheritance.
 
-写作建议：
-不要一次说明所有，保留悬念。玉佩只是钥匙，真正的秘密还在后面。
+Writing Suggestion:
+Don't explain everything at once; maintain the suspense. The jade pendant is just the key; the real secret is yet to come.
 ```
 
-### 分析伏笔布局
+### Analyzing the Foreshadowing Layout
 ```
-用户：/shizhangyu-foreshadow analyze
+User: /shizhangyu-foreshadow analyze
 
-AI：
-【伏笔布局分析报告】
+AI:
+【Foreshadowing Layout Analysis Report】
 
-整体评估
+Overall Assessment
 ━━━━━━━━━━━━━━━━━━
-伏笔密度：8.5/10（优秀）
-逻辑连贯性：9/10（极佳）
-回收及时性：7/10（良好）
-惊喜程度：8/10（优秀）
+Foreshadowing Density: 8.5/10 (Excellent)
+Logical Coherence: 9/10 (Excellent)
+Timeliness of Resolution: 7/10 (Good)
+Surprise Level: 8/10 (Excellent)
 
-布局特点：
-1. 长中短线结合合理
-2. 不同类型伏笔均衡
-3. 关键伏笔相互关联
-4. 主线伏笔链条完整
+Layout Features:
+1. A good mix of long, medium, and short-term clues.
+2. A balance of different types of foreshadowing.
+3. Key instances of foreshadowing are interconnected.
+4. The main plot's foreshadowing chain is complete.
 
-存在问题：
-1. 第10-15章伏笔较少
-2. F2023094号伏笔过于明显
-3. 部分短线伏笔未及时回收
+Existing Problems:
+1. Fewer instances of foreshadowing in Chapters 10-15.
+2. Foreshadowing F2023094 is too obvious.
+3. Some short-term foreshadowing has not been resolved in a timely manner.
 
-优化建议：
-1. 在第12章增加一个中等伏笔
-2. 将F2023094做隐藏处理
-3. 尽快回收F2023092、F2023093
+Optimization Suggestions:
+1. Add a medium-level instance of foreshadowing in Chapter 12.
+2. Make F2023094 more subtle.
+3. Resolve F2023092 and F2023093 as soon as possible.
 
-伏笔网络健康度：
-核心链：████████░░ 85%
-支线链：███████░░░ 70%
-独立点：████░░░░░░ 40%
+Foreshadowing Network Health:
+Core Chain: ████████░░ 85%
+Branch Chains: ███████░░░ 70%
+Independent Points: ████░░░░░░ 40%
 
-预期效果：
-按当前布局，结局反转冲击力：★★★★☆
-读者二刷发现彩蛋概率：95%
-逻辑自洽程度：98%
+Expected Effect:
+With the current layout, the impact of the ending twist: ★★★★☆
+Probability of readers finding Easter eggs on a second read: 95%
+Logical self-consistency: 98%
 ```
 
-### 获取伏笔建议
+### Getting Foreshadowing Suggestions
 ```
-用户：/shizhangyu-foreshadow suggest 第30章需要一个重要伏笔
+User: /shizhangyu-foreshadow suggest I need an important instance of foreshadowing for Chapter 30
 
-AI：
-【智能伏笔建议】
+AI:
+【Intelligent Foreshadowing Suggestions】
 
-基于当前剧情分析，第30章建议：
+Based on the current plot analysis, for Chapter 30, I suggest:
 
-推荐伏笔方案一（最优）
+Recommended Foreshadowing Plan 1 (Optimal)
 ━━━━━━━━━━━━━━━━━━
-类型：人物身份伏笔
-内容：一直帮助主角的神秘商人，不经意露出官府特有的礼节
-具体：他在告别时，下意识地做了个只有禁军才会的手势
-指向：此人可能是皇帝派来的密探
-回收：第45章揭示其真实身份和目的
+Type: Character Identity Foreshadowing
+Content: The mysterious merchant who has been helping the protagonist inadvertently shows a mannerism unique to the government.
+Specifics: When he says goodbye, he subconsciously makes a gesture that only the imperial guards use.
+Direction: This person might be a secret agent sent by the emperor.
+Resolution: Reveal his true identity and purpose in Chapter 45.
 
-推荐伏笔方案二
+Recommended Foreshadowing Plan 2
 ━━━━━━━━━━━━━━━━━━
-类型：对话伏笔
-内容：反派说了一句看似嘲讽的话："你以为你是第一个吗？"
-指向：暗示之前有人走过相同的路
-回收：第50章发现主角是某个计划的一部分
+Type: Dialogue Foreshadowing
+Content: The antagonist says something seemingly sarcastic: "Do you think you're the first?"
+Direction: Suggests that someone has walked the same path before.
+Resolution: Discover in Chapter 50 that the protagonist is part of a larger plan.
 
-推荐伏笔方案三
+Recommended Foreshadowing Plan 3
 ━━━━━━━━━━━━━━━━━━
-类型：事件伏笔
-内容：一只信鸽飞过，掉下一根羽毛
-指向：有人在暗中传递消息
-回收：第40章发现情报网的存在
+Type: Event Foreshadowing
+Content: A carrier pigeon flies by and drops a feather.
+Direction: Someone is secretly passing messages.
+Resolution: Discover the existence of an intelligence network in Chapter 40.
 
-与现有伏笔的关联：
-- 可与F2024001形成呼应
-- 强化F2024003的神秘感
-- 为最终反转做铺垫
+Connection to Existing Foreshadowing:
+- Can echo F2024001.
+- Enhances the mystery of F2024003.
+- Lays the groundwork for the final twist.
 ```
 
-## 高级功能
+## Advanced Features
 
-### 伏笔链设计
-创建多个伏笔的连锁反应：
-- 主链伏笔（核心秘密）
-- 支链伏笔（补充信息）
-- 误导伏笔（制造悬念）
-- 反转伏笔（颠覆认知）
+### Foreshadowing Chain Design
+Create a chain reaction of multiple instances of foreshadowing:
+- Main Chain Foreshadowing (the core secret)
+- Branch Chain Foreshadowing (supplementary information)
+- Misleading Foreshadowing (to create suspense)
+- Twist Foreshadowing (to subvert expectations)
 
-### 时间线管理
-按时间顺序管理伏笔：
-- 即时伏笔（1-3章内）
-- 短线伏笔（5-10章）
-- 中线伏笔（15-30章）
-- 长线伏笔（贯穿全书）
+### Timeline Management
+Manage foreshadowing in chronological order:
+- Immediate Foreshadowing (within 1-3 chapters)
+- Short-term Foreshadowing (5-10 chapters)
+- Mid-term Foreshadowing (15-30 chapters)
+- Long-term Foreshadowing (throughout the book)
 
-### 逻辑验证器
-检查伏笔的逻辑合理性：
-- 因果关系是否成立
-- 时间顺序是否合理
-- 信息量是否适度
-- 回收时机是否恰当
+### Logic Validator
+Checks the logical reasonableness of the foreshadowing:
+- Is the cause-and-effect relationship valid?
+- Is the chronological order reasonable?
+- Is the amount of information appropriate?
+- Is the timing of the resolution appropriate?
 
-## 输出规范
+## Output Specifications
 
-1. **编号系统**：统一编号便于追踪
-2. **状态标记**：待埋/已埋/激活/回收
-3. **优先级别**：高/中/低优先级
-4. **关联标注**：标明相关伏笔
-5. **回收提醒**：建议最佳时机
+1. **Numbering System**: A unified numbering system for easy tracking.
+2. **Status Markers**: To be planted/Planted/Activated/Resolved
+3. **Priority Levels**: High/Medium/Low priority
+4. **Association Markers**: Indicates related foreshadowing
+5. **Resolution Reminders**: Suggests the best timing
 
-## 相关命令
+## Related Commands
 
-- `/shizhangyu-style` - 激活风格
-- `/shizhangyu-write` - 创作伏笔
-- `/shizhangyu-plot` - 伏笔与权谋
-- `/shizhangyu-character` - 人物伏笔
+- `/shizhangyu-style` - Activate the style.
+- `/shizhangyu-write` - Create the foreshadowing.
+- `/shizhangyu-plot` - Foreshadowing and power struggles.
+- `/shizhangyu-character` - Character foreshadowing.

@@ -1,143 +1,143 @@
-# 路遥风格现实主义创作
+# Lu Yao Style Realist Creation
 
-使用路遥风格创作充满泥土气息与生命哲思的现实主义作品。
+Create realist works full of the breath of the earth and the philosophy of life in the style of Lu Yao.
 
-## 使用方法
+## Usage
 
 ```
-/luyao-write <类型> [描述]
+/luyao-write <type> [description]
 ```
 
-## 内容类型
+## Content Types
 
-- `rural` - 农村生活
-- `urban` - 城市奋斗
-- `mining` - 矿区故事
-- `school` - 校园青春
-- `factory` - 工厂生活
-- `transition` - 转型时期
-- `homecoming` - 返乡主题
-- `chapter` - 标准章节
+- `rural` - Rural life
+- `urban` - Urban struggle
+- `mining` - Mining stories
+- `school` - Campus youth
+- `factory` - Factory life
+- `transition` - A period of transition
+- `homecoming` - Homecoming theme
+- `chapter` - Standard chapter
 
-## 示例用法
+## Example Usage
 
-### 农村生活场景
+### Rural Life Scene
 ```
-用户：/luyao-write rural 1982年夏天的麦收
+User: /luyao-write rural The wheat harvest in the summer of 1982
 
-AI：
-第三章 麦子熟了
+AI:
+Chapter Three: The Wheat is Ripe
 
-1982年的麦收来得比往年早了些。
+The wheat harvest of 1982 came a little earlier than in previous years.
 
-孙少平站在自家的麦地边上，看着那一片金黄，心里涌起一阵说不出的滋味。这是包产到户后的第一个麦收，也是他们家第一次为自己收麦子。
+Sun Shaoping stood at the edge of his family's wheat field, looking at the golden expanse, a indescribable feeling welling up in his heart. This was the first wheat harvest after the implementation of the household responsibility system, and it was also the first time his family was harvesting wheat for themselves.
 
-太阳刚从东山梁上露出脸，露水还挂在麦穗上，在朝阳下闪着碎钻般的光。少平深深吸了一口气，空气里满是麦子成熟的香味，还混着泥土的气息。
+The sun had just shown its face from the eastern mountain ridge, and dew still hung on the ears of wheat, glittering like crushed diamonds in the morning sun. Shaoping took a deep breath; the air was full of the fragrance of ripe wheat, mixed with the smell of the earth.
 
-"少平，愣啥哩！快动手！"
+"Shaoping, what are you spacing out for! Get to it!"
 
-父亲的声音从地那头传来。老人已经弯下腰，开始挥动镰刀了。咔嚓、咔嚓的声音在清晨的田野上响起，像是一首古老的歌谣。
+His father's voice came from the other side of the field. The old man had already bent down and started to swing his sickle. The sound of "kach, kach" echoed in the morning fields, like an ancient folk song.
 
-少平赶紧拿起镰刀。刀是昨晚才磨的，锋利得能削铁如泥。他弯下腰，左手揽住一把麦子，右手的镰刀贴着地皮一拉，麦子就整齐地倒下了。
+Shaoping quickly picked up his sickle. The blade had been sharpened just last night and was sharp enough to cut iron like mud. He bent down, gathered a handful of wheat with his left hand, and with a pull of the sickle in his right hand close to the ground, the wheat fell neatly.
 
-汗水很快就浸透了他的粗布衫子。但少平心里是高兴的——这麦子是自家的，每一粒都是自家的。不用再看队长的脸色，不用再为工分发愁。
+Sweat soon soaked through his coarse cloth shirt. But Shaoping was happy in his heart—this wheat was his family's, every single grain. No longer did he have to watch the team leader's face, no longer did he have to worry about work points.
 
-兰花端来了绿豆汤。碗是粗瓷的，汤面上飘着几片薄荷叶子。
+Lanhua brought over some mung bean soup. The bowl was made of coarse porcelain, and a few mint leaves floated on the surface of the soup.
 
-"慢点喝，还烫着哩。"她说着，用袖子擦了擦额头的汗。
+"Drink it slowly, it's still hot," she said, wiping the sweat from her forehead with her sleeve.
 
-少平接过碗，咕咚咕咚喝了个底朝天。绿豆汤又甜又凉，一下子就浇灭了心里的火。他看着妹妹被太阳晒红的脸，忽然觉得，日子虽然还是苦，但总算有了奔头...
+Shaoping took the bowl and drank it down to the last drop. The mung bean soup was both sweet and cool, instantly quenching the fire in his heart. He looked at his sister's face, reddened by the sun, and suddenly felt that although life was still hard, at least there was something to look forward to...
 
-[继续3000字的细腻描写...]
-```
-
-### 城市奋斗主题
-```
-用户：/luyao-write urban 农村青年第一次进城找工作
-
-AI：
-第七章 城里的太阳
-
-1985年春天，田福军第一次踏进省城的火车站。
-
-人潮像洪水一样从四面八方涌来，他被挤在中间，几乎喘不过气。手里的蛇皮袋子死死攥着，里面是母亲烙的十几个馍馍，还有一身换洗的衣服。
-
-出了火车站，城市的喧嚣扑面而来。汽车的喇叭声、小贩的叫卖声、收音机里的流行歌曲，全都搅在一起，让这个在黄土地上长大的年轻人头晕目眩。
-
-他在人才市场门口站了很久，看着那些衣着光鲜的城里人进进出出，自己身上的蓝布衫子显得格外扎眼。有好几次，他想转身就走，但想起临走时父亲那期盼的眼神，又硬着头皮留了下来。
-
-"小伙子，找工作？"
-
-一个戴眼镜的中年人走过来。福军点点头，声音有些发颤："是...是的。"
-
-"有啥特长没有？"
-
-福军想了想："我...我有力气，啥活都能干。"
-
-中年人笑了："光有力气可不行，现在城里要的是技术工。你识字不？"
-
-"高中毕业。"说这话时，福军挺了挺胸。在他们村，高中毕业就算是文化人了。
-
-[继续展现农村青年在城市的挣扎与成长...]
+[Continue with 3000 words of delicate description...]
 ```
 
-### 矿区生活
+### Urban Struggle Theme
 ```
-用户：/luyao-write mining 煤矿工人的一天
+User: /luyao-write urban A rural youth's first time in the city looking for a job
 
-AI：
-第十二章 黑金
+AI:
+Chapter Seven: The City's Sun
 
-凌晨四点，闹钟还没响，王满银就醒了。
+In the spring of 1985, Tian Fujun set foot in the provincial capital's train station for the first time.
 
-这是多年养成的习惯。在地下八百米的地方干活，时间观念必须强。他轻手轻脚地起床，怕吵醒还在熟睡的婆姨和娃娃。
+The crowd surged from all directions like a flood. He was squeezed in the middle, almost unable to breathe. He held on tightly to the snakeskin bag in his hand, which contained a dozen or so steamed buns his mother had made, and a change of clothes.
 
-外面的天还黑着，只有矿区的灯火在远处闪烁。满银套上工作服，那是一身洗得发白的蓝布衣裳，上面还有洗不掉的煤渍。他在门口的水缸里舀了一瓢凉水，哗啦啦地洗了把脸，顿时清醒了许多。
+After leaving the train station, the hustle and bustle of the city hit him in the face. The sound of car horns, the shouts of vendors, the pop songs from the radio, all mixed together, making this young man who grew up on the loess land feel dizzy.
 
-矿井口，工友们陆续到了。大家都不怎么说话，默默地戴上安全帽，检查矿灯。
+He stood for a long time at the entrance of the talent market, watching the well-dressed city people coming and going, his own blue cloth shirt seeming particularly out of place. Several times, he wanted to turn and leave, but the thought of his father's expectant eyes when he left made him stay.
 
-"下井了！"班长一声吆喝，大伙儿排成队，走进那个黑洞洞的井口。
+"Young man, looking for a job?"
 
-罐笼往下降的时候，耳朵嗡嗡作响。满银闭上眼，在心里默念着婆姨昨晚说的话："当心些，平平安安回来。"
+A middle-aged man with glasses came over. Fujun nodded, his voice trembling slightly: "Yes... yes."
 
-[继续描写矿工生活的艰辛与尊严...]
+"Do you have any special skills?"
+
+Fujun thought for a moment: "I... I have strength, I can do any kind of work."
+
+The middle-aged man smiled: "Strength alone is not enough. The city needs skilled workers now. Can you read?"
+
+"High school graduate." As he said this, Fujun puffed out his chest. In his village, a high school graduate was considered an educated person.
+
+[Continue to show the rural youth's struggle and growth in the city...]
 ```
 
-## 创作特色
+### Mining Life
+```
+User: /luyao-write mining A day in the life of a coal miner
 
-### 必备元素
-1. **时代背景**：准确的时代特征和社会环境
-2. **生活细节**：至少3处具体的生活细节描写
-3. **人物刻画**：朴实而立体的人物形象
-4. **情感表达**：含蓄内敛的情感流露
-5. **方言运用**：适度的地方语言特色
-6. **希望主题**：苦难中的坚韧与希望
+AI:
+Chapter Twelve: Black Gold
 
-### 语言要求
-- 叙述朴实无华，准确有力
-- 避免华丽辞藻和空洞抒情
-- 对话生活化、个性化
-- 适当运用陕北方言
-- 景物描写融入情感
+At four in the morning, Wang Manyin woke up before the alarm clock rang.
 
-## 输出规范
+This was a habit he had developed over many years. When you work eight hundred meters underground, you have to be very conscious of the time. He got up quietly, afraid of waking his wife and child who were still sound asleep.
 
-- **字数要求**：不少于3000字
-- **段落控制**：每段100-200字
-- **对话比例**：占总文20-30%
-- **细节描写**：占总文30-40%
-- **叙事推进**：占总文40-50%
+It was still dark outside, with only the lights of the mining area twinkling in the distance. Manyin put on his work clothes, a set of washed-out blue cloth garments with coal stains that couldn't be washed out. He scooped a ladle of cold water from the water vat at the door and washed his face with a splash, which instantly woke him up.
 
-## 配置选项
+At the entrance of the mine shaft, the other workers arrived one after another. No one said much; they silently put on their safety helmets and checked their miner's lamps.
 
-- `--perspective <type>` - 视角选择（第三人称为主）
-- `--emotion <level>` - 情感浓度（1-5，默认3）
-- `--detail <density>` - 细节密度（1-5，默认4）
-- `--dialect <usage>` - 方言使用（少/中/多）
+"Going down!" the foreman shouted, and everyone lined up and walked into the dark mine entrance.
 
-## 相关命令
+As the cage descended, his ears were ringing. Manyin closed his eyes and silently recited what his wife had said last night: "Be careful, come back safely."
 
-- `/luyao-style` - 激活风格模式
-- `/luyao-character` - 人物塑造
-- `/luyao-detail` - 细节描写
-- `/luyao-dialogue` - 对话创作
+[Continue to describe the hardships and dignity of a miner's life...]
+```
+
+## Creation Features
+
+### Essential Elements
+1. **Historical Context**: Accurate historical features and social environment.
+2. **Life Details**: At least 3 specific descriptions of life details.
+3. **Character Portrayal**: Simple yet three-dimensional character images.
+4. **Emotional Expression**: Subtle and introverted emotional expression.
+5. **Use of Dialect**: Moderate use of local language features.
+6. **Theme of Hope**: Resilience and hope in the midst of suffering.
+
+### Language Requirements
+- The narrative is simple and unadorned, precise and powerful.
+- Avoid ornate language and empty lyricism.
+- The dialogue is lifelike and personalized.
+- Appropriate use of Northern Shaanxi dialect.
+- The description of scenery is integrated with emotion.
+
+## Output Specifications
+
+- **Word Count Requirement**: No less than 3000 words.
+- **Paragraph Control**: 100-200 words per paragraph.
+- **Dialogue Ratio**: 20-30% of the total text.
+- **Detail Description**: 30-40% of the total text.
+- **Narrative Advancement**: 40-50% of the total text.
+
+## Configuration Options
+
+- `--perspective <type>` - Perspective selection (mainly third-person).
+- `--emotion <level>` - Emotional intensity (1-5, default 3).
+- `--detail <density>` - Detail density (1-5, default 4).
+- `--dialect <usage>` - Dialect usage (low/medium/high).
+
+## Related Commands
+
+- `/luyao-style` - Activate the style mode.
+- `/luyao-character` - Character creation.
+- `/luyao-detail` - Detail description.
+- `/luyao-dialogue` - Dialogue creation.

@@ -1,235 +1,235 @@
-# 塑造平凡而伟大的人物
+# Creating Ordinary Yet Great Characters
 
-使用路遥风格塑造扎根于土地、充满生命力的人物形象。
+Create character images that are rooted in the land and full of vitality, in the style of Lu Yao.
 
-## 使用方法
+## Usage
 
 ```
-/luyao-character <类型> [描述]
+/luyao-character <type> [description]
 ```
 
-## 人物类型
+## Character Types
 
-### 基础类型
-- `farmer` - 农民
-- `worker` - 工人
-- `student` - 学生
-- `cadre` - 基层干部
-- `teacher` - 乡村教师
-- `merchant` - 个体户
-- `miner` - 矿工
-- `veteran` - 退伍军人
+### Basic Types
+- `farmer`
+- `worker`
+- `student`
+- `cadre` - Grassroots official
+- `teacher` - Rural teacher
+- `merchant` - Self-employed individual
+- `miner`
+- `veteran`
 
-### 复合类型
-- `returning-youth` - 返乡青年
-- `educated-youth` - 知识青年
-- `migrant-worker` - 进城务工者
-- `rural-entrepreneur` - 农村创业者
+### Composite Types
+- `returning-youth` - Youth returning to their hometown
+- `educated-youth` - Educated youth
+- `migrant-worker` - Migrant worker
+- `rural-entrepreneur` - Rural entrepreneur
 
-## 输出内容
+## Output Content
 
-### 人物档案
-1. **基本信息**
-   - 姓名、年龄、籍贯
-   - 家庭背景
-   - 教育程度
-   - 职业经历
+### Character Profile
+1. **Basic Information**
+   - Name, age, native place
+   - Family background
+   - Education level
+   - Work experience
 
-2. **性格特征**
-   - 核心性格（3-5个关键词）
-   - 性格成因
-   - 内在矛盾
-   - 成长轨迹
+2. **Personality Traits**
+   - Core personality (3-5 keywords)
+   - Causes of personality
+   - Inner conflicts
+   - Growth trajectory
 
-3. **生活细节**
-   - 外貌特征
-   - 习惯动作
-   - 口头禅
-   - 日常作息
-   - 饮食偏好
+3. **Life Details**
+   - Physical appearance
+   - Habitual actions
+   - Catchphrases
+   - Daily routine
+   - Food preferences
 
-4. **人生经历**
-   - 关键事件（3-5个）
-   - 转折点
-   - 重要关系
-   - 未竟心愿
+4. **Life Experience**
+   - Key events (3-5)
+   - Turning points
+   - Important relationships
+   - Unfulfilled wishes
 
-5. **语言风格**
-   - 说话方式
-   - 方言特色
-   - 表达习惯
-   - 情感流露方式
+5. **Language Style**
+   - Way of speaking
+   - Dialect features
+   - Expression habits
+   - Way of expressing emotions
 
-## 示例
+## Example
 
-### 农村青年
+### Rural Youth
 ```
-用户：/luyao-character farmer 包产到户后的年轻农民
+User: /luyao-character farmer A young farmer after the implementation of the household responsibility system
 
-AI：
-人物档案：田福堂
+AI:
+Character Profile: Tian Fudang
 
-【基本信息】
-姓名：田福堂
-年龄：24岁
-籍贯：陕北双水村
-家庭：父母健在，有一妹妹，未婚
-教育：高中毕业（全村仅有的三个高中生之一）
+【Basic Information】
+Name: Tian Fudang
+Age: 24
+Native Place: Shuangshui Village, Northern Shaanxi
+Family: Parents are alive, has a younger sister, unmarried
+Education: High school graduate (one of only three high school graduates in the village)
 
-【性格特征】
-核心性格：踏实、上进、倔强、善良、有责任心
+【Personality Traits】
+Core Personality: Down-to-earth, ambitious, stubborn, kind, responsible
 
-性格成因：
-- 父亲的言传身教："人不能让人看不起"
-- 贫困的刺激：决心改变家庭命运
-- 知识的启蒙：高中教育让他看到更大的世界
+Causes of Personality:
+- His father's words and actions: "A man must not be looked down upon."
+- The stimulus of poverty: Determined to change his family's fate.
+- The enlightenment of knowledge: His high school education showed him a bigger world.
 
-内在矛盾：
-- 对土地的眷恋 vs 对城市的向往
-- 个人理想 vs 家庭责任
-- 传统观念 vs 现代思想
+Inner Conflicts:
+- Attachment to the land vs. yearning for the city
+- Personal ideals vs. family responsibilities
+- Traditional values vs. modern ideas
 
-【外貌与细节】
-身材中等偏高，因常年劳作而结实。手掌粗糙，指缝里总有洗不净的泥土。脸被太阳晒成古铜色，笑起来露出一口白牙。
+【Appearance and Details】
+A bit taller than average, sturdy from years of labor. His palms are rough, and there is always dirt under his fingernails that can't be washed clean. His face is tanned to a bronze color by the sun, and he shows a mouthful of white teeth when he smiles.
 
-习惯动作：
-- 思考时会不自觉地搓手
-- 紧张时会摸后脑勺
-- 说话前常深吸一口气
+Habitual Actions:
+- Unconsciously rubs his hands when thinking.
+- Touches the back of his head when nervous.
+- Often takes a deep breath before speaking.
 
-日常：
-- 天不亮就起床，先看看自家的庄稼
-- 吃饭很快，但从不浪费一粒粮食
-- 晚上喜欢听收音机里的新闻
-- 睡前会翻看高中课本
+Daily Life:
+- Wakes up before dawn and first checks his family's crops.
+- Eats quickly, but never wastes a single grain of rice.
+- Likes to listen to the news on the radio at night.
+- Flips through his high school textbooks before going to bed.
 
-【关键经历】
-1. 1979年，高考差3分落榜，决定留在农村
-2. 1982年，包产到户第一年，收成翻倍
-3. 1983年，用卖粮的钱买了村里第一台手扶拖拉机
-4. 1984年，带头搞养殖，成为万元户
-5. 1985年，被选为村民小组长
+【Key Experiences】
+1. 1979: Failed the college entrance examination by 3 points and decided to stay in the countryside.
+2. 1982: The first year of the household responsibility system, the harvest doubled.
+3. 1983: Bought the village's first walking tractor with the money from selling grain.
+4. 1984: Took the lead in farming and became a "ten-thousand-yuan household."
+5. 1985: Was elected as the village group leader.
 
-【语言特色】
-"咱农民也要活出个人样来！"
-"日子是靠双手挣出来的，不是等出来的。"
-"再苦不能苦了娃娃们的教育。"
+【Language Style】
+"We farmers also have to live with dignity!"
+"A good life is earned with your own hands, not by waiting."
+"No matter how hard it is, we can't let the children's education suffer."
 
-说话方式：
-- 语速不快，每个字都说得清楚
-- 很少用华丽的词汇，但道理讲得透彻
-- 对长辈用敬语，对同辈亲切随和
-- 激动时会不自觉提高音调
+Way of Speaking:
+- Speaks at a moderate pace, enunciating each word clearly.
+- Rarely uses flowery words, but his reasoning is thorough.
+- Uses respectful language with elders, and is friendly and easygoing with peers.
+- Unconsciously raises his voice when he gets excited.
 
-【人物弧光】
-从一个普通的农村青年，通过不懈努力成为带领乡亲致富的带头人。他的故事不是个人英雄主义，而是时代变革中千千万万农民的缩影。
+【Character Arc】
+From an ordinary rural youth, he becomes a leader who leads his fellow villagers to prosperity through unremitting efforts. His story is not one of individual heroism, but a microcosm of the millions of farmers in an era of change.
 
-【创作提示】
-- 避免理想化，保留人物的缺点和局限
-- 通过具体事件展现性格，而非空洞描述
-- 让人物的成长与时代脉搏同频共振
-- 用细节让人物"活"起来
-```
-
-### 返乡知识青年
-```
-用户：/luyao-character returning-youth 大学毕业后返乡的青年
-
-AI：
-人物档案：孙兰香
-
-【基本信息】
-姓名：孙兰香
-年龄：26岁
-籍贯：黄土高原小镇
-学历：省师范大学中文系毕业
-现状：返乡任教，兼职文化站工作
-
-【性格剖析】
-表层性格：文静、内敛、认真、有耐心
-深层性格：坚韧、理想主义、富有同情心
-隐藏特质：内心有诗意的浪漫，对美好事物敏感
-
-成长印记：
-- 童年贫困培养了珍惜意识
-- 求学经历开阔了视野
-- 城乡差距激发了使命感
-- 文学熏陶塑造了精神世界
-
-【生活肌理】
-早晨6点起床，先读半小时书
-穿着朴素但整洁，白衬衫总是洗得很干净
-头发简单地扎成马尾，从不化妆
-随身带着一个帆布包，里面装着备课本和几本书
-
-说话细节：
-- 声音不大，但吐字清晰
-- 引用诗句时眼睛会发光
-- 批评学生时语气温和但坚定
-- 谈到理想时会不自觉握紧拳头
-
-【重要关系网】
-- 父母：理解但担心她的选择
-- 学生：既是老师又像姐姐
-- 同事：钦佩但觉得她"太理想化"
-- 初恋：留在城里，渐行渐远
-
-【内心世界】
-表面平静，内心充满挣扎：
-"我是在逃避城市的竞争，还是真的想为家乡做点事？"
-"看着学生们渴望知识的眼睛，我知道我的选择没错。"
-"有时也会想，如果留在城里，现在会是什么样子..."
-
-【标志性场景】
-1. 在简陋的教室里，用粉笔在黑板上写下"知识改变命运"
-2. 傍晚时分，站在山坡上望着远方，思考人生的意义
-3. 深夜批改作业，在学生的作文里看到希望
-4. 组织学生排练节目，第一次看到他们自信的笑容
-
-[继续2000字的深度刻画...]
+【Creation Tips】
+- Avoid idealization; retain the character's flaws and limitations.
+- Show personality through specific events, not empty descriptions.
+- Make the character's growth resonate with the pulse of the times.
+- Use details to make the character "come alive."
 ```
 
-## 人物塑造要点
+### Returning Educated Youth
+```
+User: /luyao-character returning-youth A youth who returns to their hometown after graduating from university
 
-### 必备元素
-1. **时代烙印** - 人物必须带有明显的时代特征
-2. **阶层属性** - 准确把握不同阶层的生活状态
-3. **地域特色** - 融入陕北或特定地区的文化特征
-4. **成长轨迹** - 展现人物的变化和成长
-5. **精神追求** - 即使是小人物也有大梦想
+AI:
+Character Profile: Sun Lanxiang
 
-### 刻画技巧
-- 通过细节展现性格
-- 通过对话展现思想
-- 通过行动展现品格
-- 通过选择展现价值观
-- 通过关系展现情感
+【Basic Information】
+Name: Sun Lanxiang
+Age: 26
+Native Place: A small town on the Loess Plateau
+Education: Graduated from the Chinese Department of the Provincial Normal University
+Current Situation: Returned to her hometown to teach, and works part-time at the cultural station.
 
-### 避免误区
-- 不要脸谱化、概念化
-- 不要过度美化或丑化
-- 不要脱离时代背景
-- 不要忽视人物的局限性
-- 不要缺乏生活质感
+【Personality Analysis】
+Surface Personality: Quiet, introverted, serious, patient
+Deep Personality: Resilient, idealistic, full of sympathy
+Hidden Trait: Has a poetic romance in her heart, is sensitive to beautiful things
 
-## 输出规范
+Marks of Growth:
+- Childhood poverty cultivated a sense of cherishing things.
+- Her school experience broadened her horizons.
+- The gap between urban and rural areas inspired a sense of mission.
+- Her literary education shaped her spiritual world.
 
-- **字数要求**：2000-3000字
-- **结构完整**：包含所有必要模块
-- **细节丰富**：至少10处具体细节
-- **对话示例**：3-5句标志性台词
-- **场景描写**：2-3个典型场景
+【Fabric of Life】
+Wakes up at 6 a.m. and first reads for half an hour.
+Dresses simply but neatly; her white shirt is always washed very clean.
+Her hair is simply tied in a ponytail, and she never wears makeup.
+Carries a canvas bag with her, which contains her lesson plan book and a few other books.
 
-## 高级选项
+Speech Details:
+- Her voice is not loud, but her enunciation is clear.
+- Her eyes light up when she quotes poetry.
+- Her tone is gentle but firm when she criticizes students.
+- She unconsciously clenches her fists when she talks about her ideals.
 
-- `--era <period>` - 指定时代（70s/80s/90s）
-- `--depth <level>` - 刻画深度（1-5）
-- `--relations` - 扩展人物关系网
-- `--growth` - 详细成长轨迹
+【Important Relationship Network】
+- Parents: Understand but worry about her choice.
+- Students: She is both a teacher and like an older sister to them.
+- Colleagues: Admire her but think she is "too idealistic."
+- First Love: Stayed in the city, and they are gradually drifting apart.
 
-## 相关命令
+【Inner World】
+Calm on the surface, but full of struggle inside:
+"Am I escaping the competition in the city, or do I really want to do something for my hometown?"
+"Seeing the students' eyes eager for knowledge, I know my choice was not wrong."
+"Sometimes I also wonder, what would it be like now if I had stayed in the city..."
 
-- `/luyao-write` - 创作人物故事
-- `/luyao-dialogue` - 设计人物对话
-- `/luyao-detail` - 补充人物细节
-- `/track character` - 追踪人物发展
+【Signature Scenes】
+1. In the simple classroom, writing "Knowledge changes destiny" on the blackboard with chalk.
+2. At dusk, standing on the hillside looking into the distance, pondering the meaning of life.
+3. Grading homework late at night and seeing hope in the students' essays.
+4. Organizing students to rehearse a program and seeing their confident smiles for the first time.
+
+[Continue with 2000 words of in-depth portrayal...]
+```
+
+## Key Points of Character Creation
+
+### Essential Elements
+1. **Imprint of the Era** - The character must have clear characteristics of the era.
+2. **Class Attributes** - Accurately grasp the living conditions of different classes.
+3. **Regional Characteristics** - Integrate the cultural characteristics of Northern Shaanxi or a specific region.
+4. **Growth Trajectory** - Show the character's changes and growth.
+5. **Spiritual Pursuit** - Even a small character has big dreams.
+
+### Portrayal Techniques
+- Show personality through details.
+- Show thoughts through dialogue.
+- Show character through actions.
+- Show values through choices.
+- Show emotions through relationships.
+
+### Pitfalls to Avoid
+- Don't be stereotypical or conceptual.
+- Don't overly beautify or uglify.
+- Don't detach from the historical background.
+- Don't ignore the character's limitations.
+- Don't lack the texture of life.
+
+## Output Specifications
+
+- **Word Count Requirement**: 2000-3000 words.
+- **Complete Structure**: Includes all necessary modules.
+- **Rich Details**: At least 10 specific details.
+- **Dialogue Examples**: 3-5 signature lines.
+- **Scene Description**: 2-3 typical scenes.
+
+## Advanced Options
+
+- `--era <period>` - Specify the era (70s/80s/90s).
+- `--depth <level>` - Depth of portrayal (1-5).
+- `--relations` - Expand the character's relationship network.
+- `--growth` - Detailed growth trajectory.
+
+## Related Commands
+
+- `/luyao-write` - Create the character's story.
+- `/luyao-dialogue` - Design the character's dialogue.
+- `/luyao-detail` - Supplement the character's details.
+- `/track character` - Track the character's development.

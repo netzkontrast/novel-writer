@@ -1,120 +1,120 @@
-# 忘语风格创作规范
+# Wang Yu Style Creation Specification
 
-## 核心理念
+## Core Philosophy
 
-本规范基于忘语（代表作《凡人修仙传》《玄界之门》）的创作风格，为创作者提供系统化的风格指导。
+This specification is based on the creative style of Wang Yu (representative works: "A Record of a Mortal's Journey to Immortality," "The Gate of Xuan World"), providing systematic style guidance for creators.
 
-## 叙事原则
+## Narrative Principles
 
-### 客观性原则
-- 保持第三人称全知视角的客观性
-- 避免过度的感情色彩和主观评判
-- 通过行动和细节展现人物内心
+### Objectivity Principle
+- Maintain the objectivity of the third-person omniscient perspective.
+- Avoid excessive emotional coloring and subjective judgments.
+- Show the characters' inner world through actions and details.
 
-### 节奏控制
-- 张弛有度，避免一味的紧张或松散
-- 重要情节详写，过渡情节简述
-- 战斗场面注重策略，而非单纯的力量碰撞
+### Pacing Control
+- A good balance of tension and relaxation, avoiding constant tension or looseness.
+- Detail important plots, and summarize transitional plots.
+- Battle scenes focus on strategy, rather than a simple clash of power.
 
-## 世界观构建
+## World-building Construction
 
-### 力量体系
-严格遵循八大境界划分：
-1. 炼气期（1-9层）
-2. 筑基期（初、中、后）
-3. 结丹期（初、中、后）
-4. 元婴期（初、中、后）
-5. 化神期（初、中、后）
-6. 炼虚期（初、中、后）
-7. 合体期（初、中、后）
-8. 大乘期（初、中、后）
+### Power System
+Strictly follow the eight-level realm division:
+1. Qi Condensation (Levels 1-9)
+2. Foundation Establishment (Early, Mid, Late)
+3. Core Formation (Early, Mid, Late)
+4. Nascent Soul (Early, Mid, Late)
+5. Spirit Transformation (Early, Mid, Late)
+6. Void Refinement (Early, Mid, Late)
+7. Body Integration (Early, Mid, Late)
+8. Mahayana (Early, Mid, Late)
 
-### 资源体系
-四大资源类别必须体现稀缺性：
-- **灵石**：修炼和交易的基础
-- **丹药**：突破和恢复的关键
-- **法宝**：战斗力的重要组成
-- **功法**：修炼速度的决定因素
+### Resource System
+The four major resource categories must reflect scarcity:
+- **Spirit Stones**: The basis for cultivation and trade.
+- **Pills**: The key to breakthroughs and recovery.
+- **Magical Artifacts**: An important component of combat power.
+- **Cultivation Techniques**: The determining factor of cultivation speed.
 
-## 人物塑造准则
+## Character Creation Guidelines
 
-### 主角特质
-- 谨慎：三思而后行，不轻易冒险
-- 务实：重视实际利益，不追求虚名
-- 隐忍：能屈能伸，懂得蛰伏
-- 果断：机会来临时毫不犹豫
+### Protagonist Traits
+- **Cautious**: Thinks three times before acting, does not take risks easily.
+- **Pragmatic**: Values practical benefits, does not pursue a false reputation.
+- **Patient**: Able to bend and stretch, knows when to lie low.
+- **Decisive**: Does not hesitate when an opportunity arises.
 
-### 配角设计
-- 每个配角都有自己的目标和动机
-- 没有绝对的善恶，只有立场不同
-- 即使是敌人也有其可理解的一面
+### Supporting Character Design
+- Every supporting character has their own goals and motivations.
+- There is no absolute good or evil, only different standpoints.
+- Even enemies have their understandable side.
 
-## 情节设计
+## Plot Design
 
-### 悬念设置
-- 每章至少设置一个悬念点
-- 长线伏笔跨越多个章节
-- 悬念回收要合理且出人意料
+### Suspense Setting
+- At least one point of suspense in each chapter.
+- Long-term foreshadowing spans multiple chapters.
+- The resolution of suspense should be reasonable and unexpected.
 
-### 冲突设计
-- 外部冲突：夺宝、追杀、宗门斗争
-- 内部冲突：道心考验、理念冲突
-- 利益冲突：资源争夺、机缘竞争
+### Conflict Design
+- External conflict: treasure hunting, pursuit, sect struggles.
+- Internal conflict: tests of the Dao heart, ideological conflicts.
+- Conflict of interest: resource competition, competition for opportunities.
 
-## 语言风格
+## Language Style
 
-### 用词规范
-- 使用专业的修仙术语
-- 避免现代网络用语
-- 保持古雅而不晦涩的风格
+### Wording Specification
+- Use professional cultivation terminology.
+- Avoid modern internet slang.
+- Maintain an elegant but not obscure style.
 
-### 描写要求
-- 环境描写要有画面感
-- 动作描写要精确具体
-- 对话要符合人物身份
+### Description Requirements
+- Environmental descriptions should be picturesque.
+- Action descriptions should be precise and specific.
+- Dialogue should be consistent with the character's identity.
 
-## 创作禁忌
+## Creation Taboos
 
-### 必须避免
-1. 主角光环过重，轻易获得机缘
-2. 力量体系崩坏，越级挑战过于简单
-3. 人物智商下线，做出不合理行为
-4. 资源获取过易，失去稀缺性
-5. 情节发展过快，缺少铺垫
+### Must be Avoided
+1. The protagonist's plot armor is too strong, easily obtaining opportunities.
+2. The power system collapses, and fighting above one's level is too simple.
+3. The characters' intelligence drops, and they behave unreasonably.
+4. Resources are too easy to obtain, losing their scarcity.
+5. The plot develops too quickly, lacking buildup.
 
-### 谨慎处理
-1. 感情线不宜过于突出
-2. 幽默元素要适度
-3. 现代思维不宜过多
-4. 说教内容要融入情节
+### Handle with Caution
+1. The romantic storyline should not be too prominent.
+2. Humorous elements should be used in moderation.
+3. Modern thinking should not be excessive.
+4. Didactic content should be integrated into the plot.
 
-## 质量标准
+## Quality Standards
 
-### 优秀章节标准
-- 有明确的章节目标
-- 情节推进合理
-- 人物行为逻辑自洽
-- 留有适当悬念
-- 世界观描写充实
+### Excellent Chapter Standard
+- Has a clear chapter goal.
+- The plot advances reasonably.
+- The characters' actions are logically self-consistent.
+- Leaves appropriate suspense.
+- The world-building description is substantial.
 
-### 检查要点
-- [ ] 是否保持了客观叙述？
-- [ ] 是否体现了资源稀缺？
-- [ ] 人物行为是否合理？
-- [ ] 是否设置了悬念？
-- [ ] 力量体系是否一致？
+### Checklist
+- [ ] Is the narrative objective?
+- [ ] Does it reflect the scarcity of resources?
+- [ ] Are the characters' actions reasonable?
+- [ ] Is there suspense?
+- [ ] Is the power system consistent?
 
-## 参考范例
+## Reference Examples
 
-### 标准开头
-"天色渐暗，青山城外的官道上行人稀少。一个身着青衫的少年正不紧不慢地向城门走去，看起来不过十五六岁，相貌平平，唯有一双眼睛格外明亮。"
+### Standard Opening
+"The sky was getting dark, and there were few pedestrians on the official road outside Green Mountain City. A young man in a green shirt was walking unhurriedly towards the city gate. He looked no more than fifteen or sixteen years old, with an ordinary appearance, but his eyes were exceptionally bright."
 
-### 标准战斗
-"两人同时出手，却都留了三分力。在修仙界，保存实力往往比全力以赴更重要。只有在确认能一击必杀时，才会倾尽全力。"
+### Standard Battle
+"The two attacked at the same time, but both held back a third of their strength. In the cultivation world, preserving one's strength was often more important than going all out. Only when one was sure of a one-hit kill would they use their full strength."
 
-### 标准心理
-"韩立表面不动声色，心中却已经快速盘算起来。这枚筑基丹价值三万灵石，但更重要的是，它代表着进入内门的机会。"
+### Standard Psychology
+"On the surface, Han Li was calm, but in his heart, he was already calculating quickly. This Foundation Establishment Pill was worth thirty thousand spirit stones, but more importantly, it represented an opportunity to enter the inner sect."
 
 ---
 
-*本规范将随着创作实践不断完善和更新。*
+*This specification will be continuously improved and updated with creative practice.*

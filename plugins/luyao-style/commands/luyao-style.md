@@ -1,141 +1,141 @@
-# 激活路遥风格创作模式
+# Activate Lu Yao Style Creation Mode
 
-启动现实主义文学创作模式，加载平凡世界的朴实笔触与生命哲思。
+Start the realist literature creation mode, loading the simple brushstrokes and life philosophy of the ordinary world.
 
-## 使用方法
+## Usage
 
 ```
-/luyao-style [选项]
+/luyao-style [options]
 ```
 
-## 选项
+## Options
 
-- `--era <period>` - 时代背景：
-  - `1970s` - 七十年代（生产队时期）
-  - `1980s` - 八十年代（改革开放初期）默认
-  - `1990s` - 九十年代（市场经济时期）
+- `--era <period>` - Time period setting:
+  - `1970s` - The 1970s (the era of production teams)
+  - `1980s` - The 1980s (the early period of reform and opening up) - Default
+  - `1990s` - The 1990s (the era of the market economy)
 
-- `--setting <type>` - 场景设定：
-  - `rural` - 农村（默认）
-  - `urban` - 城市
-  - `mining` - 矿区
-  - `factory` - 工厂
+- `--setting <type>` - Scene setting:
+  - `rural` - Rural (default)
+  - `urban` - Urban
+  - `mining` - Mining area
+  - `factory` - Factory
 
-- `--length <number>` - 章节字数（默认3000）
+- `--length <number>` - Chapter word count (default 3000)
 
-## 功能说明
+## Function Description
 
-激活后将自动：
+After activation, it will automatically:
 
-1. **加载现实主义模板**
-   - 朴实厚重的叙事风格
-   - 平凡人物的生命史诗
-   - 时代变迁的宏大背景
+1. **Load the Realist Template**
+   - A simple and profound narrative style
+   - The life epics of ordinary people
+   - The grand background of a changing era
 
-2. **初始化生活系统**
-   - 生活细节描写库
-   - 陕北方言词汇系统
-   - 时代背景资料库
-   - 民俗风情模板
+2. **Initialize the Life System**
+   - A library of life detail descriptions
+   - A Northern Shaanxi dialect vocabulary system
+   - A database of historical background information
+   - A template for folk customs
 
-3. **配置创作参数**
-   - 现实主义程度：极高
-   - 情感克制度：内敛深沉
-   - 细节密度：丰富真实
-   - 方言使用：适度融入
-   - 希望指数：苦难中见光明
+3. **Configure Creation Parameters**
+   - Degree of realism: Extremely high
+   - Emotional restraint: Introverted and profound
+   - Detail density: Rich and authentic
+   - Dialect usage: Moderately integrated
+   - Hope index: Seeing light in the midst of suffering
 
-4. **启用特色功能**
-   - 生活细节自动融入
-   - 时代印记嵌入
-   - 人物命运追踪
-   - 情感节奏控制
+4. **Enable Special Features**
+   - Automatic integration of life details
+   - Embedding of the imprint of the era
+   - Character destiny tracking
+   - Emotional pacing control
 
-## 示例
+## Example
 
-### 基础激活
+### Basic Activation
 ```
-用户：/luyao-style
-AI：路遥风格模式已激活！
+User: /luyao-style
+AI: Lu Yao style mode activated!
 
-已加载设定：
-✓ 现实主义叙事框架
-✓ 平凡人物塑造系统
-✓ 生活细节描写库
-✓ 陕北方言词汇系统
-✓ 时代背景资料（1980s）
+Settings loaded:
+✓ Realist narrative framework
+✓ Ordinary character creation system
+✓ Library of life detail descriptions
+✓ Northern Shaanxi dialect vocabulary system
+✓ Historical background data (1980s)
 
-风格特征已启用：
-- 朴实无华的语言
-- 内敛深沉的情感
-- 真实细腻的生活描写
-- 苦难中的希望主题
-- 3000字章节输出模式
+Style features enabled:
+- Simple and unadorned language
+- Introverted and profound emotions
+- Authentic and detailed life descriptions
+- The theme of hope in the midst of suffering
+- 3000-word chapter output mode
 
-准备就绪！您可以开始讲述那些平凡而伟大的故事了。
-建议使用 /luyao-write 开始创作。
-```
-
-### 七十年代农村模式
-```
-用户：/luyao-style --era 1970s --setting rural
-AI：路遥风格模式已激活！（七十年代·黄土地）
-
-特别加载：
-✓ 生产队集体劳动场景
-✓ 工分制度与粮票系统
-✓ 知青下乡背景
-✓ 传统农村生活细节
-✓ 朴素的革命理想主义
-
-时代特征：
-- 集体主义精神
-- 物质极度匮乏
-- 精神追求纯粹
-- 劳动创造价值
-
-黄土地上的故事，等待您的书写。
+Ready to go! You can start telling those ordinary yet great stories.
+It is recommended to use /luyao-write to start creating.
 ```
 
-### 九十年代城市转型
+### 1970s Rural Mode
 ```
-用户：/luyao-style --era 1990s --setting urban
-AI：路遥风格模式已激活！（九十年代·城市变革）
+User: /luyao-style --era 1970s --setting rural
+AI: Lu Yao style mode activated! (1970s · Loess Land)
 
-特别加载：
-✓ 下岗再就业背景
-✓ 个体经济兴起
-✓ 城市化进程加速
-✓ 打工潮与创业潮
-✓ 传统与现代的碰撞
+Special loading:
+✓ Production team collective labor scenes
+✓ Work point system and grain coupon system
+✓ Background of educated youth going to the countryside
+✓ Details of traditional rural life
+✓ Simple revolutionary idealism
 
-时代脉搏：
-- 市场经济大潮
-- 个人奋斗精神
-- 机遇与挑战并存
-- 梦想与现实交织
+Characteristics of the era:
+- The spirit of collectivism
+- Extreme material scarcity
+- Pure spiritual pursuits
+- The value of labor creation
 
-城市化浪潮中的人生百态，静待您的刻画。
+The stories of the loess land await your writing.
 ```
 
-## 注意事项
+### 1990s Urban Transition
+```
+User: /luyao-style --era 1990s --setting urban
+AI: Lu Yao style mode activated! (1990s · Urban Change)
 
-- 本模式特别适合现实主义、乡土文学题材
-- 强调真实性，所有细节需符合时代逻辑
-- 注重情感的含蓄表达，避免直白煽情
-- 始终保持对普通人的深切关怀
+Special loading:
+✓ Background of laid-off workers finding new employment
+✓ The rise of the private economy
+✓ The acceleration of urbanization
+✓ The tide of migrant workers and entrepreneurship
+✓ The collision of tradition and modernity
 
-## 高级技巧
+The pulse of the era:
+- The tide of the market economy
+- The spirit of individual struggle
+- The coexistence of opportunities and challenges
+- The interweaving of dreams and reality
 
-1. **时代融入**：让时代背景成为故事的一部分
-2. **细节真实**：用生活细节构建可信世界
-3. **情感克制**：最深的情感用最简单的方式表达
-4. **希望主题**：在最困难的境地也要有一丝光亮
+The various aspects of life in the wave of urbanization await your portrayal.
+```
 
-## 相关命令
+## Notes
 
-- `/luyao-write` - 开始现实主义创作
-- `/luyao-character` - 塑造平凡人物
-- `/luyao-detail` - 生成生活细节
-- `/luyao-dialogue` - 创作乡土对话
-- `/expert luyao-master` - 召唤路遥大师
+- This mode is particularly suitable for realist and rural literature themes.
+- Emphasizes authenticity; all details must conform to the logic of the era.
+- Focuses on the subtle expression of emotions, avoiding direct sentimentality.
+- Always maintains a deep concern for ordinary people.
+
+## Advanced Techniques
+
+1. **Era Integration**: Make the historical background a part of the story.
+2. **Authentic Details**: Build a believable world with life details.
+3. **Emotional Restraint**: Express the deepest emotions in the simplest way.
+4. **Theme of Hope**: There must be a glimmer of light even in the most difficult situations.
+
+## Related Commands
+
+- `/luyao-write` - Start realist creation.
+- `/luyao-character` - Create ordinary characters.
+- `/luyao-detail` - Generate life details.
+- `/luyao-dialogue` - Create rural dialogue.
+- `/expert luyao-master` - Summon Master Lu Yao.

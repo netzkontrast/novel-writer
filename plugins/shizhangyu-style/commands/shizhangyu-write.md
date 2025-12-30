@@ -1,128 +1,128 @@
-# 石章鱼风格史诗创作
+# Shi Zhangyu Style Epic Creation
 
-使用石章鱼风格创作20000字以上的史诗级章节，融合宏大叙事、深邃权谋、鲜活人物。
+Use the Shi Zhangyu style to create an epic chapter of over 20,000 words, integrating grand narratives, profound power struggles, and vivid characters.
 
-## 使用方法
+## Usage
 
 ```
-/shizhangyu-write <类型> [描述]
+/shizhangyu-write <type> [description]
 ```
 
-## 内容类型
+## Content Types
 
-- `opening` - 开篇章节（强钩子）
-- `court` - 朝堂风云
-- `battle` - 战争场面
-- `intrigue` - 权谋密室
-- `revelation` - 真相揭露
-- `climax` - 高潮冲突
-- `finale` - 大结局
-- `chapter` - 标准章节
+- `opening` - Opening chapter (strong hook)
+- `court` - Court intrigue
+- `battle` - Battle scene
+- `intrigue` - Chamber of power struggles
+- `revelation` - The revealing of truth
+- `climax` - Climax conflict
+- `finale` - The grand finale
+- `chapter` - Standard chapter
 
-## 示例用法
+## Example Usage
 
-### 创作开篇章节
+### Creating an Opening Chapter
 ```
-用户：/shizhangyu-write opening 大唐永徽六年，一场改变历史的刺杀
+User: /shizhangyu-write opening An assassination that changed history in the sixth year of the Yonghui era of the Tang Dynasty
 
-AI：
-第一章 血染未央
+AI:
+Chapter 1: Blood Stains Weiyang
 
-永徽六年，长安。
+In the sixth year of Yonghui, Chang'an.
 
-子时三刻，含元殿外的石阶上，一滴血悄无声息地滴落，在月光下泛着诡异的暗红。
+At the third watch of the Zi hour, a drop of blood fell silently on the stone steps outside the Hanyuan Hall, glowing with a strange dark red in the moonlight.
 
-李淳风停下脚步，他那双看透天机的眼睛微微眯起。作为大唐司天监，他本该在钦天监观星，但今夜的星象让他不得不冒死入宫。紫微星暗淡，帝星摇曳，而最让他心惊的是，一颗原本不该出现的客星，正缓缓逼近帝座。
+Li Chunfeng stopped. His eyes, which could see through the secrets of heaven, narrowed slightly. As the Director of the Imperial Observatory of the Great Tang, he should have been observing the stars at the observatory, but tonight's celestial phenomena forced him to enter the palace at the risk of his life. The Ziwei star was dim, the Emperor star was wavering, and what shocked him the most was that a guest star that should not have appeared was slowly approaching the Emperor's seat.
 
-"有人要弑君。"这个念头刚在他脑中闪过，远处便传来一声压抑的闷哼。
+"Someone is going to assassinate the emperor." The thought had just flashed through his mind when a suppressed groan came from a distance.
 
-[继续20000字的精彩内容...]
-```
-
-### 创作权谋场景
-```
-用户：/shizhangyu-write intrigue 三方势力的秘密会谈
-
-AI：
-第十七章 三国弈局
-
-建安十三年，许昌城外二十里，废弃的青云观。
-
-三盏灯火，三张面孔，三个足以改变天下格局的人物。
-
-曹操的谋士郭嘉端坐东位，他咳嗽了两声，殷红的血丝在丝帕上绽开。众人都知道，这位被称为"鬼才"的谋士命不久矣，但谁也不敢小觑一个将死之人的最后布局。
-
-南位上，周瑜负手而立，三十二岁的他正值壮年，眼中闪烁着的光芒如长江之水，深不可测。作为孙权的左膀右臂，他今夜的出现本身就是一个危险的信号。
-
-西位空了半刻，才有人施施然入座。来者一袭青衫，羽扇纶巾，正是刘备的军师诸葛亮。二十七岁的卧龙初出茅庐不过一年，却已经搅动了半个天下。
-
-"三位今夜相聚，所为何事？"郭嘉率先开口，声音虚弱却暗藏机锋。
-
-[继续展开三方博弈的精彩内容，总计20000字...]
+[Continue with 20,000 words of exciting content...]
 ```
 
-### 创作战争场面
+### Creating a Power Struggle Scene
 ```
-用户：/shizhangyu-write battle 官渡之战最后一夜
+User: /shizhangyu-write intrigue A secret meeting of three forces
 
-AI：
-第二十三章 官渡血夜
+AI:
+Chapter 17: The Three Kingdoms Game
 
-建安五年九月，官渡。
+In the thirteenth year of Jian'an, twenty miles outside Xuchang city, in the abandoned Qingyun Temple.
 
-战鼓如雷，血月当空。
+Three lamps, three faces, three figures that could change the pattern of the world.
 
-袁绍大营中，七十万大军已经完成集结。这是他倾尽河北四州之力聚集的军队，单是看着那连绵不绝的营帐，就足以让任何敌人胆寒。
+Cao Cao's strategist, Guo Jia, sat in the east. He coughed twice, and crimson blood blossomed on his silk handkerchief. Everyone knew that this strategist, known as the "ghost talent," was not long for this world, but no one dared to underestimate the final layout of a dying man.
 
-"今夜，便是曹阿瞒的死期！"袁绍站在帅台之上，他那张原本儒雅的脸上，此刻满是狰狞。三个月的对峙，十万石粮草的消耗，还有许攸的背叛，这一切都让这位河北霸主失去了往日的从容。
+In the south, Zhou Yu stood with his hands behind his back. At thirty-two, he was in his prime, and the light in his eyes was as deep and unfathomable as the Yangtze River. As Sun Quan's right-hand man, his appearance tonight was a dangerous signal in itself.
 
-就在此时，中军大帐外传来一阵骚动。
+The west seat was empty for a moment before someone leisurely took a seat. The newcomer was dressed in a green robe, with a feather fan and a silk scarf, and it was none other than Liu Bei's military advisor, Zhuge Liang. At twenty-seven, the Crouching Dragon had only been out of his thatched cottage for a year, but he had already stirred up half the world.
 
-"报！乌巢方向火起！"
+"Why have the three of you gathered here tonight?" Guo Jia was the first to speak, his voice weak but with a hidden edge.
 
-这六个字如同晴天霹雳，瞬间让袁绍的脸色变得惨白。乌巢，那是他屯放粮草的要地，那里有支撑七十万大军一个月的军粮！
-
-[继续描写官渡之战的惊心动魄，包含多个视角、多条战线，总计20000字...]
+[Continue to unfold the exciting content of the three-way game, totaling 20,000 words...]
 ```
 
-## 创作特色
+### Creating a Battle Scene
+```
+User: /shizhangyu-write battle The last night of the Battle of Guandu
 
-### 必备元素
-1. **开篇钩子**：前500字必须抓住读者
-2. **多线并进**：至少3条剧情线交织
-3. **权谋较量**：智慧的交锋和算计
-4. **人物刻画**：每个人物都有独特魅力
-5. **伏笔布设**：每章至少5个伏笔
-6. **高潮设置**：3个高潮点合理分布
-7. **悬念结尾**：章节结尾留下强悬念
+AI:
+Chapter 23: The Bloody Night of Guandu
 
-### 语言要求
-- 叙述凝练有力，富有画面感
-- 对话个性鲜明，符合人物身份
-- 古代背景融入诗词典故
-- 现代背景使用专业术语
-- 战斗场面热血激昂
-- 权谋对话暗藏机锋
+In the ninth month of the fifth year of Jian'an, at Guandu.
 
-## 输出规范
+The war drums were like thunder, and a blood moon hung in the sky.
 
-- **字数要求**：严格不少于20000字
-- **段落控制**：每段100-300字
-- **对话比例**：占总文30-40%
-- **场景描写**：占总文20-30%
-- **心理描写**：占总文10-15%
-- **情节推进**：占总文30-40%
+In Yuan Shao's camp, an army of 700,000 had already assembled. This was an army gathered with the full strength of the four provinces of Hebei. Just looking at the endless line of tents was enough to make any enemy tremble with fear.
 
-## 配置选项
+"Tonight is the night of Cao Aman's death!" Yuan Shao stood on the command platform, his originally refined face now full of ferocity. Three months of confrontation, the consumption of 100,000 shi of grain, and the betrayal of Xu You had all made this overlord of Hebei lose his former composure.
 
-- `--perspective <type>` - 视角选择（全知/限制）
-- `--pace <speed>` - 节奏控制（紧凑/舒缓/均衡）
-- `--focus <element>` - 重点要素（情节/人物/氛围）
-- `--foreshadow-density <1-10>` - 伏笔密度
+At this moment, a commotion came from outside the central tent.
 
-## 相关命令
+"Report! There's a fire in the direction of Wuchao!"
 
-- `/shizhangyu-style` - 激活风格模式
-- `/shizhangyu-plot` - 设计权谋情节
-- `/shizhangyu-character` - 人物深度塑造
-- `/shizhangyu-foreshadow` - 伏笔管理
+These six words were like a bolt from the blue, instantly turning Yuan Shao's face pale. Wuchao was the vital place where he stored his grain, and it held enough military supplies to support his 700,000-strong army for a month!
+
+[Continue to describe the thrilling Battle of Guandu, including multiple perspectives and multiple battle lines, totaling 20,000 words...]
+```
+
+## Creation Features
+
+### Essential Elements
+1. **Opening Hook**: Must grab the reader within the first 500 words.
+2. **Multiple Storylines**: At least 3 storylines intertwined.
+3. **Power Struggles**: The confrontation and calculation of wisdom.
+4. **Character Portrayal**: Each character has a unique charm.
+5. **Foreshadowing**: At least 5 instances of foreshadowing in each chapter.
+6. **Climax Setting**: 3 climax points reasonably distributed.
+7. **Suspenseful Ending**: The chapter ends with a strong cliffhanger.
+
+### Language Requirements
+- The narrative is concise, powerful, and visually rich.
+- The dialogue is distinctive and consistent with the characters' identities.
+- Ancient settings incorporate poetry and classical allusions.
+- Modern settings use professional terminology.
+- Battle scenes are passionate and exciting.
+- Power struggle dialogues are full of hidden meanings.
+
+## Output Specifications
+
+- **Word Count Requirement**: Strictly no less than 20,000 words.
+- **Paragraph Control**: 100-300 words per paragraph.
+- **Dialogue Ratio**: 30-40% of the total text.
+- **Scene Description**: 20-30% of the total text.
+- **Psychological Description**: 10-15% of the total text.
+- **Plot Advancement**: 30-40% of the total text.
+
+## Configuration Options
+
+- `--perspective <type>` - Perspective selection (omniscient/limited)
+- `--pace <speed>` - Pacing control (tight/leisurely/balanced)
+- `--focus <element>` - Key element (plot/character/atmosphere)
+- `--foreshadow-density <1-10>` - Foreshadowing density
+
+## Related Commands
+
+- `/shizhangyu-style` - Activate the style mode.
+- `/shizhangyu-plot` - Design a power struggle plot.
+- `/shizhangyu-character` - In-depth character creation.
+- `/shizhangyu-foreshadow` - Foreshadowing management.

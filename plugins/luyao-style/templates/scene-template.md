@@ -1,127 +1,127 @@
-# 路遥风格场景模板
+# Lu Yao Style Scene Template
 
-## 场景基本信息
+## Scene Basic Information
 
-**场景名称**：[例：麦收时节]
-**时间设定**：[具体时间，如：1982年夏天清晨]
-**地点设定**：[具体地点，如：双水村麦田]
-**天气状况**：[例：晨雾未散，露水很重]
-**场景氛围**：[例：忙碌、紧张、喜悦]
+**Scene Name**: [e.g., The Wheat Harvest Season]
+**Time Setting**: [Specific time, e.g., A summer morning in 1982]
+**Location Setting**: [Specific location, e.g., The wheat fields of Shuangshui Village]
+**Weather Conditions**: [e.g., The morning mist has not yet dispersed, the dew is heavy]
+**Scene Atmosphere**: [e.g., Busy, tense, joyful]
 
-## 参与人物
+## Participating Characters
 
-### 主要人物
-- **人物一**：[姓名]，[身份]，[状态]
-- **人物二**：[姓名]，[身份]，[状态]
+### Main Characters
+- **Character One**: [Name], [Identity], [Status]
+- **Character Two**: [Name], [Identity], [Status]
 
-### 次要人物
-- [列出背景人物]
+### Secondary Characters
+- [List background characters]
 
-## 环境描写
+## Environmental Description
 
-### 视觉元素
-- **远景**：[例：连绵起伏的黄土高原]
-- **中景**：[例：梯田上的麦浪]
-- **近景**：[例：地头的枣树]
+### Visual Elements
+- **Distant View**: [e.g., The rolling Loess Plateau]
+- **Middle View**: [e.g., The waves of wheat on the terraced fields]
+- **Close-up View**: [e.g., The jujube tree at the edge of the field]
 
-### 听觉元素
-- **自然声**：[例：风吹麦浪的沙沙声]
-- **人声**：[例：此起彼伏的喊话声]
-- **器物声**：[例：镰刀割麦的咔咔声]
+### Auditory Elements
+- **Natural Sounds**: [e.g., The rustling sound of the wind blowing through the wheat]
+- **Human Voices**: [e.g., The rising and falling shouts]
+- **Object Sounds**: [e.g., The cracking sound of sickles cutting wheat]
 
-### 嗅觉元素
-- [例：成熟麦子的香味]
-- [例：新翻泥土的气息]
+### Olfactory Elements
+- [e.g., The fragrance of ripe wheat]
+- [e.g., The smell of freshly turned earth]
 
-### 触觉元素
-- [例：阳光的炽热]
-- [例：汗水的黏腻]
+### Tactile Elements
+- [e.g., The scorching heat of the sun]
+- [e.g., The stickiness of sweat]
 
-## 事件发展
+## Event Development
 
-### 场景开端
-[描述场景如何开始，人物如何出场]
+### Scene Beginning
+[Describe how the scene begins and how the characters enter]
 
-### 事件进程
-1. **阶段一**：[初始状态]
-2. **阶段二**：[发展变化]
-3. **阶段三**：[情绪转折]
+### Event Process
+1. **Phase One**: [Initial state]
+2. **Phase Two**: [Development and change]
+3. **Phase Three**: [Emotional turning point]
 
-### 场景高潮
-[描述场景的最强烈时刻]
+### Scene Climax
+[Describe the most intense moment of the scene]
 
-### 场景结尾
-[描述场景如何收尾，留下什么印象]
+### Scene Ending
+[Describe how the scene ends and what impression it leaves]
 
-## 生活细节
+## Life Details
 
-### 劳动细节
-1. **工具使用**：[例：磨镰刀的动作]
-2. **劳动姿态**：[例：弯腰割麦的姿势]
-3. **劳动节奏**：[例：休息喝水的间隙]
+### Labor Details
+1. **Tool Use**: [e.g., The motion of sharpening a sickle]
+2. **Labor Posture**: [e.g., The posture of bending over to cut wheat]
+3. **Labor Rhythm**: [e.g., The intervals for resting and drinking water]
 
-### 饮食细节
-1. **食物描写**：[例：黄馒馒、小米粥]
-2. **饮食动作**：[例：狼吞虎咽]
-3. **饮食文化**：[例：分食顺序]
+### Food Details
+1. **Food Description**: [e.g., Yellow steamed buns, millet porridge]
+2. **Eating Actions**: [e.g., Gobbling down food]
+3. **Food Culture**: [e.g., The order of serving food]
 
-### 服饰细节
-1. **衣物样式**：[例：打补丁的蓝布衫]
-2. **穿着状态**：[例：被汗水浸透]
-3. **装饰物品**：[例：用布条扎的腰带]
+### Clothing Details
+1. **Clothing Style**: [e.g., A patched blue cloth shirt]
+2. **Clothing Condition**: [e.g., Soaked with sweat]
+3. **Accessories**: [e.g., a belt tied with a cloth strip]
 
-### 器物细节
-1. **家具摆设**：[例：炕头上的被褥]
-2. **生活用品**：[例：搪瓷的水缸]
-3. **劳动工具**：[例：磨得光亮的锄把]
+### Object Details
+1. **Furniture**: [e.g., The bedding on the kang (a heated brick bed)]
+2. **Daily Necessities**: [e.g., an enamel water vat]
+3. **Labor Tools**: [e.g., a hoe handle polished smooth from use]
 
-## 对话设计
+## Dialogue Design
 
-### 核心对话
-[设计3-5句推动情节的关键对话]
+### Core Dialogue
+[Design 3-5 key lines of dialogue that advance the plot]
 
-### 背景对话
-[设计2-3句烘托氛围的对话]
+### Background Dialogue
+[Design 2-3 lines of dialogue that enhance the atmosphere]
 
-### 方言运用
-- **常用词汇**：[例：咱、啥、哩]
-- **口头禅**：[例："日子会好的"]
-- **表达习惯**：[例：句末加"着哩"]
+### Use of Dialect
+- **Common Vocabulary**: [e.g.,咱 (we),啥 (what),哩 (a particle)]
+- **Catchphrases**: [e.g., "Life will get better"]
+- **Expression Habits**: [e.g., adding "着哩" at the end of a sentence]
 
-## 情感表达
+## Emotional Expression
 
-### 人物情绪
-- **表层情绪**：[例：疲惫但满足]
-- **内在情绪**：[例：对未来的希望]
-- **情绪变化**：[例：从担心到喜悦]
+### Character Emotions
+- **Surface Emotions**: [e.g., Tired but satisfied]
+- **Inner Emotions**: [e.g., Hope for the future]
+- **Emotional Changes**: [e.g., From worry to joy]
 
-### 情感传达
-- **动作传达**：[例：默默递过水壶]
-- **语言传达**：[例：含蓄的关心]
-- **细节传达**：[例：留下最好的食物]
+### Conveying Emotions
+- **Through Actions**: [e.g., Silently passing a water kettle]
+- **Through Language**: [e.g., Subtle expressions of care]
+- **Through Details**: [e.g., Leaving the best food for someone]
 
-## 象征元素
+## Symbolic Elements
 
-### 自然象征
-- [例：麦子=收获与希望]
-- [例：黄土=生命与根基]
+### Natural Symbols
+- [e.g., Wheat = Harvest and hope]
+- [e.g., Loess = Life and roots]
 
-### 物品象征
-- [例：锄头=劳动与创造]
-- [例：灯光=知识与前途]
+### Object Symbols
+- [e.g., Hoe = Labor and creation]
+- [e.g., Lamp = Knowledge and future]
 
-## 创作提示
+## Creation Tips
 
-1. **真实性**：所有细节必须符合生活逻辑
-2. **画面感**：让读者能"看到"场景
-3. **节奏把控**：张弛有度，留有呼吸空间
-4. **情感克制**：不过度渲染，点到为止
-5. **主题体现**：通过场景传达故事主题
+1. **Authenticity**: All details must conform to the logic of life.
+2. **Imagery**: Let the reader "see" the scene.
+3. **Pacing Control**: A good balance of tension and relaxation, with room to breathe.
+4. **Emotional Restraint**: Do not over-render; a light touch is enough.
+5. **Theme Embodiment**: Convey the story's theme through the scene.
 
-## 范例片段
+## Example Snippet
 
 ```
-太阳刚从东山梁上露出脸，露水还挂在麦穗上，在朝阳下闪着碎钻般的光。
-田福堂直起腰，用袖子抹了一把额头的汗，看着那一片金黄，心里涌起一阵说不出的滋味。
-这是包产到户后的第一个麦收，也是他们家第一次为自己收麦子。
+The sun had just shown its face from the eastern mountain ridge, and dew still hung on the ears of wheat, glittering like crushed diamonds in the morning sun.
+Tian Futang straightened his back, wiped the sweat from his forehead with his sleeve, and looked at the golden expanse, a indescribable feeling welling up in his heart.
+This was the first wheat harvest after the implementation of the household responsibility system, and it was also the first time his family was harvesting wheat for themselves.
 ```

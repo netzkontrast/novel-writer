@@ -1,242 +1,242 @@
-# 人物塑造工坊
+# Character Creation Workshop
 
-打造石章鱼式立体丰满、个性鲜明、令人难忘的人物群像。
+Crafting three-dimensional, full, distinctive, and unforgettable characters in the style of Shi Zhangyu.
 
-## 使用方法
+## Usage
 
 ```
-/shizhangyu-character <类型> [名字] [描述]
+/shizhangyu-character <type> [name] [description]
 ```
 
-## 人物类型
+## Character Types
 
-- `protagonist` - 主角设计
-- `antagonist` - 反派塑造
-- `advisor` - 谋士军师
-- `warrior` - 武将豪杰
-- `noble` - 贵族权臣
-- `merchant` - 商贾巨富
-- `scholar` - 文人学者
-- `beauty` - 红颜知己
-- `group` - 群像设计
+- `protagonist` - Protagonist design
+- `antagonist` - Antagonist creation
+- `advisor` - Strategist/military advisor
+- `warrior` - Martial hero
+- `noble` - Noble/powerful courtier
+- `merchant` - Wealthy merchant
+- `scholar` - Scholar/intellectual
+- `beauty` - Female confidante
+- `group` - Group of characters design
 
-## 塑造维度
+## Creation Dimensions
 
-### 1. 基础档案
-- 姓名、年龄、身份、出身
-- 外貌特征、标志性装扮
-- 性格特质、行为习惯
-- 优点缺陷、心理阴影
+### 1. Basic Profile
+- Name, age, identity, origin
+- Physical appearance, signature attire
+- Personality traits, behavioral habits
+- Strengths and weaknesses, psychological scars
 
-### 2. 深层设计
-- 核心欲望和终极目标
-- 成长经历和转折点
-- 价值观和道德底线
-- 恐惧什么、追求什么
+### 2. In-depth Design
+- Core desire and ultimate goal
+- Life experience and turning points
+- Values and moral bottom line
+- What they fear, what they pursue
 
-### 3. 语言个性
-- 口头禅和习惯用语
-- 说话节奏和语气
-- 文化水平的体现
-- 情绪变化的表达
+### 3. Language Personality
+- Catchphrases and habitual expressions
+- Speech rhythm and tone
+- Reflection of education level
+- Expression of emotional changes
 
-### 4. 关系网络
-- 家族背景和血缘
-- 师承关系和门派
-- 政治立场和阵营
-- 恩怨情仇和纠葛
+### 4. Relationship Network
+- Family background and blood ties
+- Master-disciple relationships and sects
+- Political stance and faction
+- Grudges, romances, and entanglements
 
-## 示例用法
+## Example Usage
 
-### 塑造复杂主角
+### Creating a Complex Protagonist
 ```
-用户：/shizhangyu-character protagonist 陈平安 寒门出身的朝堂新贵
+User: /shizhangyu-character protagonist Chen Ping'an A new court favorite from a humble background
 
-AI：
-【人物档案：陈平安】
+AI:
+【Character Profile: Chen Ping'an】
 
-基础信息
+Basic Information
 ━━━━━━━━━━━━━━━━━━
-姓名：陈平安
-年龄：28岁
-身份：吏部侍郎（正四品）
-出身：江南寒门，十年寒窗考中状元
+Name: Chen Ping'an
+Age: 28
+Identity: Vice Minister of the Ministry of Personnel (Fourth Rank)
+Origin: From a humble family in Jiangnan, became the top scholar after ten years of hard study.
 
-外貌特征：
-- 身高七尺三寸，清瘦儒雅
-- 一双眼睛深邃如潭，能洞察人心
-- 左眉有一道不易察觉的疤痕（少年时为救母所伤）
-- 常着青色儒衫，腰悬玉佩（亡父遗物）
+Physical Appearance:
+- Seven feet three inches tall, slender and refined
+- A pair of eyes as deep as a pool, able to see through people's hearts
+- A barely noticeable scar on his left eyebrow (from an injury sustained while saving his mother as a youth)
+- Often wears a green scholar's robe, with a jade pendant hanging from his waist (a relic of his late father)
 
-性格画像：
-表层性格：
-- 谦逊有礼，进退有度
-- 看似温和，实则果决
-- 善于倾听，少言寡语
+Personality Profile:
+Superficial Personality:
+- Humble and polite, knows when to advance and retreat
+- Appears gentle, but is actually decisive
+- A good listener, a man of few words
 
-深层性格：
-- 极度理性，近乎冷酷
-- 对权力有着本能的渴望
-- 内心深处的自卑与自傲并存
-- 为达目的可以忍辱负重
+Deep Personality:
+- Extremely rational, almost to the point of being cold
+- Has an instinctive desire for power
+- A mix of deep-seated inferiority and pride
+- Can endure humiliation to achieve his goals
 
-核心驱动：
-终极目标：改变寒门子弟的命运，打破世家垄断
-表面追求：官至宰相，权倾朝野
-内心恐惧：重回贫寒，母亲失望
-道德底线：不害无辜妇孺
+Core Drive:
+Ultimate Goal: To change the fate of scholars from humble backgrounds and break the monopoly of the aristocratic families.
+Apparent Pursuit: To become the prime minister and hold immense power.
+Inner Fear: To return to poverty, to disappoint his mother.
+Moral Bottom Line: Will not harm innocent women and children.
 
-语言特色：
-官场语言：
-"下官以为，此事需从长计议，诸位大人意下如何？"
-（谦逊但不卑微，留有余地）
+Language Style:
+Official Language:
+"This humble official believes that this matter needs to be considered in the long run. What do you esteemed sirs think?"
+(Humble but not subservient, leaves room for maneuver)
 
-私下交谈：
-"这天下，终究是要变的。"
-（简短有力，暗含深意）
+Private Conversation:
+"This world will eventually change."
+(Short and powerful, with deep meaning)
 
-激动时刻：
-"我用十年寒窗换来的功名，凭什么要向你们这些靠祖荫的蛀虫低头！"
-（压抑已久的愤怒爆发）
+Excited Moment:
+"I exchanged ten years of hard study for my official position. Why should I bow to you parasites who rely on your ancestors!"
+(An outburst of long-suppressed anger)
 
-标志性动作：
-- 思考时会无意识地摩挲玉佩
-- 说谎时右手食指会轻微颤动
-- 愤怒时会特别平静，声音放低
+Signature Actions:
+- Unconsciously rubs his jade pendant when thinking.
+- His right index finger trembles slightly when he lies.
+- Becomes especially calm and lowers his voice when angry.
 
-关系网络：
-mentor（恩师）：前朝宰相李靖山（已故）
-- 传授其权谋之术
-- 留下政治遗产和人脉
+Relationship Network:
+Mentor: The former prime minister, Li Jingshan (deceased)
+- Taught him the art of power struggles
+- Left him a political legacy and network
 
-ally（盟友）：户部尚书王承恩
-- 利益结合，相互利用
-- 表面和睦，暗中提防
+Ally: The Minister of Revenue, Wang Cheng'en
+- A relationship of mutual benefit and use
+- Seemingly harmonious, but secretly wary of each other
 
-rival（宿敌）：世家代表崔家
-- 阻挡其改革之路
-- 多次交锋，互有胜负
+Rival: The Cui family, representing the aristocratic families
+- Obstructs his path to reform
+- Have clashed many times, with wins and losses on both sides
 
-lover（红颜）：歌姬苏婉儿
-- 唯一能看透他的人
-- 既是软肋，也是救赎
+Lover: The songstress, Su Wan'er
+- The only one who can see through him
+- Both his weakness and his salvation
 
-成长弧线：
-第一阶段：理想主义者
-- 相信科举可以改变一切
-- 初入官场，锋芒毕露
+Growth Arc:
+Phase 1: Idealist
+- Believes that the imperial examinations can change everything
+- Enters the officialdom with sharp edges
 
-第二阶段：现实磨砺
-- 认识到体制的残酷
-- 学会妥协和隐忍
+Phase 2: Tempered by Reality
+- Realizes the cruelty of the system
+- Learns to compromise and endure
 
-第三阶段：权谋大师
-- 掌握游戏规则
-- 开始反击和布局
+Phase 3: Master of Power Struggles
+- Masters the rules of the game
+- Begins to counterattack and plan
 
-第四阶段：价值重塑
-- 在权力顶峰的迷失
-- 最终的选择和救赎
+Phase 4: Reevaluation of Values
+- Gets lost at the pinnacle of power
+- The final choice and redemption
 
-独特设定：
-- 有过目不忘的本领
-- 懂得察言观色，能预判他人
-- 表面不通武艺，实则暗藏杀招
-- 布局能力极强，常有后手
+Unique Settings:
+- Has a photographic memory.
+- Is skilled at reading people and predicting their actions.
+- Appears to be unskilled in martial arts, but secretly has a deadly move.
+- Has a strong ability to plan, often with a backup plan.
 ```
 
-### 设计群像人物
+### Designing a Group of Characters
 ```
-用户：/shizhangyu-character group 四大谋士
+User: /shizhangyu-character group The Four Great Strategists
 
-AI：
-【群像设计：四大谋士】
+AI:
+【Group Design: The Four Great Strategists】
 
-"智绝"诸葛明
+"The Unrivaled Intellect" Zhuge Ming
 ━━━━━━━━━━━━
-年龄：45岁
-特征：羽扇纶巾，仙风道骨
-性格：算无遗策，但过于谨慎
-语言："天下大势，分久必合，合久必分"
-绝技：观星测算，预知天机
-弱点：重情重义，为友可以牺牲大局
+Age: 45
+Features: Feather fan and silk scarf, an air of immortality
+Personality: Flawless in his calculations, but overly cautious
+Language: "The great trend of the world is that what has been long divided must unite, and what has been long united must divide."
+Special Skill: Observing the stars to predict the future
+Weakness: Too sentimental, can sacrifice the greater good for a friend.
 
-"毒士"贾诩
+"The Poisonous Scholar" Jia Xu
 ━━━━━━━━━━━━
-年龄：52岁
-特征：面色阴沉，目光如鹰
-性格：老谋深算，明哲保身
-语言："明公，保命要紧啊"
-绝技：毒计百出，专攻人心
-弱点：过于自私，缺少忠诚
+Age: 52
+Features: Gloomy face, eyes like a hawk
+Personality: Cunning and calculating, always looking out for himself
+Language: "My lord, survival is the most important thing."
+Special Skill: A hundred poisonous schemes, specializes in manipulating people's hearts
+Weakness: Too selfish, lacks loyalty.
 
-"鬼才"郭嘉
+"The Ghost Talent" Guo Jia
 ━━━━━━━━━━━━
-年龄：33岁（病弱）
-特征：面色苍白，经常咳血
-性格：狂放不羁，料事如神
-语言："人生得一知己足矣"
-绝技：奇谋妙计，出其不意
-弱点：身体病弱，时日无多
+Age: 33 (frail)
+Features: Pale face, often coughs up blood
+Personality: Unrestrained and unconventional, godlike in his predictions
+Language: "To have one true friend in life is enough."
+Special Skill: Brilliant and unexpected strategies
+Weakness: Frail health, not much time left.
 
-"谋圣"张良
+"The Sage of Strategy" Zhang Liang
 ━━━━━━━━━━━━
-年龄：38岁
-特征：容貌清秀，气质出尘
-性格：淡泊名利，运筹帷幄
-语言："功成身退，天之道也"
-绝技：借势而为，四两拨千斤
-弱点：过于理想，不够狠辣
+Age: 38
+Features: Handsome appearance, otherworldly temperament
+Personality: Indifferent to fame and fortune, plans from a thousand miles away
+Language: "To retire after achieving success is the way of heaven."
+Special Skill: Using the situation to his advantage, deflecting a thousand pounds with four ounces
+Weakness: Too idealistic, not ruthless enough.
 
-四人关系动态：
-- 诸葛明与郭嘉：惺惺相惜，却因立场敌对
-- 贾诩与张良：理念相反，一个自私一个无私
-- 郭嘉与贾诩：都是现实主义，但手段不同
-- 张良与诸葛明：都有理想，但选择不同
+Group Dynamics:
+- Zhuge Ming and Guo Jia: Admire each other, but are on opposing sides.
+- Jia Xu and Zhang Liang: Opposing philosophies, one selfish and one selfless.
+- Guo Jia and Jia Xu: Both are realists, but their methods differ.
+- Zhang Liang and Zhuge Ming: Both have ideals, but they make different choices.
 
-对话风格对比：
-讨论同一问题"是否应该刺杀敌方主将"
+Dialogue Style Comparison:
+Discussing the same question: "Should we assassinate the enemy's commander?"
 
-诸葛明："此计虽可成，但有违道义，恐失民心。"
-贾诩："能杀则杀，管他什么道义。"
-郭嘉："杀一人而安天下，何乐不为？"
-张良："不战而屈人之兵，善之善者也。"
+Zhuge Ming: "This plan can succeed, but it is against righteousness and we may lose the people's support."
+Jia Xu: "If we can kill him, we kill him. Who cares about righteousness."
+Guo Jia: "To bring peace to the world by killing one man, why not do it?"
+Zhang Liang: "To subdue the enemy without fighting is the acme of skill."
 ```
 
-## 高级功能
+## Advanced Features
 
-### 人物关系生成器
-自动生成复杂的人物关系网：
-- 血缘关系链
-- 利益关系网
-- 情感纠葛线
-- 恩怨情仇谱
+### Character Relationship Generator
+Automatically generates a complex network of character relationships:
+- Blood relationship chains
+- Networks of interests
+- Lines of emotional entanglement
+- A谱 of grudges and romances
 
-### 语言个性化器
-为每个人物定制独特语言：
-- 教养水平体现
-- 地域方言特色
-- 职业术语使用
-- 情绪表达方式
+### Language Personalizer
+Customizes a unique language for each character:
+- Reflection of education level
+- Regional dialect features
+- Use of professional terminology
+- Ways of expressing emotions
 
-### 成长轨迹设计
-规划人物的完整成长线：
-- 关键转折点
-- 性格变化节点
-- 能力提升曲线
-- 价值观演变
+### Growth Trajectory Design
+Plans the complete growth arc of a character:
+- Key turning points
+- Nodes of personality change
+- Ability improvement curve
+- Evolution of values
 
-## 输出要素
+## Output Elements
 
-1. **外在形象**：让读者一眼记住
-2. **内在性格**：复杂立体不扁平
-3. **独特语言**：一开口就能认出
-4. **行为逻辑**：符合性格和经历
-5. **成长变化**：动态发展不静止
+1. **External Image**: Makes the reader remember them at a glance.
+2. **Inner Personality**: Complex and three-dimensional, not flat.
+3. **Unique Language**: Recognizable as soon as they speak.
+4. **Behavioral Logic**: Consistent with their personality and experience.
+5. **Growth and Change**: Dynamic development, not static.
 
-## 相关命令
+## Related Commands
 
-- `/shizhangyu-style` - 激活风格
-- `/shizhangyu-write` - 创作人物情节
-- `/shizhangyu-plot` - 设计人物阴谋
-- `/shizhangyu-foreshadow` - 人物伏笔
+- `/shizhangyu-style` - Activate the style.
+- `/shizhangyu-write` - Create the character's plot.
+- `/shizhangyu-plot` - Design the character's intrigues.
+- `/shizhangyu-foreshadow` - Character foreshadowing.

@@ -1,108 +1,108 @@
-# 路遥风格故事模板
+# Lu Yao Style Story Template
 
-## 故事信息
+## Story Information
 
-**标题**：[故事名称]
-**时代**：[具体年代，如19XX年]
-**地点**：[陕北某地/具体地名]
-**主题**：[核心主题]
+**Title**: [Story Name]
+**Era**: [Specific era, e.g., 19XX]
+**Location**: [A place in Northern Shaanxi/Specific place name]
+**Theme**: [Core theme]
 
-## 人物设定
+## Character Settings
 
-### 主要人物
-**姓名**：
-**年龄**：
-**身份**：
-**性格**：
-**追求**：
-**困境**：
+### Main Character
+**Name**:
+**Age**:
+**Identity**:
+**Personality**:
+**Aspiration**:
+**Dilemma**:
 
-### 次要人物
-[列出2-3个重要配角]
+### Secondary Characters
+[List 2-3 important supporting characters]
 
-## 故事纲要
+## Story Outline
 
-### 开端（引子）
-[描述故事的起始状态，人物的初始境况]
+### Beginning (Introduction)
+[Describe the initial state of the story and the character's initial situation]
 
-### 发展（矛盾展开）
-1. [第一个转折点]
-2. [第二个转折点]
-3. [第三个转折点]
+### Development (Conflict Unfolds)
+1. [First turning point]
+2. [Second turning point]
+3. [Third turning point]
 
-### 高潮（冲突爆发）
-[描述最激烈的矛盾冲突]
+### Climax (Conflict Erupts)
+[Describe the most intense conflict]
 
-### 结尾（余韵）
-[给予希望或思考的结尾]
+### Ending (Aftermath)
+[An ending that gives hope or food for thought]
 
-## 核心场景
+## Core Scenes
 
-### 场景一：[场景名称]
-**时间**：
-**地点**：
-**人物**：
-**事件**：
-**细节**：[至少3个生活细节]
+### Scene One: [Scene Name]
+**Time**:
+**Location**:
+**Characters**:
+**Event**:
+**Details**: [At least 3 life details]
 
-### 场景二：[场景名称]
-[同上格式]
+### Scene Two: [Scene Name]
+[Same format as above]
 
-### 场景三：[场景名称]
-[同上格式]
+### Scene Three: [Scene Name]
+[Same format as above]
 
-## 语言风格要求
+## Language Style Requirements
 
-### 叙述风格
-- 朴实无华，准确有力
-- 避免华丽辞藻
-- 注重动作和细节
-- 情感克制内敛
+### Narrative Style
+- Simple and unadorned, precise and powerful
+- Avoid ornate language
+- Focus on actions and details
+- Emotionally restrained and introverted
 
-### 对话风格
-- 生活化、个性化
-- 适度使用方言
-- 符合人物身份
-- 含蓄传达情感
+### Dialogue Style
+- Lifelike and personalized
+- Moderate use of dialect
+- Consistent with the character's identity
+- Conveys emotions subtly
 
-## 时代特征
+## Characteristics of the Era
 
-### 物质标志
-[列出3-5个时代特有物品]
+### Material Symbols
+[List 3-5 objects unique to the era]
 
-### 社会背景
-[描述当时的社会环境]
+### Social Background
+[Describe the social environment of the time]
 
-### 人文风情
-[描述地方文化特色]
+### Cultural Customs
+[Describe the local cultural characteristics]
 
-## 主题思想
+## Thematic Ideas
 
-### 表层主题
-[明显的故事主题]
+### Surface Theme
+[The obvious theme of the story]
 
-### 深层主题
-[隐含的人生哲理]
+### Deeper Theme
+[The hidden philosophy of life]
 
-### 希望元素
-[苦难中的光明点]
+### Elements of Hope
+[A bright spot in the midst of suffering]
 
-## 创作提示
+## Creation Tips
 
-1. 确保故事真实可信
-2. 人物要有血有肉
-3. 细节要具体生动
-4. 情感要克制深沉
-5. 结尾要富有余韵
+1. Ensure the story is authentic and believable.
+2. The characters should be flesh and blood.
+3. The details should be specific and vivid.
+4. The emotions should be restrained and profound.
+5. The ending should be full of lingering charm.
 
-## 参考示例
+## Reference Examples
 
-**开头示例**：
-"19XX年的春天来得特别晚。黄土高原上，寒风依然像刀子一样割着人的脸。"
+**Opening Example**:
+"The spring of 19XX came particularly late. On the Loess Plateau, the cold wind still cut people's faces like a knife."
 
-**细节示例**：
-"他的手上有几个厚厚的老茧，那是多年握锄把磨出来的。"
+**Detail Example**:
+"He had several thick calluses on his hands, which were worn out from holding a hoe handle for many years."
 
-**对话示例**：
-"咱的日子会好的。"
-"再苦不能苦了娃娃们的教育。"
+**Dialogue Example**:
+"Our life will get better."
+"No matter how hard it is, we can't let the children's education suffer."

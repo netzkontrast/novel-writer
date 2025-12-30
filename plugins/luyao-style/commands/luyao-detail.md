@@ -1,183 +1,183 @@
-# 生成真实的生活细节描写
+# Generate Authentic Life Detail Descriptions
 
-为路遥风格作品提供富有泥土气息的生活细节描写。
+Provide earthy and lifelike detail descriptions for works in the style of Lu Yao.
 
-## 使用方法
+## Usage
 
 ```
-/luyao-detail <类型> [场景描述]
+/luyao-detail <type> [scene_description]
 ```
 
-## 细节类型
+## Detail Types
 
-### 劳动场景
-- `farming` - 农事活动
-- `harvest` - 收割场景
-- `construction` - 建筑劳动
-- `mining` - 矿井作业
-- `factory` - 工厂生产
+### Labor Scenes
+- `farming` - Agricultural activities
+- `harvest` - Harvest scenes
+- `construction` - Construction work
+- `mining` - Mine work
+- `factory` - Factory production
 
-### 日常生活
-- `cooking` - 饮食烹饪
-- `market` - 赶集贸易
-- `home` - 家庭起居
-- `festival` - 节日习俗
-- `wedding` - 婚丧嫁娶
+### Daily Life
+- `cooking` - Food and cooking
+- `market` - Going to the market
+- `home` - Home life
+- `festival` - Festival customs
+- `wedding` - Weddings and funerals
 
-### 环境描写
-- `village` - 乡村景观
-- `plateau` - 黄土高原
-- `weather` - 天气变化
-- `season` - 四季更替
-- `town` - 城镇风貌
+### Environmental Description
+- `village` - Rural landscape
+- `plateau` - The Loess Plateau
+- `weather` - Weather changes
+- `season` - The changing of the seasons
+- `town` - The appearance of a town
 
-### 物品器具
-- `tools` - 劳动工具
-- `furniture` - 家具用品
-- `clothing` - 服饰穿着
-- `food` - 食物饮品
-- `transport` - 交通工具
+### Objects and Utensils
+- `tools` - Labor tools
+- `furniture` - Furniture and household items
+- `clothing` - Clothing and apparel
+- `food` - Food and drink
+- `transport` - Means of transportation
 
-## 示例输出
+## Example Output
 
-### 农事活动细节
+### Agricultural Activity Details
 ```
-用户：/luyao-detail farming 春天播种
+User: /luyao-detail farming Spring sowing
 
-AI：
-【春播细节描写】
+AI:
+【Spring Sowing Detail Description】
 
-时间：清明过后，谷雨前后
+Time: After Qingming, around Guyu
 
-准备工作：
-天不亮，田福堂就起来了。他先到窑洞里看了看放在炕头上的玉米种子，这是昨晚用温水泡过的，现在已经有些发胀了。他用手捏起几粒，看着那白白的小芽点，心里踏实了许多。
+Preparation:
+Tian Futang got up before dawn. He first went into the cave dwelling to check the corn seeds that were placed on the kang head. They had been soaked in warm water the night before and were now a little swollen. He picked up a few grains with his hand, looked at the small white sprouts, and felt much more at ease.
 
-他把种子装进一个灰布口袋，又从墙角拿起那把磨得光亮的锄头。锄把是枣木的，是他爹传下来的，用了三十多年，把手的地方被摩娑得像镜子一样。
+He put the seeds in a gray cloth bag and picked up the hoe that had been polished to a shine from the corner of the wall. The handle of the hoe was made of jujube wood, passed down from his father, and had been used for more than thirty years. The place where the hand held it was as smooth as a mirror.
 
-下地前，他婆姨给他装了一壶开水，里面泡了几片薄荷叶子，还在手巾里包了几个玉米面馒头。
+Before he went down to the fields, his wife filled a kettle with boiling water for him, with a few mint leaves steeped in it, and also wrapped a few cornmeal steamed buns in a handkerchief.
 
-播种过程：
-地是提前翻好的，土块打得很细。早晨的露水还没干，踩上去软软的，但不粘脚。
+Sowing Process:
+The land had been plowed in advance, and the clods of earth were broken up very finely. The morning dew had not yet dried, and it was soft to step on, but not sticky.
 
-福堂先用锄头在地里划出一道道浅沟，间距是用脚步量的，两脚半一沟，不宽不窄。每隔一尺半，他就用锄头挖一个小坑，深度正好一寸。
+Futang first used the hoe to draw shallow furrows in the field. The spacing was measured by his steps, two and a half steps per furrow, not too wide and not too narrow. Every one and a half feet, he dug a small pit with the hoe, exactly one inch deep.
 
-放种子的时候要特别小心。一个坑里放三到四粒，不能多也不能少。多了浪费种子，长出来也挤，少了出苗不齐，影响收成。
+He had to be especially careful when placing the seeds. Three to four seeds were placed in each pit, no more and no less. Too many would waste the seeds, and they would be crowded when they grew. Too few would result in an uneven crop and affect the harvest.
 
-种子放好后，用锄头轻轻把土盖上，再用脚跞踩实。踩的时候不能太用力，太实了种子出不来，太松了又容易被风吹干。
+After the seeds were placed, he gently covered them with soil with the hoe, and then firmed it with his foot. He couldn't press too hard, as the seeds wouldn't be able to sprout if it was too firm, and it would be easily dried out by the wind if it was too loose.
 
-环境氛围：
-太阳刚从东山梁上升起来，金黄色的光线洒在地里，把每一个土块都照得明晰。远处的山坡上，可以看到别的人家也在播种，小小的人影在地里移动。
+Environment and Atmosphere:
+The sun had just risen from the eastern mountain ridge, and the golden light sprinkled on the field, illuminating every clod of earth. On the distant hillside, other families could be seen sowing, their small figures moving in the fields.
 
-空气里有一种特殊的味道，是新翻的土壤的味道，湿润、清新，还带着一点草根的香气。偶尔有几声鸟叫，是喜鹊，在地头的枣树上跳来跳去。
+There was a special smell in the air, the smell of freshly turned soil, moist and fresh, with a hint of the fragrance of grass roots. Occasionally, there were a few bird calls, magpies, hopping on the jujube tree at the edge of the field.
 
-细节刻画：
-1. 手上的老茧：福堂的手上有几个厚厚的老茧，那是多年握锄把磨出来的。老茧发黄发硬，像铜钱一样。
+Detail Portrayal:
+1. Calluses on the hands: Futang had several thick calluses on his hands, which were worn out from holding a hoe handle for many years. The calluses were yellow and hard, like copper coins.
 
-2. 种子的选择：每放一粒种子，他都会用手指捏一捏，把瘕的、小的挑出来，只留下饱满的。
+2. Seed selection: Every time he placed a seed, he would pinch it with his fingers, picking out the shriveled and small ones, leaving only the full ones.
 
-3. 土壤的状态：土是黄土，但不是那种干巴巴的黄，而是带着油性的，一捏就能团成团，一搓就能散开。
+3. Soil condition: The soil was loess, but not the dry and crumbly kind. It was oily, and could be formed into a ball with a squeeze, and could be broken up with a rub.
 
-4. 汗水的描写：太阳升高后，福堂的额头上开始渗汗。汗珠一粒粒冒出来，沿着鼻梁流下去，滴在土里，很快就被吸干了。
+4. Description of sweat: After the sun rose higher, sweat began to bead on Futang's forehead. The beads of sweat appeared one by one, flowed down his nose, and dripped into the soil, where they were quickly absorbed.
 
-5. 歇息时刻：播完一垒地，他直起腰，两手搉在锄把上，看着身后那一溜溜整齐的土包，心里有一种说不出的满足感。他拿起水壶，咕咚咕咚喝了几口，凉水一下子就把内心的燥热浇灭了。
+5. Moment of rest: After sowing a row of land, he straightened his back, leaned his hands on the hoe handle, and looked at the neat rows of soil behind him, a sense of satisfaction welling up in his heart. He picked up the water kettle and took a few gulps. The cold water instantly quenched the heat in his heart.
 
-注意事项：
-- 不能在雨天播种，土太湿会把种子沤烂
-- 不能在大风天播种，风会把土吹干
-- 要看老黄历，选吉日下种
-- 播完后要在地头插个稻草人，防鸟雀唆种子
+Notes:
+- Do not sow on a rainy day, as the soil will be too wet and the seeds will rot.
+- Do not sow on a windy day, as the wind will dry out the soil.
+- Check the old almanac and choose an auspicious day to plant.
+- After sowing, put a scarecrow at the edge of the field to prevent birds from eating the seeds.
 
-[继续1000字的细节描写...]
-```
-
-### 饮食烹饪细节
-```
-用户：/luyao-detail cooking 农家早饭
-
-AI：
-【农家早饭细节】
-
-时间：早晨5点半
-地点：窑洞灶房
-
-生火：
-天还没大亮，兰花就起来了。她先到灶前，用火钛把昨晚埋在灰里的火种找出来。那是一块烧红的煤块，现在还有些余温。
-
-她先放上几根玉米秆，再加些碎柴，用嘴轻轻一吹，火苗啦啦地窜起来了。浓烟从灶膛里冒出来，呛得她直咳嗽。
-
-熬粥：
-锅是生铁锅，用了十几年，锅底都磨薄了。兰花先刀了半瓢水，等水开了，把昨晚泡好的小米慢慢撒进去。
-
-撒米的时候要特别小心，一边撒一边用勺子搅，不然就会结疙瘩。粥要熬得稠，但又不能太稠，太稠了不经饿。
-
-煮到一半，她往里面扔了一把切碎的干萝卜缨，再加一点盐。萝卜缨是去年秋天晒的，虽然干巴巴的，但煮在粥里还有一股甜味。
-
-蒸馒头：
-粥熬着的工夫，兰花开始蒸馒头。馒头是昨晚就和好面蒸的，现在只需要热一热。
-
-她在锅里放了一个竹笼子，把馒头一个个摆在上面，盖上锅盖。水汽从锅盖边缘冒出来，整个灶房里都弥漫着馒头的香味。
-
-配菜：
-早饭的菜很简单。一碟咸菜，是入冬时腔的酸白菜，现在已经发黄了，但还能吃。另外还有几根葱，是从窑洞外的地里拔的，洗干净后沾着酱吃。
-
-[继续详细描写...]
+[Continue with 1000 words of detail description...]
 ```
 
-### 黄土高原景观
+### Food and Cooking Details
 ```
-用户：/luyao-detail plateau 傍晚的黄土高原
+User: /luyao-detail cooking A farmer's breakfast
 
-AI：
-【傍晚黄土高原】
+AI:
+【Farmer's Breakfast Details】
 
-太阳西斜，整个高原被染成了金黄色。
+Time: 5:30 in the morning
+Location: The kitchen of a cave dwelling
 
-山梁的轮廓：
-一道道山梁像波浪一样起伏，一直延伸到天边。每一道山梁都是黄的，但黄得不一样——近处的是深黄，远处的是淡黄，更远处的几乎和天空融为一体。
+Starting the fire:
+It was not yet light when Lanhua got up. She first went to the stove and used the poker to find the embers that had been buried in the ashes the night before. It was a piece of red-hot coal, and it was still a little warm.
 
-山坡上的梯田一层层地盘旋上去，像巨大的指纹。有些地里已经种上了小麦，绿油油的一片，在黄土的背景上显得格外鲜明。
+She first put in a few corn stalks, then added some kindling, and with a gentle blow, the flames shot up. Thick smoke came out of the stove, making her cough.
 
-[继续...]
+Cooking the porridge:
+The pot was made of cast iron and had been used for more than ten years, so the bottom was worn thin. Lanhua first added half a ladle of water, and when the water boiled, she slowly sprinkled in the millet that had been soaked the night before.
+
+She had to be especially careful when sprinkling the millet, stirring with a spoon as she sprinkled, otherwise it would form clumps. The porridge had to be thick, but not too thick. If it was too thick, it wouldn't be filling enough.
+
+Halfway through cooking, she threw in a handful of chopped dried radish leaves and a little salt. The radish leaves had been dried last autumn, and although they were dry and shriveled, they still had a sweet taste when cooked in the porridge.
+
+Steaming the steamed buns:
+While the porridge was cooking, Lanhua began to steam the steamed buns. The dough had been kneaded and the buns steamed the night before, so they just needed to be heated up.
+
+She put a bamboo steamer in the pot, placed the steamed buns on it one by one, and covered the pot with the lid. Steam came out from the edge of the lid, and the whole kitchen was filled with the fragrance of steamed buns.
+
+Side dishes:
+The side dishes for breakfast were very simple. A plate of pickled vegetables, which was sour cabbage that had been pickled at the beginning of winter. It was already yellow now, but still edible. There were also a few green onions, which were pulled from the ground outside the cave dwelling, washed, and eaten with sauce.
+
+[Continue with a detailed description...]
 ```
 
-## 细节特征
+### Loess Plateau Landscape
+```
+User: /luyao-detail plateau The Loess Plateau at dusk
 
-### 必备要素
-1. **感官体验** - 视觉、听觉、嗅觉、触觉、味觉
-2. **时间标记** - 具体的时间、季节、天气
-3. **空间位置** - 准确的地点、方位、距离
-4. **动作过程** - 步骤分解、节奏把控
-5. **情感融入** - 人物的心理状态和情绪
+AI:
+【The Loess Plateau at Dusk】
 
-### 描写技巧
-- 用具体名词代替抽象概念
-- 用动作动词增强画面感
-- 用对比手法突出特征
-- 用联想连接过去与现在
-- 用细节串联成完整场景
+The sun was setting in the west, and the entire plateau was dyed golden.
 
-### 注意事项
-- 符合时代背景和地域特色
-- 避免过度美化或丑化
-- 保持真实性和可信度
-- 融入生活智慧和人民经验
-- 体现劳动人民的尊严
+The outline of the mountain ridges:
+The mountain ridges rose and fell like waves, stretching to the horizon. Each mountain ridge was yellow, but a different shade of yellow—the nearby ones were a deep yellow, the distant ones were a pale yellow, and the ones further away almost merged with the sky.
 
-## 输出规范
+The terraced fields on the hillside spiraled up layer by layer, like giant fingerprints. Some of the fields had already been planted with wheat, a patch of green that stood out against the yellow earth.
 
-- **字数**：1500-2000字
-- **结构**：总-分-总或时间顺序
-- **密度**：每100字至少3-5个细节点
-- **语言**：朴实准确，避免华丽辞藻
+[Continue...]
+```
 
-## 配置选项
+## Detail Features
 
-- `--focus <aspect>` - 聚焦方面（视觉/听觉/动作/情感）
-- `--density <level>` - 细节密度（1-5）
-- `--emotion <tone>` - 情感色彩（乐观/中性/沉重）
+### Essential Elements
+1. **Sensory Experience** - Sight, hearing, smell, touch, taste
+2. **Time Markers** - Specific time, season, weather
+3. **Spatial Location** - Accurate location, direction, distance
+4. **Action Process** - Step-by-step breakdown, pacing control
+5. **Emotional Integration** - The character's mental state and emotions
 
-## 相关命令
+### Description Techniques
+- Use specific nouns instead of abstract concepts.
+- Use action verbs to enhance the imagery.
+- Use contrast to highlight features.
+- Use associations to connect the past and the present.
+- Use details to string together a complete scene.
 
-- `/luyao-write` - 在作品中运用细节
-- `/luyao-character` - 通过细节塑造人物
-- `/luyao-dialogue` - 结合细节的对话
+### Notes
+- Consistent with the historical background and regional characteristics.
+- Avoid over-beautifying or uglifying.
+- Maintain authenticity and credibility.
+- Integrate the wisdom of life and the experience of the people.
+- Reflect the dignity of the working people.
+
+## Output Specifications
+
+- **Word count**: 1500-2000 words
+- **Structure**: General-to-specific or chronological order
+- **Density**: At least 3-5 detail points per 100 words
+- **Language**: Simple and accurate, avoid ornate language
+
+## Configuration Options
+
+- `--focus <aspect>` - Focus on a specific aspect (sight/hearing/action/emotion)
+- `--density <level>` - Detail density (1-5)
+- `--emotion <tone>` - Emotional tone (optimistic/neutral/heavy)
+
+## Related Commands
+
+- `/luyao-write` - Use details in the work.
+- `/luyao-character` - Create characters through details.
+- `/luyao-dialogue` - Dialogue combined with details.

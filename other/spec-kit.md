@@ -1,68 +1,68 @@
-# Spec-Kit 编程实战指南: 规格驱动开发(SDD)方法论
+# Spec-Kit Practical Programming Guide: Spec-Driven Development (SDD) Methodology
 
-> 面向中国开发者的Spec-Kit实战教程
-> 从零构建"智慧课堂"在线教育平台
+> A hands-on tutorial for Spec-Kit aimed at Chinese developers
+> Building an "Intelligent Classroom" online education platform from scratch
 
 ---
 
-## 零、开始使用 Spec-Kit
+## Zero. Getting Started with Spec-Kit
 
-### 安装 Specify CLI 工具
+### Installing the Specify CLI Tool
 
-Spec-Kit 提供了 `specify` 命令行工具来快速初始化项目。选择以下任一安装方式:
+Spec-Kit provides the `specify` command-line tool to quickly initialize projects. Choose either of the following installation methods:
 
-#### 方式一: 持久安装(推荐)
+#### Method 1: Persistent Installation (Recommended)
 
-一次安装,随处使用:
+Install once, use anywhere:
 
 ```bash
 uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 ```
 
-安装后可直接使用:
+After installation, you can use it directly:
 
 ```bash
-specify init <项目名称>
+specify init <project-name>
 specify check
 ```
 
-升级工具:
+To upgrade the tool:
 
 ```bash
 uv tool install specify-cli --force --from git+https://github.com/github/spec-kit.git
 ```
 
-#### 方式二: 一次性使用
+#### Method 2: One-time Use
 
-无需安装,直接运行:
+Run directly without installation:
 
 ```bash
-uvx --from git+https://github.com/github/spec-kit.git specify init <项目名称>
+uvx --from git+https://github.com/github/spec-kit.git specify init <project-name>
 ```
 
-### 初始化项目
+### Initializing a Project
 
-使用 `specify init` 命令初始化 Spec-Kit 项目:
+Use the `specify init` command to initialize a Spec-Kit project:
 
 ```bash
-# 创建新项目
+# Create a new project
 specify init my-project
 
-# 指定 AI 代理
+# Specify an AI agent
 specify init my-project --ai claude
 
-# 在当前目录初始化
+# Initialize in the current directory
 specify init . --ai claude
-# 或使用 --here 标志
+# Or use the --here flag
 specify init --here --ai claude
 
-# 强制合并到非空目录(跳过确认)
+# Force merge into a non-empty directory (skip confirmation)
 specify init . --force --ai claude
 ```
 
-### 支持的 AI 代理
+### Supported AI Agents
 
-| AI 代理 | 支持状态 | 备注 |
+| AI Agent | Support Status | Notes |
 |---------|---------|------|
 | [Claude Code](https://www.anthropic.com/claude-code) | ✅ | |
 | [GitHub Copilot](https://code.visualstudio.com/) | ✅ | |
@@ -73,565 +73,565 @@ specify init . --force --ai claude
 | [opencode](https://opencode.ai/) | ✅ | |
 | [Roo Code](https://roocode.com/) | ✅ | |
 
-### 前置要求
+### Prerequisites
 
-- **操作系统**: Linux/macOS (或 Windows WSL2)
-- **AI 代理**: 上述任一支持的 AI 编程工具
+- **Operating System**: Linux/macOS (or Windows WSL2)
+- **AI Agent**: Any of the supported AI programming tools listed above
 - **Python**: 3.11+
-- **包管理器**: [uv](https://docs.astral.sh/uv/)
-- **版本控制**: [Git](https://git-scm.com/downloads)
+- **Package Manager**: [uv](https://docs.astral.sh/uv/)
+- **Version Control**: [Git](https://git-scm.com/downloads)
 
 ---
 
-## 一、核心理念: 规格驱动开发的本质
+## One. Core Philosophy: The Essence of Spec-Driven Development
 
-### 什么是规格驱动开发?
+### What is Spec-Driven Development?
 
-**SDD (Spec-Driven Development 规格驱动开发)** 是一种颠覆性的软件开发方法论,核心思想是:
+**SDD (Spec-Driven Development)** is a revolutionary software development methodology. Its core idea is:
 
-> **规格不再服务于代码,代码服务于规格**s
+> **Specs no longer serve the code; the code serves the specs.**
 
-**传统软件开发的困境**:
+**The dilemma of traditional software development**:
 ```
-需求文档(Word) → 设计文档(Visio) → 编码 → 测试 → 上线
+Requirements Document (Word) → Design Document (Visio) → Coding → Testing → Deployment
     ↓               ↓                ↓      ↓
-  过时了         和代码不符         真相   补救
+  Outdated         Doesn't match code      The truth   Remediation
 ```
-结果: 文档永远落后,最后"代码即文档"
+Result: Documentation always lags, and in the end, "the code is the documentation."
 
-**SDD驱动开发的循环**:
+**The cycle of SDD-driven development**:
 ```
-项目宪法 → 功能规格 → 澄清决策 → 技术方案 → 任务分解
+Project Constitution → Feature Spec → Clarification & Decisions → Technical Plan → Task Breakdown
                                               ↓
-                                          质量门检查
+                                          Quality Gate Check
                                               ↓
-                                          自动实现代码
+                                          Automated Code Implementation
   ↑                                           ↓
-  └────── 发现问题,回到合适层级修改规格 ──────┘
+  └────── Discover issues, return to the appropriate level to modify the spec ──────┘
 ```
 
-### 为什么现在需要SDD?
+### Why Do We Need SDD Now?
 
-**三大趋势使SDD成为必然:**
+**Three major trends make SDD inevitable:**
 
-1. **AI能力突破**: GPT-4/Claude等LLM可以理解自然语言规格并生成可用代码
-2. **复杂度爆炸**: 现代系统集成Redis、MQ、微服务等几十个组件,手工维护一致性越来越难
-3. **需求变化加速**: 敏捷开发常态下,需求每周都变。传统方式改需求=灾难,SDD只需更新规格重新生成
+1. **Breakthroughs in AI capabilities**: LLMs like GPT-4/Claude can understand natural language specs and generate usable code.
+2. **Complexity explosion**: Modern systems integrate dozens of components like Redis, MQ, and microservices, making it increasingly difficult to maintain consistency manually.
+3. **Accelerated pace of requirement changes**: In the normal state of agile development, requirements change weekly. With traditional methods, changing requirements is a disaster; with SDD, you just need to update the spec and regenerate.
 
-**SDD的核心洞察**:
+**The core insight of SDD**:
 
-传统开发: 代码是真相,文档是附属品 → 代码不断演进,文档逐渐过时
+Traditional development: Code is the truth, documentation is an accessory → Code constantly evolves, documentation gradually becomes obsolete.
 
-SDD反转关系: **规格是真相,代码是其在Java/Python/Go下的表达**
-- 维护软件 = 演进规格
-- 调试BUG = 修复规格中的逻辑错误
-- 重构 = 重组规格的结构
+SDD inverts this relationship: **The spec is the truth, and the code is its expression in Java/Python/Go.**
+- Maintaining software = Evolving the spec
+- Debugging BUGs = Fixing logical errors in the spec
+- Refactoring = Reorganizing the structure of the spec
 
-### SDD不是线性流程,而是递归循环
+### SDD is Not a Linear Process, but a Recursive Cycle
 
-**❌ 错误理解: 线性执行一次**
+**❌ Misunderstanding: A one-time linear execution**
 ```
-整个项目: 宪法 → 规格 → 方案 → 任务 → 实现(手工写100个功能)
+Entire project: Constitution → Spec → Plan → Tasks → Implementation (manually writing 100 features)
                                       ↑
-                              一直在这里手工编码
+                              Stuck here, coding manually
 ```
 
-**✅ 正确理解: 分层递归**
+**✅ Correct understanding: Layered recursion**
 ```
-第1层 - 整个项目:   宪法 → 规格(架构) → 技术选型
+Layer 1 - Entire project:   Constitution → Spec (Architecture) → Technology Selection
            ↓
-第2层 - 单个功能:   规格 → 澄清 → 方案 → 任务 → 质量门 → 实现
+Layer 2 - Single feature:   Spec → Clarification → Plan → Tasks → Quality Gate → Implementation
            ↓
-第3层 - 功能模块:   方案 → 任务 → 实现
+Layer 3 - Feature module:   Plan → Tasks → Implementation
            ↓
-第4层 - 单个任务:   实现
+Layer 4 - Single task:   Implementation
 ```
 
-**每个层级都可以执行完整的SDD循环!** 这才是方法论的精髓。
+**Each level can execute a complete SDD cycle!** This is the essence of the methodology.
 
 ---
 
-## 二、七步法详解
+## Two. The Seven-Step Method Explained
 
-### 核心命令流程
+### Core Command Flow
 
-**命令格式说明**：
-- **完整格式**：`/speckit.xxx` - 正式写法，明确命名空间
-- **简写格式**：`/xxx` - 便捷写法，实际执行相同
-- 本文档中为简洁起见，多数示例使用简写格式
+**Command Format Explanation**:
+- **Full format**: `/speckit.xxx` - The formal way, clearly namespacing the command.
+- **Shorthand format**: `/xxx` - A convenient shorthand that executes the same command.
+- For brevity, most examples in this document use the shorthand format.
 
-SDD 提供了以下核心命令来实现完整的开发流程:
+SDD provides the following core commands to implement the complete development flow:
 
 ```
-1. /speckit.constitution (或 /constitution)  →  项目宪法(最高原则,定义项目DNA)
-2. /speckit.specify (或 /specify)            →  功能规格(单一真相源,定义做什么和为什么)
-3. /speckit.clarify (或 /clarify)            →  澄清决策(消除歧义,标记待确认点) [可选,推荐]
-4. /speckit.plan (或 /plan)                  →  技术方案(定义怎么做,选择技术栈)
-5. /speckit.tasks (或 /tasks)                →  任务分解(可执行步骤,标注并行性)
-6. /speckit.analyze (或 /analyze)            →  质量门(一致性验证,CRITICAL问题必修) [可选,推荐]
-7. /speckit.implement (或 /implement)        →  执行实现(TDD方式生成代码)
+1. /speckit.constitution (or /constitution)  →  Project Constitution (highest principles, defines the project's DNA)
+2. /speckit.specify (or /specify)            →  Feature Spec (single source of truth, defines what and why)
+3. /speckit.clarify (or /clarify)            →  Clarification & Decisions (eliminates ambiguity, marks points to be confirmed) [Optional, recommended]
+4. /speckit.plan (or /plan)                  →  Technical Plan (defines how, selects the tech stack)
+5. /speckit.tasks (or /tasks)                →  Task Breakdown (executable steps, notes parallelism)
+6. /speckit.analyze (or /analyze)            →  Quality Gate (consistency verification, CRITICAL issues must be fixed) [Optional, recommended]
+7. /speckit.implement (or /implement)        →  Execution & Implementation (generates code in a TDD fashion)
 ```
 
-**可选增强命令:**
-- `/speckit.checklist` (或 `/checklist`) - 生成领域特定质量检查清单
-  - **何时使用**：针对高风险领域（安全/性能/合规/UX）生成深度检查清单
-  - **执行时机**：在 `/plan` 或 `/tasks` 之后，作为 `/analyze` 的领域专项补充
-  - **与 analyze 的区别**：analyze 是通用自动检测，checklist 是领域专家视角的针对性检查
+**Optional Enhancement Command:**
+- `/speckit.checklist` (or `/checklist`) - Generates a domain-specific quality checklist.
+  - **When to use**: To generate in-depth checklists for high-risk areas (security/performance/compliance/UX).
+  - **Execution time**: After `/plan` or `/tasks`, as a domain-specific supplement to `/analyze`.
+  - **Difference from `analyze`**: `analyze` is a general automated check, while `checklist` is a targeted check from a domain expert's perspective.
 
-### 各命令的核心职责
+### Core Responsibilities of Each Command
 
-| 命令 | 输入 | 输出 | 关键约束 |
+| Command | Input | Output | Key Constraints |
 |------|------|------|---------|
-| `/speckit.constitution` | 项目理念 | `项目宪法.md` | 定义不可妥协的原则 |
-| `/speckit.specify` | 功能描述 | `功能规格.md` | 只写做什么/为什么,不写怎么做 |
-| `/speckit.clarify` | 规格文档 | 更新后的规格 | 强制解决所有待确认点 |
-| `/speckit.plan` | 规格+技术选型 | `技术方案.md`+`数据模型.md` | 必须通过宪法检查 |
-| `/speckit.tasks` | 技术方案 | `任务列表.md` | 标注依赖和并行性 |
-| `/speckit.analyze` | 规格+方案+任务 | 分析报告 | **只读**,不修改文件 |
-| `/speckit.implement` | 任务列表 | 代码+测试 | 严格TDD: 先测试后实现 |
-| `/speckit.checklist` | 规格文档 | 质量检查清单 | 验证需求完整性和一致性 |
+| `/speckit.constitution` | Project vision | `Project_Constitution.md` | Defines non-negotiable principles |
+| `/speckit.specify` | Feature description | `Feature_Spec.md` | Only write what/why, not how |
+| `/speckit.clarify` | Spec document | Updated spec | Forces resolution of all points to be confirmed |
+| `/speckit.plan` | Spec + tech choices | `Technical_Plan.md`+`Data_Model.md` | Must pass the constitution check |
+| `/speckit.tasks` | Technical plan | `Task_List.md` | Notes dependencies and parallelism |
+| `/speckit.analyze` | Spec+Plan+Tasks | Analysis report | **Read-only**, does not modify files |
+| `/speckit.implement` | Task list | Code+Tests | Strict TDD: tests first, then implementation |
+| `/speckit.checklist` | Spec document | Quality checklist | Verifies requirement completeness and consistency |
 
-### 七步流程的质量门机制
+### The Quality Gate Mechanism of the Seven-Step Process
 
 ```
-宪法 ──→ 规格 ──→ 澄清 ──→ 方案 ──→ 任务
+Constitution ──→ Spec ──→ Clarification ──→ Plan ──→ Tasks
          ↓         ↓        ↓        ↓
-     [标记歧义] [解决歧义] [宪法门] [任务门]
+     [Mark Ambiguity] [Resolve Ambiguity] [Constitution Gate] [Task Gate]
                                      ↓
-                                 质量门 ←── CRITICAL问题阻塞
+                                 Quality Gate ←── CRITICAL issues block
                                      ↓
-                                   实现
+                                   Implementation
 ```
 
-**`/speckit.analyze` 是关键质量门**:
-- 在 `/speckit.tasks` 完成后、`/speckit.implement` 之前**强制运行**
-- 检测6种问题: 重复、歧义、覆盖度、宪法违规、一致性、术语漂移
-- 分级: CRITICAL(必修) / HIGH(建议) / MEDIUM(改进) / LOW(可选)
-- **如有CRITICAL问题,阻塞 `/speckit.implement`**
+**`/speckit.analyze` is the key quality gate**:
+- **Mandatory run** after `/speckit.tasks` is complete and before `/speckit.implement`.
+- Detects 6 types of issues: Duplication, Ambiguity, Coverage, Constitution Violations, Inconsistency, Terminology Drift.
+- Levels: CRITICAL (must fix) / HIGH (recommended) / MEDIUM (improvement) / LOW (optional).
+- **If there are CRITICAL issues, `/speckit.implement` is blocked.**
 
-### 各层级如何应用七步法
+### How to Apply the Seven-Step Method at Each Level
 
-| 层级 | 宪法 | 规格 | 澄清 | 方案 | 任务 | 质量门 | 实现 |
+| Level | Constitution | Spec | Clarify | Plan | Tasks | Quality Gate | Implement |
 |------|------|------|------|------|------|--------|------|
-| **整个项目** | ✅ 一次 | ✅ 高层架构 | ✅ 核心决策 | ✅ 技术选型 | ✅ 功能清单 | ✅ 架构验证 | - |
-| **单个功能** | 继承 | ✅ 功能规格 | ✅ 细节 | ✅ 实现方案 | ✅ 开发任务 | ✅ **强制** | ✅ 生成代码 |
-| **功能模块** | 继承 | 继承 | - | ✅ 模块设计 | ✅ 子任务 | ✅ 可选 | ✅ 模块代码 |
-| **单个任务** | 继承 | 继承 | - | - | - | - | ✅ 任务代码 |
+| **Entire Project** | ✅ Once | ✅ High-level architecture | ✅ Core decisions | ✅ Technology selection | ✅ Feature list | ✅ Architecture validation | - |
+| **Single Feature** | Inherited | ✅ Feature spec | ✅ Details | ✅ Implementation plan | ✅ Development tasks | ✅ **Mandatory** | ✅ Generate code |
+| **Feature Module** | Inherited | Inherited | - | ✅ Module design | ✅ Sub-tasks | ✅ Optional | ✅ Module code |
+| **Single Task** | Inherited | Inherited | - | - | - | - | ✅ Task code |
 
 ---
 
-## 三、实战案例: "智慧课堂"在线教育平台
+## Three. Practical Case Study: "Intelligent Classroom" Online Education Platform
 
-### 项目背景
+### Project Background
 
-- **项目名称**: 智慧课堂
-- **项目类型**: K12在线教育平台
-- **核心功能**: 课程管理、作业批改、在线考试、成绩分析
-- **技术栈**: Spring Boot 3.x + Vue 3 + MySQL 8.0 + Redis
-- **目标**: 展示从零到可运行应用的完整SDD流程
+- **Project Name**: Intelligent Classroom
+- **Project Type**: K-12 Online Education Platform
+- **Core Features**: Course Management, Homework Grading, Online Exams, Grade Analysis
+- **Tech Stack**: Spring Boot 3.x + Vue 3 + MySQL 8.0 + Redis
+- **Goal**: To demonstrate the complete SDD process from scratch to a runnable application.
 
 ---
 
-## 场景1: 项目初始化 - 用Constitution定义项目DNA
+## Scenario 1: Project Initialization - Defining the Project DNA with Constitution
 
-### 步骤1: 创建项目宪法
+### Step 1: Create the Project Constitution
 
 ```bash
-/speckit.constitution 创建聚焦代码质量、测试标准、教育行业合规性和性能要求的项目原则
+/speckit.constitution Create project principles focusing on code quality, testing standards, education industry compliance, and performance requirements.
 ```
 
-**AI生成的宪法核心内容**:
+**Core content of the AI-generated constitution**:
 
 ```markdown
-# 智慧课堂项目宪法
+# Intelligent Classroom Project Constitution
 
-## 第一条: 模块优先原则
+## Article 1: Module-First Principle
 
-每个功能必须先设计为独立模块。禁止在主应用代码中直接实现业务逻辑,
-必须先抽象为可复用的Service层组件。
+Every feature must first be designed as an independent module. It is forbidden to directly implement business logic in the main application code.
+It must first be abstracted into a reusable Service layer component.
 
-**理由**: 强制模块化、可复用性和可测试性。
+**Reason**: To enforce modularity, reusability, and testability.
 
-## 第二条: 接口清晰原则
+## Article 2: Clear Interface Principle
 
-所有Service必须定义清晰的接口:
-- RESTful API: 统一返回Result<T>包装
-- 错误处理: 业务异常BusinessException,系统异常统一拦截
-- 支持JSON格式,字段命名驼峰式
+All Services must define clear interfaces:
+- RESTful API: Uniformly return `Result<T>` wrapper.
+- Error handling: `BusinessException` for business errors, uniform interception for system errors.
+- Support JSON format, with camelCase field naming.
 
-**理由**: 确保前后端接口一致,便于Mock测试。
+**Reason**: To ensure consistency between front-end and back-end interfaces, and to facilitate mock testing.
 
-## 第三条: 测试先行原则(不可妥协)
+## Article 3: Test-First Principle (Non-negotiable)
 
-禁止在以下步骤完成前编写实现代码:
-1. 接口契约已定义(OpenAPI规范)
-2. 测试用例已编写并通过评审
-3. 测试已运行并确认失败(TDD红灯阶段)
+It is forbidden to write implementation code before the following steps are completed:
+1. The interface contract has been defined (OpenAPI specification).
+2. Test cases have been written and passed review.
+3. The tests have been run and confirmed to fail (TDD red light phase).
 
-**理由**: 防止不可测试的代码,确保需求明确。
+**Reason**: To prevent untestable code and ensure requirements are clear.
 
-## 第四条: 数据安全原则(教育行业合规)
+## Article 4: Data Security Principle (Education Industry Compliance)
 
-学生个人信息必须:
-1. 手机号/身份证号加密存储(AES-256)
-2. 日志中脱敏显示(135****1234)
-3. 数据导出需审批流程
-4. 满足《个人信息保护法》要求
+Student personal information must be:
+1. Stored encrypted for phone numbers/ID card numbers (AES-256).
+2. Masked in logs (e.g., 135****1234).
+3. Data export requires an approval process.
+4. Comply with the "Personal Information Protection Law".
 
-**违规后果**: CRITICAL级别,阻止上线。
+**Consequence of violation**: CRITICAL level, blocks deployment.
 
-## 第七条: 简单性关卡
+## Article 7: Simplicity Gate
 
-- 初始版本最多3个Maven模块: common、service、web
-- 禁止引入"可能未来用到"的依赖(如Elasticsearch,当前MySQL够用)
-- YAGNI原则: 你不会需要它
+- The initial version shall have at most 3 Maven modules: common, service, web.
+- It is forbidden to introduce dependencies that "might be used in the future" (e.g., Elasticsearch, as MySQL is sufficient for now).
+- YAGNI principle: You Aren't Gonna Need It.
 
-## 第八条: 反过度抽象关卡
+## Article 8: Anti-Over-Abstraction Gate
 
-- 直接使用MyBatis-Plus,不要再包装一层BaseMapper
-- 单一模型表示: Entity直接用于Controller返回(小项目无需DTO/VO分离)
+- Use MyBatis-Plus directly; do not wrap it with another `BaseMapper` layer.
+- Single model representation: Use Entity directly for Controller returns (no need to separate DTO/VO in a small project).
 
-## 第九条: 集成测试优先
+## Article 9: Integration Test Priority
 
-- 使用真实MySQL(docker-compose),不用H2内存库
-- Controller测试用@SpringBootTest完整启动
-- 测试数据使用SQL脚本管理(src/test/resources/data.sql)
+- Use a real MySQL (docker-compose), not an H2 in-memory database.
+- Controller tests should use `@SpringBootTest` for a full startup.
+- Test data should be managed with SQL scripts (`src/test/resources/data.sql`).
 ```
 
-**为什么宪法重要?**
+**Why is the constitution important?**
 
-宪法是项目的"基因",定义了**不可妥协的原则**。后续所有`/speckit.plan`生成的方案都必须通过这些检查,否则`/speckit.analyze`会报CRITICAL错误,阻止实现。
+The constitution is the project's "DNA," defining **non-negotiable principles**. All subsequent plans generated by `/speckit.plan` must pass these checks; otherwise, `/speckit.analyze` will report a CRITICAL error, preventing implementation.
 
 ---
 
-## 场景2: 功能开发完整流程 - 从规格到实现
+## Scenario 2: Complete Feature Development Flow - From Spec to Implementation
 
-### 步骤2: 定义功能规格(只写做什么,不写怎么做)
+### Step 2: Define the Feature Spec (Only write what, not how)
 
 ```bash
-/speckit.specify 开发"作业批改"功能。教师可以发布作业(题目+截止时间+附件),学生提交作业(支持上传图片/PDF),教师在线批改并给分(0-100分+文字评语)。初始版本: 3个教师、30个学生、2个班级。作业状态包括: 未提交、已提交、已批改、需修改。学生可查看批改结果和历史记录,教师可统计班级提交率和平均分。逾期提交的作业标记为红色。权限控制: 学生只能看到自己的作业,教师只能看到自己任教班级的作业。
+/speckit.specify Develop a "Homework Grading" feature. Teachers can publish homework (questions + deadline + attachments). Students can submit homework (supporting image/PDF uploads). Teachers can grade online and give scores (0-100 points + text comments). Initial version: 3 teachers, 30 students, 2 classes. Homework statuses include: Not Submitted, Submitted, Graded, Revision Needed. Students can view grading results and history. Teachers can view class submission rates and average scores. Late submissions are marked in red. Access control: Students can only see their own homework, teachers can only see homework for the classes they teach.
 ```
 
-**输出**: `specs/001-zuoye-pigai/spec.md`
+**Output**: `specs/001-homework-grading/spec.md`
 
-**关键内容**:
+**Key content**:
 
 ```markdown
-## 功能概述
+## Feature Overview
 
-**做什么**: 在线作业提交和批改系统
-**为什么**: 替代传统纸质作业收发,提升批改效率,留存学习记录
+**What**: An online homework submission and grading system.
+**Why**: To replace traditional paper-based homework collection and submission, improve grading efficiency, and retain learning records.
 
-## 功能需求
+## Functional Requirements
 
-### 需求1: 作业发布
-教师可以创建作业,包含以下信息:
-- 作业标题(必填,≤50字)
-- 作业内容(必填,富文本,支持插入图片)
-- 截止时间(必填,不能早于当前时间)
-- 附件(可选,支持PDF/Word,单个≤10MB)
+### Requirement 1: Homework Publishing
+Teachers can create homework, including the following information:
+- Homework title (required, ≤50 characters)
+- Homework content (required, rich text, supports image insertion)
+- Deadline (required, cannot be earlier than the current time)
+- Attachments (optional, supports PDF/Word, single file ≤10MB)
 
-### 需求2: 学生提交作业
-学生可以提交作业答案:
-- 支持上传图片(jpg/png,单张≤5MB,最多9张)
-- 支持上传PDF(≤10MB)
-- 可在截止时间前修改提交内容
-- 逾期提交需标记(显示红色"迟交"标签)
+### Requirement 2: Student Homework Submission
+Students can submit their homework answers:
+- Supports image uploads (jpg/png, single image ≤5MB, max 9 images)
+- Supports PDF uploads (≤10MB)
+- Can modify submitted content before the deadline
+- Late submissions must be marked (display a red "Late" tag)
 
-### 需求3: 教师批改
-教师可以批改已提交的作业:
-- 给分: 0-100整数
-- 评语: 文字评价(≤500字)
-- 批改时间自动记录
+### Requirement 3: Teacher Grading
+Teachers can grade submitted homework:
+- Scoring: 0-100 integer
+- Comments: Text feedback (≤500 characters)
+- Grading time is automatically recorded
 
-### 需求4: 状态管理
-作业对学生有4种状态:
-- 未提交: 学生未提交,截止时间内
-- 已提交: 学生已提交,等待批改
-- 已批改: 教师已批改并给分
-- 需修改: 教师要求学生重新提交
+### Requirement 4: Status Management
+Homework has 4 statuses for students:
+- Not Submitted: Student has not submitted, within the deadline
+- Submitted: Student has submitted, awaiting grading
+- Graded: Teacher has graded and given a score
+- Revision Needed: Teacher has requested the student to resubmit
 
-### 需求5: 统计功能
-教师可查看班级作业统计:
-- 提交率: 已提交人数/班级总人数
-- 平均分: 已批改作业的平均成绩
-- 分数分布: 各分数段人数
+### Requirement 5: Statistical Functions
+Teachers can view class homework statistics:
+- Submission rate: Number of submitted / Total number of students in the class
+- Average score: Average score of graded homework
+- Score distribution: Number of students in each score range
 
-### 需求6: 权限控制
-- 学生: 只能看到自己提交的作业和批改结果
-- 教师: 只能看到自己任教班级的所有学生作业
+### Requirement 6: Access Control
+- Students: Can only see their own submitted homework and grading results.
+- Teachers: Can only see all student homework for the classes they teach.
 
-## 非功能需求
+## Non-Functional Requirements
 
-### 性能要求
-- 作业列表加载时间 < 1秒(100个作业内)
-- 文件上传速度: 5MB文件在10秒内完成
+### Performance Requirements
+- Homework list loading time < 1 second (for up to 100 assignments)
+- File upload speed: 5MB file completes within 10 seconds
 
-### 数据安全
-- 学生姓名和学号符合《个人信息保护法》,日志脱敏
-- 作业内容和批改记录保留1年
+### Data Security
+- Student names and student IDs must comply with the "Personal Information Protection Law" and be masked in logs.
+- Homework content and grading records are retained for 1 year.
 
-### 待确认点
-- [待确认] 学生逾期是否还能提交? 还是直接锁定?
-  - 方案A: 允许逾期提交,但标记"迟交",教师可酌情扣分
-  - 方案B: 截止时间后禁止提交
+### Points to be Confirmed
+- [To be confirmed] Can students still submit after the deadline? Or is it locked?
+  - Option A: Allow late submission, but mark as "Late". The teacher can deduct points at their discretion.
+  - Option B: Prohibit submission after the deadline.
 
-- [待确认] 批改后学生是否可申诉?
-  - 方案A: 不支持申诉,教师批改为最终结果
-  - 方案B: 学生可发起申诉,教师重新批改
+- [To be confirmed] Can students appeal after grading?
+  - Option A: No appeals supported. The teacher's grade is final.
+  - Option B: Students can initiate an appeal, and the teacher can re-grade.
 
-## 用户故事
+## User Stories
 
-### 用户故事1: 教师发布作业
-**作为** 数学老师张老师
-**我想要** 在系统中创建一个作业"第三章练习题"
-**以便于** 学生在线提交,我可以集中批改
+### User Story 1: Teacher Publishes Homework
+**As** a math teacher, Mr. Zhang
+**I want to** create a "Chapter 3 Exercises" assignment in the system
+**So that** students can submit it online and I can grade it centrally.
 
-**验收标准**:
-- 输入标题、内容、截止时间(2024-06-30 23:59)
-- 上传附件"练习题.pdf"
-- 点击"发布"后,2个班级(初一(1)班、初一(2)班)的学生都能看到
+**Acceptance Criteria**:
+- Enter title, content, and deadline (2024-06-30 23:59).
+- Upload an attachment "Exercises.pdf".
+- After clicking "Publish," students in 2 classes (Grade 7 Class 1, Grade 7 Class 2) can see it.
 
-### 用户故事2: 学生提交作业
-**作为** 初一(1)班学生小明
-**我想要** 上传我的作业答案照片
-**以便于** 老师批改
+### User Story 2: Student Submits Homework
+**As** a student in Grade 7 Class 1, Xiao Ming
+**I want to** upload photos of my homework answers
+**So that** the teacher can grade it.
 
-**验收标准**:
-- 拍摄3张作业照片,上传成功
-- 提交后状态变为"已提交"
-- 如果在截止时间(2024-06-30 23:59)后提交,显示红色"迟交"标签
+**Acceptance Criteria**:
+- Take 3 photos of the homework and upload them successfully.
+- After submission, the status changes to "Submitted".
+- If submitted after the deadline (2024-06-30 23:59), a red "Late" tag is displayed.
 
-### 用户故事3: 教师批改作业
-**作为** 张老师
-**我想要** 批改小明的作业
-**以便于** 给出成绩和反馈
+### User Story 3: Teacher Grades Homework
+**As** Mr. Zhang
+**I want to** grade Xiao Ming's homework
+**So that** I can give a score and feedback.
 
-**验收标准**:
-- 查看小明上传的3张照片
-- 给分: 85分
-- 评语: "计算过程清晰,但第3题粗心算错了"
-- 保存后,小明可以看到批改结果
+**Acceptance Criteria**:
+- View the 3 photos uploaded by Xiao Ming.
+- Give a score: 85 points.
+- Add a comment: "The calculation process is clear, but you made a careless mistake in question 3."
+- After saving, Xiao Ming can see the grading result.
 
-## 边界情况
+## Edge Cases
 
-### 边界1: 截止时间恰好到达时提交
-学生在2024-06-30 23:59:58提交,是否算逾期?
-**决策**: 截止时间当分钟内提交都算准时(≤23:59:59)
+### Edge Case 1: Submitting exactly at the deadline
+A student submits at 2024-06-30 23:59:58. Is it considered late?
+**Decision**: Submissions within the deadline minute (≤23:59:59) are considered on time.
 
-### 边界2: 文件上传失败
-学生上传5MB图片,网络超时失败。
-**处理**: 前端显示"上传失败,请重试",已上传的其他图片保留
+### Edge Case 2: File upload fails
+A student uploads a 5MB image, and the network times out.
+**Handling**: The front-end displays "Upload failed, please try again." Other already uploaded images are retained.
 
-### 边界3: 教师误批
-教师给小明打了58分,发现输错了,应该是85分。
-**处理**: 教师可以重新批改,覆盖之前的成绩和评语
+### Edge Case 3: Teacher grades incorrectly
+The teacher gives Xiao Ming a score of 58 but realizes it was a mistake and should be 85.
+**Handling**: The teacher can re-grade, overwriting the previous score and comments.
 ```
 
-**注意**:
-- ✅ 专注于做什么(功能需求)和为什么(业务目标)
-- ✅ 标记了2个待确认点,等待`/speckit.clarify`解决
-- ❌ 没有提及MySQL、Redis、MyBatis等技术细节
+**Note**:
+- ✅ Focuses on what (functional requirements) and why (business goals).
+- ✅ Marks 2 points to be confirmed, awaiting resolution by `/speckit.clarify`.
+- ❌ Does not mention technical details like MySQL, Redis, MyBatis, etc.
 
-### 步骤3: 澄清待确认点
+### Step 3: Clarify Points to be Confirmed
 
 ```bash
 /speckit.clarify
 ```
 
-**AI自动分析并提问**:
+**AI automatically analyzes and asks questions**:
 
 ```markdown
-## 待确认问题
+## Questions to be Confirmed
 
-### 问题1: 逾期提交策略(需求2相关)
-当前规格不明确。可选方案:
+### Question 1: Late Submission Policy (related to Requirement 2)
+The current spec is unclear. Possible options:
 
-**方案A: 允许逾期提交(推荐)**
-- 优点: 灵活,教师可酌情给分
-- 缺点: 可能被滥用
-- 实现: 数据库加字段`is_late`标记
+**Option A: Allow late submission (Recommended)**
+- Pros: Flexible, teachers can give points at their discretion.
+- Cons: May be abused.
+- Implementation: Add an `is_late` field to the database to mark it.
 
-**方案B: 截止后禁止提交**
-- 优点: 规则严格,培养时间观念
-- 缺点: 学生忘记截止时间会投诉
-- 实现: Controller判断时间,超时返回403
+**Option B: Prohibit submission after the deadline**
+- Pros: Strict rules, cultivates a sense of time.
+- Cons: Students who forget the deadline will complain.
+- Implementation: The Controller checks the time and returns 403 on timeout.
 
-**建议**: 教育场景选方案A,给学生改正机会。
+**Recommendation**: Choose Option A for an educational setting, giving students a chance to correct themselves.
 
-用户选择: 方案A
+User's choice: Option A
 ```
 
-**AI更新规格文档**:
+**AI updates the spec document**:
 
 ```markdown
-### 需求2: 学生提交作业(已更新)
+### Requirement 2: Student Homework Submission (Updated)
 
-学生可以提交作业答案:
-- 支持上传图片(jpg/png,单张≤5MB,最多9张)
-- 支持上传PDF(≤10MB)
-- 可在截止时间前修改提交内容
-- **逾期提交策略**: 允许逾期提交,但前端显示红色"迟交"标签,教师可酌情扣分
+Students can submit their homework answers:
+- Supports image uploads (jpg/png, single image ≤5MB, max 9 images)
+- Supports PDF uploads (≤10MB)
+- Can modify submitted content before the deadline
+- **Late submission policy**: Late submissions are allowed, but the front-end displays a red "Late" tag, and the teacher can deduct points at their discretion.
 ```
 
-**问题2: 批改后申诉机制**
+**Question 2: Appeal Mechanism after Grading**
 
 ```markdown
-**方案A: 不支持申诉(推荐MVP)**
-- 优点: 简单,减少争议
-- 缺点: 教师误批无法纠正?
-- 实现: 无需额外表设计
+**Option A: No appeals supported (Recommended for MVP)**
+- Pros: Simple, reduces disputes.
+- Cons: How to correct if the teacher makes a grading error?
+- Implementation: No extra table design needed.
 
-**方案B: 支持申诉流程**
-- 优点: 公平,可纠错
-- 缺点: 复杂,需要申诉表、通知机制
-- 实现: 需要`homework_appeal`表 + 消息推送
+**Option B: Support an appeal process**
+- Pros: Fair, allows for corrections.
+- Cons: Complex, requires an appeal table and notification mechanism.
+- Implementation: Requires a `homework_appeal` table + message push.
 
-**建议**: 初始版本选方案A,但教师可自行修改批改结果(等同简化版申诉)。
+**Recommendation**: Choose Option A for the initial version, but allow teachers to modify their own grading results (equivalent to a simplified appeal).
 
-用户选择: 方案A,但允许教师修改
+User's choice: Option A, but allow teachers to modify.
 ```
 
-**澄清完成,所有待确认点已解决**。
+**Clarification complete, all points to be confirmed have been resolved.**
 
-### 步骤4: 制定技术方案(开始涉及怎么做)
+### Step 4: Formulate the Technical Plan (start getting into the how)
 
 ```bash
-/speckit.plan 使用Spring Boot 3.2 + MyBatis-Plus + MySQL 8.0 + Redis作为缓存。文件上传使用阿里云OSS,统计数据用Redis缓存5分钟。前端Vue3 + Element Plus,图片预览用viewerjs。
+/speckit.plan Use Spring Boot 3.2 + MyBatis-Plus + MySQL 8.0 + Redis as a cache. File uploads use Aliyun OSS. Statistical data is cached in Redis for 5 minutes. The front-end is Vue 3 + Element Plus, with viewerjs for image previews.
 ```
 
-**输出**: `specs/001-zuoye-pigai/plan.md`, `data-model.md`, `contracts/api-spec.yaml`
+**Output**: `specs/001-homework-grading/plan.md`, `data-model.md`, `contracts/api-spec.yaml`
 
-**技术方案关键内容**:
+**Key content of the technical plan**:
 
 ```markdown
-## 技术架构
+## Technical Architecture
 
-### 技术选型
-- **后端框架**: Spring Boot 3.2.5
-- **ORM**: MyBatis-Plus 3.5.6(简化CRUD)
-- **数据库**: MySQL 8.0
-- **缓存**: Redis 7.0(缓存班级统计数据)
-- **文件存储**: 阿里云OSS(存储作业附件和学生提交的图片)
-- **前端**: Vue 3.3 + Element Plus + Axios
-- **图片预览**: viewerjs
+### Technology Selection
+- **Backend Framework**: Spring Boot 3.2.5
+- **ORM**: MyBatis-Plus 3.5.6 (simplifies CRUD)
+- **Database**: MySQL 8.0
+- **Cache**: Redis 7.0 (caches class statistics)
+- **File Storage**: Aliyun OSS (stores homework attachments and student-submitted images)
+- **Frontend**: Vue 3.3 + Element Plus + Axios
+- **Image Preview**: viewerjs
 
-### 第0阶段: 实现前检查(宪法关卡)
+### Phase 0: Pre-implementation Check (Constitution Gate)
 
-#### 简单性关卡(第七条)
-- [✅] 使用≤3个Maven模块?
-  是: homework-common、homework-service、homework-web
-- [✅] 无未来导向功能?
-  是: 不引入Elasticsearch(当前MySQL够用)
+#### Simplicity Gate (Article 7)
+- [✅] Use ≤3 Maven modules?
+  Yes: homework-common, homework-service, homework-web
+- [✅] No future-oriented features?
+  Yes: Not introducing Elasticsearch (MySQL is sufficient for now)
 
-#### 反过度抽象关卡(第八条)
-- [✅] 直接使用框架?
-  是: 用MyBatis-Plus BaseMapper,不再封装
-- [⚠️] 单一模型表示?
-  否: 分离Entity和VO(理由: Entity包含敏感字段如`student_id_card`,VO需要脱敏)
-  **复杂度跟踪**: 已记录,用户审批
+#### Anti-Over-Abstraction Gate (Article 8)
+- [✅] Use the framework directly?
+  Yes: Use MyBatis-Plus `BaseMapper`, no further wrapping.
+- [⚠️] Single model representation?
+  No: Separate Entity and VO (Reason: Entity contains sensitive fields like `student_id_card`, VO needs masking).
+  **Complexity tracking**: Recorded, user approval needed.
 
-#### 测试先行关卡(第三条)
-- [✅] 契约已定义?
-  是: 见`contracts/api-spec.yaml`
-- [⏳] 契约测试已写?
-  待执行: 在`/speckit.tasks`阶段完成
+#### Test-First Gate (Article 3)
+- [✅] Contract defined?
+  Yes: See `contracts/api-spec.yaml`
+- [⏳] Contract tests written?
+  To be done: In the `/speckit.tasks` phase.
 
-### 核心实现阶段
+### Core Implementation Phases
 
-#### 阶段1: 数据层搭建
-1. 创建MySQL表: `homework`(作业表)、`homework_submission`(提交表)、`homework_review`(批改表)
-2. 实现Entity: HomeworkEntity、HomeworkSubmissionEntity、HomeworkReviewEntity
-3. MyBatis-Plus Mapper: HomeworkMapper、SubmissionMapper、ReviewMapper
-4. 数据初始化: 3个教师、30个学生、2个班级
+#### Phase 1: Data Layer Setup
+1. Create MySQL tables: `homework`, `homework_submission`, `homework_review`.
+2. Implement Entities: `HomeworkEntity`, `HomeworkSubmissionEntity`, `HomeworkReviewEntity`.
+3. MyBatis-Plus Mappers: `HomeworkMapper`, `SubmissionMapper`, `ReviewMapper`.
+4. Data initialization: 3 teachers, 30 students, 2 classes.
 
-#### 阶段2: 业务层实现
-1. HomeworkService: 发布作业、查询作业列表
-2. SubmissionService: 提交作业、查询提交记录、判断逾期
-3. ReviewService: 批改作业、修改批改
-4. StatisticsService: 计算提交率、平均分(Redis缓存5分钟)
+#### Phase 2: Business Layer Implementation
+1. `HomeworkService`: Publish homework, query homework list.
+2. `SubmissionService`: Submit homework, query submission records, check for lateness.
+3. `ReviewService`: Grade homework, modify grades.
+4. `StatisticsService`: Calculate submission rate, average score (cached in Redis for 5 minutes).
 
-#### 阶段3: 接口层实现
-1. HomeworkController: POST /api/homework(发布), GET /api/homework/list(列表)
-2. SubmissionController: POST /api/submission(提交), GET /api/submission/:id(详情)
-3. ReviewController: POST /api/review(批改), PUT /api/review/:id(修改)
-4. FileController: POST /api/file/upload(OSS上传)
+#### Phase 3: Interface Layer Implementation
+1. `HomeworkController`: `POST /api/homework` (publish), `GET /api/homework/list` (list).
+2. `SubmissionController`: `POST /api/submission` (submit), `GET /api/submission/:id` (details).
+3. `ReviewController`: `POST /api/review` (grade), `PUT /api/review/:id` (modify).
+4. `FileController`: `POST /api/file/upload` (OSS upload).
 
-#### 阶段4: 前端页面
-1. 教师端: 作业发布页、批改页、统计页
-2. 学生端: 作业列表页、提交页、结果查看页
-3. 公共组件: 文件上传组件、图片预览组件
+#### Phase 4: Frontend Pages
+1. Teacher side: Homework publishing page, grading page, statistics page.
+2. Student side: Homework list page, submission page, result viewing page.
+3. Common components: File upload component, image preview component.
 ```
 
-**数据模型(data-model.md)**:
+**Data Model (`data-model.md`)**:
 
 ```markdown
-## 数据表设计
+## Database Table Design
 
-### 作业表(homework)
+### Homework Table (homework)
 ```sql
 CREATE TABLE homework (
-  id BIGINT PRIMARY KEY AUTO_INCREMENT COMMENT '作业ID',
-  title VARCHAR(50) NOT NULL COMMENT '作业标题',
-  content TEXT NOT NULL COMMENT '作业内容(富文本)',
-  teacher_id BIGINT NOT NULL COMMENT '发布教师ID',
-  class_ids VARCHAR(200) NOT NULL COMMENT '班级ID列表(JSON数组)',
-  deadline DATETIME NOT NULL COMMENT '截止时间',
-  attachment_url VARCHAR(500) COMMENT '附件OSS地址',
+  id BIGINT PRIMARY KEY AUTO_INCREMENT COMMENT 'Homework ID',
+  title VARCHAR(50) NOT NULL COMMENT 'Homework title',
+  content TEXT NOT NULL COMMENT 'Homework content (rich text)',
+  teacher_id BIGINT NOT NULL COMMENT 'ID of the publishing teacher',
+  class_ids VARCHAR(200) NOT NULL COMMENT 'List of class IDs (JSON array)',
+  deadline DATETIME NOT NULL COMMENT 'Deadline',
+  attachment_url VARCHAR(500) COMMENT 'Attachment OSS address',
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   INDEX idx_teacher_id (teacher_id),
   INDEX idx_deadline (deadline)
-) COMMENT='作业表';
+) COMMENT='Homework table';
 ```
 
-### 提交表(homework_submission)
+### Submission Table (homework_submission)
 ```sql
 CREATE TABLE homework_submission (
   id BIGINT PRIMARY KEY AUTO_INCREMENT,
-  homework_id BIGINT NOT NULL COMMENT '作业ID',
-  student_id BIGINT NOT NULL COMMENT '学生ID',
-  content TEXT COMMENT '提交内容(文字)',
-  image_urls TEXT COMMENT '图片地址列表(JSON数组)',
-  pdf_url VARCHAR(500) COMMENT 'PDF地址',
-  status TINYINT NOT NULL DEFAULT 1 COMMENT '1未批改 2已批改 3需修改',
-  is_late TINYINT NOT NULL DEFAULT 0 COMMENT '0准时 1逾期',
-  submitted_at DATETIME DEFAULT CURRENT_TIMESTAMP COMMENT '提交时间',
+  homework_id BIGINT NOT NULL COMMENT 'Homework ID',
+  student_id BIGINT NOT NULL COMMENT 'Student ID',
+  content TEXT COMMENT 'Submitted content (text)',
+  image_urls TEXT COMMENT 'List of image addresses (JSON array)',
+  pdf_url VARCHAR(500) COMMENT 'PDF address',
+  status TINYINT NOT NULL DEFAULT 1 COMMENT '1 Not Graded 2 Graded 3 Revision Needed',
+  is_late TINYINT NOT NULL DEFAULT 0 COMMENT '0 On time 1 Late',
+  submitted_at DATETIME DEFAULT CURRENT_TIMESTAMP COMMENT 'Submission time',
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   UNIQUE KEY uk_homework_student (homework_id, student_id),
   INDEX idx_student_id (student_id),
   INDEX idx_status (status)
-) COMMENT='作业提交表';
+) COMMENT='Homework submission table';
 ```
 
-### 批改表(homework_review)
+### Review Table (homework_review)
 ```sql
 CREATE TABLE homework_review (
   id BIGINT PRIMARY KEY AUTO_INCREMENT,
-  submission_id BIGINT NOT NULL COMMENT '提交ID',
-  teacher_id BIGINT NOT NULL COMMENT '批改教师ID',
-  score TINYINT NOT NULL COMMENT '分数0-100',
-  comment VARCHAR(500) COMMENT '评语',
-  reviewed_at DATETIME DEFAULT CURRENT_TIMESTAMP COMMENT '批改时间',
+  submission_id BIGINT NOT NULL COMMENT 'Submission ID',
+  teacher_id BIGINT NOT NULL COMMENT 'ID of the grading teacher',
+  score TINYINT NOT NULL COMMENT 'Score 0-100',
+  comment VARCHAR(500) COMMENT 'Comments',
+  reviewed_at DATETIME DEFAULT CURRENT_TIMESTAMP COMMENT 'Grading time',
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   UNIQUE KEY uk_submission (submission_id),
   INDEX idx_teacher_id (teacher_id)
-) COMMENT='批改表';
+) COMMENT='Review table';
 ```
 ```
 
-**API契约(contracts/api-spec.yaml)**:
+**API Contract (`contracts/api-spec.yaml`)**:
 
 ```yaml
 openapi: 3.0.0
 info:
-  title: 智慧课堂-作业批改API
+  title: Intelligent Classroom - Homework Grading API
   version: 1.0.0
 
 paths:
   /api/homework:
     post:
-      summary: 发布作业
+      summary: Publish homework
       requestBody:
         content:
           application/json:
@@ -642,10 +642,10 @@ paths:
                 title:
                   type: string
                   maxLength: 50
-                  example: "第三章练习题"
+                  example: "Chapter 3 Exercises"
                 content:
                   type: string
-                  example: "<p>完成第45-50页习题</p>"
+                  example: "<p>Complete exercises on pages 45-50</p>"
                 classIds:
                   type: array
                   items:
@@ -660,7 +660,7 @@ paths:
                   example: "https://oss.example.com/homework/xxx.pdf"
       responses:
         '200':
-          description: 发布成功
+          description: Published successfully
           content:
             application/json:
               schema:
@@ -668,7 +668,7 @@ paths:
 
   /api/submission:
     post:
-      summary: 提交作业
+      summary: Submit homework
       requestBody:
         content:
           application/json:
@@ -681,7 +681,7 @@ paths:
                   example: 1
                 content:
                   type: string
-                  example: "我的答案是..."
+                  example: "My answer is..."
                 imageUrls:
                   type: array
                   items:
@@ -691,11 +691,11 @@ paths:
                   type: string
       responses:
         '200':
-          description: 提交成功
+          description: Submitted successfully
 
   /api/review:
     post:
-      summary: 批改作业
+      summary: Grade homework
       requestBody:
         content:
           application/json:
@@ -713,10 +713,10 @@ paths:
                 comment:
                   type: string
                   maxLength: 500
-                  example: "计算过程清晰,但第3题粗心算错了"
+                  example: "The calculation process is clear, but you made a careless mistake in question 3."
       responses:
         '200':
-          description: 批改成功
+          description: Graded successfully
 
 components:
   schemas:
@@ -728,313 +728,313 @@ components:
           example: 200
         message:
           type: string
-          example: "操作成功"
+          example: "Operation successful"
         data:
           type: object
 ```
 
-### 步骤5: 分解为可执行任务
+### Step 5: Decompose into Executable Tasks
 
 ```bash
 /speckit.tasks
 ```
 
-**输出**: `specs/001-zuoye-pigai/tasks.md`
+**Output**: `specs/001-homework-grading/tasks.md`
 
 ```markdown
-## 任务分解
+## Task Breakdown
 
-### 第0阶段: 搭建骨架和契约
+### Phase 0: Scaffolding and Contract
 
-#### 任务001 [可并行] - 创建项目结构
-- 初始化Spring Boot项目(maven)
-- 创建3个模块: common、service、web
-- 配置pom.xml依赖(MyBatis-Plus、Redis、OSS SDK)
-- **交付物**: 项目可编译通过
+#### Task 001 [Parallelizable] - Create Project Structure
+- Initialize Spring Boot project (maven)
+- Create 3 modules: common, service, web
+- Configure `pom.xml` dependencies (MyBatis-Plus, Redis, OSS SDK)
+- **Deliverable**: The project compiles successfully.
 
-#### 任务002 [可并行] - 定义API契约
-- 复制`contracts/api-spec.yaml`到项目
-- 使用swagger-codegen生成Java DTO
-- **交付物**: DTO类可被Controller引用
+#### Task 002 [Parallelizable] - Define API Contract
+- Copy `contracts/api-spec.yaml` to the project
+- Use `swagger-codegen` to generate Java DTOs
+- **Deliverable**: DTO classes can be referenced by Controllers.
 
-#### 任务003 [依赖: 任务002] - 编写契约测试
-- 测试: POST /api/homework 返回200
-- 测试: POST /api/submission 无homeworkId返回400
-- 测试: POST /api/review score=101 返回400
-- **交付物**: 所有测试失败(TDD红灯阶段)
+#### Task 003 [Depends on: Task 002] - Write Contract Tests
+- Test: `POST /api/homework` returns 200
+- Test: `POST /api/submission` without `homeworkId` returns 400
+- Test: `POST /api/review` with `score=101` returns 400
+- **Deliverable**: All tests fail (TDD red light phase).
 
-### 第1阶段: 数据层(可并行组A)
+### Phase 1: Data Layer (Parallelizable Group A)
 
-#### 任务004 [可并行] [依赖: 任务003] - 搭建MySQL
-- docker-compose启动MySQL 8.0
-- 创建数据库`classroom_db`
-- 执行DDL脚本(homework、homework_submission、homework_review)
-- **交付物**: 表结构创建完成
+#### Task 004 [Parallelizable] [Depends on: Task 003] - Set up MySQL
+- Start MySQL 8.0 with `docker-compose`
+- Create the database `classroom_db`
+- Execute DDL scripts (homework, homework_submission, homework_review)
+- **Deliverable**: Table structures are created.
 
-#### 任务005 [可并行] [依赖: 任务003] - 初始化种子数据
-- 插入3个教师: 张老师(数学)、李老师(语文)、王老师(英语)
-- 插入30个学生: 学号1001-1030,分配到2个班级
-- 插入2个班级: 初一(1)班、初一(2)班
-- **交付物**: 种子数据可查询
+#### Task 005 [Parallelizable] [Depends on: Task 003] - Initialize Seed Data
+- Insert 3 teachers: Mr. Zhang (Math), Ms. Li (Language), Mr. Wang (English)
+- Insert 30 students: Student IDs 1001-1030, assigned to 2 classes
+- Insert 2 classes: Grade 7 Class 1, Grade 7 Class 2
+- **Deliverable**: Seed data can be queried.
 
-### 第2阶段: 业务层实现(依赖: 第1阶段)
+### Phase 2: Business Layer Implementation (Depends on: Phase 1)
 
-#### 任务006 [依赖: 任务004] - 实现HomeworkService
-- 创建HomeworkMapper(MyBatis-Plus)
-- 实现发布作业: `publishHomework(HomeworkDTO dto)`
-- 实现查询列表: `listHomework(Long teacherId)`
-- **交付物**: 任务003中的POST /api/homework测试通过(变绿)
+#### Task 006 [Depends on: Task 004] - Implement HomeworkService
+- Create `HomeworkMapper` (MyBatis-Plus)
+- Implement homework publishing: `publishHomework(HomeworkDTO dto)`
+- Implement list query: `listHomework(Long teacherId)`
+- **Deliverable**: The `POST /api/homework` test from Task 003 passes (turns green).
 
-#### 任务007 [依赖: 任务004] - 实现SubmissionService
-- 创建SubmissionMapper
-- 实现提交作业: `submitHomework(SubmissionDTO dto)`
-- 实现逾期判断: `isLate(Long homeworkId, LocalDateTime submitTime)`
-- 实现查询: `getSubmission(Long submissionId)`
-- **交付物**: POST /api/submission测试通过
+#### Task 007 [Depends on: Task 004] - Implement SubmissionService
+- Create `SubmissionMapper`
+- Implement homework submission: `submitHomework(SubmissionDTO dto)`
+- Implement late check: `isLate(Long homeworkId, LocalDateTime submitTime)`
+- Implement query: `getSubmission(Long submissionId)`
+- **Deliverable**: The `POST /api/submission` test passes.
 
-#### 任务008 [依赖: 任务004] - 实现ReviewService
-- 创建ReviewMapper
-- 实现批改: `reviewHomework(ReviewDTO dto)`
-- 实现修改批改: `updateReview(Long reviewId, ReviewDTO dto)`
-- **交付物**: POST /api/review测试通过
+#### Task 008 [Depends on: Task 004] - Implement ReviewService
+- Create `ReviewMapper`
+- Implement grading: `reviewHomework(ReviewDTO dto)`
+- Implement grade modification: `updateReview(Long reviewId, ReviewDTO dto)`
+- **Deliverable**: The `POST /api/review` test passes.
 
-### 第3阶段: 接口层(可并行组B)
+### Phase 3: Interface Layer (Parallelizable Group B)
 
-#### 任务009 [可并行] [依赖: 任务006] - HomeworkController
-- 创建Controller,注入HomeworkService
-- 实现POST /api/homework
-- 实现GET /api/homework/list?teacherId=1
-- 权限校验: 只有教师可发布
-- **交付物**: Postman测试通过
+#### Task 009 [Parallelizable] [Depends on: Task 006] - HomeworkController
+- Create Controller, inject `HomeworkService`
+- Implement `POST /api/homework`
+- Implement `GET /api/homework/list?teacherId=1`
+- Permission check: Only teachers can publish
+- **Deliverable**: Postman tests pass.
 
-#### 任务010 [可并行] [依赖: 任务007] - SubmissionController
-- 实现POST /api/submission
-- 实现GET /api/submission/:id
-- 权限校验: 学生只能查询自己的提交
-- **交付物**: 前端可调用
+#### Task 010 [Parallelizable] [Depends on: Task 007] - SubmissionController
+- Implement `POST /api/submission`
+- Implement `GET /api/submission/:id`
+- Permission check: Students can only query their own submissions
+- **Deliverable**: Can be called from the frontend.
 
-#### 任务011 [依赖: 任务008] - ReviewController
-- 实现POST /api/review
-- 实现PUT /api/review/:id(修改批改)
-- 权限校验: 教师只能批改自己班级学生作业
-- **交付物**: 完整批改流程打通
+#### Task 011 [Depends on: Task 008] - ReviewController
+- Implement `POST /api/review`
+- Implement `PUT /api/review/:id` (modify grade)
+- Permission check: Teachers can only grade homework of students in their own classes
+- **Deliverable**: The complete grading flow is connected.
 
-#### 任务012 [可并行] - FileController文件上传
-- 集成阿里云OSS SDK
-- 实现POST /api/file/upload(支持图片/PDF)
-- 文件大小校验: 图片≤5MB,PDF≤10MB
-- 返回OSS地址
-- **交付物**: 前端可上传文件获得URL
+#### Task 012 [Parallelizable] - FileController for File Uploads
+- Integrate Aliyun OSS SDK
+- Implement `POST /api/file/upload` (supports images/PDFs)
+- File size validation: images ≤5MB, PDFs ≤10MB
+- Return OSS address
+- **Deliverable**: The frontend can upload files and get a URL.
 
-#### 任务013 [依赖: 任务007] - StatisticsService统计功能
-- 实现计算提交率: `calcSubmitRate(Long homeworkId)`
-- 实现计算平均分: `calcAvgScore(Long homeworkId)`
-- Redis缓存5分钟(key: `stats:homework:{id}`)
-- **交付物**: GET /api/statistics/:homeworkId 返回统计数据
+#### Task 013 [Depends on: Task 007] - StatisticsService for Statistical Functions
+- Implement submission rate calculation: `calcSubmitRate(Long homeworkId)`
+- Implement average score calculation: `calcAvgScore(Long homeworkId)`
+- Cache in Redis for 5 minutes (key: `stats:homework:{id}`)
+- **Deliverable**: `GET /api/statistics/:homeworkId` returns statistical data.
 
-### 第4阶段: 前端页面
+### Phase 4: Frontend Pages
 
-#### 任务014 [依赖: 任务009] - 教师发布作业页面
-- Vue组件: HomeworkPublish.vue
-- 表单: 标题、富文本编辑器、截止时间选择器
-- 调用POST /api/homework
-- **交付物**: 教师可发布作业
+#### Task 014 [Depends on: Task 009] - Teacher Homework Publishing Page
+- Vue component: `HomeworkPublish.vue`
+- Form: Title, rich text editor, deadline picker
+- Call `POST /api/homework`
+- **Deliverable**: Teachers can publish homework.
 
-#### 任务015 [依赖: 任务010, 任务012] - 学生提交作业页面
-- Vue组件: HomeworkSubmit.vue
-- 图片上传组件(最多9张)
-- PDF上传组件
-- 逾期提示(红色"迟交"标签)
-- **交付物**: 学生可提交作业
+#### Task 015 [Depends on: Task 010, Task 012] - Student Homework Submission Page
+- Vue component: `HomeworkSubmit.vue`
+- Image upload component (max 9 images)
+- PDF upload component
+- Late submission indicator (red "Late" tag)
+- **Deliverable**: Students can submit homework.
 
-#### 任务016 [依赖: 任务011] - 教师批改页面
-- Vue组件: HomeworkReview.vue
-- 图片预览(viewerjs)
-- 评分输入框(0-100)
-- 评语文本框
-- **交付物**: 教师可批改作业
+#### Task 016 [Depends on: Task 011] - Teacher Grading Page
+- Vue component: `HomeworkReview.vue`
+- Image preview (`viewerjs`)
+- Score input box (0-100)
+- Comment text box
+- **Deliverable**: Teachers can grade homework.
 
-### 第5阶段: 集成测试和上线准备
+### Phase 5: Integration Testing and Deployment Preparation
 
-#### 任务017 - 端到端测试
-- 场景1: 张老师发布作业 → 小明提交(准时) → 张老师批改85分
-- 场景2: 小红逾期提交 → 显示红色标签
-- 场景3: 张老师修改小明成绩为90分
-- **交付物**: 所有场景通过
+#### Task 017 - End-to-End Testing
+- Scenario 1: Mr. Zhang publishes homework → Xiao Ming submits (on time) → Mr. Zhang grades it 85 points.
+- Scenario 2: Xiao Hong submits late → A red tag is displayed.
+- Scenario 3: Mr. Zhang modifies Xiao Ming's score to 90 points.
+- **Deliverable**: All scenarios pass.
 
-#### 任务018 - 性能验证
-- 加载100个作业的列表,测试响应时间(目标<1秒)
-- 上传5MB文件,测试上传时间(目标<10秒)
-- **交付物**: 满足非功能需求
+#### Task 018 - Performance Validation
+- Load a list of 100 assignments, test response time (target <1 second).
+- Upload a 5MB file, test upload time (target <10 seconds).
+- **Deliverable**: Non-functional requirements are met.
 
-## 执行计划
+## Execution Plan
 
-### 第1周
-- 并行组: 任务001、任务002、任务004、任务005
-- 串行: 任务003(契约测试写完)
+### Week 1
+- Parallel group: Task 001, Task 002, Task 004, Task 005
+- Serial: Task 003 (after contract tests are written)
 
-### 第2周
-- 串行: 任务006 → 任务007 → 任务008(业务层)
-- 并行启动: 任务012(文件上传,独立)
+### Week 2
+- Serial: Task 006 → Task 007 → Task 008 (business layer)
+- Start in parallel: Task 012 (file upload, independent)
 
-### 第3周
-- 并行组B: 任务009、任务010(Controller层)
-- 串行: 任务011、任务013
+### Week 3
+- Parallel group B: Task 009, Task 010 (Controller layer)
+- Serial: Task 011, Task 013
 
-### 第4周
-- 前端: 任务014 → 任务015 → 任务016
-- 最后: 任务017、任务018(测试验证)
+### Week 4
+- Frontend: Task 014 → Task 015 → Task 016
+- Finally: Task 017, Task 018 (testing and validation)
 
-## 统计指标
-- 总任务数: 18个
-- 预计工期: 4周
-- 可并行任务: 7个
-- 关键路径: 任务002 → 任务003 → 任务004 → 任务006 → 任务009 → 任务014 → 任务017
+## Statistical Metrics
+- Total number of tasks: 18
+- Estimated duration: 4 weeks
+- Number of parallelizable tasks: 7
+- Critical path: Task 002 → Task 003 → Task 004 → Task 006 → Task 009 → Task 014 → Task 017
 ```
 
-### 步骤6: 运行质量门检查(关键!)
+### Step 6: Run the Quality Gate Check (Crucial!)
 
 ```bash
 /speckit.analyze
 ```
 
-**AI执行的检查**:
+**Checks performed by the AI**:
 
 ```markdown
-# 规格分析报告
+# Spec Analysis Report
 
-## 执行摘要
-- 功能需求总数: 6个
-- 非功能需求总数: 2个
-- 任务总数: 18个
-- 覆盖率: 100%(8/8需求都有对应任务)
-- **CRITICAL问题: 1个**
-- HIGH问题: 2个
-- MEDIUM问题: 3个
-- LOW问题: 1个
+## Executive Summary
+- Total functional requirements: 6
+- Total non-functional requirements: 2
+- Total number of tasks: 18
+- Coverage: 100% (8/8 requirements have corresponding tasks)
+- **CRITICAL issues: 1**
+- HIGH issues: 2
+- MEDIUM issues: 3
+- LOW issues: 1
 
-## ❌ CRITICAL问题(必须修复才能/implement)
+## ❌ CRITICAL Issues (Must be fixed before /implement)
 
-| ID | 类别 | 严重性 | 位置 | 问题描述 | 建议 |
+| ID | Category | Severity | Location | Issue Description | Recommendation |
 |----|------|--------|------|----------|------|
-| C1 | 宪法违规 | CRITICAL | tasks.md第2阶段 | 违反第三条"测试先行原则": 任务006"实现HomeworkService"在任务003"契约测试"之前执行 | 调整依赖: 任务003必须在任务004-005之前,确保测试失败后再实现 |
+| C1 | Constitution Violation | CRITICAL | tasks.md Phase 2 | Violates Article 3 "Test-First Principle": Task 006 "Implement HomeworkService" is executed before Task 003 "Contract Tests". | Adjust dependencies: Task 003 must be before Tasks 004-005 to ensure tests fail before implementation. |
 
-## ⚠️ HIGH问题(强烈建议修复)
+## ⚠️ HIGH Issues (Strongly recommended to fix)
 
-| ID | 类别 | 严重性 | 位置 | 问题描述 | 建议 |
+| ID | Category | Severity | Location | Issue Description | Recommendation |
 |----|------|--------|------|----------|------|
-| H1 | 覆盖度缺失 | HIGH | spec.md需求4 | "需修改"状态无对应任务 | 在ReviewService中添加`setNeedRevision()`方法 |
-| H2 | 歧义 | HIGH | plan.md第3阶段 | "权限校验"没有说明失败后返回什么错误码 | 规定: 无权限返回403,带message"无权访问" |
+| H1 | Coverage Gap | HIGH | spec.md Requirement 4 | The "Revision Needed" status has no corresponding task. | Add a `setNeedRevision()` method in `ReviewService`. |
+| H2 | Ambiguity | HIGH | plan.md Phase 3 | "Permission check" does not specify what error code to return on failure. | Specify: Return 403 with the message "Permission denied" for no permission. |
 
-## 📊 覆盖度详情
+## 📊 Coverage Details
 
-| 需求 | 有任务? | 任务ID | 备注 |
+| Requirement | Task? | Task ID | Notes |
 |------|--------|--------|------|
-| 需求1: 作业发布 | ✅ | 任务006、任务009 | 完整覆盖 |
-| 需求2: 学生提交 | ✅ | 任务007、任务010 | 完整覆盖 |
-| 需求3: 教师批改 | ✅ | 任务008、任务011 | 完整覆盖 |
-| 需求4: 状态管理 | ⚠️ | 任务007(部分) | 缺少"需修改"状态处理,见H1 |
-| 需求5: 统计功能 | ✅ | 任务013 | 完整覆盖 |
-| 需求6: 权限控制 | ✅ | 任务009-011 | 每个Controller都有 |
-| 非功能1: 性能 | ✅ | 任务018 | 完整覆盖 |
-| 非功能2: 数据安全 | ✅ | 宪法第四条自动执行 | 完整覆盖 |
+| Req 1: Publish Homework | ✅ | Task 006, Task 009 | Fully covered |
+| Req 2: Student Submission | ✅ | Task 007, Task 010 | Fully covered |
+| Req 3: Teacher Grading | ✅ | Task 008, Task 011 | Fully covered |
+| Req 4: Status Management | ⚠️ | Task 007 (partial) | Missing handling for "Revision Needed" status, see H1. |
+| Req 5: Statistical Functions | ✅ | Task 013 | Fully covered |
+| Req 6: Access Control | ✅ | Tasks 009-011 | In every Controller |
+| Non-func 1: Performance | ✅ | Task 018 | Fully covered |
+| Non-func 2: Data Security | ✅ | Automatically enforced by Constitution Article 4 | Fully covered |
 
-## 🚨 宪法对齐问题
+## 🚨 Constitution Alignment Issues
 
-### 第三条违规(CRITICAL)
-**位置**: tasks.md第2阶段
-**问题**: 任务006"实现HomeworkService"依赖任务004(数据库),但应该依赖任务003(契约测试失败)
-**宪法原文**: "禁止在测试已确认失败前编写实现代码"
-**修复**: 调整任务依赖顺序为 任务003 → 任务004 → 任务006
+### Article 3 Violation (CRITICAL)
+**Location**: tasks.md Phase 2
+**Issue**: Task 006 "Implement HomeworkService" depends on Task 004 (database), but it should depend on Task 003 (contract tests failing).
+**Constitution text**: "It is forbidden to write implementation code before tests are confirmed to fail."
+**Fix**: Adjust the task dependency order to Task 003 → Task 004 → Task 006.
 
-## 📈 统计指标
-- 需求覆盖率: 100%(8/8)
-- 任务映射率: 94%(17/18,任务001为基础搭建)
-- 歧义计数: 1(H2)
-- 重复计数: 0
-- CRITICAL问题: 1
+## 📈 Statistical Metrics
+- Requirement coverage: 100% (8/8)
+- Task mapping rate: 94% (17/18, Task 001 is basic setup)
+- Ambiguity count: 1 (H2)
+- Duplication count: 0
+- CRITICAL issues: 1
 
-## ⚙️ 下一步行动
+## ⚙️ Next Actions
 
-### ❌ 阻塞: 不能执行/implement
-**原因**: 1个CRITICAL问题(宪法违规)
+### ❌ Blocked: Cannot execute /implement
+**Reason**: 1 CRITICAL issue (Constitution violation)
 
-### 必须修复:
-1. **修复C1**: 调整tasks.md任务依赖顺序
-   - 修改: 任务006依赖从`[依赖: 任务004]`改为`[依赖: 任务003]`
-   - 理由: 契约测试必须先失败,才能开始实现
+### Must be fixed:
+1. **Fix C1**: Adjust the task dependency order in `tasks.md`.
+   - Change: The dependency for Task 006 from `[Depends on: Task 004]` to `[Depends on: Task 003]`.
+   - Reason: Contract tests must fail first before implementation can begin.
 
-2. **解决H1**: 添加"需修改"状态处理
-   - 在任务008中增加子任务: "实现setNeedRevision()方法"
+2. **Resolve H1**: Add handling for the "Revision Needed" status.
+   - Add a sub-task in Task 008: "Implement `setNeedRevision()` method."
 
-### 修复后:
-重新运行`/speckit.analyze`确认CRITICAL=0,然后执行`/speckit.implement`。
+### After fixing:
+Rerun `/speckit.analyze` to confirm CRITICAL=0, then execute `/speckit.implement`.
 ```
 
-**用户响应**:
+**User's response**:
 
 ```
-修复C1和H1
+Fix C1 and H1
 ```
 
-**AI自动修复tasks.md**:
+**AI automatically fixes `tasks.md`**:
 
 ```markdown
-#### 任务003 [依赖: 任务002] - 编写契约测试
-(内容不变)
+#### Task 003 [Depends on: Task 002] - Write Contract Tests
+(Content unchanged)
 
-#### 任务004 [依赖: 任务003] - 搭建MySQL  ← 修改: 添加依赖任务003
-- docker-compose启动MySQL 8.0
+#### Task 004 [Depends on: Task 003] - Set up MySQL  ← Modified: Added dependency on Task 003
+- Start MySQL 8.0 with `docker-compose`
 - ...
 
-#### 任务006 [依赖: 任务004, 任务003] - 实现HomeworkService  ← 修改: 明确依赖003
+#### Task 006 [Depends on: Task 004, Task 003] - Implement HomeworkService  ← Modified: Explicit dependency on 003
 - ...
 
-#### 任务008 [依赖: 任务004] - 实现ReviewService
-- 创建ReviewMapper
-- 实现批改: `reviewHomework(ReviewDTO dto)`
-- 实现修改批改: `updateReview(Long reviewId, ReviewDTO dto)`
-- **新增: 实现设置需修改: `setNeedRevision(Long submissionId, String reason)`**  ← 新增
-- **交付物**: POST /api/review测试通过
+#### Task 008 [Depends on: Task 004] - Implement ReviewService
+- Create `ReviewMapper`
+- Implement grading: `reviewHomework(ReviewDTO dto)`
+- Implement grade modification: `updateReview(Long reviewId, ReviewDTO dto)`
+- **New: Implement setting revision needed: `setNeedRevision(Long submissionId, String reason)`**  ← New
+- **Deliverable**: The `POST /api/review` test passes.
 ```
 
-**再次运行 `/speckit.analyze`**:
+**Rerunning `/speckit.analyze`**:
 
 ```bash
 /speckit.analyze
 ```
 
 ```markdown
-# 规格分析报告
+# Spec Analysis Report
 
-## 执行摘要
-- **CRITICAL问题: 0** ✅
-- HIGH问题: 1(H2 - 错误码规范)
-- MEDIUM问题: 3
-- LOW问题: 1
+## Executive Summary
+- **CRITICAL issues: 0** ✅
+- HIGH issues: 1 (H2 - error code standard)
+- MEDIUM issues: 3
+- LOW issues: 1
 
-## ⚙️ 下一步行动
-✅ **准备就绪**: 无CRITICAL问题。HIGH/MEDIUM问题为改进项,不阻塞实现。
+## ⚙️ Next Actions
+✅ **Ready**: No CRITICAL issues. HIGH/MEDIUM issues are improvements but do not block implementation.
 
-可以执行: `/speckit.implement`
+Can now execute: `/speckit.implement`
 ```
 
-### 步骤7: 执行实现(TDD方式生成代码)
+### Step 7: Execute Implementation (in a TDD fashion)
 
 ```bash
 /speckit.implement
 ```
 
-**AI执行流程**(严格TDD):
+**Execution flow by the AI** (Strict TDD):
 
 ```
-[任务001] 创建项目结构...
-✅ Maven项目创建成功,3个模块可编译
+[Task 001] Creating project structure...
+✅ Maven project created successfully, 3 modules compile.
 
-[任务002] 定义API契约...
-✅ 从api-spec.yaml生成DTO: HomeworkDTO、SubmissionDTO、ReviewDTO
+[Task 002] Defining API contract...
+✅ DTOs generated from `api-spec.yaml`: `HomeworkDTO`, `SubmissionDTO`, `ReviewDTO`.
 
-[任务003] 编写契约测试...
+[Task 003] Writing contract tests...
 ```java
 @SpringBootTest
 @AutoConfigureMockMvc
@@ -1044,10 +1044,10 @@ class HomeworkControllerTest {
     private MockMvc mockMvc;
 
     @Test
-    void testPublishHomework_成功() throws Exception {
+    void testPublishHomework_Success() throws Exception {
         HomeworkDTO dto = new HomeworkDTO()
-            .setTitle("第三章练习题")
-            .setContent("<p>完成第45-50页</p>")
+            .setTitle("Chapter 3 Exercises")
+            .setContent("<p>Complete pages 45-50</p>")
             .setClassIds(Arrays.asList(1L, 2L))
             .setDeadline(LocalDateTime.of(2024, 6, 30, 23, 59));
 
@@ -1059,9 +1059,9 @@ class HomeworkControllerTest {
     }
 
     @Test
-    void testPublishHomework_标题为空_返回400() throws Exception {
+    void testPublishHomework_TitleIsEmpty_Returns400() throws Exception {
         HomeworkDTO dto = new HomeworkDTO()
-            .setContent("内容")
+            .setContent("Content")
             .setDeadline(LocalDateTime.now().plusDays(1));
 
         mockMvc.perform(post("/api/homework")
@@ -1071,15 +1071,15 @@ class HomeworkControllerTest {
     }
 }
 ```
-❌ 测试失败(预期) - Controller还未实现
+❌ Tests fail (as expected) - Controller not yet implemented.
 
-[任务004] 搭建MySQL...
-✅ Docker容器启动,表结构创建完成
+[Task 004] Setting up MySQL...
+✅ Docker container started, table structures created.
 
-[任务005] 初始化种子数据...
-✅ 3个教师、30个学生、2个班级数据插入
+[Task 005] Initializing seed data...
+✅ Data for 3 teachers, 30 students, 2 classes inserted.
 
-[任务006] 实现HomeworkService...
+[Task 006] Implementing HomeworkService...
 ```java
 @Service
 public class HomeworkServiceImpl implements HomeworkService {
@@ -1110,7 +1110,7 @@ public class HomeworkServiceImpl implements HomeworkService {
 }
 ```
 
-[任务009] 实现HomeworkController...
+[Task 009] Implementing HomeworkController...
 ```java
 @RestController
 @RequestMapping("/api/homework")
@@ -1133,980 +1133,979 @@ public class HomeworkController {
     }
 }
 ```
-✅ 任务003的测试现在通过了 - TDD循环完成
+✅ The tests from Task 003 now pass - TDD cycle complete.
 
-... (任务007-018类似的TDD循环)
+... (Similar TDD cycles for Tasks 007-018)
 
-[任务018] 性能验证...
-✅ 加载100个作业列表耗时: 0.8秒(目标<1秒)
-✅ 上传5MB图片耗时: 7秒(目标<10秒)
+[Task 018] Performance validation...
+✅ Loading a list of 100 assignments took: 0.8 seconds (target <1 second).
+✅ Uploading a 5MB image took: 7 seconds (target <10 seconds).
 
-🎉 所有18个任务完成。功能已就绪可测试。
+🎉 All 18 tasks completed. The feature is ready for testing.
 ```
 
-**最终交付物**:
-- ✅ 完整可运行的"作业批改"功能
-- ✅ 18个任务全部完成,所有测试通过
-- ✅ 满足所有宪法原则(模块化、测试先行、数据安全)
-- ✅ 前后端打通,教师和学生可实际使用
+**Final deliverables**:
+- ✅ A complete, runnable "Homework Grading" feature.
+- ✅ All 18 tasks completed, all tests passed.
+- ✅ Meets all constitution principles (modularity, test-first, data security).
+- ✅ Frontend and backend are connected, teachers and students can actually use it.
 
 ---
 
-## 场景3: /analyze发现问题的真实案例
+## Scenario 3: Real Case of an Issue Found by /analyze
 
-### 案例: 发现数据安全违规
+### Case: Data Security Violation Discovered
 
-假设在步骤6运行`/speckit.analyze`时发现:
+Suppose that when running `/speckit.analyze` in step 6, the following is found:
 
 ```markdown
-| ID | 类别 | 严重性 | 位置 | 问题描述 | 建议 |
+| ID | Category | Severity | Location | Issue Description | Recommendation |
 |----|------|--------|------|----------|------|
-| C2 | 宪法违规 | CRITICAL | plan.md数据模型 | 违反第四条"数据安全原则": student_id_card字段未加密 | 添加字段student_id_card_encrypted,存储AES加密后的数据 |
+| C2 | Constitution Violation | CRITICAL | plan.md Data Model | Violates Article 4 "Data Security Principle": the `student_id_card` field is not encrypted. | Add a field `student_id_card_encrypted` to store the AES-encrypted data. |
 ```
 
-**修复流程**:
+**Remediation process**:
 
-**步骤1: 判断问题层级**
+**Step 1: Determine the level of the issue**
 
-这是`/speckit.plan`层级的问题(数据模型设计),需回退到`/speckit.plan`
+This is an issue at the `/speckit.plan` level (data model design), so we need to go back to `/speckit.plan`.
 
-**步骤2: 更新data-model.md**
+**Step 2: Update `data-model.md`**
 
 ```markdown
-### 学生表(student) - 已修复
+### Student Table (student) - Fixed
 
 ```sql
 CREATE TABLE student (
   id BIGINT PRIMARY KEY,
   name VARCHAR(50) NOT NULL,
-  student_no VARCHAR(20) NOT NULL COMMENT '学号',
-  -- 修改前: id_card VARCHAR(18) COMMENT '身份证号'
-  id_card_encrypted VARCHAR(200) COMMENT '身份证号(AES-256加密)',  ← 修复
-  phone_encrypted VARCHAR(200) COMMENT '手机号(AES-256加密)',     ← 修复
+  student_no VARCHAR(20) NOT NULL COMMENT 'Student ID number',
+  -- Before change: id_card VARCHAR(18) COMMENT 'ID card number'
+  id_card_encrypted VARCHAR(200) COMMENT 'ID card number (AES-256 encrypted)',  ← Fixed
+  phone_encrypted VARCHAR(200) COMMENT 'Phone number (AES-256 encrypted)',     ← Fixed
   class_id BIGINT NOT NULL,
   ...
 );
 ```
 ```
 
-**步骤3: 更新tasks.md**
+**Step 3: Update `tasks.md`**
 
 ```markdown
-#### 任务005 - 初始化种子数据(已更新)
-- 插入30个学生数据
-- **新增: 使用AESUtil加密身份证号和手机号后存储**
-- **新增: 配置加密密钥(从环境变量读取,不提交到Git)**
+#### Task 005 - Initialize Seed Data (Updated)
+- Insert data for 30 students
+- **New: Encrypt ID card numbers and phone numbers with `AESUtil` before storing.**
+- **New: Configure the encryption key (read from environment variables, not committed to Git).**
 ```
 
-**步骤4: 重新运行 `/speckit.analyze`**
+**Step 4: Rerun `/speckit.analyze`**
 
 ```bash
 /analyze
 ```
 
 ```markdown
-## 执行摘要
-- **CRITICAL问题: 0** ✅
-- 宪法第四条: 已合规
+## Executive Summary
+- **CRITICAL issues: 0** ✅
+- Article 4 of the Constitution: Compliant.
 
-✅ 准备就绪,可执行 `/speckit.implement`
+✅ Ready, can execute `/speckit.implement`.
 ```
 
-**关键**: `/speckit.analyze`像编译器,在"运行"前捕获安全隐患。
+**Key takeaway**: `/speckit.analyze` acts like a compiler, catching security vulnerabilities before "runtime."
 
 ---
 
-## 场景4: 需求变更快速响应
+## Scenario 4: Rapid Response to Requirement Changes
 
-### 变更需求
+### Change Request
 
-产品经理提出:
+The product manager proposes:
 
 ```
-需求变更: 希望支持作业的"优秀作业展示"功能,教师可以将批改后评分≥90的作业标记为"优秀",
-          展示在班级公告栏,其他学生可以查看学习(但不显示学生姓名,只显示"优秀作业")
+Requirement change: I want to support a "Showcase of Excellent Homework" feature. Teachers can mark homework with a score ≥90 as "excellent" and display it on the class bulletin board. Other students can view and learn from it (but without seeing the student's name, only "Excellent Homework").
 ```
 
-**SDD处理流程**:
+**SDD handling process**:
 
-**步骤1: 判断变更层级**
+**Step 1: Determine the level of the change**
 
-| 变更类型 | 影响层级 | 需要回退到 |
+| Change Type | Affected Level | Need to go back to |
 |---------|---------|-----------|
-| 修改按钮颜色 | 实现细节 | `/speckit.implement` |
-| 添加"is_excellent"字段 | 数据模型 | `/speckit.plan` |
-| 新增"展示功能" | 功能定义 | `/speckit.specify` |
-| 改变项目架构 | 项目DNA | `/speckit.constitution` |
+| Change button color | Implementation detail | `/speckit.implement` |
+| Add `is_excellent` field | Data model | `/speckit.plan` |
+| Add "showcase feature" | Feature definition | `/speckit.specify` |
+| Change project architecture | Project DNA | `/speckit.constitution` |
 
-**当前变更**: 新增功能 → 回退到 `/speckit.specify`
+**Current change**: A new feature → Go back to `/speckit.specify`.
 
-**步骤2: 更新spec.md**
+**Step 2: Update `spec.md`**
 
 ```markdown
-### 需求7: 优秀作业展示(新增)
+### Requirement 7: Showcase of Excellent Homework (New)
 
-教师可将评分≥90的作业标记为"优秀作业",展示在班级公告栏。
+Teachers can mark homework with a score ≥90 as "excellent homework" and display it on the class bulletin board.
 
-**功能细节**:
-- 教师批改时可勾选"设为优秀作业"
-- 班级公告栏显示优秀作业列表(按时间倒序)
-- 学生可查看优秀作业内容,但不显示提交者姓名(显示"优秀作业示范")
-- 教师可取消"优秀"标记
+**Feature details**:
+- When grading, teachers can check "Set as excellent homework."
+- The class bulletin board displays a list of excellent homework (in reverse chronological order).
+- Students can view the content of excellent homework, but not the submitter's name (displays "Excellent Homework Example").
+- Teachers can unmark homework as "excellent."
 
-**验收标准**:
-- 张老师批改小明作业95分,勾选"优秀"
-- 初一(1)班学生小红在公告栏看到该作业,显示"优秀作业示范"
-- 小红可查看作业图片,但看不到是谁提交的
+**Acceptance criteria**:
+- Mr. Zhang grades Xiao Ming's homework 95 points and checks "excellent."
+- Xiao Hong, a student in Grade 7 Class 1, sees this homework on the bulletin board, displayed as "Excellent Homework Example."
+- Xiao Hong can view the homework images, but cannot see who submitted it.
 ```
 
-**步骤3: 重新执行后续步骤**
+**Step 3: Rerun the subsequent steps**
 
 ```bash
-/clarify  # AI可能问: 一个作业可以有多个优秀示范吗?
-/plan     # AI更新plan.md,homework_submission表添加is_excellent字段
-/tasks    # AI自动插入新任务
+/clarify  # AI might ask: Can one assignment have multiple excellent examples?
+/plan     # AI updates plan.md, adding an `is_excellent` field to the `homework_submission` table.
+/tasks    # AI automatically inserts new tasks.
 ```
 
-**AI生成的新任务**:
+**New tasks generated by the AI**:
 
 ```markdown
-#### 任务008.1 [依赖: 任务008] - 优秀作业标记功能
-- ReviewService添加`markAsExcellent(Long submissionId)`方法
-- homework_submission表添加is_excellent字段(0否1是)
-- **交付物**: 教师可标记优秀作业
+#### Task 008.1 [Depends on: Task 008] - Excellent Homework Marking Feature
+- Add `markAsExcellent(Long submissionId)` method to `ReviewService`.
+- Add an `is_excellent` field to the `homework_submission` table (0 for no, 1 for yes).
+- **Deliverable**: Teachers can mark homework as excellent.
 
-#### 任务019 [依赖: 任务008.1] - 优秀作业展示API
-- 实现GET /api/excellent-homework/list?classId=1
-- 返回数据脱敏: studentName字段改为"优秀作业示范"
-- **交付物**: 前端可获取优秀作业列表
+#### Task 019 [Depends on: Task 008.1] - Excellent Homework Showcase API
+- Implement `GET /api/excellent-homework/list?classId=1`.
+- Anonymize the returned data: change the `studentName` field to "Excellent Homework Example."
+- **Deliverable**: The frontend can get a list of excellent homework.
 
-#### 任务020 [依赖: 任务019] - 前端公告栏页面
-- Vue组件: ExcellentHomeworkList.vue
-- 展示优秀作业(不显示学生信息)
-- 点击可查看详情
-- **交付物**: 学生可查看优秀作业
+#### Task 020 [Depends on: Task 019] - Frontend Bulletin Board Page
+- Vue component: `ExcellentHomeworkList.vue`.
+- Display excellent homework (without student information).
+- Click to view details.
+- **Deliverable**: Students can view excellent homework.
 ```
 
-**步骤4: 运行/analyze**
+**Step 4: Run `/analyze`**
 
 ```bash
 /analyze
 ```
 
 ```markdown
-## 执行摘要
-- **CRITICAL问题: 0** ✅
-- 新需求覆盖率: 100%(需求7有3个任务覆盖)
+## Executive Summary
+- **CRITICAL issues: 0** ✅
+- New requirement coverage: 100% (Requirement 7 is covered by 3 tasks).
 
-✅ 准备就绪: `/speckit.implement`
+✅ Ready: `/speckit.implement`
 ```
 
-**步骤5: 增量实现**
+**Step 5: Incremental Implementation**
 
 ```bash
 /implement
 ```
 
-AI只生成新增的任务008.1、任务019、任务020,不重新生成整个项目。
+The AI only generates the new Tasks 008.1, 019, and 020, without regenerating the entire project.
 
-**耗时对比**:
+**Time comparison**:
 
-| 阶段 | 传统开发 | SDD方式 |
+| Phase | Traditional Development | SDD Method |
 |------|---------|---------|
-| 更新PRD | 1小时 | 5分钟(编辑spec.md) |
-| 设计评审 | 2小时 | 0分钟(自动) |
-| 修改代码 | 4小时 | 15分钟(/implement) |
-| 测试验证 | 2小时 | 自动(TDD) |
-| **总计** | **9小时** | **20分钟** |
-| **加速比** | - | **27倍** |
+| Update PRD | 1 hour | 5 minutes (edit `spec.md`) |
+| Design review | 2 hours | 0 minutes (automatic) |
+| Modify code | 4 hours | 15 minutes (`/implement`) |
+| Test validation | 2 hours | Automatic (TDD) |
+| **Total** | **9 hours** | **20 minutes** |
+| **Speedup** | - | **27x** |
 
 ---
 
-## 四、三大核心机制深度解析
+## Four. In-depth Analysis of the Three Core Mechanisms
 
-### 4.1 Constitution宪法: 如何自动约束LLM行为
+### 4.1 Constitution: How to Automatically Constrain LLM Behavior
 
-#### 宪法的九大类原则(以智慧课堂为例)
+#### The Nine Categories of Principles in the Constitution (using the Intelligent Classroom as an example)
 
-| 条款 | 内容 | 如何检测 | 违规后果 |
+| Article | Content | How to Detect | Consequence of Violation |
 |------|------|---------|---------|
-| **第一条: 模块优先** | 功能先做成独立Service | `/speckit.analyze`检测是否直接在Controller写业务逻辑 | CRITICAL错误 |
-| **第二条: 接口清晰** | 统一Result<T>返回格式 | `/speckit.analyze`检测Controller返回值类型 | HIGH警告 |
-| **第三条: 测试先行** | 先写测试后实现 | `/speckit.implement`检查任务顺序 | 拒绝生成代码 |
-| **第四条: 数据安全** | 敏感信息加密存储 | `/speckit.analyze`检测是否有`_encrypted`字段 | CRITICAL错误 |
-| **第七条: 简单性** | ≤3个Maven模块 | `/speckit.plan`生成时检查 | 需书面justification |
-| **第八条: 反过度抽象** | 直接用MyBatis-Plus | `/speckit.analyze`检测是否有多余的Wrapper | 需justification |
-| **第九条: 集成测试** | 用真实MySQL测试 | `/speckit.implement`检查测试配置 | 测试套件不通过 |
+| **Article 1: Module-First** | Features must be implemented as independent Services first. | `/speckit.analyze` checks if business logic is written directly in the Controller. | CRITICAL error |
+| **Article 2: Clear Interface** | Uniform `Result<T>` return format. | `/speckit.analyze` checks the return type of Controllers. | HIGH warning |
+| **Article 3: Test-First** | Write tests before implementation. | `/speckit.implement` checks the task order. | Refuses to generate code |
+| **Article 4: Data Security** | Encrypt sensitive information for storage. | `/speckit.analyze` checks for `_encrypted` fields. | CRITICAL error |
+| **Article 7: Simplicity** | ≤3 Maven modules. | Checked when `/speckit.plan` is generated. | Requires written justification |
+| **Article 8: Anti-Over-Abstraction** | Use MyBatis-Plus directly. | `/speckit.analyze` checks for unnecessary wrappers. | Requires justification |
+| **Article 9: Integration Testing** | Test with a real MySQL. | `/speckit.implement` checks the test configuration. | Test suite fails |
 
-#### 宪法如何在/implement时自动执行
+#### How the Constitution is Automatically Enforced during `/implement`
 
-**示例: 第三条"测试先行"的执行**
+**Example: Enforcement of Article 3 "Test-First"**
 
-1. **用户运行 `/speckit.implement`**
-2. **AI读取宪法第三条**:
+1. **User runs `/speckit.implement`**.
+2. **AI reads Article 3 of the Constitution**:
    ```
-   禁止在以下步骤完成前编写实现代码:
-   1. 契约测试已编写
-   2. 测试已通过用户审查
-   3. 测试已运行并确认失败
+   It is forbidden to write implementation code before the following steps are completed:
+   1. Contract tests have been written.
+   2. The tests have passed user review.
+   3. The tests have been run and confirmed to fail.
    ```
-3. **AI强制执行TDD流程**:
+3. **AI enforces the TDD flow**:
    ```
-   [任务003] 编写契约测试...
+   [Task 003] Writing contract tests...
 
    @Test
    void testPublishHomework() {
-       // 调用接口
+       // Call the interface
        Result<Long> result = homeworkController.publishHomework(dto, 1L);
-       // 断言
+       // Assert
        assertEquals(200, result.getCode());
    }
 
-   ❌ 测试失败(预期) - HomeworkService还未实现
+   ❌ Tests fail (as expected) - `HomeworkService` not yet implemented.
 
-   [等待用户确认...]
+   [Waiting for user confirmation...]
 
-   用户: "测试写得很好,继续"
+   User: "The tests are well-written, continue."
 
-   // 现在AI才生成实现代码
-   [任务006] 实现HomeworkService...
+   // Now the AI generates the implementation code
+   [Task 006] Implementing `HomeworkService`...
    ```
 
-**传统AI编码** vs **宪法约束的AI编码**:
+**Traditional AI coding** vs. **Constitution-constrained AI coding**:
 
-| 方面 | 传统AI | 宪法约束AI |
+| Aspect | Traditional AI | Constitution-constrained AI |
 |------|--------|------------|
-| 测试 | 事后补测试(或不测) | 强制测试先行 |
-| 架构 | 随意创建模块 | ≤3个模块,超过需justification |
-| 数据安全 | 可能明文存储 | 敏感字段必须加密,否则CRITICAL |
-| 质量 | 依赖人工Review | `/speckit.analyze`自动检测违规 |
+| Testing | Add tests afterwards (or not at all). | Enforces test-first. |
+| Architecture | Create modules arbitrarily. | ≤3 modules, more requires justification. |
+| Data Security | May store in plaintext. | Sensitive fields must be encrypted, otherwise CRITICAL. |
+| Quality | Relies on manual review. | `/speckit.analyze` automatically detects violations. |
 
-#### 如何为自己的项目定制宪法
+#### How to Customize the Constitution for Your Own Project
 
-**步骤1: 识别不可妥协的原则**
+**Step 1: Identify non-negotiable principles**
 
-问自己:
-- 什么技术决策错误会导致项目失败?
-- 什么代码质量标准必须100%遵守?
-- 什么架构原则不能因deadline牺牲?
+Ask yourself:
+- What technical decision errors will cause the project to fail?
+- What code quality standards must be 100% adhered to?
+- What architectural principles cannot be sacrificed for deadlines?
 
-**示例: 某金融支付项目的宪法**
-
-```markdown
-# 支付系统项目宪法
-
-## 第一条: 幂等性原则(不可妥协)
-
-所有写操作API必须:
-1. 接受幂等键(idempotency-key请求头)
-2. 重复请求返回相同结果,不重复扣款
-3. 幂等键在Redis存储24小时
-
-违规 = CRITICAL,阻止上线。
-
-## 第二条: 审计日志强制
-
-所有状态变更必须:
-1. 记录操作人、时间、变更前/后值
-2. 写入audit_log表(append-only)
-3. 保留7年(监管要求)
-
-违规 = CRITICAL,合规性不通过。
-
-## 第三条: 金额精度
-
-所有金额计算必须:
-1. 使用BigDecimal,禁止float/double
-2. 四舍五入到分(2位小数)
-3. 单元测试覆盖边界值(0.01、-0.01、Max)
-
-违规 = HIGH,需修复。
-
-## 第四条: 性能预算
-
-所有API必须:
-1. P95延迟 < 200ms
-2. P99延迟 < 500ms
-3. 支持1000 QPS并发
-
-违规 = HIGH,需性能优化任务。
-```
-
-**步骤2: 在/plan阶段定义检查关卡**
+**Example: Constitution for a financial payment project**
 
 ```markdown
-### 第0阶段: 实现前检查
+# Payment System Project Constitution
 
-#### 幂等性关卡(第一条)
-- [ ] 所有POST/PUT接口接受idempotency-key?
-- [ ] Redis配置已就绪?
-- [ ] 重复请求测试用例已写?
+## Article 1: Idempotency Principle (Non-negotiable)
 
-#### 审计关卡(第二条)
-- [ ] audit_log表已创建?
-- [ ] AOP切面已配置?
+All write operation APIs must:
+1. Accept an idempotency key (`idempotency-key` request header).
+2. Return the same result for repeated requests, without double-charging.
+3. The idempotency key is stored in Redis for 24 hours.
 
-#### 金额精度关卡(第三条)
-- [ ] pom.xml禁止引入Lombok(会生成float的builder)?
-- [ ] 所有金额字段类型为BigDecimal?
+Violation = CRITICAL, blocks deployment.
+
+## Article 2: Mandatory Audit Log
+
+All state changes must:
+1. Record the operator, time, and before/after values.
+2. Be written to the `audit_log` table (append-only).
+3. Be retained for 7 years (regulatory requirement).
+
+Violation = CRITICAL, compliance failure.
+
+## Article 3: Monetary Precision
+
+All monetary calculations must:
+1. Use `BigDecimal`, forbidding `float`/`double`.
+2. Round to the cent (2 decimal places).
+3. Unit tests must cover boundary values (0.01, -0.01, Max).
+
+Violation = HIGH, needs fixing.
+
+## Article 4: Performance Budget
+
+All APIs must have:
+1. P95 latency < 200ms.
+2. P99 latency < 500ms.
+3. Support for 1000 QPS concurrency.
+
+Violation = HIGH, performance optimization task needed.
 ```
 
-**步骤3: /analyze自动执行检查**
+**Step 2: Define check gates in the `/plan` phase**
+
+```markdown
+### Phase 0: Pre-implementation Check
+
+#### Idempotency Gate (Article 1)
+- [ ] Do all POST/PUT interfaces accept an `idempotency-key`?
+- [ ] Is the Redis configuration ready?
+- [ ] Have test cases for repeated requests been written?
+
+#### Audit Gate (Article 2)
+- [ ] Has the `audit_log` table been created?
+- [ ] Has the AOP aspect been configured?
+
+#### Monetary Precision Gate (Article 3)
+- [ ] Does `pom.xml` forbid the introduction of Lombok (which can generate builders with `float`)?
+- [ ] Are all monetary field types `BigDecimal`?
+```
+
+**Step 3: `/analyze` automatically performs the checks**
 
 ```bash
 /analyze
 ```
 
-AI自动扫描:
+The AI automatically scans:
 ```markdown
-| ID | 类别 | 严重性 | 位置 | 问题 | 建议 |
+| ID | Category | Severity | Location | Issue | Recommendation |
 |----|------|--------|------|------|------|
-| C1 | 宪法违规 | CRITICAL | PaymentService.java:45 | 第三条违规: 使用double类型计算金额 | 改为BigDecimal |
-| C2 | 宪法违规 | CRITICAL | tasks.md | 第二条违规: 无审计日志任务 | 添加任务: 实现审计AOP |
+| C1 | Constitution Violation | CRITICAL | PaymentService.java:45 | Violation of Article 3: Uses `double` type for monetary calculation. | Change to `BigDecimal`. |
+| C2 | Constitution Violation | CRITICAL | tasks.md | Violation of Article 2: No task for audit logging. | Add a task: Implement audit AOP. |
 ```
 
-### 4.2 Template模板: 引导LLM生成高质量规格
+### 4.2 Template: Guiding the LLM to Generate High-Quality Specs
 
-#### 模板如何约束LLM输出
+#### How Templates Constrain LLM Output
 
-**问题**: 直接问LLM"帮我写个登录功能的PRD",会得到模糊的结果。
+**Problem**: Directly asking an LLM "help me write a PRD for a login feature" will result in a vague output.
 
-**传统Prompt**(低质量):
+**Traditional Prompt** (low quality):
 ```
-用户: 帮我写一个学生提交作业功能的需求文档
+User: Help me write a requirements document for a student homework submission feature.
 
-AI: 学生提交作业功能包括:
-1. 学生登录后可以上传作业
-2. 支持文件上传
-3. 提交后教师可以看到
+AI: The student homework submission feature includes:
+1. Students can upload homework after logging in.
+2. Supports file uploads.
+3. The teacher can see it after submission.
 
-(问题: 太模糊,没有边界条件,没有错误处理)
-```
-
-**Template约束方式**(高质量):
-```
-用户: /specify 学生提交作业功能
-
-AI: (读取 spec-template.md)
-
-模板要求:
-- ✅ 专注于做什么和为什么,不写怎么做
-- ✅ 用[待确认]标记模糊点
-- ✅ 包含边界情况
-- ✅ 定义可测量的验收标准
-
-生成的spec.md:
-
-## 功能概述
-**做什么**: 学生在线提交作业答案
-**为什么**: 替代纸质提交,便于留存和批改
-
-## 功能需求
-
-### 需求1: 文件上传
-学生可上传作业文件。
-
-[待确认: 支持哪些文件格式? 图片、PDF还是Word?]
-[待确认: 文件大小限制? 5MB还是10MB?]
-
-## 边界情况
-
-### 边界1: 上传超时
-学生上传5MB文件,网络慢,30秒未完成。
-**处理**: 前端显示"上传中"进度条,超过30秒提示"请检查网络"
-
-### 边界2: 重复提交
-学生提交后发现错误,想重新提交。
-[待确认: 允许修改吗? 还是一次提交后锁定?]
-
-## 非功能需求
-
-### 性能要求
-- 上传5MB文件在10秒内完成(正常网络)
-- 支持50个学生同时上传
-
-### 数据安全
-- 作业文件存储在OSS,有访问权限控制
-- 学生只能访问自己的作业,不能访问他人的
+(Problem: Too vague, no boundary conditions, no error handling)
 ```
 
-**对比**: 模板强制AI思考了:
-1. ✅ 核心功能(需求1)
-2. ✅ 边界情况(超时、重复提交)
-3. ✅ 标记歧义(2个待确认点)
-4. ✅ 性能指标(有具体数字: 10秒、50人)
-5. ✅ 数据安全(权限控制)
-6. ✅ 可测试性(验收标准明确)
-7. ✅ 没有技术实现(没提OSS、MySQL)
+**Template-constrained method** (high quality):
+```
+User: /specify a student homework submission feature
 
-#### [待确认]机制: 强制AI承认不确定性
+AI: (reads `spec-template.md`)
 
-**问题**: LLM倾向于"猜测"缺失信息,导致错误假设。
+Template requirements:
+- ✅ Focus on what and why, not how.
+- ✅ Mark ambiguous points with `[To be confirmed]`.
+- ✅ Include boundary cases.
+- ✅ Define measurable acceptance criteria.
 
-**解决**: 模板强制标记:
+Generated `spec.md`:
+
+## Feature Overview
+**What**: Students submit homework answers online.
+**Why**: To replace paper-based submission, for easier retention and grading.
+
+## Functional Requirements
+
+### Requirement 1: File Upload
+Students can upload homework files.
+
+[To be confirmed: What file formats are supported? Images, PDF, or Word?]
+[To be confirmed: File size limit? 5MB or 10MB?]
+
+## Boundary Cases
+
+### Boundary Case 1: Upload Timeout
+A student uploads a 5MB file, the network is slow, and it doesn't complete in 30 seconds.
+**Handling**: The frontend displays an "Uploading" progress bar. After 30 seconds, it prompts "Please check your network."
+
+### Boundary Case 2: Repeated Submission
+A student submits, finds a mistake, and wants to resubmit.
+[To be confirmed: Is modification allowed? Or is it locked after one submission?]
+
+## Non-functional Requirements
+
+### Performance Requirements
+- A 5MB file uploads within 10 seconds (on a normal network).
+- Supports 50 students uploading simultaneously.
+
+### Data Security
+- Homework files are stored in OSS with access control.
+- Students can only access their own homework, not others'.
+```
+
+**Comparison**: The template forced the AI to think about:
+1. ✅ Core functionality (Requirement 1)
+2. ✅ Boundary cases (timeout, repeated submission)
+3. ✅ Marked ambiguity (2 points to be confirmed)
+4. ✅ Performance metrics (with specific numbers: 10 seconds, 50 people)
+5. ✅ Data security (access control)
+6. ✅ Testability (clear acceptance criteria)
+7. ✅ No technical implementation (no mention of OSS, MySQL)
+
+#### The `[To be confirmed]` Mechanism: Forcing the AI to Acknowledge Uncertainty
+
+**Problem**: LLMs tend to "guess" missing information, leading to incorrect assumptions.
+
+**Solution**: The template enforces marking:
 
 ```markdown
-创建规格时的规则:
-1. **标记所有歧义点**: 使用[待确认: 具体问题]
-2. **不要猜测**: 如果prompt没说,就标记
-3. **提供选项**: 给出2-3个备选方案
+Rules for creating specs:
+1. **Mark all ambiguous points**: Use `[To be confirmed: specific question]`.
+2. **Don't guess**: If the prompt doesn't say, mark it.
+3. **Provide options**: Give 2-3 alternative solutions.
 ```
 
-**实战示例**:
+**Practical example**:
 
-用户prompt:
+User prompt:
 ```
-/specify 开发一个文件上传功能
+/specify develop a file upload feature
 ```
 
-AI生成(带待确认标记):
+AI-generated (with `[To be confirmed]` marks):
 ```markdown
-## 需求1: 文件上传
+## Requirement 1: File Upload
 
-用户可以上传文件。
+Users can upload files.
 
-[待确认: 支持哪些文件类型?]
-- 方案A: 仅图片(jpg、png) - 适合作业提交
-- 方案B: 文档(pdf、docx) - 适合资料分享
-- 方案C: 任意文件(安全风险较高)
+[To be confirmed: What file types are supported?]
+- Option A: Images only (jpg, png) - suitable for homework submission.
+- Option B: Documents (pdf, docx) - suitable for sharing materials.
+- Option C: Any file (higher security risk).
 
-[待确认: 文件大小限制?]
-- 方案A: 5MB(Web标准) - 适合图片
-- 方案B: 10MB - 适合PDF
-- 方案C: 100MB - 适合视频(需CDN支持)
+[To be confirmed: File size limit?]
+- Option A: 5MB (web standard) - suitable for images.
+- Option B: 10MB - suitable for PDFs.
+- Option C: 100MB - suitable for videos (requires CDN support).
 
-[待确认: 存储在哪里?]
-- 方案A: 本地服务器磁盘 - 简单,但不易扩展
-- 方案B: 阿里云OSS/腾讯云COS - 推荐,可靠
-- 方案C: 数据库BLOB字段 - 不推荐,性能差
+[To be confirmed: Where is it stored?]
+- Option A: Local server disk - simple, but not easily scalable.
+- Option B: Aliyun OSS/Tencent Cloud COS - recommended, reliable.
+- Option C: Database BLOB field - not recommended, poor performance.
 ```
 
-**用户在 `/speckit.clarify` 阶段解决**:
+**The user resolves this in the `/speckit.clarify` phase**:
 ```
-用户: 文件类型选方案A(仅图片),大小选方案A(5MB),存储选方案B(OSS)
+User: For file type, choose Option A (images only); for size, choose Option A (5MB); for storage, choose Option B (OSS).
 ```
 
-AI更新规格:
+The AI updates the spec:
 ```markdown
-### 需求1: 文件上传(已明确)
+### Requirement 1: File Upload (Clarified)
 
-用户可上传图片文件(jpg、png格式),单个文件≤5MB,存储在阿里云OSS。
+Users can upload image files (jpg, png format), single file ≤5MB, stored in Aliyun OSS.
 ```
 
-#### Phase Gates关卡: 自动质量检查
+#### Phase Gates: Automatic Quality Checks
 
-**定义**: 在`/speckit.plan`生成时,AI必须检查宪法的关卡。
+**Definition**: When generating with `/speckit.plan`, the AI must check the gates defined in the constitution.
 
-**plan-template.md片段**:
+**`plan-template.md` snippet**:
 ```markdown
-### 第0阶段: 实现前检查
+### Phase 0: Pre-implementation Check
 
-#### 简单性关卡(第七条)
-- [ ] 使用≤3个Maven模块?
-  - 如果否: 在"复杂度跟踪"章节说明理由
+#### Simplicity Gate (Article 7)
+- [ ] Use ≤3 Maven modules?
+  - If no: Explain why in the "Complexity Tracking" section.
 
-#### 反过度抽象关卡(第八条)
-- [ ] 直接使用框架?
-  - 如果否: 说明为什么需要包装
+#### Anti-Over-Abstraction Gate (Article 8)
+- [ ] Use the framework directly?
+  - If no: Explain why a wrapper is needed.
 
-#### 测试先行关卡(第三条)
-- [ ] 契约测试在实现之前?
-  - 必须是tasks.md的第0阶段
+#### Test-First Gate (Article 3)
+- [ ] Are contract tests before implementation?
+  - Must be in Phase 0 of `tasks.md`.
 ```
 
-**AI执行 `/speckit.plan` 时的流程**:
+**The AI's flow when executing `/speckit.plan`**:
 
 ```
-[AI] 读取宪法...
-[AI] 第七条: 最多3个Maven模块
-[AI] 检查方案...
-[AI] 发现: common、service、web、admin = 4个模块
-[AI] ❌ 简单性关卡未通过
-[AI] 写入plan.md:
+[AI] Reading constitution...
+[AI] Article 7: At most 3 Maven modules.
+[AI] Checking the plan...
+[AI] Found: common, service, web, admin = 4 modules.
+[AI] ❌ Simplicity Gate not passed.
+[AI] Writing to `plan.md`:
 
-### 第0阶段: 实现前检查
+### Phase 0: Pre-implementation Check
 
-#### 简单性关卡(第七条)
-- [❌] 使用≤3个Maven模块?
-  **状态**: 未通过(4个模块)
-  **理由**: admin模块需要单独的权限控制,不能和web模块混在一起
-  **审批**: 待用户确认
+#### Simplicity Gate (Article 7)
+- [❌] Use ≤3 Maven modules?
+  **Status**: Not passed (4 modules).
+  **Reason**: The admin module needs separate permission control and cannot be mixed with the web module.
+  **Approval**: Awaiting user confirmation.
 
-[等待用户审查...]
+[Waiting for user review...]
 
-用户: 去掉admin模块,初始版本不做后台管理
+User: Remove the admin module. The initial version will not have a backend management interface.
 
-[AI] ✅ 更新plan.md,去掉admin模块,简单性关卡通过
+[AI] ✅ `plan.md` updated, admin module removed, Simplicity Gate passed.
 ```
 
-### 4.3 Analyze质量门: 六种检测 + 四级严重性
+### 4.3 Analyze Quality Gate: Six Types of Detection + Four Severity Levels
 
-#### /analyze的六种检测类型
+#### The Six Detection Types of `/analyze`
 
-**1. 重复检测(Duplication)**
+**1. Duplication Detection**
 
-检测相似或重复的需求。
+Detects similar or duplicate requirements.
 
-**示例**:
-```markdown
-spec.md:
-需求1: 学生可以上传作业图片
-需求5: 系统支持学生提交图片作业
-
-/analyze报告:
-| D1 | 重复 | HIGH | 需求1 vs 需求5 | 两个需求描述相同功能 | 合并为需求1,删除需求5 |
-```
-
-**2. 歧义检测(Ambiguity)**
-
-检测模糊形容词,无法测量的标准。
-
-**示例**:
+**Example**:
 ```markdown
 spec.md:
-非功能需求1: 系统应该快速响应
+Requirement 1: Students can upload homework images.
+Requirement 5: The system supports students submitting image-based homework.
 
-/analyze报告:
-| A1 | 歧义 | HIGH | 非功能需求1 | "快速"无法测量 | 改为"API响应时间P95 < 200ms" |
+`/analyze` report:
+| D1 | Duplication | HIGH | Req 1 vs Req 5 | The two requirements describe the same function. | Merge into Requirement 1, delete Requirement 5. |
 ```
 
-**常见歧义词**: 快、慢、好、稳定、安全、流畅、直观
+**2. Ambiguity Detection**
 
-**3. 规格不足(Underspecification)**
+Detects vague adjectives and non-measurable standards.
 
-检测缺少对象或结果的需求。
-
-**示例**:
+**Example**:
 ```markdown
 spec.md:
-需求3: 教师可以删除
+Non-functional Requirement 1: The system should respond quickly.
 
-/analyze报告:
-| U1 | 规格不足 | MEDIUM | 需求3 | 缺少对象: 删除什么? | 改为"教师可以删除自己发布的作业" |
+`/analyze` report:
+| A1 | Ambiguity | HIGH | Non-func Req 1 | "Quickly" is not measurable. | Change to "API response time P95 < 200ms." |
 ```
 
-**4. 宪法对齐(Constitution Alignment)**
+**Common ambiguous words**: fast, slow, good, stable, secure, smooth, intuitive.
 
-检测违反宪法原则。
+**3. Underspecification Detection**
 
-**示例**:
+Detects requirements missing objects or outcomes.
+
+**Example**:
+```markdown
+spec.md:
+Requirement 3: Teachers can delete.
+
+`/analyze` report:
+| U1 | Underspecification | MEDIUM | Req 3 | Missing object: delete what? | Change to "Teachers can delete homework they have published." |
+```
+
+**4. Constitution Alignment**
+
+Detects violations of constitutional principles.
+
+**Example**:
 ```markdown
 constitution.md:
-第三条: 测试先行原则(不可妥协)
+Article 3: Test-First Principle (Non-negotiable).
 
 tasks.md:
-阶段1: 任务001 - 实现HomeworkService
-阶段2: 任务010 - 编写HomeworkService测试
+Phase 1: Task 001 - Implement `HomeworkService`.
+Phase 2: Task 010 - Write tests for `HomeworkService`.
 
-/analyze报告:
-| C1 | 宪法违规 | CRITICAL | tasks.md阶段1 | 违反第三条: 实现在测试之前 | 调整顺序: 任务010必须在任务001之前 |
+`/analyze` report:
+| C1 | Constitution Violation | CRITICAL | tasks.md Phase 1 | Violates Article 3: Implementation is before testing. | Adjust order: Task 010 must be before Task 001. |
 ```
 
-**5. 覆盖度缺失(Coverage Gap)**
+**5. Coverage Gap**
 
-检测需求无对应任务,或任务无对应需求。
+Detects requirements with no corresponding tasks, or tasks with no corresponding requirements.
 
-**示例**:
+**Example**:
 ```markdown
 spec.md:
-非功能需求2: 系统必须支持100个学生同时提交作业
+Non-functional Requirement 2: The system must support 100 students submitting homework simultaneously.
 
 tasks.md:
-(未找到并发测试任务)
+(No concurrency test task found)
 
-/analyze报告:
-| G1 | 覆盖度缺失 | CRITICAL | 非功能需求2 | 无任务覆盖并发测试 | 添加任务020: "JMeter压测100并发" |
+`/analyze` report:
+| G1 | Coverage Gap | CRITICAL | Non-func Req 2 | No task covers concurrency testing. | Add Task 020: "JMeter stress test with 100 concurrent users." |
 ```
 
-**6. 一致性检查(Inconsistency)**
+**6. Inconsistency Check**
 
-检测术语漂移,数据模型冲突。
+Detects terminology drift and data model conflicts.
 
-**示例**:
+**Example**:
 ```markdown
 spec.md:
-使用术语"作业状态"(未提交、已提交、已批改)
+Uses the term "homework status" (Not Submitted, Submitted, Graded).
 
 data-model.md:
-字段名: homework_state(enum)
+Field name: `homework_state` (enum).
 
 api-spec.yaml:
-参数名: homeworkStatus(string)
+Parameter name: `homeworkStatus` (string).
 
-/analyze报告:
-| I1 | 不一致 | MEDIUM | spec/plan/contracts | 术语漂移: "状态"vs"state"vs"Status" | 统一为"status"(数据库、API、文档) |
+`/analyze` report:
+| I1 | Inconsistency | MEDIUM | spec/plan/contracts | Terminology drift: "status" vs "state" vs "Status". | Unify to "status" (database, API, documentation). |
 ```
 
-#### 四级严重性分级
+#### The Four Severity Levels
 
-| 级别 | 定义 | 典型问题 | 如何处理 |
+| Level | Definition | Typical Issues | How to Handle |
 |------|------|---------|---------|
-| **CRITICAL** | 违反宪法MUST条款,或核心功能零覆盖 | 测试先行未遵守、数据安全违规、主功能无任务 | **阻塞 `/speckit.implement`**,必须修复 |
-| **HIGH** | 重复/冲突需求,安全/性能需求模糊 | 两个需求描述同一功能、非功能需求无指标 | 强烈建议修复,继续有风险 |
-| **MEDIUM** | 术语漂移,非功能需求未覆盖 | status vs state不一致、文档与代码用词不同 | 建议修复,不影响功能 |
-| **LOW** | 风格/措辞改进 | 任务ID格式不一致(T1 vs T001)、注释不规范 | 可选改进,不影响质量 |
+| **CRITICAL** | Violates a MUST clause of the constitution, or zero coverage for a core feature. | Test-first not followed, data security violation, main feature has no tasks. | **Blocks `/speckit.implement`**, must be fixed. |
+| **HIGH** | Duplicate/conflicting requirements, vague security/performance requirements. | Two requirements describe the same function, non-functional requirement has no metrics. | Strongly recommended to fix, continuing is risky. |
+| **MEDIUM** | Terminology drift, non-functional requirements not covered. | `status` vs `state` inconsistency, different wording in docs and code. | Recommended to fix, does not affect functionality. |
+| **LOW** | Style/wording improvements. | Inconsistent task ID format (T1 vs T001), non-standard comments. | Optional improvement, does not affect quality. |
 
-#### /analyze的典型输出结构
+#### Typical Output Structure of `/analyze`
 
 ```markdown
-# 规格分析报告
+# Spec Analysis Report
 
-## 执行摘要
-- 功能需求: 6个
-- 非功能需求: 2个
-- 任务总数: 18个
-- 覆盖率: 100%(8/8需求有任务)
-- **CRITICAL问题: 1个**
-- HIGH问题: 2个
-- MEDIUM问题: 3个
-- LOW问题: 1个
+## Executive Summary
+- Functional requirements: 6
+- Non-functional requirements: 2
+- Total number of tasks: 18
+- Coverage: 100% (8/8 requirements have tasks)
+- **CRITICAL issues: 1**
+- HIGH issues: 2
+- MEDIUM issues: 3
+- LOW issues: 1
 
-## ❌ CRITICAL问题(必须修复)
+## ❌ CRITICAL Issues (Must be fixed)
 
-| ID | 类别 | 严重性 | 位置 | 问题描述 | 建议 |
+| ID | Category | Severity | Location | Issue Description | Recommendation |
 |----|------|--------|------|----------|------|
-| C1 | 宪法违规 | CRITICAL | tasks.md第2阶段 | 违反第三条: 任务006实现在任务003测试之前 | 调整依赖顺序 |
+| C1 | Constitution Violation | CRITICAL | tasks.md Phase 2 | Violates Article 3: Task 006 is implemented before Task 003's tests. | Adjust the dependency order. |
 
-## ⚠️ HIGH问题(强烈建议)
+## ⚠️ HIGH Issues (Strongly recommended)
 
-| ID | 类别 | 严重性 | 位置 | 问题描述 | 建议 |
+| ID | Category | Severity | Location | Issue Description | Recommendation |
 |----|------|--------|------|----------|------|
-| H1 | 重复 | HIGH | 需求2 vs 需求7 | 都描述"学生提交作业" | 合并为需求2 |
-| H2 | 歧义 | HIGH | 非功能需求1 | "系统应该安全"无标准 | 具体化: "通过等保三级认证" |
+| H1 | Duplication | HIGH | Req 2 vs Req 7 | Both describe "student homework submission." | Merge into Requirement 2. |
+| H2 | Ambiguity | HIGH | Non-func Req 1 | "The system should be secure" has no standard. | Make it specific: "Pass Level 3 of the national information security certification." |
 
-## 📊 覆盖度详情
+## 📊 Coverage Details
 
-| 需求 | 有任务? | 任务ID | 备注 |
+| Requirement | Task? | Task ID | Notes |
 |------|--------|--------|------|
-| 需求1: 作业发布 | ✅ | 任务006、任务009 | 完整覆盖 |
-| 需求2: 学生提交 | ✅ | 任务007、任务010 | 完整覆盖 |
+| Req 1: Publish Homework | ✅ | Task 006, Task 009 | Fully covered |
+| Req 2: Student Submission | ✅ | Task 007, Task 010 | Fully covered |
 | ...
-| 非功能需求2: 并发性能 | ❌ | 无 | **缺失** - 见G1 |
+| Non-func Req 2: Concurrency | ❌ | None | **Missing** - See G1 |
 
-## 🚨 宪法对齐问题
+## 🚨 Constitution Alignment Issues
 
-### 第三条违规(CRITICAL)
-- ❌ 任务006"实现Service"在任务003"测试"之前
-- ✅ 其他任务遵守TDD顺序
+### Article 3 Violation (CRITICAL)
+- ❌ Task 006 "Implement Service" is before Task 003 "Tests".
+- ✅ Other tasks follow the TDD order.
 
-## 📈 统计指标
-- 需求覆盖率: 88%(7/8)
-- 任务映射率: 94%(17/18)
-- 歧义计数: 1
-- CRITICAL问题: 1
+## 📈 Statistical Metrics
+- Requirement coverage: 88% (7/8)
+- Task mapping rate: 94% (17/18)
+- Ambiguity count: 1
+- CRITICAL issues: 1
 
-## ⚙️ 下一步行动
+## ⚙️ Next Actions
 
-### ❌ 阻塞: 不能执行/implement
-**原因**: 1个CRITICAL问题
+### ❌ Blocked: Cannot execute `/implement`
+**Reason**: 1 CRITICAL issue.
 
-### 必须修复:
-1. **C1**: 调整tasks.md任务依赖
-2. **G1**: 添加并发测试任务
+### Must be fixed:
+1. **C1**: Adjust task dependencies in `tasks.md`.
+2. **G1**: Add a concurrency test task.
 
-### 修复后:
-重新运行`/speckit.analyze`确认CRITICAL=0,然后执行`/speckit.implement`。
+### After fixing:
+Rerun `/speckit.analyze` to confirm CRITICAL=0, then execute `/speckit.implement`.
 ```
 
 ---
 
-## 五、常见问题与解答
+## Five. Frequently Asked Questions
 
-### Q1: AI生成的代码偏离了需求,如何更新规格?
+### Q1: The AI-generated code deviates from the requirements. How do I update the spec?
 
-**场景**: 运行`/speckit.implement`后发现AI生成的批改页面没有"批量批改"功能,现在想加。
+**Scenario**: After running `/speckit.implement`, you find that the AI-generated grading page does not have a "batch grading" feature, and you want to add it now.
 
-**❌ 错误做法**:
+**❌ Wrong way**:
 ```
-直接告诉AI: "加一个批量批改按钮"
-→ AI加了,但spec.md/plan.md没更新
-→ 下次重新生成时又消失了
+Directly tell the AI: "Add a batch grading button."
+→ The AI adds it, but `spec.md`/`plan.md` are not updated.
+→ It disappears the next time it's regenerated.
 ```
 
-**✅ 正确做法**:
+**✅ Correct way**:
 
-**步骤1: 判断变更层级**
+**Step 1: Determine the level of the change**
 
-"批量批改"是新功能需求 → 影响`/speckit.specify`层级
+"Batch grading" is a new functional requirement → affects the `/speckit.specify` level.
 
-**步骤2: 回退到 `/speckit.specify`,更新spec.md**
+**Step 2: Go back to `/speckit.specify` and update `spec.md`**
 
 ```markdown
-### 需求8: 批量批改(新增)
+### Requirement 8: Batch Grading (New)
 
-教师可一次批改多个学生的作业,提升效率。
+Teachers can grade multiple students' homework at once to improve efficiency.
 
-**功能细节**:
-- 作业列表页,教师可勾选多个"已提交"状态的作业
-- 点击"批量批改"按钮,进入批量模式
-- 逐个显示作业,教师快速给分和评语
-- 支持键盘快捷键: Enter跳下一个,Ctrl+S保存
+**Feature details**:
+- On the homework list page, teachers can check multiple "Submitted" status assignments.
+- Clicking the "Batch Grade" button enters batch mode.
+- Homework is displayed one by one, and the teacher can quickly give a score and comments.
+- Supports keyboard shortcuts: Enter for the next one, Ctrl+S to save.
 
-**验收标准**:
-- 张老师勾选5个作业,进入批量模式
-- 逐个批改,每个耗时10秒
-- 5个作业批改完成,状态全部变为"已批改"
+**Acceptance criteria**:
+- Mr. Zhang checks 5 assignments and enters batch mode.
+- Grades them one by one, spending 10 seconds on each.
+- After the 5 assignments are graded, their statuses all change to "Graded."
 ```
 
-**步骤3: 重新执行后续流程**
+**Step 3: Rerun the subsequent flow**
 
 ```bash
-/clarify  # AI可能问: 批量时能跳过某个作业吗?
-/plan     # AI更新BatchReviewService
-/tasks    # AI自动插入新任务
-/analyze  # 检查一致性
-/implement  # 生成批量批改功能
+/clarify  # AI might ask: Can a specific assignment be skipped during batch grading?
+/plan     # AI updates `BatchReviewService`.
+/tasks    # AI automatically inserts a new task.
+/analyze  # Check for consistency.
+/implement  # Generate the batch grading feature.
 ```
 
-**关键原则**:
+**Key principle**:
 
-| 变更类型 | 回退到 | 示例 |
+| Change Type | Go back to | Example |
 |---------|--------|------|
-| UI样式 | `/speckit.implement` | 按钮颜色改蓝色 |
-| 添加字段 | `/speckit.plan` | 作业表加difficulty字段 |
-| 新增功能 | `/speckit.specify` | 添加批量批改 |
-| 改核心逻辑 | `/speckit.specify` | 批改改用AI自动评分 |
-| 架构变更 | `/speckit.constitution` | 改为微服务架构 |
+| UI style | `/speckit.implement` | Change button color to blue. |
+| Add a field | `/speckit.plan` | Add a `difficulty` field to the homework table. |
+| New feature | `/speckit.specify` | Add batch grading. |
+| Change core logic | `/speckit.specify` | Switch to AI-based auto-grading. |
+| Architectural change | `/speckit.constitution` | Change to a microservices architecture. |
 
-### Q2: /analyze发现CRITICAL问题怎么办?
+### Q2: What if `/analyze` finds a CRITICAL issue?
 
-**场景**: 运行`/speckit.analyze`看到:
+**Scenario**: Running `/speckit.analyze` shows:
 
 ```markdown
-## CRITICAL问题
+## CRITICAL Issues
 
-| C1 | 宪法违规 | CRITICAL | tasks.md | 第三条违规: 任务010实现在任务009测试之前 |
+| C1 | Constitution Violation | CRITICAL | tasks.md | Article 3 violation: Task 010 is implemented before Task 009's tests. |
 ```
 
-**处理流程**:
+**Handling process**:
 
-**步骤1: 理解CRITICAL含义**
+**Step 1: Understand the meaning of CRITICAL**
 
-CRITICAL = **阻塞`/speckit.implement`的问题**,必须修复,否则:
-- 违反项目宪法(不可妥协原则)
-- 或导致核心功能无法实现
+CRITICAL = **An issue that blocks `/speckit.implement`**. It must be fixed, otherwise:
+- It violates the project constitution (a non-negotiable principle).
+- Or it causes a core feature to be unimplementable.
 
-**步骤2: 评估影响范围**
+**Step 2: Assess the scope of the impact**
 
 ```
-任务009 - 编写HomeworkService单元测试
-任务010 - 实现HomeworkService  ← 顺序错误
+Task 009 - Write unit tests for `HomeworkService`.
+Task 010 - Implement `HomeworkService`.  ← Wrong order
 ```
 
-影响: 如果先实现再测试,违反TDD原则 → 宪法第三条
+Impact: If implementation comes before testing, it violates the TDD principle → Article 3 of the constitution.
 
-**步骤3: 修复tasks.md**
+**Step 3: Fix `tasks.md`**
 
-**修复前**:
+**Before fix**:
 ```markdown
-阶段1: 业务层
-- 任务009 [可并行] - 编写HomeworkService测试
-- 任务010 [可并行] - 实现HomeworkService  ← 错误!
+Phase 1: Business Layer
+- Task 009 [Parallelizable] - Write tests for `HomeworkService`.
+- Task 010 [Parallelizable] - Implement `HomeworkService`.  ← Wrong!
 ```
 
-**修复后**:
+**After fix**:
 ```markdown
-阶段1: 业务层
-- 任务009 [可并行] - 编写HomeworkService测试
-- 任务010 [依赖: 任务009] - 实现HomeworkService  ← 添加依赖
+Phase 1: Business Layer
+- Task 009 [Parallelizable] - Write tests for `HomeworkService`.
+- Task 010 [Depends on: Task 009] - Implement `HomeworkService`.  ← Added dependency
 ```
 
-**步骤4: 重新运行 `/speckit.analyze`**
+**Step 4: Rerun `/speckit.analyze`**
 
 ```bash
 /analyze
 ```
 
 ```markdown
-## 执行摘要
-- **CRITICAL问题: 0** ✅
-- HIGH问题: 2
+## Executive Summary
+- **CRITICAL issues: 0** ✅
+- HIGH issues: 2
 
-✅ 准备就绪: 可执行`/speckit.implement`
+✅ Ready: Can execute `/speckit.implement`.
 ```
 
-**关键**:
-- ❌ 不要跳过CRITICAL直接实现
-- ✅ 修复后必须重新`/speckit.analyze`确认
-- ✅ 宪法违规永远是CRITICAL,无妥协
+**Key takeaways**:
+- ❌ Do not skip CRITICAL issues and go straight to implementation.
+- ✅ After fixing, you must rerun `/speckit.analyze` to confirm.
+- ✅ A constitution violation is always CRITICAL, no compromises.
 
-### Q3: 需求频繁变更,如何快速响应?
+### Q3: Requirements change frequently. How to respond quickly?
 
-**场景**: 产品经理每周改需求,传统开发很痛苦。
+**Scenario**: The product manager changes requirements every week, which is painful with traditional development.
 
-**SDD解决方案: 规格是单一真相源**
+**SDD solution: The spec is the single source of truth.**
 
-**传统开发痛点**:
+**Pain points of traditional development**:
 ```
-需求变更 → 更新PRD → 通知开发 → 手动改代码 → 重新测试 → 更新文档(常忘)
+Requirement change → Update PRD → Notify developers → Manually change code → Re-test → Update documentation (often forgotten)
               ↓          ↓           ↓
-           永远过时   漏改一处   文档与代码不符
+           Always outdated   Missed a spot   Docs and code don't match
 ```
 
-**SDD方式**:
+**SDD method**:
 ```
-需求变更 → 更新spec.md → /plan → /tasks → /analyze → /implement
-           (单一真相源)                               ↓
-                                                 自动重新生成代码
-```
-
-**实战示例: 智慧课堂需求变更**
-
-**第1周**: 初始需求
-```
-/specify 作业截止时间为固定时间点
+Requirement change → Update `spec.md` → /plan → /tasks → /analyze → /implement
+           (Single source of truth)                               ↓
+                                                 Automatically regenerate code
 ```
 
-**第2周**: 产品说要支持延期
+**Practical example: Requirement change in the Intelligent Classroom**
+
+**Week 1**: Initial requirement
 ```
-# 编辑 spec.md
+/specify The homework deadline is a fixed point in time.
+```
 
-### 需求9: 截止时间延期(新增)
+**Week 2**: Product says they want to support extensions.
+```
+# Edit `spec.md`
 
-教师可以延长作业截止时间。
+### Requirement 9: Deadline Extension (New)
 
-# 重新执行
-/plan    # AI自动更新HomeworkService.extendDeadline()
-/tasks   # AI自动添加任务: "实现延期功能"
+Teachers can extend the homework deadline.
+
+# Rerun
+/plan    # AI automatically updates `HomeworkService.extendDeadline()`.
+/tasks   # AI automatically adds a task: "Implement extension feature."
 /analyze
-/implement  # 只重新生成HomeworkService,其他不变
+/implement  # Only `HomeworkService` is regenerated, the rest is unchanged.
 ```
 
-**耗时**: 8分钟
+**Time taken**: 8 minutes.
 
-**第3周**: 产品又说要支持针对单个学生延期
+**Week 3**: Product says they now want to support extensions for individual students.
 ```
-# 编辑 spec.md
+# Edit `spec.md`
 
-### 需求9: 截止时间延期(更新)
+### Requirement 9: Deadline Extension (Updated)
 
-教师可以延长作业截止时间:
-- 全班延期: 所有学生的截止时间统一延长
-- 单个学生延期: 为特定学生(如请假)单独延长
+Teachers can extend the homework deadline:
+- For the whole class: The deadline is extended for all students.
+- For a single student: The deadline is extended for a specific student (e.g., who was on leave).
 
-# 重新执行
-/plan    # AI添加student_id参数
-/tasks   # AI添加任务: "支持学生级延期"
+# Rerun
+/plan    # AI adds a `student_id` parameter.
+/tasks   # AI adds a task: "Support student-level extensions."
 /analyze
 /implement
 ```
 
-**耗时**: 10分钟
+**Time taken**: 10 minutes.
 
-**关键优势**:
-1. **单一真相源**: spec.md永远最新,代码从规格生成
-2. **增量更新**: `/speckit.implement`只重新生成受影响的部分
-3. **自动一致性**: `/speckit.analyze`确保规格+方案+任务+代码一致
-4. **版本控制**: spec.md用Git跟踪,变更历史清晰
+**Key advantages**:
+1. **Single source of truth**: `spec.md` is always up-to-date, and code is generated from the spec.
+2. **Incremental updates**: `/speckit.implement` only regenerates the affected parts.
+3. **Automatic consistency**: `/speckit.analyze` ensures that the spec, plan, tasks, and code are consistent.
+4. **Version control**: `spec.md` is tracked with Git, so the change history is clear.
 
-**对比耗时**:
+**Time comparison**:
 
-| 任务 | 传统开发 | SDD方式 | 加速比 |
+| Task | Traditional Development | SDD Method | Speedup |
 |------|---------|---------|-------|
-| 添加延期功能 | 2小时 | 8分钟 | 15x |
-| 支持学生级延期 | 3小时 | 10分钟 | 18x |
-| 确保文档同步 | 1小时(常忘) | 0分钟(自动) | ∞ |
+| Add extension feature | 2 hours | 8 minutes | 15x |
+| Support student-level extensions | 3 hours | 10 minutes | 18x |
+| Ensure docs are in sync | 1 hour (often forgotten) | 0 minutes (automatic) | ∞ |
 
-### Q4: 如何确保测试先行(Test-First)?
+### Q4: How to ensure Test-First?
 
-**场景**: 希望团队严格遵守TDD,但总有人先写代码。
+**Scenario**: You want the team to strictly follow TDD, but some people always write code first.
 
-**SDD解决方案: 宪法 + /analyze双重保障**
+**SDD solution: Dual protection with the Constitution + `/analyze`.**
 
-**机制1: 宪法强制**
+**Mechanism 1: Constitution enforcement**
 
 ```markdown
 # constitution.md
 
-## 第三条: 测试先行原则(不可妥协)
+## Article 3: Test-First Principle (Non-negotiable)
 
-禁止在以下步骤完成前编写实现代码:
-1. 契约测试已编写
-2. 测试已通过评审
-3. 测试已运行并确认失败(TDD红灯)
+It is forbidden to write implementation code before the following steps are completed:
+1. Contract tests have been written.
+2. The tests have passed review.
+3. The tests have been run and confirmed to fail (TDD red light).
 
-违规后果:
-- /analyze报CRITICAL错误
-- /implement拒绝生成代码
+Consequences of violation:
+- `/analyze` reports a CRITICAL error.
+- `/implement` refuses to generate code.
 ```
 
-**机制2: tasks.md强制顺序**
+**Mechanism 2: `tasks.md` enforces order**
 
 ```markdown
-## 第0阶段: 契约和测试(永远最先)
+## Phase 0: Contract and Testing (Always first)
 
-#### 任务001 - 定义API契约
-- 创建OpenAPI规范
-- **交付物**: api-spec.yaml
+#### Task 001 - Define API Contract
+- Create an OpenAPI specification.
+- **Deliverable**: `api-spec.yaml`.
 
-#### 任务002 [依赖: 任务001] - 编写契约测试
-- 测试所有端点
-- **交付物**: 所有测试失败(红灯) ← 明确要求失败
+#### Task 002 [Depends on: Task 001] - Write Contract Tests
+- Test all endpoints.
+- **Deliverable**: All tests fail (red light) ← Explicitly requires failure.
 
-#### 任务003 [依赖: 任务002] - 用户审查检查点
-- 用户审查测试质量
-- **交付物**: 用户明确批准
+#### Task 003 [Depends on: Task 002] - User Review Checkpoint
+- The user reviews the quality of the tests.
+- **Deliverable**: The user gives explicit approval.
 
-## 第1阶段: 实现(测试通过关卡后)
+## Phase 1: Implementation (After the test pass gate)
 
-#### 任务004 [依赖: 任务003] - 实现API
-- 让任务002的测试通过
-- **交付物**: 所有测试变绿
+#### Task 004 [Depends on: Task 003] - Implement API
+- Make the tests from Task 002 pass.
+- **Deliverable**: All tests turn green.
 ```
 
-**机制3: /implement执行逻辑**
+**Mechanism 3: `/implement` execution logic**
 
 ```
-AI内部逻辑:
+AI internal logic:
 
 def implement_task(task_id):
-    if task_id == "任务004":  # 实现任务
-        # 检查依赖
-        if not is_completed("任务003"):
-            raise Error("不能实现: 任务003(测试审查)未完成")
+    if task_id == "Task 004":  # Implementation task
+        # Check dependencies
+        if not is_completed("Task 003"):
+            raise Error("Cannot implement: Task 003 (test review) is not complete.")
 
-        # 检查测试状态
-        test_results = run_tests("任务002")
+        # Check test status
+        test_results = run_tests("Task 002")
         if test_results.status != "FAILED":
-            raise Error("不能实现: 测试必须先失败(TDD红灯)")
+            raise Error("Cannot implement: Tests must fail first (TDD red light).")
 
-        # 生成实现代码
+        # Generate implementation code
         generate_implementation()
 
-        # 验证测试变绿
-        test_results = run_tests("任务002")
+        # Verify that tests turn green
+        test_results = run_tests("Task 002")
         if test_results.status != "PASSED":
-            raise Error("实现不完整: 测试仍失败")
+            raise Error("Implementation is incomplete: Tests still fail.")
 
-        return "✅ 任务004完成: 测试现在通过"
+        return "✅ Task 004 complete: Tests now pass."
 ```
 
-**实际执行流程**:
+**Actual execution flow**:
 
 ```bash
 /implement
 
-[任务001] 定义API契约...
-✅ 创建api-spec.yaml
+[Task 001] Defining API contract...
+✅ `api-spec.yaml` created.
 
-[任务002] 编写契约测试...
+[Task 002] Writing contract tests...
 ```java
 @Test
-void testPublishHomework_成功() {
-    // 调用API
+void testPublishHomework_Success() {
+    // Call the API
     Result<Long> result = client.post("/api/homework", dto);
-    // 断言
+    // Assert
     assertEquals(200, result.getCode());
 }
 ```
-运行测试...
-❌ 10/10测试失败(预期 - TDD红灯)
+Running tests...
+❌ 10/10 tests fail (as expected - TDD red light).
 
-[任务003] 等待用户审查...
+[Task 003] Awaiting user review...
 
-用户: "测试写得很全面,批准"
+User: "The tests are comprehensive, approved."
 
-[任务004] 实现API...
+[Task 004] Implementing API...
 ```java
 @RestController
 public class HomeworkController {
@@ -2118,378 +2117,378 @@ public class HomeworkController {
 }
 ```
 
-运行测试...
-✅ 10/10测试通过(TDD绿灯)
+Running tests...
+✅ 10/10 tests pass (TDD green light).
 ```
 
-**如果有人试图跳过测试**:
+**If someone tries to skip testing**:
 
 ```bash
 /implement
 
-[检查前置条件...]
-❌ 错误: 宪法第三条违规
+[Checking prerequisites...]
+❌ Error: Violation of Article 3 of the Constitution.
 
-tasks.md显示:
-- 任务010 [可并行] - 实现HomeworkService  ← 无测试依赖!
+`tasks.md` shows:
+- Task 010 [Parallelizable] - Implement `HomeworkService`  ← No test dependency!
 
-要求的结构:
-- 任务009 - 编写HomeworkService测试
-- 任务010 [依赖: 任务009] - 实现HomeworkService
+Required structure:
+- Task 009 - Write tests for `HomeworkService`.
+- Task 010 [Depends on: Task 009] - Implement `HomeworkService`.
 
-必须: 修复tasks.md强制TDD顺序
+Must: Fix `tasks.md` to enforce the TDD order.
 
-运行 /analyze 查找所有违规。
+Run `/analyze` to find all violations.
 ```
 
 ---
 
-## 六、最佳实践
+## Six. Best Practices
 
-### 1. 规格应该写到什么粒度?
+### 1. To what level of detail should specs be written?
 
-**判断标准**:
-- ✅ 可测试(testable)
-- ✅ 无歧义(unambiguous)
-- ❌ 不写实现(no HOW)
+**Criteria**:
+- ✅ Testable
+- ✅ Unambiguous
+- ❌ No implementation (no HOW)
 
-**粒度对比**:
+**Detail comparison**:
 
-| 粒度 | ❌ 太粗(不可测) | ✅ 恰当(可测试) | ❌ 太细(实现细节) |
+| Detail Level | ❌ Too coarse (untestable) | ✅ Appropriate (testable) | ❌ Too fine (implementation details) |
 |------|----------------|----------------|------------------|
-| **功能需求** | "系统要快" | "API响应P95 < 200ms" | "用Redis缓存查询结果" |
-| **用户操作** | "学生可提交作业" | "学生可上传jpg/png,≤5MB" | "前端用axios POST到/api/submission" |
-| **错误处理** | "系统要健壮" | "网络超时30秒后提示重试" | "使用axios的timeout配置30000ms" |
+| **Functional Req** | "The system should be fast." | "API response P95 < 200ms." | "Use Redis to cache query results." |
+| **User Action** | "Students can submit homework." | "Students can upload jpg/png, ≤5MB." | "The frontend uses axios to POST to `/api/submission`." |
+| **Error Handling** | "The system should be robust." | "After a 30-second network timeout, prompt to retry." | "Use axios's `timeout` config of 30000ms." |
 
-**实战案例: 文件上传功能**
+**Practical case: File upload feature**
 
-**❌ 太粗**:
+**❌ Too coarse**:
 ```markdown
-需求1: 学生可以上传文件
+Requirement 1: Students can upload files.
 ```
-问题: 什么文件?多大?存哪?无法写测试。
+Problem: What files? How large? Where are they stored? Can't write tests.
 
-**✅ 恰当**:
+**✅ Appropriate**:
 ```markdown
-需求1: 学生可上传作业图片
+Requirement 1: Students can upload homework images.
 
-**功能细节**:
-- 支持格式: jpg、png
-- 文件大小: 单张≤5MB,最多9张
-- 上传时限: 10秒内完成(正常网络)
-- 成功后返回OSS地址
+**Feature details**:
+- Supported formats: jpg, png
+- File size: Single image ≤5MB, max 9 images
+- Upload time limit: Complete within 10 seconds (on a normal network)
+- On success, return an OSS address.
 
-**验收标准**:
-- 上传1张3MB的jpg图片 → 返回URL
-- 上传6MB的图片 → 提示"文件过大"
-- 上传.docx文件 → 提示"格式不支持"
+**Acceptance criteria**:
+- Upload a 3MB jpg image → Returns a URL.
+- Upload a 6MB image → Prompts "File too large."
+- Upload a `.docx` file → Prompts "Format not supported."
 ```
-可以写自动化测试了!
+Now we can write automated tests!
 
-**❌ 太细**:
+**❌ Too fine**:
 ```markdown
-需求1: 学生通过multipart/form-data POST到/api/file/upload上传图片
+Requirement 1: Students POST images to `/api/file/upload` via `multipart/form-data`.
 
-**实现细节**:
-- 后端用MultipartFile接收
-- 调用OSSUtil.upload()上传到阿里云
-- 返回JSON: {"code":200,"data":"https://..."}
+**Implementation details**:
+- The backend receives with `MultipartFile`.
+- Call `OSSUtil.upload()` to upload to Aliyun.
+- Return JSON: `{"code":200,"data":"https://..."}`
 ```
-问题: 这是`/speckit.plan`的内容,不属于规格。
+Problem: This is content for `/speckit.plan`, not the spec.
 
-**判断方法**:
+**How to decide**:
 
-1. **能写测试吗?** 如果不能,太粗。
-2. **有多种实现吗?** 如果只有一种,太细。
-3. **换技术栈成立吗?** 如果不成立,太细。
+1. **Can I write a test for it?** If not, it's too coarse.
+2. **Are there multiple ways to implement it?** If only one, it's too fine.
+3. **Does it still hold if the tech stack changes?** If not, it's too fine.
 
-### 2. 何时必须使用/clarify?
+### 2. When is it mandatory to use `/clarify`?
 
-**必须使用**:
-- ✅ spec.md有`[待确认]`标记
-- ✅ AI生成的规格明显遗漏关键决策
-- ✅ 在`/speckit.plan`之前强制执行
+**Mandatory use**:
+- ✅ `spec.md` has `[To be confirmed]` marks.
+- ✅ The AI-generated spec clearly omits key decisions.
+- ✅ Enforced before `/speckit.plan`.
 
-**不需要使用**:
-- ❌ 规格已足够清晰(零`[待确认]`)
-- ❌ 只是改改措辞(直接编辑spec.md)
+**Not necessary**:
+- ❌ The spec is already clear enough (zero `[To be confirmed]`).
+- ❌ Just changing some wording (edit `spec.md` directly).
 
-**实战示例**:
+**Practical example**:
 
 ```bash
-# 步骤1: /specify生成规格
-/specify 开发搜索功能,支持按关键词查找作业
+# Step 1: Generate spec with `/specify`
+/specify Develop a search feature that supports searching for homework by keyword.
 
-# AI生成的规格包含:
-[待确认: 搜索算法 - 精确匹配还是模糊搜索?]
-[待确认: 搜索范围 - 只搜标题还是包括内容?]
+# The AI-generated spec includes:
+[To be confirmed: Search algorithm - exact match or fuzzy search?]
+[To be confirmed: Search scope - only titles or content as well?]
 
-# 步骤2: 必须运行/clarify
+# Step 2: Must run `/clarify`
 /clarify
 
-AI: 发现2个待确认点。
+AI: Found 2 points to be confirmed.
 
-问题1: 搜索算法
-方案A: 精确匹配(LIKE '关键词') - 简单,但不友好
-方案B: 模糊搜索(LIKE '%关键词%') - 推荐
-方案C: 全文搜索(MySQL FULLTEXT或ES) - 复杂
+Question 1: Search algorithm
+Option A: Exact match (`LIKE 'keyword'`) - simple, but not user-friendly.
+Option B: Fuzzy search (`LIKE '%keyword%'`) - recommended.
+Option C: Full-text search (MySQL FULLTEXT or ES) - complex.
 
-用户选择: 方案B
+User's choice: Option B
 
-AI: ✅ 更新规格 → "使用SQL模糊匹配(LIKE %keyword%)"
+AI: ✅ Spec updated → "Use SQL fuzzy matching (`LIKE %keyword%`)."
 
-问题2: 搜索范围
-方案A: 仅搜索标题 - 快
-方案B: 标题+内容 - 推荐,体验好
+Question 2: Search scope
+Option A: Search titles only - fast.
+Option B: Titles + content - recommended, better experience.
 
-用户选择: 方案B
+User's choice: Option B
 
-AI: ✅ 更新规格 → "搜索字段: title、content"
+AI: ✅ Spec updated → "Search fields: `title`, `content`."
 
-所有待确认点已解决。可以执行 /plan。
+All points to be confirmed have been resolved. Can now execute `/plan`.
 ```
 
-### 3. /analyze的最佳使用时机
+### 3. The best time to use `/analyze`
 
-**强制运行**:
-1. **After `/speckit.tasks`, before `/speckit.implement`**(最重要!)
-2. **需求变更后** - 更新spec.md后运行
-3. **Code review前** - 确保规格与代码一致
+**Mandatory run**:
+1. **After `/speckit.tasks`, before `/speckit.implement`** (Most important!)
+2. **After a requirement change** - Run after updating `spec.md`.
+3. **Before code review** - Ensure the spec and code are consistent.
 
-**可选运行**:
-- After `/speckit.plan`: 检查方案是否覆盖所有需求
-- 每周定期: 检查规格漂移
+**Optional run**:
+- After `/speckit.plan`: Check if the plan covers all requirements.
+- Periodically every week: Check for spec drift.
 
-**实战案例1: 发现隐藏的覆盖度缺失**
+**Practical case 1: Discovering a hidden coverage gap**
 
 ```bash
-# 你以为任务全覆盖了
+# You think all tasks are covered
 /tasks
 
-# 运行analyze
+# Run analyze
 /analyze
 
-报告:
-| G1 | 覆盖度缺失 | CRITICAL | 非功能需求2 | "数据安全:敏感信息加密"无对应任务 |
+Report:
+| G1 | Coverage Gap | CRITICAL | Non-func Req 2 | "Data security: encrypt sensitive information" has no corresponding task. |
 
-# 你意识到: 哦对,加密忘了!
-# 添加任务
-任务025 - 实现AES-256加密工具类EncryptUtil
+# You realize: Oh right, I forgot about encryption!
+# Add a task
+Task 025 - Implement an AES-256 encryption utility class `EncryptUtil`.
 
-# 重新analyze
+# Re-analyze
 /analyze
-✅ 覆盖率: 100%
+✅ Coverage: 100%
 ```
 
-**实战案例2: 早期发现术语不一致**
+**Practical case 2: Early detection of inconsistent terminology**
 
 ```bash
 /analyze
 
-报告:
-| I1 | 不一致 | MEDIUM | spec vs plan | spec用"作业",plan用"homework" |
+Report:
+| I1 | Inconsistency | MEDIUM | spec vs plan | Spec uses "homework," plan uses "assignment." |
 
-# 早期发现,容易修复
-# 如果等到代码写完,改动范围巨大(表名、API、变量名...)
+# Found early, easy to fix.
+# If found after the code is written, the scope of changes would be huge (table names, APIs, variable names...).
 ```
 
-### 4. 何时使用 /checklist
+### 4. When to use `/checklist`
 
-**定位**: 领域特定的深度质量检查，验证规格在特定领域的完整性。
+**Purpose**: Domain-specific in-depth quality checks to verify the completeness of specs in a particular area.
 
-**典型使用场景**:
+**Typical use cases**:
 ```bash
-# 高风险领域：支付/安全/合规
-/plan → /checklist 支付安全 → /tasks → /analyze → /implement
+# High-risk areas: payment/security/compliance
+/plan → /checklist payment security → /tasks → /analyze → /implement
 
-# 特定领域：UX/性能/API
+# Specific domains: UX/performance/API
 /specify → /checklist ux → /clarify → /plan
 ```
 
-**与 /analyze 的关系**:
-- `/analyze` - 必须运行，通用质量检测（重复、歧义、覆盖度等）
-- `/checklist` - 可选运行，领域专家视角检查（如"幂等性要求是否明确？"）
-- 配合使用：先 `/checklist` 做深度检查，再 `/analyze` 做通用验证
+**Relationship with `/analyze`**:
+- `/analyze` - Mandatory, general quality check (duplication, ambiguity, coverage, etc.).
+- `/checklist` - Optional, domain expert perspective check (e.g., "Are idempotency requirements clear?").
+- Use together: First `/checklist` for an in-depth check, then `/analyze` for general validation.
 
-**使用决策**: 高风险/关键领域（支付、安全、合规）→ 必须用；普通功能 → 不需要
+**Decision to use**: High-risk/critical areas (payment, security, compliance) → Must use; ordinary features → Not necessary.
 
-### 5. 如何制定好的宪法(Constitution)
+### 5. How to create a good Constitution
 
-**原则1: 不超过10条**
+**Principle 1: No more than 10 articles**
 
-太多原则=没有原则。
+Too many principles = no principles.
 
-**原则2: 每条都可自动检测**
+**Principle 2: Every article must be automatically detectable**
 
-如果`/speckit.analyze`检测不了,不是好原则。
+If `/speckit.analyze` can't detect it, it's not a good principle.
 
-**❌ 不可检测**:
+**❌ Undetectable**:
 ```markdown
-第五条: 代码应该优雅且易维护
+Article 5: The code should be elegant and easy to maintain.
 ```
-问题: "优雅"和"易维护"无法量化。
+Problem: "Elegant" and "easy to maintain" are not quantifiable.
 
-**✅ 可检测**:
+**✅ Detectable**:
 ```markdown
-第五条: 代码复杂度限制
+Article 5: Code Complexity Limits
 
-所有方法必须:
-- 圈复杂度 ≤ 10
-- 最大嵌套层级 ≤ 3
-- 方法长度 ≤ 50行
+All methods must have:
+- Cyclomatic complexity ≤ 10
+- Max nesting level ≤ 3
+- Method length ≤ 50 lines
 
-检测方式: /analyze阶段运行代码复杂度检查工具。
-```
-
-**原则3: 违规后果明确**
-
-每条原则标注违规严重性。
-
-**宪法模板**:
-
-```markdown
-## 第[N]条: [原则名称]
-
-### 规则
-[具体的、可测量的要求]
-
-### 理由
-[为什么有这个原则]
-
-### 违规处理
-- 严重性: CRITICAL / HIGH / MEDIUM
-- 检测方式: /analyze如何检测
-- 后果: 阻塞/警告/记录
-
-### 例外情况
-[什么情况可违反,需要什么审批]
+Detection method: Run a code complexity analysis tool during the `/analyze` phase.
 ```
 
-**示例: 金融系统宪法**
+**Principle 3: Clear consequences for violations**
+
+Each principle should specify the severity of a violation.
+
+**Constitution template**:
 
 ```markdown
-## 第一条: 金额精度原则
+## Article [N]: [Principle Name]
 
-### 规则
-所有金额计算必须:
-1. 使用BigDecimal类型,禁止float/double
-2. 四舍五入到分(setScale(2, RoundingMode.HALF_UP))
-3. 单元测试覆盖边界值(0.01、-0.01、Long.MAX_VALUE)
+### Rule
+[Specific, measurable requirements]
 
-### 理由
-float/double存在精度丢失,可能导致资金差额,引发对账问题。
+### Reason
+[Why this principle exists]
 
-### 违规处理
-- 严重性: CRITICAL
-- 检测方式: /analyze扫描代码中的float/double字段
-- 后果: 阻塞上线,必须修复
+### Violation Handling
+- Severity: CRITICAL / HIGH / MEDIUM
+- Detection method: How `/analyze` detects it
+- Consequence: Block/Warning/Log
 
-### 例外情况
-无例外。金额精度不可妥协。
+### Exceptions
+[Under what circumstances it can be violated, what approval is needed]
+```
+
+**Example: Constitution for a financial system**
+
+```markdown
+## Article 1: Monetary Precision Principle
+
+### Rule
+All monetary calculations must:
+1. Use the `BigDecimal` type, forbidding `float`/`double`.
+2. Round to the cent (`setScale(2, RoundingMode.HALF_UP)`).
+3. Unit tests must cover boundary values (0.01, -0.01, `Long.MAX_VALUE`).
+
+### Reason
+`float`/`double` have precision loss, which can lead to financial discrepancies and reconciliation problems.
+
+### Violation Handling
+- Severity: CRITICAL
+- Detection method: `/analyze` scans the code for `float`/`double` fields.
+- Consequence: Blocks deployment, must be fixed.
+
+### Exceptions
+No exceptions. Monetary precision is non-negotiable.
 ```
 
 ---
 
-## 七、总结: SDD的核心价值
+## Seven. Conclusion: The Core Value of SDD
 
-### 传统开发 vs SDD对比
+### Traditional Development vs. SDD Comparison
 
-| 维度 | 传统开发 | SDD方式 | 提升 |
+| Dimension | Traditional Development | SDD Method | Improvement |
 |------|---------|---------|------|
-| **真相源** | 代码(文档过时) | 规格文档 | 单一真相 |
-| **需求变更** | 手工改代码+文档 | 更新规格重新生成 | 20-30x加速 |
-| **质量保证** | 人工Code Review | 宪法+/analyze自动检测 | 自动化 |
-| **测试先行** | 依赖自觉 | 强制TDD流程 | 100%遵守 |
-| **一致性** | 经常不一致 | /analyze强制检测 | 0不一致 |
-| **新人上手** | 需数月 | 遵循模板即可 | 周级上手 |
+| **Source of Truth** | Code (docs are outdated) | Spec document | Single source of truth |
+| **Requirement Change** | Manually change code + docs | Update spec and regenerate | 20-30x speedup |
+| **Quality Assurance** | Manual code review | Constitution + `/analyze` auto-detection | Automation |
+| **Test-First** | Relies on self-discipline | Enforced TDD flow | 100% compliance |
+| **Consistency** | Often inconsistent | `/analyze` enforces detection | 0 inconsistencies |
+| **Newcomer Onboarding** | Takes months | Just follow the template | Onboard in weeks |
 
-### SDD适合的项目
+### Projects Suitable for SDD
 
-✅ **理想场景**:
-- 新项目(从零开始)
-- 需求频繁变更
-- 团队3-20人
-- 质量要求高(金融、医疗、教育)
-- 需要快速试错
+✅ **Ideal scenarios**:
+- New projects (from scratch)
+- Frequently changing requirements
+- Teams of 3-20 people
+- High quality requirements (finance, healthcare, education)
+- Need for rapid trial and error
 
-⚠️ **需要调整**:
-- 遗留系统改造 - 需先"规格化"现有代码
-- 超大型项目(>50人) - 需分层宪法
+⚠️ **Needs adjustment**:
+- Legacy system modernization - Need to "specify" existing code first.
+- Very large projects (>50 people) - Need a layered constitution.
 
-❌ **不适合**:
-- 一次性脚本
-- 纯前端UI调试
+❌ **Not suitable for**:
+- One-off scripts
+- Purely frontend UI debugging
 
-### 开始你的SDD之旅
+### Start Your SDD Journey
 
-**第1步: 安装Spec-Kit**
+**Step 1: Install Spec-Kit**
 
 ```bash
-# 使用uv安装(推荐)
+# Install with uv (recommended)
 uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 
-# 或使用uvx临时运行
-uvx --from git+https://github.com/github/spec-kit.git specify init 我的项目
+# Or run temporarily with uvx
+uvx --from git+https://github.com/github/spec-kit.git specify init my-project
 ```
 
-**第2步: 初始化项目**
+**Step 2: Initialize the project**
 
 ```bash
-specify init 智慧课堂 --ai claude
-# 选择: 使用Claude Code作为AI助手
+specify init Intelligent-Classroom --ai claude
+# Choose: Use Claude Code as the AI assistant
 ```
 
-**第3步: 建立宪法**
+**Step 3: Establish the constitution**
 
 ```bash
-/constitution 创建聚焦代码质量、测试标准和教育行业合规性的原则
+/constitution Create principles focusing on code quality, testing standards, and education industry compliance.
 ```
 
-**第4步: 开发第一个功能**
+**Step 4: Develop the first feature**
 
 ```bash
-/specify 开发学生提交作业功能,支持上传图片和PDF
+/specify Develop a student homework submission feature that supports uploading images and PDFs.
 /clarify
-/plan 使用Spring Boot + MyBatis-Plus + MySQL + 阿里云OSS
+/plan Use Spring Boot + MyBatis-Plus + MySQL + Aliyun OSS.
 /tasks
-/analyze  # 关键步骤!
+/analyze  # Crucial step!
 /implement
 ```
 
-**第5步: 加入社区**
+**Step 5: Join the community**
 
 - GitHub: https://github.com/github/spec-kit
-- 提Issue分享你的实践经验
-- 参与讨论SDD方法论改进
+- Raise issues to share your practical experience.
+- Participate in discussions to improve the SDD methodology.
 
 ---
 
-## 记住SDD的四个核心
+## Remember the Four Cores of SDD
 
-1. **规格是真相,代码是表达**
-   - 维护软件=演进规格
-   - 调试=修复规格逻辑
-   - 重构=重组规格结构
+1. **The spec is the truth, the code is the expression.**
+   - Maintaining software = Evolving the spec
+   - Debugging = Fixing logic in the spec
+   - Refactoring = Reorganizing the structure of the spec
 
-2. **宪法是基因,不可妥协**
-   - 定义≤10条核心原则
-   - 每条都可自动检测
-   - 违规=CRITICAL,阻塞实现
+2. **The constitution is the DNA, non-negotiable.**
+   - Define ≤10 core principles.
+   - Each one must be automatically detectable.
+   - Violation = CRITICAL, blocks implementation.
 
-3. **/analyze是质量门,CRITICAL必修**
-   - 6种检测: 重复、歧义、覆盖度、宪法、一致性、术语
-   - 4级严重性: CRITICAL阻塞,HIGH建议,MEDIUM改进,LOW可选
-   - 在/tasks和/implement之间强制运行
+3. **`/analyze` is the quality gate, CRITICAL issues must be fixed.**
+   - 6 types of detection: Duplication, Ambiguity, Coverage, Constitution, Inconsistency, Terminology.
+   - 4 severity levels: CRITICAL blocks, HIGH recommended, MEDIUM improvement, LOW optional.
+   - Enforced run between `/tasks` and `/implement`.
 
-4. **SDD不是线性,是递归循环**
-   - 项目级/功能级/模块级/任务级
-   - 每个层级都可执行完整SDD循环
-   - 发现问题回退到合适层级,不是推倒重来
+4. **SDD is not linear, it's a recursive cycle.**
+   - Project-level / feature-level / module-level / task-level.
+   - Each level can execute a complete SDD cycle.
+   - When issues are found, go back to the appropriate level, not start over.
 
 ---
 
-**开始用SDD开发你的下一个项目吧!** 🚀
+**Start developing your next project with SDD!** 🚀
 
-> 本指南基于Spec-Kit项目,面向中国开发者编写。
-> 最后更新: 2025年1月
-> 欢迎反馈: https://github.com/github/spec-kit/issues
+> This guide is based on the Spec-Kit project and written for Chinese developers.
+> Last updated: January 2025
+> Feedback welcome: https://github.com/github/spec-kit/issues

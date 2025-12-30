@@ -1,129 +1,129 @@
-# 激活石章鱼风格创作模式
+# Activate Shi Zhangyu Style Creation Mode
 
-启动史诗级创作模式，加载宏大叙事、深邃权谋、鲜活人物的完整风格系统。
+Start the epic creation mode, loading a complete style system of grand narratives, profound power struggles, and vivid characters.
 
-## 使用方法
+## Usage
 
 ```
-/shizhangyu-style [选项]
+/shizhangyu-style [options]
 ```
 
-## 选项
+## Options
 
-- `--mode <type>` - 选择创作模式：
-  - `epic` - 史诗叙事（默认）
-  - `intrigue` - 权谋为主
-  - `character` - 人物驱动
-  - `mixed` - 综合模式
+- `--mode <type>` - Select the creation mode:
+  - `epic` - Epic narrative (default)
+  - `intrigue` - Power struggle focused
+  - `character` - Character-driven
+  - `mixed` - Comprehensive mode
 
-- `--era <period>` - 时代背景：
-  - `ancient` - 古代历史
-  - `modern` - 现代社会
-  - `alternate` - 架空世界
+- `--era <period>` - Time period setting:
+  - `ancient` - Ancient history
+  - `modern` - Modern society
+  - `alternate` - Alternate world
 
-- `--length <number>` - 章节字数（默认20000）
+- `--length <number>` - Chapter word count (default 20,000)
 
-## 功能说明
+## Function Description
 
-激活后将自动：
+After activation, it will automatically:
 
-1. **加载史诗模板**
-   - 宏大的时代背景设定
-   - 多层次权谋体系
-   - 立体人物群像
+1. **Load the Epic Template**
+   - Grand historical background settings
+   - Multi-layered power struggle system
+   - A cast of three-dimensional characters
 
-2. **初始化创作系统**
-   - 20000字超长章节模式
-   - 伏笔追踪表
-   - 权谋逻辑验证器
-   - 人物语言个性化引擎
+2. **Initialize the Creation System**
+   - 20,000-word ultra-long chapter mode
+   - Foreshadowing tracking table
+   - Power struggle logic validator
+   - Character language personalization engine
 
-3. **配置叙事参数**
-   - 叙事规模：史诗级
-   - 权谋复杂度：极高
-   - 人物深度：立体丰满
-   - 伏笔密度：高密度
-   - 细节丰富度：极致
+3. **Configure Narrative Parameters**
+   - Narrative scale: Epic
+   - Power struggle complexity: Extremely high
+   - Character depth: Three-dimensional and rich
+   - Foreshadowing density: High
+   - Detail richness: Extreme
 
-4. **启用特色功能**
-   - 开篇强钩子生成
-   - 多线并进管理
-   - 高潮节奏控制
-   - 意外结局设计
+4. **Enable Special Features**
+   - Strong opening hook generation
+   - Multi-thread plot management
+   - Climax pacing control
+   - Unexpected ending design
 
-## 示例
+## Example
 
-### 基础激活
+### Basic Activation
 ```
-用户：/shizhangyu-style
-AI：石章鱼风格模式已激活！
+User: /shizhangyu-style
+AI: Shi Zhangyu style mode activated!
 
-已加载设定：
-✓ 史诗级叙事框架
-✓ 多层次权谋系统
-✓ 立体人物塑造引擎
-✓ 伏笔追踪管理器
-✓ 20000字章节输出模式
+Settings loaded:
+✓ Epic narrative framework
+✓ Multi-layered power struggle system
+✓ Three-dimensional character creation engine
+✓ Foreshadowing tracking manager
+✓ 20,000-word chapter output mode
 
-风格特征已启用：
-- 宏大时代背景渲染
-- 深邃权谋布局
-- 人物个性语言系统
-- 跌宕情节设计
-- 意外结局构建
+Style features enabled:
+- Grand historical background rendering
+- Profound power struggle layout
+- Character-specific language system
+- Dramatic plot design
+- Unexpected ending construction
 
-准备就绪！建议使用 /shizhangyu-write 开始创作史诗篇章。
-```
-
-### 古代权谋模式
-```
-用户：/shizhangyu-style --mode intrigue --era ancient
-AI：石章鱼风格模式已激活！（古代权谋特化）
-
-特别强化：
-✓ 朝堂权谋博弈系统
-✓ 世家门阀关系网
-✓ 兵法谋略知识库
-✓ 古代礼制规范
-✓ 诗词歌赋语言库
-
-已为您优化古代权谋相关的所有参数。
-朝堂风云，权谋天下，静待您的史诗创作！
+Ready to go! It is recommended to use /shizhangyu-write to start creating your epic chapter.
 ```
 
-### 现代商战模式
+### Ancient Power Struggle Mode
 ```
-用户：/shizhangyu-style --mode intrigue --era modern
-AI：石章鱼风格模式已激活！（现代商战特化）
+User: /shizhangyu-style --mode intrigue --era ancient
+AI: Shi Zhangyu style mode activated! (Specialized for ancient power struggles)
 
-特别强化：
-✓ 商业博弈策略库
-✓ 资本运作模型
-✓ 国际关系框架
-✓ 科技伦理议题
-✓ 现代都市氛围
+Special enhancements:
+✓ Court power struggle game system
+✓ Network of aristocratic family relationships
+✓ Knowledge base of military strategy and tactics
+✓ Ancient etiquette and regulations
+✓ Library of poetry and classical allusions
 
-商海沉浮，资本博弈，准备开启现代史诗！
+All parameters related to ancient power struggles have been optimized for you.
+The winds and clouds of the court, the power struggles of the world, await your epic creation!
 ```
 
-## 注意事项
+### Modern Business Warfare Mode
+```
+User: /shizhangyu-style --mode intrigue --era modern
+AI: Shi Zhangyu style mode activated! (Specialized for modern business warfare)
 
-- 本模式特别适合历史、权谋、商战、军事题材
-- 默认输出20000字章节，请预留充足时间
-- 自动维护伏笔追踪表，无需手动管理
-- 建议先构思大纲，再开始创作
+Special enhancements:
+✓ Library of business game strategies
+✓ Capital operation models
+✓ International relations framework
+✓ Technological ethics issues
+✓ Modern urban atmosphere
 
-## 高级技巧
+The ups and downs of the business world, the games of capital, are ready for you to start your modern epic!
+```
 
-1. **多线并进**：可同时推进3-5条剧情线
-2. **伏笔串联**：每章至少埋设5个伏笔
-3. **人物语言**：为主要人物设定独特口癖
-4. **节奏控制**：3个高潮点分布在头、中、尾
+## Notes
 
-## 相关命令
+- This mode is particularly suitable for historical, power struggle, business warfare, and military themes.
+- The default output is a 20,000-word chapter, so please allow sufficient time.
+- The foreshadowing tracking table is automatically maintained, no manual management is required.
+- It is recommended to first outline your plot before starting to create.
 
-- `/shizhangyu-write` - 开始史诗创作
-- `/shizhangyu-plot` - 设计权谋布局
-- `/shizhangyu-character` - 塑造人物
-- `/shizhangyu-foreshadow` - 管理伏笔
-- `/expert shizhangyu-master` - 召唤大师指导
+## Advanced Techniques
+
+1. **Multi-thread Plot**: Can advance 3-5 plot lines simultaneously.
+2. **Foreshadowing Chain**: At least 5 instances of foreshadowing should be planted in each chapter.
+3. **Character Language**: Set unique verbal tics for the main characters.
+4. **Pacing Control**: 3 climax points distributed at the beginning, middle, and end.
+
+## Related Commands
+
+- `/shizhangyu-write` - Start the epic creation.
+- `/shizhangyu-plot` - Design the power struggle layout.
+- `/shizhangyu-character` - Create the characters.
+- `/shizhangyu-foreshadow` - Manage the foreshadowing.
+- `/expert shizhangyu-master` - Summon the master for guidance.

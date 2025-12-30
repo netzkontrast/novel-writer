@@ -1,194 +1,194 @@
-# 权谋情节设计大师
+# Master of Power Struggle Plot Design
 
-设计多层次、多阵营、逻辑严密的权谋布局，创造石章鱼式的深邃博弈。
+Design multi-layered, multi-faction, and logically rigorous power struggle layouts to create a profound, Shi Zhangyu-style game of wits.
 
-## 使用方法
+## Usage
 
 ```
-/shizhangyu-plot <类型> [描述]
+/shizhangyu-plot <type> [description]
 ```
 
-## 权谋类型
+## Power Struggle Types
 
-- `palace` - 宫廷阴谋
-- `political` - 政治博弈
-- `military` - 军事谋略
-- `business` - 商业战争
-- `succession` - 继承权争夺
-- `alliance` - 联盟与背叛
-- `infiltration` - 渗透与潜伏
-- `revolution` - 变革与政变
+- `palace` - Palace intrigue
+- `political` - Political games
+- `military` - Military strategy
+- `business` - Business warfare
+- `succession` - Succession disputes
+- `alliance` - Alliances and betrayals
+- `infiltration` - Infiltration and espionage
+- `revolution` - Reforms and coups
 
-## 功能特色
+## Features
 
-### 1. 势力分析
-- 识别各方阵营和利益关系
-- 分析实力对比和资源分布
-- 评估各方优势劣势
-- 预判可能的联盟和背叛
+### 1. Faction Analysis
+- Identify the various factions and their interests.
+- Analyze the balance of power and resource distribution.
+- Assess the strengths and weaknesses of each side.
+- Predict possible alliances and betrayals.
 
-### 2. 计谋设计
-- 基础计谋库（36计）
-- 高阶策略组合
-- 多重嵌套设计
-- 反转和意外设置
+### 2. Scheme Design
+- A library of basic schemes (36 Stratagems).
+- Combinations of advanced strategies.
+- Multi-layered nested designs.
+- Twists and unexpected events.
 
-### 3. 逻辑验证
-- 检查计谋可行性
-- 验证因果链条
-- 确保人物动机合理
-- 避免逻辑漏洞
+### 3. Logical Validation
+- Check the feasibility of the schemes.
+- Verify the causal chains.
+- Ensure that character motivations are reasonable.
+- Avoid logical loopholes.
 
-## 示例用法
+## Example Usage
 
-### 设计宫廷阴谋
+### Designing Palace Intrigue
 ```
-用户：/shizhangyu-plot palace 太子之位的争夺
+User: /shizhangyu-plot palace The struggle for the crown prince position
 
-AI：
-【权谋布局：夺嫡之战】
+AI:
+【Power Struggle Layout: The Battle for Succession】
 
-势力分析：
+Faction Analysis:
 ━━━━━━━━━━━━━━━━━━
-阵营一：太子党
-- 核心：当朝太子李承乾
-- 优势：名分正统、东宫系统、部分朝臣支持
-- 劣势：皇帝猜忌、行为失德、军权薄弱
-- 关键人物：太子太傅魏征、左卫将军侯君集
+Faction 1: The Crown Prince's Party
+- Core: The current crown prince, Li Chengqian
+- Strengths: Legitimate claim, the Eastern Palace system, support from some court officials
+- Weaknesses: The emperor's suspicion, immoral behavior, weak military power
+- Key Figures: Crown Prince's Grand Tutor Wei Zheng, Left Guard General Hou Junji
 
-阵营二：魏王党
-- 核心：魏王李泰
-- 优势：皇帝宠爱、才华横溢、财力雄厚
-- 劣势：无军权、朝臣反感其骄横
-- 关键人物：中书令岑文本、御史大夫刘洎
+Faction 2: The Prince of Wei's Party
+- Core: The Prince of Wei, Li Tai
+- Strengths: The emperor's favor, brilliant talent, vast wealth
+- Weaknesses: No military power, court officials dislike his arrogance
+- Key Figures: Grand Secretary Cen Wenben, Censor-in-Chief Liu Ji
 
-阵营三：晋王党（隐藏势力）
-- 核心：晋王李治
-- 优势：低调隐忍、皇后支持、无人防备
-- 劣势：年龄最小、看似软弱
-- 关键人物：长孙无忌（暗中支持）
+Faction 3: The Prince of Jin's Party (Hidden Faction)
+- Core: The Prince of Jin, Li Zhi
+- Strengths: Low-key and patient, has the empress's support, no one is wary of him
+- Weaknesses: The youngest, appears weak
+- Key Figure: Zhangsun Wuji (secretly supports him)
 
-阴谋主线：
-第一层：表面的太子与魏王之争
-第二层：长孙无忌暗中削弱两强
-第三层：皇帝有意让诸子相争以平衡
-第四层：外戚势力渗透其中谋求长远
+Main Plotline of the Intrigue:
+First Layer: The superficial struggle between the Crown Prince and the Prince of Wei.
+Second Layer: Zhangsun Wuji secretly weakens both powerful factions.
+Third Layer: The emperor intentionally lets his sons compete to maintain balance.
+Fourth Layer: The empress's relatives' faction infiltrates to seek long-term gains.
 
-具体计谋部署：
+Specific Scheme Deployment:
 
-阶段一：挑拨离间（1-3月）
-- 魏王党制造太子谋反证据
-- 太子党散布魏王结党营私
-- 晋王党两边煽风点火
+Phase 1: Sowing Discord (Months 1-3)
+- The Prince of Wei's party fabricates evidence of the Crown Prince's rebellion.
+- The Crown Prince's party spreads rumors of the Prince of Wei forming a clique.
+- The Prince of Jin's party fans the flames on both sides.
 
-阶段二：釜底抽薪（4-6月）
-- 设计除掉侯君集（太子失去军事支持）
-- 构陷岑文本贪腐（魏王失去中枢助力）
-- 长孙无忌明哲保身，暗助晋王
+Phase 2: Cutting the Ground from Under Them (Months 4-6)
+- A plot to eliminate Hou Junji (the Crown Prince loses military support).
+- Frame Cen Wenben for corruption (the Prince of Wei loses his central support).
+- Zhangsun Wuji protects himself while secretly helping the Prince of Jin.
 
-阶段三：最后一击（7-9月）
-- 太子兵变事泄，被废
-- 魏王得意忘形，触怒皇帝
-- 晋王"被迫"接受册立
+Phase 3: The Final Blow (Months 7-9)
+- The Crown Prince's coup is exposed, and he is deposed.
+- The Prince of Wei gets carried away and offends the emperor.
+- The Prince of Jin is "forced" to accept the appointment.
 
-关键转折点：
-1. 侯君集谋反案（真假参半）
-2. 承乾与汉王密谋泄露
-3. 魏王"谦让"时机的算计
-4. 长孙无忌的关键一票
+Key Turning Points:
+1. The Hou Junji rebellion case (a mix of truth and lies).
+2. The leak of the secret plot between Chengqian and the Prince of Han.
+3. The Prince of Wei's calculated timing of his "modesty."
+4. Zhangsun Wuji's crucial vote.
 
-伏笔设置：
-- 一封三年前的密信
-- 太子府中的内鬼身份
-- 皇帝的真实意图
-- 武媚娘的介入时机
+Foreshadowing:
+- A secret letter from three years ago.
+- The identity of the mole in the Crown Prince's residence.
+- The emperor's true intentions.
+- The timing of Wu Meiniang's intervention.
 ```
 
-### 设计商战布局
+### Designing a Business Warfare Layout
 ```
-用户：/shizhangyu-plot business 三大集团的收购战
+User: /shizhangyu-plot business The acquisition battle of three major groups
 
-AI：
-【权谋布局：资本猎杀】
+AI:
+【Power Struggle Layout: The Capital Hunt】
 
-目标公司：华创科技（市值500亿）
+Target Company: Huachuang Technology (Market value 50 billion)
 
-博弈方：
+Players:
 ━━━━━━━━━━━━━━━━━━
-远东集团（进攻方）
-- 资金：2000亿现金流
-- 策略：恶意收购
-- 弱点：涉嫌垄断
+Far East Group (Attacker)
+- Funds: 200 billion in cash flow
+- Strategy: Hostile takeover
+- Weakness: Suspected of monopoly
 
-盛世资本（防守方）
-- 持股：华创35%股份
-- 策略：白衣骑士
-- 弱点：资金链紧张
+Shengshi Capital (Defender)
+- Shareholding: 35% of Huachuang
+- Strategy: White knight
+- Weakness: Tight cash flow
 
-暗流国际（搅局者）
-- 背景：海外神秘资本
-- 策略：渔翁得利
-- 弱点：政策风险
+Darkflow International (Spoiler)
+- Background: Mysterious overseas capital
+- Strategy: To profit from the conflict
+- Weakness: Policy risks
 
-七层博弈设计：
+Seven-Layer Game Design:
 
-第一层：公开收购战
-远东报价550亿恶意收购
+First Layer: Public Takeover Battle
+Far East makes a hostile takeover bid of 55 billion.
 
-第二层：股价操纵
-三方暗中操纵股价波动获利
+Second Layer: Stock Price Manipulation
+The three parties secretly manipulate stock price fluctuations to profit.
 
-第三层：内幕交易
-关键高管被收买/威胁
+Third Layer: Insider Trading
+Key executives are bought off or threatened.
 
-第四层：媒体战
-操控舆论影响监管决策
+Fourth Layer: Media War
+Manipulate public opinion to influence regulatory decisions.
 
-第五层：政商勾结
-通过政界关系影响审批
+Fifth Layer: Collusion between Government and Business
+Influence approvals through political connections.
 
-第六层：国际博弈
-引入外资引发国家安全审查
+Sixth Layer: International Game
+Bringing in foreign capital triggers a national security review.
 
-第七层：真实目的
-华创只是幌子，真正目标是其专利技术
+Seventh Layer: The True Goal
+Huachuang is just a front; the real target is its patented technology.
 
-[继续展开详细的商战计谋...]
+[Continue to unfold the detailed business warfare schemes...]
 ```
 
-## 高级功能
+## Advanced Features
 
-### 计谋组合器
-可以将多个基础计谋组合成复杂策略：
-- 明修栈道 + 暗度陈仓 + 围魏救赵
-- 美人计 + 反间计 + 离间计
-- 空城计 + 苦肉计 + 诈降计
+### Scheme Combinator
+Can combine multiple basic schemes into complex strategies:
+- Feigning an attack on one front while secretly advancing on another + Besieging Wei to rescue Zhao
+- The beauty trap + The stratagem of sowing discord + The stratagem of driving a wedge between enemies
+- The empty fort strategy + The self-injury stratagem + The stratagem of feigning surrender
 
-### 逻辑推演器
-模拟计谋实施的可能结果：
-- 成功概率评估
-- 风险点识别
-- 应急预案制定
-- 反制措施准备
+### Logic Deductor
+Simulates the possible outcomes of implementing a scheme:
+- Success probability assessment
+- Risk point identification
+- Contingency plan formulation
+- Countermeasure preparation
 
-### 人物动机分析
-深度分析每个参与者的动机：
-- 表面目的
-- 真实意图
-- 底线原则
-- 可能的背叛点
+### Character Motivation Analysis
+In-depth analysis of each participant's motivations:
+- Apparent purpose
+- True intention
+- Bottom-line principles
+- Possible points of betrayal
 
-## 输出格式
+## Output Format
 
-1. **势力图谱**：清晰展示各方关系
-2. **计谋蓝图**：分阶段的详细计划
-3. **关键节点**：决定成败的转折点
-4. **风险评估**：可能的失败因素
-5. **伏笔清单**：需要预埋的线索
+1. **Faction Map**: Clearly shows the relationships between the various parties.
+2. **Scheme Blueprint**: A detailed, phased plan.
+3. **Key Nodes**: The turning points that determine success or failure.
+4. **Risk Assessment**: Possible factors for failure.
+5. **Foreshadowing List**: The clues that need to be laid in advance.
 
-## 相关命令
+## Related Commands
 
-- `/shizhangyu-style` - 激活风格
-- `/shizhangyu-write` - 创作实施
-- `/shizhangyu-character` - 配合人物
-- `/shizhangyu-foreshadow` - 伏笔配合
+- `/shizhangyu-style` - Activate the style.
+- `/shizhangyu-write` - Implement the creation.
+- `/shizhangyu-character` - Coordinate with the characters.
+- `/shizhangyu-foreshadow` - Coordinate the foreshadowing.

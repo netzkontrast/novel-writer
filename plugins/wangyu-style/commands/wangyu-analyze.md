@@ -1,103 +1,103 @@
-# 忘语风格分析
+# Wang Yu Style Analysis
 
-分析文本是否符合忘语风格特征，提供详细的评分报告和改进建议。
+Analyze whether the text conforms to the characteristics of the Wang Yu style, and provide a detailed scoring report and improvement suggestions.
 
-## 使用方法
-
-```
-/wangyu-analyze [文本或文件路径]
-```
-
-## 分析维度
-
-### 1. 世界观严谨度（1-10分）
-- 力量体系是否清晰完整
-- 资源设定是否合理
-- 地理环境是否具体
-- 势力格局是否明确
-
-### 2. 叙事风格（1-10分）
-- 是否保持冷静客观
-- 有无过度华丽辞藻
-- 叙事节奏是否得当
-- 描写是否精准详实
-
-### 3. 人物塑造（1-10分）
-- 主角是否谨慎务实
-- 配角是否立体丰满
-- 人物行为是否合理
-- 关系是否复杂真实
-
-### 4. 资源意识（1-10分）
-- 是否体现资源稀缺
-- 获取难度是否合理
-- 价值体系是否明确
-- 竞争是否激烈
-
-### 5. 悬念设置（1-10分）
-- 是否有效埋设伏笔
-- 悬念是否环环相扣
-- 回收是否合理
-- 是否保持神秘感
-
-## 示例分析
+## Usage
 
 ```
-用户：/wangyu-analyze "林平手持长剑，运转真气，一剑斩出，剑气纵横，瞬间击败了对手。"
+/wangyu-analyze [text or file path]
+```
 
-AI：忘语风格分析报告
+## Analysis Dimensions
+
+### 1. World-building Rigor (1-10 points)
+- Is the power system clear and complete?
+- Is the resource setting reasonable?
+- Is the geographical environment specific?
+- Is the power structure of the factions clear?
+
+### 2. Narrative Style (1-10 points)
+- Is it calm and objective?
+- Is there any excessively ornate language?
+- Is the narrative pace appropriate?
+- Are the descriptions precise and detailed?
+
+### 3. Character Creation (1-10 points)
+- Is the protagonist cautious and pragmatic?
+- Are the supporting characters three-dimensional and full?
+- Are the characters' actions reasonable?
+- Are the relationships complex and realistic?
+
+### 4. Resource Awareness (1-10 points)
+- Does it reflect the scarcity of resources?
+- Is the difficulty of obtaining them reasonable?
+- Is the value system clear?
+- Is the competition intense?
+
+### 5. Suspense Setting (1-10 points)
+- Is the foreshadowing effectively planted?
+- Are the instances of suspense interlinked?
+- Is the resolution reasonable?
+- Is a sense of mystery maintained?
+
+## Example Analysis
+
+```
+User: /wangyu-analyze "Lin Ping held a long sword, circulated his true energy, and with one strike, his sword energy swept across, instantly defeating his opponent."
+
+AI: Wang Yu Style Analysis Report
 ═══════════════════
 
-整体评分：4.5/10 （不太符合忘语风格）
+Overall Score: 4.5/10 (Does not quite conform to the Wang Yu style)
 
-详细评分：
+Detailed Score:
 ┌─────────────┬─────┬──────────────────────┐
-│ 维度        │ 得分 │ 问题分析              │
+│ Dimension        │ Score │ Problem Analysis              │
 ├─────────────┼─────┼──────────────────────┤
-│ 世界观严谨度 │ 3/10│ 缺少具体境界说明      │
-│ 叙事风格    │ 4/10│ 过于简单直白          │
-│ 人物塑造    │ 5/10│ 人物过于单薄          │
-│ 资源意识    │ 3/10│ 未体现法宝珍贵性      │
-│ 悬念设置    │ 2/10│ 缺少悬念和伏笔        │
+│ World-building Rigor │ 3/10│ Lacks specific realm description      │
+│ Narrative Style    │ 4/10│ Too simple and straightforward          │
+│ Character Creation    │ 5/10│ The character is too one-dimensional          │
+│ Resource Awareness    │ 3/10│ Does not reflect the preciousness of the magical artifact      │
+│ Suspense Setting    │ 2/10│ Lacks suspense and foreshadowing        │
 └─────────────┴─────┴──────────────────────┘
 
-主要问题：
-1. ❌ 战斗描写过于简单，缺少细节
-2. ❌ 未说明人物修为境界
-3. ❌ "瞬间击败"太过轻松
-4. ❌ 缺少战术和策略描写
+Main Problems:
+1. ❌ The battle description is too simple and lacks detail.
+2. ❌ The characters' cultivation realms are not stated.
+3. ❌ "Instantly defeating" is too easy.
+4. ❌ Lacks a description of tactics and strategy.
 
-改进建议：
-1. 添加具体的境界描述（如"筑基后期"）
-2. 详细描写剑法和真气运转
-3. 增加战斗的来回较量
-4. 体现法器的珍贵和消耗
+Improvement Suggestions:
+1. Add a specific realm description (e.g., "late Foundation Establishment").
+2. Describe the sword technique and the circulation of true energy in detail.
+3. Add a back-and-forth struggle to the battle.
+4. Reflect the preciousness and consumption of the magical artifact.
 
-忘语风格改写示例：
-"林平深吸一口气，体内筑基后期的法力缓缓运转。他手中的青锋剑乃是一件上品法器，此刻剑身上符文隐现，散发着淡淡寒光。
+Wang Yu Style Rewrite Example:
+"Lin Ping took a deep breath, and the magical power of the late Foundation Establishment stage slowly circulated within his body. The green-edged sword in his hand was a high-grade magical artifact, and at this moment, the runes on the sword's body were faintly visible, exuding a faint cold light.
 
-对面的黑衣修士同样筑基后期，见状冷笑一声，祭出一面龟甲盾牌。
+The black-robed cultivator opposite him was also at the late Foundation Establishment stage. Seeing this, he sneered and summoned a tortoise shell shield.
 
-林平目光一凝，这一战恐怕没那么容易。他需要速战速决，否则法力消耗过大，后果难料。想到此处，他悄然捏碎了袖中的一张二阶灵符……"
+Lin Ping's gaze narrowed. This battle would probably not be so easy. He needed to end it quickly, otherwise, if he consumed too much magical power, the consequences would be dire. Thinking of this, he quietly crushed a second-tier spiritual talisman in his sleeve..."
 ```
 
-## 分析选项
+## Analysis Options
 
-- `--detail` - 提供更详细的分析
-- `--suggest` - 提供具体修改建议
-- `--rewrite` - 直接给出忘语风格改写版本
-- `--compare` - 与《凡人修仙传》原文对比
+- `--detail` - Provide a more detailed analysis.
+- `--suggest` - Provide specific modification suggestions.
+- `--rewrite` - Directly provide a rewritten version in the Wang Yu style.
+- `--compare` - Compare with the original text of "A Record of a Mortal's Journey to Immortality."
 
-## 评分标准
+## Scoring Standard
 
-- 9-10分：完美符合忘语风格
-- 7-8分：基本符合，略有瑕疵
-- 5-6分：部分符合，需要改进
-- 3-4分：不太符合，问题较多
-- 1-2分：完全不符，需要重写
+- 9-10 points: Perfectly conforms to the Wang Yu style.
+- 7-8 points: Basically conforms, with minor flaws.
+- 5-6 points: Partially conforms, needs improvement.
+- 3-4 points: Does not quite conform, has many problems.
+- 1-2 points: Does not conform at all, needs to be rewritten.
 
-## 相关命令
+## Related Commands
 
-- `/wangyu-style` - 激活忘语风格
-- `/wangyu-write` - 忘语风格创作
-- `/wangyu-enhance` - 强化风格特征
+- `/wangyu-style` - Activate the Wang Yu style.
+- `/wangyu-write` - Create in the Wang Yu style.
+- `/wangyu-enhance` - Enhance the style features.

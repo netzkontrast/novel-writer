@@ -1,167 +1,167 @@
-# 路遥风格人物档案
+# Lu Yao Style Character Profile
 
-## 基本信息
+## Basic Information
 
-**姓名**：[例：田福堂]
-**性别**：[男/女]
-**年龄**：[具体年龄]
-**籍贯**：[例：陕北双水村]
-**出生年份**：[例：1960年]
+**Name**: [e.g., Tian Futang]
+**Gender**: [Male/Female]
+**Age**: [Specific age]
+**Native Place**: [e.g., Shuangshui Village, Northern Shaanxi]
+**Year of Birth**: [e.g., 1960]
 
-## 身份背景
+## Identity and Background
 
-### 家庭情况
-- **父亲**：[姓名、职业、状态]
-- **母亲**：[姓名、职业、状态]
-- **兄弟姐妹**：[列出各人情况]
-- **婚姻状态**：[未婚/已婚/丧偶]
-- **子女**：[若有，列出情况]
+### Family Situation
+- **Father**: [Name, Occupation, Status]
+- **Mother**: [Name, Occupation, Status]
+- **Siblings**: [List each person's situation]
+- **Marital Status**: [Single/Married/Widowed]
+- **Children**: [If any, list their situation]
 
-### 教育经历
-- **文化程度**：[例：高中毕业]
-- **求学经历**：[描述重要经历]
-- **特殊技能**：[若有]
+### Educational Experience
+- **Education Level**: [e.g., High school graduate]
+- **Schooling Experience**: [Describe important experiences]
+- **Special Skills**: [If any]
 
-### 职业经历
-- **当前职业**：[例：农民/工人/教师]
-- **工作经历**：[列出重要经历]
-- **经济状况**：[贫困/温饱/小康]
+### Professional Experience
+- **Current Occupation**: [e.g., Farmer/Worker/Teacher]
+- **Work Experience**: [List important experiences]
+- **Economic Situation**: [Poverty/Subsistence/Comfortable]
 
-## 性格分析
+## Personality Analysis
 
-### 核心性格
-[列出3-5个核心性格特质]
-- 例：踏实、勤劳、善良
+### Core Personality
+[List 3-5 core personality traits]
+- e.g., Down-to-earth, hardworking, kind
 
-### 性格成因
-1. **家庭影响**：[描述]
-2. **成长环境**：[描述]
-3. **重大事件**：[描述]
+### Causes of Personality
+1. **Family Influence**: [Description]
+2. **Upbringing Environment**: [Description]
+3. **Major Events**: [Description]
 
-### 内在矛盾
-- **矛盾一**：[例：对土地的眷恋 vs 对城市的向往]
-- **矛盾二**：[例：个人理想 vs 家庭责任]
-- **矛盾三**：[例：传统观念 vs 现代思想]
+### Inner Conflicts
+- **Conflict One**: [e.g., Attachment to the land vs. yearning for the city]
+- **Conflict Two**: [e.g., Personal ideals vs. family responsibilities]
+- **Conflict Three**: [e.g., Traditional values vs. modern ideas]
 
-### 性格变化
-- **初始状态**：[描述]
-- **转折点**：[列出关键事件]
-- **现在状态**：[描述]
+### Personality Changes
+- **Initial State**: [Description]
+- **Turning Point**: [List key events]
+- **Current State**: [Description]
 
-## 外貌特征
+## Physical Appearance
 
-### 体型特征
-- **身高体型**：[例：中等偏高，因劳作而结实]
-- **肤色**：[例：被太阳晒成古铜色]
-- **五官**：[简要描述]
+### Body Features
+- **Height and Build**: [e.g., a bit taller than average, sturdy from labor]
+- **Skin Color**: [e.g., tanned to a bronze color by the sun]
+- **Facial Features**: [Brief description]
 
-### 标志性特征
-- **特征一**：[例：手上的老茧]
-- **特征二**：[例：额头的皱纹]
-- **特征三**：[例：黑牢牢的指甲缝]
+### Signature Features
+- **Feature One**: [e.g., calluses on the hands]
+- **Feature Two**: [e.g., wrinkles on the forehead]
+- **Feature Three**: [e.g., dirt under the fingernails]
 
-### 穿着打扮
-- **日常穿着**：[例：蓝布衫子、灰布裤]
-- **特殊场合**：[例：过节的新衣服]
-- **配饰物品**：[若有]
+### Clothing and Dress
+- **Daily Wear**: [e.g., blue cloth shirt, gray cloth pants]
+- **Special Occasions**: [e.g., new clothes for the festival]
+- **Accessories**: [If any]
 
-## 习惯动作
+## Habitual Actions
 
-### 日常习惯
-1. **起居习惯**：[例：天不亮就起床]
-2. **饮食习惯**：[例：吃饭很快，不浪费一粒粮食]
-3. **个人嗜好**：[例：晚上听收音机]
+### Daily Habits
+1. **Daily Routine**: [e.g., wakes up before dawn]
+2. **Eating Habits**: [e.g., eats quickly, doesn't waste a single grain of rice]
+3. **Hobbies**: [e.g., listens to the radio at night]
 
-### 标志性动作
-- **思考时**：[例：搓手]
-- **紧张时**：[例：摸后脑勺]
-- **高兴时**：[例：露出一口白牙]
-- **难过时**：[例：蹲下来抽烟]
+### Signature Actions
+- **When thinking**: [e.g., rubs hands]
+- **When nervous**: [e.g., touches the back of the head]
+- **When happy**: [e.g., shows a mouthful of white teeth]
+- **When sad**: [e.g., squats down to smoke]
 
-## 语言风格
+## Language Style
 
-### 口头禅
-[列出3-5句常说的话]
-- 例："咱农民也要活出个人样来"
+### Catchphrases
+[List 3-5 frequently said phrases]
+- e.g., "We farmers also have to live with dignity."
 
-### 说话方式
-- **语速**：[快/中/慢]
-- **音量**：[大/中/小]
-- **语调**：[描述]
+### Way of Speaking
+- **Speech Rate**: [Fast/Medium/Slow]
+- **Volume**: [Loud/Medium/Soft]
+- **Tone**: [Description]
 
-### 方言特色
-[列出常用的方言词汇]
-- 例：咱、啥、哩
+### Dialect Features
+[List commonly used dialect words]
+- e.g.,咱 (we),啥 (what),哩 (a particle)
 
-## 人生经历
+## Life Experience
 
-### 关键事件
-1. **事件一**：[时间]，[描述]，[影响]
-2. **事件二**：[时间]，[描述]，[影响]
-3. **事件三**：[时间]，[描述]，[影响]
-4. **事件四**：[时间]，[描述]，[影响]
-5. **事件五**：[时间]，[描述]，[影响]
+### Key Events
+1. **Event One**: [Time], [Description], [Impact]
+2. **Event Two**: [Time], [Description], [Impact]
+3. **Event Three**: [Time], [Description], [Impact]
+4. **Event Four**: [Time], [Description], [Impact]
+5. **Event Five**: [Time], [Description], [Impact]
 
-### 成长轨迹
-- **童年阶段**：[描述]
-- **少年阶段**：[描述]
-- **青年阶段**：[描述]
-- **中年阶段**：[描述]
+### Growth Trajectory
+- **Childhood**: [Description]
+- **Adolescence**: [Description]
+- **Youth**: [Description]
+- **Middle Age**: [Description]
 
-## 人际关系
+## Interpersonal Relationships
 
-### 家人关系
-- **与父母**：[描述]
-- **与配偶**：[若有]
-- **与子女**：[若有]
-- **与兄弟姐妹**：[描述]
+### Family Relationships
+- **With Parents**: [Description]
+- **With Spouse**: [If any]
+- **With Children**: [If any]
+- **With Siblings**: [Description]
 
-### 社会关系
-- **朋友圈**：[描述]
-- **工作关系**：[描述]
-- **邻里关系**：[描述]
+### Social Relationships
+- **Circle of Friends**: [Description]
+- **Work Relationships**: [Description]
+- **Neighborly Relationships**: [Description]
 
-### 情感关系
-- **初恋**：[若有]
-- **恋爱经历**：[描述]
-- **婚姻状况**：[描述]
+### Romantic Relationships
+- **First Love**: [If any]
+- **Romantic Experiences**: [Description]
+- **Marital Status**: [Description]
 
-## 内心世界
+## Inner World
 
-### 人生追求
-- **理想**：[例：让家人过上好日子]
-- **目标**：[例：买一台拖拉机]
-- **价值观**：[例：劳动最光荣]
+### Life Pursuits
+- **Ideal**: [e.g., to provide a good life for the family]
+- **Goal**: [e.g., to buy a tractor]
+- **Values**: [e.g., labor is the most glorious thing]
 
-### 内心独白
-[写几3-5段人物的内心独白]
+### Inner Monologue
+[Write 3-5 paragraphs of the character's inner monologue]
 
-### 未竟心愿
-- **心愿一**：[描述]
-- **心愿二**：[描述]
-- **心愿三**：[描述]
+### Unfulfilled Wishes
+- **Wish One**: [Description]
+- **Wish Two**: [Description]
+- **Wish Three**: [Description]
 
-## 人物弧光
+## Character Arc
 
-### 起点
-[描述人物的初始状态]
+### Starting Point
+[Describe the character's initial state]
 
-### 变化过程
-[描述人物的成长和变化]
+### Process of Change
+[Describe the character's growth and changes]
 
-### 终点
-[描述人物的最终状态]
+### End Point
+[Describe the character's final state]
 
-## 标志性场景
+## Signature Scenes
 
-[列出3-5个体现人物性格的典型场景]
-1. 场景一：[描述]
-2. 场景二：[描述]
-3. 场景三：[描述]
+[List 3-5 typical scenes that reflect the character's personality]
+1. Scene One: [Description]
+2. Scene Two: [Description]
+3. Scene Three: [Description]
 
-## 创作备注
+## Creation Notes
 
-- **人物原型**：[若有参考原型]
-- **创作灵感**：[描述]
-- **特殊设定**：[若有]
-- **注意事项**：[列出需要注意的点]
+- **Character Archetype**: [If there is a reference archetype]
+- **Creative Inspiration**: [Description]
+- **Special Settings**: [If any]
+- **Notes**: [List points that need attention]

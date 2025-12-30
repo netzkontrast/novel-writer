@@ -1,119 +1,119 @@
-# 忘语风格强化
+# Wang Yu Style Enhancement
 
-将现有文本转换或强化为忘语风格，保持故事逻辑的同时注入忘语特色。
+Convert or enhance existing text to the Wang Yu style, injecting Wang Yu's characteristics while maintaining the story's logic.
 
-## 使用方法
+## Usage
 
 ```
-/wangyu-enhance [文本或文件路径] [选项]
+/wangyu-enhance [text or file path] [options]
 ```
 
-## 强化模式
+## Enhancement Modes
 
-### 轻度强化（--light）
-- 调整叙述语气
-- 规范力量体系用词
-- 添加少量环境描写
+### Light Enhancement (--light)
+- Adjust the narrative tone.
+- Standardize the wording of the power system.
+- Add a small amount of environmental description.
 
-### 中度强化（--medium）默认
-- 重写对话和动作
-- 增加资源稀缺性描写
-- 插入人物心理活动
-- 适度增加悬念
+### Medium Enhancement (--medium) - Default
+- Rewrite dialogue and actions.
+- Increase the description of resource scarcity.
+- Insert characters' psychological activities.
+- Moderately increase the suspense.
 
-### 深度强化（--heavy）
-- 全面重构段落
-- 添加世界观细节
-- 重塑人物性格
-- 设置伏笔悬念
-- 调整情节节奏
+### Heavy Enhancement (--heavy)
+- Completely restructure the paragraphs.
+- Add world-building details.
+- Reshape the characters' personalities.
+- Set up foreshadowing and suspense.
+- Adjust the plot's pacing.
 
-## 强化示例
+## Enhancement Example
 
-### 原文
+### Original Text
 ```
-张三走进山洞，看到里面有很多宝物，他很高兴地收了起来。
-```
-
-### 轻度强化
-```
-张三谨慎地踏入洞府，神识扫过，发现角落里堆放着数件法器。他压下心中的喜悦，先布下预警阵法，这才开始收取。
+Zhang San walked into the cave and saw many treasures inside. He was very happy and collected them.
 ```
 
-### 中度强化
+### Light Enhancement
 ```
-张三在洞口停留片刻，确认没有禁制触发后，才缓缓走入洞府。
-
-借着夜明珠的光亮，他看清了洞内的情况——三件品相不错的法器静静躺在石台上，旁边还有几个储物袋。
-
-"前辈洞府？"张三心中一动，但多年的经历让他保持警惕。天下没有白吃的午餐，这些东西出现得太过容易。
-
-他先用法力试探，确认没有隐藏的禁制，这才小心收取。即便如此，他也只取了一半，剩下的留作退路。
+Zhang San cautiously stepped into the cave dwelling. His spiritual sense swept across and he found several magical artifacts piled in a corner. He suppressed the joy in his heart, first setting up a warning formation, and only then did he begin to collect them.
 ```
 
-### 深度强化
+### Medium Enhancement
 ```
-洞府入口处，张三停下脚步。
+Zhang San paused for a moment at the entrance of the cave. After confirming that no restrictions had been triggered, he slowly walked into the cave dwelling.
 
-空气中弥漫着淡淡的药香，混杂着一丝若有若无的血腥味。这种味道他很熟悉——有修士在此陨落，时间不超过三个月。
+By the light of a night-luminescent pearl, he saw the situation inside the cave clearly—three magical artifacts of good quality lay quietly on a stone platform, with a few storage bags next to them.
 
-他取出一张探测符，金光一闪，符纸化作数十个光点没入洞内。片刻后，光点依次返回，带来的信息让他眉头微皱。
+"A senior's cave dwelling?" Zhang San's heart stirred, but his years of experience kept him vigilant. There was no such thing as a free lunch in this world; these things appeared too easily.
 
-洞府深处确有不少灵物，三件法器、七个储物袋，还有一个完整的炼丹炉。但最深处有一片区域，探测符无法深入。
-
-"故布疑阵，还是另有玄机？"
-
-张三沉吟片刻，从储物袋中取出一具炼尸。这是他花费重金购买的探路手段，关键时刻能保命。
-
-炼尸僵硬地走入洞府，他则站在百丈外，通过神识操控。
-
-半柱香后，炼尸安然取回两个储物袋。张三检查之后，发现里面只有一些低阶丹药和千余块下品灵石。
-
-"诱饵。"他得出结论。
-
-真正的好东西，恐怕在那片无法探测的区域。但那里的凶险程度，怕是远超他的应对能力。
-
-张三果断转身离开。在修仙界混了这么多年，他很清楚一个道理——贪心是修士陨落的主要原因。
+He first probed with his magical power to confirm that there were no hidden restrictions, and only then did he carefully collect them. Even so, he only took half, leaving the rest as a way out.
 ```
 
-## 强化要点
+### Heavy Enhancement
+```
+At the entrance of the cave dwelling, Zhang San stopped.
 
-### 1. 叙述风格
-- 去除感叹号，使用句号
-- 减少形容词，增加具体描写
-- 保持第三人称视角的客观性
+The air was filled with a faint medicinal fragrance, mixed with a hint of a faint smell of blood. This was a smell he was very familiar with—a cultivator had fallen here, no more than three months ago.
 
-### 2. 细节补充
-- 添加法力、神识等修仙元素
-- 补充时间、距离等具体信息
-- 增加环境氛围描写
+He took out a detection talisman. With a flash of golden light, the talisman paper turned into dozens of light spots and entered the cave. A moment later, the light spots returned one by one, and the information they brought made his brow furrow slightly.
 
-### 3. 人物行为
-- 体现谨慎和算计
-- 展示经验和手段
-- 突出利益权衡
+There were indeed many spiritual objects in the depths of the cave: three magical artifacts, seven storage bags, and a complete alchemy furnace. But there was an area in the deepest part that the detection talisman could not penetrate.
 
-### 4. 情节深化
-- 简单情节复杂化
-- 增加不确定因素
-- 埋设潜在危机
+"Is it a feint, or is there something else going on?"
 
-## 配置选项
+Zhang San pondered for a moment and took out a corpse puppet from his storage bag. This was a pathfinding tool that he had bought at a great price, which could save his life at a critical moment.
 
-- `--mode <light|medium|heavy>` - 强化程度
-- `--keep-plot` - 保持原有情节不变
-- `--add-suspense` - 特别添加悬念
-- `--focus <aspect>` - 重点强化某方面
+The corpse puppet walked stiffly into the cave dwelling, while he stood a hundred zhang away, controlling it with his spiritual sense.
 
-## 注意事项
+Half an incense stick later, the corpse puppet safely returned with two storage bags. After Zhang San checked them, he found that they only contained some low-level pills and a thousand or so low-grade spirit stones.
 
-- 强化不会改变核心剧情
-- 会保留原文的关键信息
-- 可能会适度扩展篇幅
-- 建议先用 `/wangyu-analyze` 分析
+"Bait," he concluded.
 
-## 相关命令
+The real good stuff was probably in that undetectable area. But the level of danger there was probably far beyond his ability to handle.
 
-- `/wangyu-style` - 激活忘语风格
-- `/wangyu-write` - 直接创作
-- `/wangyu-analyze` - 风格分析
+Zhang San decisively turned and left. After so many years in the cultivation world, he knew one thing very well—greed was the main reason cultivators fell.
+```
+
+## Enhancement Points
+
+### 1. Narrative Style
+- Remove exclamation marks and use periods.
+- Reduce adjectives and increase specific descriptions.
+- Maintain the objectivity of the third-person perspective.
+
+### 2. Detail Supplementation
+- Add cultivation elements such as magical power and spiritual sense.
+- Supplement with specific information such as time and distance.
+- Increase the description of the environmental atmosphere.
+
+### 3. Character Behavior
+- Reflects caution and calculation.
+- Shows experience and methods.
+- Highlights the weighing of interests.
+
+### 4. Plot Deepening
+- Complicate simple plots.
+- Add uncertain factors.
+- Plant potential crises.
+
+## Configuration Options
+
+- `--mode <light|medium|heavy>` - Enhancement level.
+- `--keep-plot` - Keep the original plot unchanged.
+- `--add-suspense` - Specifically add suspense.
+- `--focus <aspect>` - Focus on enhancing a certain aspect.
+
+## Notes
+
+- The enhancement will not change the core plot.
+- It will retain the key information of the original text.
+- It may moderately expand the length.
+- It is recommended to first use `/wangyu-analyze` to analyze.
+
+## Related Commands
+
+- `/wangyu-style` - Activate the Wang Yu style.
+- `/wangyu-write` - Create directly.
+- `/wangyu-analyze` - Style analysis.

@@ -1,189 +1,189 @@
-# 翻译插件 - Novel Translation Plugin
+# Novel Translation Plugin
 
-## 简介
+## Introduction
 
-Novel Translation Plugin 是一个专为中文小说出海设计的翻译插件。它能够将中文小说智能翻译成地道的英文，适合在 Medium、Reddit、Wattpad 等平台发布。
+The Novel Translation Plugin is a translation plugin designed for bringing Chinese novels to an international audience. It can intelligently translate Chinese novels into authentic English, suitable for publication on platforms like Medium, Reddit, and Wattpad.
 
-## 功能特色
+## Features
 
-- 🌍 **智能本地化翻译** - 不只是翻译，更是文化适配
-- 📚 **保持叙事风格** - 忠实原文的同时让英文读者易懂
-- 🎯 **平台优化** - 针对不同平台调整翻译风格
-- 🔄 **批量处理** - 支持整部小说的批量翻译
-- ✨ **专业术语处理** - 智能处理人名、地名、专有名词
+- 🌍 **Intelligent Localization Translation** - More than just translation, it's cultural adaptation.
+- 📚 **Maintains Narrative Style** - Stays faithful to the original while making it easy for English readers to understand.
+- 🎯 **Platform Optimization** - Adjusts the translation style for different platforms.
+- 🔄 **Batch Processing** - Supports batch translation of an entire novel.
+- ✨ **Professional Terminology Handling** - Intelligently handles names, places, and proper nouns.
 
-## 安装方法
+## Installation
 
-确保已安装 novel-writer-cn：
+Ensure you have novel-writer-cn installed:
 
 ```bash
 npm install -g novel-writer-cn
 ```
 
-插件会自动随主程序安装。
+The plugin will be automatically installed with the main program.
 
-## 使用方法
+## Usage
 
-### 1. 基础翻译命令
+### 1. Basic Translation Commands
 
 ```bash
-# 翻译单个章节
+# Translate a single chapter
 /translate-chapter
 
-# 批量翻译
+# Batch translate
 /translate-batch
 
-# 翻译并优化为Medium风格
+# Translate and optimize for Medium style
 /translate-medium
 
-# 翻译并优化为Reddit风格
+# Translate and optimize for Reddit style
 /translate-reddit
 ```
 
-### 2. 准备工作
+### 2. Preparation
 
-在使用翻译功能前，请准备：
+Before using the translation function, please prepare:
 
-1. **原文文件** - 支持 .txt 或 .md 格式的中文小说文件
-2. **章节划分** - 建议每个章节独立成文件，便于管理
-3. **人名地名表** - 可选，用于统一专有名词的翻译
+1. **Original Text File** - Supports Chinese novel files in .txt or .md format.
+2. **Chapter Division** - It is recommended to have each chapter in a separate file for easy management.
+3. **List of Names and Places** - Optional, used to unify the translation of proper nouns.
 
-### 3. 使用示例
+### 3. Usage Example
 
-#### 翻译单章
+#### Translate a Single Chapter
 
 ```bash
-# 在小说项目目录下
+# In the novel project directory
 novel translate-chapter
 
-# 系统会提示：
-# 1. 选择要翻译的章节文件
-# 2. 选择目标平台（Medium/Reddit/通用）
-# 3. 确认翻译设置
+# The system will prompt:
+# 1. Select the chapter file to be translated.
+# 2. Select the target platform (Medium/Reddit/General).
+# 3. Confirm the translation settings.
 ```
 
-#### 批量翻译
+#### Batch Translation
 
 ```bash
-# 翻译整部小说
+# Translate the entire novel
 novel translate-batch
 
-# 系统会：
-# 1. 扫描所有章节文件
-# 2. 按顺序进行翻译
-# 3. 保存到 translated/ 目录
+# The system will:
+# 1. Scan all chapter files.
+# 2. Translate them in order.
+# 3. Save them to the translated/ directory.
 ```
 
-### 4. 高级功能
+### 4. Advanced Features
 
-#### 专家模式
+#### Expert Mode
 
-需要深度优化时，可以启用翻译专家模式：
+For in-depth optimization, you can enable the translation expert mode:
 
 ```bash
-# 启用专家指导
+# Enable expert guidance
 /translate-expert
 
-# 专家会提供：
-# - 文化差异处理建议
-# - 习语和俗语的本地化
-# - 目标读者群体分析
-# - SEO优化建议
+# The expert will provide:
+# - Suggestions for handling cultural differences.
+# - Localization of idioms and slang.
+# - Analysis of the target audience.
+# - SEO optimization suggestions.
 ```
 
-#### 术语管理
+#### Terminology Management
 
-创建 `translation-glossary.md` 文件管理专有名词：
+Create a `translation-glossary.md` file to manage proper nouns:
 
 ```markdown
-# 翻译术语表
+# Translation Glossary
 
-## 人名
+## Names
 - 林天 -> Lin Tian
 - 苏小小 -> Su Xiaoxiao
 
-## 地名
+## Places
 - 青云山 -> Azure Cloud Mountain
 - 万剑宗 -> Ten Thousand Swords Sect
 
-## 功法/技能
+## Techniques/Skills
 - 九天雷诀 -> Nine Heavens Thunder Art
 - 破天一剑 -> Sky-Breaking Sword Strike
 ```
 
-### 5. 输出格式
+### 5. Output Format
 
-翻译后的文件会保存在 `translated/` 目录：
+The translated files will be saved in the `translated/` directory:
 
 ```
 project/
-├── chapters/          # 原文章节
-├── translated/        # 翻译结果
+├── chapters/          # Original chapters
+├── translated/        # Translation results
 │   ├── chapter_01_en.md
 │   ├── chapter_02_en.md
 │   └── ...
-└── translation-glossary.md  # 术语表
+└── translation-glossary.md  # Glossary
 ```
 
-## 平台适配说明
+## Platform Adaptation Notes
 
-### Medium 风格
-- 简洁明快的语言
-- 适合西方读者的叙事节奏
-- 强调故事性和可读性
+### Medium Style
+- Concise and clear language.
+- A narrative pace suitable for Western readers.
+- Emphasizes story and readability.
 
-### Reddit 风格
-- 更加口语化
-- 保留网络小说的爽文特色
-- 适当加入流行文化引用
+### Reddit Style
+- More colloquial.
+- Retains the "cool" features of web novels.
+- Appropriately incorporates pop culture references.
 
-### Wattpad 风格
-- 青少年读者友好
-- 情感描写细腻
-- 章节末尾设置悬念
+### Wattpad Style
+- Teen-reader friendly.
+- Delicate emotional descriptions.
+- Sets up a cliffhanger at the end of the chapter.
 
-## 常见问题
+## Frequently Asked Questions
 
-### Q: 翻译速度慢怎么办？
-A: 翻译质量优先，建议分批处理，每次5-10章。
+### Q: What if the translation speed is slow?
+A: Quality comes first. It is recommended to process in batches, 5-10 chapters at a time.
 
-### Q: 专有名词翻译不一致？
-A: 使用术语表功能统一管理专有名词翻译。
+### Q: The translation of proper nouns is inconsistent?
+A: Use the glossary feature to uniformly manage the translation of proper nouns.
 
-### Q: 如何处理文化特有内容？
-A: 启用专家模式获取本地化建议，或添加译注。
+### Q: How to handle culturally specific content?
+A: Enable expert mode to get localization suggestions, or add translator's notes.
 
-### Q: 支持其他语言吗？
-A: 目前专注于中英翻译，其他语言在规划中。
+### Q: Does it support other languages?
+A: Currently, we are focusing on Chinese-to-English translation. Other languages are in the planning stage.
 
-## 最佳实践
+## Best Practices
 
-1. **分章翻译** - 每次处理5-10章，便于质量控制
-2. **术语先行** - 先建立术语表，确保一致性
-3. **平台定制** - 根据发布平台选择合适的风格
-4. **人工审核** - AI翻译后建议人工review重要章节
-5. **读者反馈** - 根据海外读者反馈持续优化
+1. **Translate by Chapter** - Process 5-10 chapters at a time for easy quality control.
+2. **Terminology First** - Establish a glossary first to ensure consistency.
+3. **Platform Customization** - Choose the appropriate style based on the publication platform.
+4. **Manual Review** - It is recommended to have a human review important chapters after the AI translation.
+5. **Reader Feedback** - Continuously optimize based on feedback from overseas readers.
 
-## 技术说明
+## Technical Notes
 
-- 基于 Claude AI 的深度理解能力
-- 上下文感知的翻译策略
-- 保持原文韵味的同时适配目标语言文化
+- Based on the deep understanding capabilities of Claude AI.
+- Context-aware translation strategy.
+- Maintains the flavor of the original text while adapting to the target language and culture.
 
-## 更新日志
+## Changelog
 
 ### v1.0.0 (2025-09-22)
-- 初版发布
-- 支持中英翻译
-- 四种翻译命令
-- 专家模式
-- 术语管理功能
+- Initial release
+- Supports Chinese-to-English translation
+- Four translation commands
+- Expert mode
+- Terminology management function
 
-## 支持
+## Support
 
-如遇到问题，请提交 Issue：
+If you encounter any problems, please submit an issue:
 https://github.com/wordflowlab/novel-writer/issues
 
-## 许可证
+## License
 
 MIT License

@@ -1,201 +1,201 @@
-# 星尘织梦工具市场插件
+# Stardust Dreams Tool Marketplace Plugin
 
-> 🌟 连接星尘织梦工具市场，使用高级 AI 创作模板，让创作更高效、更专业。
+> 🌟 Connect to the Stardust Dreams tool marketplace, use advanced AI creation templates, and make your creation more efficient and professional.
 
-## 📋 功能概述
+## 📋 Feature Overview
 
-星尘织梦工具市场插件是一个安全、高效的 AI 创作工具集成方案，通过独特的**服务端加密 + 客户端解密**架构，既保护了核心 Prompt 资产，又提供了极致的用户体验。
+The Stardust Dreams tool marketplace plugin is a secure and efficient AI creation tool integration solution. Through a unique **server-side encryption + client-side decryption** architecture, it both protects core Prompt assets and provides an ultimate user experience.
 
-### 核心特性
+### Core Features
 
-- 🔐 **安全架构** - Prompt 模板服务端加密存储，客户端仅在内存中解密使用
-- 🎯 **丰富模板** - 35+ 专业创作模板，覆盖各类创作场景
-- 📊 **动态表单** - Web 端可视化参数配置，支持复杂表单设计
-- 🚀 **极速生成** - 优化的解密和模板引擎，毫秒级响应
-- 💎 **商业模式** - 支持免费试用、付费订阅、企业定制
+- 🔐 **Secure Architecture** - Prompt templates are stored encrypted on the server, and the client only decrypts and uses them in memory.
+- 🎯 **Rich Templates** - 35+ professional creation templates covering various creation scenarios.
+- 📊 **Dynamic Forms** - Visual parameter configuration on the web, supporting complex form design.
+- 🚀 **High-speed Generation** - Optimized decryption and template engine for millisecond-level response.
+- 💎 **Business Model** - Supports free trials, paid subscriptions, and enterprise customization.
 
-## 🏗️ 系统架构
+## 🏗️ System Architecture
 
 ```
 ┌─────────────────────────────────────────┐
-│         服务端（不开源）                  │
-│  • 存储加密的 Prompt 模板                │
-│  • 管理用户权限和订阅                    │
-│  • 提供 Web 表单设计器                   │
-│  • 生成会话和解密密钥                    │
+│         Server-side (Not open source)     │
+│  • Stores encrypted Prompt templates       │
+│  • Manages user permissions and subscriptions│
+│  • Provides a web form designer            │
+│  • Generates sessions and decryption keys     │
 └─────────────────────────────────────────┘
                     ↓
-           加密 Prompt + SessionKey
+           Encrypted Prompt + SessionKey
                     ↓
 ┌─────────────────────────────────────────┐
-│         客户端插件（开源）                │
-│  • 获取加密的 Prompt                     │
-│  • 内存中解密（不持久化）                │
-│  • 填充参数生成最终内容                  │
-│  • 使用后立即清理内存                    │
+│         Client-side Plugin (Open source)  │
+│  • Gets the encrypted Prompt              │
+│  • Decrypts in memory (not persistent)   │
+│  • Fills in parameters to generate final content │
+│  • Cleans up memory immediately after use   │
 └─────────────────────────────────────────┘
 ```
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 1. 安装插件
+### 1. Install the Plugin
 
 ```bash
-# 在 novel-writer 项目中
+# In the novel-writer project
 novel plugins add stardust-dreams
 ```
 
-### 2. 登录认证
+### 2. Login and Authentication
 
 ```bash
-# 使用 AI 助手中的命令
+# Use the command in your AI assistant
 /stardust-auth
 ```
 
-### 3. 使用模板
+### 3. Use a Template
 
-1. 访问 Web 端：https://stardust-dreams.com
-2. 选择模板并填写表单
-3. 获取 SessionID
-4. 在 AI 助手中使用：
+1. Visit the web interface: https://stardust-dreams.com
+2. Select a template and fill out the form
+3. Get the SessionID
+4. Use it in your AI assistant:
 
 ```bash
 /stardust-use --session xyz789abc
 ```
 
-## 📚 可用命令
+## 📚 Available Commands
 
-| 命令 | 功能 | 说明 |
+| Command | Function | Description |
 |------|------|------|
-| `/stardust-auth` | 登录认证 | 登录账号获取访问权限 |
-| `/stardust-use` | 使用模板 | 通过 SessionID 使用模板 |
-| `/stardust-list` | 查看模板 | 列出可用的创作模板 |
-| `/stardust-session` | 会话管理 | 查看和管理活跃会话 |
+| `/stardust-auth` | Login and Authentication | Log in to your account to get access permissions |
+| `/stardust-use` | Use a Template | Use a template via SessionID |
+| `/stardust-list` | View Templates | List available creation templates |
+| `/stardust-session` | Session Management | View and manage active sessions |
 
-## 🎯 使用场景
+## 🎯 Use Cases
 
-### 网文创作
-- **爆款脑洞生成器** - 基于 10 万+ 爆款分析的创意工具
-- **番茄爽文模板** - 针对番茄平台优化的模板
-- **金手指设计器** - 1000+ 金手指模板库
+### Web Novel Creation
+- **Hit Idea Generator** - A creative tool based on the analysis of 100,000+ hit works.
+- **Tomato爽文 (爽文) Template** - A template optimized for the Tomato platform.
+- **Golden Finger Designer** - A library of 1000+ Golden Finger templates.
 
-### 传统文学
-- **文笔润色大师** - 提升文学性和艺术性
-- **意象生成器** - 创造深刻的文学意象
-- **主题升华工具** - 深化作品主题
+### Traditional Literature
+- **Writing Style Polisher** - Enhance literary and artistic quality.
+- **Imagery Generator** - Create profound literary imagery.
+- **Theme Sublimation Tool** - Deepen the theme of your work.
 
-### 特色功能
-- **小说诊断器** - 分析作品问题并提供改进建议
-- **节奏优化器** - 调整故事节奏和爽点分布
-- **人物关系图谱** - 生成复杂的人物关系网络
+### Special Features
+- **Novel Diagnoser** - Analyze problems in your work and provide improvement suggestions.
+- **Pacing Optimizer** - Adjust the story's pacing and the distribution of "thrill points."
+- **Character Relationship Map** - Generate a complex network of character relationships.
 
-## 🔒 安全机制
+## 🔒 Security Mechanisms
 
-### Prompt 保护
-- ✅ 服务端加密存储，永不明文传输
-- ✅ 客户端仅在内存中解密，不写入磁盘
-- ✅ 使用后立即清理内存
-- ✅ 会话 15 分钟自动过期
+### Prompt Protection
+- ✅ Stored encrypted on the server, never transmitted in plaintext.
+- ✅ Decrypted only in the client's memory, not written to disk.
+- ✅ Memory is cleared immediately after use.
+- ✅ Sessions automatically expire after 15 minutes.
 
-### 认证安全
-- ✅ JWT Token 认证
-- ✅ 设备绑定的密钥
-- ✅ 自动 Token 续期
-- ✅ 加密存储认证信息
+### Authentication Security
+- ✅ JWT Token authentication.
+- ✅ Device-bound keys.
+- ✅ Automatic token renewal.
+- ✅ Encrypted storage of authentication information.
 
-## 💰 订阅计划
+## 💰 Subscription Plans
 
-### 免费版
-- 8 个基础模板
-- 每日 10 次使用限制
-- 社区支持
+### Free Version
+- 8 basic templates
+- 10 uses per day
+- Community support
 
-### 专业版（推荐）
-- 35+ 高级模板
-- 无限使用次数
-- 优先客服支持
-- 月费：¥99
+### Professional Version (Recommended)
+- 35+ advanced templates
+- Unlimited uses
+- Priority customer support
+- Monthly fee: ¥99
 
-### 企业版
-- 所有专业版功能
-- 私有部署选项
-- 定制模板开发
-- SLA 保障
-- 联系销售定价
+### Enterprise Version
+- All professional version features
+- Private deployment option
+- Custom template development
+- SLA guarantee
+- Contact sales for pricing
 
-## 🛠️ 技术实现
+## 🛠️ Technical Implementation
 
-### 核心库
+### Core Libraries
 
-- **api-client.js** - API 通信客户端
-- **prompt-manager.js** - Prompt 管理器（内存操作）
-- **decryptor.js** - AES-256-GCM 解密器
-- **template-engine.js** - 模板填充引擎
-- **secure-storage.js** - 安全存储（仅认证信息）
+- **api-client.js** - API communication client
+- **prompt-manager.js** - Prompt manager (in-memory operations)
+- **decryptor.js** - AES-256-GCM decryptor
+- **template-engine.js** - Template filling engine
+- **secure-storage.js** - Secure storage (authentication information only)
 
-### 模板语法
+### Template Syntax
 
-支持 Handlebars 风格的模板语法：
+Supports Handlebars-style template syntax:
 
 ```handlebars
-{{genre}}                    # 变量替换
-{{#if condition}}...{{/if}}  # 条件渲染
-{{#each items}}...{{/each}}  # 循环渲染
-{{#with object}}...{{/with}} # 上下文切换
+{{genre}}                    # Variable substitution
+{{#if condition}}...{{/if}}  # Conditional rendering
+{{#each items}}...{{/each}}  # Loop rendering
+{{#with object}}...{{/with}} # Context switching
 ```
 
-## 📊 使用统计
+## 📊 Usage Statistics
 
-插件会记录匿名使用统计（不含敏感内容）：
-- 模板使用频率
-- 平均生成时间
-- 成功率统计
+The plugin records anonymous usage statistics (without sensitive content):
+- Template usage frequency
+- Average generation time
+- Success rate statistics
 
-## 🤝 参与贡献
+## 🤝 Contributing
 
-虽然核心 Prompt 是闭源的，但客户端插件是开源的，欢迎贡献：
+Although the core Prompts are closed-source, the client plugin is open-source, and contributions are welcome:
 
-1. Fork 本仓库
-2. 创建功能分支
-3. 提交改进
-4. 发起 Pull Request
+1. Fork this repository
+2. Create a feature branch
+3. Submit your improvements
+4. Open a Pull Request
 
-## 📝 许可证
+## 📝 License
 
-- **客户端插件**：MIT License（开源）
-- **服务端系统**：专有软件（闭源）
-- **Prompt 模板**：版权保护，禁止逆向
+- **Client Plugin**: MIT License (Open source)
+- **Server-side System**: Proprietary software (Closed source)
+- **Prompt Templates**: Copyright protected, reverse engineering is prohibited.
 
-## 🔗 相关链接
+## 🔗 Related Links
 
-- 官方网站：https://stardust-dreams.com
-- API 文档：https://docs.stardust-dreams.com
-- 用户社区：https://community.stardust-dreams.com
-- 技术支持：support@stardust-dreams.com
+- Official Website: https://stardust-dreams.com
+- API Documentation: https://docs.stardust-dreams.com
+- User Community: https://community.stardust-dreams.com
+- Technical Support: support@stardust-dreams.com
 
-## ⚠️ 重要说明
+## ⚠️ Important Notes
 
-1. **不要尝试保存或导出 Prompt** - 这违反使用条款
-2. **不要共享 SessionID** - 每个会话绑定特定用户
-3. **及时使用会话** - 会话 15 分钟后自动过期
-4. **保护账号安全** - 不要共享认证信息
+1. **Do not attempt to save or export Prompts** - This violates the terms of use.
+2. **Do not share SessionIDs** - Each session is tied to a specific user.
+3. **Use sessions in a timely manner** - Sessions automatically expire after 15 minutes.
+4. **Protect your account security** - Do not share your authentication information.
 
-## 🎓 学习资源
+## 🎓 Learning Resources
 
-- [快速入门教程](https://tutorial.stardust-dreams.com/quickstart)
-- [模板使用指南](https://tutorial.stardust-dreams.com/templates)
-- [高级技巧分享](https://tutorial.stardust-dreams.com/advanced)
-- [视频教程系列](https://video.stardust-dreams.com)
+- [Quick Start Tutorial](https://tutorial.stardust-dreams.com/quickstart)
+- [Template Usage Guide](https://tutorial.stardust-dreams.com/templates)
+- [Advanced Tips and Tricks](https://tutorial.stardust-dreams.com/advanced)
+- [Video Tutorial Series](https://video.stardust-dreams.com)
 
-## 💬 获取帮助
+## 💬 Getting Help
 
-遇到问题？可以通过以下方式获取帮助：
+If you encounter any problems, you can get help in the following ways:
 
-1. 使用 `/expert stardust-guide` 激活专家向导
-2. 查看[常见问题](https://docs.stardust-dreams.com/faq)
-3. 加入[用户群组](https://t.me/stardust_dreams)
-4. 发送邮件至 support@stardust-dreams.com
+1. Use `/expert stardust-guide` to activate the expert guide.
+2. Check the [FAQ](https://docs.stardust-dreams.com/faq).
+3. Join the [user group](https://t.me/stardust_dreams).
+4. Send an email to support@stardust-dreams.com.
 
 ---
 
-**星尘织梦** - 让 AI 创作更专业、更高效、更安全。
+**Stardust Dreams** - Making AI creation more professional, efficient, and secure.

@@ -1,265 +1,265 @@
-# 创作地道的乡土对话
+# Creating Authentic Rural Dialogue
 
-生成富有陕北地方特色、生活化的人物对话。
+Generate lifelike character dialogue with the local flavor of Northern Shaanxi.
 
-## 使用方法
+## Usage
 
 ```
-/luyao-dialogue <场景类型> [情境描述]
+/luyao-dialogue <scene_type> [context_description]
 ```
 
-## 场景类型
+## Scene Types
 
-### 日常交流
-- `greeting` - 见面问候
-- `farewell` - 告别送别
-- `chat` - 闲谈拉家常
-- `work` - 劳动交流
-- `meal` - 饭桌对话
+### Daily Interaction
+- `greeting` - Meeting and greeting
+- `farewell` - Saying goodbye
+- `chat` - Casual conversation
+- `work` - Work-related conversation
+- `meal` - Dinner table conversation
 
-### 情感表达
-- `love` - 恋爱表白
-- `family` - 亲情对话
-- `conflict` - 矛盾冲突
-- `comfort` - 安慰劝慰
-- `encouragement` - 鼓励激励
+### Emotional Expression
+- `love` - Confessing love
+- `family` - Family conversation
+- `conflict` - Conflict and confrontation
+- `comfort` - Comforting and consoling
+- `encouragement` - Encouragement and motivation
 
-### 重要场合
-- `decision` - 重大决定
-- `parting` - 离别时刻
-- `reunion` - 重逢团聚
-- `celebration` - 喜事庆祝
-- `mourning` - 丧事悼念
+### Important Occasions
+- `decision` - A major decision
+- `parting` - A moment of departure
+- `reunion` - A reunion
+- `celebration` - A joyous celebration
+- `mourning` - A funeral or mourning
 
-## 示例输出
+## Example Output
 
-### 劳动中的对话
+### Dialogue during Labor
 ```
-用户：/luyao-dialogue work 收麦季节的田间对话
+User: /luyao-dialogue work Dialogue in the field during the wheat harvest season
 
-AI：
-【麦收时节·田间】
+AI:
+【Wheat Harvest Season · In the Field】
 
-场景设置：
-1982年夏天，包产到户后的第一个麦收。太阳刚出来，田福堂一家人都在地里割麦子。
+Scene Setting:
+Summer of 1982, the first wheat harvest after the implementation of the household responsibility system. The sun has just risen, and Tian Futang's family is in the field cutting wheat.
 
-人物：
-- 田福堂（父亲，50岁）
-- 兰花（母亲，45岁）  
-- 福军（儿子，22岁）
-- 小玉（女儿，18岁）
+Characters:
+- Tian Futang (Father, 50 years old)
+- Lanhua (Mother, 45 years old)
+- Fujun (Son, 22 years old)
+- Xiaoyu (Daughter, 18 years old)
 
-对话内容：
+Dialogue:
 
-田福堂（直起腰，用袖子抹一把汗）：
-"福军，你那边割得咱样哩？"
+Tian Futang (straightening his back, wiping the sweat with his sleeve):
+"Fujun, how's the cutting on your side?"
 
-福军（不抬头，继续割）：
-"还行着哩，快到地头了。"
+Fujun (without looking up, continuing to cut):
+"It's coming along, almost to the end of the row."
 
-田福堂：
-"今年麦子长得好，一亩地怎么也能打七八百斤。咱家这五亩地，能收四千斤！"
+Tian Futang:
+"The wheat has grown well this year. We should be able to get seven or eight hundred jin per mu. Our five mu of land should yield four thousand jin!"
 
-兰花（边割边说）：
-"你就别数了，还没收到家哩。老话说得好，粮食不到囤里，就不算自己的。"
+Lanhua (cutting as she speaks):
+"Don't count your chickens before they hatch. It's not in the granary yet. The old saying is right, the grain isn't yours until it's in the bin."
 
-田福堂（笑）：
-"哎，你这婆姨，就会泼冷水。今年包产到户，打下的粮食都是咱自己的，高兴还高兴不过来哩！"
+Tian Futang (laughing):
+"Ah, you woman, always pouring cold water. This year, with the household responsibility system, all the grain we harvest is our own. I can't be happier!"
 
-小玉（抬头看太阳）：
-"爹，太阳都老高了，歇一下吧？喝口水再干。"
+Xiaoyu (looking up at the sun):
+"Dad, the sun is already high. Let's take a break, have a drink of water, and then continue."
 
-田福堂：
-"不歇！趁着太阳没毒，再割一阵。麦子不等人，晚收一天就多一分风险。"
+Tian Futang:
+"No break! Let's cut a bit more before the sun gets too strong. The wheat won't wait. We lose a little more every day we're late."
 
-福军（插话）：
-"听收音机说，后天可能有雨。咱得抢收哩。"
+Fujun (interjecting):
+"The radio said it might rain the day after tomorrow. We have to rush the harvest."
 
-兰花：
-"那就不能歇了。小玉，你把水壶拿过来，让大伙喝口水，喝了继续干。"
+Lanhua:
+"Then we can't rest. Xiaoyu, bring the water kettle over. Let everyone have a drink, and then we'll continue."
 
-小玉（递水壶）：
-"先给爹喝，爹干得最多。"
+Xiaoyu (handing over the water kettle):
+"Give it to Dad first. He's done the most."
 
-田福堂（接过水壶，咕咚喝了几口）：
-"好！有劲了！福军，你也来喝口。"
+Tian Futang (taking the water kettle, gulping it down):
+"Good! I've got my strength back! Fujun, you come have a drink too."
 
-福军（走过来，喝水）：
-"爹，我在想，麦子收了，留够口粮，剩下的卖了，能不能买个手扶拖拉机？"
+Fujun (walking over, drinking water):
+"Dad, I was thinking, after the wheat is harvested and we've kept enough for ourselves, could we sell the rest and buy a walking tractor?"
 
-田福堂（眼睛一亮）：
-"手扶拖拉机？那可是大件！得两三千块钱哩！"
+Tian Futang (his eyes lighting up):
+"A walking tractor? That's a big purchase! It'll cost two or three thousand yuan!"
 
-福军：
-"我打听了，县农机站有一台旧的，一千八百块。咱卖了粮，再借点，应该能凑够。"
+Fujun:
+"I asked around. There's a used one at the county agricultural machinery station for one thousand eight hundred yuan. If we sell the grain and borrow a little, we should have enough."
 
-兰花（担心）：
-"借钱？那可不是闹着玩的。万一..."
+Lanhua (worried):
+"Borrow money? That's no joke. What if..."
 
-田福堂（打断）：
-"婆姨，福军说得对！咱现在包产到户了，就得敢想敢干。有了拖拉机，犁地、播种、收割，啥都方便。"
+Tian Futang (interrupting):
+"Woman, Fujun is right! Now that we have the household responsibility system, we have to think big and act boldly. With a tractor, plowing, sowing, harvesting, everything will be easier."
 
-小玉（兴奋）：
-"真的要买拖拉机？那咱家就是全村第一了！"
+Xiaoyu (excited):
+"Are we really going to buy a tractor? Then our family will be the first in the village!"
 
-兰花（叹气）：
-"你们父子俩商量好就行。反正我这婆姨说了不算。"
+Lanhua (sighing):
+"You and your father can decide. It's not like my opinion counts anyway."
 
-田福堂（坚定）：
-"就这么定了！麦子一收完，就去县里看拖拉机。咱农民也要机械化！"
+Tian Futang (firmly):
+"It's settled then! As soon as the wheat is harvested, we'll go to the county to look at the tractor. We farmers need to mechanize too!"
 
-[对话继续...]
+[Dialogue continues...]
 
-【语言特点分析】
+【Language Feature Analysis】
 
-1. 方言词汇：
-   - "咱样哩" - 怎么样
-   - "着哩" - 着呢（表进行态）
-   - "婆姨" - 妻子
-   - "泼冷水" - 打击积极性
+1. Dialect Vocabulary:
+   - "咱样哩" - How are things?
+   - "着哩" - An auxiliary particle indicating a continuing action.
+   - "婆姨" - Wife
+   - "泼冷水" - To pour cold water on, to discourage.
 
-2. 语气词：
-   - "哩" - 陕北方言特有语气词
-   - "咱" - 我们（亲切感）
-   - "啥" - 什么（口语化）
+2. Tone Words:
+   - "哩" - A unique tone word in the Shaanxi dialect.
+   - "咱" - We (with a sense of closeness).
+   - "啥" - What (colloquial).
 
-3. 表达特征：
-   - 句子简短朴实
-   - 情感含蓄内敛
-   - 多用俗语谚语
-   - 体现劳动人民智慧
-```
-
-### 离别时刻
-```
-用户：/luyao-dialogue parting 儿子第一次出远门打工
-
-AI：
-【车站送别】
-
-时间：1985年初春
-地点：县城汽车站
-
-人物：
-- 孙少平（24岁，准备去煤矿打工）
-- 母亲（52岁）
-- 妹妹兰香（20岁）
-
-母亲（把一个布包往少平手里塞）：
-"这里面有十几个馒头，路上饿了吃。还有一块咸菜，别舍不得吃，出门在外，没人照顾你。"
-
-少平（接过包，声音有些哽咽）：
-"妈，我知道了。你和爹要照顾好自己。"
-
-母亲（眼圈红了，但强忍着没掉泪）：
-"到了那边，别和人吵架，别惹事。活累点没啥，但要当心，矿里危险。"
-
-兰香（递给少平一个小布袋）：
-"哥，这是我给你做的鞋垫，两双。矿里潮，多备几双好换。"
-
-少平（摸摸妹妹的头）：
-"兰香真懂事了。你在家好好学习，别让妈操心。"
-
-母亲：
-"一个月写一封信回来，让家里知道你平安。别省邮票钱。"
-
-少平：
-"一定写。妈，等我挣了钱，第一个月工资就寄回来。"
-
-母亲（急忙摇手）：
-"不用！你自己留着。在外面，啥都要花钱。家里还过得去。"
-
-司机（大声喊）：
-"去铜川的，上车了！马上开车！"
-
-少平（转身要走，又回头）：
-"妈，你回去吧，别送了。"
-
-母亲（终于忍不住，泪水涌出来）：
-"我看着你走。路上...路上当心。"
-
-兰香（拉住母亲）：
-"妈，哥会照顾好自己的。哥，你快上车吧。"
-
-少平（上车前，最后一句）：
-"妈，我走了！照顾好身体！"
-
-[车开动后的描写...]
+3. Expression Features:
+   - Sentences are short and simple.
+   - Emotions are subtle and introverted.
+   - Frequent use of proverbs and sayings.
+   - Reflects the wisdom of the working people.
 ```
 
-## 对话原则
+### A Moment of Parting
+```
+User: /luyao-dialogue parting A son leaving home for the first time to work
 
-### 语言特征
-1. **方言融入**
-   - 适度使用陕北方言
-   - 保持可读性
-   - 体现地域特色
+AI:
+【Seeing Him Off at the Station】
 
-2. **人物个性**
-   - 不同身份不同口吻
-   - 不同年龄不同表达
-   - 不同文化不同词汇
+Time: Early spring of 1985
+Location: The county bus station
 
-3. **情感表达**
-   - 含蓄内敛
-   - 点到为止
-   - 言在此而意在彼
+Characters:
+- Sun Shaoping (24 years old, about to go to the coal mine to work)
+- Mother (52 years old)
+- Sister Lanxiang (20 years old)
 
-### 常用方言
+Mother (stuffing a cloth bag into Shaoping's hand):
+"There are a dozen or so steamed buns in here. Eat them on the way if you get hungry. There's also a piece of pickled vegetable. Don't be reluctant to eat it. No one will take care of you when you're away from home."
 
-#### 日常用语
-- 咱 = 我们
-- 啥 = 什么  
-- 咱样 = 怎么样
-- 那达 = 那里
-- 这达 = 这里
-- 没啥 = 没什么
+Shaoping (taking the bag, his voice a little choked up):
+"I know, Mom. You and Dad take care of yourselves."
 
-#### 情感表达
-- 恑惶 = 可怜、艰难
-- 受苦 = 吃苦、遇到困难
-- 麻利 = 勤快、能干
-- 光荣 = 体面、有尊严
+Mother (her eyes red, but holding back her tears):
+"When you get there, don't argue with people, don't cause trouble. It's okay if the work is hard, but be careful. The mine is dangerous."
 
-#### 口头禅
-- "日子会好的"
-- "咱受苦人"
-- "没啥大不了的"
-- "啥都不如自己有"
+Lanxiang (handing Shaoping a small cloth bag):
+"Brother, these are the insoles I made for you, two pairs. It's damp in the mine, so it's good to have a few extra pairs to change into."
 
-### 对话技巧
+Shaoping (patting his sister's head):
+"Lanxiang is so sensible now. You study hard at home and don't let Mom worry."
 
-1. **节奏把控**
-   - 紧张时语速快
-   - 舒缓时语速慢
-   - 情绪起伏有致
+Mother:
+"Write a letter home once a month to let us know you're safe. Don't skimp on the postage."
 
-2. **潜台词设计**
-   - 表面含义
-   - 深层含义
-   - 情感暗示
+Shaoping:
+"I'll definitely write. Mom, when I get paid, I'll send my first month's wages home."
 
-3. **动作配合**
-   - 说话时的动作
-   - 表情变化
-   - 身体语言
+Mother (waving her hand hurriedly):
+"No need! You keep it. You need money for everything when you're away. We're doing fine at home."
 
-## 输出规范
+The driver (shouting loudly):
+"To Tongchuan, get on the bus! We're leaving now!"
 
-- **对话数量**：10-15轮
-- **每轮字数**：20-50字
-- **总字数**：1500-2000字
-- **情景描写**：占总文本30%
-- **对话内容**：占总文本70%
+Shaoping (turning to leave, then looking back):
+"Mom, you go back. Don't see me off any further."
 
-## 高级选项
+Mother (finally unable to hold back, tears streaming down her face):
+"I'll watch you go. On the road... be careful on the road."
 
-- `--dialect <level>` - 方言程度（轻/中/重）
-- `--emotion <type>` - 情感基调（欢快/平静/沉重）
-- `--characters <num>` - 参与人数（2-5）
+Lanxiang (holding her mother):
+"Mom, Brother will take care of himself. Brother, you should get on the bus."
 
-## 相关命令
+Shaoping (before getting on the bus, his last words):
+"Mom, I'm leaving! Take care of yourself!"
 
-- `/luyao-character` - 创建对话人物
-- `/luyao-write` - 将对话融入故事
-- `/luyao-detail` - 为对话增加场景细节
+[Description after the bus leaves...]
+```
+
+## Dialogue Principles
+
+### Language Features
+1. **Dialect Integration**
+   - Moderate use of the Shaanxi dialect.
+   - Maintain readability.
+   - Reflect regional characteristics.
+
+2. **Character Individuality**
+   - Different identities have different ways of speaking.
+   - Different ages have different expressions.
+   - Different cultural backgrounds have different vocabularies.
+
+3. **Emotional Expression**
+   - Subtle and introverted.
+   - A light touch is enough.
+   - The meaning is implied rather than stated.
+
+### Common Dialect
+
+#### Daily Language
+- 咱 = We
+- 啥 = What
+- 咱样 = How are things?
+- 那达 = There
+- 这达 = Here
+- 没啥 = Nothing much
+
+#### Emotional Expression
+- 恑惶 = Pitiful, difficult
+- 受苦 = To suffer, to encounter difficulties
+- 麻利 = Diligent, capable
+- 光荣 = Honorable, dignified
+
+#### Catchphrases
+- "Life will get better."
+- "We who suffer."
+- "It's no big deal."
+- "Nothing is as good as what you have yourself."
+
+### Dialogue Techniques
+
+1. **Pacing Control**
+   - Fast-paced speech when tense.
+   - Slow-paced speech when relaxed.
+   - A rhythm of emotional ups and downs.
+
+2. **Subtext Design**
+   - Surface meaning
+   - Deeper meaning
+   - Emotional hints
+
+3. **Coordination with Actions**
+   - Actions while speaking
+   - Changes in expression
+   - Body language
+
+## Output Specifications
+
+- **Number of exchanges**: 10-15
+- **Words per exchange**: 20-50
+- **Total words**: 1500-2000
+- **Scene description**: 30% of the total text
+- **Dialogue content**: 70% of the total text
+
+## Advanced Options
+
+- `--dialect <level>` - Degree of dialect (light/medium/heavy)
+- `--emotion <type>` - Emotional tone (joyful/calm/heavy)
+- `--characters <num>` - Number of participants (2-5)
+
+## Related Commands
+
+- `/luyao-character` - Create the characters for the dialogue.
+- `/luyao-write` - Integrate the dialogue into the story.
+- `/luyao-detail` - Add scene details to the dialogue.

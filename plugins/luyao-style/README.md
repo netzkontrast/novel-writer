@@ -1,257 +1,257 @@
-# 路遥风格创作插件
+# Lu Yao Style Creation Plugin
 
-基于路遥《平凡的世界》的现实主义文学创作插件，专注于塑造大时代背景下平凡人的不平凡故事。
+A realist literature creation plugin based on Lu Yao's "The Ordinary World," focusing on shaping the extraordinary stories of ordinary people against the backdrop of a great era.
 
-## 插件特色
+## Plugin Features
 
-### 🌾 朴实厚重的现实主义
-- 扎根于黄土高原的泥土气息
-- 改革开放前后的时代变迁
-- 平凡人物的生命史诗
+### 🌾 Simple and Profound Realism
+- The earthy smell of the Loess Plateau
+- The changing times before and after the reform and opening up
+- The life epics of ordinary people
 
-### 🌻 细腻真实的生活描写
-- 丰富的农村生活细节
-- 地道的陕北方言对话
-- 真实的劳动场景刻画
+### 🌻 Delicate and Authentic Life Descriptions
+- Rich details of rural life
+- Authentic Northern Shaanxi dialect dialogue
+- Realistic portrayal of labor scenes
 
-### 🌟 克制内敛的情感表达
-- 含蓄的情感传递
-- 苦难中的希望与诗意
-- 人物的尊严与坚韧
+### 🌟 Restrained and Introverted Emotional Expression
+- Subtle emotional communication
+- Hope and poetry in the midst of suffering
+- The dignity and resilience of the characters
 
-## 安装方法
+## Installation Method
 
 ```bash
-# 在 Novel Writer 项目根目录执行
+# Execute in the root directory of the Novel Writer project
 novel plugins add luyao-style
 
-# 或手动复制到插件目录
+# Or manually copy to the plugins directory
 cp -r luyao-style /path/to/novel/plugins/
 ```
 
-## 快速开始
+## Quick Start
 
-### 1. 激活风格模式
+### 1. Activate the Style Mode
 
 ```
 /luyao-style
 ```
 
-激活后将加载：
-- 现实主义叙事框架
-- 平凡人物塑造系统
-- 生活细节描写库
-- 陕北方言词汇系统
+After activation, the following will be loaded:
+- A realist narrative framework
+- An ordinary character creation system
+- A library of life detail descriptions
+- A Northern Shaanxi dialect vocabulary system
 
-### 2. 开始创作
-
-```
-/luyao-write rural 1982年夏天的麦收
-```
-
-### 3. 塑造人物
+### 2. Start Creating
 
 ```
-/luyao-character farmer 包产到户后的年轻农民
+/luyao-write rural The wheat harvest in the summer of 1982
 ```
 
-## 命令列表
+### 3. Create a Character
 
-| 命令 | 功能 | 示例 |
+```
+/luyao-character farmer A young farmer after the implementation of the household responsibility system
+```
+
+## Command List
+
+| Command | Function | Example |
 |------|------|------|
-| `/luyao-style` | 激活路遥风格模式 | `/luyao-style --era 1980s` |
-| `/luyao-write` | 创作现实主义作品 | `/luyao-write urban 进城打工` |
-| `/luyao-character` | 塑造平凡人物 | `/luyao-character worker` |
-| `/luyao-detail` | 生成生活细节 | `/luyao-detail farming` |
-| `/luyao-dialogue` | 创作乡土对话 | `/luyao-dialogue parting` |
+| `/luyao-style` | Activate the Lu Yao style mode | `/luyao-style --era 1980s` |
+| `/luyao-write` | Create a realist work | `/luyao-write urban Going to the city to work` |
+| `/luyao-character` | Create an ordinary character | `/luyao-character worker` |
+| `/luyao-detail` | Generate life details | `/luyao-detail farming` |
+| `/luyao-dialogue` | Create rural dialogue | `/luyao-dialogue parting` |
 
-## 创作类型
+## Creation Types
 
-### 🌾 农村生活
-- 劳动场景：耕种、收割、放牧
-- 家庭生活：饮食起居、亲情关系
-- 乡村风俗：集市、节日、婚丧
+### 🌾 Rural Life
+- Labor scenes: farming, harvesting, herding
+- Family life: food, daily life, family relationships
+- Rural customs: markets, festivals, weddings and funerals
 
-### 🏙️ 城市奋斗
-- 进城打工：离乡、求职、适应
-- 城乡差距：文化冲突、身份认同
-- 个人奋斗：学习、成长、改变
+### 🏙️ Urban Struggle
+- Going to the city to work: leaving home, looking for a job, adapting
+- The urban-rural gap: cultural conflict, identity
+- Individual struggle: learning, growing, changing
 
-### ⛏️ 矿区故事
-- 矿工生活：井下作业、安全风险
-- 工人阶层：团结、互助、尊严
-- 工业文明：机械、技术、变革
+### ⛏️ Mining Stories
+- Miner's life: working underground, safety risks
+- The working class: solidarity, mutual help, dignity
+- Industrial civilization: machinery, technology, change
 
-## 时代设定
+## Era Settings
 
-### 70年代（集体时期）
-- 生产队组织
-- 工分制度
-- 粮票系统
-- 知青下乡
+### The 1970s (The Collective Era)
+- Production team organization
+- The work point system
+- The grain coupon system
+- Educated youth going to the countryside
 
-### 80年代（改革初期）
-- 包产到户
-- 个体经济
-- 万元户现象
-- 高考恢复
+### The 1980s (The Early Period of Reform)
+- The household responsibility system
+- The private economy
+- The "ten-thousand-yuan household" phenomenon
+- The restoration of the college entrance examination
 
-### 90年代（市场经济）
-- 打工潮
-- 下海经商
-- 城市化进程
-- 传统与现代
+### The 1990s (The Market Economy)
+- The tide of migrant workers
+- Going into business
+- The process of urbanization
+- Tradition and modernity
 
-## 人物类型
+## Character Types
 
-### 主要人物
-- **农村青年**：朴实、勤劳、渴望改变
-- **基层知识分子**：理想主义、社会责任
-- **普通工人**：踏实、本分、吃苦耐劳
-- **乡村干部**：复杂、矛盾、转变
+### Main Characters
+- **Rural Youth**: Simple, hardworking, eager to change
+- **Grassroots Intellectuals**: Idealistic, with a sense of social responsibility
+- **Ordinary Workers**: Down-to-earth, dutiful, hardworking
+- **Rural Cadres**: Complex, contradictory, changing
 
-### 人物特征
-- 扎根于土地的生命力
-- 在苦难中保持尊严
-- 对美好生活的追求
-- 传统与现代的矛盾
+### Character Features
+- The vitality rooted in the land
+- Maintaining dignity in the midst of suffering
+- The pursuit of a better life
+- The conflict between tradition and modernity
 
-## 语言特色
+## Language Features
 
-### 陕北方言
+### Northern Shaanxi Dialect
 ```
-咱 = 我们
-啥 = 什么
-哩 = 呢（语气词）
-恑惶 = 可怜、艰难
-麻利 = 勤快、能干
+咱 = we
+啥 = what
+哩 = a particle
+恑惶 = pitiful, difficult
+麻利 = diligent, capable
 ```
 
-### 经典口头禅
-- "日子会好的"
-- "咱受苦人"
-- "再苦不能苦了娃娃们的教育"
-- "人不能让人看不起"
+### Classic Catchphrases
+- "Life will get better."
+- "We who suffer."
+- "No matter how hard it is, we can't let the children's education suffer."
+- "A man must not be looked down upon."
 
-## 创作指南
+## Creation Guide
 
-### 核心原则
+### Core Principles
 
-1. **真实性第一**
-   - 符合时代背景
-   - 符合生活逻辑
-   - 经得起推敲
+1. **Authenticity First**
+   - Consistent with the historical background
+   - Consistent with the logic of life
+   - Able to withstand scrutiny
 
-2. **情感克制**
-   - 含蓄内敛
-   - 点到为止
-   - 无声胜有声
+2. **Emotional Restraint**
+   - Subtle and introverted
+   - A light touch is enough
+   - Silence is better than sound
 
-3. **细节生动**
-   - 每章至少3处生活细节
-   - 具体可感
-   - 富有画面感
+3. **Vivid Details**
+   - At least 3 life details in each chapter
+   - Concrete and tangible
+   - Rich in imagery
 
-4. **希望主题**
-   - 苦难中的光明
-   - 奋斗的价值
-   - 生命的尊严
+4. **The Theme of Hope**
+   - A light in the midst of suffering
+   - The value of struggle
+   - The dignity of life
 
-### 写作技巧
+### Writing Techniques
 
-- **叙述节奏**：沉稳厚重，不急不躁
-- **人物塑造**：通过细节和动作展现
-- **对话设计**：生活化、个性化
-- **场景描写**：融入情感和哲思
+- **Narrative Pacing**: Steady and profound, not rushed
+- **Character Creation**: Show through details and actions
+- **Dialogue Design**: Lifelike and personalized
+- **Scene Description**: Integrated with emotion and philosophy
 
-## 使用示例
+## Usage Example
 
-### 创作完整章节
+### Creating a Complete Chapter
 
 ```
 /luyao-style --era 1980s
-/luyao-write chapter 一个农村青年决定去城里闯荡
+/luyao-write chapter A rural youth decides to go to the city to make a living
 ```
 
-### 塑造复杂人物
+### Creating a Complex Character
 
 ```
-/luyao-character returning-youth 大学毕业后选择返乡的青年教师
+/luyao-character returning-youth A young teacher who chooses to return to their hometown after graduating from university
 ```
 
-### 添加生活细节
+### Adding Life Details
 
 ```
-/luyao-detail cooking 农家的早饭准备
+/luyao-detail cooking The preparation of a farmer's breakfast
 ```
 
-### 设计情感对话
+### Designing an Emotional Dialogue
 
 ```
-/luyao-dialogue farewell 母亲送儿子出远门
+/luyao-dialogue farewell A mother sees her son off on a long journey
 ```
 
-## 专家模式
+## Expert Mode
 
-激活路遥大师进行深度创作：
+Activate Master Lu Yao for in-depth creation:
 
 ```
 /expert luyao-master
 ```
 
-大师模式提供：
-- 深度现实主义创作指导
-- 复杂人物关系构建
-- 多线索叙事编织
-- 主题思想升华
+The master mode provides:
+- In-depth realist creation guidance
+- Construction of complex character relationships
+- Weaving of multi-threaded narratives
+- Sublimation of thematic ideas
 
-## 模板资源
+## Template Resources
 
-插件提供以下模板：
+The plugin provides the following templates:
 
-- `story-template.md` - 故事大纲模板
-- `scene-template.md` - 场景描写模板
-- `character-profile.md` - 人物档案模板
+- `story-template.md` - Story outline template
+- `scene-template.md` - Scene description template
+- `character-profile.md` - Character profile template
 
-## 配置选项
+## Configuration Options
 
 ```yaml
 style_parameters:
-  realism_level: 5      # 现实主义程度
-  emotional_restraint: 4 # 情感克制度
-  detail_density: 5     # 细节密度
-  dialect_usage: 3      # 方言使用度
-  hope_quotient: 4      # 希望指数
-  chapter_length: 3000  # 章节字数
+  realism_level: 5      # Degree of realism
+  emotional_restraint: 4 # Degree of emotional restraint
+  detail_density: 5     # Density of details
+  dialect_usage: 3      # Degree of dialect use
+  hope_quotient: 4      # Hope index
+  chapter_length: 3000  # Chapter length
 ```
 
-## 注意事项
+## Notes
 
-- 📌 本插件专为现实主义、乡土文学创作优化
-- 📌 默认输出3000字以上章节
-- 📌 所有细节需符合时代背景
-- 📌 情感表达克制内敛，避免煤情
-- 📌 建议结合真实生活体验创作
+- 📌 This plugin is specially optimized for realist and rural literature creation.
+- 📌 The default output is a chapter of over 3000 words.
+- 📌 All details must be consistent with the historical background.
+- 📌 Emotional expression is restrained and introverted, avoiding sentimentality.
+- 📌 It is recommended to combine with real-life experience for creation.
 
-## 更新日志
+## Changelog
 
 ### v1.0.0 (2024-01)
-- ✅ 初始版本发布
-- ✅ 实现5个核心命令
-- ✅ 提供3个创作模板
-- ✅ 支持70/80/90年代背景
-- ✅ 集成陕北方言系统
+- ✅ Initial version release
+- ✅ Implemented 5 core commands
+- ✅ Provided 3 creation templates
+- ✅ Supports 70s/80s/90s backgrounds
+- ✅ Integrated the Northern Shaanxi dialect system
 
-## 反馈与支持
+## Feedback and Support
 
-- 问题反馈：[GitHub Issues]
-- 使用讨论：[Discussions]
-- 贡献代码：欢迎 PR
+- Issue Feedback: [GitHub Issues]
+- Usage Discussion: [Discussions]
+- Code Contribution: PRs are welcome
 
-## 许可协议
+## License
 
-MIT License - 详见 LICENSE 文件
+MIT License - See the LICENSE file for details
 
 ---
 
-> 🌾 **"生活不能等待别人来安排，要自己去争取和奋斗。"** - 路遥
+> 🌾 **"Life cannot wait for others to arrange it; you have to fight for it and struggle for it yourself."** - Lu Yao

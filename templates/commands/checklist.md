@@ -1,6 +1,6 @@
 ---
 name: checklist
-description: 生成或执行质量检查清单（规格验证 + 内容扫描）
+description: Generate or execute quality checklists (specification validation + content scanning)
 allowed-tools: Read, Bash, Write, Edit, Glob, Grep
 model: claude-sonnet-4-5-20250929
 scripts:
@@ -8,327 +8,327 @@ scripts:
   ps: scripts/powershell/common.ps1
 ---
 
-# 质量检查清单（Checklist）
+# Quality Checklist
 
-生成或执行质量检查清单，支持两种模式：
+Generates or executes a quality checklist, supporting two modes:
 
-## 🎯 支持的检查类型
+## 🎯 Supported Check Types
 
-### 第一类：规格质量检查（问题生成式）
-验证规划文档本身的质量（类似"需求的单元测试"）：
+### Type 1: Specification Quality Check (Question-Generative)
+Validates the quality of the planning documents themselves (like "unit tests for requirements"):
 
-- `大纲质量` - 检查 outline.md 的完整性、清晰度、一致性
-- `角色设定` - 检查 spec/knowledge/characters.md
-- `世界观` - 检查 spec/knowledge/world-setting.md 及相关文档
-- `创作计划` - 检查 creative-plan.md / specification.md
-- `伏笔管理` - 检查 spec/tracking/plot-tracker.json 的伏笔定义
+- `Outline Quality` - Checks the completeness, clarity, and consistency of outline.md.
+- `Character Settings` - Checks spec/knowledge/characters.md.
+- `World-building` - Checks spec/knowledge/world-setting.md and related documents.
+- `Creative Plan` - Checks creative-plan.md / specification.md.
+- `Foreshadowing Management` - Checks the foreshadowing definitions in spec/tracking/plot-tracker.json.
 
-### 第二类：内容验证检查（结果报告式）
-扫描已写章节，验证实际内容：
+### Type 2: Content Validation Check (Report-Generative)
+Scans written chapters to validate the actual content:
 
-- `世界观一致性` - 扫描章节内容，检查世界观描述矛盾
-- `情节对齐` - 对比进度与大纲，检查情节发展
-- `数据同步` - 验证所有 tracking JSON 文件的同步性
-- `时间线` - 检查时间事件的逻辑连续性
-- `写作状态` - 检查写作准备度和任务状态
+- `World-building Consistency` - Scans chapter content for contradictions in world-building descriptions.
+- `Plot Alignment` - Compares progress with the outline to check plot development.
+- `Data Sync` - Verifies the synchronization of all tracking JSON files.
+- `Timeline` - Checks the logical continuity of time events.
+- `Writing Status` - Checks writing readiness and task status.
 
-## 用户输入
+## User Input
 
 ```text
 $ARGUMENTS
 ```
 
-## 执行流程
+## Execution Flow
 
-### 1. 识别检查类型
+### 1. Identify Check Type
 
-根据用户输入，确定检查类型（规格质量 vs 内容验证）：
+Based on user input, determine the check type (Specification Quality vs. Content Validation):
 
-**关键词映射**：
-- "大纲"、"质量" → 规格质量类：大纲质量
-- "角色"、"设定" → 规格质量类：角色设定
-- "世界观" + "质量/完整性/规格" → 规格质量类：世界观
-- "世界观" + "一致性/检查/扫描" → 内容验证类：世界观一致性
-- "创作计划"、"规划" → 规格质量类：创作计划
-- "伏笔" → 规格质量类：伏笔管理
-- "情节"、"对齐"、"进度" → 内容验证类：情节对齐
-- "数据"、"同步"、"一致性" → 内容验证类：数据同步
-- "时间线"、"时间" → 内容验证类：时间线
-- "写作状态"、"准备" → 内容验证类：写作状态
+**Keyword Mapping**:
+- "outline", "quality" → Spec Quality: Outline Quality
+- "character", "setting" → Spec Quality: Character Settings
+- "world-building" + "quality/completeness/spec" → Spec Quality: World-building
+- "world-building" + "consistency/check/scan" → Content Validation: World-building Consistency
+- "creative plan", "planning" → Spec Quality: Creative Plan
+- "foreshadowing" → Spec Quality: Foreshadowing Management
+- "plot", "alignment", "progress" → Content Validation: Plot Alignment
+- "data", "sync", "consistency" → Content Validation: Data Sync
+- "timeline", "time" → Content Validation: Timeline
+- "writing status", "readiness" → Content Validation: Writing Status
 
-如果用户输入不明确，询问选择。
+If the user input is unclear, ask for a selection.
 
-### 2. 执行对应的检查逻辑
+### 2. Execute Corresponding Check Logic
 
-#### 规格质量类检查（生成问题式 Checklist）
+#### Specification Quality Checks (Generates a question-based Checklist)
 
-执行类似 spec-kit 的需求质量验证逻辑：
+Executes a requirements quality validation logic similar to spec-kit:
 
-##### 2.1 大纲质量检查
+##### 2.1 Outline Quality Check
 
-**目标**：验证 outline.md 是否具备良好的完整性、清晰度和一致性。
+**Objective**: To verify that outline.md has good completeness, clarity, and consistency.
 
-**读取文件**：
-- `outline.md` 或 `stories/*/outline.md`
-- `spec/tracking/plot-tracker.json`（如果存在）
+**Read Files**:
+- `outline.md` or `stories/*/outline.md`
+- `spec/tracking/plot-tracker.json` (if it exists)
 
-**生成检查项维度**：
+**Generate Check Item Dimensions**:
 
-**完整性 (Completeness)**：
-- 是否为每个主要情节节点定义了触发条件和结果？
-- 是否明确每个卷/章的故事目标？
-- 是否覆盖所有主要角色的成长弧？
-- 是否定义了主要冲突的升级路径？
-- 是否明确故事的高潮和结局？
+**Completeness**:
+- Are trigger conditions and outcomes defined for each major plot node?
+- Is the story goal for each volume/chapter clearly defined?
+- Does it cover the growth arcs of all major characters?
+- Is the escalation path of the main conflict defined?
+- Are the story's climax and ending clearly defined?
 
-**清晰度 (Clarity)**：
-- 情节节点的触发条件是否具体可验证？
-- 章节分配是否有明确的依据（如字数、情节密度）？
-- 角色动机是否用具体事件量化？
-- 场景描述是否避免模糊词汇（"某个地方"、"一段时间"）？
+**Clarity**:
+- Are the trigger conditions for plot nodes specific and verifiable?
+- Is there a clear basis for chapter allocation (e.g., word count, plot density)?
+- Are character motivations quantified with specific events?
+- Do scene descriptions avoid vague words ("someplace", "a period of time")?
 
-**一致性 (Consistency)**：
-- 情节线索前后是否矛盾？
-- 角色行为是否符合设定？
-- 时间跨度是否合理？
-- 世界观规则是否与大纲描述一致？
+**Consistency**:
+- Are there contradictions in the plot threads?
+- Is character behavior consistent with their settings?
+- Is the time span reasonable?
+- Are the world-building rules consistent with the outline's description?
 
-**可测量性 (Measurability)**：
-- 章节分配是否合理可行（如每章2000-4000字）？
-- 伏笔回收时机是否明确（章节号或章节范围）？
-- 角色成长是否有明确的里程碑？
+**Measurability**:
+- Is the chapter allocation reasonable and feasible (e.g., 2000-4000 words per chapter)?
+- Is the timing for resolving foreshadowing clear (chapter number or range)?
+- Does character growth have clear milestones?
 
-**覆盖范围 (Coverage)**：
-- 是否考虑了所有主要场景类型（冲突、日常、转折）？
-- 是否覆盖了所有主要角色的戏份？
-- 是否包含必要的伏笔铺设和回收？
+**Coverage**:
+- Have all major scene types been considered (conflict, daily life, turning points)?
+- Is the screen time of all major characters covered?
+- Does it include necessary foreshadowing setup and resolution?
 
-**输出格式示例**：
+**Example Output Format**:
 ```markdown
-# 大纲质量检查清单
-**创建时间**: 2025-10-11
-**检查对象**: outline.md
-**检查维度**: 完整性、清晰度、一致性、可测量性、覆盖范围
+# Outline Quality Checklist
+**Creation Date**: 2025-10-11
+**Check Object**: outline.md
+**Check Dimensions**: Completeness, Clarity, Consistency, Measurability, Coverage
 
-## 完整性 (Completeness)
+## Completeness
 
-- [ ] CHK001 是否为每个主要情节节点定义了触发条件和结果？ [Spec §大纲3.2]
-- [ ] CHK002 是否明确每个卷/章的故事目标？ [Gap]
-- [ ] CHK003 是否覆盖所有主要角色的成长弧？ [Spec §大纲5.1]
+- [ ] CHK001 Are trigger conditions and outcomes defined for each major plot node? [Spec §Outline 3.2]
+- [ ] CHK002 Is the story goal for each volume/chapter clearly defined? [Gap]
+- [ ] CHK003 Does it cover the growth arcs of all major characters? [Spec §Outline 5.1]
 
-## 清晰度 (Clarity)
+## Clarity
 
-- [ ] CHK004 情节节点的触发条件是否具体可验证？ [Ambiguity, Spec §大纲3.2]
-- [ ] CHK005 章节分配是否有明确的依据？ [Clarity]
+- [ ] CHK004 Are the trigger conditions for plot nodes specific and verifiable? [Ambiguity, Spec §Outline 3.2]
+- [ ] CHK005 Is there a clear basis for chapter allocation? [Clarity]
 
-## 一致性 (Consistency)
+## Consistency
 
-- [ ] CHK006 情节线索前后是否矛盾？ [Consistency]
-- [ ] CHK007 世界观规则是否与大纲描述一致？ [Consistency, vs §世界观]
+- [ ] CHK006 Are there contradictions in the plot threads? [Consistency]
+- [ ] CHK007 Are the world-building rules consistent with the outline's description? [Consistency, vs §World-building]
 
-## 可测量性 (Measurability)
+## Measurability
 
-- [ ] CHK008 章节分配是否合理可行（如每章2000-4000字）？ [Measurability]
-- [ ] CHK009 伏笔回收时机是否明确（章节号或范围）？ [Gap]
+- [ ] CHK008 Is the chapter allocation reasonable and feasible (e.g., 2000-4000 words per chapter)? [Measurability]
+- [ ] CHK009 Is the timing for resolving foreshadowing clear (chapter number or range)? [Gap]
 
-## 覆盖范围 (Coverage)
+## Coverage
 
-- [ ] CHK010 是否考虑了所有主要场景类型？ [Coverage]
-- [ ] CHK011 是否包含必要的伏笔铺设和回收？ [Coverage, Gap]
+- [ ] CHK010 Have all major scene types been considered? [Coverage]
+- [ ] CHK011 Does it include necessary foreshadowing setup and resolution? [Coverage, Gap]
 
-## 使用说明
+## Instructions for Use
 
-勾选已验证项：`[x]`
-标记问题项：`[!]` 并在下方记录具体问题
+Tick verified items: `[x]`
+Mark items with issues: `[!]` and record the specific issue below.
 ```
 
-##### 2.2 角色设定检查
+##### 2.2 Character Setting Check
 
-**读取文件**：
+**Read Files**:
 - `spec/knowledge/characters.md`
 - `spec/tracking/character-state.json`
 - `spec/tracking/relationships.json`
 
-**生成检查项维度**：
+**Generate Check Item Dimensions**:
 
-**完整性**：
-- 主要角色是否定义了基本信息（姓名、年龄、身份、外貌）？
-- 是否定义了角色的核心动机和目标？
-- 是否定义了角色的性格特征和行为模式？
-- 是否定义了角色的背景故事？
-- 是否定义了角色的能力和局限？
+**Completeness**:
+- Is basic information (name, age, identity, appearance) defined for major characters?
+- Are the character's core motivations and goals defined?
+- Are the character's personality traits and behavioral patterns defined?
+- Is the character's backstory defined?
+- Are the character's abilities and limitations defined?
 
-**清晰度**：
-- 角色动机是否具体可验证（非"想要成功"而是"想通过科举改变家族命运"）？
-- 性格特征是否通过具体行为体现？
-- 角色目标是否可量化或有明确的达成标准？
+**Clarity**:
+- Are character motivations specific and verifiable (not "wants to succeed" but "wants to change the family's fate by passing the imperial exam")?
+- Are personality traits demonstrated through specific actions?
+- Are character goals quantifiable or have clear achievement standards?
 
-**一致性**：
-- 角色设定与大纲中的行为是否一致？
-- 不同文档中的角色描述是否一致？
-- 角色关系定义是否对称（A对B的关系 vs B对A的关系）？
+**Consistency**:
+- Is the character's setting consistent with their behavior in the outline?
+- Are character descriptions consistent across different documents?
+- Are relationship definitions symmetrical (A's relationship to B vs. B's relationship to A)?
 
-**可测量性**：
-- 角色成长是否有明确的阶段划分？
-- 角色能力变化是否可追踪？
+**Measurability**:
+- Does character growth have clearly defined stages?
+- Are changes in character abilities trackable?
 
-##### 2.3 世界观检查
+##### 2.3 World-building Check
 
-**读取文件**：
+**Read Files**:
 - `spec/knowledge/world-setting.md`
 - `spec/knowledge/locations.md`
 - `spec/knowledge/culture.md`
 - `spec/knowledge/rules.md`
 
-**生成检查项维度**：
+**Generate Check Item Dimensions**:
 
-**完整性**：
-- 是否定义了核心世界观规则（魔法体系、科技水平、社会结构）？
-- 是否定义了主要地点及其特征？
-- 是否定义了文化风俗、语言、传统？
-- 是否定义了时代背景和历史脉络？
+**Completeness**:
+- Are the core world-building rules (magic system, tech level, social structure) defined?
+- Are the main locations and their features defined?
+- Are cultural customs, languages, and traditions defined?
+- Is the time period and historical context defined?
 
-**清晰度**：
-- 世界观规则是否明确无歧义？
-- 地理位置、距离、方位是否清晰？
-- 特殊术语是否有明确定义？
+**Clarity**:
+- Are the world-building rules clear and unambiguous?
+- Are geographical locations, distances, and directions clear?
+- Are special terms clearly defined?
 
-**一致性**：
-- 不同文档中的世界观设定是否一致？
-- 世界观规则是否存在内部矛盾？
-- 与大纲描述是否一致？
+**Consistency**:
+- Are world-building settings consistent across different documents?
+- Do the world-building rules have internal contradictions?
+- Is it consistent with the outline's description?
 
-**覆盖范围**：
-- 是否覆盖了故事涉及的所有地点？
-- 是否定义了所有出现的特殊规则或能力？
+**Coverage**:
+- Does it cover all locations involved in the story?
+- Are all special rules or abilities that appear defined?
 
-##### 2.4 创作计划检查
+##### 2.4 Creative Plan Check
 
-**读取文件**：
-- `creative-plan.md` 或 `specification.md`
+**Read Files**:
+- `creative-plan.md` or `specification.md`
 - `tasks.md`
 
-**生成检查项维度**：
+**Generate Check Item Dimensions**:
 
-**完整性**：
-- 是否定义了创作目标和里程碑？
-- 是否明确了创作流程和步骤？
-- 是否定义了质量标准？
+**Completeness**:
+- Are creative goals and milestones defined?
+- Is the creative process and its steps clearly defined?
+- Are quality standards defined?
 
-**清晰度**：
-- 任务划分是否清晰具体？
-- 时间安排是否合理？
-- 验收标准是否明确？
+**Clarity**:
+- Is the task breakdown clear and specific?
+- Is the schedule reasonable?
+- Are the acceptance criteria clear?
 
-**一致性**：
-- 计划是否与大纲规模匹配？
-- 任务是否涵盖所有规划内容？
+**Consistency**:
+- Does the plan match the scale of the outline?
+- Do the tasks cover all planned content?
 
-##### 2.5 伏笔管理检查
+##### 2.5 Foreshadowing Management Check
 
-**读取文件**：
+**Read Files**:
 - `spec/tracking/plot-tracker.json`
 - `outline.md`
 
-**生成检查项维度**：
+**Generate Check Item Dimensions**:
 
-**完整性**：
-- 是否记录了所有规划的伏笔？
-- 每个伏笔是否定义了铺设章节和回收章节？
-- 是否定义了伏笔的类型和重要性？
+**Completeness**:
+- Are all planned foreshadowing events recorded?
+- Is a setup chapter and a resolution chapter defined for each foreshadowing?
+- Is the type and importance of the foreshadowing defined?
 
-**清晰度**：
-- 伏笔内容描述是否清晰？
-- 回收方式是否明确？
+**Clarity**:
+- Is the foreshadowing content clearly described?
+- Is the resolution method clear?
 
-**可测量性**：
-- 回收时机是否有明确的章节号或范围？
-- 是否定义了铺设密度（避免过多未回收伏笔）？
+**Measurability**:
+- Is there a clear chapter number or range for the resolution timing?
+- Is the setup density defined (to avoid too many unresolved foreshadowing events)?
 
-**一致性**：
-- 伏笔是否与大纲情节匹配？
-- planted 和 resolved 字段是否一致？
+**Consistency**:
+- Does the foreshadowing match the plot of the outline?
+- Are the `planted` and `resolved` fields consistent?
 
-#### 内容验证类检查（执行脚本生成报告）
+#### Content Validation Checks (Executes a script to generate a report)
 
-这些检查需要扫描实际写作内容，调用对应的 bash 脚本：
+These checks require scanning the actual written content and calling the corresponding bash scripts:
 
-##### 2.5 世界观一致性检查
+##### 2.5 World-building Consistency Check
 
-执行命令：
+Execute command:
 ```bash
 bash scripts/bash/check-world.sh --checklist
 ```
 
-如果脚本不存在，提示用户该功能正在开发中。
+If the script does not exist, inform the user that this feature is under development.
 
-##### 2.6 情节对齐检查
+##### 2.6 Plot Alignment Check
 
-执行命令：
+Execute command:
 ```bash
 bash scripts/bash/check-plot.sh --checklist
 ```
 
-##### 2.7 数据同步检查
+##### 2.7 Data Sync Check
 
-执行命令：
+Execute command:
 ```bash
 bash scripts/bash/check-consistency.sh --checklist
 ```
 
-##### 2.8 时间线检查
+##### 2.8 Timeline Check
 
-执行命令：
+Execute command:
 ```bash
 bash scripts/bash/check-timeline.sh check --checklist
 ```
 
-##### 2.9 写作状态检查
+##### 2.9 Writing Status Check
 
-执行命令：
+Execute command:
 ```bash
 bash scripts/bash/check-writing-state.sh --checklist
 ```
 
-### 3. 输出 Checklist
+### 3. Output Checklist
 
-**保存位置**：`spec/checklists/`
+**Save Location**: `spec/checklists/`
 
-**文件命名规则**：
-- 规格质量类：`[类型]-quality.md`（如 `outline-quality.md`）
-- 内容验证类：`[类型]-[日期].md`（如 `world-consistency-20251011.md`）
+**File Naming Convention**:
+- Spec Quality type: `[type]-quality.md` (e.g., `outline-quality.md`)
+- Content Validation type: `[type]-[date].md` (e.g., `world-consistency-20251011.md`)
 
-**输出格式**：使用 `templates/checklist-template.md` 作为模板。
+**Output Format**: Use `templates/checklist-template.md` as a template.
 
-### 4. 报告结果
+### 4. Report Results
 
-输出：
-- Checklist 文件路径
-- 检查项总数
-- 检查类型和范围
-- 如何使用 checklist 的说明
+Output:
+- Path to the Checklist file
+- Total number of check items
+- Check type and scope
+- Instructions on how to use the checklist
 
-## 示例用法
+## Example Usage
 
 ```bash
-# 规格质量检查
-/checklist 大纲质量
-/checklist 角色设定
-/checklist 世界观
+# Specification Quality Checks
+/checklist Outline Quality
+/checklist Character Settings
+/checklist World-building
 
-# 内容验证检查
-/checklist 世界观一致性
-/checklist 情节对齐
-/checklist 数据同步
+# Content Validation Checks
+/checklist World-building Consistency
+/checklist Plot Alignment
+/checklist Data Sync
 ```
 
-## 注意事项
+## Notes
 
-1. **规格质量类 checklist**：用于写作前的规划验证，发现文档本身的质量问题
-2. **内容验证类 checklist**：用于写作后的内容检查，发现实际产出的问题
-3. 两类 checklist 互补，建议：规划阶段使用第一类，写作阶段使用第二类
-4. 所有 checklist 保存在 `spec/checklists/` 目录，便于追踪历史检查记录
+1.  **Specification Quality Checklist**: Used for pre-writing planning validation to find quality issues in the documents themselves.
+2.  **Content Validation Checklist**: Used for post-writing content checks to find issues in the actual output.
+3.  The two types of checklists are complementary. Recommendation: Use the first type during the planning phase and the second type during the writing phase.
+4.  All checklists are saved in the `spec/checklists/` directory for easy tracking of historical check records.
 
-## 向后兼容说明
+## Backward Compatibility Note
 
-旧命令 `/world-check` 和 `/plot-check` 仍然可用，但推荐使用统一的 `/checklist` 命令。
+The old commands `/world-check` and `/plot-check` are still available, but it is recommended to use the unified `/checklist` command.
