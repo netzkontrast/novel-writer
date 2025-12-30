@@ -1,24 +1,24 @@
-- [ ] ./templates/knowledge/character-voices.md
-- [ ] ./other/wide_research_prompt_cn.md
-- [ ] ./other/spec-kit.md
-- [ ] ./.github/copilot-instructions.md
-- [ ] ./CHANGELOG.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-use.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-session.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-list.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-auth.md
-- [ ] ./plugins/stardust-dreams/README.md
-- [ ] ./plugins/stardust-dreams/experts/stardust-guide.md
-- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-write.md
-- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-plot.md
-- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-style.md
-- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-character.md
-- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-foreshadow.md
-- [ ] ./plugins/shizhangyu-style/memory/style-guide.md
-- [ ] ./plugins/shizhangyu-style/README.md
-- [ ] ./plugins/shizhangyu-style/experts/shizhangyu-master.md
-- [ ] ./plugins/luyao-style/templates/scene-template.md
-- [ ] ./plugins/luyao-style/templates/character-profile.md
+- [x] ./templates/knowledge/character-voices.md
+- [x] ./other/wide_research_prompt_cn.md
+- [x] ./other/spec-kit.md
+- [x] ./.github/copilot-instructions.md
+- [x] ./CHANGELOG.md
+- [x] ./plugins/stardust-dreams/commands/stardust-use.md
+- [x] ./plugins/stardust-dreams/commands/stardust-session.md
+- [x] ./plugins/stardust-dreams/commands/stardust-list.md
+- [x] ./plugins/stardust-dreams/commands/stardust-auth.md
+- [x] ./plugins/stardust-dreams/README.md
+- [x] ./plugins/stardust-dreams/experts/stardust-guide.md
+- [x] ./plugins/shizhangyu-style/commands/shizhangyu-write.md
+- [x] ./plugins/shizhangyu-style/commands/shizhangyu-plot.md
+- [x] ./plugins/shizhangyu-style/commands/shizhangyu-style.md
+- [x] ./plugins/shizhangyu-style/commands/shizhangyu-character.md
+- [x] ./plugins/shizhangyu-style/commands/shizhangyu-foreshadow.md
+- [x] ./plugins/shizhangyu-style/memory/style-guide.md
+- [x] ./plugins/shizhangyu-style/README.md
+- [x] ./plugins/shizhangyu-style/experts/shizhangyu-master.md
+- [x] ./plugins/luyao-style/templates/scene-template.md
+- [x] ./plugins/luyao-style/templates/character-profile.md
 - [ ] ./plugins/luyao-style/templates/story-template.md
 - [ ] ./plugins/luyao-style/commands/luyao-write.md
 - [ ] ./plugins/luyao-style/commands/luyao-style.md
