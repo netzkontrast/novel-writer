@@ -52,7 +52,7 @@ User input: `/expert <type>` (e.g., `/expert plot`)
 2.  **Load Expert Configuration**
     Read the expert definition file to get:
     -   Identity positioning
-    -- Area of expertise
+    -   Area of expertise
     -   Working style
     -   Analytical framework
 
