@@ -1,105 +1,105 @@
-# [检查类型] Checklist
+# [Check Type] Checklist
 
-**创建时间**: [DATE]
-**检查对象**: [检查的文件或内容范围]
-**检查维度**: [例如：完整性、清晰度、一致性、可测量性、覆盖范围]
+**Creation Date**: [DATE]
+**Check Object**: [File or content scope to be checked]
+**Check Dimensions**: [e.g., Completeness, Clarity, Consistency, Measurability, Coverage]
 
-**说明**: 本 checklist 用于验证[检查对象]的质量。请逐项检查，勾选已验证项 `[x]`，标记问题项 `[!]` 并记录具体问题。
-
----
-
-## [维度 1：例如"完整性"]
-
-- [ ] CHK001 第一个检查项描述 [标签：Completeness/Clarity/Consistency等]
-- [ ] CHK002 第二个检查项描述 [标签]
-- [ ] CHK003 第三个检查项描述 [标签，关联：Spec §X.Y]
-
-## [维度 2：例如"清晰度"]
-
-- [ ] CHK004 检查项描述 [Clarity]
-- [ ] CHK005 检查项描述 [Ambiguity, Spec §X.Y]
-
-## [维度 3：例如"一致性"]
-
-- [ ] CHK006 检查项描述 [Consistency]
-- [ ] CHK007 检查项描述 [Consistency, vs §其他文档]
-
-## [维度 4：例如"可测量性"]
-
-- [ ] CHK008 检查项描述 [Measurability]
-- [ ] CHK009 检查项描述 [Gap]
-
-## [维度 5：例如"覆盖范围"]
-
-- [ ] CHK010 检查项描述 [Coverage]
-- [ ] CHK011 检查项描述 [Coverage, Gap]
+**Description**: This checklist is used to verify the quality of the [Check Object]. Please check each item, tick the verified items `[x]`, mark the problem items `[!]`, and record the specific issues.
 
 ---
 
-## 发现的问题
+## [Dimension 1: e.g., "Completeness"]
 
-*在检查过程中发现的具体问题，请记录在此：*
+- [ ] CHK001 First check item description [Tag: Completeness/Clarity/Consistency, etc.]
+- [ ] CHK002 Second check item description [Tag]
+- [ ] CHK003 Third check item description [Tag, Related: Spec §X.Y]
 
-### CHK### - [检查项编号]
+## [Dimension 2: e.g., "Clarity"]
 
-**问题描述**: [详细描述问题]
+- [ ] CHK004 Check item description [Clarity]
+- [ ] CHK005 Check item description [Ambiguity, Spec §X.Y]
 
-**位置**: [文件名:行号 或 章节]
+## [Dimension 3: e.g., "Consistency"]
 
-**建议**: [如何改进]
+- [ ] CHK006 Check item description [Consistency]
+- [ ] CHK007 Check item description [Consistency, vs §Other documents]
 
----
+## [Dimension 4: e.g., "Measurability"]
 
-## 检查统计
+- [ ] CHK008 Check item description [Measurability]
+- [ ] CHK009 Check item description [Gap]
 
-- **总检查项**: [N]
-- **已通过**: [N]
-- **需改进**: [N]
-- **未检查**: [N]
+## [Dimension 5: e.g., "Coverage"]
 
----
-
-## 使用说明
-
-### 勾选方式
-- `[ ]` - 未检查
-- `[x]` - 已检查，通过
-- `[!]` - 已检查，发现问题（需在"发现的问题"部分记录详情）
-
-### 标签说明
-- `[Completeness]` - 完整性问题（缺少必要内容）
-- `[Clarity]` - 清晰度问题（描述模糊、不明确）
-- `[Consistency]` - 一致性问题（前后矛盾、冲突）
-- `[Measurability]` - 可测量性问题（无法量化验证）
-- `[Coverage]` - 覆盖范围问题（场景/情况未涵盖）
-- `[Gap]` - 缺失（应该有但没有的内容）
-- `[Ambiguity]` - 歧义（可能有多种理解）
-- `[Conflict]` - 冲突（与其他内容矛盾）
-- `[Spec §X.Y]` - 关联到规格文档的章节
-
-### 检查建议
-
-**规格质量类 checklist**（用于规划阶段）：
-- 重点关注文档本身的质量，而非实现细节
-- 提出的问题应该是"是否定义了X？"而非"X是否正确？"
-- 在写作前完成检查，避免返工
-
-**内容验证类 checklist**（用于写作阶段）：
-- 重点关注已写内容与规划的对齐
-- 标记具体的问题位置（文件名、章节号）
-- 定期检查，及时发现和修复问题
+- [ ] CHK010 Check item description [Coverage]
+- [ ] CHK011 Check item description [Coverage, Gap]
 
 ---
 
-## 后续行动
+## Issues Found
 
-*根据检查结果，列出需要采取的行动：*
+*Please record the specific issues found during the check here:*
 
-- [ ] 行动项 1
-- [ ] 行动项 2
-- [ ] 行动项 3
+### CHK### - [Check Item Number]
+
+**Issue Description**: [Describe the issue in detail]
+
+**Location**: [File name:line number or Chapter]
+
+**Suggestion**: [How to improve]
 
 ---
 
-**检查人**: [谁执行了此检查]
-**最后更新**: [DATE]
+## Check Statistics
+
+- **Total Items**: [N]
+- **Passed**: [N]
+- **Needs Improvement**: [N]
+- **Not Checked**: [N]
+
+---
+
+## Usage Instructions
+
+### How to Check
+- `[ ]` - Not checked
+- `[x]` - Checked, passed
+- `[!]` - Checked, issue found (details must be recorded in the "Issues Found" section)
+
+### Tag Descriptions
+- `[Completeness]` - Completeness issue (missing necessary content)
+- `[Clarity]` - Clarity issue (description is vague or unclear)
+- `[Consistency]` - Consistency issue (contradictory or conflicting)
+- `[Measurability]` - Measurability issue (cannot be quantitatively verified)
+- `[Coverage]` - Coverage issue (scenarios/cases not covered)
+- `[Gap]` - Gap (content that should be present but is missing)
+- `[Ambiguity]` - Ambiguity (can be interpreted in multiple ways)
+- `[Conflict]` - Conflict (contradicts other content)
+- `[Spec §X.Y]` - Link to a section in the specification document
+
+### Checking Suggestions
+
+**Specification Quality Checklist** (for the planning phase):
+- Focus on the quality of the document itself, not implementation details.
+- The questions raised should be "Is X defined?" rather than "Is X correct?".
+- Complete the check before writing to avoid rework.
+
+**Content Validation Checklist** (for the writing phase):
+- Focus on the alignment of the written content with the plan.
+- Mark the specific location of issues (file name, chapter number).
+- Check regularly to find and fix issues in a timely manner.
+
+---
+
+## Follow-up Actions
+
+*Based on the check results, list the actions that need to be taken:*
+
+- [ ] Action Item 1
+- [ ] Action Item 2
+- [ ] Action Item 3
+
+---
+
+**Checked by**: [Who performed this check]
+**Last Updated**: [DATE]

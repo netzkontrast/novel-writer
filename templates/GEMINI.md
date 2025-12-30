@@ -1,173 +1,173 @@
-# Novel Writer - Gemini CLI 配置
+# Novel Writer - Gemini CLI Configuration
 
-本项目已配置为支持 Google Gemini CLI，提供基于七步方法论的完整小说创作体系。
+This project is configured to support the Google Gemini CLI, providing a complete novel writing system based on the seven-step methodology.
 
-## 🎯 v0.10.0 七步方法论
+## 🎯 v0.10.0 Seven-Step Methodology
 
-Novel Writer 采用规格驱动开发（SDD）理念，通过系统化的七步流程创作小说。
+Novel Writer uses the Specification-Driven Development (SDD) philosophy to create novels through a systematic seven-step process.
 
-## ⚠️ 重要：Gemini CLI 命令格式
+## ⚠️ Important: Gemini CLI Command Format
 
-**Gemini CLI 使用命名空间前缀** `novel:`，所有命令格式为：
+**The Gemini CLI uses the namespace prefix** `novel:`, and all commands are formatted as:
 
 ```bash
-/novel:命令名 [参数]
+/novel:command-name [arguments]
 ```
 
-**原因说明**：
-- Novel Writer 使用 `novel:` 命名空间避免与其他工具（如 spec-kit、OpenSpec）的命令冲突
-- Gemini CLI 的子目录会自动转换为冒号命名空间（路径：`.gemini/commands/novel/write.toml` → 命令：`/novel:write`）
+**Reason**:
+- Novel Writer uses the `novel:` namespace to avoid command conflicts with other tools (like spec-kit, OpenSpec).
+- Subdirectories in the Gemini CLI are automatically converted to a colon-separated namespace (path: `.gemini/commands/novel/write.toml` → command: `/novel:write`).
 
-> 📖 **详细命令对照**：查看 [docs/ai-platform-commands.md](../docs/ai-platform-commands.md) 了解所有 AI 平台的命令格式差异
+> 📖 **Detailed Command Reference**: See [docs/ai-platform-commands.md](../docs/ai-platform-commands.md) to understand the command format differences across all AI platforms.
 
-### 七步方法论命令
+### Seven-Step Methodology Commands
 
-1. **`/novel:constitution`** - 创作宪法（定义核心原则）
-2. **`/novel:specify`** - 故事规格（明确要创造什么）
-3. **`/novel:clarify`** - 澄清决策（交互式明确模糊点）
-4. **`/novel:plan`** - 创作计划（制定技术方案）
-5. **`/novel:tasks`** - 任务分解（生成可执行清单）
-6. **`/novel:write`** - 章节写作（执行内容创作）
-7. **`/novel:analyze`** - 综合验证（全方位质量检查）
+1.  **`/novel:constitution`** - Create a constitution (define core principles).
+2.  **`/novel:specify`** - Define story specifications (clarify what to create).
+3.  **`/novel:clarify`** - Clarify decisions (interactively resolve ambiguities).
+4.  **`/novel:plan`** - Create a writing plan (develop a technical solution).
+5.  **`/novel:tasks`** - Decompose into tasks (generate an executable list).
+6.  **`/novel:write`** - Write chapters (execute content creation).
+7.  **`/novel:analyze`** - Comprehensive validation (full quality check).
 
-### 追踪管理命令
+### Tracking Management Commands
 
-- `/novel:plot-check` - 情节逻辑检查
-- `/novel:world-check` - 世界观一致性检查
-- `/novel:timeline` - 时间线管理
-- `/novel:relations` - 人物关系管理
-- `/novel:track` - 综合进度追踪
-- `/novel:track-init` - 初始化追踪系统
+- `/novel:plot-check` - Plot logic check.
+- `/novel:world-check` - World-building consistency check.
+- `/novel:timeline` - Timeline management.
+- `/novel:relations` - Character relationship management.
+- `/novel:track` - Comprehensive progress tracking.
+- `/novel:track-init` - Initialize the tracking system.
 
-### 专家模式命令
+### Expert Mode Command
 
-- `/novel:expert` - 激活专家模式获取深度指导
+- `/novel:expert` - Activate expert mode for in-depth guidance.
 
-## 使用方式
+## How to Use
 
-### 推荐工作流（七步方法论）
+### Recommended Workflow (Seven-Step Methodology)
 
-在 Gemini CLI 中按照以下顺序使用（**注意 `novel:` 前缀**）：
+Use the commands in the Gemini CLI in the following order (**note the `novel:` prefix**):
 
 ```bash
-# 1. 建立创作原则
+# 1. Establish creative principles
 > /novel:constitution
 
-# 2. 定义故事规格
-> /novel:specify 一个关于冒险的奇幻故事
+# 2. Define story specifications
+> /novel:specify a fantasy story about an adventure
 
-# 3. 澄清关键决策
+# 3. Clarify key decisions
 > /novel:clarify
 
-# 4. 制定创作计划
+# 4. Formulate the creative plan
 > /novel:plan
 
-# 5. 生成任务清单
+# 5. Generate a task list
 > /novel:tasks
 
-# 6. 开始写作
-> /novel:write 第一章
+# 6. Start writing
+> /novel:write chapter one
 
-# 7. 验证质量
+# 7. Validate quality
 > /novel:analyze
 ```
 
-## 工具权限
+## Tool Permissions
 
-本项目已配置以下工具权限：
-- 文件读写（read_file, write_file, edit_file）
-- Shell 命令执行（限制范围）
-- 文件搜索（glob_files）
+This project is configured with the following tool permissions:
+- File read/write (read_file, write_file, edit_file)
+- Shell command execution (limited scope)
+- File search (glob_files)
 
-## 项目结构
+## Project Structure
 
 ```
-memory/           # 创作记忆（v0.10.0 新增）
-└── novel-constitution.md  # 创作宪法
+memory/           # Creative memory (new in v0.10.0)
+└── novel-constitution.md  # Writing constitution
 
-stories/          # 故事内容
-├── [故事名]/
-│   ├── specification.md   # 故事规格（替代 story.md）
-│   ├── clarification.md   # 澄清记录（v0.10.0 新增）
-│   ├── creative-plan.md   # 创作计划（替代 outline.md）
-│   ├── tasks.md           # 任务清单（v0.10.0 新增）
-│   ├── analysis-report.md # 分析报告（v0.10.0 新增）
-│   └── content/           # 章节内容（替代 chapters/）
+stories/          # Story content
+├── [story-name]/
+│   ├── specification.md   # Story specification (replaces story.md)
+│   ├── clarification.md   # Clarification log (new in v0.10.0)
+│   ├── creative-plan.md   # Creative plan (replaces outline.md)
+│   ├── tasks.md           # Task list (new in v0.10.0)
+│   ├── analysis-report.md # Analysis report (new in v0.10.0)
+│   └── content/           # Chapter content (replaces chapters/)
 
-spec/             # 配置和知识库
-├── tracking/     # 进度追踪
-├── knowledge/    # 世界观设定
-└── presets/      # 写作方法模板
+spec/             # Configuration and knowledge base
+├── tracking/     # Progress tracking
+├── knowledge/    # World-building settings
+└── presets/      # Writing method templates
 
-.gemini/          # Gemini 配置
-├── commands/     # 命令定义（TOML）
-└── settings.json # Gemini 设置
+.gemini/          # Gemini configuration
+├── commands/     # Command definitions (TOML)
+└── settings.json # Gemini settings
 ```
 
-## 方法论核心理念
+## Core Philosophy of the Methodology
 
-**规格驱动创作**：不再依赖灵感和随机性，而是通过精确的规格定义来驱动内容生成。
+**Specification-Driven Creation**: No longer relying on inspiration and randomness, but driving content generation through precise specification definitions.
 
-- **宪法级约束**：创作原则是不可违背的最高准则
-- **规格即需求**：像产品经理写 PRD 一样定义故事
-- **计划即路径**：技术方案决定如何实现规格
-- **任务即执行**：可追踪、可验证的执行单元
-- **持续验证**：每个阶段都进行质量检查
+- **Constitutional Constraints**: Creative principles are the supreme, inviolable guidelines.
+- **Specification as Requirement**: Define the story like a product manager writes a PRD.
+- **Plan as Path**: The technical solution determines how to implement the specification.
+- **Task as Execution**: Executable units that are trackable and verifiable.
+- **Continuous Validation**: Perform quality checks at each stage.
 
-## 插件支持
+## Plugin Support
 
-如果安装了插件，会有额外的命令可用。查看 `plugins/` 目录了解已安装的插件。
+If you have plugins installed, additional commands will be available. Check the `plugins/` directory to see installed plugins.
 
-## 注意事项
+## Notes
 
-1. **遵循七步流程**：按照方法论顺序执行，不要跳步
-2. **先定义后执行**：先完成规格定义，再开始写作
-3. **持续验证**：每 5 章运行一次 `/analyze` 检查质量
-4. **迭代优化**：根据分析结果调整规格和计划
+1.  **Follow the Seven-Step Process**: Execute the steps in order; do not skip them.
+2.  **Define Before Executing**: Complete the specification definition before starting to write.
+3.  **Continuously Validate**: Run `/analyze` every 5 chapters to check the quality.
+4.  **Iterate and Optimize**: Adjust the specification and plan based on the analysis results.
 
-## 获取帮助
+## Getting Help
 
-- 使用 `/expert` 激活专家模式获取深度指导
-- 查看 `docs/` 目录获取详细文档
-- 访问项目仓库：https://github.com/wordflowlab/novel-writer
+- Use `/expert` to activate expert mode for in-depth guidance.
+- Check the `docs/` directory for detailed documentation.
+- Visit the project repository: https://github.com/wordflowlab/novel-writer
 
-## 已知问题与解决方案
+## Known Issues and Solutions
 
-### 中文乱码问题
-Gemini CLI 可能偶尔输出个别中文乱码（显示为 � 或其他乱码），这是 Gemini 的已知编码问题。
+### Chinese Character Encoding Issues
+The Gemini CLI may occasionally output some Chinese characters as garbled text (displayed as � or other gibberish). This is a known encoding issue with Gemini.
 
-#### 预防措施
-1. **终端设置**
-   - Windows：使用 Windows Terminal 或 PowerShell（避免使用 cmd）
-   - Mac/Linux：确保终端支持 UTF-8
+#### Preventive Measures
+1.  **Terminal Settings**
+    - Windows: Use Windows Terminal or PowerShell (avoid `cmd`).
+    - Mac/Linux: Ensure your terminal supports UTF-8.
 
-2. **环境变量设置**
-   ```bash
-   # Windows PowerShell
-   [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+2.  **Environment Variable Settings**
+    ```bash
+    # Windows PowerShell
+    [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-   # Mac/Linux
-   export LANG=zh_CN.UTF-8
-   export LC_ALL=zh_CN.UTF-8
-   ```
+    # Mac/Linux
+    export LANG=zh_CN.UTF-8
+    export LC_ALL=zh_CN.UTF-8
+    ```
 
-#### 出现乱码时的解决方法
-1. **重新生成**：重新运行相同的命令，通常第二次会正常
-2. **手动修复**：直接编辑生成的文件，将乱码字符替换为正确的中文
-3. **分段处理**：如果某一节出现乱码，只重新生成该节即可
+#### Solutions When Garbled Text Appears
+1.  **Regenerate**: Rerunning the same command usually works the second time.
+2.  **Manual Fix**: Directly edit the generated file and replace the garbled characters with the correct Chinese ones.
+3.  **Process in Sections**: If a particular section is garbled, regenerate only that section.
 
-#### 常见乱码模式
-- `�` → 通常是"的"、"了"等常用字
-- `\u4e2d\u6587` → Unicode 转义，需转换回中文
-- 部分标点符号显示异常 → 手动替换为中文标点
+#### Common Garbled Patterns
+- `�` → Often common characters like "的" or "了".
+- `\u4e2d\u6587` → Unicode escapes, need to be converted back to Chinese.
+- Some punctuation marks display abnormally → Manually replace with Chinese punctuation.
 
-#### 临时解决方案
-如果乱码频繁出现，可以：
-1. 生成较短的段落（减少单次输出）
-2. 使用标准模式而非分节模式
-3. 生成后立即检查并修复
+#### Temporary Solutions
+If garbled text appears frequently, you can:
+1.  Generate shorter paragraphs (reduce the output per request).
+2.  Use standard mode instead of sectioned mode.
+3.  Check and fix immediately after generation.
 
-注：Google 正在修复此问题，后续版本应会改善。
+Note: Google is working on fixing this issue, and it should improve in future versions.
 
 ---
-*本项目由 Novel Writer 团队开发，专为 AI 驱动的中文小说创作设计。*
+*This project is developed by the Novel Writer team, designed specifically for AI-driven Chinese novel writing.*

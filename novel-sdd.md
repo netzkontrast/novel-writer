@@ -1,358 +1,358 @@
-# 规格驱动创作法——从大纲到小说的自动化之路
+# Specification-Driven Development for Novel Writing: The Automated Path from Outline to Novel
 
-## 创作模式的根本性颠覆
+## A Fundamental Disruption of the Creative Model
 
-千百年来，写小说一直是这样的：灵感来了就写，卡文了就停，想到哪写到哪。我们写大纲是为了"指导"写作，画人物关系图是为了"理清"思路，做世界观设定是为了"支撑"故事。但所有这些都是辅助工具，真正的创作还是要一个字一个字地码。大纲是参考，灵感是主导。
+For thousands of years, writing a novel has been the same: write when inspiration strikes, stop when you're stuck, and write whatever comes to mind. We create outlines to "guide" our writing, draw character relationship maps to "clarify" our thoughts, and build world settings to "support" the story. But all these are auxiliary tools; the real creation still comes down to typing word by word. The outline is a reference; inspiration is the guide.
 
-规格驱动创作法彻底颠覆了这个模式。大纲不再是参考——它是生成小说的源代码。人物设定不再是辅助文档——它是生成对话和情节的精确定义。世界观不再是背景资料——它是确保故事逻辑自洽的执行规则。
+Specification-Driven Development (SDD) completely overturns this model. The outline is no longer a reference—it is the source code for generating the novel. Character profiles are no longer auxiliary documents—they are precise definitions for generating dialogue and plot. The world-building is no longer background material—it is the set of execution rules that ensures the story's logical self-consistency.
 
-这不是让AI帮你润色文字或者提供灵感。这是从根本上改变创作方式：**从"我要怎么写"转变为"我要什么效果"**。
+This isn't about having an AI polish your text or provide inspiration. It's about fundamentally changing the creative process: **from "how should I write this?" to "what effect do I want?"**
 
-传统创作中，大纲和成稿之间总有巨大的鸿沟。写着写着就偏了，人设崩了，伏笔忘了，这是每个作者的噩梦。我们试图用更详细的大纲、更丰富的设定来弥补，但都治标不治本。
+In traditional writing, there is always a huge gap between the outline and the final draft. As you write, you deviate, characters become inconsistent, and foreshadowing is forgotten—this is every author's nightmare. We try to compensate with more detailed outlines and richer settings, but these are just band-aids.
 
-规格驱动创作法通过让大纲"可执行"来消除这个鸿沟。当大纲能直接生成章节，设定能约束所有内容，就不存在"偏离"的问题——只有规格的更新和内容的重新生成。
+SDD eliminates this gap by making the outline "executable." When the outline can directly generate chapters and the settings can constrain all content, there is no problem of "deviation"—only the updating of specifications and the regeneration of content.
 
-## 工作流程：从规格到章节（v0.10.0 七步方法论）
+## Workflow: From Specification to Chapter (v0.10.0 Seven-Step Methodology)
 
-### 第一阶段：建立原则和规格
+### Phase 1: Establish Principles and Specifications
 
-#### `/constitution` - 创作宪法
-
-```
-用户：/constitution
-AI：基于你的创作理念，建立核心原则和价值观
-```
-
-这是最高层级的约束，定义不可违背的创作准则：
-- **核心价值观**：故事要传达什么
-- **质量标准**：不可妥协的底线
-- **创作风格**：统一的表达方式
-- **内容规范**：红线和禁忌
-- **读者契约**：对读者的承诺
-
-#### `/specify` - 故事规格
+#### `/constitution` - The Writing Constitution
 
 ```
-用户：/specify 废材少年获得签到系统，在玄幻世界崛起
+User: /constitution
+AI: Based on your creative philosophy, I will establish the core principles and values.
 ```
 
-像产品经理写PRD一样定义故事：
-- **故事概要**：核心概念和主题
-- **目标定位**：读者画像和市场定位
-- **成功标准**：可衡量的目标
-- **核心需求**：P0/P1/P2 优先级
-- **约束条件**：内容和技术约束
-- **关键决策点**：标记需要澄清的地方
+This is the highest level of constraint, defining the inviolable creative principles:
+- **Core Values**: What the story aims to convey.
+- **Quality Standards**: The non-negotiable bottom line.
+- **Creative Style**: A unified mode of expression.
+- **Content Guidelines**: Red lines and taboos.
+- **Reader Contract**: Promises to the readers.
 
-#### `/clarify` - 澄清决策
-
-```
-用户：/clarify
-AI：我发现了5个需要明确的关键点，让我逐一询问...
-```
-
-通过结构化问答澄清所有模糊点：
-- AI 自动识别规格中的 [需要澄清] 标记
-- 生成最多5个精准问题
-- 每个问题提供2-3个选项和影响分析
-- 记录决策理由，形成澄清文档
-
-### 第二阶段：制定计划和任务
-
-#### `/plan` - 创作计划
+#### `/specify` - Story Specification
 
 ```
-用户：/plan
-AI：基于澄清后的规格，制定技术实现方案
+User: /specify A talentless youth gets a check-in system and rises in a fantasy world.
 ```
 
-将"要什么"转化为"怎么做"：
-- **写作方法选择**：三幕/英雄之旅/故事圈等
-- **章节架构设计**：节奏控制和高潮分布
-- **人物体系设计**：成长弧线和功能定位
-- **世界观构建**：设定展开计划
-- **技术决策**：POV、时间线、叙事节奏
+Define the story like a product manager writes a PRD:
+- **Story Summary**: Core concept and theme.
+- **Target Positioning**: Reader profile and market positioning.
+- **Success Criteria**: Measurable goals.
+- **Core Requirements**: P0/P1/P2 priorities.
+- **Constraints**: Content and technical constraints.
+- **Key Decision Points**: Mark places that need clarification.
 
-#### `/tasks` - 任务分解
-
-```
-用户：/tasks
-AI：生成可执行的任务清单，标记优先级和依赖
-```
-
-将计划分解为具体任务：
-- **高优先级 [P0]**：必须首先完成
-- **中优先级 [P1]**：正常推进
-- **低优先级 [P2]**：可选完善
-- **依赖标记**：[依赖:X] 需要先完成X
-- **并行标记**：[P] 可以同时进行
-
-### 第三阶段：内容生成与验证
-
-#### `/write` - 自动化创作
+#### `/clarify` - Clarify Decisions
 
 ```
-用户：/write 第1章 废材觉醒
-AI：[根据规格生成2000字内容]
+User: /clarify
+AI: I've found 5 key points that need clarification. Let me ask you one by one...
 ```
 
-AI根据所有规格生成章节：
-- 遵循设定的文风
-- 符合人物性格
-- 推进既定情节
-- 保持世界观一致
+Clarify all ambiguous points through structured Q&A:
+- The AI automatically identifies `[Clarification Needed]` tags in the specification.
+- Generates up to 5 precise questions.
+- Each question provides 2-3 options and an impact analysis.
+- Records the decision rationale, forming a clarification document.
 
-#### `/analyze` - 综合验证
+### Phase 2: Formulate Plans and Tasks
+
+#### `/plan` - Creative Plan
 
 ```
-用户：/analyze
-AI：执行全方位质量检查...
+User: /plan
+AI: Based on the clarified specification, I will formulate a technical implementation plan.
 ```
 
-七个维度的综合验证：
-- **合规性**：是否符合宪法和规格
-- **一致性**：逻辑、人物、世界观是否一致
-- **完整性**：需求覆盖、任务完成情况
-- **质量性**：文字、结构、节奏评估
-- **创新性**：亮点、特色、突破识别
-- **可读性**：流畅度、吸引力、共鸣度
-- **可行性**：进度、资源、风险评估
+Transform "what" into "how":
+- **Writing Methodology Selection**: Three-act structure/Hero's journey/Story circle, etc.
+- **Chapter Architecture Design**: Pacing control and climax distribution.
+- **Character System Design**: Growth arcs and functional roles.
+- **World-building**: Plan for revealing the setting.
+- **Technical Decisions**: POV, timeline, narrative pace.
 
-追踪管理功能集成在analyze体系中：
-- `/plot-check` - 情节一致性专项检查
-- `/timeline` - 时间线专项验证
-- `/relations` - 人物关系专项追踪
-- `/world-check` - 世界观专项检查
-- `/track` - 进度综合统计
+#### `/tasks` - Task Decomposition
 
-## 为什么现在需要规格驱动
+```
+User: /tasks
+AI: Generating an executable task list, marking priorities and dependencies.
+```
 
-三个关键因素让规格驱动创作法成为必然：
+Break down the plan into specific tasks:
+- **High Priority [P0]**: Must be completed first.
+- **Medium Priority [P1]**: Proceed as normal.
+- **Low Priority [P2]**: Optional enhancements.
+- **Dependency Marker**: `[Depends on:X]` requires X to be completed first.
+- **Parallel Marker**: `[P]` can be done concurrently.
 
-**第一，AI能力达到临界点**。现在的AI已经能够理解复杂的故事规格，并生成连贯的内容。这不是替代作者，而是放大作者的创作能力。
+### Phase 3: Content Generation and Validation
 
-**第二，网文复杂度急剧增长**。动辄百万字的篇幅，数十个人物，复杂的世界观，人脑已经难以完全掌控。规格驱动提供了系统化的管理方案。
+#### `/write` - Automated Creation
 
-**第三，市场要求快速迭代**。日更、爆更成为常态，读者反馈需要快速响应。传统方式下，改大纲意味着大量返工。规格驱动下，只需更新规格，内容自动重新生成。
+```
+User: /write Chapter 1: The Awakening of a Loser
+AI: [Generates 2000 words of content based on the specification]
+```
 
-## 核心原则
+The AI generates chapters based on all specifications:
+- Follows the established writing style.
+- Conforms to character personalities.
+- Advances the predetermined plot.
+- Maintains world-building consistency.
 
-### 一、规格是通用语言
-故事规格成为创作的源头。所有内容都是规格在特定条件下的表现。维护小说就是维护规格。
+#### `/analyze` - Comprehensive Validation
 
-### 二、可执行的规格
-规格必须足够精确、完整、无歧义，能够生成实际内容。模糊的想法不是规格，精确的定义才是。
+```
+User: /analyze
+AI: Performing a full-spectrum quality check...
+```
 
-### 三、持续验证
-每次生成都要验证一致性。AI持续检查规格的完整性、逻辑性，及时发现问题。
+A comprehensive validation across seven dimensions:
+- **Compliance**: Does it conform to the constitution and specifications?
+- **Consistency**: Are logic, characters, and world-building consistent?
+- **Completeness**: Requirement coverage, task completion status.
+- **Quality**: Assessment of writing, structure, and pacing.
+- **Innovation**: Identification of highlights, unique features, and breakthroughs.
+- **Readability**: Flow, engagement, and resonance.
+- **Feasibility**: Assessment of progress, resources, and risks.
 
-### 四、研究驱动
-AI研究代理收集素材：流行元素、读者喜好、竞品分析，为规格优化提供依据。
+Tracking management functions are integrated into the `analyze` system:
+- `/plot-check` - Specialized check for plot consistency.
+- `/timeline` - Specialized validation for the timeline.
+- `/relations` - Specialized tracking for character relationships.
+- `/world-check` - Specialized check for world-building.
+- `/track` - Comprehensive statistics on progress.
 
-### 五、双向反馈
-读者反馈直接影响规格更新。好评的元素强化，差评的设定调整，形成创作闭环。
+## Why We Need Specification-Driven Development Now
 
-### 六、多版本探索
-同一规格可以生成不同风格的内容，A/B测试找到最佳方案。
+Three key factors make SDD for writing inevitable:
 
-## 创作准则：小说创作的宪法
+**First, AI capabilities have reached a critical point.** Today's AI can understand complex story specifications and generate coherent content. This isn't about replacing the author, but about amplifying the author's creative ability.
 
-创作准则是规格驱动的基石，定义了不可违背的创作原则：
+**Second, the complexity of web novels has grown dramatically.** With lengths often exceeding a million words, dozens of characters, and complex world-building, the human mind can no longer fully manage it. SDD provides a systematic management solution.
 
-### 原则一：故事至上
+**Third, the market demands rapid iteration.** Daily updates and explosive release schedules are the norm, and reader feedback needs to be addressed quickly. In the traditional way, changing the outline means a lot of rework. With SDD, you just update the specification, and the content is regenerated automatically.
+
+## Core Principles
+
+### I. Specification as a Universal Language
+The story specification becomes the source of creation. All content is a representation of the specification under specific conditions. To maintain the novel is to maintain the specification.
+
+### II. Executable Specifications
+Specifications must be precise, complete, and unambiguous enough to generate actual content. A vague idea is not a specification; a precise definition is.
+
+### III. Continuous Validation
+Consistency must be verified with each generation. The AI continuously checks the specification's completeness and logic, identifying problems early.
+
+### IV. Research-Driven
+An AI research agent gathers material: popular elements, reader preferences, and competitive analysis, providing a basis for optimizing the specification.
+
+### V. Two-way Feedback
+Reader feedback directly influences specification updates. Elements that are well-received are strengthened, while poorly-received settings are adjusted, forming a creative feedback loop.
+
+### VI. Multi-version Exploration
+The same specification can generate content in different styles, allowing for A/B testing to find the best solution.
+
+## The Writing Constitution: The Supreme Law of Novel Creation
+
+The writing constitution is the cornerstone of SDD, defining the inviolable creative principles:
+
+### Principle 1: Story First
 
 ```text
-每个章节必须推进故事
-- 无意义的日常要删除
-- 水文要杜绝
-- 节奏要紧凑
+Every chapter must advance the story.
+- Meaningless daily life must be cut.
+- Padding must be eliminated.
+- The pace must be tight.
 ```
 
-### 原则二：角色立体
+### Principle 2: Three-dimensional Characters
 
 ```text
-人物要有自己的目标和动机
-- 行为符合性格设定
-- 对话符合身份背景
-- 成长要有轨迹
+Characters must have their own goals and motivations.
+- Actions must align with personality.
+- Dialogue must fit their identity and background.
+- Growth must have a trajectory.
 ```
 
-### 原则三：世界观一致
+### Principle 3: Consistent World-building
 
 ```text
-设定一旦确立不能随意修改
-- 力量体系要平衡
-- 规则要贯彻始终
-- 不能为剧情强行改设定
+Once a setting is established, it cannot be changed arbitrarily.
+- The power system must be balanced.
+- Rules must be consistently applied.
+- Don't change the setting just to serve the plot.
 ```
 
-### 原则四：语言精炼
+### Principle 4: Refined Language
 
 ```text
-用最少的字传达最多信息
-- 避免废话和重复
-- 描写要有画面感
-- 对话要推进剧情
+Convey the most information with the fewest words.
+- Avoid fluff and repetition.
+- Descriptions should be cinematic.
+- Dialogue should advance the plot.
 ```
 
-### 原则五：情感真实
+### Principle 5: Authentic Emotions
 
 ```text
-情感发展要有逻辑
-- 不能强行煽情
-- 转折要有铺垫
-- 让读者产生共鸣
+Emotional development must be logical.
+- Don't force sentimentality.
+- Turning points must have setup.
+- Resonate with the reader.
 ```
 
-## 模板的约束力量
+## The Constraining Power of Templates
 
-模板不只是格式，更是对AI的精确约束：
+Templates are not just for formatting; they are precise constraints on the AI:
 
-### 防止过早细化
+### Prevent Premature Detailing
 ```text
-专注于"要什么"而非"怎么写"
-✅ 主角要在此章觉醒力量
-❌ 主角说："我感觉到了力量在体内涌动..."
+Focus on "what," not "how."
+✅ The protagonist should awaken his power in this chapter.
+❌ The protagonist says, "I feel the power surging within me..."
 ```
 
-### 强制标记不确定
+### Force the Marking of Uncertainty
 ```text
-遇到不明确的地方必须标记：
-[需要明确：主角的金手指是系统还是老爷爷？]
-[需要明确：反派是灭族之仇还是夺爱之恨？]
+Any uncertainty must be marked:
+[Clarification Needed: Is the protagonist's "golden finger" a system or an old master?]
+[Clarification Needed: Is the antagonist's motive revenge for a clan's destruction or a stolen love?]
 ```
 
-### 检查清单验证
+### Validation through Checklists
 ```markdown
-### 规格完整性检查
-- [ ] 主角动机明确
-- [ ] 金手指机制清晰
-- [ ] 升级体系完整
-- [ ] 主要矛盾确立
-- [ ] 结局方向明确
+### Specification Completeness Check
+- [ ] Protagonist's motivation is clear.
+- [ ] The "golden finger" mechanism is clear.
+- [ ] The leveling system is complete.
+- [ ] The main conflict is established.
+- [ ] The direction of the ending is clear.
 ```
 
-## 实践案例：30分钟启动一部玄幻小说
+## Practical Case: Starting a Fantasy Novel in 30 Minutes
 
-### 传统方式
+### Traditional Method
 ```text
-1. 构思主角和金手指（2-3天）
-2. 设计力量体系（1-2天）
-3. 规划主线剧情（2-3天）
-4. 写第一章（反复修改）
-5. 写着写着发现要改设定...
-总计：一周时间，还不一定满意
+1. Brainstorm protagonist and "golden finger" (2-3 days).
+2. Design the power system (1-2 days).
+3. Plan the main plot (2-3 days).
+4. Write the first chapter (with many revisions).
+5. Realize the setting needs to be changed...
+Total: A week, and you might not even be satisfied.
 ```
 
-### 规格驱动方式（v0.10.0 七步方法论）
+### Specification-Driven Method (v0.10.0 Seven-Step Methodology)
 ```bash
-# 1. 创作宪法（3分钟）
+# 1. Create the Constitution (3 minutes)
 /constitution
-# 建立不可违背的核心原则
+# Establish the inviolable core principles.
 
-# 2. 故事规格（5分钟）
-/specify 废材被退婚，获得签到系统，打脸全世界
-# 像产品经理写PRD一样定义故事
+# 2. Define the Story Specification (5 minutes)
+/specify A loser gets his engagement broken, obtains a check-in system, and face-slaps the world.
+# Define the story like a product manager writes a PRD.
 
-# 3. 澄清决策（5分钟）
+# 3. Clarify Decisions (5 minutes)
 /clarify
-# AI提问5个关键问题，明确所有模糊点
+# The AI asks 5 key questions to clarify all ambiguities.
 
-# 4. 创作计划（5分钟）
+# 4. Formulate the Creative Plan (5 minutes)
 /plan
-# 制定技术实现方案
+# Create the technical implementation plan.
 
-# 5. 任务分解（3分钟）
+# 5. Decompose into Tasks (3 minutes)
 /tasks
-# 生成带优先级的可执行任务清单
+# Generate an executable task list with priorities.
 
-# 6. 章节写作（5分钟）
-/write 第1章 退婚之日
-# 基于规格自动生成内容
+# 6. Write the Chapter (5 minutes)
+/write Chapter 1: The Day of the Broken Engagement
+# Automatically generate content based on the specification.
 
-# 7. 质量验证（4分钟）
+# 7. Quality Validation (4 minutes)
 /analyze
-# 七个维度的综合检查
+# A comprehensive check across seven dimensions.
 ```
 
-30分钟完成：
-- 清晰的创作原则体系
-- 精确的故事规格定义
-- 所有关键决策已明确
-- 完整的技术实现计划
-- 可追踪的任务清单
-- 第一章初稿
-- 全方位质量报告
+In 30 minutes, you have:
+- A clear system of creative principles.
+- A precise story specification.
+- All key decisions clarified.
+- A complete technical implementation plan.
+- A trackable task list.
+- A first draft of the first chapter.
+- A full-spectrum quality report.
 
-## 传统创作 vs 规格驱动
+## Traditional Creation vs. Specification-Driven
 
-### 传统创作困境
+### The Dilemma of Traditional Creation
 ```
-灵感 → 大纲 → 写作 → 卡文 → 修改 → 重写
-        ↑                    ↓
-        ← 发现逻辑漏洞 ←
-```
-
-### 规格驱动流程
-```
-规格 → 验证 → 生成 → 反馈
-  ↑                    ↓
-  ← 规格优化 ←
+Inspiration → Outline → Writing → Writer's Block → Revision → Rewrite
+        ↑                                       ↓
+        ← Discovered a logical loophole ←
 ```
 
-关键区别：
-1. **可预测**：规格决定输出，不再依赖灵感
-2. **可验证**：自动检查一致性，及时发现问题
-3. **可迭代**：修改规格即可，无需重写
-4. **可扩展**：轻松添加支线、外传、同人
+### The Specification-Driven Flow
+```
+Specification → Validation → Generation → Feedback
+      ↑                                ↓
+      ← Specification Optimization ←
+```
 
-## 对创作者意味着什么
+Key Differences:
+1.  **Predictable**: The specification determines the output, no longer relying on inspiration.
+2.  **Verifiable**: Automatically checks for consistency, identifying problems early.
+3.  **Iterative**: Just update the specification, no need to rewrite.
+4.  **Scalable**: Easily add subplots, side stories, and fan fiction.
 
-### 角色转变
-- 从"码字工"到"故事架构师"
-- 从关注词句到关注剧情设计
-- 从体力劳动到创意劳动
+## What This Means for Creators
 
-### 效率提升
-- 日更万字成为可能
-- 多开不再是负担
-- 改稿成本大幅降低
+### Role Transformation
+- From "word-pusher" to "story architect."
+- From focusing on sentences to focusing on plot design.
+- From manual labor to creative labor.
 
-### 质量保证
-- 不再有明显bug
-- 人设不会崩塌
-- 伏笔不会忘记
+### Efficiency Gains
+- Daily updates of 10,000 words become possible.
+- Managing multiple projects is no longer a burden.
+- The cost of revision is drastically reduced.
 
-## 开始使用
+### Quality Assurance
+- No more obvious bugs.
+- Characters won't become inconsistent.
+- Foreshadowing will not be forgotten.
 
-### 安装Novel Writer
+## Get Started
+
+### Install Novel Writer
 
 ```bash
 npm install -g novel-writer-cn
 ```
 
-### 初始化项目
+### Initialize a Project
 
 ```bash
 novel init my-story
 cd my-story
 ```
 
-### 在AI助手中使用
+### Use in Your AI Assistant
 
-支持Claude、Cursor、Windsurf等AI工具，直接使用斜杠命令开始创作。
+Supports AI tools like Claude, Cursor, and Windsurf. Just use the slash commands to start creating.
 
-## 未来已来
+## The Future is Here
 
-规格驱动创作法不是要取代人类创作者，而是要解放创作者。让AI处理机械的文字生产，让人类专注于创意和想象。
+Specification-Driven Development for writing is not meant to replace human creators, but to liberate them. Let the AI handle the mechanical production of text, while humans focus on creativity and imagination.
 
-在这个新模式下：
-- 每个有故事的人都能成为作家
-- 创作不再受限于码字速度
-- 质量和数量不再是对立面
+In this new model:
+- Anyone with a story can become a writer.
+- Creation is no longer limited by typing speed.
+- Quality and quantity are no longer in opposition.
 
-这不仅是工具的进化，更是创作范式的革命。从灵感驱动到规格驱动，从手工作坊到智能工厂，小说创作正在进入全新的时代。
+This is not just an evolution of tools, but a revolution in the creative paradigm. From inspiration-driven to specification-driven, from a manual workshop to an intelligent factory, novel writing is entering a new era.
 
 ---
 
-*"让创意成为规格，让规格生成故事，让故事触达读者。"*
+*"Let creativity become a specification, let the specification generate a story, and let the story reach the readers."*

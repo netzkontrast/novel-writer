@@ -1,113 +1,112 @@
-# 个人语料与表达指纹（Personal Voice）
+# Personal Corpus and Expressive Fingerprint (Personal Voice)
 
-用途：为写作提供稳定、自然的个人表达基础。越具体越好，尽量来自你的真实经历与说话习惯
+Purpose: To provide a stable, natural foundation for personal expression in writing. The more specific, the better. Try to draw from your real experiences and speaking habits.
 
-## 口头禅与常用表达
-- 示例：我嘴快，但心里有数
-- 示例：先把话挑明，再慢慢办
-- 示例：这事儿吧，怎么说呢
-- 示例：得，就这么定了
+## Catchphrases and Common Expressions
+- Example: "My mouth is fast, but my heart is in the right place."
+- Example: "Let's get it all out in the open first, then we can deal with it slowly."
+- Example: "Well, this thing... how should I put it?"
+- Example: "Alright, it's settled then."
 
-## 固定句式与节奏偏好
-- 示例：长句里讲道理，短句落锤
-- 示例：段落喜欢先摆事实，后给判断
-- 示例：爱用"...但是吧"转折
-- 示例：习惯性重复关键词强调
+## Fixed Sentence Structures and Rhythmic Preferences
+- Example: Long sentences for explaining, short sentences for impact.
+- Example: Paragraphs that present facts first, then give a judgment.
+- Example: A love for using "...but, you know" to transition.
+- Example: Habitually repeating keywords for emphasis.
 
-## 词汇选择偏好
-- **常用词替代**
-  - 把"因此"说成"所以"、"这么着"
-  - 把"然而"说成"可是"、"但是吧"
-  - 把"非常"说成"特别"、"老"、"挺"
-  - 把"或许"说成"也许"、"说不定"、"兴许"
-- **量词习惯**
-  - 一个人/一位人、一只狗/一条狗
-  - 一顿饭/一餐饭、一场雨/一阵雨
-- **形容词口味**
-  - 少用"美丽"多用"好看"、"漂亮"
-  - 少用"优秀"多用"不错"、"挺好"
-  - 避免书面化形容词，偏爱口语化
+## Vocabulary Preferences
+- **Common Word Substitutions**
+  - Say "so" or "like this" instead of "therefore."
+  - Say "but" or "but, you know" instead of "however."
+  - Say "especially," "really," or "quite" instead of "very."
+  - Say "maybe," "perhaps," or "who knows" instead of "perhaps."
+- **Quantifier Habits**
+  - "a person" / "one person," "a dog" / "one dog."
+  - "a meal" / "one meal," "a rain" / "a spell of rain."
+- **Adjective Tastes**
+  - Use "good-looking" or "pretty" more than "beautiful."
+  - Use "not bad" or "pretty good" more than "excellent."
+  - Avoid formal adjectives in favor of colloquial ones.
 
-## 句子构造习惯
-- **习惯性开头**
-  - 那什么、我跟你说、你知道吗
-  - 说真的、讲道理、实话实说
-  - 要我说、依我看、咱这么想
-- **句中口头禅**
-  - 就是说、那个啥、怎么说呢
-  - 对吧、是不是、你说呢
-  - 这个吧、那啥、反正吧
-- **结尾语气词**
-  - 吧、啊、呢、嘛、哈
-  - 的、了、着、过（动态助词使用偏好）
-  - 省略号使用习惯（...或。。。）
+## Sentence Construction Habits
+- **Habitual Openers**
+  - "Well," "Let me tell you," "Did you know?"
+  - "Honestly," "To be fair," "To be honest."
+  - "If you ask me," "As I see it," "Let's think about it this way."
+- **Mid-sentence Fillers**
+  - "I mean," "you know," "how should I put it."
+  - "right?," "isn't it?," "what do you think?"
+  - "this thing," "that thing," "anyway."
+- **Ending Particles**
+  - "huh," "ah," "y'know," "right," "ha."
+  - Preferences for dynamic auxiliary words (e.g., -ing, -ed).
+  - Ellipsis usage habits (... or ...).
 
-## 生活经历清单（可写片段名或关键词）
-- 示例：冬天在厂里连夜抢修
-- 示例：高铁上目送一位老人到站没人接
-- 示例：小时候邻居家的那只大黄狗
-- 示例：第一次进城时的窘迫
+## Life Experience List (can be snippet titles or keywords)
+- Example: Working overnight at the factory to fix a breakdown in winter.
+- Example: Watching an old man get off the high-speed train with no one to pick him up.
+- Example: The big yellow dog from my childhood neighbor's house.
+- Example: The embarrassment of going to the city for the first time.
 
-## 行业/地域词汇（口音、俚语、术语）
-- 示例：北方口音词：咣当、抻、撂
-- 示例：行业术语：回填、预案、解骚（中医）
-- 示例：方言词：嘎嘣脆、溜达、唠嗑
-- 示例：网络用语的使用频率和类型
+## Industry/Regional Vocabulary (accent, slang, jargon)
+- Example: Northern accent words: "wham," "stretch," "toss."
+- Example: Industry jargon: "backfill," "contingency plan," "dispel turmoil" (Traditional Chinese Medicine).
+- Example: Dialect words: "crispy," "stroll," "chat."
+- Example: Frequency and type of internet slang usage.
 
-## 自然化缺陷（重要：增加真实感）
-- **偶尔的错别字**（每千字1-2处）
-  - 的地得混用："他欢快的跑着"
-  - 同音字错误："在哪"写成"在那"
-- **标点随意性**
-  - 省略号数量不固定：...或。。。或……
-  - 逗号和句号的随意使用
-  - 偶尔忘记标点，特别是对话中
-- **口语化省略**
-  - 把"但是"说成"但"
-  - 把"这样"说成"这样儿"
-  - 主语省略："觉得这事不靠谱"
-- **语法不完美**
-  - 偶尔的语序调整："这事我真没想到"
-  - 不完整句："要是能早点知道..."
-  - 重复强调："真的真的很重要"
+## Natural Imperfections (Important: to add realism)
+- **Occasional typos** (1-2 per thousand words)
+  - Mixing up homophones.
+  - Common spelling errors.
+- **Punctuation Casualness**
+  - Inconsistent number of dots in an ellipsis: ... or ... or ......
+  - Casual use of commas and periods.
+  - Occasionally forgetting punctuation, especially in dialogue.
+- **Colloquial Omissions**
+  - Saying "but" instead of "but."
+  - Saying "gonna" instead of "going to."
+  - Subject omission: "Think this is a bad idea."
+- **Imperfect Grammar**
+  - Occasional reordering of words: "This I really didn't expect."
+  - Incomplete sentences: "If only I had known sooner..."
+  - Repetitive emphasis: "It's really, really important."
 
-## 写作忌口与避讳
-- 示例：少用"众所周知""在某种程度"等空话
-- 示例：避免套路化励志语
-- 示例：不用文绉绉的书面语
-- 示例：避免过度使用成语
+## Writing Taboos and Things to Avoid
+- Example: Use less fluff like "as is well known" or "to some extent."
+- Example: Avoid cliché motivational phrases.
+- Example: Don't use overly literary or formal language.
+- Example: Avoid overusing idioms.
 
-## 比喻口味与意象库
-- 示例：铁轨、雾气、路灯、雨棚、手套味道
-- 示例：用器物与气味代替抽象名词
-- 示例：偏爱具体场景而非抽象概念
-- 示例：生活化比喻优于文学化比喻
+## Metaphorical Tastes and Image Library
+- Example: train tracks, fog, streetlights, rain shelters, the smell of gloves.
+- Example: Using objects and smells instead of abstract nouns.
+- Example: A preference for concrete scenes over abstract concepts.
+- Example: Everyday metaphors are better than literary ones.
 
-## 思维模式与表达逻辑
-- **联想跳跃**
-  - 从A突然想到B的模式
-  - 话题转换的个人习惯
-  - 插入语和补充说明的位置
-- **情绪表达**
-  - 激动时的语言变化
-  - 生气时的用词特点
-  - 开心时的表达方式
-- **叙述顺序**
-  - 倾向时间顺序还是重要性顺序
-  - 爱不爱用倒叙、插叙
-  - 细节补充的时机
+## Thought Patterns and Expressive Logic
+- **Associative Leaps**
+  - The pattern of jumping from A to B.
+  - Personal habits for changing topics.
+  - Placement of parenthetical remarks and additional explanations.
+- **Emotional Expression**
+  - Language changes when excited.
+  - Word choice when angry.
+  - Way of expressing happiness.
+- **Narrative Order**
+  - Tendency for chronological or importance-based order.
+  - Fondness for flashbacks and asides.
+  - Timing of adding details.
 
-## 常见场景的说话方式
-- 示例：安慰人不爱直接说大道理，更愿意讲个亲历的小事
-- 示例：批评时先肯定后指出问题
-- 示例：紧张时语速加快，用词重复
-- 示例：思考时的口头禅"这个嘛..."
+## Ways of Speaking in Common Scenarios
+- Example: When comforting someone, I don't like to preach; I'd rather tell a personal story.
+- Example: When criticizing, I affirm first, then point out the problem.
+- Example: When nervous, my speech speeds up, and I repeat words.
+- Example: My thinking-out-loud catchphrase is "Well now..."
 
-## 个人价值取向与反复念叨的话
-- 示例：能把事办明白，比把话说漂亮更重要
-- 示例：人得实在，别整那些虚的
-- 示例：日子是自己过的，别太在意别人说啥
+## Personal Values and oft-repeated phrases
+- Example: "Getting things done is more important than talking pretty."
+- Example: "You've got to be real; don't mess with that fake stuff."
+- Example: "It's your life; don't worry too much about what others say."
 
 ---
-提示：本文件越常更新，生成文本越接近你的真实表达
-
+Hint: The more often this file is updated, the closer the generated text will be to your real expression.

@@ -1,140 +1,140 @@
-# 创作准则
+# Creative Principles
 
-## 核心创作理念
+## Core Creative Philosophy
 
-### 一、故事至上
-**内容为王，情节驱动**
-- 每个章节必须推进故事发展
-- 避免无意义的日常描写
-- 冲突和张力是故事的生命力
-- 让读者始终保持阅读欲望
+### I. Story First
+**Content is king, driven by plot**
+- Every chapter must advance the story.
+- Avoid meaningless descriptions of daily life.
+- Conflict and tension are the lifeblood of the story.
+- Keep the reader always wanting to read more.
 
-### 二、角色立体
-**人物塑造的深度决定作品高度**
-- 每个角色都有自己的动机和目标
-- 角色行为必须符合其性格设定
-- 通过行动和对话展现角色，而非直接描述
-- 配角也要有血有肉，不能工具化
+### II. Three-dimensional Characters
+**The depth of characterization determines the height of the work**
+- Every character has their own motivations and goals.
+- Character actions must be consistent with their personality.
+- Show characters through action and dialogue, not direct description.
+- Supporting characters should also be fleshed out, not just plot devices.
 
-### 三、世界观一致
-**设定的合理性和完整性**
-- 建立清晰的世界运行规则
-- 设定一旦确立，必须保持前后一致
-- 避免为了情节需要随意修改设定
-- 世界观服务于故事，不喧宾夺主
+### III. Consistent World-building
+**The rationality and completeness of the setting**
+- Establish clear rules for how the world works.
+- Once a rule is established, it must remain consistent.
+- Avoid changing the setting arbitrarily to fit the plot.
+- The world-building serves the story, it doesn't overshadow it.
 
-### 四、语言精炼
-**文字的力量在于精准而非华丽**
-- 用最少的文字传达最多的信息
-- 避免过度使用形容词和副词
-- 对话要符合角色身份和性格
-- 描写要有画面感，让读者身临其境
+### IV. Refined Language
+**The power of words lies in precision, not flourish**
+- Convey the most information with the fewest words.
+- Avoid overusing adjectives and adverbs.
+- Dialogue must fit the character's identity and personality.
+- Descriptions should be cinematic, allowing the reader to be immersed.
 
-### 五、情感真实
-**真情实感才能打动人心**
-- 情感发展要有逻辑和过程
-- 避免突兀的感情转折
-- 通过细节表现情感，而非直接说教
-- 让读者产生共鸣是最高目标
+### V. Authentic Emotions
+**Only genuine emotions can move people**
+- Emotional development must be logical and gradual.
+- Avoid abrupt emotional turns.
+- Express emotions through details, not direct preaching.
+- The ultimate goal is to create resonance with the reader.
 
-## 写作规范
+## Writing Guidelines
 
-### 必须遵循的原则
-1. **开篇吸引** - 每章开头3段内必须有钩子
-2. **章节完整** - 每章都是一个相对完整的小故事
-3. **伏笔回收** - 埋设的伏笔必须有对应的揭示
-4. **逻辑自洽** - 情节发展必须符合因果逻辑
-5. **节奏控制** - 张弛有度，避免一味紧张或拖沓
+### Must-Follow Principles
+1.  **Engaging Opening** - There must be a hook within the first 3 paragraphs of each chapter.
+2.  **Complete Chapters** - Each chapter should be a relatively complete mini-story.
+3.  **Foreshadowing Resolution** - All foreshadowing that is set up must be resolved.
+4.  **Logical Self-Consistency** - Plot development must follow cause and effect.
+5.  **Pacing Control** - The pace should be varied, avoiding constant tension or dragging.
 
-### 应当避免的问题
-1. **水文灌水** - 无意义的重复和拖延
-2. **人设崩塌** - 角色行为与设定矛盾
-3. **强行转折** - 没有铺垫的突然反转
-4. **过度说教** - 直接灌输价值观
-5. **套路泛滥** - 过度使用老套桥段
+### Problems to Avoid
+1.  **Padding** - Meaningless repetition and dragging.
+2.  **Character Derailment** - Character actions that contradict their established personality.
+3.  **Forced Turning Points** - Sudden reversals without setup.
+4.  **Excessive Preaching** - Directly lecturing the reader on values.
+5.  **Cliché Overload** - Overusing stale plot devices.
 
-### 文字风格要求
-- **叙述语言**：简洁流畅，避免冗长句式
-- **对话风格**：自然生动，符合人物身份
-- **描写手法**：重点突出，详略得当
-- **修辞运用**：恰到好处，不过度堆砌
+### Stylistic Requirements
+- **Narrative Language**: Concise and fluid, avoiding long-winded sentences.
+- **Dialogue Style**: Natural and lively, fitting the character's identity.
+- **Descriptive Technique**: Emphasize key points, with a good balance of detail.
+- **Use of Rhetoric**: Appropriate and not overdone.
 
-### 分段格式规范
-**场景转换和段落分隔**
-- **禁止使用**："一"、"二"、"三"等数字标记分段
-  - 这种方式过于生硬，像论文章节标记
-  - 破坏小说的阅读沉浸感
-- **推荐方式**：纯空行分段
-  - 场景转换时使用两个空行（一个空白行）
-  - 自然流畅，符合网络小说阅读习惯
-  - 不打断读者的沉浸体验
-- **示例**：
+### Paragraph Formatting Guidelines
+**Scene Transitions and Paragraph Separation**
+- **Prohibited**: Using numbers like "One," "Two," "Three" to mark paragraphs.
+  - This method is too rigid, like chapter markers in a thesis.
+  - It breaks the immersive reading experience of a novel.
+- **Recommended**: Use blank lines for separation.
+  - Use two newlines (one blank line) for scene transitions.
+  - This is natural, fluid, and aligns with web novel reading habits.
+  - It does not interrupt the reader's immersive experience.
+- **Example**:
   ```
-  李明收拾好东西，转身离开了房间。
+  Li Ming finished packing and turned to leave the room.
 
 
-  厨房里，小翠正在准备晚饭。
+  In the kitchen, Xiao Cui was preparing dinner.
   ```
 
-## 创作流程
+## Creative Process
 
-### 第一阶段：构思准备
-1. 明确故事主题和核心冲突
-2. 设计完整的故事框架
-3. 创建详细的角色档案
-4. 构建自洽的世界观体系
+### Phase 1: Brainstorming and Preparation
+1.  Clarify the story's theme and core conflict.
+2.  Design a complete story framework.
+3.  Create detailed character profiles.
+4.  Build a self-consistent world-building system.
 
-### 第二阶段：大纲规划
-1. 制定整体故事走向
-2. 规划各卷的主要内容
-3. 设计章节之间的衔接
-4. 标记重要转折点和高潮
+### Phase 2: Outlining
+1.  Develop the overall story arc.
+2.  Plan the main content for each volume.
+3.  Design the transitions between chapters.
+4.  Mark important turning points and climaxes.
 
-### 第三阶段：内容创作
-1. 按照大纲逐章写作
-2. 保持稳定的更新节奏
-3. 定期回顾已写内容
-4. 及时调整后续规划
+### Phase 3: Content Creation
+1.  Write chapter by chapter according to the outline.
+2.  Maintain a steady update rhythm.
+3.  Periodically review the written content.
+4.  Adjust future plans as needed.
 
-### 第四阶段：修订完善
-1. 检查情节逻辑性
-2. 统一文风和用词
-3. 完善细节描写
-4. 优化对话内容
+### Phase 4: Revision and Polishing
+1.  Check for plot logic.
+2.  Unify writing style and word choice.
+3.  Refine descriptive details.
+4.  Optimize dialogue.
 
-## 质量标准
+## Quality Standards
 
-### 优秀章节的标准
-- **开头引人** - 快速吸引读者注意力
-- **中间充实** - 情节推进有力度
-- **结尾有力** - 留下悬念或冲击
-- **情感饱满** - 能触动读者情绪
-- **节奏合理** - 张弛有度不拖沓
+### Standards for an Excellent Chapter
+- **Engaging Opening** - Quickly grabs the reader's attention.
+- **Substantial Middle** - The plot progresses with impact.
+- **Powerful Ending** - Leaves suspense or impact.
+- **Full of Emotion** - Able to touch the reader's emotions.
+- **Reasonable Pacing** - Varied pace that doesn't drag.
 
-### 完成作品的标准
-- **主题明确** - 传达清晰的核心思想
-- **结构完整** - 开端、发展、高潮、结局俱全
-- **人物成长** - 主要角色有明显变化
-- **冲突解决** - 主要矛盾得到合理解决
-- **余韵悠长** - 结束后让读者回味
+### Standards for a Completed Work
+- **Clear Theme** - Conveys a clear core idea.
+- **Complete Structure** - Has a beginning, development, climax, and resolution.
+- **Character Growth** - The main characters show significant change.
+- **Conflict Resolution** - The main conflict is reasonably resolved.
+- **Lasting Impression** - Leaves the reader with something to think about.
 
-## 持续改进
+## Continuous Improvement
 
-### 自我提升方向
-1. 广泛阅读优秀作品，学习他人长处
-2. 深入生活体验，积累创作素材
-3. 研究写作技巧，提升专业能力
-4. 接受读者反馈，了解市场需求
-5. 保持创作激情，不断突破自我
+### Directions for Self-Improvement
+1.  Read a wide range of excellent works to learn from others.
+2.  Experience life deeply to accumulate creative material.
+3.  Study writing techniques to improve professional skills.
+4.  Accept reader feedback to understand market demand.
+5.  Maintain creative passion and constantly push boundaries.
 
-### 定期复盘要点
-- 哪些章节反响最好，为什么？
-- 哪些情节处理不够理想？
-- 角色塑造是否成功？
-- 节奏控制是否得当？
-- 读者最关心什么内容？
+### Key Points for Regular Review
+- Which chapters received the best feedback, and why?
+- Which plot points were not handled ideally?
+- Was the characterization successful?
+- Was the pacing control appropriate?
+- What content are the readers most interested in?
 
 ---
-*创建时间: 2025年*
-*版本: 1.0*
-*说明: 本准则为小说创作的基础指导原则，可根据具体项目需要进行调整*
+*Date Created: 2025*
+*Version: 1.0*
+*Note: These guidelines serve as the basic principles for novel writing and can be adjusted as needed for specific projects.*

@@ -1,121 +1,121 @@
-# 世界观设定
+# World-building Settings
 
-## 基础设定
+## Basic Settings
 
-### 时代背景
-[描述故事发生的时代，如：现代都市/古代王朝/未来世界/异世界等]
+### Era Background
+[Describe the era in which the story takes place, e.g., modern city/ancient dynasty/future world/another world, etc.]
 
-**年代**：
-**历史阶段**：
-**科技水平**：
-**文明程度**：
+**Year**:
+**Historical Stage**:
+**Technological Level**:
+**Civilization Level**:
 
-### 地理环境
-[描述主要地点和环境]
+### Geographical Environment
+[Describe the main locations and environments]
 
-**主要地域**：
-- 地点1：[名称] - [描述]
-- 地点2：[名称] - [描述]
-- 地点3：[名称] - [描述]
+**Main Regions**:
+- Location 1: [Name] - [Description]
+- Location 2: [Name] - [Description]
+- Location 3: [Name] - [Description]
 
-**地理特征**：
-- 气候：
-- 地形：
-- 自然资源：
+**Geographical Features**:
+- Climate:
+- Terrain:
+- Natural Resources:
 
-### 社会结构
-[描述社会组织形式]
+### Social Structure
+[Describe the form of social organization]
 
-**政治体系**：
-**经济形态**：
-**社会阶层**：
-**文化特点**：
+**Political System**:
+**Economic Form**:
+**Social Classes**:
+**Cultural Characteristics**:
 
-## 特殊规则
+## Special Rules
 
-### 核心设定
-[世界的核心运行规则]
+### Core Settings
+[The core operating rules of the world]
 
-**基本法则**：
+**Basic Laws**:
 1.
 2.
 3.
 
-### 魔法/科技体系
-[如有特殊体系，在此描述]
+### Magic/Technology System
+[If there is a special system, describe it here]
 
-**能量来源**：
-**使用方式**：
-**威力等级**：
-**学习途径**：
+**Energy Source**:
+**Method of Use**:
+**Power Level**:
+**Learning Path**:
 
-### 限制与代价
-[描述世界的限制规则]
+### Limitations and Costs
+[Describe the limiting rules of the world]
 
-**绝对禁忌**：
-**力量代价**：
-**平衡机制**：
+**Absolute Taboos**:
+**Cost of Power**:
+**Balancing Mechanism**:
 
-## 势力组织
+## Factions and Organizations
 
-### 主要势力
-[描述世界中的主要组织和势力]
+### Main Factions
+[Describe the main organizations and factions in the world]
 
-#### [势力名称]
-- **性质**：
-- **宗旨**：
-- **规模**：
-- **影响力**：
-- **重要人物**：
+#### [Faction Name]
+- **Nature**:
+- **Purpose**:
+- **Scale**:
+- **Influence**:
+- **Key Figures**:
 
-## 历史背景
+## Historical Background
 
-### 重要历史事件
-[影响当前世界的历史事件]
+### Important Historical Events
+[Historical events that affect the current world]
 
-1. **[事件名]** - [时间]
-   - 起因：
-   - 经过：
-   - 结果：
-   - 影响：
+1.  **[Event Name]** - [Time]
+    -   Cause:
+    -   Process:
+    -   Result:
+    -   Impact:
 
-## 文化风俗
+## Culture and Customs
 
-### 日常生活
-- **衣食住行**：
-- **社交礼仪**：
-- **节日庆典**：
-- **宗教信仰**：
+### Daily Life
+- **Clothing, food, housing, and transportation**:
+- **Social etiquette**:
+- **Festivals and celebrations**:
+- **Religious beliefs**:
 
-### 语言文字
-- **主要语言**：
-- **文字系统**：
-- **特殊用语**：
+### Language and Writing
+- **Main language**:
+- **Writing system**:
+- **Special terms**:
 
-## 经济体系
+## Economic System
 
-### 货币制度
-- **货币单位**：
-- **购买力参考**：
+### Monetary System
+- **Currency unit**:
+- **Purchasing power reference**:
 
-### 主要产业
-- **农业**：
-- **工业**：
-- **商业**：
-- **服务业**：
+### Main Industries
+- **Agriculture**:
+- **Industry**:
+- **Commerce**:
+- **Service industry**:
 
-## 设定备注
+## Setting Notes
 
-### 灵感来源
-[记录世界观的灵感来源]
+### Sources of Inspiration
+[Record the sources of inspiration for the world-building]
 
-### 参考资料
-[相关的参考书籍、影视、游戏等]
+### Reference Materials
+[Related reference books, films, games, etc.]
 
-### 注意事项
-[创作时需要特别注意的设定细节]
+### Notes
+[Setting details that require special attention during creation]
 
 ---
-*创建时间：[日期]*
-*最后更新：[日期]*
-*版本：1.0*
+*Creation Date: [Date]*
+*Last Updated: [Date]*
+*Version: 1.0*

@@ -1,132 +1,132 @@
-# 小说：[作品标题]
+# Novel: [Work Title]
 
-## 基本信息
-- **类型**：[科幻/奇幻/现实/历史/言情/悬疑/武侠/仙侠等]
-- **字数目标**：[预计总字数，如：30万字]
-- **目标读者**：[读者群体描述，如：喜欢硬科幻的成年读者]
-- **创作状态**：构思中
+## Basic Information
+- **Genre**: [Sci-Fi/Fantasy/Realism/Historical/Romance/Mystery/Wuxia/Xianxia, etc.]
+- **Word Count Target**: [Estimated total word count, e.g., 300,000 words]
+- **Target Audience**: [Description of the reader group, e.g., Adult readers who enjoy hard sci-fi]
+- **Creative Status**: Brainstorming
 
-## 故事内核
+## Story Core
 
-### 一句话故事
-[用一句话概括整个故事，如：一个失忆的人工智能在寻找自我的过程中拯救了人类]
+### Logline
+[Summarize the entire story in one sentence, e.g., An amnesiac AI saves humanity in the process of discovering itself]
 
-### 核心冲突
-[主要矛盾和张力来源，如：个体自由vs集体利益]
+### Core Conflict
+[The main contradiction and source of tension, e.g., Individual freedom vs. collective interest]
 
-### 主题思想
-[想要表达的核心思想和价值观，如：探讨人性与科技的边界]
+### Thematic Idea
+[The core idea and values you want to express, e.g., Exploring the boundaries between humanity and technology]
 
-## 角色设定
+## Character Settings
 
-### 主角
-- **姓名**：[主角名字]
-- **年龄/性别**：[如：28岁/女]
-- **性格特征**：[3-5个关键词，如：坚韧、聪明、孤独]
-- **背景故事**：[简述成长经历和重要事件]
-- **核心动机**：[驱动角色行动的根本欲望]
-- **成长弧线**：[从什么状态变化到什么状态]
-- **特殊能力**：[如有，描述特殊技能或才能]
-- **弱点缺陷**：[性格或能力上的短板]
+### Protagonist
+- **Name**: [Protagonist's Name]
+- **Age/Gender**: [e.g., 28/Female]
+- **Personality Traits**: [3-5 keywords, e.g., Resilient, intelligent, lonely]
+- **Backstory**: [Briefly describe formative experiences and important events]
+- **Core Motivation**: [The fundamental desire that drives the character's actions]
+- **Character Arc**: [From what state to what state]
+- **Special Abilities**: [If any, describe special skills or talents]
+- **Weaknesses/Flaws**: [Shortcomings in personality or ability]
 
-### 重要配角
+### Important Supporting Characters
 
-#### [配角1名字]
-- **角色定位**：[如：导师/对手/伙伴/爱人]
-- **与主角关系**：[具体关系描述]
-- **性格特征**：[2-3个关键词]
-- **功能作用**：[在故事中的作用]
+#### [Supporting Character 1 Name]
+- **Role**: [e.g., Mentor/Rival/Partner/Love Interest]
+- **Relationship to Protagonist**: [Specific description of the relationship]
+- **Personality Traits**: [2-3 keywords]
+- **Functional Role**: [Role in the story]
 
-#### [配角2名字]
-- **角色定位**：[角色类型]
-- **与主角关系**：[关系描述]
-- **性格特征**：[性格关键词]
-- **功能作用**：[故事功能]
+#### [Supporting Character 2 Name]
+- **Role**: [Character type]
+- **Relationship to Protagonist**: [Relationship description]
+- **Personality Traits**: [Personality keywords]
+- **Functional Role**: [Story function]
 
-## 世界观设定
+## World-building
 
-### 时代背景
-[故事发生的时间，如：2045年/架空古代/平行世界现代]
+### Time Period
+[The time when the story takes place, e.g., 2045/Fictional ancient times/Parallel modern world]
 
-### 地理环境
-[故事发生的主要地点，可以列出多个重要场景]
-- **主要场景1**：[地点描述]
-- **主要场景2**：[地点描述]
-- **主要场景3**：[地点描述]
+### Geographical Environment
+[The main locations where the story takes place; can list multiple important scenes]
+- **Main Scene 1**: [Location description]
+- **Main Scene 2**: [Location description]
+- **Main Scene 3**: [Location description]
 
-### 社会结构
-[这个世界的社会组织形式、阶层划分、权力结构等]
+### Social Structure
+[The social organization, class division, power structure, etc., of this world]
 
-### 特殊规则
-[这个世界独有的规则，如：魔法体系/科技水平/社会禁忌]
+### Special Rules
+[Unique rules of this world, e.g., magic system/technological level/social taboos]
 
-### 文化风俗
-[独特的文化传统、节日、信仰等]
+### Culture and Customs
+[Unique cultural traditions, festivals, beliefs, etc.]
 
-## 情节大纲
+## Plot Outline
 
-### 第一幕：开端 (约25%)
-- **平常世界**：[主角的日常生活状态]
-- **引入冲突**：[打破平静的事件]
-- **触发事件**：[改变主角命运的关键事件]
-- **跨越门槛**：[主角决定踏上冒险]
+### Act I: The Beginning (Approx. 25%)
+- **Ordinary World**: [The protagonist's daily life]
+- **Introduction of Conflict**: [The event that shatters the peace]
+- **Inciting Incident**: [The key event that changes the protagonist's destiny]
+- **Crossing the Threshold**: [The protagonist decides to embark on the adventure]
 
-### 第二幕：发展 (约50%)
+### Act II: The Development (Approx. 50%)
 
-#### 上升阶段 (前半部分)
-- **新世界探索**：[主角适应新环境/新挑战]
-- **盟友与敌人**：[结识重要人物]
-- **初次考验**：[面临的第一个重大挑战]
-- **小胜利**：[获得阶段性成功]
+#### Rising Action (First Half)
+- **Exploring the New World**: [The protagonist adapts to the new environment/new challenges]
+- **Allies and Enemies**: [Meeting important characters]
+- **First Test**: [The first major challenge faced]
+- **Small Victory**: [Achieving a milestone success]
 
-#### 中点转折
-- **重大发现**：[改变局势的关键信息]
-- **假性胜利/失败**：[表面的成功或挫折]
+#### Midpoint Turn
+- **Major Discovery**: [Key information that changes the situation]
+- **False Victory/Defeat**: [Apparent success or setback]
 
-#### 下降阶段 (后半部分)
-- **敌人反击**：[对手的强力回应]
-- **内在冲突**：[主角的自我怀疑]
-- **至暗时刻**：[最大的危机和绝望]
-- **顿悟时刻**：[找到解决方案]
+#### Falling Action (Second Half)
+- **Enemy's Counterattack**: [The opponent's strong response]
+- **Internal Conflict**: [The protagonist's self-doubt]
+- **Darkest Hour**: [The greatest crisis and despair]
+- **Epiphany**: [Finding the solution]
 
-### 第三幕：高潮与结局 (约25%)
-- **最终准备**：[集结力量，制定计划]
-- **最终对决**：[与主要对手的决战]
-- **高潮时刻**：[最紧张激烈的冲突]
-- **结局收尾**：[冲突解决，新的平衡]
-- **尾声余韵**：[展望未来或留下思考]
+### Act III: Climax and Resolution (Approx. 25%)
+- **Final Preparations**: [Gathering strength, making a plan]
+- **Final Showdown**: [The decisive battle with the main opponent]
+- **Climactic Moment**: [The most tense and intense conflict]
+- **Resolution**: [Conflict resolved, a new balance is struck]
+- **Epilogue**: [Looking to the future or leaving food for thought]
 
-## 重要设定
+## Important Settings
 
-### 魔法/科技系统
-[如有，详细描述运作原理和限制]
+### Magic/Technology System
+[If any, describe in detail its principles and limitations]
 
-### 组织势力
-- **势力1**：[名称、理念、影响力]
-- **势力2**：[名称、理念、影响力]
+### Organizations and Factions
+- **Faction 1**: [Name, philosophy, influence]
+- **Faction 2**: [Name, philosophy, influence]
 
-### 重要道具
-- **道具1**：[名称、作用、来历]
-- **道具2**：[名称、作用、来历]
+### Important Items
+- **Item 1**: [Name, function, origin]
+- **Item 2**: [Name, function, origin]
 
-## 创作备注
+## Creative Notes
 
-### 灵感来源
-[记录灵感的来源，如：某个梦/新闻事件/其他作品]
+### Sources of Inspiration
+[Record the sources of inspiration, e.g., a dream/news event/other works]
 
-### 参考作品
-[列出参考的小说、电影、游戏等]
+### Reference Works
+[List reference novels, movies, games, etc.]
 
-### 风格定位
-[整体的创作风格，如：黑暗写实/轻松幽默/史诗奇幻]
+### Style Positioning
+[The overall creative style, e.g., dark realism/lighthearted humor/epic fantasy]
 
-### 注意事项
-[创作时需要特别注意的问题]
+### Notes
+[Issues that require special attention during creation]
 
-### 预期亮点
-[这个故事最吸引人的地方]
+### Expected Highlights
+[The most appealing aspects of this story]
 
 ---
-*创建时间: [日期]*
-*最后更新: [日期]*
-*版本: 1.0*
+*Date Created: [Date]*
+*Last Updated: [Date]*
+*Version: 1.0*
