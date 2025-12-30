@@ -19,26 +19,26 @@
 - [x] ./plugins/shizhangyu-style/experts/shizhangyu-master.md
 - [x] ./plugins/luyao-style/templates/scene-template.md
 - [x] ./plugins/luyao-style/templates/character-profile.md
-- [ ] ./plugins/luyao-style/templates/story-template.md
-- [ ] ./plugins/luyao-style/commands/luyao-write.md
-- [ ] ./plugins/luyao-style/commands/luyao-style.md
-- [ ] ./plugins/luyao-style/commands/luyao-dialogue.md
-- [ ] ./plugins/luyao-style/commands/luyao-character.md
-- [ ] ./plugins/luyao-style/commands/luyao-detail.md
-- [ ] ./plugins/luyao-style/README.md
-- [ ] ./plugins/luyao-style/docs/realism-guide.md
-- [ ] ./plugins/luyao-style/experts/luyao-master.md
-- [ ] ./plugins/translate/commands/translate-chapter.md
-- [ ] ./plugins/translate/commands/polish.md
-- [ ] ./plugins/translate/commands/translate.md
-- [ ] ./plugins/translate/README.md
-- [ ] ./plugins/translate/experts/translate.md
-- [ ] ./plugins/translate/experts/localize.md
-- [ ] ./plugins/wangyu-style/commands/wangyu-write.md
-- [ ] ./plugins/wangyu-style/commands/wangyu-enhance.md
-- [ ] ./plugins/wangyu-style/commands/wangyu-analyze.md
-- [ ] ./plugins/wangyu-style/commands/wangyu-style.md
-- [ ] ./plugins/wangyu-style/memory/style-constitution.md
+- [x] ./plugins/luyao-style/templates/story-template.md
+- [x] ./plugins/luyao-style/commands/luyao-write.md
+- [x] ./plugins/luyao-style/commands/luyao-style.md
+- [x] ./plugins/luyao-style/commands/luyao-dialogue.md
+- [x] ./plugins/luyao-style/commands/luyao-character.md
+- [x] ./plugins/luyao-style/commands/luyao-detail.md
+- [x] ./plugins/luyao-style/README.md
+- [x] ./plugins/luyao-style/docs/realism-guide.md
+- [x] ./plugins/luyao-style/experts/luyao-master.md
+- [x] ./plugins/translate/commands/translate-chapter.md
+- [x] ./plugins/translate/commands/polish.md
+- [x] ./plugins/translate/commands/translate.md
+- [x] ./plugins/translate/README.md
+- [x] ./plugins/translate/experts/translate.md
+- [x] ./plugins/translate/experts/localize.md
+- [x] ./plugins/wangyu-style/commands/wangyu-write.md
+- [x] ./plugins/wangyu-style/commands/wangyu-enhance.md
+- [x] ./plugins/wangyu-style/commands/wangyu-analyze.md
+- [x] ./plugins/wangyu-style/commands/wangyu-style.md
+- [x] ./plugins/wangyu-style/memory/style-constitution.md
 - [ ] ./plugins/wangyu-style/README.md
 - [ ] ./plugins/wangyu-style/experts/wangyu-master.md
 - [ ] ./plugins/genre-knowledge/commands/write-enhance.md
