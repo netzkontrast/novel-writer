@@ -72,17 +72,17 @@
 - [ ] ./plugins/book-analysis/experts/book-analyst.md
 - [ ] ./stories/test-story/story.md
 - [ ] ./METHODOLOGY.md
-- [ ] ./docs/ai-native-update.md
-- [ ] ./docs/writing/practical-guide.md
-- [ ] ./docs/writing/analyze-placement-rationale.md
-- [ ] ./docs/ai-suggestion-prompt-for-gemini.md
-- [ ] ./docs/prd/chapter/chapter-config-system.md
-- [ ] ./docs/prd/chapter/tech-spec.md
-- [ ] ./docs/prd/chapter/integration-plan.md
-- [ ] ./docs/workflow.md
-- [ ] ./docs/why-codex-not-supported.md
-- [ ] ./docs/commands.md
-- [ ] ./docs/quick-guide-external-ai-integration.md
+- [x] ./docs/ai-native-update.md
+- [x] ./docs/writing/practical-guide.md
+- [x] ./docs/writing/analyze-placement-rationale.md
+- [x] ./docs/ai-suggestion-prompt-for-gemini.md
+- [x] ./docs/prd/chapter/chapter-config-system.md
+- [x] ./docs/prd/chapter/tech-spec.md
+- [x] ./docs/prd/chapter/integration-plan.md
+- [x] ./docs/workflow.md
+- [x] ./docs/why-codex-not-supported.md
+- [x] ./docs/commands.md
+- [x] ./docs/quick-guide-external-ai-integration.md
 - [ ] ./docs/README.md
 - [ ] ./docs/plugin-center-prd.md
 - [ ] ./docs/local-development.md
