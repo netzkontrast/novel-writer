@@ -47,7 +47,7 @@ Files to check when changes affect agent commands or templates:
 
 - To regenerate commands after editing a template: run `npm run build:commands`. If a CLI `init` cannot find `dist/<agent>`, this is usually the fix.
 - If you change how an agent is referenced, search `src/cli.ts` for the `sourceMap` and the `switch(options.ai)` branch that maps `--ai` values to directories.
-- If adding CLI detection or validation for a new agent, follow the `requires_cli` pattern described in `other/spec-kit/AGENTS.md` and update the scripts `scripts/bash/update-agent-context.sh` and `scripts/powershell/update-agent-context.ps1`.
+- If adding CLI detection or validation for a new agent,.md` and update the scripts `scripts/bash/update-agent-context.sh` and `scripts/powershell/update-agent-context.ps1`.
 
 ## Safety and style
 
