@@ -1,50 +1,24 @@
-- [x] ./templates/checklist-template.md
-- [ ] ./templates/commands/analyze.md
-- [ ] ./templates/commands/timeline.md
-- [ ] ./templates/commands/tasks.md
-- [ ] ./templates/commands/expert.md
-- [ ] ./templates/commands/relations.md
-- [ ] ./templates/commands/track.md
-- [ ] ./templates/commands/track-init.md
-- [ ] ./templates/commands/clarify.md
-- [ ] ./templates/commands/plan.md
-- [ ] ./templates/commands/checklist.md
-- [ ] ./templates/commands/constitution.md
-- [ ] ./templates/commands/specify.md
-- [ ] ./templates/commands/write.md
-- [ ] ./templates/writing-constitution-template.md
-- [ ] ./templates/outline-template.md
-- [ ] ./templates/knowledge/world-setting.md
-- [ ] ./templates/knowledge/character-profiles.md
-- [ ] ./templates/knowledge/locations.md
 - [x] ./templates/knowledge/character-voices.md
-- [x] ./templates/GEMINI.md
-- [x] ./templates/story-template.md
-- [x] ./memory/personal-voice.md
-- [x] ./memory/constitution.md
-- [ ] ./todo.md
-- [ ] ./README.md
-- [x] ./novel-sdd.md
-- [ ] ./other/wide_research_prompt_cn.md
-- [ ] ./other/spec-kit.md
-- [ ] ./.github/copilot-instructions.md
-- [ ] ./CHANGELOG.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-use.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-session.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-list.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-auth.md
-- [ ] ./plugins/stardust-dreams/README.md
-- [ ] ./plugins/stardust-dreams/experts/stardust-guide.md
-- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-write.md
-- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-plot.md
-- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-style.md
-- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-character.md
-- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-foreshadow.md
-- [ ] ./plugins/shizhangyu-style/memory/style-guide.md
-- [ ] ./plugins/shizhangyu-style/README.md
-- [ ] ./plugins/shizhangyu-style/experts/shizhangyu-master.md
-- [ ] ./plugins/luyao-style/templates/scene-template.md
-- [ ] ./plugins/luyao-style/templates/character-profile.md
+- [x] ./other/wide_research_prompt_cn.md
+- [x] ./other/spec-kit.md
+- [x] ./.github/copilot-instructions.md
+- [x] ./CHANGELOG.md
+- [x] ./plugins/stardust-dreams/commands/stardust-use.md
+- [x] ./plugins/stardust-dreams/commands/stardust-session.md
+- [x] ./plugins/stardust-dreams/commands/stardust-list.md
+- [x] ./plugins/stardust-dreams/commands/stardust-auth.md
+- [x] ./plugins/stardust-dreams/README.md
+- [x] ./plugins/stardust-dreams/experts/stardust-guide.md
+- [x] ./plugins/shizhangyu-style/commands/shizhangyu-write.md
+- [x] ./plugins/shizhangyu-style/commands/shizhangyu-plot.md
+- [x] ./plugins/shizhangyu-style/commands/shizhangyu-style.md
+- [x] ./plugins/shizhangyu-style/commands/shizhangyu-character.md
+- [x] ./plugins/shizhangyu-style/commands/shizhangyu-foreshadow.md
+- [x] ./plugins/shizhangyu-style/memory/style-guide.md
+- [x] ./plugins/shizhangyu-style/README.md
+- [x] ./plugins/shizhangyu-style/experts/shizhangyu-master.md
+- [x] ./plugins/luyao-style/templates/scene-template.md
+- [x] ./plugins/luyao-style/templates/character-profile.md
 - [ ] ./plugins/luyao-style/templates/story-template.md
 - [ ] ./plugins/luyao-style/commands/luyao-write.md
 - [ ] ./plugins/luyao-style/commands/luyao-style.md
@@ -188,8 +162,4 @@
 - [ ] ./experts/core/world.md
 - [ ] ./experts/core/character.md
 - [ ] ./experts/core/style.md
-- [ ] ./docs/prd/chapter/examples/chapter-config-action.yaml
-- [ ] ./docs/prd/chapter/examples/chapter-config-basic.yaml
-- [ ] ./docs/prd/chapter/examples/chapter-config-emotional.yaml
-- [ ] ./docs/prd/chapter/examples/preset-action-intense.yaml
-- [ ] ./docs/prd/chapter/examples/preset-dialogue-heavy.yaml
+- [ ] ./AGENTS.md

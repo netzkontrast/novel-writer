@@ -1,439 +1,439 @@
-# 细节替换公式库
+# Detail Replacement Formula Library
 
-> 抽象描述是AI写作的典型特征,真人写作会本能地使用具体细节。本公式库提供快速替换模板,让文字更具真实感和代入感。
-
----
-
-## 一、时间具象化公式
-
-### 基础公式
-
-| ❌ 抽象表达 | ✅ 具象替换公式 | 示例 |
-|----------|--------------|------|
-| 最近 | [具体日期] | 上周三 / 三天前 / 昨晚 |
-| 很久以前 | [X年前] + [季节] | 三年前的秋天 |
-| 不久前 | [昨天/前天] + [时间段] | 昨天下午三点 |
-| 过了很久 | 等了[X小时/天] | 等了整整两个小时 |
-| 以后 | [具体时间点] | 明天上午 / 下周一 |
-| 当时 | [具体时刻] | 那天晚上八点 |
-| 有一天 | [具体日期]那天 | 5月3号那天 |
-
-### 进阶公式：时间+细节
-
-**公式**: [时间] + [关联事件]
-- "最近" → "自从上周王叔去世后"
-- "很久以前" → "三年前,那个下雪的冬天"
-- "不久前" → "昨天,就在我吃早饭的时候"
-
-### 历史小说专用
-
-**公式**: [年号] + [历史事件]
-- "很久以前" → "永徽六年,长安大雪那夜"
-- "最近" → "自从贞观三年北征回来"
-- "那时候" → "开元盛世,天下太平时"
+> Abstract descriptions are a typical feature of AI writing; human writing instinctively uses concrete details. This formula library provides quick replacement templates to make text more realistic and immersive.
 
 ---
 
-## 二、人物具象化公式
+## 1. Time Concretization Formulas
 
-### 基础公式
+### Basic Formulas
 
-| ❌ 抽象表达 | ✅ 具象替换公式 | 示例 |
-|----------|--------------|------|
-| 很多人 | [X个] + [关系] | 至少五个朋友 / 村里十几户人家 |
-| 有人说 | [具体身份] + 说 | 李叔告诉我 / 隔壁老王提起过 |
-| 大家都知道 | [具体群体] + 知道 | 村里的老人都说 / 圈内人都清楚 |
-| 据说 | [消息来源] + 说 | 小道消息说 / 老王私下跟我说 |
-| 某人 | [具体称呼] | 那个卖菜的张婶 / 隔壁的小李 |
-| 路人 | [特征描述] | 一个穿西装的中年男人 |
+| ❌ Abstract Expression | ✅ Concrete Replacement Formula | Example |
+|---|---|---|
+| Recently | [Specific Date] | Last Wednesday / Three days ago / Last night |
+| A long time ago | [X years ago] + [Season] | Three years ago in autumn |
+| Not long ago | [Yesterday/Day before] + [Time of Day] | Yesterday at three in the afternoon |
+| After a long time | Waited for [X hours/days] | Waited for a full two hours |
+| Later | [Specific Time Point] | Tomorrow morning / Next Monday |
+| At that time | [Specific Moment] | That night at eight o'clock |
+| One day | On [Specific Date] | On May 3rd |
 
-### 进阶公式：人物+特征
+### Advanced Formula: Time + Detail
 
-**公式**: [身份] + [外貌/行为特征]
-- "有人" → "一个戴眼镜的年轻人"
-- "老人" → "那个天天遛鸟的老张"
-- "女孩" → "扎马尾的高中生"
+**Formula**: [Time] + [Related Event]
+- "Recently" → "Since Uncle Wang passed away last week"
+- "A long time ago" → "Three years ago, on that snowy winter"
+- "Not long ago" → "Yesterday, just as I was having breakfast"
 
-### 对话来源具象化
+### For Historical Novels
 
-**公式**: [关系] + [对话场景]
-- "有人告诉我" → "上周二,老同学打电话说"
-- "听说" → "在电梯里听隔壁邻居提起"
-- "都在说" → "街坊四邻都在议论这事"
-
----
-
-## 三、数量具象化公式
-
-### 基础公式
-
-| ❌ 抽象表达 | ✅ 具象替换公式 | 示例 |
-|----------|--------------|------|
-| 很多 | [X个/件/人] | 至少二十个 / 七八个 |
-| 很少 | [X个] + 不到 | 不到五个 / 只有三个 |
-| 大量 | [X] + 单位 | 上百斤 / 几十箱 |
-| 效果很好 | [具体对比] | 这次比上次多收了三石粮 / 客人比平时多了一倍 |
-| 很贵 | [具体价格] | 一顿饭花了三百块 / 花了他半个月工钱 |
-| 很远 | [时间/距离] | 开车要两小时 / 三十公里外 |
-| 很高 | [X米/层] | 二十层楼 / 两米多高 |
-| 很重 | [X斤/公斤] | 至少一百斤 / 五六十公斤 |
-
-### 进阶公式：数量+感受
-
-**公式**: [精确数字] + [主观感受]
-- "很多钱" → "整整五千块,他一个月工资"
-- "很远" → "三十公里,平时开车要一小时,今天堵车走了两小时"
-- "很重" → "一百二十斤,比他还沉"
-
-### 模糊数量(保持真实感)
-
-**公式**: 不要总是精确,也要有模糊表达
-- "七八个" "十几个" "二三十"
-- "三五成群" "三三两两"
-- "不下五十" "至少上百"
+**Formula**: [Era Name] + [Historical Event]
+- "A long time ago" → "In the sixth year of Yonghui, on a snowy night in Chang'an"
+- "Recently" → "Since returning from the northern expedition in the third year of Zhenguan"
+- "Back then" → "During the Kaiyuan era, when the world was at peace"
 
 ---
 
-## 四、场景具象化公式
+## 2. Character Concretization Formulas
 
-### 环境描写
+### Basic Formulas
 
-| ❌ 抽象表达 | ✅ 具象替换公式 | 示例 |
-|----------|--------------|------|
-| 房间很乱 | [具体乱象] | 地上堆着三天没洗的衣服 |
-| 天气很冷 | [身体感受] | 呼出的气都能看见白雾 |
-| 很累 | [具体行为] | 走了整整五小时山路 |
-| 气氛紧张 | [可见/可听细节] | 没人说话,只听见时钟滴答声 |
-| 很黑 | [视觉细节] | 伸手不见五指 / 只能看到窗外路灯 |
-| 很吵 | [声音来源] | 楼下装修的电钻声没停过 |
-| 很香 | [气味来源] | 红烧肉的味道飘满整个楼道 |
+| ❌ Abstract Expression | ✅ Concrete Replacement Formula | Example |
+|---|---|---|
+| Many people | [X] + [Relationship] | At least five friends / A dozen families in the village |
+| Someone said | [Specific Identity] + said | Uncle Li told me / Old Wang next door mentioned |
+| Everyone knows | [Specific Group] + knows | The old folks in the village all say / Everyone in the circle knows |
+| It is said | [Source of Information] + said | Rumor has it / Old Wang told me in private |
+| Someone | [Specific Appellation] | That Auntie Zhang who sells vegetables / Young Li next door |
+| A passerby | [Descriptive Feature] | A middle-aged man in a suit |
 
-### 进阶公式：五感堆叠
+### Advanced Formula: Character + Feature
 
-**公式**: [视觉] + [听觉/嗅觉/触觉] (选1-2个)
-- ❌ "房间很乱很脏"
-- ✅ "地上堆着外卖盒,空气里一股酸味"
+**Formula**: [Identity] + [Appearance/Behavioral Feature]
+- "Someone" → "A young man wearing glasses"
+- "An old man" → "That Old Zhang who walks his bird every day"
+- "A girl" → "A high school student with a ponytail"
 
-**注意**: 不要强制"五感齐全",选最能体现场景的1-2个即可
+### Concretizing Dialogue Sources
 
-### 对比强化
-
-**公式**: [当前状态] vs [对比状态]
-- "很冷" → "比昨天还冷,厚羽绒服都扛不住"
-- "很乱" → "比上次来乱了十倍"
-
----
-
-## 五、情绪具象化公式
-
-### 基础公式
-
-| ❌ 抽象表达 | ✅ 具象替换公式 | 示例 |
-|----------|--------------|------|
-| 很生气 | [生理反应] | 攥紧了拳头 / 脸都红了 |
-| 很害怕 | [身体反应] | 腿在发抖 / 冷汗直冒 |
-| 很高兴 | [行为表现] | 哼着歌走路 / 忍不住笑 |
-| 很紧张 | [可见细节] | 手心全是汗 / 来回踱步 |
-| 很累 | [动作表现] | 瘫在沙发上不想动 |
-| 很无聊 | [行为描写] | 第五次看手机,才过了三分钟 |
-| 很惊讶 | [表情/动作] | 瞪大了眼睛 / 嘴巴张成O型 |
-
-### 进阶公式：情绪+连锁反应
-
-**公式**: [第一反应] + [持续表现]
-- "很生气" → "他一拳砸在桌上,茶杯都跳了起来。"
-- "很害怕" → "她往后退了三步,背靠在墙上。"
-
-### 禁止直接心理描写
-
-**❌ 避免**:
-- "他心想,这事不对劲"
-- "她内心涌起一股愤怒"
-- "他感到很紧张"
-
-**✅ 改为行为**:
-- 他皱起眉头(思考)
-- 她咬紧牙关(愤怒)
-- 他深吸一口气(紧张)
+**Formula**: [Relationship] + [Dialogue Scene]
+- "Someone told me" → "Last Tuesday, an old classmate called and said"
+- "I heard" → "Heard it from a neighbor in the elevator"
+- "Everyone is saying" → "The neighbors are all talking about it"
 
 ---
 
-## 六、对话具象化公式
+## 3. Quantity Concretization Formulas
 
-### 基础公式
+### Basic Formulas
 
-| ❌ 抽象表达 | ✅ 具象替换公式 | 示例 |
-|----------|--------------|------|
-| 他说了很多 | [对话片段] + 等等 | "你听我解释,事情不是这样的..."他说了一堆 |
-| 他们聊天 | [具体话题] | 他们聊起了小时候那些事 |
-| 吵架 | [对话内容] | "你还有脸说!""我有什么不敢说的!" |
-| 他解释道 | [直接对话] | "不是我干的,真不是我!" |
+| ❌ Abstract Expression | ✅ Concrete Replacement Formula | Example |
+|---|---|---|
+| Many | [X items/people] | At least twenty / Seven or eight |
+| Few | Less than [X] | Fewer than five / Only three |
+| A large amount | [X] + Unit | Hundreds of pounds / Dozens of boxes |
+| Very effective | [Specific Comparison] | Harvested three more bushels of grain than last time / Twice as many customers as usual |
+| Very expensive | [Specific Price] | A meal cost three hundred yuan / Cost him half a month's wages |
+| Very far | [Time/Distance] | A two-hour drive / Thirty kilometers away |
+| Very high | [X meters/floors] | Twenty stories high / Over two meters tall |
+| Very heavy | [X pounds/kilograms] | At least a hundred pounds / Fifty or sixty kilograms |
 
-### 进阶公式：对话+神态+动作
+### Advanced Formula: Quantity + Feeling
 
-**公式**: [对话] + [说话方式] + [伴随动作]
+**Formula**: [Precise Number] + [Subjective Feeling]
+- "A lot of money" → "A full five thousand yuan, his monthly salary"
+- "Very far" → "Thirty kilometers, usually an hour's drive, but today it took two hours due to traffic"
+- "Very heavy" → "One hundred and twenty pounds, heavier than him"
 
-❌ **抽象版**:
-```
-他解释了很久,她终于相信了。
-```
+### Vague Quantities (for realism)
 
-✅ **具象版**:
-```
-"真的,我发誓!"他举起三根手指,"我那天根本不在现场!"
-
-她盯着他看了十秒。
-
-"...行吧,这次信你。"
-```
-
-### 对话口语化公式
-
-**公式**: [不完整句] + [停顿] + [重复/语病]
-- "我...我没有..."(慌张)
-- "就是...怎么说呢...算了。"(犹豫)
-- "那个那个,就是...你懂的。"(含糊)
+**Formula**: Don't always be precise; use vague expressions too
+- "Seven or eight," "a dozen or so," "twenty or thirty"
+- "In groups of three or five," "in twos and threes"
+- "No fewer than fifty," "at least a hundred"
 
 ---
 
-## 七、动作具象化公式
+## 4. Scene Concretization Formulas
 
-### 基础公式
+### Environmental Descriptions
 
-| ❌ 抽象表达 | ✅ 具象替换公式 | 示例 |
-|----------|--------------|------|
-| 快速移动 | [具体动作] + 速度对比 | 三步并作两步 / 一个箭步冲过去 |
-| 仔细查看 | [查看细节] | 从上到下打量了一遍 / 凑近了看 |
-| 慢慢走 | [具体步态] | 一步一步挪过去 / 拖着脚走 |
-| 用力打 | [打击效果] | 一拳打得他鼻血直流 |
-| 拿起东西 | [动作细节] | 伸手抓起桌上的杯子 |
+| ❌ Abstract Expression | ✅ Concrete Replacement Formula | Example |
+|---|---|---|
+| The room is messy | [Specific Mess] | Clothes that haven't been washed for three days are piled on the floor |
+| The weather is cold | [Bodily Sensation] | You can see your breath in the air |
+| Very tired | [Specific Action] | Walked for five hours on a mountain road |
+| The atmosphere is tense | [Visible/Audible Detail] | No one spoke, only the ticking of the clock could be heard |
+| Very dark | [Visual Detail] | Can't see your hand in front of your face / Only the streetlight outside the window is visible |
+| Very noisy | [Source of Noise] | The sound of the electric drill from the downstairs renovation never stopped |
+| Smells great | [Source of Smell] | The smell of braised pork filled the entire hallway |
 
-### 进阶公式：动作链
+### Advanced Formula: Stacking the Five Senses
 
-**公式**: [动作1] + [动作2] + [结果]
-- "他拿起手机" → "他摸出手机,点开微信,翻到聊天记录"
-- "她离开了" → "她抓起包,推开门,头也不回地走了"
+**Formula**: [Visual] + [Auditory/Olfactory/Tactile] (choose 1-2)
+- ❌ "The room was messy and dirty"
+- ✅ "Takeout boxes were piled on the floor, and the air had a sour smell"
 
-### 战斗动作公式
+**Note**: Don't force all five senses; choose the 1-2 that best represent the scene.
 
-**古风武侠公式**: [起手] + [运劲] + [招式] + [效果]
-```
-他深吸一口气(起手),内力贯通全身(运劲),
-一掌拍出(招式),掌风呼啸(效果)。
-```
+### Reinforcement through Contrast
 
-**现代动作公式**: [反应] + [动作] + [结果]
-```
-他一个侧身(反应),躲开了拳头(动作),
-反手一肘击中对方肋部(结果)。
-```
+**Formula**: [Current State] vs. [Contrasting State]
+- "Very cold" → "Colder than yesterday, even a thick down jacket can't handle it"
+- "Very messy" → "Ten times messier than the last time I was here"
 
 ---
 
-## 八、比喻具象化公式
+## 5. Emotion Concretization Formulas
 
-### 基础原则
+### Basic Formulas
 
-❌ **避免陈词滥调**:
-- 摇摇欲坠、仿佛、宛如、犹如
-- 空气凝固、时间静止
-- 如梦似幻、恍如隔世
+| ❌ Abstract Expression | ✅ Concrete Replacement Formula | Example |
+|---|---|---|
+| Very angry | [Physiological Reaction] | Clenched his fists / His face turned red |
+| Very scared | [Bodily Reaction] | Legs were shaking / Broke out in a cold sweat |
+| Very happy | [Behavioral Expression] | Hummed a song while walking / Couldn't help but smile |
+| Very nervous | [Visible Detail] | Palms were sweaty / Paced back and forth |
+| Very tired | [Action Expression] | Collapsed on the sofa, not wanting to move |
+| Very bored | [Behavioral Description] | Looked at his phone for the fifth time, only three minutes had passed |
+| Very surprised | [Expression/Action] | Eyes widened / Mouth formed an 'O' shape |
 
-✅ **使用新鲜比喻**:
+### Advanced Formula: Emotion + Chain Reaction
 
-**公式1: [本体] + 像 + [生活化喻体]**
-- "他跑得很快" → "他跑起来像被狗追"
-- "很冷" → "冷得像进了冰窖"
+**Formula**: [First Reaction] + [Continued Behavior]
+- "Very angry" → "He slammed his fist on the table, making the teacup jump."
+- "Very scared" → "She took three steps back, her back against the wall."
 
-**公式2: [本体] + 比 + [熟悉事物] + [更...]**
-- "很黑" → "比煤球还黑"
-- "很乱" → "比垃圾场还乱"
+### Prohibit Direct Psychological Descriptions
 
-### 不用比喻更好
+**❌ Avoid**:
+- "He thought, this isn't right"
+- "A surge of anger welled up inside her"
+- "He felt very nervous"
 
-很多时候,**直接描述** > **华丽比喻**
-
-❌ "空气仿佛凝固了"
-✅ "沉默。"
-
-❌ "她的眼神宛如深秋的湖水"
-✅ "她眼神很冷。"
+**✅ Change to Behavior**:
+- He frowned (thinking)
+- She clenched her jaw (anger)
+- He took a deep breath (nervousness)
 
 ---
 
-## 九、搜索建议公式
+## 6. Dialogue Concretization Formulas
 
-### WebSearch查询模板
+### Basic Formulas
 
-**历史背景**:
-```
-[朝代] + 官职体系
-[朝代] + 服饰制度
-[年号] + 历史事件
-[朝代] + 日常生活
-```
+| ❌ Abstract Expression | ✅ Concrete Replacement Formula | Example |
+|---|---|---|
+| He said a lot | [Dialogue Snippet] + etc. | "Listen to me, it's not like that..." he said a bunch of things |
+| They chatted | [Specific Topic] | They talked about their childhood |
+| Argued | [Dialogue Content] | "You have the nerve to say that!" "What's there to be afraid to say!" |
+| He explained | [Direct Dialogue] | "I didn't do it, I really didn't!" |
 
-**地理信息**:
-```
-[地名] + 特色方言
-[城市] + 地标建筑
-[地名] + 历史典故
-[地区] + 民俗习惯
-```
+### Advanced Formula: Dialogue + Demeanor + Action
 
-**专业领域**:
+**Formula**: [Dialogue] + [Manner of Speaking] + [Accompanying Action]
+
+❌ **Abstract Version**:
 ```
-[行业] + 专业术语
-[职业] + 工作流程
-[领域] + 真实案例
-[技术] + 实际参数
+He explained for a long time, and she finally believed him.
 ```
 
-**文化细节**:
+✅ **Concrete Version**:
 ```
-[年代] + 流行语
-[地方] + 特色小吃
-[节日] + 传统习俗
-[年代] + 服装风格
+"Really, I swear!" he held up three fingers, "I wasn't even there that day!"
+
+She stared at him for ten seconds.
+
+"...Fine, I'll believe you this time."
+```
+
+### Colloquial Dialogue Formula
+
+**Formula**: [Incomplete Sentence] + [Pause] + [Repetition/Grammatical Error]
+- "I... I didn't..." (nervous)
+- "It's just... how should I put it... never mind." (hesitant)
+- "That, that, you know... you get it." (vague)
+
+---
+
+## 7. Action Concretization Formulas
+
+### Basic Formulas
+
+| ❌ Abstract Expression | ✅ Concrete Replacement Formula | Example |
+|---|---|---|
+| Moved quickly | [Specific Action] + Speed Comparison | Took two steps at a time / Dashed over in a flash |
+| Looked carefully | [Detail of Looking] | Looked him up and down / Looked closely |
+| Walked slowly | [Specific Gait] | Inched forward step by step / Dragged his feet |
+| Hit hard | [Effect of Hitting] | Punched him so hard his nose bled |
+| Picked something up | [Detail of Action] | Reached out and grabbed the cup on the table |
+
+### Advanced Formula: Action Chain
+
+**Formula**: [Action 1] + [Action 2] + [Result]
+- "He picked up his phone" → "He took out his phone, opened WeChat, and scrolled to the chat history"
+- "She left" → "She grabbed her bag, pushed open the door, and left without looking back"
+
+### Combat Action Formulas
+
+**Ancient Martial Arts Formula**: [Opening Move] + [Channeling Energy] + [Technique] + [Effect]
+```
+He took a deep breath (opening move), his internal energy flowing through his body (channeling energy),
+and struck with his palm (technique), the force of the blow whistling (effect).
+```
+
+**Modern Action Formula**: [Reaction] + [Action] + [Result]
+```
+He dodged to the side (reaction), avoiding the punch (action),
+and countered with an elbow to the opponent's ribs (result).
 ```
 
 ---
 
-## 十、快速替换自检表
+## 8. Metaphor Concretization Formulas
 
-### 时间维度
-- [ ] 有"最近"、"很久"等模糊时间?
-- [ ] 能否替换为具体日期/时间?
-- [ ] 是否加上了关联事件?
+### Basic Principles
 
-### 人物维度
-- [ ] 有"有人"、"大家"等模糊人物?
-- [ ] 能否替换为具体身份/关系?
-- [ ] 是否增加了特征描述?
+❌ **Avoid clichés**:
+- teetering on the brink, as if, like, as
+- the air froze, time stood still
+- like a dream, as if a lifetime ago
 
-### 数量维度
-- [ ] 有"很多"、"很少"等模糊数量?
-- [ ] 能否给出具体数字?
-- [ ] 数字是精确还是适度模糊?(都要有)
+✅ **Use fresh metaphors**:
 
-### 场景维度
-- [ ] 有"很xx"的抽象形容?
-- [ ] 能否替换为具体细节?
-- [ ] 是否过度堆砌五感?(要克制)
+**Formula 1: [Subject] + like + [Mundane Simile]**
+- "He runs fast" → "He runs like a dog is chasing him"
+- "Very cold" → "Cold as if you're in an ice cellar"
 
-### 情绪维度
-- [ ] 有直接心理描写?
-- [ ] 能否改为行为表现?
-- [ ] 是否有生理反应描写?
+**Formula 2: [Subject] + more... + than + [Familiar Object]**
+- "Very black" → "Blacker than a lump of coal"
+- "Very messy" → "Messier than a garbage dump"
 
-### 对话维度
-- [ ] 对话是否太完整?(要有停顿、语病)
-- [ ] 是否有伴随神态和动作?
-- [ ] 是否口语化?
+### Better Without Metaphors
+
+Often, **direct description** > **flowery metaphors**
+
+❌ "The air seemed to freeze"
+✅ "Silence."
+
+❌ "Her eyes were like a deep autumn lake"
+✅ "Her eyes were cold."
 
 ---
 
-## 十一、场景适配指南
+## 9. Search Suggestion Formulas
 
-### 古代历史小说
+### WebSearch Query Templates
 
-**优先使用**:
-- 历史白描: 简洁陈述
-- 具体时间: 年号+事件
-- 官职地名: 真实考据
-- 克制情绪: 避免过度细腻
-
-**示例**:
+**Historical Background**:
 ```
-❌ 很久以前,有个皇帝很厉害。
-✅ 贞观三年,太宗皇帝北征突厥,大胜而归。
+[Dynasty] + official system
+[Dynasty] + clothing regulations
+[Era Name] + historical events
+[Dynasty] + daily life
 ```
 
-### 现代都市小说
-
-**优先使用**:
-- 生活细节: 高度具象
-- 现代数据: 价格、距离、时间
-- 网络用语: 适度使用
-- 品牌道具: 增加真实感
-
-**示例**:
+**Geographical Information**:
 ```
-❌ 他开车去了,很远。
-✅ 他叫了辆车,从国贸到望京,堵车堵了一小时,花了八十块。
+[Place Name] + characteristic dialect
+[City] + landmark buildings
+[Place Name] + historical anecdotes
+[Region] + folk customs
 ```
 
-### 玄幻仙侠小说
-
-**优先使用**:
-- 境界数据: 具体等级
-- 法宝名称: 具体称呼
-- 修炼时间: 几年几载
-- 资源数量: 灵石、丹药数量
-
-**示例**:
+**Professional Fields**:
 ```
-❌ 他修炼了很久,终于突破了。
-✅ 三年闭关,耗费了一百五十颗筑基丹,他终于从炼气九层突破到筑基初期。
+[Industry] + professional terminology
+[Occupation] + work process
+[Field] + real-life cases
+[Technology] + actual parameters
+```
+
+**Cultural Details**:
+```
+[Decade] + popular slang
+[Place] + specialty snacks
+[Festival] + traditional customs
+[Decade] + fashion styles
 ```
 
 ---
 
-## 十二、使用优先级
+## 10. Quick Replacement Self-Checklist
 
-### Level 1: 关键情节(必须具象)
-- 转折点
-- 高潮
-- 伏笔埋设
-- 关键道具出现
-- 重要角色登场
+### Time Dimension
+- [ ] Are there vague times like "recently," "a long time ago"?
+- [ ] Can they be replaced with specific dates/times?
+- [ ] Has a related event been added?
 
-### Level 2: 重要细节(应该具象)
-- 角色第一印象
-- 情绪转变时刻
-- 冲突爆发
-- 关键对话
+### Character Dimension
+- [ ] Are there vague characters like "someone," "everyone"?
+- [ ] Can they be replaced with specific identities/relationships?
+- [ ] Has a descriptive feature been added?
 
-### Level 3: 次要信息(可以概括)
-- 过渡段落
-- 背景铺陈
-- 时间流逝
-- 路程描写
+### Quantity Dimension
+- [ ] Are there vague quantities like "many," "few"?
+- [ ] Can specific numbers be given?
+- [ ] Are the numbers precise or moderately vague? (should have both)
 
-### Level 4: 无需具象
-- 常识性内容
-- 快速节奏场景
-- 故意留白的悬念
+### Scene Dimension
+- [ ] Are there abstract descriptions like "very xx"?
+- [ ] Can they be replaced with specific details?
+- [ ] Are the five senses overused? (be restrained)
 
----
+### Emotion Dimension
+- [ ] Are there direct psychological descriptions?
+- [ ] Can they be changed to behavioral expressions?
+- [ ] Are there descriptions of physiological reactions?
 
-## 快速参考卡
-
-```
-🎯 核心原则
-- 时间要具体(上周三 > 最近)
-- 人物要明确(李叔 > 有人)
-- 数量要精确(5个 > 很多)
-- 场景要可见(堆着衣服 > 很乱)
-
-💡 记住公式
-[抽象词] → [具体细节] + [感受/对比/数据]
-
-⚠️ 注意事项
-- 不要过度具象(变流水账)
-- 保持适度模糊(七八个、十来个)
-- 关键处精确(转折、高潮)
-- 次要处概括(过渡、铺垫)
-
-✅ 自检问题
-- 能回答"什么时候"吗?
-- 能回答"是谁"吗?
-- 能回答"多少"吗?
-- 能回答"什么样"吗?
-```
+### Dialogue Dimension
+- [ ] Is the dialogue too complete? (should have pauses, grammatical errors)
+- [ ] Are there accompanying demeanors and actions?
+- [ ] Is it colloquial?
 
 ---
 
-*本公式库持续更新,欢迎根据实践补充*
-*版本: v1.0.0*
-*最后更新: 2025-10*
+## 11. Scene Adaptation Guide
+
+### Ancient History Novels
+
+**Prioritize**:
+- Historical sketches: concise statements
+- Specific times: era name + event
+- Official titles and place names: based on real research
+- Restrained emotions: avoid excessive detail
+
+**Example**:
+```
+❌ A long time ago, there was a very powerful emperor.
+✅ In the third year of Zhenguan, Emperor Taizong led a northern expedition against the Turks and returned victorious.
+```
+
+### Modern Urban Novels
+
+**Prioritize**:
+- Life details: highly concrete
+- Modern data: prices, distances, times
+- Internet slang: use moderately
+- Brand names and props: to increase realism
+
+**Example**:
+```
+❌ He drove there, it was far.
+✅ He called a car, from the World Trade Center to Wangjing, was stuck in traffic for an hour, and it cost eighty yuan.
+```
+
+### Fantasy/Xianxia Novels
+
+**Prioritize**:
+- Realm data: specific levels
+- Magical weapon names: specific names
+- Cultivation time: years and years
+- Resource quantities: spirit stones, elixir quantities
+
+**Example**:
+```
+❌ He cultivated for a long time and finally broke through.
+✅ After three years of seclusion and consuming one hundred and fifty Foundation Establishment pills, he finally broke through from the ninth level of Qi Refining to the early Foundation Establishment stage.
+```
+
+---
+
+## 12. Usage Priority
+
+### Level 1: Key Plots (Must be concrete)
+- Turning points
+- Climax
+- Foreshadowing
+- Appearance of key items
+- Introduction of important characters
+
+### Level 2: Important Details (Should be concrete)
+- First impression of a character
+- Moments of emotional change
+- Outbreak of conflict
+- Key dialogues
+
+### Level 3: Secondary Information (Can be generalized)
+- Transitional paragraphs
+- Background exposition
+- Passage of time
+- Descriptions of journeys
+
+### Level 4: No Need to be Concrete
+- Common sense content
+- Fast-paced scenes
+- Intentionally leaving suspense
+
+---
+
+## Quick Reference Card
+
+```
+🎯 Core Principles
+- Time should be specific (Last Wednesday > Recently)
+- Characters should be clear (Uncle Li > Someone)
+- Quantities should be precise (5 > Many)
+- Scenes should be visible (Piled with clothes > Messy)
+
+💡 Remember the Formula
+[Abstract Word] → [Concrete Detail] + [Feeling/Comparison/Data]
+
+⚠️ Cautions
+- Don't over-concretize (becomes a dry list)
+- Maintain moderate vagueness (seven or eight, a dozen or so)
+- Be precise at key moments (turning points, climax)
+- Generalize in secondary parts (transitions, exposition)
+
+✅ Self-Check Questions
+- Can you answer "when"?
+- Can you answer "who"?
+- Can you answer "how many"?
+- Can you answer "what is it like"?
+```
+
+---
+
+*This formula library is continuously updated, feel free to add to it based on your practice*
+*Version: v1.0.0*
+*Last Updated: 2025-10*

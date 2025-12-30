@@ -1,0 +1,128 @@
+{
+  "version": "1.0",
+  "description": "Novel content validation rules for checking character consistency and content quality",
+
+  "characters": {
+    "protagonist": {
+      "name": "[Protagonist Name]",
+      "aliases": ["[Nickname]", "[Alias]"],
+      "forbidden": ["protagonist", "male lead", "female lead", "[Common incorrect name]"],
+      "traits": ["[Core Identity]", "[Key Trait]"],
+      "note": "Please fill in the specific content according to the actual story settings"
+    },
+    "supporting": {
+      "[Supporting Character 1 Name]": {
+        "aliases": ["[Nickname]"],
+        "addresses_to": {
+          "protagonist": ["[Form of address to the protagonist]"]
+        }
+      },
+      "[Supporting Character 2 Name]": {
+        "aliases": ["[Nickname]"],
+        "addresses_to": {
+          "protagonist": ["[Form of address to the protagonist]"]
+        }
+      }
+    }
+  },
+
+  "relationships": {
+    "fixed_addresses": {
+      "description": "Fixed forms of address between characters",
+      "rules": {
+        "[Character A]→[Character B]": ["[Fixed Address 1]", "[Fixed Address 2]"],
+        "[Character C]→[Character D]": ["[Fixed Address]"]
+      }
+    },
+    "forbidden_addresses": {
+      "description": "Forbidden forms of address",
+      "rules": {
+        "[Subordinate]→[Superior]": ["[Inappropriate Address]"],
+        "[Stranger]→[Protagonist]": ["[Overly Intimate Address]"]
+      }
+    }
+  },
+
+  "validation_tasks": {
+    "character_consistency": {
+      "enabled": true,
+      "checks": [
+        "name_consistency",
+        "trait_consistency",
+        "behavior_consistency"
+      ]
+    },
+    "relationship_validation": {
+      "enabled": true,
+      "checks": [
+        "address_accuracy",
+        "relationship_development",
+        "interaction_logic"
+      ]
+    },
+    "world_rules": {
+      "enabled": true,
+      "checks": [
+        "power_system",
+        "geography",
+        "timeline"
+      ]
+    }
+  },
+
+  "auto_fix": {
+    "character_names": {
+      "enabled": true,
+      "confidence_threshold": 0.9,
+      "description": "Automatically correct obvious character name errors"
+    },
+    "addresses": {
+      "enabled": true,
+      "confidence_threshold": 0.85,
+      "description": "Automatically correct fixed form of address errors"
+    },
+    "simple_typos": {
+      "enabled": true,
+      "description": "Correct simple spelling errors"
+    },
+    "complex_issues": {
+      "enabled": false,
+      "description": "Provide suggestions for complex issues, do not autofix"
+    }
+  },
+
+  "common_errors": {
+    "character_substitution": [
+      {"wrong": "Li Ming", "correct": "[Correct Protagonist Name]", "context": "Common protagonist name error"},
+      {"wrong": "Zhang Hua", "correct": "[Correct Protagonist Name]", "context": "Another common error"}
+    ],
+    "address_mistakes": [
+      {"wrong": "Senior Brother", "correct": "Young Master", "context": "Shen Yuqing's address to the protagonist"},
+      {"wrong": "Brother", "correct": "Nephew", "context": "An elder's address to the protagonist"}
+    ]
+  },
+
+  "validation_levels": {
+    "quick": {
+      "description": "Quick validation (use while writing)",
+      "checks": ["character_names", "basic_addresses"],
+      "time_estimate": "a few seconds"
+    },
+    "standard": {
+      "description": "Standard validation (daily check)",
+      "checks": ["character_consistency", "relationship_validation"],
+      "time_estimate": "1-2 minutes"
+    },
+    "deep": {
+      "description": "Deep validation (use before publishing)",
+      "checks": ["all"],
+      "time_estimate": "5-10 minutes"
+    }
+  },
+
+  "usage_guide": {
+    "write_command": "Automatically loads 'quick' level validation during /write",
+    "track_command": "Use /track --check to perform 'standard' level validation",
+    "fix_command": "Use /track --fix to automatically fix 'simple' level issues"
+  }
+}

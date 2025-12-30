@@ -1,312 +1,312 @@
-# Spec 目录说明
+# Spec Directory Guide
 
-> Novel Writer 的规范与数据组织中心
+> Novel Writer's Specification and Data Organization Hub
 
-## 📁 目录结构
+## 📁 Directory Structure
 
 ```
 spec/
-├── config.json                 # 主配置文件
-├── README.md                   # 本文件
-├── presets/                    # 写作方法预设
-│   ├── anti-ai-detection.md    # 反AI检测规范
-│   ├── golden-opening.md       # 黄金开篇法则
-│   ├── three-act/              # 三幕结构
-│   ├── hero-journey/           # 英雄之旅
-│   └── ...                     # 其他写作方法
-├── checklists/                 # 质量检查清单
+├── config.json                 # Main configuration file
+├── README.md                   # This file
+├── presets/                    # Writing method presets
+│   ├── anti-ai-detection.md    # Anti-AI detection guidelines
+│   ├── golden-opening.md       # Golden opening formula
+│   ├── three-act/              # Three-act structure
+│   ├── hero-journey/           # Hero's journey
+│   └── ...                     # Other writing methods
+├── checklists/                 # Quality checklists
 │   ├── specification-quality.md
 │   ├── plot-logic.md
 │   └── ...
-├── knowledge/                  # 知识库（积累的内容）
-│   ├── world/                  # 世界观知识
-│   ├── rules/                  # 规则知识
-│   ├── characters/             # 角色档案
-│   └── research/               # 研究资料
-└── tracking/                   # 追踪数据（运行时数据）
-    ├── plot-tracker.json       # 情节追踪
-    ├── character-state.json    # 角色状态
-    ├── relationships.json      # 关系网络
-    └── timeline.json           # 时间线
+├── knowledge/                  # Knowledge base (accumulated content)
+│   ├── world/                  # World-building knowledge
+│   ├── rules/                  # Rule-based knowledge
+│   ├── characters/             # Character profiles
+│   └── research/               # Research materials
+└── tracking/                   # Tracking data (runtime data)
+    ├── plot-tracker.json       # Plot tracking
+    ├── character-state.json    # Character states
+    ├── relationships.json      # Relationship network
+    └── timeline.json           # Timeline
 ```
 
 ---
 
-## 🎯 目录职责
+## 🎯 Directory Responsibilities
 
-### 规范层（不变的内容）
+### Specification Layer (Immutable Content)
 
-**`presets/`** - 写作方法预设
-- 职责：存放不同写作方法的模板和规范
-- 特点：这些文件是"只读参考"，不应被修改
-- 示例：`anti-ai-detection.md`（反AI检测规范）、`golden-opening.md`（黄金开篇法则）
-- 升级策略：可以被 `novel upgrade` 安全覆盖
+**`presets/`** - Writing method presets
+- **Responsibility**: Stores templates and guidelines for different writing methods.
+- **Characteristics**: These files are "read-only references" and should not be modified.
+- **Examples**: `anti-ai-detection.md` (Anti-AI detection guidelines), `golden-opening.md` (Golden opening formula).
+- **Upgrade Strategy**: Can be safely overwritten by `novel upgrade`.
 
-**`checklists/`** - 质量检查清单
-- 职责：存放各种质量检查标准
-- 特点：标准化的检查项，AI 使用 `/checklist` 命令时会读取
-- 示例：`specification-quality.md`（规格完整性检查）、`plot-logic.md`（情节逻辑检查）
-- 升级策略：可以被 `novel upgrade` 安全覆盖
+**`checklists/`** - Quality checklists
+- **Responsibility**: Stores various quality check standards.
+- **Characteristics**: Standardized checklist items, read by the AI when the `/checklist` command is used.
+- **Examples**: `specification-quality.md` (Specification integrity check), `plot-logic.md` (Plot logic check).
+- **Upgrade Strategy**: Can be safely overwritten by `novel upgrade`.
 
-**`config.json`** - 主配置文件
-- 职责：定义项目级别的配置
-- 特点：用户可以修改，但有默认值
-- 示例：`{"method": "three-act", "version": "0.5.2"}`
-- 升级策略：合并升级（保留用户自定义配置）
+**`config.json`** - Main configuration file
+- **Responsibility**: Defines project-level configurations.
+- **Characteristics**: Can be modified by the user, but has default values.
+- **Example**: `{"method": "three-act", "version": "0.5.2"}`
+- **Upgrade Strategy**: Merged upgrade (preserves user-defined configurations).
 
-### 知识层（积累的内容）
+### Knowledge Layer (Accumulated Content)
 
-**`knowledge/`** - 知识库
-- 职责：存放创作过程中积累的知识和资料
-- 特点：完全由用户创建和管理，系统不会覆盖
-- 子目录说明：
-  - `world/` - 世界观设定（地理、历史、文化）
-  - `rules/` - 规则知识（力量体系、法则）
-  - `characters/` - 角色档案（深度人物设定）
-  - `research/` - 研究资料（参考文献、灵感来源）
-- 升级策略：**永不覆盖**，完全保留用户内容
+**`knowledge/`** - Knowledge base
+- **Responsibility**: Stores knowledge and materials accumulated during the creative process.
+- **Characteristics**: Completely created and managed by the user; the system will not overwrite it.
+- **Subdirectory Descriptions**:
+  - `world/` - World-building settings (geography, history, culture).
+  - `rules/` - Rule-based knowledge (power systems, laws).
+  - `characters/` - Character profiles (in-depth character settings).
+  - `research/` - Research materials (references, sources of inspiration).
+- **Upgrade Strategy**: **Never overwritten**, user content is fully preserved.
 
-### 追踪层（运行时数据）
+### Tracking Layer (Runtime Data)
 
-**`tracking/`** - 追踪数据
-- 职责：存放创作过程中的动态追踪数据
-- 特点：随创作进度不断更新
-- 示例：
-  - `plot-tracker.json` - 记录情节进展
-  - `character-state.json` - 记录角色当前状态
-  - `relationships.json` - 记录角色关系网络
-  - `timeline.json` - 记录事件时间线
-- 升级策略：**永不覆盖**，完全保留用户数据
-
----
-
-## 🔍 查询协议（推荐）
-
-AI 在执行不同命令时，应按照以下顺序查询相关文件，确保上下文完整且优先级正确。
-
-### 创作准备阶段
-
-**适用命令**：`/constitution`, `/specify`, `/clarify`
-
-**查询顺序**：
-1. **先查**：`memory/novel-constitution.md`（创作宪法 - 最高原则）
-2. **再查**：`memory/style-reference.md`（风格参考 - 如果存在）
-3. **最后查**：`spec/presets/`（写作方法预设）
-
-**目的**：确保在定义故事规格时，遵循创作原则和风格指引。
+**`tracking/`** - Tracking data
+- **Responsibility**: Stores dynamic tracking data from the creative process.
+- **Characteristics**: Continuously updated as the creation progresses.
+- **Examples**:
+  - `plot-tracker.json` - Records plot progression.
+  - `character-state.json` - Records the current state of characters.
+  - `relationships.json` - Records the character relationship network.
+  - `timeline.json` - Records the timeline of events.
+- **Upgrade Strategy**: **Never overwritten**, user data is fully preserved.
 
 ---
 
-### 计划制定阶段
+## 🔍 Query Protocol (Recommended)
 
-**适用命令**：`/plan`, `/tasks`
+When executing different commands, the AI should query the relevant files in the following order to ensure a complete context and correct priority.
 
-**查询顺序**：
-1. **先查**：`memory/novel-constitution.md`（创作原则）
-2. **再查**：`stories/*/specification.md`（故事规格）
-3. **再查**：`spec/presets/golden-opening.md`（如果是前期规划）
-4. **最后查**：`spec/knowledge/`（知识库）
+### Creative Preparation Phase
 
-**目的**：制定符合规格和原则的创作计划。
+**Applicable Commands**: `/constitution`, `/specify`, `/clarify`
 
----
+**Query Order**:
+1. **First, check**: `memory/novel-constitution.md` (Creative constitution - highest principle).
+2. **Then, check**: `memory/style-reference.md` (Style reference - if it exists).
+3. **Finally, check**: `spec/presets/` (Writing method presets).
 
-### 具体写作阶段
-
-**适用命令**：`/write`
-
-**查询顺序（重要！）**：
-1. **先查**：`memory/novel-constitution.md`（创作宪法）
-2. **再查**：`memory/style-reference.md`（风格参考 - 如果通过 `/book-internalize` 生成）
-3. **再查**：`stories/*/specification.md`（故事规格）
-4. **再查**：`stories/*/creative-plan.md`（创作计划）
-5. **再查**：`stories/*/tasks.md`（当前任务）
-6. **再查**：`spec/tracking/` 相关文件：
-   - `character-state.json`（角色状态）
-   - `relationships.json`（关系网络）
-   - `plot-tracker.json`（情节追踪）
-7. **再查**：`spec/knowledge/` 相关文件（世界观、角色档案）
-8. **再查**：`spec/presets/anti-ai-detection.md`（反AI检测规范）
-9. **条件查询**：如果是前三章，额外查询 `spec/presets/golden-opening.md`
-
-**目的**：确保写作时有完整的上下文，符合所有规范和已有设定。
+**Purpose**: To ensure that the creative principles and style guidelines are followed when defining the story specifications.
 
 ---
 
-### 质量验证阶段
+### Planning Phase
 
-**适用命令**：`/analyze`, `/checklist`, `/track`
+**Applicable Commands**: `/plan`, `/tasks`
 
-**查询顺序**：
-1. **先查**：`memory/novel-constitution.md`（对照宪法检查合规性）
-2. **再查**：`stories/*/specification.md`（对照规格检查完成度）
-3. **再查**：`stories/*/creative-plan.md`（对照计划检查执行情况）
-4. **再查**：`spec/tracking/` 所有文件（检查一致性）
-5. **再查**：`spec/checklists/`（使用标准化检查清单）
-6. **条件查询**：如果是前三章，使用 `spec/presets/golden-opening.md` 的自检清单
+**Query Order**:
+1. **First, check**: `memory/novel-constitution.md` (Creative principles).
+2. **Then, check**: `stories/*/specification.md` (Story specifications).
+3. **Then, check**: `spec/presets/golden-opening.md` (If in the early planning stage).
+4. **Finally, check**: `spec/knowledge/` (Knowledge base).
 
-**目的**：全面验证内容质量，发现问题并提供改进建议。
+**Purpose**: To create a writing plan that conforms to the specifications and principles.
 
 ---
 
-## ⚙️ 规则优先级
+### Specific Writing Phase
 
-当不同文件的规则产生冲突时，按照以下优先级处理：
+**Applicable Command**: `/write`
 
-### 优先级顺序（从高到低）
+**Query Order (Important!)**:
+1. **First, check**: `memory/novel-constitution.md` (Creative constitution).
+2. **Then, check**: `memory/style-reference.md` (Style reference - if generated via `/book-internalize`).
+3. **Then, check**: `stories/*/specification.md` (Story specifications).
+4. **Then, check**: `stories/*/creative-plan.md` (Creative plan).
+5. **Then, check**: `stories/*/tasks.md` (Current tasks).
+6. **Then, check**: `spec/tracking/` related files:
+   - `character-state.json` (Character states).
+   - `relationships.json` (Relationship network).
+   - `plot-tracker.json` (Plot tracking).
+7. **Then, check**: `spec/knowledge/` related files (world-building, character profiles).
+8. **Then, check**: `spec/presets/anti-ai-detection.md` (Anti-AI detection guidelines).
+9. **Conditional query**: If it's the first three chapters, additionally query `spec/presets/golden-opening.md`.
 
-1. **用户即时指令**（最高优先级）
-   - 用户在命令中的具体要求
-   - 示例："这一章不要用黄金开篇法则，我想慢慢铺垫"
-   - 效果：覆盖所有预设规则
-
-2. **创作宪法**（`memory/novel-constitution.md`）
-   - 项目的最高创作原则
-   - 示例："本作品禁止描写暴力场景"
-   - 效果：覆盖所有预设规范
-
-3. **风格参考**（`memory/style-reference.md`）
-   - 对标作品的风格指引
-   - 示例："使用短句，避免华丽比喻"
-   - 效果：影响具体写作风格
-
-4. **故事规格**（`stories/*/specification.md`）
-   - 当前故事的具体要求
-   - 示例："目标读者是15-25岁男性"
-   - 效果：影响内容定位和风格
-
-5. **写作方法预设**（`spec/presets/`）
-   - 标准化的写作规范
-   - 示例：`anti-ai-detection.md`, `golden-opening.md`
-   - 效果：提供基础规范和最佳实践
-
-6. **知识库和追踪数据**（`spec/knowledge/`, `spec/tracking/`）
-   - 已有的设定和状态
-   - 示例：角色已经死亡，不能再出现
-   - 效果：确保一致性
-
-### 冲突解决示例
-
-**场景1**：黄金开篇 vs 创作宪法
-- **冲突**：`golden-opening.md` 要求第一章直接冲突，但 `constitution.md` 要求"慢热型，重视氛围营造"
-- **解决**：遵循 `constitution.md`，修改开篇策略
-- **依据**：创作宪法优先级高于预设规范
-
-**场景2**：风格参考 vs 反AI检测
-- **冲突**：`style-reference.md` 说对标作品使用华丽比喻，但 `anti-ai-detection.md` 说要避免华丽比喻
-- **解决**：优先 `style-reference.md`，但在华丽比喻上做适度克制
-- **依据**：风格参考优先级略高，但需平衡
-
-**场景3**：用户即时指令 vs 所有预设
-- **冲突**：用户说"这一章用大量环境描写铺垫气氛"，但所有规范都说要克制描写
-- **解决**：完全遵循用户指令
-- **依据**：用户即时指令拥有最高优先级
+**Purpose**: To ensure a complete context during writing, conforming to all guidelines and existing settings.
 
 ---
 
-## 🚀 最佳实践
+### Quality Validation Phase
 
-### 1. 项目初始化时
+**Applicable Commands**: `/analyze`, `/checklist`, `/track`
 
-建议的创建顺序：
-1. 运行 `/constitution` 创建 `memory/novel-constitution.md`
-2. （可选）运行 `/book-analyze` + `/book-internalize` 生成 `memory/style-reference.md`
-3. 运行 `/specify` 创建 `stories/*/specification.md`
-4. 运行 `/plan` 创建 `stories/*/creative-plan.md`
-5. 开始创作前，手动创建 `spec/knowledge/` 相关文件（世界观、角色等）
+**Query Order**:
+1. **First, check**: `memory/novel-constitution.md` (Check for compliance against the constitution).
+2. **Then, check**: `stories/*/specification.md` (Check for completeness against the specifications).
+3. **Then, check**: `stories/*/creative-plan.md` (Check for execution against the plan).
+4. **Then, check**: all files in `spec/tracking/` (Check for consistency).
+5. **Then, check**: `spec/checklists/` (Use standardized checklists).
+6. **Conditional query**: If it's the first three chapters, use the self-check list from `spec/presets/golden-opening.md`.
 
-### 2. 创作过程中
+**Purpose**: To comprehensively validate content quality, identify issues, and provide suggestions for improvement.
 
-**每次写作前**：
-- 确保 `spec/tracking/` 数据是最新的
-- 检查是否有新的角色或设定需要记录到 `spec/knowledge/`
+---
 
-**每完成5章**：
-- 运行 `/analyze` 进行质量检查
-- 运行 `/track` 更新追踪数据
-- 必要时运行 `/checklist` 进行专项检查
+## ⚙️ Rule Priority
 
-### 3. 版本升级时
+When rules from different files conflict, handle them according to the following priority:
 
-**安全升级**：
+### Priority Order (from highest to lowest)
+
+1. **User's Immediate Instructions** (Highest priority)
+   - Specific requirements in the user's command.
+   - **Example**: "Don't use the golden opening formula for this chapter; I want to build it up slowly."
+   - **Effect**: Overrides all preset rules.
+
+2. **Creative Constitution** (`memory/novel-constitution.md`)
+   - The project's highest creative principles.
+   - **Example**: "This work prohibits the depiction of violent scenes."
+   - **Effect**: Overrides all preset guidelines.
+
+3. **Style Reference** (`memory/style-reference.md`)
+   - Style guidelines from a reference work.
+   - **Example**: "Use short sentences and avoid ornate metaphors."
+   - **Effect**: Influences the specific writing style.
+
+4. **Story Specifications** (`stories/*/specification.md`)
+   - Specific requirements for the current story.
+   - **Example**: "The target audience is 15-25 year old males."
+   - **Effect**: Influences content positioning and style.
+
+5. **Writing Method Presets** (`spec/presets/`)
+   - Standardized writing guidelines.
+   - **Examples**: `anti-ai-detection.md`, `golden-opening.md`.
+   - **Effect**: Provides basic guidelines and best practices.
+
+6. **Knowledge Base and Tracking Data** (`spec/knowledge/`, `spec/tracking/`)
+   - Existing settings and states.
+   - **Example**: A character is already dead and cannot appear again.
+   - **Effect**: Ensures consistency.
+
+### Conflict Resolution Examples
+
+**Scenario 1**: Golden Opening vs. Creative Constitution
+- **Conflict**: `golden-opening.md` requires a direct conflict in the first chapter, but `constitution.md` calls for a "slow burn, with an emphasis on atmosphere."
+- **Resolution**: Follow `constitution.md` and modify the opening strategy.
+- **Basis**: The creative constitution has a higher priority than preset guidelines.
+
+**Scenario 2**: Style Reference vs. Anti-AI Detection
+- **Conflict**: `style-reference.md` says the reference work uses ornate metaphors, but `anti-ai-detection.md` says to avoid them.
+- **Resolution**: Prioritize `style-reference.md`, but use ornate metaphors with moderate restraint.
+- **Basis**: The style reference has a slightly higher priority but needs to be balanced.
+
+**Scenario 3**: User's Immediate Instruction vs. All Presets
+- **Conflict**: The user says, "Use a lot of environmental descriptions to build up the atmosphere in this chapter," but all guidelines say to limit descriptions.
+- **Resolution**: Follow the user's instruction completely.
+- **Basis**: The user's immediate instruction has the highest priority.
+
+---
+
+## 🚀 Best Practices
+
+### 1. During Project Initialization
+
+Recommended creation order:
+1. Run `/constitution` to create `memory/novel-constitution.md`.
+2. (Optional) Run `/book-analyze` + `/book-internalize` to generate `memory/style-reference.md`.
+3. Run `/specify` to create `stories/*/specification.md`.
+4. Run `/plan` to create `stories/*/creative-plan.md`.
+5. Before starting to write, manually create the relevant files in `spec/knowledge/` (world-building, characters, etc.).
+
+### 2. During the Creative Process
+
+**Before each writing session**:
+- Ensure the data in `spec/tracking/` is up-to-date.
+- Check if any new characters or settings need to be recorded in `spec/knowledge/`.
+
+**After every 5 chapters**:
+- Run `/analyze` for a quality check.
+- Run `/track` to update tracking data.
+- If necessary, run `/checklist` for a specific check.
+
+### 3. During Version Upgrades
+
+**Safe Upgrade**:
 ```bash
 novel upgrade
 ```
 
-**升级策略**：
-- `spec/presets/` - 会被更新（新增更好的规范）
-- `spec/checklists/` - 会被更新（新增检查项）
-- `spec/config.json` - 会合并更新（保留你的自定义配置）
-- `spec/knowledge/` - **永不覆盖**
-- `spec/tracking/` - **永不覆盖**
+**Upgrade Strategy**:
+- `spec/presets/` - Will be updated (with new and better guidelines).
+- `spec/checklists/` - Will be updated (with new checklist items).
+- `spec/config.json` - Will be merged and updated (preserving your custom configurations).
+- `spec/knowledge/` - **Never overwritten**.
+- `spec/tracking/` - **Never overwritten**.
 
-### 4. 多项目管理
+### 4. Managing Multiple Projects
 
-如果你同时创作多部作品：
-- 每部作品都有独立的 `spec/` 目录
-- 但可以共享 `presets/` 中的规范（通过软链接或复制）
-- `knowledge/` 和 `tracking/` 必须各自独立
+If you are writing multiple works at the same time:
+- Each work has its own independent `spec/` directory.
+- However, guidelines in `presets/` can be shared (via symlinks or by copying).
+- `knowledge/` and `tracking/` must be kept separate for each.
 
 ---
 
-## 📝 文件命名规范
+## 📝 File Naming Conventions
 
-### knowledge/ 目录
+### `knowledge/` Directory
 
-**推荐命名**：
-- 世界观：`world/geography.md`, `world/history.md`
-- 规则：`rules/power-system.md`, `rules/magic-rules.md`
-- 角色：`characters/protagonist.md`, `characters/villain.md`
-- 研究：`research/[作品名]-analysis.md`
+**Recommended Naming**:
+- World-building: `world/geography.md`, `world/history.md`
+- Rules: `rules/power-system.md`, `rules/magic-rules.md`
+- Characters: `characters/protagonist.md`, `characters/villain.md`
+- Research: `research/[work-title]-analysis.md`
 
-### tracking/ 目录
+### `tracking/` Directory
 
-**固定命名**（由系统生成，不要修改）：
+**Fixed Naming** (generated by the system, do not modify):
 - `plot-tracker.json`
 - `character-state.json`
 - `relationships.json`
 - `timeline.json`
 - `validation-rules.json`
 
-### checklists/ 目录
+### `checklists/` Directory
 
-**推荐命名**：
-- 规格类：`specification-*.md`
-- 内容类：`plot-*.md`, `character-*.md`, `world-*.md`
-- 风格类：`style-*.md`, `dialogue-*.md`
+**Recommended Naming**:
+- Specification-related: `specification-*.md`
+- Content-related: `plot-*.md`, `character-*.md`, `world-*.md`
+- Style-related: `style-*.md`, `dialogue-*.md`
 
 ---
 
-## 🔧 进阶技巧
+## 🔧 Advanced Tips
 
-### 技巧1：使用符号链接共享预设
+### Tip 1: Use Symlinks to Share Presets
 
-如果你有多个项目想共享相同的写作方法预设：
+If you have multiple projects and want to share the same writing method presets:
 
 ```bash
-# 在项目A中
+# In project A
 cd project-a/spec
 ln -s /path/to/shared-presets presets
 
-# 项目B也可以这样做
+# Project B can do the same
 cd project-b/spec
 ln -s /path/to/shared-presets presets
 ```
 
-### 技巧2：建立个人规范库
+### Tip 2: Create a Personal Guideline Library
 
-创建一个 `~/.novel-writer/presets/` 目录，存放你个人总结的写作规范，然后在项目中引用。
+Create a `~/.novel-writer/presets/` directory to store your personally summarized writing guidelines, and then reference them in your projects.
 
-### 技巧3：使用 Git 版本控制
+### Tip 3: Use Git for Version Control
 
-强烈建议将 `spec/` 目录纳入 Git 版本控制：
+It is highly recommended to include the `spec/` directory in Git version control:
 
 ```bash
 # .gitignore
-spec/tracking/*.json  # 追踪数据不纳入版本控制
-spec/knowledge/      # 知识库可选择性纳入
+spec/tracking/*.json  # Tracking data is not included in version control
+spec/knowledge/      # Knowledge base can be selectively included
 
-# 但这些应该纳入：
+# But these should be included:
 spec/presets/
 spec/checklists/
 spec/config.json
@@ -314,42 +314,42 @@ spec/config.json
 
 ---
 
-## ❓ 常见问题
+## ❓ Frequently Asked Questions
 
-### Q1: `knowledge/` 和 `tracking/` 有什么区别？
-
-**A**:
-- `knowledge/` 是"静态知识"，比如角色的基础设定、世界观规则，不会频繁变化
-- `tracking/` 是"动态状态"，比如角色当前的位置、关系、情绪，每章都可能变化
-
-### Q2: 可以删除 `presets/` 里不用的方法吗？
+### Q1: What's the difference between `knowledge/` and `tracking/`?
 
 **A**:
-可以，但不推荐。保留它们不会占用多少空间，且未来可能会用到。如果确实想删除，记得备份。
+- `knowledge/` is for "static knowledge," such as basic character settings and world-building rules, which do not change frequently.
+- `tracking/` is for "dynamic states," such as a character's current location, relationships, and emotions, which may change with each chapter.
 
-### Q3: 升级后 `presets/` 被覆盖了怎么办？
-
-**A**:
-这是正常的。`presets/` 的设计就是可以被安全覆盖的。如果你对某个预设做了自定义修改，应该：
-1. 复制到 `memory/` 或 `knowledge/` 目录
-2. 或者重命名（如 `anti-ai-detection-custom.md`）
-
-### Q4: 我可以自己创建预设吗？
+### Q2: Can I delete unused methods from `presets/`?
 
 **A**:
-当然可以！在 `presets/` 或 `memory/` 中创建任何你需要的 `.md` 文件，AI 在读取目录时会发现它们。
+You can, but it is not recommended. Keeping them does not take up much space, and you might need them in the future. If you do decide to delete them, remember to back them up.
+
+### Q3: What should I do if `presets/` is overwritten after an upgrade?
+
+**A**:
+This is normal. The `presets/` directory is designed to be safely overwritten. If you have made custom modifications to a preset, you should:
+1. Copy it to the `memory/` or `knowledge/` directory.
+2. Or rename it (e.g., `anti-ai-detection-custom.md`).
+
+### Q4: Can I create my own presets?
+
+**A**:
+Of course! You can create any `.md` file you need in the `presets/` or `memory/` directories, and the AI will discover them when it reads the directories.
 
 ---
 
-## 📚 相关文档
+## 📚 Related Documents
 
-- **创作流程指南**：`docs/workflow.md`
-- **命令详解**：`docs/commands.md`
-- **最佳实践**：`docs/best-practices.md`
-- **升级指南**：`docs/upgrade-guide.md`
+- **Creative Workflow Guide**: `docs/workflow.md`
+- **Command Details**: `docs/commands.md`
+- **Best Practices**: `docs/best-practices.md`
+- **Upgrade Guide**: `docs/upgrade-guide.md`
 
 ---
 
-**版本**：v1.0.0
-**更新日期**：2025-01-14
-**维护者**：Novel Writer Team
+**Version**: v1.0.0
+**Last Updated**: 2025-01-14
+**Maintained by**: Novel Writer Team

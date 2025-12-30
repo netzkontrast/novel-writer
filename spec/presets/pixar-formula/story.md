@@ -1,255 +1,255 @@
-# 小说：[作品标题] - 皮克斯公式框架
+# Novel: [Work Title] - The Pixar Formula Framework
 
-## 基本信息
-- **类型**：[儿童/寓言/短篇/温情故事等]
-- **字数目标**：[1-3万字]
-- **目标读者**：[全年龄/儿童/家庭]
-- **创作方法**：皮克斯故事公式（Pixar Story Formula）
+## Basic Information
+- **Genre**: [Children's/Fable/Short Story/Heartwarming, etc.]
+- **Word Count Target**: [10,000-30,000 words]
+- **Target Audience**: [All Ages/Children/Family]
+- **Writing Method**: The Pixar Story Formula
 
-## 快速故事概要（6句话版本）
+## Quick Story Summary (6-Sentence Version)
 
-1. **从前有一个** _____________________
-2. **每天，** _____________________
-3. **直到有一天** _____________________
-4. **因为这个，** _____________________
-5. **因为那个，** _____________________
-6. **最终，** _____________________
+1.  **Once upon a time, there was** _____________________
+2.  **Every day,** _____________________
+3.  **Until one day,** _____________________
+4.  **Because of that,** _____________________
+5.  **Because of that,** _____________________
+6.  **Until finally,** _____________________
 
-## 详细故事规划
+## Detailed Story Plan
 
-### 第1步：从前有一个（Once upon a time）
-**章节范围**：第1-2章（10%）
+### Step 1: Once upon a time
+**Chapter Range**: 1-2 (10%)
 
-#### 主角介绍
-- **身份**：[谁？什么身份？]
-- **特点**：[最突出的特征]
-- **环境**：[生活在哪里？]
-- **时代**：[什么时候？]
+#### Protagonist Introduction
+- **Identity**: [Who? What is their role?]
+- **Defining Trait**: [The most prominent characteristic.]
+- **Environment**: [Where do they live?]
+- **Era**: [When does this take place?]
 
-#### 世界设定
-- **地点特色**：[独特的环境]
-- **规则/文化**：[特殊的设定]
-- **氛围基调**：[温馨/神秘/奇幻]
+#### World Setting
+- **Location's Feature**: [A unique environment.]
+- **Rules/Culture**: [Special settings.]
+- **Atmospheric Tone**: [Warm/Mysterious/Fantastical.]
 
-#### 开场方式
-- **第一印象**：[读者首先看到什么]
-- **吸引点**：[什么让读者继续读]
-- **情感连接**：[如何产生共鸣]
+#### Opening Hook
+- **First Impression**: [What the reader sees first.]
+- **The Hook**: [What makes the reader want to continue.]
+- **Emotional Connection**: [How to create resonance.]
 
-**示例**：
-"从前有一个___[孤独的老园丁，住在城市边缘的破旧花园里]___"
-
----
-
-### 第2步：每天（Every day）
-**章节范围**：第3-5章（15%）
-
-#### 日常生活
-- **例行活动**：[每天做什么]
-- **生活节奏**：[怎样的规律]
-- **小确幸**：[日常的快乐]
-- **小烦恼**：[日常的困扰]
-
-#### 关系网络
-- **独处时光**：[独自做什么]
-- **社交互动**：[与谁交往]
-- **情感状态**：[快乐？寂寞？满足？]
-
-#### 潜在问题
-- **表面平静**：[看起来还好]
-- **内心空缺**：[缺少什么]
-- **改变需求**：[需要什么改变]
-
-**示例**：
-"每天，___[他独自照料枯萎的花朵，与植物说话，假装它们能听懂]___"
+**Example**:
+"Once upon a time, there was ___ a lonely old gardener who lived in a rundown garden at the edge of the city ___"
 
 ---
 
-### 第3步：直到有一天（One day）
-**章节范围**：第6-10章（20%）
+### Step 2: Every day
+**Chapter Range**: 3-5 (15%)
 
-#### 触发事件
-- **意外发生**：[什么打破了平静]
-- **如何发生**：[具体的场景]
-- **初始反应**：[主角的第一反应]
+#### Daily Life
+- **Routine Activities**: [What do they do every day?]
+- **Pace of Life**: [What is the rhythm?]
+- **Small Joys**: [Everyday happiness.]
+- **Minor Annoyances**: [Daily troubles.]
 
-#### 改变的种子
-- **新的元素**：[什么新事物进入]
-- **机会出现**：[什么可能性打开]
-- **选择时刻**：[面临什么选择]
+#### Relationship Network
+- **Time Alone**: [What do they do alone?]
+- **Social Interaction**: [Who do they interact with?]
+- **Emotional State**: [Happy? Lonely? Content?]
 
-#### 连锁开始
-- **第一个改变**：[立即的变化]
-- **涟漪效应**：[影响扩散]
-- **不可逆转**：[无法回头]
+#### Underlying Problem
+- **Calm Surface**: [Things seem fine.]
+- **Inner Void**: [What is missing?]
+- **Need for Change**: [What change is needed?]
 
-**示例**：
-"直到有一天___[一个迷路的小女孩闯入花园，带来了一袋神奇的种子]___"
-
----
-
-### 第4步：因为这个（Because of that）- 第一层后果
-**章节范围**：第11-15章（20%）
-
-#### 直接后果
-- **立即影响**：[事件的直接结果]
-- **主角行动**：[主角做了什么]
-- **初步改变**：[什么开始不同]
-
-#### 新的挑战
-- **意外困难**：[没预料到的问题]
-- **必须应对**：[不得不处理]
-- **学习过程**：[开始学到什么]
-
-#### 关系发展
-- **新的连接**：[建立什么关系]
-- **互相影响**：[如何改变彼此]
-- **情感递进**：[感情如何深化]
-
-**示例**：
-"因为这个，___[老园丁开始和小女孩一起种植，花园慢慢恢复生机]___"
+**Example**:
+"Every day, ___ he tended to the wilting flowers alone, talking to the plants as if they could understand ___"
 
 ---
 
-### 第5步：因为那个（Because of that）- 第二层后果
-**章节范围**：第16-20章（20%）
+### Step 3: Until one day
+**Chapter Range**: 6-10 (20%)
 
-#### 深层影响
-- **扩大效应**：[影响扩散到更大范围]
-- **更大挑战**：[面临更严重的问题]
-- **关键冲突**：[核心矛盾爆发]
+#### The Inciting Incident
+- **The Unexpected**: [What breaks the routine?]
+- **How it Happens**: [The specific scene.]
+- **Initial Reaction**: [The protagonist's first reaction.]
 
-#### 危机时刻
-- **最大困难**：[最难的挑战]
-- **似乎失败**：[看起来要失去一切]
-- **内心挣扎**：[最深的恐惧]
+#### The Seed of Change
+- **A New Element**: [What new thing is introduced?]
+- **An Opportunity Arises**: [What possibility opens up?]
+- **A Moment of Choice**: [What choice do they face?]
 
-#### 转折准备
-- **关键认识**：[明白了什么]
-- **决心形成**：[下定什么决心]
-- **最后努力**：[准备最后一搏]
+#### The Beginning of the Chain Reaction
+- **The First Change**: [The immediate difference.]
+- **The Ripple Effect**: [The impact spreads.]
+- **No Turning Back**: [The point of no return.]
 
-**示例**：
-"因为那个，___[整个社区的人都来帮忙，但开发商要拆除花园建商场]___"
-
----
-
-### 第6步：最终（Until finally）
-**章节范围**：第21-25章（15%）
-
-#### 高潮解决
-- **最后对抗**：[如何面对最大挑战]
-- **意外转机**：[什么带来转机]
-- **问题解决**：[如何解决冲突]
-
-#### 新的平衡
-- **改变完成**：[主角如何改变]
-- **世界不同**：[环境如何改变]
-- **关系确立**：[关系的新状态]
-
-#### 意义升华
-- **学到什么**：[故事的教训]
-- **获得什么**：[内心的收获]
-- **失去什么**：[付出的代价]
-
-#### 余韵
-- **新的日常**：[新的每天是怎样]
-- **持续影响**：[改变如何延续]
-- **开放可能**：[未来的暗示]
-
-**示例**：
-"最终，___[花园变成了社区公园，老园丁不再孤独，小女孩有了秘密基地]___"
+**Example**:
+"Until one day ___ a lost little girl wandered into the garden, bringing a bag of magical seeds ___"
 
 ---
 
-## 扩展元素（可选）
+### Step 4: Because of that - The First Consequence
+**Chapter Range**: 11-15 (20%)
 
-### 第7步：从那以后（Ever since then）
-**如果需要延伸**
+#### Direct Consequences
+- **Immediate Impact**: [The direct result of the event.]
+- **Protagonist's Action**: [What the protagonist does.]
+- **Initial Change**: [What starts to be different.]
 
-- **持久改变**：[什么永久改变了]
-- **新的常态**：[新的"每天"是怎样]
-- **影响传承**：[影响如何传递]
+#### A New Challenge
+- **Unexpected Difficulty**: [An unforeseen problem.]
+- **Must Be Dealt With**: [What has to be handled.]
+- **The Learning Process**: [What they start to learn.]
 
-### 第8步：故事的寓意（The moral is）
-**主题明确**
+#### Relationship Development
+- **A New Connection**: [What relationship is formed.]
+- **Mutual Influence**: [How they change each other.]
+- **Emotional Progression**: [How the feelings deepen.]
 
-- **核心message**：[想传达什么]
-- **生活智慧**：[什么人生道理]
-- **情感共鸣**：[触动什么情感]
+**Example**:
+"Because of that, ___ the old gardener and the little girl started planting together, and the garden slowly came back to life ___"
 
-## 角色精简设计
+---
 
-### 主角
-- **核心特征**：[一个突出特点]
-- **核心需求**：[缺少什么]
-- **核心改变**：[学会什么]
+### Step 5: Because of that - The Second Consequence
+**Chapter Range**: 16-20 (20%)
 
-### 催化剂角色
-- **带来改变的人/物**：[谁打破平静]
-- **功能**：[起什么作用]
+#### Deeper Impact
+- **Widening Effect**: [The impact spreads to a larger area.]
+- **A Bigger Challenge**: [A more serious problem arises.]
+- **The Key Conflict**: [The core conflict erupts.]
 
-### 辅助角色（1-2个）
-- **角色1**：[简单功能]
-- **角色2**：[简单功能]
+#### The Moment of Crisis
+- **The Greatest Difficulty**: [The toughest challenge.]
+- **Apparent Failure**: [It looks like all is lost.]
+- **Inner Struggle**: [The deepest fear.]
 
-## 情感曲线
+#### Preparing for the Turning Point
+- **A Key Realization**: [What they understand.]
+- **A Decision is Made**: [What they resolve to do.]
+- **The Final Effort**: [Preparing for one last push.]
+
+**Example**:
+"Because of that, ___ the entire community came to help, but a developer wanted to demolish the garden to build a mall ___"
+
+---
+
+### Step 6: Until finally
+**Chapter Range**: 21-25 (15%)
+
+#### The Climax and Resolution
+- **The Final Confrontation**: [How they face the biggest challenge.]
+- **An Unexpected Turn**: [What brings about a change.]
+- **The Problem is Solved**: [How the conflict is resolved.]
+
+#### The New Balance
+- **The Transformation is Complete**: [How the protagonist has changed.]
+- **The World is Different**: [How the environment has changed.]
+- **Relationships are Redefined**: [The new state of relationships.]
+
+#### Thematic Climax
+- **What was Learned**: [The lesson of the story.]
+- **What was Gained**: [The inner reward.]
+- **What was Lost**: [The price that was paid.]
+
+#### The Afterglow
+- **The New Routine**: [What the new "every day" is like.]
+- **The Lasting Impact**: [How the change continues.]
+- **Open Possibilities**: [A hint of the future.]
+
+**Example**:
+"Until finally, ___ the garden became a community park, the old gardener was no longer lonely, and the little girl had a secret base ___"
+
+---
+
+## Extended Elements (Optional)
+
+### Step 7: And ever since then
+**If an extension is needed**
+
+- **The Lasting Change**: [What has permanently changed.]
+- **The New Normal**: [What the new "every day" is like.]
+- **The Legacy**: [How the impact is passed on.]
+
+### Step 8: And the moral of the story is
+**Clarifying the theme**
+
+- **The Core Message**: [What you want to convey.]
+- **Life Wisdom**: [What life lesson is taught.]
+- **Emotional Resonance**: [What emotion is stirred.]
+
+## Simplified Character Design
+
+### The Protagonist
+- **Core Trait**: [One prominent feature.]
+- **Core Need**: [What is missing.]
+- **Core Change**: [What is learned.]
+
+### The Catalyst Character
+- **The person/thing that brings change**: [Who breaks the calm.]
+- **Function**: [What role do they play.]
+
+### Supporting Characters (1-2)
+- **Character 1**: [A simple function.]
+- **Character 2**: [A simple function.]
+
+## Emotional Curve
 
 ```
-情感强度
-高 |      ╱╲___因为那个
-   |     ╱     ╲
-中 |____╱ 因为这个 ╲____最终
-   | 每天  直到有一天
-低 |从前
-   |___________________
-   1   2   3   4   5   6
+Emotional Intensity
+High|      ╱╲___Because of that
+    |     ╱     ╲
+Mid |____╱ Because of that ╲____Until finally
+    | Every day  Until one day
+Low |Once upon a time
+    |___________________
+    1   2   3   4   5   6
 ```
 
-## 写作技巧提醒
+## Writing Technique Reminders
 
-### 简洁性
-- [ ] 每个步骤控制在设定比例内
-- [ ] 不要过度描写
-- [ ] focus在因果链条
+### Simplicity
+- [ ] Keep each step within the set proportion.
+- [ ] Don't over-describe.
+- [ ] Focus on the causal chain.
 
-### 情感性
-- [ ] 开头建立情感连接
-- [ ] 中间制造情感波动
-- [ ] 结尾情感满足
+### Emotion
+- [ ] Establish an emotional connection at the beginning.
+- [ ] Create emotional fluctuations in the middle.
+- [ ] Provide emotional satisfaction at the end.
 
-### 因果性
-- [ ] 每个"因为"都要逻辑清晰
-- [ ] 连锁反应要自然
-- [ ] 避免生硬转折
+### Causality
+- [ ] Make sure each "because of that" is logical.
+- [ ] The chain reaction should be natural.
+- [ ] Avoid forced turning points.
 
-## 快速检查清单
+## Quick Checklist
 
-1. **从前有一个** - 是否立即吸引？
-2. **每天** - 是否建立了基准？
-3. **直到有一天** - 改变够重要吗？
-4. **因为这个** - 因果合理吗？
-5. **因为那个** - 升级自然吗？
-6. **最终** - 结局满意吗？
+1.  **Once upon a time** - Is it immediately engaging?
+2.  **Every day** - Is a baseline established?
+3.  **Until one day** - Is the change significant enough?
+4.  **Because of that** - Is the cause and effect reasonable?
+5.  **Because of that** - Is the escalation natural?
+6.  **Until finally** - Is the ending satisfying?
 
-## 一页纸大纲
+## One-Page Outline
 
-将整个故事压缩成一页纸：
+Condense the entire story onto a single page:
 
 ```
-标题：_____________
+Title: _____________
 
-1. 从前：____________（1句话）
-2. 每天：____________（1句话）
-3. 有一天：__________（1句话）
-4. 因此1：___________（1句话）
-5. 因此2：___________（1句话）
-6. 最终：____________（1句话）
+1. Once upon a time: ____________ (1 sentence)
+2. Every day: ____________ (1 sentence)
+3. One day: __________ (1 sentence)
+4. Because of that 1: ___________ (1 sentence)
+5. Because of that 2: ___________ (1 sentence)
+6. Until finally: ____________ (1 sentence)
 
-主题：______________（1句话）
+Theme: ______________ (1 sentence)
 ```
 
 ---
-*创建时间：[日期]*
-*方法论：皮克斯公式*
-*版本：1.0*
+*Created: [Date]*
+*Methodology: The Pixar Formula*
+*Version: 1.0*

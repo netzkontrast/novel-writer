@@ -1,427 +1,427 @@
-# 黄金开篇执行模块
+# Golden Opening Execution Module
 
-> 前三章或前一万字内严格执行的开篇法则
+> A set of rules to be strictly followed within the first three chapters or the first 10,000 words.
 
-## 核心理念
+## Core Philosophy
 
-小说的开篇至关重要，前三章决定了90%的读者留存率。本模块提供经过验证的黄金法则，帮助你在开篇迅速抓住读者。
-
----
-
-## 五大黄金法则
-
-### 法则1：动态场景切入
-
-**要求**：
-- **禁止**：静止场景或大段环境描写作为开头
-- **必须**：从充满冲突、动作或激烈对话的动态事件中直接切入
-
-**原理**：
-读者打开一本新小说时，心理状态是"试探性的"。静态开篇容易让人失去耐心，而动态切入能立即抓住注意力。
-
-**示例对比**：
-
-❌ **静态开篇**（不推荐）：
-> 夜色降临，月光洒在古老的街道上。这是一座有着三百年历史的小镇，青石板路见证了无数故事...
-
-✅ **动态切入**（推荐）：
-> "站住！"
->
-> 陈凡猛地回头，三个黑衣人已经堵住了巷口。
->
-> 完了。
-
-**实施技巧**：
-- 从对话开始
-- 从动作开始（追逐、打斗、逃跑）
-- 从冲突开始（争执、危机、选择）
+The opening of a novel is crucial; the first three chapters determine 90% of reader retention. This module provides a proven golden formula to quickly hook your readers from the very beginning.
 
 ---
 
-### 法则2：核心冲突前置
+## The Five Golden Rules
 
-**要求**：
-第一章内必须抛出主角面临的核心冲突或巨大困境，让读者立刻明白故事的看点所在。
+### Rule 1: Start with a Dynamic Scene
 
-**原理**：
-读者需要知道"这个故事讲什么"才会继续读下去。模糊的开篇会让读者失去方向感。
+**Requirement**:
+- **Do not**: Start with a static scene or a long environmental description.
+- **Must**: Dive directly into a dynamic event full of conflict, action, or intense dialogue.
 
-**核心冲突类型**：
-1. **生存危机**："再不赚到钱，妹妹的手术费就凑不齐了"
-2. **身份困境**："穿越成废材三皇子，三天后就要被送去和亲"
-3. **时间压力**:"七天内找到真凶，否则全家陪葬"
-4. **能力挑战**："灵根废了，还怎么参加三个月后的宗门大比？"
+**Rationale**:
+When readers start a new novel, they are in a "testing" mindset. A static opening can easily make them lose patience, while a dynamic entry immediately grabs their attention.
 
-**展现方式**：
-- 直接陈述（简洁有力）
-- 通过对话揭示
-- 通过危机事件展现
+**Example Comparison**:
 
-**示例**：
-> 【第一章开篇】
-> 韩立站在七玄门的药园里，摸着怀中的神秘小瓶。
+❌ **Static Opening** (Not recommended):
+> Night fell, and moonlight灑d upon the ancient streets. This was a small town with three hundred years of history, its cobblestone paths having witnessed countless stories...
+
+✅ **Dynamic Entry** (Recommended):
+> "Stop!"
 >
-> 今晚，墨大夫就要对他动手了。
+> Chen Fan whipped his head around. Three men in black had already blocked the alley's exit.
 >
-> 他知道，因为昨夜他听到了墨大夫和李长老的密谋。不杀墨大夫，他活不过三天。
+> It's over.
+
+**Implementation Techniques**:
+- Start with dialogue.
+- Start with action (a chase, a fight, an escape).
+- Start with conflict (an argument, a crisis, a choice).
 
 ---
 
-### 法则3：避免信息轰炸
+### Rule 2: Front-load the Core Conflict
 
-**要求**：
-- **绝对禁止**：开篇大篇幅介绍世界观、人物背景
-- **必须**：通过情节推进"滴灌式"透露信息
+**Requirement**:
+The protagonist's core conflict or a huge dilemma must be presented within the first chapter, letting readers immediately understand what the story is about.
 
-**原理**：
-信息轰炸是新手最常犯的错误。读者此时对世界和角色毫无感情，强行灌输只会让他们厌烦。
+**Rationale**:
+Readers need to know "what this story is about" to continue reading. A vague opening will leave them feeling lost.
 
-**禁止的开篇类型**：
+**Types of Core Conflicts**:
+1.  **Survival Crisis**: "If I don't make money soon, I won't be able to afford my sister's surgery."
+2.  **Identity Dilemma**: "I've been reincarnated as a useless third prince, and in three days, I'm being sent off to be married into another kingdom."
+3.  **Time Pressure**: "Find the real killer in seven days, or my whole family will be executed."
+4.  **Ability Challenge**: "My spiritual roots are destroyed, how can I participate in the sect's grand competition in three months?"
 
-❌ **世界观轰炸**：
-> 玄幻大陆分为五大域，每域又分三十六国。修炼体系从炼气期到大乘期共分十三阶，每阶又分前中后期...（连续三页设定介绍）
+**Presentation Methods**:
+- Direct statement (concise and powerful).
+- Revealed through dialogue.
+- Shown through a crisis event.
 
-❌ **人物背景轰炸**：
-> 陈凡，生于东海王府，父亲是当朝国师，母亲是南疆圣女，三岁开始修炼，五岁习得家传绝学...（连续五百字背景介绍）
-
-**正确做法**：
-- **只交代当前场景必需的信息**
-- **通过对话自然带出**
-- **在情节推进中逐步揭示**
-
-**示例**（滴灌式）：
-> 【第一章】只提：韩立是七玄门外门弟子（身份）
+**Example**:
+> [Opening of Chapter 1]
+> Han Li stood in the herb garden of the Seven Mysteries Sect, clutching the mysterious small bottle in his robe.
 >
-> 【第三章】通过对话提：七玄门是越国六大门派之一（世界观一角）
+> Tonight, Elder Mo was going to make his move on him.
 >
-> 【第五章】通过事件提：修炼分炼气、筑基等阶段（力量体系一角）
->
-> 【第十章】才完整展现：越国修仙界格局（完整世界观）
+> He knew because he had overheard the secret plot between Elder Mo and Elder Li last night. If he didn't kill Elder Mo, he wouldn't live for more than three days.
 
 ---
 
-### 法则4：限制出场人数
+### Rule 3: Avoid Information Dumps
 
-**要求**：
-开篇（第一章）有名有姓、参与核心冲突的角色不应超过**三人**，确保焦点集中在主角身上。
+**Requirement**:
+- **Absolutely forbid**: Starting with a large amount of world-building or character background.
+- **Must**: Reveal information through a "drip-feed" as the plot progresses.
 
-**原理**：
-读者记忆力有限，一下子出现太多角色会造成混乱，无法建立对主角的认同感。
+**Rationale**:
+Information dumping is the most common mistake for new writers. At this point, readers have no emotional connection to the world or characters, and force-feeding them information will only annoy them.
 
-**人数控制**：
-- 第一章：1-3个核心角色（主角+1-2个重要角色）
-- 第二章：可增加2-3个配角
-- 第三章：世界逐渐展开，角色可以增多
+**Forbidden Opening Types**:
 
-**路人处理**：
-- 大量路人可以存在，但不要给名字
-- 用身份代替："一个黑衣人"、"摊贩"、"路过的修士"
-- 重要配角延后出场
+❌ **World-building Dump**:
+> The Xuanhuan Continent is divided into five great domains, each with thirty-six kingdoms. The cultivation system is divided into thirteen stages, from Qi Refining to Mahayana, and each stage is further divided into early, middle, and late phases... (three pages of setting introduction).
 
-**示例**：
-> 【第一章核心角色】
-> - 主角：韩立（全程视角）
-> - 对手：墨大夫（核心冲突）
-> - 配角：李富贵（好友，只出现一个场景）
+❌ **Character Background Dump**:
+> Chen Fan, born in the mansion of the East Sea King, his father the state preceptor, his mother the holy maiden of the southern border, began cultivating at the age of three, mastered the family's secret techniques at five... (five hundred words of background introduction).
+
+**Correct Approach**:
+- **Only provide information necessary for the current scene.**
+- **Introduce it naturally through dialogue.**
+- **Reveal it gradually as the plot moves forward.**
+
+**Example** (Drip-feed):
+> [Chapter 1] Only mentions: Han Li is an outer disciple of the Seven Mysteries Sect (identity).
 >
-> 【其他角色处理】
-> - 七玄门掌门：提及，但不出场
-> - 其他弟子：用"几个师兄"代替，不给名字
-> - 家人：提及，但不展开
+> [Chapter 3] Mentions through dialogue: The Seven Mysteries Sect is one of the six major sects in the State of Yue (a corner of the world-building).
+>
+> [Chapter 5] Mentions through an event: Cultivation is divided into stages like Qi Refining and Foundation Establishment (a corner of the power system).
+>
+> [Chapter 10] Finally reveals: The full picture of the cultivation world in the State of Yue (complete world-building).
 
 ---
 
-### 法则5：快速展现金手指
+### Rule 4: Limit the Number of Characters
 
-**要求**：
-在主角遇到第一个危机后，应在**第二章或第三章内**快速展现其"金手指"（核心信息差）的作用，完成第一个小的"逆袭"或"打脸"，给读者带来初步的爽感。
+**Requirement**:
+In the opening (Chapter 1), there should be no more than **three** named characters involved in the core conflict, ensuring the focus remains on the protagonist.
 
-**原理**：
-读者需要在前三章看到"希望"和"爽点"，否则会认为这是一个平淡无奇的故事而弃书。
+**Rationale**:
+Readers have limited memory. Introducing too many characters at once causes confusion and prevents them from forming an attachment to the protagonist.
 
-**展现策略**：
-1. **第一章**：展示困境，暗示金手指存在
-2. **第二章**：金手指初次发挥作用
-3. **第三章**：小胜利，建立读者信心
+**Character Control**:
+- Chapter 1: 1-3 core characters (protagonist + 1-2 important characters).
+- Chapter 2: Can add 2-3 supporting characters.
+- Chapter 3: The world gradually unfolds, and more characters can be introduced.
 
-**金手指展现方式**：
-- **能力型**：使用新能力解决危机
-- **知识型**：利用信息差逆转局面
-- **资源型**：获得关键物品/人脉
-- **系统型**：系统提供帮助
+**Handling Extras**:
+- A large number of extras can be present, but don't give them names.
+- Use their roles instead: "a man in black," "a stall owner," "a passing cultivator."
+- Delay the introduction of important supporting characters.
 
-**爽点设计**：
-- **打脸**：原本被鄙视的主角展现实力
-- **逆袭**：弱者战胜强者
-- **装逼**：低调展露真实水平
-- **收获**：获得重要奖励
-
-**示例结构**：
-> 【第一章】韩立面临生死危机（墨大夫要杀他）
+**Example**:
+> [Core Characters in Chapter 1]
+> - Protagonist: Han Li (the entire perspective).
+> - Antagonist: Elder Mo (the core conflict).
+> - Supporting Character: Li Fugui (a friend, appears in only one scene).
 >
-> 【第二章】韩立使用神秘小瓶培育的灵药，实力暴涨，反杀墨大夫
-> - 打脸：曾经弱小的外门弟子，杀死了欺压他的师父
-> - 收获：获得墨大夫的储物袋，发现大量资源
->
-> 【第三章】韩立处理后续，获得安全，决定隐藏实力
-> - 小胜利：化解危机，站稳脚跟
-> - 建立目标：要在宗门中生存下去，继续变强
+> [Handling Other Characters]
+> - Sect Master of Seven Mysteries Sect: Mentioned, but does not appear.
+> - Other disciples: Referred to as "a few senior brothers," no names given.
+> - Family: Mentioned, but not elaborated on.
 
 ---
 
-## 开篇结构模板
+### Rule 5: Quickly Reveal the "Golden Finger" (Special Advantage)
 
-### 标准三章结构
+**Requirement**:
+After the protagonist encounters their first crisis, their "Golden Finger" (core information advantage) must be revealed in **Chapter 2 or 3**, achieving a small initial "comeback" or "face-slapping" to give readers an early sense of satisfaction.
+
+**Rationale**:
+Readers need to see "hope" and a "payoff" in the first three chapters, or they will assume the story is mediocre and drop it.
+
+**Revelation Strategy**:
+1.  **Chapter 1**: Present the dilemma, hint at the existence of the Golden Finger.
+2.  **Chapter 2**: The Golden Finger is used for the first time.
+3.  **Chapter 3**: A small victory, building reader confidence.
+
+**Methods of Revealing the Golden Finger**:
+- **Ability-based**: Using a new ability to solve a crisis.
+- **Knowledge-based**: Using an information advantage to turn the tables.
+- **Resource-based**: Obtaining a key item or connection.
+- **System-based**: The system provides help.
+
+**Designing the Payoff**:
+- **Face-slapping**: The once-despised protagonist shows their true strength.
+- **Comeback**: The weak defeat the strong.
+- **Showing off**: Subtly revealing one's true power.
+- **Reward**: Obtaining a significant prize.
+
+**Example Structure**:
+> [Chapter 1] Han Li faces a life-or-death crisis (Elder Mo wants to kill him).
+>
+> [Chapter 2] Han Li uses a spiritual herb cultivated with his mysterious bottle, his power soars, and he kills Elder Mo in a counter-attack.
+> - Face-slapping: The weak outer disciple kills the master who oppressed him.
+> - Reward: Obtains Elder Mo's storage bag and discovers a wealth of resources.
+>
+> [Chapter 3] Han Li deals with the aftermath, secures his safety, and decides to hide his strength.
+> - Small victory: Resolves the crisis and establishes a foothold.
+> - Establishes a goal: To survive in the sect and continue to grow stronger.
+
+---
+
+## Opening Structure Template
+
+### Standard Three-Chapter Structure
 
 ```markdown
-【第一章：困境+钩子】
-- 开篇：动态场景切入（冲突/动作/对话）
-- 展开：快速介绍主角和核心困境
-- 转折：危机加剧或选择时刻
-- 结尾：悬念钩子，引出下章
+[Chapter 1: Dilemma + Hook]
+- Opening: Start with a dynamic scene (conflict/action/dialogue).
+- Development: Quickly introduce the protagonist and the core dilemma.
+- Turning Point: The crisis intensifies or a moment of choice.
+- Ending: A cliffhanger to lead into the next chapter.
 
-【第二章：转机+爽点】
-- 开篇：承接第一章悬念
-- 展开：金手指出现或发挥作用
-- 转折：初次小胜利（打脸/逆袭）
-- 结尾：更大的目标或威胁出现
+[Chapter 2: Turning Point + Payoff]
+- Opening: Follows up on the cliffhanger from Chapter 1.
+- Development: The Golden Finger appears or is used.
+- Turning Point: A small initial victory (face-slapping/comeback).
+- Ending: A larger goal or threat emerges.
 
-【第三章：确立+方向】
-- 开篇：处理第二章后续
-- 展开：世界观逐步展开
-- 转折：确立短期目标和方向
-- 结尾：进入主线故事
+[Chapter 3: Establishment + Direction]
+- Opening: Deals with the aftermath of Chapter 2.
+- Development: The world-building gradually unfolds.
+- Turning Point: A short-term goal and direction are established.
+- Ending: Enters the main storyline.
 ```
 
-### 字数分配建议
+### Recommended Word Count Distribution
 
-| 章节 | 字数 | 核心任务 |
-|------|------|----------|
-| 第一章 | 3000-4000字 | 抓住读者，展示困境 |
-| 第二章 | 3500-4500字 | 展现金手指，初次爽点 |
-| 第三章 | 4000-5000字 | 确立方向，进入主线 |
-
----
-
-## 常见错误与修正
-
-### 错误1：平淡开篇
-
-**问题表现**：
-> 第一章从主角的日常生活开始，描写上学、吃饭、睡觉，要到第五章才出现冲突。
-
-**修正方法**：
-- 删除所有日常场景
-- 直接从冲突切入
-- 日常信息在后续穿插
-
-### 错误2：信息过载
-
-**问题表现**：
-> 第一章前三页全是世界观设定，读者完全不知道故事讲什么。
-
-**修正方法**：
-- 删除90%的设定介绍
-- 只保留当前场景必需信息
-- 通过情节自然带出设定
-
-### 错误3：人物混乱
-
-**问题表现**：
-> 第一章出现十个有名有姓的角色，读者记不住谁是谁。
-
-**修正方法**：
-- 只保留2-3个核心角色
-- 其他角色延后出场
-- 路人用身份代替名字
-
-### 错误4：节奏拖沓
-
-**问题表现**：
-> 第一个爽点要到第五章才出现，读者早就弃书了。
-
-**修正方法**：
-- 第二章必须有小爽点
-- 压缩前置铺垫
-- 快速进入主线
+| Chapter | Word Count | Core Task |
+|---|---|---|
+| Chapter 1 | 3000-4000 | Hook the reader, present the dilemma |
+| Chapter 2 | 3500-4500 | Reveal the Golden Finger, provide the first payoff |
+| Chapter 3 | 4000-5000 | Establish direction, enter the main plot |
 
 ---
 
-## 开篇质量自检清单
+## Common Mistakes and Corrections
 
-在完成前三章后，使用此清单自检：
+### Mistake 1: A Bland Opening
 
-### 第一章检查
-- [ ] 是否从动态场景切入？（冲突/动作/对话）
-- [ ] 核心冲突是否在第一章内清晰展现？
-- [ ] 是否避免了大段世界观和背景介绍？
-- [ ] 核心角色是否控制在3人以内？
-- [ ] 结尾是否有悬念钩子？
+**Symptom**:
+> Chapter 1 starts with the protagonist's daily life—school, meals, sleep—and the conflict doesn't appear until Chapter 5.
 
-### 第二章检查
-- [ ] 是否承接第一章悬念？
-- [ ] 金手指是否开始发挥作用？
-- [ ] 是否有初次小爽点（打脸/逆袭/装逼）？
-- [ ] 主角是否获得阶段性小胜利？
-- [ ] 是否引出更大的目标或威胁？
+**Correction**:
+- Delete all routine scenes.
+- Start directly from the conflict.
+- Weave in daily life information later.
 
-### 第三章检查
-- [ ] 是否确立了主角的短期目标？
-- [ ] 世界观是否自然展开（不要硬塞）？
-- [ ] 是否开始进入主线故事？
-- [ ] 读者是否建立了对主角的认同感？
-- [ ] 节奏是否保持紧凑（避免拖沓）？
+### Mistake 2: Information Overload
 
-### 整体检查
-- [ ] 前三章字数是否在10000-13000字？
-- [ ] 是否做到了"一章一爽点"？
-- [ ] 信息是否"滴灌式"透露（不要一次性倒出）？
-- [ ] 悬念链是否连贯（每章结尾都有钩子）？
-- [ ] 读者是否清楚知道"故事讲什么"和"为什么要看下去"？
+**Symptom**:
+> The first three pages of Chapter 1 are all world-building, and the reader has no idea what the story is about.
 
----
+**Correction**:
+- Delete 90% of the setting introduction.
+- Keep only the information necessary for the current scene.
+- Introduce the setting naturally through the plot.
 
-## 类型化开篇策略
+### Mistake 3: Character Confusion
 
-不同类型小说的开篇侧重点不同，以下提供针对性建议：
+**Symptom**:
+> Ten named characters appear in Chapter 1, and the reader can't remember who is who.
 
-### 玄幻/修仙类
-- **核心冲突**：修炼天赋废了/家族危机/宗门欺压
-- **金手指展现**：第二章获得系统/传承/神器
-- **首个爽点**：废材逆袭，打脸看不起他的人
-- **参考作品**：《凡人修仙传》《斗破苍穹》
+**Correction**:
+- Keep only 2-3 core characters.
+- Delay the introduction of other characters.
+- Use roles instead of names for extras.
 
-### 都市/重生类
-- **核心冲突**：破产/失业/被背叛/绝症
-- **金手指展现**：重生回到过去/获得系统/觉醒异能
-- **首个爽点**：利用信息差赚第一桶金/复仇首战
-- **参考作品**：《重生之都市修仙》《都市全能系统》
+### Mistake 4: Slow Pacing
 
-### 历史/军事类
-- **核心冲突**：战败/叛军/朝堂斗争/边境危机
-- **金手指展现**：现代知识/系统辅助/神秘宝物
-- **首个爽点**：小战役胜利/智斗权臣/技术突破
-- **参考作品**：《赘婿》《明朝那些事儿》
+**Symptom**:
+> The first payoff doesn't happen until Chapter 5, by which time the reader has already given up.
 
-### 言情/甜宠类
-- **核心冲突**：豪门联姻/意外怀孕/身份误会/复仇计划
-- **金手指展现**：主角独特魅力/特殊能力/神秘身份
-- **首个爽点**：男主被吸引/打脸竞争对手/甜蜜互动
-- **参考作品**：《亿万老婆买一送一》《厉总,夫人又作妖了》
+**Correction**:
+- There must be a small payoff in Chapter 2.
+- Condense the initial setup.
+- Get to the main plot quickly.
 
 ---
 
-## 实战案例分析
+## Opening Quality Self-Checklist
 
-### 案例1：《凡人修仙传》开篇
+After finishing the first three chapters, use this checklist to self-evaluate:
 
-**第一章：困境**
-- 动态切入：墨大夫要对韩立夺舍
-- 核心冲突：生死危机，必须杀墨大夫才能活
-- 人物限制：只有韩立和墨大夫两个核心角色
-- 悬念钩子：韩立如何反杀强大的墨大夫？
+### Chapter 1 Check
+- [ ] Does it start with a dynamic scene (conflict/action/dialogue)?
+- [ ] Is the core conflict clearly presented in Chapter 1?
+- [ ] Have you avoided long passages of world-building and background?
+- [ ] Are the core characters limited to 3 or fewer?
+- [ ] Is there a cliffhanger at the end?
 
-**第二章：转机**
-- 金手指：神秘小瓶培育的春功散，让韩立实力暴涨
-- 首个爽点：废柴弟子反杀筑基期的墨大夫（逆袭）
-- 收获：墨大夫的储物袋和全部资源
+### Chapter 2 Check
+- [ ] Does it follow up on the cliffhanger from Chapter 1?
+- [ ] Does the Golden Finger start to play a role?
+- [ ] Is there an initial small payoff (face-slapping/comeback/showing off)?
+- [ ] Does the protagonist achieve a small, temporary victory?
+- [ ] Does it introduce a larger goal or threat?
 
-**第三章：方向**
-- 处理后续：如何隐瞒真相
-- 确立目标：在宗门生存下去，继续变强
-- 进入主线：开始在七玄门的修仙之路
+### Chapter 3 Check
+- [ ] Has a short-term goal for the protagonist been established?
+- [ ] Is the world-building unfolding naturally (not force-fed)?
+- [ ] Has the main storyline begun?
+- [ ] Has the reader formed an attachment to the protagonist?
+- [ ] Is the pacing still tight (avoiding drag)?
 
-**成功要素**：
-✅ 第一章就是生死危机（动态场景）
-✅ 第二章立即展现金手指+爽点（不拖沓）
-✅ 人物控制严格（前三章只有少数核心角色）
-✅ 世界观滴灌（不一次性倒出设定）
+### Overall Check
+- [ ] Is the total word count for the first three chapters between 10,000-13,000 words?
+- [ ] Have you achieved "one payoff per chapter"?
+- [ ] Is information revealed through a "drip-feed" (not all at once)?
+- [ ] Is the chain of suspense coherent (each chapter ends with a hook)?
+- [ ] Is it clear to the reader "what the story is about" and "why they should keep reading"?
 
 ---
 
-## 使用说明
+## Genre-Specific Opening Strategies
 
-### 在 /write 命令中的应用
+The focus of the opening varies by genre. Here are some specific suggestions:
 
-当你使用 `/write` 命令创作前三章时，AI会自动检测章节编号，并严格遵循本文件的黄金法则。
+### Xuanhuan/Xianxia
+- **Core Conflict**: Cultivation talent is lost/family crisis/sect bullying.
+- **Golden Finger Reveal**: Obtains a system/inheritance/divine artifact in Chapter 2.
+- **First Payoff**: The "useless" protagonist makes a comeback, proving their detractors wrong.
+- **References**: *A Record of a Mortal's Journey to Immortality*, *Battle Through the Heavens*.
 
-**检测逻辑**：
+### Urban/Rebirth
+- **Core Conflict**: Bankruptcy/unemployment/betrayal/terminal illness.
+- **Golden Finger Reveal**: Reborn in the past/gets a system/awakens a superpower.
+- **First Payoff**: Uses future knowledge to make their first fortune/first act of revenge.
+- **References**: *Rebirth of the Urban Immortal Cultivator*, *Urban Almighty System*.
+
+### Historical/Military
+- **Core Conflict**: Military defeat/rebellion/court intrigue/border crisis.
+- **Golden Finger Reveal**: Modern knowledge/system assistance/mysterious treasure.
+- **First Payoff**: A small military victory/outsmarting a powerful official/a technological breakthrough.
+- **References**: *My Husband in Law*, *Those Things of the Ming Dynasty*.
+
+### Romance/Sweet Love
+- **Core Conflict**: A marriage alliance with a wealthy family/accidental pregnancy/mistaken identity/a revenge plot.
+- **Golden Finger Reveal**: The protagonist's unique charm/special ability/mysterious identity.
+- **First Payoff**: The male lead is attracted/proving a rival wrong/a sweet interaction.
+- **References**: *Billionaire Wife: Buy One Get One Free*, *CEO Li, Your Wife is Acting Up Again*.
+
+---
+
+## Practical Case Study
+
+### Case 1: The Opening of *A Record of a Mortal's Journey to Immortality*
+
+**Chapter 1: Dilemma**
+- Dynamic Entry: Elder Mo is about to possess Han Li.
+- Core Conflict: A life-or-death crisis; he must kill Elder Mo to survive.
+- Character Limit: Only two core characters, Han Li and Elder Mo.
+- Cliffhanger: How will Han Li defeat the powerful Elder Mo?
+
+**Chapter 2: Turning Point**
+- Golden Finger: A spring-enhancing powder cultivated with the mysterious bottle allows Han Li's power to soar.
+- First Payoff: The "useless" disciple kills the Foundation Establishment stage Elder Mo in a counter-attack (comeback).
+- Reward: Elder Mo's storage bag and all his resources.
+
+**Chapter 3: Direction**
+- Aftermath: How to cover up the truth.
+- Establish Goal: To survive in the sect and continue to grow stronger.
+- Enter Main Plot: Begins his cultivation journey in the Seven Mysteries Sect.
+
+**Success Factors**:
+✅ Chapter 1 is a life-or-death crisis (dynamic scene).
+✅ Chapter 2 immediately reveals the Golden Finger + payoff (no delay).
+✅ Strict character control (only a few core characters in the first three chapters).
+✅ World-building is drip-fed (no info-dumping).
+
+---
+
+## Instructions for Use
+
+### Application in the `/write` Command
+
+When you use the `/write` command for the first three chapters, the AI will automatically detect the chapter number and strictly follow the Golden Rules in this file.
+
+**Detection Logic**:
 ```
-如果章节编号 ≤ 3 或总字数 < 10000字：
-  → 启用黄金开篇模块
-  → 严格执行五大法则
-  → 使用开篇结构模板
-  → 进行开篇质量自检
+If chapter number ≤ 3 or total word count < 10,000:
+  → Activate Golden Opening module
+  → Strictly enforce the Five Golden Rules
+  → Use the opening structure template
+  → Perform an opening quality self-check
 ```
 
-### 在 /analyze 命令中的应用
+### Application in the `/analyze` Command
 
-当你使用 `/analyze` 命令分析前三章时，AI会使用本文件的"开篇质量自检清单"进行专项分析。
+When you use the `/analyze` command on the first three chapters, the AI will use the "Opening Quality Self-Checklist" from this file for a targeted analysis.
 
-### 在 /plan 命令中的应用
+### Application in the `/plan` Command
 
-当你使用 `/plan` 命令制定创作计划时，AI会参考本文件的"标准三章结构"来规划前三章的情节。
-
----
-
-## 附录：经典开篇对比
-
-### 开篇类型A：危机切入型
-
-**示例**（《斗破苍穹》）：
-> "斗之力，三段！"
->
-> 望着测验魔石碑上面闪亮得甚至有些刺眼的五个大字，少年面无表情，唇角有着一抹自嘲，紧握的手掌，因为大力，而导致略微尖锐的指甲深深的刺进了掌心之中，带来一阵阵钻心的疼痛...
-
-**特点**：
-- 直接展现主角困境（从天才跌落）
-- 动作+心理描写（紧握手掌、自嘲）
-- 立即引发读者好奇：为什么天才变废材？
-
-### 开篇类型B：冲突切入型
-
-**示例**（《遮天》）：
-> "生命的尽头，是死亡。"
->
-> "不，生命的尽头，是我。"
->
-> 荒古禁地深处，一名少年盘坐在古树下，他的身旁，鲜血淋漓...
-
-**特点**：
-- 对话开篇（冲突感）
-- 神秘氛围（荒古禁地、鲜血）
-- 立即引发悬念：他是谁？发生了什么？
-
-### 开篇类型C：日常突变型
-
-**示例**（《全职高手》）：
-> 在网游荣耀中，叶修带领嘉世战队一共拿下了三连冠。
->
-> 而今天，他被俱乐部扫地出门了。
-
-**特点**：
-- 先扬后抑（三连冠→被开除）
-- 巨大反差（荣耀→耻辱）
-- 立即引发好奇：为什么冠军被开除？
+When you use the `/plan` command to create a writing plan, the AI will refer to the "Standard Three-Chapter Structure" from this file to outline the first three chapters.
 
 ---
 
-## 总结
+## Appendix: Classic Opening Comparisons
 
-黄金开篇的本质是：**在最短时间内让读者相信"这个故事值得看下去"**。
+### Opening Type A: Crisis Entry
 
-**五大法则的核心逻辑**：
-1. 动态切入 → 抓住注意力
-2. 冲突前置 → 建立方向感
-3. 避免信息轰炸 → 不让读者厌烦
-4. 限制人数 → 聚焦主角
-5. 快速展现金手指 → 给予希望和爽感
+**Example** (*Battle Through the Heavens*):
+> "Dou Zhi Li, three stages!"
+>
+> Staring at the five dazzling words on the testing stone, the young man's face was expressionless, a self-deprecating smile on his lips. His clenched fist, due to the force, caused his sharp nails to dig deep into his palm, bringing waves of sharp pain...
 
-**记住**：开篇不是炫技，而是"钩子"。你的目标不是展现多么高超的文笔，而是让读者说："我想继续看下去。"
+**Characteristics**:
+- Directly shows the protagonist's dilemma (falling from grace).
+- Action + psychological description (clenched fist, self-deprecating smile).
+- Immediately sparks the reader's curiosity: Why did a genius become useless?
+
+### Opening Type B: Conflict Entry
+
+**Example** (*Shrouding the Heavens*):
+> "The end of life is death."
+>
+> "No, the end of life is me."
+>
+> Deep in the Forbidden Ancient Land, a young man sat cross-legged under an ancient tree, his side covered in blood...
+
+**Characteristics**:
+- Dialogue opening (sense of conflict).
+- Mysterious atmosphere (Forbidden Ancient Land, blood).
+- Immediately creates suspense: Who is he? What happened?
+
+### Opening Type C: Sudden Change in Daily Life
+
+**Example** (*The King's Avatar*):
+> In the online game Glory, Ye Xiu led the Jia Shi team to three consecutive championships.
+>
+> And today, he was kicked out of the club.
+
+**Characteristics**:
+- Praising before suppressing (three championships → kicked out).
+- Huge contrast (glory → disgrace).
+- Immediately sparks curiosity: Why was the champion kicked out?
 
 ---
 
-**版本**：v1.0.0
-**更新日期**：2025-01-14
-**适用范围**：所有类型网络小说
-**执行优先级**：在前三章或前一万字内，本文件规则优先于其他创作规范
+## Conclusion
+
+The essence of a golden opening is: **to convince the reader in the shortest amount of time that "this story is worth reading."**
+
+**The Core Logic of the Five Golden Rules**:
+1.  Dynamic Entry → Grab attention.
+2.  Front-load Conflict → Establish a sense of direction.
+3.  Avoid Info-dumps → Don't annoy the reader.
+4.  Limit Characters → Focus on the protagonist.
+5.  Quickly Reveal the Golden Finger → Provide hope and satisfaction.
+
+**Remember**: The opening is not for showing off; it's a "hook." Your goal is not to display your brilliant prose, but to make the reader say, "I want to keep reading."
+
+---
+
+**Version**: v1.0.0
+**Last Updated**: 2025-01-14
+**Applicable to**: All types of web novels
+**Execution Priority**: Within the first three chapters or 10,000 words, the rules in this file take precedence over other writing guidelines.

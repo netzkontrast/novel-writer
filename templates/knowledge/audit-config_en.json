@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "connector_phrases": [
+    "Firstly", "Secondly", "Again", "Then", "However", "In conclusion", "To summarize",
+    "To some extent", "As is well known", "At present", "Along with"
+  ],
+  "empty_phrases": [
+    "widespread attention", "sparked heated debate", "profound impact", "has important significance", "effectively enhance",
+    "has a certain guiding significance", "is worth our consideration"
+  ],
+  "cliche_pairs": [
+    ["There is no easy success in the world", "Describe a specific time you gritted your teeth and persevered"],
+    ["Persistence is victory", "Write about the most difficult action and smell during that persistence"]
+  ],
+  "sentence_length": {
+    "max_run_long": 4,
+    "max_run_short": 5,
+    "short_threshold": 12,
+    "long_threshold": 35
+  },
+  "abstract_nouns": [
+    "value", "meaning", "cognition", "system", "model", "path", "methodology", "trend"
+  ],
+  "min_concrete_details": 3
+}

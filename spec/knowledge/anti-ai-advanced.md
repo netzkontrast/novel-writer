@@ -1,585 +1,585 @@
-# 高级去AI味指南
+# Advanced Guide to Removing AI Flavor
 
-> 融合四层策略的系统化去AI味方法论
-> 基于实战经验和反AI检测研究
-
----
-
-## 核心理念
-
-### AI味的本质
-
-**AI写作的四大特征**:
-1. **文风完美**: 用词标准、句式工整、逻辑严密
-2. **体验缺失**: 抽象概念多、具体细节少
-3. **标点规整**: 永远正确、位置标准、无情绪波动
-4. **结构均衡**: 每段字数相当、信息密度一致
-
-**真人写作的特征**:
-1. **文风个性**: 有偏好、有习惯、有"错误"
-2. **体验丰富**: 具体细节、真实数据、亲历感受
-3. **标点情绪**: 随情绪变化、有个性、有"混乱"
-4. **结构失衡**: 有重点、有遗漏、有跳跃
-
-### 去AI味不是技巧,是还原真实
-
-真实的写作有**温度、有偏差、有瑕疵**,这些"不完美"反而是真实的证明。
+> A systematic methodology for removing AI flavor, integrating a four-layer strategy
+> Based on practical experience and anti-AI detection research
 
 ---
 
-## Layer 1: 文风模仿系统化
+## Core Philosophy
 
-### 核心思想: 不要泛泛地"自然",要有**具体标杆**
+### The Essence of AI Flavor
 
-### 四维特征提取法 ⭐
+**Four Major Characteristics of AI Writing**:
+1. **Perfect Writing Style**: Standard vocabulary, neat sentence structures, strict logic.
+2. **Lack of Experience**: Many abstract concepts, few concrete details.
+3. **Neat Punctuation**: Always correct, standard positioning, no emotional fluctuation.
+4. **Balanced Structure**: Similar word count in each paragraph, consistent information density.
 
-当通过 `/book-style` 分析优秀作品时,提取这四个维度:
+**Characteristics of Human Writing**:
+1. **Personal Writing Style**: Has preferences, habits, and "mistakes."
+2. **Rich Experience**: Concrete details, real data, personal feelings.
+3. **Emotional Punctuation**: Varies with emotion, has personality, has "chaos."
+4. **Imbalanced Structure**: Has focus, omissions, and jumps.
 
-#### 维度1: 文字特征
-- 高频词汇(动词、形容词、副词)
-- 句式偏好(长句/短句/长短结合)
-- 词汇风格(古雅/现代/网文)
-- 独特表达(口头禅、特色句式)
+### Removing AI Flavor Isn't a Technique, It's Restoring Authenticity
 
-#### 维度2: 标点习惯 ⭐（最易被忽视）
-- 省略号样式(……/.../ 。。。)
-- 感叹号使用(单个!/连用!!)
-- 问号习惯(标准?/连用??)
-- 破折号频率
-- 逗号密度
-- **最重要**: 标点情绪化程度
-
-#### 维度3: 排版风格 ⭐（反AI检测关键）
-- 单句成段占比(30-50%最佳)
-- 段落长度分布
-- 空行使用习惯
-- 对话分段方式
-
-#### 维度4: 特殊表达 ⭐（个性标记）
-- ~~Emoji使用~~ ❌ **小说创作禁止使用Emoji**
-- 拟声词偏好
-- 语气词特征
-- 方言口语
-- 不完整句式
-
-### 实战应用流程
-
-1. **选定标杆**: 找到风格相近的优秀作品
-2. **四维提取**: 使用 `/book-style` 分析,提取四维特征
-3. **生成参考**: 自动生成 `style-reference.md`
-4. **模仿应用**: `/write` 时自动参考这些特征
-5. **持续优化**: 根据反馈调整模仿程度
-
-### 不同文体的标杆选择
-
-| 文体类型 | 推荐标杆 | 核心特征 |
-|---------|---------|---------|
-| 古代历史 | 凡人修仙传(忘语) | 历史白描、克制描写、单句成段多 |
-| 权谋争斗 | 庆余年(石章鱼) | 对话机锋、伏笔精妙、节奏多变 |
-| 现代都市 | [具体作品] | 生活细节、口语化、标点灵活 |
-| 玄幻仙侠 | [具体作品] | 数据具体、节奏快、感叹号多 |
+Authentic writing has **warmth, deviation, and flaws**. These "imperfections" are, in fact, proof of authenticity.
 
 ---
 
-## Layer 2: 具象体验注入机制
+## Layer 1: Systematizing Writing Style Imitation
 
-### 核心思想: 主动获取真实细节,不要被动等待
+### Core Idea: Don't just be vaguely "natural," have a **specific benchmark**
 
-### 具象化注入三步法
+### Four-Dimensional Feature Extraction Method ⭐
 
-#### 步骤1: 识别抽象表达
+When analyzing excellent works with `/book-style`, extract these four dimensions:
 
-在写作时主动识别:
-- **时间抽象**: 最近、很久、不久前
-- **人物抽象**: 有人、大家、据说
-- **数量抽象**: 很多、很少、大量
-- **场景抽象**: 很xx、非常、极其
+#### Dimension 1: Textual Features
+- High-frequency vocabulary (verbs, adjectives, adverbs)
+- Sentence structure preference (long/short/combination)
+- Vocabulary style (classical/modern/web novel)
+- Unique expressions (catchphrases, characteristic sentence patterns)
 
-**自检问题**:
-- 能回答"什么时候"吗?
-- 能回答"是谁"吗?
-- 能回答"多少"吗?
-- 能回答"什么样"吗?
+#### Dimension 2: Punctuation Habits ⭐ (Most easily overlooked)
+- Ellipsis style (……/.../ 。。。)
+- Exclamation mark usage (single!/multiple!!)
+- Question mark habits (standard?/multiple??)
+- Dash frequency
+- Comma density
+- **Most Importantly**: Degree of emotional punctuation
 
-#### 步骤2: 应用替换公式
+#### Dimension 3: Layout Style ⭐ (Key to anti-AI detection)
+- Percentage of single-sentence paragraphs (30-50% is best)
+- Paragraph length distribution
+- Blank line usage habits
+- Dialogue paragraphing method
 
-参考 `detail-formulas.md`,使用快速替换:
-- "最近" → "上周三下午"
-- "有人说" → "李叔告诉我" / "隔壁老王提起过"
-- "很多" → "至少二十个"
-- "很乱" → "地上堆着三天没洗的衣服"
+#### Dimension 4: Special Expressions ⭐ (Personality markers)
+- ~~Emoji usage~~ ❌ **Emoji usage is forbidden in novel writing**
+- Onomatopoeia preference
+- Interjection characteristics
+- Dialect and slang
+- Incomplete sentence structures
 
-#### 步骤3: 主动搜索补充
+### Practical Application Flow
 
-**当需要真实细节时,使用WebSearch**:
+1. **Select a Benchmark**: Find an excellent work with a similar style.
+2. **Four-Dimensional Extraction**: Use `/book-style` to analyze and extract the four-dimensional features.
+3. **Generate Reference**: Automatically generate `style-reference.md`.
+4. **Apply Imitation**: `/write` will automatically reference these features.
+5. **Continuous Optimization**: Adjust the degree of imitation based on feedback.
 
-场景 | 搜索关键词 | 获取内容
-----|----------|----------
-历史背景 | "[朝代] 官职体系" | 真实官职名称
-地理信息 | "[城市] 特色方言" | 方言词汇
-专业领域 | "[行业] 专业术语" | 真实术语
-文化细节 | "[年代] 流行语" | 真实用语
+### Benchmark Selection for Different Genres
 
-### 具象化层级原则
-
-**Level 1 - 必须具象**:
-- 转折点情节
-- 高潮场景
-- 伏笔埋设
-- 关键角色登场
-
-**Level 2 - 应该具象**:
-- 重要对话
-- 情绪转变
-- 冲突爆发
-
-**Level 3 - 可以概括**:
-- 过渡段落
-- 背景铺陈
-- 时间流逝
-
-**Level 4 - 无需具象**:
-- 常识性内容
-- 快速节奏场景
-- 故意留白悬念
+| Genre | Recommended Benchmark | Core Features |
+|---|---|---|
+| Ancient History | *A Record of a Mortal's Journey to Immortality* (Wang Yu) | Historical sketches, restrained descriptions, many single-sentence paragraphs |
+| Power Struggles | *Joy of Life* (Shi Zhangyu) | Sharp dialogue, exquisite foreshadowing, varied pacing |
+| Modern Urban | [Specific Work] | Life details, colloquial language, flexible punctuation |
+| Fantasy/Xianxia | [Specific Work] | Concrete data, fast pacing, many exclamation marks |
 
 ---
 
-## Layer 3: 标点叛逆策略
+## Layer 2: Concrete Experience Injection Mechanism
 
-### 核心思想: 打破规整,标点要带情绪
+### Core Idea: Actively acquire real details, don't wait passively
 
-### 标点叛逆三原则
+### Three-Step Concretization Injection Method
 
-#### 原则1: 情绪决定标点
+#### Step 1: Identify Abstract Expressions
 
-| 情绪 | 标点特征 | 示例 |
-|-----|---------|------|
-| 平静 | 标准逗号句号 | 他走了过去。 |
-| 犹豫 | 省略号密集 | 他想...算了...不说了。 |
-| 紧张 | 短句+句号 | 脚步声。越来越近。他屏住呼吸。 |
-| 激动 | 感叹号连用 | 太好了！！这下有救了！ |
-| 困惑 | 问号连用 | 什么？？这怎么可能？？？ |
-| 愤怒 | 感叹+省略 | 你！！！...走开！ |
+Actively identify during writing:
+- **Time Abstractions**: recently, a long time ago, not long ago
+- **Character Abstractions**: someone, everyone, it is said
+- **Quantity Abstractions**: many, few, a large amount
+- **Scene Abstractions**: very xx, extremely, exceedingly
 
-#### 原则2: 多样性混用（小说版）
+**Self-Check Questions**:
+- Can you answer "when"?
+- Can you answer "who"?
+- Can you answer "how many"?
+- Can you answer "what is it like"?
 
-**省略号**:
-- 正式场景: ……(6点)
-- 口语场景: ...(3点)
-- ~~随意场景: 。。。(句号)~~ ⚠️ **小说慎用,这是公众号/聊天风格**
-- **小说中主要混用……和...,避免。。。**
+#### Step 2: Apply Replacement Formulas
 
-**感叹号**:
-- 常规: !
-- 加强: !!（小说常用）
-- 爆发: !!!（小说节制使用,2-3个为限）
-- **根据情绪强度和文体类型选择**
+Refer to `detail-formulas.md` and use quick replacements:
+- "recently" → "last Wednesday afternoon"
+- "someone said" → "Uncle Li told me" / "Old Wang next door mentioned"
+- "many" → "at least twenty"
+- "very messy" → "clothes that haven't been washed for three days are piled on the floor"
 
-#### 原则3: 打破"完美"
+#### Step 3: Actively Search for Supplements
 
-**AI倾向**（避免）:
-- 每句标点位置正确
-- 逗号和句号按教科书使用
-- 对话标点永远规范
+**When real details are needed, use WebSearch**:
 
-**真人特征**（推荐）:
-- 逗号有时该用句号(长句连用)
-- 对话标点有时"错误"(口语化)
-- 省略号样式不统一(习惯差异)
+| Scene | Search Keywords | Content to Obtain |
+|---|---|---|
+| Historical Background | "[Dynasty] official system" | Real official titles |
+| Geographical Information | "[City] characteristic dialect" | Dialect vocabulary |
+| Professional Field | "[Industry] professional terms" | Real terminology |
+| Cultural Details | "[Decade] popular slang" | Real usage |
 
-### 标点叛逆自检清单
+### Concretization Hierarchy Principle
 
-- [ ] 标点是否过于规整?(AI倾向)
-- [ ] 省略号是否只用一种样式?
-- [ ] 情绪激动时标点是否有爆发?
-- [ ] 是否有标点"错误"?(口语、方言)
-- [ ] 不同角色标点是否有差异?
+**Level 1 - Must Be Concrete**:
+- Turning point plots
+- Climax scenes
+- Foreshadowing
+- Key character introductions
 
----
+**Level 2 - Should Be Concrete**:
+- Important dialogues
+- Emotional shifts
+- Conflict outbreaks
 
-## Layer 4: 结构失衡艺术
+**Level 3 - Can Be Generalized**:
+- Transitional paragraphs
+- Background exposition
+- Passage of time
 
-### 核心思想: 故意的不均衡才真实
-
-### 失衡三策略
-
-#### 策略1: 长度失衡
-
-**AI倾向**（避免）:
-```
-第一段: 100字
-第二段: 95字
-第三段: 102字
-第四段: 98字
-```
-→ 过于均匀,明显AI特征
-
-**真人特征**（推荐）:
-```
-第一段: 三个字。
-第二段: 150字长段落,一气呵成...
-第三段: 20字短句。
-第四段: 又是一个长段,把想说的都倒出来,中间夹杂情绪和细节...
-```
-→ 有重点、有停顿、有节奏
-
-#### 策略2: 信息密度失衡
-
-**AI倾向**（避免）:
-- 每段信息量相当
-- 细节均匀分布
-- 描写力度一致
-
-**真人特征**（推荐）:
-- 重点部分: 细节爆炸、信息密集
-- 过渡部分: 一笔带过、快速略过
-- 留白部分: 故意省略、让读者想象
-
-#### 策略3: 叙事节奏变化 ⚠️（小说需谨慎）
-
-**说明**: 小说叙事需要保持连贯性,过度跳跃会影响阅读体验。仅在特定场景使用。
-
-**AI倾向**（避免）:
-```
-A → B → C → D (过于线性,无节奏变化)
-```
-
-**小说适度版本**（推荐）:
-```
-A → B → [回忆/闪回] → C → D
-```
-- 适度回忆插叙（不是随意跳跃）
-- 情绪触发的联想（有逻辑关联）
-- 保持主线清晰（不要真的"绕一圈"）
-
-**注意**: 这条策略更适合文章/公众号,小说中需极度克制
-
-### 实战应用: 段落结构失衡法
-
-**黄金比例**: 30-50% 单句成段 (反AI检测关键)
-
-**示例对比**:
-
-❌ **AI化结构**（过于均匀）:
-```
-他走进房间,看到桌上放着一封信。信封是黄色的,看起来有些陈旧。他拿起信,打开看了看,发现是一封遗书。
-
-他震惊了,不敢相信这是真的。他仔细看了好几遍,确认没有看错。这让他陷入了沉思。
-
-他决定去调查这件事的真相。
-```
-- 每段两句话
-- 长度相当(50-60字)
-- 信息密度一致
-
-✅ **真人化结构**（失衡有度）:
-```
-房间里很暗。
-
-他走进去,看到桌上有封信。黄色信封,有些旧了,边角都卷起来了。
-
-他拿起来。
-
-打开。
-
-是封遗书。
-
-他盯着那几个字看了十秒...这怎么可能？！信上的日期是三年前,恰好是那个人失踪的时候。字迹潦草,像是在极度慌张中写下的:"如果你看到这封信,说明我已经..."后面是一片墨迹,看不清了。
-
-他手开始发抖。
-
-这事不对劲。非常不对劲。
-
-得查清楚——不管付出什么代价。
-```
-- 单句成段: 7/11 = 64%
-- 长度失衡: 短至4字,长至86字
-- 信息密度: 发现遗书处密集,其他克制
-- 节奏变化: 短句营造紧张,长句铺垫悬念
+**Level 4 - No Need to Be Concrete**:
+- Common sense content
+- Fast-paced scenes
+- Intentionally leaving suspense
 
 ---
 
-## 四层策略整合应用
+## Layer 3: Punctuation Rebellion Strategy
 
-### 实战综合案例
+### Core Idea: Break the neatness, punctuation should carry emotion
 
-假设场景: **主角发现了一个惊天秘密**
+### Three Principles of Punctuation Rebellion
 
-#### ❌ AI化版本(0分)
+#### Principle 1: Emotion Determines Punctuation
+
+| Emotion | Punctuation Feature | Example |
+|---|---|---|
+| Calm | Standard comma and period | He walked over. |
+| Hesitant | Dense ellipsis | He thought... never mind... let's not talk about it. |
+| Tense | Short sentences + periods | Footsteps. Closer and closer. He held his breath. |
+| Excited | Multiple exclamation marks | Great!! We're saved! |
+| Confused | Multiple question marks | What?? How is this possible??? |
+| Angry | Exclamation + ellipsis | You!!!... Get out! |
+
+#### Principle 2: Diverse Mixing (Novel Version)
+
+**Ellipsis**:
+- Formal scenes: …… (6 dots)
+- Colloquial scenes: ... (3 dots)
+- ~~Casual scenes: 。。。 (periods)~~ ⚠️ **Use with caution in novels, this is a blog/chat style**
+- **In novels, mainly mix …… and ..., avoid 。。。**
+
+**Exclamation Mark**:
+- Regular: !
+- Emphasized: !! (Common in novels)
+- Explosive: !!! (Use sparingly in novels, 2-3 at most)
+- **Choose based on emotional intensity and genre**
+
+#### Principle 3: Break the "Perfection"
+
+**AI Tendency** (Avoid):
+- Punctuation is correctly placed in every sentence.
+- Commas and periods are used according to textbooks.
+- Dialogue punctuation is always standard.
+
+**Human Characteristic** (Recommended):
+- Sometimes a period is used where a comma should be (long sentences connected).
+- Dialogue punctuation is sometimes "wrong" (colloquial).
+- Ellipsis style is inconsistent (habit differences).
+
+### Punctuation Rebellion Self-Checklist
+
+- [ ] Is the punctuation too neat? (AI tendency)
+- [ ] Is only one style of ellipsis used?
+- [ ] Does punctuation explode during emotional excitement?
+- [ ] Are there punctuation "mistakes"? (colloquial, dialect)
+- [ ] Do different characters have different punctuation?
+
+---
+
+## Layer 4: The Art of Structural Imbalance
+
+### Core Idea: Intentional imbalance is what makes it real
+
+### Three Imbalance Strategies
+
+#### Strategy 1: Length Imbalance
+
+**AI Tendency** (Avoid):
 ```
-最近,他在调查一件事情。有人告诉他,这件事很复杂,涉及到很多人。他觉得很震惊,决定继续调查下去。
-
-他去了一个地方,看到了一些东西。这些东西让他更加确信,事情远比想象中复杂。他心想,一定要查清楚真相。
-
-他开始行动了。
+Paragraph 1: 100 words
+Paragraph 2: 95 words
+Paragraph 3: 102 words
+Paragraph 4: 98 words
 ```
-**问题诊断**:
-- 时间/人物/地点全部抽象
-- 标点规整无情绪
-- 段落长度均匀(45/50/8字)
-- 直接心理描写("他心想")
+→ Too uniform, obvious AI characteristic
 
-#### ✅ 真人化版本(满分) - 应用四层策略
+**Human Characteristic** (Recommended):
+```
+Paragraph 1: Three words.
+Paragraph 2: A 150-word long paragraph, all in one go...
+Paragraph 3: A 20-word short sentence.
+Paragraph 4: Another long paragraph, pouring out everything to say, interspersed with emotions and details...
+```
+→ Has focus, pauses, and rhythm
+
+#### Strategy 2: Information Density Imbalance
+
+**AI Tendency** (Avoid):
+- Similar amount of information in each paragraph.
+- Details are evenly distributed.
+- Descriptive intensity is consistent.
+
+**Human Characteristic** (Recommended):
+- Key parts: Explosion of details, dense information.
+- Transitional parts: Skimmed over, quickly passed.
+- White space parts: Intentionally omitted, letting the reader imagine.
+
+#### Strategy 3: Narrative Pacing Variation ⚠️ (Use with caution in novels)
+
+**Explanation**: Novel narratives need to maintain coherence; excessive jumping will affect the reading experience. Use only in specific scenarios.
+
+**AI Tendency** (Avoid):
+```
+A → B → C → D (Too linear, no rhythm change)
+```
+
+**Moderate Novel Version** (Recommended):
+```
+A → B → [Flashback/Recall] → C → D
+```
+- Moderate flashback interruptions (not random jumps).
+- Associations triggered by emotions (logical connection).
+- Keep the main storyline clear (don't actually "go in a circle").
+
+**Note**: This strategy is more suitable for articles/blogs; use with extreme restraint in novels.
+
+### Practical Application: Paragraph Structure Imbalance Method
+
+**Golden Ratio**: 30-50% single-sentence paragraphs (Key to anti-AI detection)
+
+**Example Comparison**:
+
+❌ **AI-like Structure** (Too uniform):
+```
+He entered the room and saw a letter on the table. The envelope was yellow and looked a bit old. He picked up the letter, opened it, and found it was a suicide note.
+
+He was shocked and couldn't believe it was real. He read it carefully several times to confirm he wasn't mistaken. This made him fall into deep thought.
+
+He decided to investigate the truth of the matter.
+```
+- Two sentences per paragraph.
+- Similar length (50-60 words).
+- Consistent information density.
+
+✅ **Human-like Structure** (Moderately imbalanced):
+```
+The room was dark.
+
+He went in and saw a letter on the table. Yellow envelope, a bit old, the corners were curled up.
+
+He picked it up.
+
+Opened it.
+
+It was a suicide note.
+
+He stared at those words for ten seconds... how is this possible?! The date on the letter was three years ago, exactly when that person disappeared. The handwriting was messy, as if written in extreme panic: "If you are reading this letter, it means I am already..." followed by a patch of ink, illegible.
+
+His hands started to tremble.
+
+This isn't right. Something is very wrong.
+
+He had to find out—no matter the cost.
+```
+- Single-sentence paragraphs: 7/11 = 64%
+- Length imbalance: as short as 4 words, as long as 86 words
+- Information density: dense at the discovery of the suicide note, restrained elsewhere
+- Pacing variation: short sentences create tension, long sentences build suspense
+
+---
+
+## Integrated Application of the Four-Layer Strategy
+
+### Practical Comprehensive Case
+
+Scenario: **The protagonist discovers a shocking secret**
+
+#### ❌ AI-like Version (0 points)
+```
+Recently, he was investigating something. Someone told him that this matter was very complicated and involved many people. He felt very shocked and decided to continue investigating.
+
+He went to a place and saw some things. These things made him more convinced that the matter was far more complicated than he had imagined. He thought to himself, I must find out the truth.
+
+He began to take action.
+```
+**Problem Diagnosis**:
+- Time/character/place are all abstract.
+- Punctuation is neat and emotionless.
+- Paragraph length is uniform (45/50/8 words).
+- Direct psychological description ("He thought to himself").
+
+#### ✅ Human-like Version (Full Marks) - Applying the Four-Layer Strategy
 
 ```markdown
-上周三。
+Last Wednesday.
 
-王老头找到他,压低声音:"你上次问的那事儿...我打听到了。"
+Old Wang found him, his voice low: "That thing you asked about last time... I found something out."
 
-"什么事？"
+"What thing?"
 
-"永安街那场火。"老头看了看四周,"不是意外。"
+"The fire on Yong'an Street." The old man looked around. "It wasn't an accident."
 
-他心里一紧。
+His heart tightened.
 
-永安街...那是三年前的事了。官方结论是电路老化,死了十七个人。他爸就是其中之一。
+Yong'an Street... that was three years ago. The official conclusion was aging wiring, seventeen people died. His dad was one of them.
 
-"你确定？"
+"Are you sure?"
 
-"千真万确。"老头从怀里掏出个U盘,"这里面有证据。但是——"他停顿了一下,"你看了之后...就回不了头了。"
+"Absolutely." The old man took out a USB drive from his pocket. "The evidence is in here. But—" he paused, "after you see it... there's no turning back."
 
-他盯着那个U盘...
+He stared at the USB drive...
 
-三年了。
+Three years.
 
-整整三年。
+Three whole years.
 
-他接过U盘,手在发抖:"谢了,王叔。"
+He took the USB drive, his hand trembling: "Thanks, Uncle Wang."
 
-老头走后,他一个人坐在出租屋里,房间很安静,只听得到楼下KTV的音乐声。
+After the old man left, he sat alone in his rented room. The room was quiet, only the sound of music from the KTV downstairs could be heard.
 
-U盘就放在桌上。
+The USB drive was on the table.
 
-要不要看？
+Should he watch it?
 
-...看了之后就回不了头了。
+...no turning back after seeing it.
 
-他深吸一口气,插上U盘。
+He took a deep breath and plugged in the USB drive.
 
-文件夹里只有一个视频。
+There was only one video in the folder.
 
-点开。
+He clicked on it.
 
-画面很模糊,像是监控录像。日期显示:2022年5月3日,21:47——火灾发生前13分钟。
+The picture was blurry, like a surveillance video. The date showed: 2022-05-03, 21:47—13 minutes before the fire.
 
-视频里,三个穿黑衣服的人进了永安街15号。
+In the video, three men in black entered No. 15 Yong'an Street.
 
-他放大画面。
+He zoomed in.
 
-其中一个人回头的瞬间——
+The moment one of them turned his head—
 
-他整个人僵住了。
+He froze completely.
 
-那张脸...他认识！！
+That face... he recognized it!!
 
-是区长的儿子,李明阳！！！
+It was the district chief's son, Li Mingyang!!!
 ```
 
-**四层策略应用分析**:
+**Four-Layer Strategy Application Analysis**:
 
-**Layer 1 - 文风模仿**:
-- 短句为主(紧张感)
-- 对话干脆(悬疑风格)
-- 单句成段高频(16/25=64%)
+**Layer 1 - Writing Style Imitation**:
+- Mainly short sentences (sense of tension).
+- Crisp dialogue (suspense style).
+- High frequency of single-sentence paragraphs (16/25=64%).
 
-**Layer 2 - 具象化注入**:
-- 时间: "上周三" "三年前" "2022年5月3日21:47"
-- 人物: "王老头" "区长的儿子李明阳"
-- 地点: "永安街" "出租屋" "楼下KTV"
-- 数量: "十七个人" "三年" "13分钟"
-- 细节: "U盘" "监控录像" "穿黑衣服"
+**Layer 2 - Concretization Injection**:
+- Time: "Last Wednesday," "three years ago," "2022-05-03 21:47."
+- Characters: "Old Wang," "the district chief's son, Li Mingyang."
+- Places: "Yong'an Street," "rented room," "KTV downstairs."
+- Quantities: "seventeen people," "three years," "13 minutes."
+- Details: "USB drive," "surveillance video," "men in black."
 
-**Layer 3 - 标点叛逆**:
-- 省略号: 混用(...和……)
-- 感叹号: 连用(!!)
-- 问号: 自问自答
-- 破折号: 停顿转折
-- 标点情绪化: 震惊处爆发
+**Layer 3 - Punctuation Rebellion**:
+- Ellipsis: Mixed usage (... and ……).
+- Exclamation mark: Multiple (!!).
+- Question mark: Self-questioning.
+- Dash: Pauses and transitions.
+- Emotional punctuation: Explosive at the moment of shock.
 
-**Layer 4 - 结构失衡**:
-- 段落长度: 短至3字("三年了"),长至45字(背景说明)
-- 信息密度: 发现真相处密集,其他克制
-- 单句成段: 64%,远超30%底线
-- 思维跳跃: 回忆→犹豫→决心
+**Layer 4 - Structural Imbalance**:
+- Paragraph length: as short as 3 words ("Three years."), as long as 45 words (background explanation).
+- Information density: dense at the discovery of the truth, restrained elsewhere.
+- Single-sentence paragraphs: 64%, well above the 30% baseline.
+- Thought jumps: flashback → hesitation → determination.
 
 ---
 
-## 场景适配方案
+## Scene Adaptation Solutions
 
-### 古代历史小说
+### Ancient History Novels
 
-**特点**: 克制为主,失衡为辅
+**Characteristics**: Restraint is primary, imbalance is secondary.
 
-**四层策略调整**:
-- Layer 1: 历史白描风格,单句成段40-50%
-- Layer 2: 具象化适度(年号+事件)
-- Layer 3: 标点克制(感叹号少用,省略号标准)
-- Layer 4: 失衡适度(主要体现在信息密度)
+**Four-Layer Strategy Adjustment**:
+- Layer 1: Historical sketch style, 40-50% single-sentence paragraphs.
+- Layer 2: Moderate concretization (reign title + event).
+- Layer 3: Restrained punctuation (few exclamation marks, standard ellipsis).
+- Layer 4: Moderate imbalance (mainly in information density).
 
-**示例**:
+**Example**:
 ```
-永嘉之乱后,中原沦陷。
+After the Yongjia Disturbance, the Central Plains fell.
 
-士族百姓南渡者,不下百万。
+No fewer than a million gentry and commoners crossed south.
 
-王谯招揽流民,开荒种地。
+Wang Qiao recruited refugees, reclaimed wasteland, and planted crops.
 
-三年下来,颇有家业。
+After three years, he had a considerable estate.
 ```
-- 单句成段: 100%
-- 具象化: 年号、数量
-- 标点: 标准逗号句号
-- 失衡: 长度有变化(9-16字)
+- Single-sentence paragraphs: 100%
+- Concretization: reign title, quantity
+- Punctuation: standard comma and period
+- Imbalance: varied length (9-16 characters)
 
-### 现代都市小说
+### Modern Urban Novels
 
-**特点**: 灵活度高,四层策略全开
+**Characteristics**: High flexibility, all four layers of the strategy are fully engaged.
 
-**四层策略调整**:
-- Layer 1: 口语化风格,单句成段30-40%
-- Layer 2: 高度具象化(品牌、价格、地名)
-- Layer 3: 标点自由(省略号混用,感叹号连用)
-- Layer 4: 失衡明显(长短跨度大)
+**Four-Layer Strategy Adjustment**:
+- Layer 1: Colloquial style, 30-40% single-sentence paragraphs.
+- Layer 2: High degree of concretization (brands, prices, place names).
+- Layer 3: Free punctuation (mixed ellipsis, multiple exclamation marks).
+- Layer 4: Obvious imbalance (large span in length).
 
-**示例**:
+**Example**:
 ```
-出租车司机找不到路,在国贸绕了三圈。
+The taxi driver couldn't find the way, circled the World Trade Center three times.
 
-"师傅,您导航了吗?"
+"Sir, are you using GPS?"
 
-"导了导了...这路不对啊..."
+"I am, I am... this road isn't right..."
 
-他看了眼手机。
+He glanced at his phone.
 
-18:45。
+18:45.
 
-完了。
+It's over.
 
-面试18点开始,这下肯定迟到了。路上还堵成这样,保守估计还要二十分钟。
+The interview started at 18:00, he's definitely late now. The traffic is this bad, conservatively another twenty minutes.
 
-要不...打个电话解释一下?
+Maybe... make a call to explain?
 
-他打开通讯录,找到"HR张小姐"。
+He opened his contacts, found "HR Miss Zhang."
 
-犹豫了十秒。
+Hesitated for ten seconds.
 
-算了,第一印象就迟到,说什么都没用了。
+Forget it, being late for the first impression, nothing he says will help.
 
-他叹了口气,靠在座椅上。
+He sighed and leaned back in his seat.
 
-这是他这个月投的第17份简历,好不容易有个回音...就这么黄了。
+This was the 17th resume he had sent out this month, finally got a response... and it's gone just like that.
 
-"师傅,不去了,回吧。"
-```
-
-### 玄幻仙侠小说
-
-**特点**: 数据密集,标点爆发
-
-**四层策略调整**:
-- Layer 1: 简洁有力,单句成段30-35%
-- Layer 2: 数据具象(境界、灵石、丹药)
-- Layer 3: 标点夸张(感叹号可用3-5个)
-- Layer 4: 失衡节奏(战斗密集,其他简洁)
-
-**示例**:
-```
-"轰！"
-
-一掌拍出,灵气爆发！
-
-李寻脸色大变:"筑基期？？你不是炼气九层吗？！"
-
-"现在不是了。"
-
-三年闭关,一百五十颗筑基丹,他终于突破了！
-
-筑基初期的灵压,压得李寻喘不过气来。
-
-"不可能！！！你怎么可能...！"
-
-晚了。
-
-第二掌已经到了。
+"Sir, I'm not going anymore, let's go back."
 ```
 
----
+### Fantasy/Xianxia Novels
 
-## 高级自检体系
+**Characteristics**: Data-intensive, explosive punctuation.
 
-### 三级自检法
+**Four-Layer Strategy Adjustment**:
+- Layer 1: Concise and powerful, 30-35% single-sentence paragraphs.
+- Layer 2: Data concretization (realms, spirit stones, elixirs).
+- Layer 3: Exaggerated punctuation (3-5 exclamation marks are acceptable).
+- Layer 4: Imbalanced pacing (dense combat, concise elsewhere).
 
-#### Level 1: 基础自检(每段)
-- [ ] 有抽象时间/人物/数量吗?
-- [ ] 标点是否过于规整?
-- [ ] 段落长度是否过于均匀?
-
-#### Level 2: 维度自检(每节)
-- [ ] 文字: 是否符合标杆风格?
-- [ ] 标点: 是否有情绪变化?
-- [ ] 排版: 单句成段是否30-50%?
-- [ ] 具象: 关键情节是否具体?
-
-#### Level 3: 整体自检(每章)
-- [ ] 四层策略是否都应用了?
-- [ ] 是否有"AI味"的段落?
-- [ ] 节奏是否有变化?(快慢)
-- [ ] 信息密度是否失衡?(重点vs过渡)
-
-### 快速诊断法
-
-**如果你的文字满足以下任意3条,可能有AI味**:
-1. ⚠️ 时间/人物/数量多为模糊表达
-2. ⚠️ 标点规整,无连续标点
-3. ⚠️ 段落长度差异<30%
-4. ⚠️ 单句成段<20%
-5. ⚠️ 无口语化表达
-6. ⚠️ 比喻用"仿佛"、"宛如"
-7. ⚠️ 有"弥漫"、"唯一的"等AI高频词
-
----
-
-## 快速参考卡
-
+**Example**:
 ```
-🎯 四层策略速查
+"Boom!"
 
-Layer 1: 文风模仿
-├─ 选定标杆作品
-├─ 提取四维特征(文字/标点/排版/表达)
-└─ `/write` 时自动参考
+A palm struck out, spiritual energy exploding!
 
-Layer 2: 具象注入
-├─ 识别抽象(时间/人物/数量/场景)
-├─ 应用公式快速替换
-└─ WebSearch 补充真实细节
+Li Xun's face changed drastically: "Foundation Establishment stage?? Weren't you at the ninth level of Qi Refining?!"
 
-Layer 3: 标点叛逆
-├─ 情绪决定标点
-├─ 多样性混用(省略号/感叹号/问号)
-└─ 打破完美(故意"错误")
+"Not anymore."
 
-Layer 4: 结构失衡
-├─ 长度失衡(短至3字,长至200字)
-├─ 密度失衡(重点密集,过渡简略)
-└─ 思维跳跃(突然想起/绕圈回来)
+Three years of seclusion, one hundred and fifty Foundation Establishment pills, he had finally broken through!
 
-⭐ 关键指标
-- 单句成段: 30-50%
-- 具象化率: 关键情节100%
-- 标点情绪化: 高潮必有爆发
-- 段落长度CV: >0.5
+The spiritual pressure of the early Foundation Establishment stage was suffocating Li Xun.
 
-✅ 核心原则
-- 不要完美,要真实
-- 不要均衡,要失衡
-- 不要抽象,要具体
-- 不要规整,要个性
+"Impossible!!! How could you...!"
+
+Too late.
+
+The second palm had already arrived.
 ```
 
 ---
 
-*本指南融合多年实战经验,持续更新优化*
-*版本: v1.0.0*
-*最后更新: 2025-10*
+## Advanced Self-Check System
+
+### Three-Level Self-Check Method
+
+#### Level 1: Basic Self-Check (Per Paragraph)
+- [ ] Are there abstract times/characters/quantities?
+- [ ] Is the punctuation too neat?
+- [ ] Is the paragraph length too uniform?
+
+#### Level 2: Dimensional Self-Check (Per Section)
+- [ ] Text: Does it match the benchmark style?
+- [ ] Punctuation: Are there emotional changes?
+- [ ] Layout: Are 30-50% of paragraphs single sentences?
+- [ ] Concretization: Are key plots concrete?
+
+#### Level 3: Overall Self-Check (Per Chapter)
+- [ ] Have all four layers of the strategy been applied?
+- [ ] Are there any "AI-flavored" paragraphs?
+- [ ] Is there a change in pacing (fast/slow)?
+- [ ] Is the information density imbalanced (key vs. transition)?
+
+### Quick Diagnosis Method
+
+**If your text meets any 3 of the following, it may have AI flavor**:
+1. ⚠️ Vague expressions for time/characters/quantities are common.
+2. ⚠️ Punctuation is neat, no consecutive punctuation marks.
+3. ⚠️ Paragraph length difference is <30%.
+4. ⚠️ Single-sentence paragraphs are <20%.
+5. ⚠️ No colloquial expressions.
+6. ⚠️ Similes use "as if," "like."
+7. ⚠️ Contains AI high-frequency words like "pervade," "unique."
+
+---
+
+## Quick Reference Card
+
+```
+🎯 Four-Layer Strategy Quick Check
+
+Layer 1: Writing Style Imitation
+├─ Select a benchmark work
+├─ Extract four-dimensional features (text/punctuation/layout/expression)
+└─ `/write` automatically references
+
+Layer 2: Concrete Injection
+├─ Identify abstractions (time/character/quantity/scene)
+├─ Apply formulas for quick replacement
+└─ WebSearch to supplement real details
+
+Layer 3: Punctuation Rebellion
+├─ Emotion determines punctuation
+├─ Diverse mixing (ellipsis/exclamation mark/question mark)
+└─ Break perfection (intentional "mistakes")
+
+Layer 4: Structural Imbalance
+├─ Length imbalance (as short as 3 words, as long as 200 words)
+├─ Density imbalance (dense at key points, brief in transitions)
+└─ Thought jumps (sudden recall/circling back)
+
+⭐ Key Metrics
+- Single-sentence paragraphs: 30-50%
+- Concretization rate: 100% for key plots
+- Emotional punctuation: explosive at climax
+- Paragraph length CV: >0.5
+
+✅ Core Principles
+- Don't be perfect, be authentic
+- Don't be balanced, be imbalanced
+- Don't be abstract, be concrete
+- Don't be neat, be personal
+```
+
+---
+
+*This guide incorporates years of practical experience and is continuously updated and optimized*
+*Version: v1.0.0*
+*Last Updated: 2025-10*
