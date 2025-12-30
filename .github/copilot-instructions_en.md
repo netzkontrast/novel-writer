@@ -32,7 +32,7 @@ Files to check when changes affect agent commands or templates:
 - Command formats differ per agent:
   - Markdown prompts (Claude, Cursor, opencode): `$ARGUMENTS`, `{SCRIPT}` placeholders.
   - TOML prompts (Gemini, Qwen): `{{args}}` placeholders and `prompt` keys.
-  See `other/spec-kit/AGENTS.md` for exact examples and `src/cli.ts` helpers `generateMarkdownCommand` / `generateTomlCommand`.
+See `other/spec-kit/AGENTS.md` for exact examples and `src/cli.ts` helpers `generateMarkdownCommand` / `generateTomlCommand`.
 - When adding files to `dist/` for an agent, update `scripts/*/update-agent-context.(sh|ps1)` and `.github/workflows/scripts/create-release-packages.sh` to include the agent packaging case.
 
 ## What to change when adding or updating an agent
@@ -47,7 +47,7 @@ Files to check when changes affect agent commands or templates:
 
 - To regenerate commands after editing a template: run `npm run build:commands`. If a CLI `init` cannot find `dist/<agent>`, this is usually the fix.
 - If you change how an agent is referenced, search `src/cli.ts` for the `sourceMap` and the `switch(options.ai)` branch that maps `--ai` values to directories.
-- If adding CLI detection or validation for a new agent,.md` and update the scripts `scripts/bash/update-agent-context.sh` and `scripts/powershell/update-agent-context.ps1`.
+- If adding CLI detection or validation for a new agent, follow the `requires_cli` pattern described in `other/spec-kit/AGENTS.md` and update the scripts `scripts/bash/update-agent-context.sh` and `scripts/powershell/update-agent-context.ps1`.
 
 ## Safety and style
 
