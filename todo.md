@@ -1,24 +1,24 @@
-- [x] ./templates/knowledge/character-voices.md
-- [x] ./other/wide_research_prompt_cn.md
-- [x] ./other/spec-kit.md
-- [x] ./.github/copilot-instructions.md
+- [ ] ./templates/knowledge/character-voices.md
+- [ ] ./other/wide_research_prompt_cn.md
+- [ ] ./other/spec-kit.md
+- [ ] ./.github/copilot-instructions.md
 - [x] ./CHANGELOG.md
-- [x] ./plugins/stardust-dreams/commands/stardust-use.md
-- [x] ./plugins/stardust-dreams/commands/stardust-session.md
-- [x] ./plugins/stardust-dreams/commands/stardust-list.md
-- [x] ./plugins/stardust-dreams/commands/stardust-auth.md
-- [x] ./plugins/stardust-dreams/README.md
-- [x] ./plugins/stardust-dreams/experts/stardust-guide.md
-- [x] ./plugins/shizhangyu-style/commands/shizhangyu-write.md
-- [x] ./plugins/shizhangyu-style/commands/shizhangyu-plot.md
-- [x] ./plugins/shizhangyu-style/commands/shizhangyu-style.md
-- [x] ./plugins/shizhangyu-style/commands/shizhangyu-character.md
-- [x] ./plugins/shizhangyu-style/commands/shizhangyu-foreshadow.md
-- [x] ./plugins/shizhangyu-style/memory/style-guide.md
-- [x] ./plugins/shizhangyu-style/README.md
-- [x] ./plugins/shizhangyu-style/experts/shizhangyu-master.md
-- [x] ./plugins/luyao-style/templates/scene-template.md
-- [x] ./plugins/luyao-style/templates/character-profile.md
+- [ ] ./plugins/stardust-dreams/commands/stardust-use.md
+- [ ] ./plugins/stardust-dreams/commands/stardust-session.md
+- [ ] ./plugins/stardust-dreams/commands/stardust-list.md
+- [ ] ./plugins/stardust-dreams/commands/stardust-auth.md
+- [ ] ./plugins/stardust-dreams/README.md
+- [ ] ./plugins/stardust-dreams/experts/stardust-guide.md
+- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-write.md
+- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-plot.md
+- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-style.md
+- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-character.md
+- [ ] ./plugins/shizhangyu-style/commands/shizhangyu-foreshadow.md
+- [ ] ./plugins/shizhangyu-style/memory/style-guide.md
+- [ ] ./plugins/shizhangyu-style/README.md
+- [ ] ./plugins/shizhangyu-style/experts/shizhangyu-master.md
+- [ ] ./plugins/luyao-style/templates/scene-template.md
+- [ ] ./plugins/luyao-style/templates/character-profile.md
 - [ ] ./plugins/luyao-style/templates/story-template.md
 - [ ] ./plugins/luyao-style/commands/luyao-write.md
 - [ ] ./plugins/luyao-style/commands/luyao-style.md
@@ -71,18 +71,18 @@
 - [ ] ./plugins/book-analysis/README.md
 - [ ] ./plugins/book-analysis/experts/book-analyst.md
 - [ ] ./stories/test-story/story.md
-- [ ] ./METHODOLOGY.md
-- [x] ./docs/ai-native-update.md
-- [x] ./docs/writing/practical-guide.md
-- [x] ./docs/writing/analyze-placement-rationale.md
-- [x] ./docs/ai-suggestion-prompt-for-gemini.md
-- [x] ./docs/prd/chapter/chapter-config-system.md
-- [x] ./docs/prd/chapter/tech-spec.md
-- [x] ./docs/prd/chapter/integration-plan.md
-- [x] ./docs/workflow.md
-- [x] ./docs/why-codex-not-supported.md
-- [x] ./docs/commands.md
-- [x] ./docs/quick-guide-external-ai-integration.md
+- [x] ./METHODOLOGY.md
+- [ ] ./docs/ai-native-update.md
+- [ ] ./docs/writing/practical-guide.md
+- [ ] ./docs/writing/analyze-placement-rationale.md
+- [ ] ./docs/ai-suggestion-prompt-for-gemini.md
+- [ ] ./docs/prd/chapter/chapter-config-system.md
+- [ ] ./docs/prd/chapter/tech-spec.md
+- [ ] ./docs/prd/chapter/integration-plan.md
+- [ ] ./docs/workflow.md
+- [ ] ./docs/why-codex-not-supported.md
+- [ ] ./docs/commands.md
+- [ ] ./docs/quick-guide-external-ai-integration.md
 - [ ] ./docs/README.md
 - [ ] ./docs/plugin-center-prd.md
 - [ ] ./docs/local-development.md
@@ -162,4 +162,5 @@
 - [ ] ./experts/core/world.md
 - [ ] ./experts/core/character.md
 - [ ] ./experts/core/style.md
-- [ ] ./AGENTS.md
+- [x] ./AGENTS.md
+- [x] ./README.md
