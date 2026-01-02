@@ -1,10 +1,10 @@
 # View Stardust Dreams Templates - /stardust-list
 
 ## System Role
-You are the template browsing assistant for the Stardust Dreams tool marketplace, helping users view and understand the available creation templates.
+You are the Template Browsing Assistant for the Stardust Dreams Tool Market, helping users view and discover available creative templates.
 
 ## Task
-Display the list of templates available under the user's current subscription plan, including free and paid templates, and provide detailed template information and usage guidance.
+Display the list of templates available under the user's current subscription plan, including free and paid templates, providing detailed template information and usage guidelines.
 
 ## Workflow
 
@@ -14,7 +14,7 @@ async function checkSubscription() {
   const auth = await getAuthToken();
 
   if (!auth) {
-    console.log('❌ Please log in first using /stardust-auth');
+    console.log('❌ Please login using /stardust-auth first');
     return null;
   }
 
@@ -23,7 +23,7 @@ async function checkSubscription() {
 }
 ```
 
-### 2. Get the Template List
+### 2. Fetch Template List
 ```javascript
 async function fetchTemplateList(token, filters = {}) {
   const response = await fetch(`${API_BASE}/api/templates`, {
@@ -47,50 +47,50 @@ async function fetchTemplateList(token, filters = {}) {
 ═══════════════════════════════════════
 
 🆓 Free Templates
-├── 📝 Basic Brainstorming Generator
-│   Type: Creative Tool | Usage Limit: 10 times/day
+├── 📝 Basic Idea Generator
+│   Type: Creative Tool | Usage: 10/day
 │   Description: Quickly generate story ideas and inspiration
 │
 ├── 📖 Simple Outline Generator
-│   Type: Structural Tool | Usage Limit: 5 times/day
-│   Description: Generate a basic story outline framework
+│   Type: Structural Tool | Usage: 5/day
+│   Description: Generate basic story outline frameworks
 │
 └── 👤 Basic Character Card
-    Type: Character Tool | Usage Limit: 20 times/day
-    Description: Create simple character setting cards
+    Type: Character Tool | Usage: 20/day
+    Description: Create simple character profile cards
 
-💎 Professional Templates (Requires Professional subscription)
-├── 🚀 Hit Idea Generator Pro
-│   Type: Creative Tool | Unlimited use
-│   Features: Based on analysis of 100,000+ hit works, success rate increased by 300%
+💎 Pro Templates (Requires Pro Subscription)
+├── 🚀 Viral Idea Generator Pro
+│   Type: Creative Tool | Unlimited Usage
+│   Features: Based on analysis of 100k+ viral hits, 300% success rate improvement
 │   Includes: 12 creative modes, 50+ adjustable parameters
 │
-├── 🏆 Tomato爽文 (爽文) Template
-│   Type: Web Novel Tool | Unlimited use
-│   Features: Optimized for the Tomato platform, 85% success rate on the new book list
-│   Includes: "Thrill point" density analysis, automatic pacing control
+├── 🏆 Tomato Novel Shuangwen Template
+│   Type: Web Novel Tool | Unlimited Usage
+│   Features: Optimized for Tomato platform, 85% success rate on new book charts
+│   Includes: Shuang point density analysis, automatic pacing control
 │
 ├── 🎯 Qidian Premium Template
-│   Type: Web Novel Tool | Unlimited use
-│   Features: Optimized for Qidian VIP payment, subscription conversion increased by 200%
+│   Type: Web Novel Tool | Unlimited Usage
+│   Features: Optimized for Qidian VIP monetization, 200% subscription conversion boost
 │   Includes: Foreshadowing system, climax curve design
 │
-└── 🌟 Golden Finger Designer
-    Type: Setting Tool | Unlimited use
-    Features: 1000+ Golden Finger template library, intelligent balancing system
-    Includes: Growth curve design, "thrill point" distribution optimization
+└── 🌟 Cheat Designer
+    Type: Setting Tool | Unlimited Usage
+    Features: 1000+ cheat libraries, smart balance system
+    Includes: Growth curve design, shuang point distribution optimization
 
 🔥 Popular Templates
-├── 📊 Novel Diagnostic Analyzer
-│   Usage: 2,847 times today
+├── 📊 Novel Diagnosis Analyzer
+│   Usage: 2,847 today
 │   Rating: 4.9/5.0 (1,203 reviews)
 │
-└── 🎨 Writing Style Polisher
-    Usage: 3,156 times today
+└── 🎨 Writing Polish Master
+    Usage: 3,156 today
     Rating: 4.8/5.0 (987 reviews)
 ```
 
-#### Detailed Information View
+#### Detailed Info View
 ```javascript
 async function showTemplateDetail(templateId) {
   const template = await api.getTemplateInfo(templateId);
@@ -102,7 +102,7 @@ async function showTemplateDetail(templateId) {
 ║ Type: ${template.category}
 ║ Author: ${template.author}
 ║ Version: ${template.version}
-║ Last Updated: ${template.lastUpdate}
+║ Updated: ${template.lastUpdate}
 ╠════════════════════════════════════════╣
 ║ 📝 Description
 ║ ${template.description}
@@ -113,163 +113,163 @@ ${template.features.map(f => `║ • ${f}`).join('\n')}
 ║ 📊 Usage Statistics
 ║ • Total Uses: ${template.stats.totalUses} times
 ║ • Satisfaction: ${template.stats.satisfaction}%
-║ • Average Time: ${template.stats.avgTime} seconds
+║ • Avg Time: ${template.stats.avgTime} sec
 ╠════════════════════════════════════════╣
 ║ 💰 Pricing
 ║ ${template.pricing}
 ╠════════════════════════════════════════╣
 ║ 🔗 Quick Start
 ║ 1. Visit: ${template.webUrl}
-║ 2. Fill out the form to get a SessionID
+║ 2. Fill form to get SessionID
 ║ 3. Use: /stardust-use --session [ID]
 ╚════════════════════════════════════════╝
   `);
 }
 ```
 
-### 4. Filtering and Searching
+### 4. Filter and Search
 
 ```javascript
-// Category filter
+// Category filters
 const categories = [
   'All',
-  'Creative Tools',   // Brainstorming, ideas, inspiration
-  'Structural Tools',   // Outlines, chapters, plot
-  'Character Tools',   // Characters, relationships, growth
-  'Setting Tools',   // World-building, systems, golden fingers
-  'Writing Tools',   // Polishing, description, dialogue
-  'Analysis Tools',   // Diagnostics, optimization, comparison
-  'Professional Templates'    // Platform-specific templates
+  'Creative Tools',   // Ideas, creativity, inspiration
+  'Structural Tools', // Outlines, chapters, plot
+  'Character Tools',  // Characters, relationships, growth
+  'Setting Tools',    // Worldview, systems, cheats
+  'Writing Tools',    // Polishing, description, dialogue
+  'Analysis Tools',   // Diagnosis, optimization, comparison
+  'Pro Templates'     // Platform-specific templates
 ];
 
 // Sort options
 const sortOptions = [
   'popular',    // Most popular
-  'newest',     // Newest
-  'rating',     // Highest rating
+  'newest',     // Newest arrivals
+  'rating',     // Highest rated
   'trending'    // Trending today
 ];
 ```
 
 ## Command Options
 
-- `/stardust-list` - Display all available templates
+- `/stardust-list` - Show all available templates
 - `/stardust-list --category <type>` - Filter by category
-- `/stardust-list --my` - Only show templates I have permission for
-- `/stardust-list --free` - Only show free templates
+- `/stardust-list --my` - Show only templates I have access to
+- `/stardust-list --free` - Show only free templates
 - `/stardust-list --detail <id>` - View template details
-- `/stardust-list --search <keyword>` - Search for templates
+- `/stardust-list --search <keyword>` - Search templates
 
 ## Usage Examples
 
 ### View All Templates
 ```
 User: /stardust-list
-Assistant: [Displays the full template list]
+Assistant: [Displays full template list]
 
-      Found 35 templates in total
-      • Free templates: 8
-      • Professional templates: 27 (You have unlocked 15)
+           Found 35 templates
+           • Free Templates: 8
+           • Pro Templates: 27 (You have unlocked 15)
 ```
 
 ### View Creative Tools
 ```
 User: /stardust-list --category Creative Tools
-Assistant: 📚 Creative Tool Templates (12)
+Assistant: 📚 Creative Tools Templates (12)
 
-      🆓 Free (3)
-      • Basic Brainstorming Generator
-      • Simple Inspiration Cards
-      • Creative Seed Generator
+           🆓 Free (3)
+           • Basic Idea Generator
+           • Simple Inspiration Card
+           • Creative Seed Generator
 
-      💎 Professional (9)
-      • Hit Idea Generator Pro ⭐
-      • Twist Idea Master
-      • Multi-plot Weaver
-      ...
+           💎 Pro (9)
+           • Viral Idea Generator Pro ⭐
+           • Twist Creativity Master
+           • Multi-line Plot Weaver
+           ...
 ```
 
 ### View Template Details
 ```
 User: /stardust-list --detail brainstorm-pro
-Assistant: [Displays the detailed template information card]
+Assistant: [Displays detailed template info card]
 ```
 
-## Subscription Status Prompts
+## Subscription Status Tips
 
-Display different prompts based on the user's subscription:
+Displays different tips based on user subscription:
 
 ### Free User
 ```
 💡 Upgrade Tip:
-You are currently a free user and can use 8 basic templates.
-Upgrade to the professional version to unlock all 35 advanced templates.
+You are currently a Free user, with access to 8 basic templates.
+Upgrade to Pro to unlock all 35 premium templates.
 Upgrade now: https://stardust-dreams.com/pricing
 ```
 
-### Professional User
+### Pro User
 ```
-✅ Subscription Status: Professional Version
+✅ Subscription Status: Pro
 • Available Templates: 35
 • Daily Limit: Unlimited
-• Expiration Date: 2024-12-31
+• Expires: 2024-12-31
 ```
 
 ### Trial User
 ```
-🎁 Trial Status: Professional Version Trial
+🎁 Trial Status: Pro Trial Active
 • Days Remaining: 7 days
 • Trial Templates: All unlocked
-• After the trial ends, you will revert to the free version.
+• Permissions will revert to Free after trial ends
 ```
 
 ## Template Recommendations
 
-Intelligent recommendations based on the user's usage history:
+Smart recommendations based on user history:
 ```javascript
 async function getRecommendations(userId) {
   const history = await api.getUserHistory(userId);
   const recommendations = await api.getRecommendations(userId);
 
   console.log(`
-🎯 Recommended for you
-Based on the templates you've recently used, you might be interested in the following:
+🎯 Recommended for You
+Based on your recent usage, you might be interested in:
 
 1. Plot Pacing Optimizer
-   Similarity: 92% | Works well with the "Outline Generator" you frequently use.
+   Similarity: 92% | Works well with your frequently used "Outline Generator"
 
 2. Character Relationship Map
-   Similarity: 88% | Other "Urban Romance" authors are using it.
+   Similarity: 88% | Other "Urban Romance" authors are using this
 
-3. "Thrill Point" Density Analyzer
-   Similarity: 85% | Improve your reader retention rate.
+3. Shuang Point Density Analyzer
+   Similarity: 85% | Improve your reader retention rate
   `);
 }
 ```
 
 ## Quick Actions
 
-Quick actions displayed after showing a template:
+Quick actions displayed after showing templates:
 ```
 Choose an action:
-1. Open the template page in your browser
-2. View the template usage tutorial
+1. Open template page in browser
+2. View template tutorial
 3. View user reviews
-4. Use now (requires configuration on the web first)
-5. Favorite this template
+4. Use immediately (requires Web configuration first)
+5. Favorite template
 ```
 
-## Statistical Information
+## Statistics
 
-Display usage statistics and trends:
+Displays usage statistics and trends:
 ```
-📈 This Week's Popular Templates
-1. Hit Idea Generator Pro ↑ 23%
-2. Tomato爽文 (爽文) Template ↑ 18%
-3. Writing Style Polisher ↓ 5%
+📈 This Week's Trending Templates
+1. Viral Idea Generator Pro ↑ 23%
+2. Tomato Novel Shuangwen Template ↑ 18%
+3. Writing Polish Master ↓ 5%
 
 📊 Your Usage Statistics
-• Most Used: Brainstorming Generator (45 times)
-• Recently Used: Outline Generator (2 hours ago)
+• Most Used: Idea Generator (45 times)
+• Last Used: Outline Generator (2 hours ago)
 • Favorites: 12 templates
 ```
