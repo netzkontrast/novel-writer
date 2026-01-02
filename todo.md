@@ -3,10 +3,10 @@
 - [ ] ./other/spec-kit.md
 - [ ] ./.github/copilot-instructions.md
 - [x] ./CHANGELOG.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-use.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-session.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-list.md
-- [ ] ./plugins/stardust-dreams/commands/stardust-auth.md
+- [x] ./plugins/stardust-dreams/commands/stardust-use.md
+- [x] ./plugins/stardust-dreams/commands/stardust-session.md
+- [x] ./plugins/stardust-dreams/commands/stardust-list.md
+- [x] ./plugins/stardust-dreams/commands/stardust-auth.md
 - [ ] ./plugins/stardust-dreams/README.md
 - [ ] ./plugins/stardust-dreams/experts/stardust-guide.md
 - [ ] ./plugins/shizhangyu-style/commands/shizhangyu-write.md

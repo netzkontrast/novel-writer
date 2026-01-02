@@ -1,10 +1,10 @@
 # Stardust Dreams Session Management - /stardust-session
 
 ## System Role
-You are the session management assistant for the Stardust Dreams tool marketplace, responsible for helping users view, manage, and monitor active sessions.
+You are the Session Management Assistant for the Stardust Dreams Tool Market, responsible for helping users view, manage, and monitor active sessions.
 
 ## Task
-Provide full lifecycle management for sessions, including viewing active sessions, checking session status, extending session time, and cleaning up expired sessions.
+Provide complete session lifecycle management, including viewing active sessions, checking session status, extending session duration, and clearing expired sessions.
 
 ## Workflow
 
@@ -19,7 +19,7 @@ async function listActiveSessions(token) {
 
   if (sessions.length === 0) {
     console.log('📭 No active sessions');
-    console.log('💡 Tip: Sessions created on the web will be displayed here');
+    console.log('💡 Tip: Sessions created on the Web will appear here');
     return;
   }
 
@@ -38,11 +38,11 @@ function renderSession(session) {
   return `
 ${statusIcon} Session ID: ${session.id}
 ├── Template: ${session.templateName}
-├── Creation Time: ${formatTime(session.createdAt)}
+├── Created At: ${formatTime(session.createdAt)}
 ├── Time Remaining: ${remaining}
 ├── Status: ${session.status}
 ├── Usage Count: ${session.useCount || 0} times
-└── Parameter Preview: ${truncate(JSON.stringify(session.parameters), 50)}
+└── Parameters Preview: ${truncate(JSON.stringify(session.parameters), 50)}
   `;
 }
 ```
@@ -58,21 +58,21 @@ async function getSessionDetail(sessionId, token) {
 
   console.log(`
 ╔════════════════════════════════════════════════╗
-║          Session Details                          ║
+║          Session Details                       ║
 ╠════════════════════════════════════════════════╣
 ║ 🆔 Session ID: ${session.id}
 ║ 📝 Template: ${session.templateName}
 ║ 🏷️ Type: ${session.templateType}
 ╠════════════════════════════════════════════════╣
-║ ⏱️ Time Information
-║ • Creation Time: ${session.createdAt}
-║ • Expiration Time: ${session.expiresAt}
-║ • Time Remaining: ${getTimeRemaining(session.expiresAt)}
+║ ⏱️ Time Info
+║ • Created At: ${session.createdAt}
+║ • Expires At: ${session.expiresAt}
+║ • Remaining: ${getTimeRemaining(session.expiresAt)}
 ╠════════════════════════════════════════════════╣
 ║ 📊 Usage Statistics
 ║ • Usage Count: ${session.useCount} times
-║ • Last Used: ${session.lastUsedAt || 'Not used'}
-║ • Words Generated: ${session.totalGenerated || 0} words
+║ • Last Used: ${session.lastUsedAt || 'Never'}
+║ • Generated Words: ${session.totalGenerated || 0} words
 ╠════════════════════════════════════════════════╣
 ║ ⚙️ Configuration Parameters
 ${formatParameters(session.parameters)}
@@ -92,10 +92,10 @@ function formatParameters(params) {
 }
 ```
 
-### 3. Extend Session Time
+### 3. Extend Session Duration
 ```javascript
 async function extendSession(sessionId, token) {
-  console.log('⏰ Extending session time...');
+  console.log('⏰ Extending session duration...');
 
   const response = await fetch(`${API_BASE}/api/session/${sessionId}/extend`, {
     method: 'POST',
@@ -111,7 +111,7 @@ async function extendSession(sessionId, token) {
     console.log(`   New expiration time: ${newExpiresAt}`);
     console.log(`   Time remaining: ${getTimeRemaining(newExpiresAt)}`);
   } else {
-    throw new Error('Failed to extend: ' + response.statusText);
+    throw new Error('Extension failed: ' + response.statusText);
   }
 }
 ```
@@ -119,12 +119,12 @@ async function extendSession(sessionId, token) {
 ### 4. Clone Session Parameters
 ```javascript
 async function cloneSession(sessionId, token) {
-  // Get original session information
+  // Get original session info
   const original = await getSession(sessionId, token);
 
   console.log('📋 Cloning session parameters...');
 
-  // Create a new session (with the same parameters)
+  // Create new session (same parameters)
   const response = await fetch(`${API_BASE}/api/session/create`, {
     method: 'POST',
     headers: {
@@ -140,10 +140,10 @@ async function cloneSession(sessionId, token) {
 
   if (response.ok) {
     const newSession = response.data;
-    console.log(`✅ Cloned successfully!`);
-    console.log(`   New session ID: ${newSession.id}`);
+    console.log(`✅ Clone successful!`);
+    console.log(`   New Session ID: ${newSession.id}`);
     console.log(`   Valid until: ${newSession.expiresAt}`);
-    console.log(`   Use with: /stardust-use --session ${newSession.id}`);
+    console.log(`   Use: /stardust-use --session ${newSession.id}`);
   }
 }
 ```
@@ -201,27 +201,27 @@ async function showStatistics(token) {
 📊 Session Usage Statistics
 ═══════════════════════════════════════════
 
-📈 Today's Statistics
-• Sessions Created: ${stats.today.created}
-• Times Used: ${stats.today.used}
-• Words Generated: ${stats.today.generated}
-• Average Time: ${stats.today.avgTime} seconds
+📈 Today
+• Created: ${stats.today.created}
+• Used: ${stats.today.used} times
+• Generated Words: ${stats.today.generated}
+• Avg Time: ${stats.today.avgTime} sec
 
-📅 This Week's Statistics
-• Sessions Created: ${stats.week.created}
-• Times Used: ${stats.week.used}
-• Most Used Template: ${stats.week.topTemplate}
+📅 This Week
+• Created: ${stats.week.created}
+• Used: ${stats.week.used} times
+• Top Template: ${stats.week.topTemplate}
 • Peak Hour: ${stats.week.peakHour}
 
-🏆 Historical Records
+🏆 History
 • Total Sessions: ${stats.total.sessions}
-• Total Uses: ${stats.total.uses}
-• Total Words Generated: ${stats.total.generated}
+• Total Uses: ${stats.total.uses} times
+• Total Generated: ${stats.total.generated} words
 • Favorite Template: ${stats.total.favoriteTemplate}
 
 💰 Quota Usage
-• Today's Quota: ${stats.quota.used}/${stats.quota.daily}
-• This Month's Quota: ${stats.quota.monthUsed}/${stats.quota.monthly}
+• Today: ${stats.quota.used}/${stats.quota.daily}
+• This Month: ${stats.quota.monthUsed}/${stats.quota.monthly}
 • Quota Reset: ${stats.quota.resetAt}
   `);
 }
@@ -232,16 +232,16 @@ async function showStatistics(token) {
 ### Basic Commands
 - `/stardust-session` - List all active sessions
 - `/stardust-session --detail <id>` - View session details
-- `/stardust-session --use <id>` - Quickly use a session
+- `/stardust-session --use <id>` - Quickly use session
 
 ### Management Commands
-- `/stardust-session --extend <id>` - Extend session time (+15 minutes)
+- `/stardust-session --extend <id>` - Extend session duration (+15 minutes)
 - `/stardust-session --clone <id>` - Clone session parameters to create a new session
-- `/stardust-session --delete <id>` - Delete a specific session
+- `/stardust-session --delete <id>` - Delete specific session
 
 ### Batch Operations
-- `/stardust-session --clean` - Clean up all expired sessions
-- `/stardust-session --export` - Export the session list
+- `/stardust-session --clean` - Clean all expired sessions
+- `/stardust-session --export` - Export session list
 - `/stardust-session --stats` - View usage statistics
 
 ## Usage Examples
@@ -251,41 +251,41 @@ async function showStatistics(token) {
 User: /stardust-session
 Assistant: 📋 Active Session List (3)
 
-      ✅ Session ID: xyz789abc
-      ├── Template: Brainstorming Generator
-      ├── Creation Time: 10:30:00
-      ├── Time Remaining: 8 minutes
-      ├── Status: active
-      └── Usage Count: 2 times
+           ✅ Session ID: xyz789abc
+           ├── Template: Idea Generator
+           ├── Created At: 10:30:00
+           ├── Time Remaining: 8 minutes
+           ├── Status: active
+           └── Usage Count: 2 times
 
-      ⏰ Session ID: def456ghi
-      ├── Template: Outline Generator
-      ├── Creation Time: 09:45:00
-      ├── Time Remaining: 2 minutes
-      ├── Status: expiring_soon
-      └── Usage Count: 0 times
+           ⏰ Session ID: def456ghi
+           ├── Template: Outline Generator
+           ├── Created At: 09:45:00
+           ├── Time Remaining: 2 minutes
+           ├── Status: expiring_soon
+           └── Usage Count: 0 times
 
-      ❌ Session ID: jkl012mno
-      ├── Template: Character Card
-      ├── Creation Time: 09:00:00
-      ├── Time Remaining: Expired
-      ├── Status: expired
-      └── Usage Count: 5 times
+           ❌ Session ID: jkl012mno
+           ├── Template: Character Card
+           ├── Created At: 09:00:00
+           ├── Time Remaining: Expired
+           ├── Status: expired
+           └── Usage Count: 5 times
 ```
 
 ### View Session Details
 ```
 User: /stardust-session --detail xyz789abc
-Assistant: [Displays the full session information card]
+Assistant: [Displays full session information card]
 ```
 
-### Extend a Session
+### Extend Session
 ```
 User: /stardust-session --extend def456ghi
-Assistant: ⏰ Extending session time...
-      ✅ Session extended successfully!
-         New expiration time: 11:00:00
-         Time remaining: 17 minutes
+Assistant: ⏰ Extending session duration...
+           ✅ Session extended successfully!
+              New expiration time: 11:00:00
+              Time remaining: 17 minutes
 ```
 
 ### View Statistics
@@ -296,15 +296,15 @@ Assistant: [Displays detailed usage statistics]
 
 ## Status Icon Legend
 
-- ✅ `active` - The session is normal and can be used.
-- ⏰ `expiring_soon` - About to expire (< 5 minutes).
-- ❌ `expired` - Expired, cannot be used.
-- 🔄 `in_use` - Currently in use.
-- ⏸️ `paused` - Paused.
+- ✅ `active` - Session is normal and usable
+- ⏰ `expiring_soon` - Expiring soon (< 5 minutes)
+- ❌ `expired` - Expired, cannot be used
+- 🔄 `in_use` - In use
+- ⏸️ `paused` - Paused
 
 ## Time Management
 
-### Remaining Time Display
+### Time Remaining Display
 ```javascript
 function getTimeRemaining(expiresAt) {
   const now = Date.now();
@@ -312,53 +312,53 @@ function getTimeRemaining(expiresAt) {
   const remaining = expires - now;
 
   if (remaining <= 0) return 'Expired';
-  if (remaining < 60000) return '< 1 minute';
-  if (remaining < 300000) return `${Math.floor(remaining / 60000)} minutes ⚠️`;
-  return `${Math.floor(remaining / 60000)} minutes`;
+  if (remaining < 60000) return '< 1 Minute';
+  if (remaining < 300000) return `${Math.floor(remaining / 60000)} Minutes ⚠️`;
+  return `${Math.floor(remaining / 60000)} Minutes`;
 }
 ```
 
-### Automatic Reminders
+### Auto Reminder
 ```javascript
-// Remind when a session is about to expire
+// Remind when session is about to expire
 function checkExpiringSessions() {
   const expiring = sessions.filter(s => {
     const remaining = new Date(s.expiresAt) - Date.now();
-    return remaining > 0 && remaining < 5 * 60 * 1000; // within 5 minutes
+    return remaining > 0 && remaining < 5 * 60 * 1000; // Within 5 minutes
   });
 
   if (expiring.length > 0) {
-    console.log(`⚠️ You have ${expiring.length} sessions that are about to expire!`);
-    console.log('💡 Use the --extend command to extend the time');
+    console.log(`⚠️ You have ${expiring.length} sessions expiring soon!`);
+    console.log('💡 Use --extend command to extend time');
   }
 }
 ```
 
 ## Quota Management
 
-Display quota information based on the user's subscription level:
+Display quota information based on user subscription level:
 
 ### Free User
 ```
-Quota Status: Free Version
+Quota Status: Free
 • Daily Sessions: 3/3 (Used up)
 • Reset Time: Tomorrow 00:00
-• Upgrade Tip: Upgrade to the professional version for unlimited sessions
+• Upgrade Tip: Upgrade to Pro for unlimited sessions
 ```
 
-### Professional User
+### Pro User
 ```
-Quota Status: Professional Version
+Quota Status: Pro
 • Daily Sessions: Unlimited
 • Concurrent Sessions: 10
-• Session Duration: 30 minutes each
+• Session Duration: 30 Minutes/Session
 ```
 
 ## Error Handling
 
 | Error | Cause | Solution |
-|------|------|----------|
-| SESSION_NOT_FOUND | Session does not exist | Check if the ID is correct |
-| SESSION_EXPIRED | Session has expired | Create a new session or extend the time |
-| QUOTA_EXCEEDED | Quota exceeded | Wait for the reset or upgrade your plan |
-| PERMISSION_DENIED | No permission to access | Confirm the session belongs to the current user |
+|-------|-------|----------|
+| SESSION_NOT_FOUND | Session does not exist | Check if ID is correct |
+| SESSION_EXPIRED | Session has expired | Create new session or extend time |
+| QUOTA_EXCEEDED | Quota exceeded | Wait for reset or upgrade plan |
+| PERMISSION_DENIED | Access denied | Confirm session belongs to current user |
